@@ -8,14 +8,14 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 import random
 
 
-df = pd.read_csv("/Users/rea/Documents/GitHub/LLMFromScratch/test.csv", low_memory=False)
+draft_data = pd.read_csv("test.csv", low_memory=False)
 
-print(df)
+print(draft_data)
 
-for column in df.columns:
+for column in draft_data.columns:
     print(column)
 
-cards = [column[len("pack_card_"):] for column in df.columns if column.startswith("pack_card")]
+cards = [column[len("pack_card_"):] for column in draft_data.columns if column.startswith("pack_card")]
 print(cards)
 
 n_vocab = len(cards) + 1
@@ -25,21 +25,16 @@ card_to_int = dict((c, i) for i, c in enumerate(cards))
 int_to_card = dict((i, c) for i, c in enumerate(cards))
 int_to_card[len(cards)] = "_"
 
-print(cards)
-print(card_to_int)
-print(int_to_card)
-print(card_to_int[int_to_card[22]])
-
 seq_length = 42
 dataX = []
 dataY = []
-for index, row in df.iterrows():
+for index, row in draft_data.iterrows():
     if index > 60:
         break
 
-    X = [card_to_int[column[len("pool_"):]]  for column in df.columns if column.startswith("pool_") and row[column]==1]
+    X = [card_to_int[column[len("pool_"):]]  for column in draft_data.columns if column.startswith("pool_") and row[column]==1]
     X = []
-    for column in df.columns:
+    for column in draft_data.columns:
         if column.startswith("pool_"):
               X.extend([card_to_int[column[len("pool_"):]]]*row[column])
     y = card_to_int[row["pick"]]
