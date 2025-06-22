@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import tensorflow.keras.optimizers as optimizers
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, LSTM, Embedding
 from tensorflow.keras.utils import to_categorical
@@ -73,7 +74,7 @@ model = Sequential()
 model.add(Embedding(input_dim=n_vocab, output_dim=256, input_length=seq_length))
 # LSTM (Long Short-Term Memory) layer is good for sequential data.
 # It helps the model remember long-term dependencies.
-model.add(LSTM(256))
+model.add(LSTM(512))
 # Dense output layer with softmax activation for multi-class classification.
 # n_vocab is the number of possible output characters.
 model.add(Dense(n_vocab, activation='softmax'))
@@ -81,25 +82,22 @@ model.add(Dense(n_vocab, activation='softmax'))
 # Compile the model
 # loss='categorical_crossentropy' is suitable for multi-class classification
 # optimizer='adam' is a popular and effective optimizer
-model.compile(loss='categorical_crossentropy', optimizer='adam')
+fast_adam = optimizers.Adam(learning_rate=0.01)
+model.compile(loss='categorical_crossentropy', optimizer=fast_adam)
 
 # --- 3. Train the Model ---
 # epochs: number of times the model will go through the entire dataset
 # batch_size: number of samples per gradient update
 # You might need more epochs for a more complex dataset or model.
 print("\nStarting model training...")
-model.fit(X, y, epochs=50, batch_size=64, verbose=2) # verbose=2 shows one line per epoch
+model.fit(X, y, epochs=500, batch_size=64, verbose=2) # verbose=2 shows one line per epoch
 print("Model training complete.")
 
 # --- 4. Generate Text ---
-# Pick a random seed sequence from the training data to start generation
-start_index = np.random.randint(0, n_patterns-1)
-pattern = dataX[start_index]
-print(f"\nSeed for generation: \"{''.join([int_to_card[value] for value in pattern])}\"")
-
-
+#this is an empty sequence
 pattern = [len(cards)]*seq_length
-# Generate 200 characters
+
+# generate the cards
 generated_text = ""
 for i in range(seq_length):
     # Reshape the input pattern for prediction
