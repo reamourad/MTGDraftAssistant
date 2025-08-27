@@ -1,4 +1,4 @@
-# LLMFromScratch
+# MLFromScratch
 
 MTG drafter using Keras and Pandas, data for the draft picking comes from 17Lands 
 
