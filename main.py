@@ -1,5 +1,5 @@
-import DraftData as dd
-import ModelBuilder as mb
+import app.DraftData as dd
+import app.ModelBuilder as mb
 
 DATA_PATH = "test.csv"
 

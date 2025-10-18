@@ -1,0 +1,34 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# --- Virtual environments ---
+.env
+.venv/
+venv/
+env/
+
+# --- IDE / Editor files ---
+.idea/
+.vscode/
+*.iml
+
+# --- Jupyter / Notebooks ---
+.ipynb_checkpoints/
+
+# --- Data & Models ---
+app/model/
+app/sets/*/model.keras
+app/sets/*/data.csv
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Misc ---
+*.bak
+*.tmp

@@ -76,9 +76,10 @@ class ModelBuilder:
         model.fit(X, y, epochs=epochs, batch_size=64, verbose=2)  # verbose=2 shows one line per epoch
         print("Model training complete.")
         self._model = model
+        
 
     def predict(self, deck, pack):
-        #Fill with empty cars and then add what we have at the end
+        # Fill with empty cards and then add what we have at the end
         deck = [self._draft_data.empty_card]*(SEQUENCE_LENGTH-len(deck)) + deck
         x = np.reshape(deck, (1, len(deck), 1))
         prediction = self._model.predict(x, verbose=0)
@@ -87,6 +88,14 @@ class ModelBuilder:
         pack_probability = sum([prediction[0][card] for card in pack])
 
         for card in pack:
-            card_probability.append(prediction[0][card]/pack_probability)
-            print(card)
-            print(prediction[0][card]/pack_probability)
+            prob = prediction[0][card]/pack_probability if pack_probability != 0 else 0
+            card_name = self._draft_data.int_to_card[card]
+            card_probability.append({
+                "card_id": card,
+                "card_name": card_name,
+                "probability": float(prob)
+            })
+            print(card_name, prob)
+
+        # Return the same info that was printed
+        return card_probability
