@@ -22,6 +22,9 @@ class DraftData:
         self._sep_pool_token = self._card_to_int[SEP_POOL_TOKEN_NAME]
         self._sep_pack_token = self._card_to_int[SEP_PACK_TOKEN_NAME]
         self._pad_token = self._card_to_int[PAD_TOKEN_NAME]
+        
+        #takes only the pack that has the full 14 cards
+        self._full_pack_indices = self._draft_data[self._draft_data['pick_number'] == 0].index.tolist()
 
     @property
     def draft_data(self):
@@ -49,15 +52,19 @@ class DraftData:
 
     #picks a random booster within the dataset
     def boosterCreater(self):
-            index = random.randint(0, int((len(self._draft_data)/14) - 1)) * 14
-            print(index)
-            row = self._draft_data.iloc[index]
+        if not self._full_pack_indices:
+            raise ValueError("No full packs found in dataset")
+        
+        # Randomly select an index from pre-computed list
+        index = random.choice(self._full_pack_indices)
+        row = self._draft_data.iloc[index]
 
-            pack = []
-            for k, v in row.items():
-                if k.startswith("pack_card_") and v == 1:
-                    pack.append(self._card_to_int[k[len("pack_card_"):]])
-            return pack
+        pack = []
+        for k, v in row.items():
+            if k.startswith("pack_card_") and v == 1:
+                pack.append(self._card_to_int[k[len("pack_card_"):]])
+        
+        return pack
 
     @property
     def empty_card(self):
