@@ -1,15 +1,27 @@
 import pandas as pd
 import random
 
+SEP_POOL_TOKEN_NAME = "[SEP_POOL]"
+SEP_PACK_TOKEN_NAME = "[SEP_PACK]"
+PAD_TOKEN_NAME = "[PAD]"
+
 class DraftData:
+    # Define constants for special token names
+
     def __init__(self, data_path):
         self._draft_data = pd.read_csv(data_path, low_memory=False)
 
-        self._cards = [column[len("pack_card_"):] for column in self._draft_data.columns if column.startswith("pack_card")]
+        self._base_cards = [column[len("pack_card_"):] for column in self._draft_data.columns if column.startswith("pack_card")]
+        self._cards = self._base_cards + [SEP_POOL_TOKEN_NAME, SEP_PACK_TOKEN_NAME, PAD_TOKEN_NAME]
 
-        self._n_vocab = len(self._cards) + 1
+
         self._card_to_int = dict((c, i) for i, c in enumerate(self._cards))
         self._int_to_card = dict((i, c) for i, c in enumerate(self._cards))
+
+        self._n_vocab = len(self._cards) + 1
+        self._sep_pool_token = self._card_to_int[SEP_POOL_TOKEN_NAME]
+        self._sep_pack_token = self._card_to_int[SEP_PACK_TOKEN_NAME]
+        self._pad_token = self._card_to_int[PAD_TOKEN_NAME]
 
     @property
     def draft_data(self):
@@ -30,6 +42,10 @@ class DraftData:
     @property
     def cards_to_int(self):
         return self._card_to_int
+    
+    @property
+    def pad_token(self):
+        return self._pad_token
 
     #picks a random booster within the dataset
     def boosterCreater(self):

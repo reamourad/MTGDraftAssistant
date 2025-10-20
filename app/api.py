@@ -4,21 +4,29 @@ from app.DraftData import DraftData
 from app.ModelBuilder import ModelBuilder
 from tensorflow.keras.models import load_model
 import os
+from app.ModelBuilder import TransformerBlock, PositionalEmbedding 
 
 app = FastAPI(title="Lotus Draft Assistant API")
 
-DATA_PATH = "app/data/first_1000.csv"      # Update this later
+DATA_PATH = "app/data/MH3_clean.csv"      # Update this later
 MODEL_PATH = "app/model/trained_model.keras"
 
-draft_data = DraftData(DATA_PATH)
-model_builder = ModelBuilder(draft_data)
+if os.path.exists(DATA_PATH):
+    draft_data = DraftData(DATA_PATH)
+    model_builder = ModelBuilder(draft_data)
 
-# Try to load an existing model
-if os.path.exists(MODEL_PATH):
-    model_builder._model = load_model(MODEL_PATH)
-    print("Loaded existing trained model.")
+    # Try to load an existing model
+    if os.path.exists(MODEL_PATH):
+        custom_objects = {
+            'TransformerBlock': TransformerBlock,
+            'PositionalEmbedding': PositionalEmbedding
+        }
+        model_builder._model = load_model(MODEL_PATH, custom_objects=custom_objects)
+        print("Loaded existing trained model.")
+    else:
+        print("No trained model found, use /train endpoint to train one.")
 else:
-    print("No trained model found, use /train endpoint to train one.")
+    print("No draft data found, everything is broken o-o")
 
 class PredictRequest(BaseModel):
     deck: list[int]
