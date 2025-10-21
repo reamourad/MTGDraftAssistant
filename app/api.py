@@ -7,6 +7,7 @@ import os
 from app.ModelBuilder import TransformerBlock, PositionalEmbedding 
 from fastapi.middleware.cors import CORSMiddleware # Needed for the browser to allow the request
 import uvicorn
+import requests
 
 app = FastAPI(title="Lotus Draft Assistant API")
 
