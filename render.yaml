@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: lotus-draft-api
+    env: python
+    plan: free
+    region: oregon
+
+    buildCommand: pip install --no-cache-dir -r requirements.txt
+    startCommand: uvicorn api:app --host 127.0.0.1 --port 8000
+
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10
+      - key: PORT
+        value: 8000
