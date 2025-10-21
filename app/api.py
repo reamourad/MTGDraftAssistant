@@ -10,8 +10,23 @@ import uvicorn
 
 app = FastAPI(title="Lotus Draft Assistant API")
 
-DATA_PATH = "app/data/MH3_clean.csv"      # Update this later
+def ensure_file(path: str, url: str):
+    """Download a file if it does not exist locally."""
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    if not os.path.exists(path):
+        print(f"🔽 Downloading {os.path.basename(path)} from Hugging Face …")
+        with requests.get(url, stream=True) as r:
+            r.raise_for_status()
+            with open(path, "wb") as f:
+                for chunk in r.iter_content(chunk_size=1024 * 1024):
+                    f.write(chunk)
+        print(f"✅ Saved {path}")
+
+DATA_PATH  = "app/data/MH3_clean.csv"
 MODEL_PATH = "app/model/best_model.keras"
+
+DATA_URL  = "https://huggingface.co/datasets/SkyeMourad/MH3_clean"
+ensure_file(DATA_PATH, DATA_URL)
 
 origins = [
     # Allows requests from any origin (*). This is the simplest option for
@@ -70,3 +85,7 @@ def train_model(epochs: int = 3):
 def predict_next_card(req: PredictRequest):
     predictions = model_builder.predict(req.deck, req.pack)
     return {"prediction": predictions}
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app)
