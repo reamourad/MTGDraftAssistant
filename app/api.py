@@ -13,20 +13,22 @@ app = FastAPI(title="Lotus Draft Assistant API")
 
 def ensure_file(path: str, url: str):
     """Download a file if it does not exist locally."""
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    if not os.path.exists(path):
-        print(f"🔽 Downloading {os.path.basename(path)} from Hugging Face …")
+    os.makedirs(os.path.dirname(path), exist_ok=True)  # ✅ create folders if missing
+    if not os.path.exists(path):                       # ✅ skip re-downloading if already present
+        print(f"🔽 Downloading {os.path.basename(path)} …")
         with requests.get(url, stream=True) as r:
             r.raise_for_status()
             with open(path, "wb") as f:
                 for chunk in r.iter_content(chunk_size=1024 * 1024):
                     f.write(chunk)
         print(f"✅ Saved {path}")
-
+    else:
+        print(f"✅ File already exists: {path}")
+        
 DATA_PATH  = "app/data/MH3_clean.csv"
 MODEL_PATH = "app/model/best_model.keras"
 
-DATA_URL  = "https://datasets-server.huggingface.co/first-rows?dataset=SkyeMourad%2FMH3_clean&config=default&split=train"
+DATA_URL  = "https://huggingface.co/datasets/SkyeMourad/MH3_clean/resolve/main/MH3_clean.csv"
 ensure_file(DATA_PATH, DATA_URL)
 
 origins = [
