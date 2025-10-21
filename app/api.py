@@ -5,11 +5,31 @@ from app.ModelBuilder import ModelBuilder
 from tensorflow.keras.models import load_model
 import os
 from app.ModelBuilder import TransformerBlock, PositionalEmbedding 
+from fastapi.middleware.cors import CORSMiddleware # Needed for the browser to allow the request
+import uvicorn
 
 app = FastAPI(title="Lotus Draft Assistant API")
 
 DATA_PATH = "app/data/MH3_clean.csv"      # Update this later
-MODEL_PATH = "app/model/trained_model.keras"
+MODEL_PATH = "app/model/best_model.keras"
+
+origins = [
+    # Allows requests from any origin (*). This is the simplest option for
+    # local testing, but in production, you should restrict this to your
+    # known domain(s).
+    "*"
+    
+    # If your HTML page was hosted on a specific domain, you would list it here:
+    # "http://localhost:3000",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,        # The domains/origins allowed to make requests
+    allow_credentials=True,       # Allow cookies (if needed)
+    allow_methods=["*"],          # Allow all HTTP methods (GET, POST, PUT, etc.)
+    allow_headers=["*"],          # Allow all headers
+)
 
 if os.path.exists(DATA_PATH):
     draft_data = DraftData(DATA_PATH)
