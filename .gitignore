@@ -26,7 +26,6 @@ env
 # --- Data & Models ---
 app/sets/*/model.keras
 app/sets/*/data.csv
-app/data/*
 
 # --- OS files ---
 .DS_Store
