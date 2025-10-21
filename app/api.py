@@ -26,7 +26,7 @@ def ensure_file(path: str, url: str):
 DATA_PATH  = "app/data/MH3_clean.csv"
 MODEL_PATH = "app/model/best_model.keras"
 
-DATA_URL  = "https://huggingface.co/datasets/SkyeMourad/MH3_clean"
+DATA_URL  = "https://datasets-server.huggingface.co/first-rows?dataset=SkyeMourad%2FMH3_clean&config=default&split=train"
 ensure_file(DATA_PATH, DATA_URL)
 
 origins = [
