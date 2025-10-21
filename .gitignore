@@ -24,7 +24,6 @@ env
 .ipynb_checkpoints/
 
 # --- Data & Models ---
-app/model/
 app/sets/*/model.keras
 app/sets/*/data.csv
 app/data/*
