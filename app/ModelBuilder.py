@@ -236,7 +236,8 @@ class ModelBuilder:
             verbose=1
         )
         
-        # Save best model
+        # Save best model 
+        #TODO: change where the model is stored
         checkpoint = ModelCheckpoint(
             'app/model/best_model.keras',
             monitor='val_loss',

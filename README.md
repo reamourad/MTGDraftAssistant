@@ -1,33 +1,176 @@
-# MLFromScratch
+# MTG Draft Assistant
 
-AI agent to predict optimal card picks during a Magic: The Gathering (MTG) Draft based on real player data from 17Lands. Model made to follow high-skilled player choices with win rate over 60%
+AI agent to predict optimal card picks during Magic: The Gathering (MTG) drafts based on real player data from 17Lands. The model learns from high-skilled players with 60%+ win rates.
 
-MTG drafter using Keras and Pandas, data for the draft picking comes from 17Lands 
+Built with Keras, TensorFlow, and FastAPI. Training data sourced from [17Lands](https://www.17lands.com).
 
-v0: Made a simple LLM that can make a 45 card deck based on a given MTG set 
+## Version History
 
-v1: Upgraded the learning model by tweaking the value of our optimizer Adam, the size of the LSTM layer and the epochs 
+- **v3.0**: Set-centric architecture, multi-set support
+- **v2.0**: Upgraded to Transformer-based sequence model
+- **v1.5**: Added MTG drafting rules, model acts as drafter
+- **v1.0**: Optimized LSTM architecture
+- **v0.1**: Initial deck building model
 
-v1.5: Added the rules of drafting in MTG, the model now can act as an user in a drafting environment
+## Features
 
-v2: Upgraded to a Transformer-based sequence model
+- **Per-Set Models**: Train separate models for each Magic set (MH3, BLB, EOE, etc.)
+- **Transformer Architecture**: Advanced sequence model for draft pick predictions
+- **Set-Centric Organization**: All set-specific files (models, configs, icons) in one place
+- **FastAPI Backend**: RESTful API for draft assistance
 
-Download python 3.10
+## Architecture
 
-windows:
-python3.10 -m venv venv      # create virtual environment
-venv\Scripts\activate   # activate it
-pip install -r requirements.txt
+```
+MTGDraftAssistant/
+├── data/                           # Training data (gitignored)
+│   ├── MH3/
+│   │   └── game_data_public.MH3.PremierDraft.csv.gz
+│   ├── BLB/
+│   └── EOE/
+│
+├── app/
+│   ├── models/                     # Trained models (committed to git)
+│   │   ├── MH3/
+│   │   │   ├── mh3_model.keras
+│   │   │   └── config.json
+│   │   ├── BLB/
+│   │   └── EOE/
+│   ├── api.py
+│   ├── DraftData.py
+│   └── ModelBuilder.py
+│
+├── train.py                        # CLI training script
+└── requirements.txt
+```
 
-mac: 
+## Requirements
+
+- **Python 3.10** (required for TensorFlow compatibility)
+
+## Setup
+
+### 1. Create Virtual Environment
+
+**Windows:**
+```bash
+python3.10 -m venv venv
+venv\Scripts\activate
+```
+
+**Mac/Linux:**
+```bash
 python3.10 -m venv venv
 source venv/bin/activate
+```
+
+### 2. Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-Data Preparation
-The model is trained on draft data sourced from 17Lands.
+## Training a Model
 
-Download Data: Download the relevant set data in .csv.gz format from 17Lands.
+### Step 1: Download Training Data
 
-Process Data: Change the name of the .csv.gz in the script. Run the preparation script to take only 1 000 000 lines from the dataset.
-python ./app/prepare_dataset.py
+1. Go to https://www.17lands.com/public_datasets
+2. Download the Premier Draft data for your set (e.g., `game_data_public.MH3.PremierDraft.csv.gz`)
+3. Place it in the corresponding set folder:
+   ```
+   data/MH3/game_data_public.MH3.PremierDraft.csv.gz
+   ```
+4. **Keep the `.csv.gz` compressed format**, pandas reads it directly, no need to unzip!
+
+### Step 2: Train the Model
+
+```bash
+python train.py --set MH3 --epochs 10
+```
+
+The script will:
+1. Find training data in `data/MH3/*.csv.gz`
+2. Read the compressed file directly
+3. Train a Transformer model
+4. Save to `app/models/MH3/mh3_model.keras`
+
+**Training Options:**
+```bash
+# Train with custom epochs
+python train.py --set MH3 --epochs 15
+
+# Train a different set
+python train.py --set BLB --epochs 10
+
+# Process only first N rows (for testing)
+python train.py --set MH3 --limit 100000
+```
+
+## Running the API
+
+Start the FastAPI server:
+
+```bash
+uvicorn app.api:app --reload
+```
+
+The API will be available at `http://localhost:8000`
+
+Visit `http://localhost:8000/docs` for interactive API documentation.
+
+## API Endpoints
+
+### `GET /`
+Get API information and available sets.
+
+### `GET /booster?set=MH3`
+Generate a draft booster pack for a specific set.
+
+### `POST /predict`
+Get AI draft pick recommendations.
+
+**Request:**
+```json
+{
+  "deck": [45, 123, 67],
+  "pack": [12, 34, 56, 78],
+  "set": "MH3"
+}
+```
+
+**Response:**
+```json
+{
+  "prediction": [0.85, 0.12, 0.02, 0.01],
+  "set": "MH3"
+}
+```
+
+## Adding a New Set
+
+1. **Create set directory:**
+   ```bash
+   mkdir -p data/NEW_SET app/models/NEW_SET
+   ```
+
+2. **Add config:**
+   ```json
+   // app/models/NEW_SET/config.json
+   {
+     "code": "NEW_SET",
+     "name": "New Set Name"
+   }
+   ```
+
+3. **Download training data** to `data/NEW_SET/`
+
+4. **Train model:**
+   ```bash
+   python train.py --set NEW_SET
+   ```
+
+
+
+## Data Sources
+
+Training data comes from [17Lands](https://www.17lands.com/public_datasets), which collects draft logs from Magic Arena players. Data is excluded from git due to file size (stored in `data/` directory).

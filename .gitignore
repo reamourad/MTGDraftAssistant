@@ -24,8 +24,15 @@ env
 .ipynb_checkpoints/
 
 # --- Data & Models ---
-app/sets/*/model.keras
-app/sets/*/data.csv
+# Exclude CSV training data (too large for git)
+*.csv
+*.csv.gz
+data/**/*.csv
+data/**/*.csv.gz
+
+# But keep structure files
+!data/README.md
+!data/**/.gitkeep
 
 # --- OS files ---
 .DS_Store
@@ -34,5 +41,8 @@ Thumbs.db
 # --- Misc ---
 *.bak
 *.tmp
+
+.claude
+data
 
 

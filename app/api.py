@@ -16,13 +16,7 @@ DATA_PATH  = "app/data/MH3_clean.csv"
 MODEL_PATH = "app/model/best_model.keras"
 
 origins = [
-    # Allows requests from any origin (*). This is the simplest option for
-    # local testing, but in production, you should restrict this to your
-    # known domain(s).
     "*"
-    
-    # If your HTML page was hosted on a specific domain, you would list it here:
-    # "http://localhost:3000",
 ]
 
 app.add_middleware(
