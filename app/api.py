@@ -12,8 +12,8 @@ import uvicorn
 app = FastAPI(title="Lotus Draft Assistant API")
 
 
-DATA_PATH  = "app/data/MH3_clean.csv"
-MODEL_PATH = "app/model/best_model.keras"
+DATA_PATH  = "data/MH3/draft_data_public.MH3.PremierDraft.csv.gz"
+MODEL_PATH = "app/models/MH3/mh3_model.keras"
 
 origins = [
     "*"

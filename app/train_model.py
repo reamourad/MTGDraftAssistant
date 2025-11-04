@@ -2,11 +2,16 @@
 CLI script for training draft models for specific Magic sets.
 
 Usage:
-    python app/train_model.py --set MH3 --epochs 10
+    python -m app.train_model --set MH3 --epochs 10
 """
 import argparse
 import os
 import glob
+import sys
+
+# Add parent directory to path so we can import app modules
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from app.DraftData import DraftData
 from app.ModelBuilder import ModelBuilder
 from app.booster.mtgjson_fetcher import save_booster_data

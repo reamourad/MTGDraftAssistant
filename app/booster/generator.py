@@ -67,6 +67,9 @@ def build_filtered_sheets(cards: List[Dict], training_cards: Set[str]) -> Dict[s
     Returns:
         Dictionary of sheets (rarity-based and special categories)
     """
+    # Basic lands should only appear in the 'land' slot, not in rarity sheets
+    BASIC_LANDS = {'Plains', 'Island', 'Swamp', 'Mountain', 'Forest'}
+
     sheets = {
         'common': [],
         'uncommon': [],
@@ -74,6 +77,16 @@ def build_filtered_sheets(cards: List[Dict], training_cards: Set[str]) -> Dict[s
         'mythic': [],
         'land': [],
         'all': []  # Fallback for wildcards
+    }
+
+    # Track which card names we've already added to prevent duplicates
+    seen_in_sheets = {
+        'common': set(),
+        'uncommon': set(),
+        'rare': set(),
+        'mythic': set(),
+        'land': set(),
+        'all': set()
     }
 
     for card in cards:
@@ -85,16 +98,23 @@ def build_filtered_sheets(cards: List[Dict], training_cards: Set[str]) -> Dict[s
 
         rarity = card.get('rarity', 'common').lower()
         types = card.get('types', [])
+        is_basic_land = name in BASIC_LANDS
 
-        # Add to rarity sheets
-        if rarity in sheets:
+        # Add to rarity sheets (but exclude basic lands from rarity sheets)
+        # Only add if we haven't seen this card name in this sheet before
+        if rarity in sheets and not is_basic_land and name not in seen_in_sheets[rarity]:
             sheets[rarity].append(name)
+            seen_in_sheets[rarity].add(name)
 
-        # Add to special sheets
-        if 'Land' in types:
+        # Add to land sheet (including basic lands)
+        if 'Land' in types and name not in seen_in_sheets['land']:
             sheets['land'].append(name)
+            seen_in_sheets['land'].add(name)
 
-        sheets['all'].append(name)
+        # Add to 'all' sheet (but exclude basic lands to prevent them in wildcards)
+        if not is_basic_land and name not in seen_in_sheets['all']:
+            sheets['all'].append(name)
+            seen_in_sheets['all'].add(name)
 
     return sheets
 
@@ -137,6 +157,12 @@ def generate_booster(set_code: str) -> List[str]:
     # Build filtered sheets
     sheets = build_filtered_sheets(cards, training_cards)
     print(f"[BOOSTER] Sheet sizes: common={len(sheets['common'])}, uncommon={len(sheets['uncommon'])}, rare={len(sheets['rare'])}, mythic={len(sheets['mythic'])}, land={len(sheets['land'])}")
+
+    # Log basic lands check
+    basic_lands = {'Plains', 'Island', 'Swamp', 'Mountain', 'Forest'}
+    basics_in_common = sum(1 for c in sheets['common'] if c in basic_lands)
+    basics_in_land = sum(1 for c in sheets['land'] if c in basic_lands)
+    print(f"[BOOSTER] Basic lands: {basics_in_land} in land sheet, {basics_in_common} in common sheet")
 
     # Use "play" booster if available
     if 'play' not in booster_config:

@@ -9,7 +9,7 @@ class DraftData:
     # Define constants for special token names
 
     def __init__(self, data_path):
-        self._draft_data = pd.read_csv(data_path, low_memory=False)
+        self._draft_data = pd.read_csv(data_path, low_memory=False, nrows=1000000)
 
         self._base_cards = [column[len("pack_card_"):] for column in self._draft_data.columns if column.startswith("pack_card")]
         self._cards = self._base_cards + [SEP_POOL_TOKEN_NAME, SEP_PACK_TOKEN_NAME, PAD_TOKEN_NAME]
