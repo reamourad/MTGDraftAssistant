@@ -220,13 +220,14 @@ def generate_booster(set_code: str) -> List[str]:
         before_count = len(pack)
 
         # Map slot names to sheets with fallbacks
-        if 'common' in slot_lower:
-            picked = pick_unique(sheets['common'], count, picked_cards)
+        # Check uncommon BEFORE common (since "uncommon" contains "common")
+        if 'uncommon' in slot_lower or slot_lower == 'newuncommon':
+            picked = pick_unique(sheets['uncommon'], count, picked_cards)
             pack.extend(picked)
             picked_cards.update(picked)
             print(f"[BOOSTER]   {slot_name} ({count}x): {', '.join(picked) if picked else 'EMPTY'}")
-        elif 'uncommon' in slot_lower or slot_lower == 'newuncommon':
-            picked = pick_unique(sheets['uncommon'], count, picked_cards)
+        elif 'common' in slot_lower:
+            picked = pick_unique(sheets['common'], count, picked_cards)
             pack.extend(picked)
             picked_cards.update(picked)
             print(f"[BOOSTER]   {slot_name} ({count}x): {', '.join(picked) if picked else 'EMPTY'}")

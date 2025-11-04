@@ -33,6 +33,7 @@ def load_set_model(set_code: str):
 
     # Return from cache if already loaded
     if set_code in _model_cache:
+        print(f"✓ Using cached {set_code} model")
         return _model_cache[set_code], _draft_data_cache[set_code]
 
     # Find data path
@@ -136,18 +137,9 @@ def predict_next_card(req: PredictRequest):
         # Get predictions
         predictions = model_builder.predict(deck_ids, pack_ids)
 
-        # Filter out cards with extremely low probabilities (< 0.01%)
-        # This removes noise while keeping relevant options
-        filtered_predictions = [
-            p for p in predictions
-            if p['probability'] > 0.0001
-        ]
-
         return {
             "set": req.set.upper(),
-            "predictions": filtered_predictions,
-            "total_cards_in_pack": len(predictions),
-            "cards_shown": len(filtered_predictions)
+            "predictions": predictions
         }
 
     except HTTPException:
