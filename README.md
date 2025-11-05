@@ -121,10 +121,55 @@ Visit `http://localhost:8000/docs` for interactive API documentation.
 ## API Endpoints
 
 ### `GET /`
-Get API information and available sets.
+Get API information.
+
+**Response:**
+```json
+{
+  "message": "Welcome to the Lotus Draft Assistant API"
+}
+```
+
+### `GET /sets`
+Get all available sets with trained models.
+
+**Response:**
+```json
+{
+  "sets": [
+    {
+      "code": "EOE",
+      "name": "Edges of Eternities",
+      "has_model": true,
+      "has_icon": true
+    },
+    {
+      "code": "MH3",
+      "name": "Modern Horizons 3",
+      "has_model": true,
+      "has_icon": true
+    }
+  ],
+  "count": 2
+}
+```
+
+### `GET /sets/{set_code}/icon`
+Get the icon image for a specific set (e.g., `/sets/MH3/icon`).
+
+Returns a PNG image file with cache headers for optimal performance.
 
 ### `GET /booster?set=MH3`
-Generate a draft booster pack for a specific set.
+Generate a draft booster pack for a specific set using MTGJson rules.
+
+**Response:**
+```json
+{
+  "pack": ["Lightning Bolt", "Counterspell", "Giant Growth", ...],
+  "set": "MH3",
+  "count": 14
+}
+```
 
 ### `POST /predict`
 Get AI draft pick recommendations.
@@ -132,17 +177,34 @@ Get AI draft pick recommendations.
 **Request:**
 ```json
 {
-  "deck": [45, 123, 67],
-  "pack": [12, 34, 56, 78],
-  "set": "MH3"
+  "set": "MH3",
+  "deck": ["Lightning Bolt", "Counterspell"],
+  "pack": ["Giant Growth", "Shock", "Cancel", "Grizzly Bears"]
 }
 ```
 
 **Response:**
 ```json
 {
-  "prediction": [0.85, 0.12, 0.02, 0.01],
-  "set": "MH3"
+  "set": "MH3",
+  "predictions": [
+    {
+      "card": "Giant Growth",
+      "probability": 0.85
+    },
+    {
+      "card": "Shock",
+      "probability": 0.12
+    },
+    {
+      "card": "Cancel",
+      "probability": 0.02
+    },
+    {
+      "card": "Grizzly Bears",
+      "probability": 0.01
+    }
+  ]
 }
 ```
 

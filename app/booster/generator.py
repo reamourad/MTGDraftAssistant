@@ -56,16 +56,17 @@ def load_training_card_names(set_code: str) -> Set[str]:
     return card_names
 
 
-def build_filtered_sheets(cards: List[Dict], training_cards: Set[str]) -> Dict[str, List[str]]:
+def build_filtered_sheets(cards: List[Dict], training_cards: Set[str], booster_config: Dict = None) -> Dict[str, List[str]]:
     """
     Build card sheets filtered to training data cards.
 
     Args:
         cards: All cards from MTGJson
         training_cards: Card names from 17lands training data
+        booster_config: Optional booster config with weighted sheets
 
     Returns:
-        Dictionary of sheets (rarity-based and special categories)
+        Dictionary of sheets (rarity-based, weighted, and special categories)
     """
     # Basic lands should only appear in the 'land' slot, not in rarity sheets
     BASIC_LANDS = {'Plains', 'Island', 'Swamp', 'Mountain', 'Forest'}
@@ -88,6 +89,9 @@ def build_filtered_sheets(cards: List[Dict], training_cards: Set[str]) -> Dict[s
         'land': set(),
         'all': set()
     }
+
+    # Build UUID to name mapping
+    uuid_to_name = {card['uuid']: card['name'] for card in cards}
 
     for card in cards:
         name = card['name']
@@ -115,6 +119,28 @@ def build_filtered_sheets(cards: List[Dict], training_cards: Set[str]) -> Dict[s
         if not is_basic_land and name not in seen_in_sheets['all']:
             sheets['all'].append(name)
             seen_in_sheets['all'].add(name)
+
+    # Add weighted sheets from booster config if available
+    if booster_config and 'play' in booster_config:
+        play_config = booster_config['play']
+        config_sheets = play_config.get('sheets', {})
+
+        for sheet_name, sheet_data in config_sheets.items():
+            sheet_cards = sheet_data.get('cards', {})
+            weighted_cards = []
+
+            for uuid, weight in sheet_cards.items():
+                if uuid in uuid_to_name:
+                    card_name = uuid_to_name[uuid]
+                    # Filter by training cards
+                    if not training_cards or card_name in training_cards:
+                        # Add card multiple times based on weight (for weighted sampling)
+                        # Normalize weights to reasonable numbers
+                        normalized_weight = max(1, int(weight / 100000))
+                        weighted_cards.extend([card_name] * normalized_weight)
+
+            if weighted_cards:
+                sheets[sheet_name] = weighted_cards
 
     return sheets
 
@@ -154,8 +180,8 @@ def generate_booster(set_code: str) -> List[str]:
     print(f"[BOOSTER] Training cards found: {len(training_cards)}")
     print(f"[BOOSTER] Filter active: {bool(training_cards)}")
 
-    # Build filtered sheets
-    sheets = build_filtered_sheets(cards, training_cards)
+    # Build filtered sheets (including weighted sheets from booster config)
+    sheets = build_filtered_sheets(cards, training_cards, booster_config)
     print(f"[BOOSTER] Sheet sizes: common={len(sheets['common'])}, uncommon={len(sheets['uncommon'])}, rare={len(sheets['rare'])}, mythic={len(sheets['mythic'])}, land={len(sheets['land'])}")
 
     # Log basic lands check
@@ -219,9 +245,15 @@ def generate_booster(set_code: str) -> List[str]:
         slot_lower = slot_name.lower()
         before_count = len(pack)
 
+        # First try to match exact sheet name from booster config
+        if slot_name in sheets and sheets[slot_name]:
+            picked = pick_unique(sheets[slot_name], count, picked_cards)
+            pack.extend(picked)
+            picked_cards.update(picked)
+            print(f"[BOOSTER]   {slot_name} ({count}x): {', '.join(picked) if picked else 'EMPTY'}")
         # Map slot names to sheets with fallbacks
         # Check uncommon BEFORE common (since "uncommon" contains "common")
-        if 'uncommon' in slot_lower or slot_lower == 'newuncommon':
+        elif 'uncommon' in slot_lower or slot_lower == 'newuncommon':
             picked = pick_unique(sheets['uncommon'], count, picked_cards)
             pack.extend(picked)
             picked_cards.update(picked)
@@ -232,51 +264,46 @@ def generate_booster(set_code: str) -> List[str]:
             picked_cards.update(picked)
             print(f"[BOOSTER]   {slot_name} ({count}x): {', '.join(picked) if picked else 'EMPTY'}")
         elif 'rare' in slot_lower or 'mythic' in slot_lower or slot_lower == 'newraremythic':
-            # 1/8 chance for mythic, otherwise rare
-            picked = []
-            for _ in range(count):
-                # Try mythic first (1/8 chance)
-                if random.random() < 0.125 and sheets['mythic']:
-                    available_mythics = [c for c in sheets['mythic'] if c not in picked_cards]
-                    if available_mythics:
-                        card = random.choice(available_mythics)
-                        pack.append(card)
-                        picked_cards.add(card)
-                        picked.append(card + " (M)")
-                        continue
+            # Use the weighted newRareMythic sheet if available
+            if 'newRareMythic' in sheets and sheets['newRareMythic']:
+                picked = pick_unique(sheets['newRareMythic'], count, picked_cards)
+                pack.extend(picked)
+                picked_cards.update(picked)
+                print(f"[BOOSTER]   {slot_name} ({count}x): {', '.join(picked) if picked else 'EMPTY'}")
+            else:
+                # Fallback: 1/8 chance for mythic, otherwise rare
+                picked = []
+                for _ in range(count):
+                    # Try mythic first (1/8 chance)
+                    if random.random() < 0.125 and sheets['mythic']:
+                        available_mythics = [c for c in sheets['mythic'] if c not in picked_cards]
+                        if available_mythics:
+                            card = random.choice(available_mythics)
+                            pack.append(card)
+                            picked_cards.add(card)
+                            picked.append(card + " (M)")
+                            continue
 
-                # Fall back to rare
-                if sheets['rare']:
-                    available_rares = [c for c in sheets['rare'] if c not in picked_cards]
-                    if available_rares:
-                        card = random.choice(available_rares)
-                        pack.append(card)
-                        picked_cards.add(card)
-                        picked.append(card + " (R)")
-            print(f"[BOOSTER]   {slot_name} ({count}x): {', '.join(picked) if picked else 'EMPTY'}")
+                    # Fall back to rare
+                    if sheets['rare']:
+                        available_rares = [c for c in sheets['rare'] if c not in picked_cards]
+                        if available_rares:
+                            card = random.choice(available_rares)
+                            pack.append(card)
+                            picked_cards.add(card)
+                            picked.append(card + " (R)")
+                print(f"[BOOSTER]   {slot_name} ({count}x): {', '.join(picked) if picked else 'EMPTY'}")
         elif 'land' in slot_lower:
             picked = pick_unique(sheets['land'], count, picked_cards)
             pack.extend(picked)
             picked_cards.update(picked)
             print(f"[BOOSTER]   {slot_name} ({count}x): {', '.join(picked) if picked else 'EMPTY'}")
-        elif 'wildcard' in slot_lower or 'reprint' in slot_lower:
-            # Wildcard/reprint: pick from any rarity
-            picked = pick_unique(sheets['all'], count, picked_cards)
-            pack.extend(picked)
-            picked_cards.update(picked)
-            print(f"[BOOSTER]   {slot_name} ({count}x): {', '.join(picked) if picked else 'EMPTY'}")
-        elif 'foil' in slot_lower or 'showcase' in slot_lower:
-            # Foil/showcase: pick from all cards (simplified)
-            picked = pick_unique(sheets['all'], count, picked_cards)
-            pack.extend(picked)
-            picked_cards.update(picked)
-            print(f"[BOOSTER]   {slot_name} ({count}x): {', '.join(picked) if picked else 'EMPTY'}")
         else:
-            # Unknown slot: pick from all
-            picked = pick_unique(sheets['all'], count, picked_cards)
+            # Unknown slot: try to use 'all' as fallback
+            picked = pick_unique(sheets.get('all', []), count, picked_cards)
             pack.extend(picked)
             picked_cards.update(picked)
-            print(f"[BOOSTER]   {slot_name} ({count}x): {', '.join(picked) if picked else 'EMPTY'} [UNKNOWN SLOT]")
+            print(f"[BOOSTER]   {slot_name} ({count}x): {', '.join(picked) if picked else 'EMPTY'} [FALLBACK]")
 
     print(f"[BOOSTER] Total pack size: {len(pack)} cards\n")
     return pack

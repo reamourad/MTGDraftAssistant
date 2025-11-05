@@ -1,10 +1,12 @@
 from fastapi import FastAPI, Query, HTTPException
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from app.DraftData import DraftData
 from app.ModelBuilder import ModelBuilder
 from tensorflow.keras.models import load_model
 import os
 import glob
+import json
 from app.ModelBuilder import TransformerBlock, PositionalEmbedding
 from fastapi.middleware.cors import CORSMiddleware
 from app.booster.generator import generate_booster
@@ -80,6 +82,87 @@ class PredictRequest(BaseModel):
 @app.get("/")
 def root():
     return {"message": "Welcome to the Lotus Draft Assistant API"}
+
+
+@app.get("/sets")
+def get_supported_sets():
+    """
+    Get all sets that have trained models available.
+
+    Returns a list of sets with their metadata (code, name) and whether they have a model.
+    """
+    sets = []
+    models_dir = "app/models"
+
+    if not os.path.exists(models_dir):
+        raise HTTPException(status_code=500, detail="Models directory not found")
+
+    # Scan all subdirectories in models folder
+    for entry in os.listdir(models_dir):
+        set_path = os.path.join(models_dir, entry)
+
+        # Skip non-directories and README
+        if not os.path.isdir(set_path) or entry == "README.md":
+            continue
+
+        # Check if this directory has a model file
+        model_files = glob.glob(os.path.join(set_path, "*.keras"))
+        if not model_files:
+            continue
+
+        # Read config.json if available
+        config_path = os.path.join(set_path, "config.json")
+        set_info = {
+            "code": entry.upper(),
+            "name": entry.upper(),
+            "has_model": True
+        }
+
+        if os.path.exists(config_path):
+            try:
+                with open(config_path, 'r') as f:
+                    config = json.load(f)
+                    set_info["code"] = config.get("code", entry.upper())
+                    set_info["name"] = config.get("name", entry.upper())
+            except json.JSONDecodeError:
+                pass  # Use defaults if config is invalid
+
+        # Check if icon exists
+        icon_path = os.path.join(set_path, "icon.png")
+        set_info["has_icon"] = os.path.exists(icon_path)
+
+        sets.append(set_info)
+
+    # Sort by set code
+    sets.sort(key=lambda x: x["code"])
+
+    return {
+        "sets": sets,
+        "count": len(sets)
+    }
+
+
+@app.get("/sets/{set_code}/icon")
+def get_set_icon(set_code: str):
+    """
+    Get the icon image for a specific set.
+
+    Returns the icon.png file for the requested set.
+    """
+    set_code = set_code.upper()
+    icon_path = os.path.join("app/models", set_code, "icon.png")
+
+    if not os.path.exists(icon_path):
+        raise HTTPException(
+            status_code=404,
+            detail=f"Icon not found for set {set_code}"
+        )
+
+    return FileResponse(
+        icon_path,
+        media_type="image/png",
+        headers={"Cache-Control": "public, max-age=86400"}  # Cache for 1 day
+    )
 
 
 @app.get("/booster")
