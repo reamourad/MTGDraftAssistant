@@ -38,23 +38,25 @@ def load_set_model(set_code: str):
         print(f"✓ Using cached {set_code} model")
         return _model_cache[set_code], _draft_data_cache[set_code]
 
-    # Find data path
-    data_dir = f"data/{set_code}"
-    if not os.path.exists(data_dir):
-        raise HTTPException(status_code=404, detail=f"No data found for set {set_code}")
+    # Load card list from training_cards.json
+    model_dir = f"app/models/{set_code}"
+    training_cards_path = f"{model_dir}/training_cards.json"
 
-    csv_files = glob.glob(f"{data_dir}/*.csv.gz") or glob.glob(f"{data_dir}/*.csv")
-    if not csv_files:
-        raise HTTPException(status_code=404, detail=f"No training data found for set {set_code}")
+    if not os.path.exists(training_cards_path):
+        raise HTTPException(
+            status_code=404,
+            detail=f"No training_cards.json found for set {set_code}. Train the model first."
+        )
 
-    data_path = csv_files[0]
+    print(f"Loading card list for {set_code} from {training_cards_path}...")
+    with open(training_cards_path, 'r', encoding='utf-8') as f:
+        card_list = json.load(f)
 
-    # Load draft data
-    print(f"Loading draft data for {set_code} from {data_path}...")
-    draft_data = DraftData(data_path)
+    # Load draft data (lightweight mode)
+    draft_data = DraftData(card_list=card_list)
 
     # Load model
-    model_path = f"app/models/{set_code}/{set_code.lower()}_model.keras"
+    model_path = f"{model_dir}/{set_code.lower()}_model.keras"
     if not os.path.exists(model_path):
         raise HTTPException(status_code=404, detail=f"No trained model found for set {set_code}. Train with /train?set={set_code}")
 
@@ -64,7 +66,26 @@ def load_set_model(set_code: str):
         'TransformerBlock': TransformerBlock,
         'PositionalEmbedding': PositionalEmbedding
     }
-    model_builder._model = load_model(model_path, custom_objects=custom_objects)
+
+    # Try loading as .keras first, fallback to .h5 for legacy HDF5 models
+    try:
+        model_builder._model = load_model(model_path, custom_objects=custom_objects)
+    except ValueError as e:
+        if "zip file" in str(e).lower():
+            # Model is in old HDF5 format, load it as .h5
+            print(f"⚠ Legacy HDF5 model detected, using .h5 loader...")
+            import shutil
+            h5_path = model_path.replace('.keras', '.h5')
+            shutil.copy(model_path, h5_path)
+            try:
+                model_builder._model = load_model(h5_path, custom_objects=custom_objects)
+                os.remove(h5_path)
+            except Exception as h5_error:
+                if os.path.exists(h5_path):
+                    os.remove(h5_path)
+                raise h5_error
+        else:
+            raise
 
     # Cache
     _model_cache[set_code] = model_builder
