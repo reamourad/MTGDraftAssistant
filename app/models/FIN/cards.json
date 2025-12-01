@@ -1,0 +1,8378 @@
+[
+  {
+    "name": "Summon: Bahamut",
+    "uuid": "213f2ebb-965d-5c79-bb24-20edc242fb7d",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{9}"
+  },
+  {
+    "name": "Ultima, Origin of Oblivion",
+    "uuid": "cf2a028a-0bf9-5d6f-9680-fc0cbea9272e",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{5}"
+  },
+  {
+    "name": "Adelbert Steiner",
+    "uuid": "31434b11-4622-5778-9aa1-88ba62124d9b",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Aerith Gainsborough",
+    "uuid": "ef7ac1f2-76d2-599a-85b0-db3a22845073",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Aerith Rescue Mission",
+    "uuid": "c7c5f7d3-6431-5eb4-922a-61844ce9deaa",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{W}"
+  },
+  {
+    "name": "Ambrosia Whiteheart",
+    "uuid": "a111b229-8490-55b7-b3f5-4231a24f8ba8",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Ashe, Princess of Dalmasca",
+    "uuid": "89e2e9ec-89e6-5e8b-877e-7e7b4f8249d7",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Auron's Inspiration",
+    "uuid": "d8bc179a-ade6-552b-a9ce-e819b7090b80",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Battle Menu",
+    "uuid": "8a20549e-dd0f-5fe8-9ac0-166f9972b17f",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Cloud, Midgar Mercenary",
+    "uuid": "1254a148-48ca-5e19-bb4f-54e7b1cba5f1",
+    "rarity": "mythic",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}{W}"
+  },
+  {
+    "name": "Cloudbound Moogle",
+    "uuid": "abfbf3fb-2496-58ec-a272-fada2180d8e3",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{W}{W}"
+  },
+  {
+    "name": "Coeurl",
+    "uuid": "e3cd871e-f82a-5797-b512-5acd3695ed64",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Crystal Fragments // Summon: Alexander",
+    "uuid": "08cc9ab4-5041-59db-894b-e364a594f500",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "Crystal Fragments // Summon: Alexander",
+    "uuid": "62f1b7c1-6c0f-570d-8ad5-a46361d38a24",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "The Crystal's Chosen",
+    "uuid": "b8306c3a-fb2d-5cb4-b6d2-8e7775cd6fb7",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{5}{W}{W}"
+  },
+  {
+    "name": "Delivery Moogle",
+    "uuid": "3d205107-3dad-568c-8c42-0110b5c4045f",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{W}"
+  },
+  {
+    "name": "Dion, Bahamut's Dominant // Bahamut, Warden of Light",
+    "uuid": "7df789e5-8790-59a9-895d-4285867de306",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{W}"
+  },
+  {
+    "name": "Dion, Bahamut's Dominant // Bahamut, Warden of Light",
+    "uuid": "55eb1f9d-a009-535c-9804-5a2ae1fa9284",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Dragoon's Lance",
+    "uuid": "86c4f507-baf5-594a-bf1c-f5edb45540f7",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Dwarven Castle Guard",
+    "uuid": "635dcc41-7fa1-5a53-b048-c6b4b24980d0",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Fate of the Sun-Cryst",
+    "uuid": "d3f36250-1335-51b0-8030-34757bea76a8",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{4}{W}"
+  },
+  {
+    "name": "From Father to Son",
+    "uuid": "6374fb9c-3f47-51b3-b397-c657c7b2cbb5",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "G'raha Tia",
+    "uuid": "2c74623e-c14a-59cc-bfab-0a7a9bd5f829",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{W}"
+  },
+  {
+    "name": "Gaelicat",
+    "uuid": "9bfbeba4-b68f-5a0d-8d30-34abbc2ac933",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Machinist's Arsenal",
+    "uuid": "835f5e3a-3d72-5e3b-b986-7dad1447554b",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{4}{W}"
+  },
+  {
+    "name": "Magitek Armor",
+    "uuid": "3cc4c3bc-76b5-5e85-af17-b2de2d0fc183",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{3}{W}"
+  },
+  {
+    "name": "Magitek Infantry",
+    "uuid": "481d10bf-1a5e-5b1f-a6ac-0e98f86e80a0",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "Minwu, White Mage",
+    "uuid": "a78d69c5-9076-5499-aac6-1173b54410d9",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{W}{W}"
+  },
+  {
+    "name": "Moogles' Valor",
+    "uuid": "fc6c017d-b45d-53e5-9c44-335d02050f1b",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{3}{W}{W}"
+  },
+  {
+    "name": "Paladin's Arms",
+    "uuid": "329c1b67-311c-59c3-be91-7a8202e3895c",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Phoenix Down",
+    "uuid": "0c4c27f5-7741-59f9-b517-aed89ee7bc2d",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "Restoration Magic",
+    "uuid": "a971ff07-6137-5e27-8175-8b51feac7aa1",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "Sidequest: Catch a Fish // Cooking Campsite",
+    "uuid": "7588a46b-5a01-51f4-bdc7-136197769207",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Sidequest: Catch a Fish // Cooking Campsite",
+    "uuid": "266d2457-443b-52a5-b26e-c7955a4eee6c",
+    "rarity": "uncommon",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Slash of Light",
+    "uuid": "8f320631-9d6f-5cc7-9d34-f39e7160c06e",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Snow Villiers",
+    "uuid": "dbd48822-e18f-5cd3-a846-89864d11baed",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Stiltzkin, Moogle Merchant",
+    "uuid": "07471996-5e7b-5553-ae69-68331b8175f5",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "Summon: Choco/Mog",
+    "uuid": "d815aeeb-e320-55d9-8b47-0c7563bbd0f5",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Summon: Knights of Round",
+    "uuid": "bb2ddf9b-8a36-5d66-8bf9-b02ee3222c24",
+    "rarity": "mythic",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{6}{W}{W}"
+  },
+  {
+    "name": "Summon: Primal Garuda",
+    "uuid": "6078fa73-42cd-54d5-82ac-85d95cadfc28",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{3}{W}"
+  },
+  {
+    "name": "Ultima",
+    "uuid": "959a2d46-35bf-5951-9252-dc2716968c0f",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{W}{W}"
+  },
+  {
+    "name": "Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal",
+    "uuid": "3bdaf96d-80f2-5ce6-8d37-ebd3aa34327d",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}{W}"
+  },
+  {
+    "name": "Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal",
+    "uuid": "eed83b66-12eb-530d-bcd4-a561f90a3dec",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Weapons Vendor",
+    "uuid": "faa2c388-addc-5cc6-b5b4-6308e17e5b45",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{W}"
+  },
+  {
+    "name": "White Auracite",
+    "uuid": "2b71653a-860b-55c1-b96d-e64c8cddd68b",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{W}{W}"
+  },
+  {
+    "name": "White Mage's Staff",
+    "uuid": "706c9748-36d6-572e-bc90-f70da9e93dab",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "The Wind Crystal",
+    "uuid": "e144f07b-bce2-51ee-935a-ec7e58dfe927",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{W}{W}"
+  },
+  {
+    "name": "You're Not Alone",
+    "uuid": "39cebd6c-194f-577c-8825-016202a1f769",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "Zack Fair",
+    "uuid": "0da8d444-b384-5689-868c-3a1cf52d907e",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "Astrologian's Planisphere",
+    "uuid": "234749c9-6a84-5945-a105-497684435421",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "Cargo Ship",
+    "uuid": "978f026e-d15c-59fc-a297-f70308f1dc5c",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "Combat Tutorial",
+    "uuid": "a5ff0bb9-3021-5a1b-bde7-c0c3c3440a01",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Dragoon's Wyvern",
+    "uuid": "0d0d03df-7a3b-58f9-a63c-98223460fc82",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Dreams of Laguna",
+    "uuid": "254c6da9-b86f-5aef-91ae-01832c776697",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "Edgar, King of Figaro",
+    "uuid": "1eadf625-88a3-57a2-bbcb-38960050bd15",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{U}{U}"
+  },
+  {
+    "name": "Eject",
+    "uuid": "ea348b24-09f5-5b2c-b7a8-715633472f1e",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{3}{U}"
+  },
+  {
+    "name": "Ether",
+    "uuid": "5c025d28-fa80-5c5e-8236-e4c0584f7be0",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{3}{U}"
+  },
+  {
+    "name": "Gogo, Master of Mimicry",
+    "uuid": "0cfeb956-4230-5700-a6dc-73401dbb962b",
+    "rarity": "mythic",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Ice Flan",
+    "uuid": "27f64fe6-ce19-558f-be0f-40aa0d47d4c4",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{U}{U}"
+  },
+  {
+    "name": "Ice Magic",
+    "uuid": "dfa4b9ce-eff1-5ec2-8db6-f746fd604228",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "Il Mheg Pixie",
+    "uuid": "a69e143d-6bf9-5d2f-a0b3-b58457a7a340",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "Jill, Shiva's Dominant // Shiva, Warden of Ice",
+    "uuid": "a9e3f597-628b-5955-b6ff-88726e12990d",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Jill, Shiva's Dominant // Shiva, Warden of Ice",
+    "uuid": "244b6a13-6ca7-5957-8e5b-e63c52f9fa72",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Louisoix's Sacrifice",
+    "uuid": "bdd341d4-b703-53e2-8237-5f35d11a0e8f",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{U}"
+  },
+  {
+    "name": "The Lunar Whale",
+    "uuid": "320f1df3-3aca-554a-8069-dc960a8db61a",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{3}{U}"
+  },
+  {
+    "name": "Magic Damper",
+    "uuid": "905dfc3d-eb0c-5ce7-867e-dba6a6b34285",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{U}"
+  },
+  {
+    "name": "Matoya, Archon Elder",
+    "uuid": "5ed38f0b-0094-5c7a-808d-c13eadb24d73",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Memories Returning",
+    "uuid": "e57c81c2-7385-534a-ad17-ee93260e926e",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{2}{U}{U}"
+  },
+  {
+    "name": "The Prima Vista",
+    "uuid": "edbb5409-cce7-5a14-99cd-0ce3ee277583",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{4}{U}"
+  },
+  {
+    "name": "Qiqirn Merchant",
+    "uuid": "4ef5706d-1ffd-58dd-9978-b483f5bbb5bb",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Quistis Trepe",
+    "uuid": "e15bb913-ad72-56c4-a15b-e00612f9b617",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Relm's Sketching",
+    "uuid": "d09dab8d-c45f-51d9-89b4-016275d12a9c",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{2}{U}{U}"
+  },
+  {
+    "name": "Retrieve the Esper",
+    "uuid": "fa1590d4-bc6b-528d-9498-5d225ae447eb",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{U}"
+  },
+  {
+    "name": "Rook Turret",
+    "uuid": "b6866064-4fec-5d63-a6de-c083ea7ad481",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "manaCost": "{3}{U}"
+  },
+  {
+    "name": "Sage's Nouliths",
+    "uuid": "cb1d950c-7830-5f9c-bb87-04c2d740f02f",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "Sahagin",
+    "uuid": "f3684cc6-62ee-5a36-9528-62cf370e346e",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "Scorpion Sentinel",
+    "uuid": "cb2932b6-efc9-5ada-99d1-d4ce50993626",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "Sidequest: Card Collection // Magicked Card",
+    "uuid": "26f46851-383f-5188-949c-9b4fd8c5d05d",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{3}{U}"
+  },
+  {
+    "name": "Sidequest: Card Collection // Magicked Card",
+    "uuid": "ad59e381-5273-56bd-98e8-a38a715275b8",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Sleep Magic",
+    "uuid": "643290ac-efd3-523b-851b-e55c322cc216",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{U}"
+  },
+  {
+    "name": "Stolen Uniform",
+    "uuid": "caee07d8-54cc-5ece-8030-7c492d5e680e",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{U}"
+  },
+  {
+    "name": "Stuck in Summoner's Sanctum",
+    "uuid": "c8533370-7274-5c28-9c07-b04ab35e963b",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Summon: Leviathan",
+    "uuid": "7668c47f-d9e0-5ba2-aa21-8ee0f415694c",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{4}{U}{U}"
+  },
+  {
+    "name": "Summon: Shiva",
+    "uuid": "0cc7cc20-8a0c-5080-b789-0cdde6a7e258",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{3}{U}{U}"
+  },
+  {
+    "name": "Swallowed by Leviathan",
+    "uuid": "f13c2df2-615b-59e1-a3de-3f9f736e34b0",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Syncopate",
+    "uuid": "ff7a2a7e-3747-5c0a-bcfe-40219819d084",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{X}{U}"
+  },
+  {
+    "name": "Thief's Knife",
+    "uuid": "bd0c1b67-1b00-504d-ba21-e95a0ba68b44",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Travel the Overworld",
+    "uuid": "f6f714c5-484c-5ccd-afdb-b3a80fc8bcc5",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{5}{U}{U}"
+  },
+  {
+    "name": "Ultros, Obnoxious Octopus",
+    "uuid": "a50185b2-7515-571f-8d2f-edb1287440f1",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "Valkyrie Aerial Unit",
+    "uuid": "1879cc77-d8d9-597b-8109-3b4cf78955c9",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "manaCost": "{5}{U}{U}"
+  },
+  {
+    "name": "The Water Crystal",
+    "uuid": "39770d42-2526-5a12-bc42-851a9f242dcd",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{U}{U}"
+  },
+  {
+    "name": "Y'shtola Rhul",
+    "uuid": "1f9e7c69-b664-512c-aae8-6440ac181a86",
+    "rarity": "mythic",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{U}{U}"
+  },
+  {
+    "name": "Ahriman",
+    "uuid": "aed2a0f7-7018-5967-9ff7-438f4b9ece0d",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Al Bhed Salvagers",
+    "uuid": "fa88fdc4-abd2-5f68-aa10-192aa2f446d4",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Ardyn, the Usurper",
+    "uuid": "6388bc12-81b9-5c0b-9b9d-ffeaaf454488",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{5}{B}{B}{B}"
+  },
+  {
+    "name": "Black Mage's Rod",
+    "uuid": "d2f916ee-8592-5273-8696-76c9a5bfccd2",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Cecil, Dark Knight // Cecil, Redeemed Paladin",
+    "uuid": "c025e71a-b1c0-573a-92df-dcf565808fef",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{B}"
+  },
+  {
+    "name": "Cecil, Dark Knight // Cecil, Redeemed Paladin",
+    "uuid": "902facf5-12c9-50d6-beb0-8d43abd3c582",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Circle of Power",
+    "uuid": "e6407a43-3948-5c9f-a39c-d187c72d6a3a",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{B}"
+  },
+  {
+    "name": "Cornered by Black Mages",
+    "uuid": "078b9db3-9bd9-5894-b2d3-fe45a5b8fba2",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{1}{B}{B}"
+  },
+  {
+    "name": "Dark Confidant",
+    "uuid": "fc50ead3-ab4c-51be-9555-542f29a2e309",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Dark Knight's Greatsword",
+    "uuid": "cc6896e6-2e62-5aa1-9c53-c362a0c6cc02",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "The Darkness Crystal",
+    "uuid": "e85d7f5a-028b-5ca0-b1a7-5bb36e0e622e",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{B}{B}"
+  },
+  {
+    "name": "Demon Wall",
+    "uuid": "9046c7d5-c8f5-5d0b-8022-623c3f6e955c",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Evil Reawakened",
+    "uuid": "a238563f-6d51-5543-ad83-7a5f6cd0f645",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{4}{B}"
+  },
+  {
+    "name": "Fang, Fearless l'Cie // Ragnarok, Divine Deliverance",
+    "uuid": "37352d29-3bab-5fef-8b0d-8cc80e5d3b2e",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Ragnarok, Divine Deliverance",
+    "uuid": "e831d957-15cf-5d61-bcd7-87d9c5c77429",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Fight On!",
+    "uuid": "b2792ec0-5059-5a7e-834b-8796e82060ae",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "The Final Days",
+    "uuid": "c8341134-643c-51b7-b90b-2923e1e16303",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{2}{B}{B}"
+  },
+  {
+    "name": "Gaius van Baelsar",
+    "uuid": "b7510e99-648b-5481-9df0-ef68bb895767",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{B}"
+  },
+  {
+    "name": "Hecteyes",
+    "uuid": "6d097b21-e531-5393-9c95-0125a32ae3d9",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Jecht, Reluctant Guardian // Braska's Final Aeon",
+    "uuid": "31e2bf20-7b45-5a02-a8c9-fc82d457761f",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{B}"
+  },
+  {
+    "name": "Jecht, Reluctant Guardian // Braska's Final Aeon",
+    "uuid": "8a85d5c2-e4c8-54ba-a364-cbfd304f2a12",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Kain, Traitorous Dragoon",
+    "uuid": "f1698657-ff1b-518e-9fda-0ae4f806b87e",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Malboro",
+    "uuid": "66fd7642-92a2-53b0-afa0-451d5ddf11c4",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{B}{B}"
+  },
+  {
+    "name": "Namazu Trader",
+    "uuid": "4e0a4790-6396-59a4-9b1f-33a0224a9a37",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{B}"
+  },
+  {
+    "name": "Ninja's Blades",
+    "uuid": "ce516ea1-5c11-5698-8fa0-ef2e7e45a780",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Overkill",
+    "uuid": "3d0c20cf-c2e8-546a-a025-6111a0ea5d0e",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Phantom Train",
+    "uuid": "342b9f7c-f620-5ca3-98be-0f89dfceaee4",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{3}{B}"
+  },
+  {
+    "name": "Poison the Waters",
+    "uuid": "5f5995d4-06ec-5e8a-af59-f091ae590986",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Qutrub Forayer",
+    "uuid": "4697e311-26a4-5cb1-931b-df81cfe83eb0",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Reno and Rude",
+    "uuid": "d777f6ea-09d0-5b79-b11c-9cd277e74446",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Resentful Revelation",
+    "uuid": "734ca265-85ba-571c-9365-501bdd47a2dc",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "uuid": "b4baf463-2edb-508e-b1a8-9de930d8049f",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "uuid": "6d108fe7-017c-55fb-aa92-755d461e8833",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Sephiroth's Intervention",
+    "uuid": "7a88c641-779e-56a3-bb91-bfca8f899e9d",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{3}{B}"
+  },
+  {
+    "name": "Shambling Cie'th",
+    "uuid": "6df410a6-9799-5a1a-950c-111e49a8dee7",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Shinra Reinforcements",
+    "uuid": "11133344-8491-546e-9c3e-c502e3a8462a",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Sidequest: Hunt the Mark // Yiazmat, Ultimate Mark",
+    "uuid": "f790e0aa-541f-5bb1-a48b-d23d181e02e6",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{3}{B}{B}"
+  },
+  {
+    "name": "Sidequest: Hunt the Mark // Yiazmat, Ultimate Mark",
+    "uuid": "a2966042-44cc-5f36-b927-018d32accf7f",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Summon: Anima",
+    "uuid": "ebe6d2dc-f8aa-52ac-9562-d4b1b96966ca",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{4}{B}{B}"
+  },
+  {
+    "name": "Summon: Primal Odin",
+    "uuid": "6f782192-f041-590a-8fb7-d5e06b503617",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{4}{B}{B}"
+  },
+  {
+    "name": "Tonberry",
+    "uuid": "2dfac2a6-15a3-5f36-9adc-eb005e756cf1",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{B}"
+  },
+  {
+    "name": "Undercity Dire Rat",
+    "uuid": "b6c7d457-2108-570a-a9a9-7a96e2a0f582",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Vayne's Treachery",
+    "uuid": "9046c1c4-8b16-539c-ba23-35023afd14d2",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Vincent Valentine // Galian Beast",
+    "uuid": "e71fd26a-4c31-5bec-aa8f-76c5ccf01c08",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{B}"
+  },
+  {
+    "name": "Vincent Valentine // Galian Beast",
+    "uuid": "989f3702-89cc-57c1-af7b-a2ca155ec6ea",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Vincent's Limit Break",
+    "uuid": "de84bef6-e786-5839-a0c3-a25691f5b6c4",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Zenos yae Galvus // Shinryu, Transcendent Rival",
+    "uuid": "88c2b6cd-b62a-5493-ab2d-17f716113210",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{B}{B}"
+  },
+  {
+    "name": "Zenos yae Galvus // Shinryu, Transcendent Rival",
+    "uuid": "738b66a0-a189-5214-be83-cb432e1af71f",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Zodiark, Umbral God",
+    "uuid": "ed1642fd-a3c0-5aa7-9946-2768ed6f86ee",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{B}{B}{B}{B}{B}"
+  },
+  {
+    "name": "Barret Wallace",
+    "uuid": "abb26854-ae71-530b-9836-80a05c396fa9",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}"
+  },
+  {
+    "name": "Blazing Bomb",
+    "uuid": "a43f24fe-3dc8-5ba5-b73f-eba82fc456f7",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{R}"
+  },
+  {
+    "name": "Call the Mountain Chocobo",
+    "uuid": "7977fd06-dc85-5521-bf53-4084e0d52e6d",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{R}"
+  },
+  {
+    "name": "Choco-Comet",
+    "uuid": "fafde436-84cc-5117-b7fc-764e4cfbfcb3",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{X}{R}{R}"
+  },
+  {
+    "name": "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",
+    "uuid": "4f229f13-824d-5140-8442-99078c40d6ab",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{R}{R}"
+  },
+  {
+    "name": "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",
+    "uuid": "b576a81f-69b1-5c28-be3c-ce78107abbfa",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Coral Sword",
+    "uuid": "c4a9a37d-b7a2-5869-a8f7-51a22cb183ac",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{R}"
+  },
+  {
+    "name": "The Fire Crystal",
+    "uuid": "d7aa9e85-1b1f-5633-b091-54f7d722615b",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{R}{R}"
+  },
+  {
+    "name": "Fire Magic",
+    "uuid": "fceb7acd-d47d-56da-8906-d25dc17f3835",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{R}"
+  },
+  {
+    "name": "Firion, Wild Rose Warrior",
+    "uuid": "88353094-cc1d-5bd8-b698-a168bdc42eec",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Freya Crescent",
+    "uuid": "c6c69e66-254f-58d6-93fc-52eeb564ac3e",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{R}"
+  },
+  {
+    "name": "Gilgamesh, Master-at-Arms",
+    "uuid": "2f6ac776-11d0-5927-bc12-5339edc0daab",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{R}{R}"
+  },
+  {
+    "name": "Haste Magic",
+    "uuid": "4eeb5793-8653-5767-8116-766a7d5615ff",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Hill Gigas",
+    "uuid": "80883b83-7ba0-59ef-973a-f7278f2ef1ac",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{R}{R}"
+  },
+  {
+    "name": "Item Shopkeep",
+    "uuid": "b99642a9-5779-504c-9ff5-879da1fa3bb6",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Laughing Mad",
+    "uuid": "314c8b9b-faad-5bcd-bf20-a357382d70e2",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Light of Judgment",
+    "uuid": "74f94d35-0d41-5855-a90b-6fa4a6cf9754",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{4}{R}"
+  },
+  {
+    "name": "Mysidian Elder",
+    "uuid": "01970d6b-0268-5da2-ab72-a3fa40b47294",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Nibelheim Aflame",
+    "uuid": "5cb1b863-60e3-517b-83d4-903ee7defaec",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{2}{R}{R}"
+  },
+  {
+    "name": "Opera Love Song",
+    "uuid": "2397e159-a406-515f-a4fc-029b254c3774",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Prompto Argentum",
+    "uuid": "c55e4176-acd7-5d1b-9ef9-301a91368b6f",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Queen Brahne",
+    "uuid": "98ba991e-3c0b-56f4-982d-365559d2b5f4",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Random Encounter",
+    "uuid": "fb4f7a0c-2da2-5276-9b15-9528a5ec6011",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{4}{R}{R}"
+  },
+  {
+    "name": "Raubahn, Bull of Ala Mhigo",
+    "uuid": "9aabe252-cb24-52ba-8423-bb778e416d2a",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Red Mage's Rapier",
+    "uuid": "e3eafb3b-f34a-574e-bb10-9a4f0cd41311",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Sabotender",
+    "uuid": "f3509f06-87bf-525a-a32a-05a26df6a983",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Samurai's Katana",
+    "uuid": "da6c6f7d-f2ae-5278-bc10-cfd37a42943d",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Sandworm",
+    "uuid": "a075e9a5-02f9-5f86-a06f-d9505856372e",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{R}"
+  },
+  {
+    "name": "Seifer Almasy",
+    "uuid": "ca51d060-008b-54e2-8545-29e409cb4462",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}"
+  },
+  {
+    "name": "Self-Destruct",
+    "uuid": "96238e50-9a29-5851-813b-17d46864d46a",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Sidequest: Play Blitzball // World Champion, Celestial Weapon",
+    "uuid": "8f7cb1bc-6d64-508d-85f2-83cda2d05fbe",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Sidequest: Play Blitzball // World Champion, Celestial Weapon",
+    "uuid": "974fa5ae-679a-5818-8108-0536e8790f16",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Sorceress's Schemes",
+    "uuid": "66933df7-6654-5c7d-b00c-2ad42cdc0811",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{R}"
+  },
+  {
+    "name": "Summon: Brynhildr",
+    "uuid": "17f85365-942c-5a74-ad09-66976d1fea4e",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Summon: Esper Ramuh",
+    "uuid": "69221228-0ccc-55a8-ba67-67778ecd8975",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{2}{R}{R}"
+  },
+  {
+    "name": "Summon: G.F. Cerberus",
+    "uuid": "61681032-9fa7-5b50-bdfc-3c9a82619cfc",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{2}{R}{R}"
+  },
+  {
+    "name": "Summon: G.F. Ifrit",
+    "uuid": "606b766d-1e3e-5d13-aebc-d627eae4ad84",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Suplex",
+    "uuid": "6b1730c6-32ef-5ad0-b9ac-2dd9e196be25",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Thunder Magic",
+    "uuid": "363fb0c7-3b7e-5068-b121-deb5fb62befa",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{R}"
+  },
+  {
+    "name": "Triple Triad",
+    "uuid": "444d9cad-2b07-5180-b4bd-28f2b03595de",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{3}{R}{R}{R}"
+  },
+  {
+    "name": "Unexpected Request",
+    "uuid": "7e42298a-9c19-58ce-b7ac-1afc01c26998",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Vaan, Street Thief",
+    "uuid": "a5dabb61-bf75-5286-a1f9-c2002c21747c",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Warrior's Sword",
+    "uuid": "36233d7b-1231-561d-9b16-0d2692e9e617",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{3}{R}"
+  },
+  {
+    "name": "Zell Dincht",
+    "uuid": "550e01bc-81be-5bcb-af22-89d9dacb7cf4",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Airship Crash",
+    "uuid": "5f919ab3-24dd-513d-8d96-49ae9b28377a",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Ancient Adamantoise",
+    "uuid": "ab6fc7f4-f4f4-56b9-8846-82a7d85b24a1",
+    "rarity": "mythic",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{5}{G}{G}{G}"
+  },
+  {
+    "name": "Balamb T-Rexaur",
+    "uuid": "a7ae809f-8405-5a3d-ae37-5d73977bca78",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{G}{G}"
+  },
+  {
+    "name": "Bard's Bow",
+    "uuid": "5beb3e7b-3708-5dee-938f-199f8889d315",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Bartz and Boko",
+    "uuid": "98404933-f349-5056-9c10-a4a4b560f8cc",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}{G}"
+  },
+  {
+    "name": "Blitzball Shot",
+    "uuid": "d71847b8-5d9d-57aa-9fe8-08f81680a8b6",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Cactuar",
+    "uuid": "2bef6ef0-ce41-5c08-bbca-fa45471eb5fb",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{G}"
+  },
+  {
+    "name": "Chocobo Kick",
+    "uuid": "b4d1c960-f52b-5bf1-a740-65e8722aa543",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Chocobo Racetrack",
+    "uuid": "90b20d31-0f8a-50f0-a04e-cadaa1c7f55f",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{3}{G}{G}"
+  },
+  {
+    "name": "Clash of the Eikons",
+    "uuid": "2f7c1401-6c55-50a4-9b35-828d7d4b4622",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{G}"
+  },
+  {
+    "name": "Coliseum Behemoth",
+    "uuid": "8183768d-2dfd-5af8-ad21-94ec497a2dbb",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{5}{G}{G}"
+  },
+  {
+    "name": "Commune with Beavers",
+    "uuid": "3b518e6e-ff18-5fc0-9048-298c0416a5bf",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{G}"
+  },
+  {
+    "name": "Diamond Weapon",
+    "uuid": "47fda5b0-165c-5a89-a668-55ca46b04a79",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "manaCost": "{7}{G}{G}"
+  },
+  {
+    "name": "The Earth Crystal",
+    "uuid": "2a346a2e-9187-50bf-a7d2-e1eeb17d785e",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{G}{G}"
+  },
+  {
+    "name": "Esper Origins // Summon: Esper Maduin",
+    "uuid": "0c5d7efd-38dd-52dc-abdc-8d653cfe8d29",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Esper Origins // Summon: Esper Maduin",
+    "uuid": "260a2049-6a47-5673-a625-1f5c51a00ab4",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Galuf's Final Act",
+    "uuid": "a9cf4986-5648-53ea-ba39-6341c65bb122",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Gigantoad",
+    "uuid": "790c4025-140a-5b15-8d04-e4105798a77d",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}"
+  },
+  {
+    "name": "Goobbue Gardener",
+    "uuid": "e9474299-0112-5e93-a632-eaec8e9cf05c",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Gran Pulse Ochu",
+    "uuid": "440ebfb7-e1d2-556a-98f1-b1f5a6bb17e3",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{G}"
+  },
+  {
+    "name": "Gysahl Greens",
+    "uuid": "11840fd7-3114-54e4-8503-1312cfbaf826",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Jumbo Cactuar",
+    "uuid": "a9c699f6-34e3-5d82-89ce-5435b0fb2236",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{5}{G}{G}"
+  },
+  {
+    "name": "Loporrit Scout",
+    "uuid": "64a9f974-dbe2-5592-b863-733532031d40",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Prishe's Wanderings",
+    "uuid": "d0d8f70f-f2c3-50d3-b96f-30c08b6c5c0c",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Quina, Qu Gourmet",
+    "uuid": "38378c25-5119-51b7-9493-1c93d00c5baf",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Reach the Horizon",
+    "uuid": "a27c5dca-048a-565d-9008-eb883ee5ead2",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{G}"
+  },
+  {
+    "name": "A Realm Reborn",
+    "uuid": "c2b9d77f-8081-59a8-bc12-18f0bc2cf5be",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{4}{G}{G}"
+  },
+  {
+    "name": "Ride the Shoopuf",
+    "uuid": "daeb69dd-1752-5d73-84f0-af491193f163",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Rydia's Return",
+    "uuid": "37b29e6b-97cc-51fe-bd06-28bb71f11f8e",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{G}{G}"
+  },
+  {
+    "name": "Sazh Katzroy",
+    "uuid": "a6082d5f-e6c2-5446-8dca-25fe3e7730b1",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}"
+  },
+  {
+    "name": "Sazh's Chocobo",
+    "uuid": "bb37f821-4cab-5f06-bd36-8dde520c626a",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{G}"
+  },
+  {
+    "name": "Sidequest: Raise a Chocobo // Black Chocobo",
+    "uuid": "6b52dfb2-ddd3-51da-a22f-047de9b92793",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Sidequest: Raise a Chocobo // Black Chocobo",
+    "uuid": "a7fb156c-3c41-5337-beaf-2c553792c156",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Summon: Fat Chocobo",
+    "uuid": "c1ff22a7-a6e1-5a8f-872c-e292e1992bf0",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{4}{G}"
+  },
+  {
+    "name": "Summon: Fenrir",
+    "uuid": "b21e91c0-40e4-50fd-afc9-4b469f0d740a",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Summon: Titan",
+    "uuid": "dcf6cff4-b425-5ba5-9eeb-a5603e9464a2",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{3}{G}{G}"
+  },
+  {
+    "name": "Summoner's Grimoire",
+    "uuid": "ad625317-23c1-50c4-8141-49bd8d5e31cc",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{3}{G}"
+  },
+  {
+    "name": "Tifa Lockhart",
+    "uuid": "8fcbdff7-e203-5af2-8a4d-2a6a34bedd71",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Tifa's Limit Break",
+    "uuid": "c2986d4d-a260-5993-ac6f-fff7217b8dfa",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{G}"
+  },
+  {
+    "name": "Torgal, A Fine Hound",
+    "uuid": "95a80572-3e4a-5cf2-aad0-0a132fcaf94c",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Town Greeter",
+    "uuid": "0359dc42-a613-5d96-a7fb-4dffaf4a6edb",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Traveling Chocobo",
+    "uuid": "1183391a-d315-5f9d-b1c6-9a23d2b25587",
+    "rarity": "mythic",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Vanille, Cheerful l'Cie // Ragnarok, Divine Deliverance",
+    "uuid": "2a5b16d1-88c5-59d5-b1fb-f077ba0d1e60",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}"
+  },
+  {
+    "name": "Absolute Virtue",
+    "uuid": "6934be2a-e00b-5874-b963-891373540bd8",
+    "rarity": "mythic",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{6}{W}{U}"
+  },
+  {
+    "name": "Balthier and Fran",
+    "uuid": "7701c9bf-d44b-5220-9c40-c3b33ec1359e",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{G}"
+  },
+  {
+    "name": "Black Waltz No. 3",
+    "uuid": "9e623375-cd1d-5a9a-aa95-eaccda1021f9",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{R}"
+  },
+  {
+    "name": "Choco, Seeker of Paradise",
+    "uuid": "9117ee67-f17e-565d-9874-f52267bbdfc3",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}{W}{U}"
+  },
+  {
+    "name": "Cid, Timeless Artificer",
+    "uuid": "4a6592e9-b1cb-529e-b4b2-0ab39f4c2913",
+    "rarity": "uncommon",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{U}"
+  },
+  {
+    "name": "Cloud of Darkness",
+    "uuid": "d2a4c7a8-3768-5069-9002-301294a0dbc6",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{G}{G}"
+  },
+  {
+    "name": "Emet-Selch, Unsundered // Hades, Sorcerer of Eld",
+    "uuid": "e18dd6a3-5204-5114-b04e-f608a4e5fa9a",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}{B}"
+  },
+  {
+    "name": "Emet-Selch, Unsundered // Hades, Sorcerer of Eld",
+    "uuid": "bb54a6db-f15e-5c32-a770-faaf2b7c4d2d",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "The Emperor of Palamecia // The Lord Master of Hell",
+    "uuid": "15858d88-b6e2-577b-a03c-5888a6c69d94",
+    "rarity": "uncommon",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{U}{R}"
+  },
+  {
+    "name": "The Emperor of Palamecia // The Lord Master of Hell",
+    "uuid": "98b96030-8849-547e-b5a2-186b92ec0e94",
+    "rarity": "uncommon",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Exdeath, Void Warlock // Neo Exdeath, Dimension's End",
+    "uuid": "9ee89e35-58e4-5535-b337-3622144b7f6a",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{B}{G}"
+  },
+  {
+    "name": "Exdeath, Void Warlock // Neo Exdeath, Dimension's End",
+    "uuid": "a12d7ce0-7f6c-5133-bf3d-f5a1a8213a36",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Garland, Knight of Cornelia // Chaos, the Endless",
+    "uuid": "c893181b-df17-58b8-809c-961361ffaa87",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{B}{R}"
+  },
+  {
+    "name": "Garland, Knight of Cornelia // Chaos, the Endless",
+    "uuid": "5dc3c312-eae3-5396-ab1c-6648752ff8b5",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Garnet, Princess of Alexandria",
+    "uuid": "a37708bd-7143-59ea-b188-2878947d50ba",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{G}{W}"
+  },
+  {
+    "name": "Giott, King of the Dwarves",
+    "uuid": "b292b845-1745-506a-b00a-913d29ffd690",
+    "rarity": "uncommon",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{R}{W}"
+  },
+  {
+    "name": "Gladiolus Amicitia",
+    "uuid": "c7e16db9-c481-5567-9373-1712b7df1e07",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{R}{G}"
+  },
+  {
+    "name": "Golbez, Crystal Collector",
+    "uuid": "f5df39d3-b69c-5b75-948d-338801fa9f45",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{U}{B}"
+  },
+  {
+    "name": "Hope Estheim",
+    "uuid": "1f6c3a08-3417-53d5-8a64-7f6e2197852f",
+    "rarity": "rare",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}{U}"
+  },
+  {
+    "name": "Ignis Scientia",
+    "uuid": "5c7e9b8d-fc7e-532c-bbdc-325754d44bd4",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}{U}"
+  },
+  {
+    "name": "Jenova, Ancient Calamity",
+    "uuid": "a16b2906-34c8-5e40-8426-aae50785f0f5",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{G}"
+  },
+  {
+    "name": "Joshua, Phoenix's Dominant // Phoenix, Warden of Fire",
+    "uuid": "e6b54206-08fa-5700-a528-3cbc39c988f1",
+    "rarity": "rare",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{W}"
+  },
+  {
+    "name": "Joshua, Phoenix's Dominant // Phoenix, Warden of Fire",
+    "uuid": "a5db0b91-a74a-5e58-b15c-1a4593dd7632",
+    "rarity": "rare",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Judge Magister Gabranth",
+    "uuid": "35150353-a70d-55cd-8827-392a671b01c7",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}{B}"
+  },
+  {
+    "name": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "uuid": "e8982ebc-6c66-5224-837e-c0ccabb75b53",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}{B}{R}"
+  },
+  {
+    "name": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "uuid": "0710dfdb-6c20-5c9f-b792-00d51743a557",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "uuid": "adca0acc-5685-5eb0-a111-9fead6f56f9b",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{R}"
+  },
+  {
+    "name": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "uuid": "7e3a362d-cb7a-5226-9268-3b0ec769e6da",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "uuid": "1dbbd9b1-ffd1-5243-8919-358a5ba1255c",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{R}"
+  },
+  {
+    "name": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "uuid": "81f28431-2ecf-53b5-9070-9ecee78dff42",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Lightning, Army of One",
+    "uuid": "38ed79f2-66bd-579b-aca2-26f315c69f2e",
+    "rarity": "mythic",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{W}"
+  },
+  {
+    "name": "Locke Cole",
+    "uuid": "11bc6d25-69d3-58f5-b4db-825b626c1ce1",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}{B}"
+  },
+  {
+    "name": "Noctis, Prince of Lucis",
+    "uuid": "17f90297-33e5-5638-ac38-92e85b25b39b",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}{U}{B}"
+  },
+  {
+    "name": "Omega, Heartless Evolution",
+    "uuid": "4572ef65-ff31-5762-9ce2-b9d6f8fe0754",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "manaCost": "{5}{G}{U}"
+  },
+  {
+    "name": "Rinoa Heartilly",
+    "uuid": "24761274-bfff-5907-9e4e-832841f44753",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}{W}"
+  },
+  {
+    "name": "Rufus Shinra",
+    "uuid": "05332bc8-6824-59d2-9df3-1d67020f5d62",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}{B}"
+  },
+  {
+    "name": "Rydia, Summoner of Mist",
+    "uuid": "32a16499-e5bd-57ad-a6c2-10d573116419",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{R}{G}"
+  },
+  {
+    "name": "Serah Farron // Crystallized Serah",
+    "uuid": "a6d9e1ab-dd3c-558e-b74c-97a8887bef4e",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}{W}"
+  },
+  {
+    "name": "Serah Farron // Crystallized Serah",
+    "uuid": "e41fdbec-e48a-56d9-86d7-a9cf9bbb947c",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Shantotto, Tactician Magician",
+    "uuid": "5000029e-bcaa-559d-a4b1-652cc11494f8",
+    "rarity": "uncommon",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}{R}"
+  },
+  {
+    "name": "Sin, Spira's Punishment",
+    "uuid": "a62de1de-0dec-5a12-bea0-f75ab5ba9d2c",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "G",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{B}{G}{U}"
+  },
+  {
+    "name": "Squall, SeeD Mercenary",
+    "uuid": "fb81101f-54ef-5f31-b5e5-3b949ebdd774",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{B}"
+  },
+  {
+    "name": "Tellah, Great Sage",
+    "uuid": "954f0986-c429-5fb4-a590-cc593e1623d4",
+    "rarity": "rare",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{U}{R}"
+  },
+  {
+    "name": "Terra, Magical Adept // Esper Terra",
+    "uuid": "e445a554-6fc2-547c-9511-2bda007a81fe",
+    "rarity": "mythic",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{G}"
+  },
+  {
+    "name": "Terra, Magical Adept // Esper Terra",
+    "uuid": "5f3452e8-b463-5b51-96da-3ee7edee3882",
+    "rarity": "mythic",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Tidus, Blitzball Star",
+    "uuid": "4bfede2a-7a02-55f0-8587-0260300a22e2",
+    "rarity": "uncommon",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}{U}"
+  },
+  {
+    "name": "Ultimecia, Time Sorceress // Ultimecia, Omnipotent",
+    "uuid": "7d822323-4794-5e72-9cc0-812a9b0839c3",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{U}{B}"
+  },
+  {
+    "name": "Ultimecia, Time Sorceress // Ultimecia, Omnipotent",
+    "uuid": "c3aff39f-05b7-54d9-be2a-2c05c48c160e",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Vivi Ornitier",
+    "uuid": "940c4310-854f-51b3-80d5-16f56431fe98",
+    "rarity": "mythic",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}{R}"
+  },
+  {
+    "name": "A-Vivi Ornitier",
+    "uuid": "44388ca5-852e-5592-b121-e509494721b1",
+    "rarity": "mythic",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}{R}"
+  },
+  {
+    "name": "The Wandering Minstrel",
+    "uuid": "d4770d8b-f5de-50d2-8062-a877bdaccc1f",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{G}{U}"
+  },
+  {
+    "name": "Yuna, Hope of Spira",
+    "uuid": "290e4bcc-2dd4-5724-8cf0-927cb3b5822d",
+    "rarity": "mythic",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}{W}"
+  },
+  {
+    "name": "Zidane, Tantalus Thief",
+    "uuid": "3d757768-5e96-5fb7-9fb4-f367584d90b2",
+    "rarity": "uncommon",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}{W}"
+  },
+  {
+    "name": "Adventurer's Airship",
+    "uuid": "053389fd-4c8e-53ae-adbb-38071b3a9789",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{3}"
+  },
+  {
+    "name": "Aettir and Priwen",
+    "uuid": "43af3c03-81f0-5448-a53b-c8795210c8e0",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{6}"
+  },
+  {
+    "name": "Blitzball",
+    "uuid": "43784939-6b37-5021-adc0-0b5e4d5fa1e8",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{3}"
+  },
+  {
+    "name": "Buster Sword",
+    "uuid": "955cce31-52f1-5f8e-9364-de6014de5f60",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{3}"
+  },
+  {
+    "name": "Elixir",
+    "uuid": "d21b0ba4-3d15-57dc-b8f8-f119cb79ccea",
+    "rarity": "uncommon",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{1}"
+  },
+  {
+    "name": "Excalibur II",
+    "uuid": "1aa841b8-eea5-5a3d-aad1-6f918be69e33",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{1}"
+  },
+  {
+    "name": "Genji Glove",
+    "uuid": "bb06f85d-810d-5df9-90cd-c0f2971e3cf9",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{5}"
+  },
+  {
+    "name": "Instant Ramen",
+    "uuid": "65d27257-800d-5591-9bb6-77ba0a456f15",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}"
+  },
+  {
+    "name": "Iron Giant",
+    "uuid": "9e5f989f-4907-5065-b5ba-dcb3044eecc1",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "manaCost": "{7}"
+  },
+  {
+    "name": "Lion Heart",
+    "uuid": "ff833866-810e-5d4c-a909-36230958f34a",
+    "rarity": "uncommon",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{4}"
+  },
+  {
+    "name": "Lunatic Pandora",
+    "uuid": "3aebac64-ef2d-5a2a-807f-a56a2dc58a78",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{1}"
+  },
+  {
+    "name": "Magic Pot",
+    "uuid": "85380bd5-178b-5117-a13b-0a33abe36784",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "manaCost": "{3}"
+  },
+  {
+    "name": "The Masamune",
+    "uuid": "055890d1-1ca8-5d81-ae86-8497f366f45b",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{3}"
+  },
+  {
+    "name": "Monk's Fist",
+    "uuid": "e25c00ce-dd8a-5401-9bd1-fa1c4ca810f9",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}"
+  },
+  {
+    "name": "PuPu UFO",
+    "uuid": "c739d942-161d-597f-b3f8-208a82eaa9ab",
+    "rarity": "uncommon",
+    "colors": [],
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "manaCost": "{2}"
+  },
+  {
+    "name": "The Regalia",
+    "uuid": "a7235ef3-6ddb-5bdf-948e-2ef04137e333",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{4}"
+  },
+  {
+    "name": "Relentless X-ATM092",
+    "uuid": "07289d70-2a6a-506f-9b85-039db3551f64",
+    "rarity": "uncommon",
+    "colors": [],
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "manaCost": "{6}"
+  },
+  {
+    "name": "Ring of the Lucii",
+    "uuid": "b99a373e-5f64-5b6b-bd67-dce0c4a583da",
+    "rarity": "uncommon",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{4}"
+  },
+  {
+    "name": "World Map",
+    "uuid": "28d844ce-bfa8-561d-8147-7eefa41b494f",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{1}"
+  },
+  {
+    "name": "Adventurer's Inn",
+    "uuid": "20302775-5991-5785-b470-5761ca37cae0",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Balamb Garden, SeeD Academy // Balamb Garden, Airborne",
+    "uuid": "3d3f6ff1-01c3-52ff-9d73-fa1bcea9b7a8",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Balamb Garden, SeeD Academy // Balamb Garden, Airborne",
+    "uuid": "1db2e017-9dc4-5d87-a480-1d3baaba3005",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Baron, Airship Kingdom",
+    "uuid": "bb82f62f-d936-5f9b-94a7-fd57920bf199",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Capital City",
+    "uuid": "a0db0557-16f4-5187-8fc6-b455cbd90a76",
+    "rarity": "uncommon",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Clive's Hideaway",
+    "uuid": "826443ee-3512-5d42-a8b1-31ac823e3e5e",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Crossroads Village",
+    "uuid": "2b32dd1f-3a1d-54f4-81f3-cd2898af3aa2",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Eden, Seat of the Sanctum",
+    "uuid": "27db49ae-0952-5ef8-9330-52b0ecb8c8c6",
+    "rarity": "uncommon",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Gohn, Town of Ruin",
+    "uuid": "78f44ffa-eb5a-5a02-80d0-ebad26dcae63",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "The Gold Saucer",
+    "uuid": "b063519d-6944-5a7c-89ee-a898b48de4eb",
+    "rarity": "uncommon",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Gongaga, Reactor Town",
+    "uuid": "da905bf3-f7a1-5f3f-a23b-aad47289ba53",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Guadosalam, Farplane Gateway",
+    "uuid": "e2b2ed27-bde2-505e-830d-2d0dc994211d",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Insomnia, Crown City",
+    "uuid": "2a0e5af8-8ed9-5a31-983c-e47be2724f98",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Ishgard, the Holy See // Faith & Grief",
+    "uuid": "5326e283-5f67-55fc-b3c6-0e26ebf323c8",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Ishgard, the Holy See // Faith & Grief",
+    "uuid": "a0d2e12a-4b04-54da-9b86-6df1d0cfe3e1",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{W}{W}"
+  },
+  {
+    "name": "Jidoor, Aristocratic Capital // Overture",
+    "uuid": "15e2c75e-749a-57a3-86e4-125dc837c9c2",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Jidoor, Aristocratic Capital // Overture",
+    "uuid": "3d2fec23-db8e-57e9-ae85-a56d560d694c",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{4}{U}{U}"
+  },
+  {
+    "name": "Lindblum, Industrial Regency // Mage Siege",
+    "uuid": "6a31f746-38f8-5a97-aff5-285d0ed8df9b",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Lindblum, Industrial Regency // Mage Siege",
+    "uuid": "49b45c30-4bf7-5e80-8949-77071fe58340",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Midgar, City of Mako // Reactor Raid",
+    "uuid": "d7929718-8a74-5fba-85bc-093f49ad6770",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Midgar, City of Mako // Reactor Raid",
+    "uuid": "942baf4e-b31d-56d5-9fec-f62da591597f",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Rabanastre, Royal City",
+    "uuid": "cccd46d4-1ac4-5107-80c3-9aa290fe6778",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Sharlayan, Nation of Scholars",
+    "uuid": "0fe3a345-5ece-53ff-823f-fbcd6865ad9f",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Starting Town",
+    "uuid": "1f31f675-27ff-507a-93e9-f8eac7196f5a",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Treno, Dark City",
+    "uuid": "b5556361-abd9-5885-85d8-db8f69848bd3",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Vector, Imperial Capital",
+    "uuid": "c2e5add4-37db-53cc-8637-08b88e9c8de0",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Windurst, Federation Center",
+    "uuid": "8847d36e-fef2-5aeb-b791-b4dbe6820105",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Zanarkand, Ancient Metropolis // Lasting Fayth",
+    "uuid": "425af320-89c9-5905-a16c-ab8dfc2c53d8",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Zanarkand, Ancient Metropolis // Lasting Fayth",
+    "uuid": "803c65f8-d100-5022-8277-1630c022ebb1",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{4}{G}{G}"
+  },
+  {
+    "name": "Plains",
+    "uuid": "138a5910-7867-57c9-8e50-d1a7f85757bb",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Plains",
+    "uuid": "920b17b6-beb9-510d-982a-01941cd2420d",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Plains",
+    "uuid": "fbf83e18-771c-5d2e-85fb-1c13b320ec05",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Island",
+    "uuid": "e35d0a99-72d7-55e2-9f93-fb4ee8c27c2e",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Island",
+    "uuid": "6fe4c114-886e-5c57-88d4-663731941dcd",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Island",
+    "uuid": "a9ab6e3a-c705-5311-b00f-4379d6b30d33",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Swamp",
+    "uuid": "92ce255e-768f-545f-a108-16d9c1d9085e",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Swamp",
+    "uuid": "b9fedbaa-d2ce-55ff-b1cf-58105e5cba08",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Swamp",
+    "uuid": "a8eced7d-46ba-5312-b5ef-c016b9f85484",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Mountain",
+    "uuid": "f92fcb2e-8b7c-5786-9091-ebea6f019aba",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Mountain",
+    "uuid": "07f3f86a-076e-51ed-9bb8-c15e8d6af817",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Mountain",
+    "uuid": "77efe8dd-3bce-54a2-b41e-6a185211b403",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Forest",
+    "uuid": "45e476cc-251f-57f2-bd54-103dd969c4e9",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Forest",
+    "uuid": "46d363ce-81d5-58a9-a997-47ebdd71f2fe",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Forest",
+    "uuid": "c2ca616f-b0b4-53ec-8ef2-8bb33e990269",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Wastes",
+    "uuid": "da896f9b-20d5-5759-8b0f-7919503fd915",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Ishgard, the Holy See // Faith & Grief",
+    "uuid": "e17fc4fd-821c-5d7e-9f7a-a1b3054679c1",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Ishgard, the Holy See // Faith & Grief",
+    "uuid": "97ccaef4-601e-59f4-b2ee-7dc0a910ddb4",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{W}{W}"
+  },
+  {
+    "name": "Jidoor, Aristocratic Capital // Overture",
+    "uuid": "b2345e93-d57a-5cc6-9408-cf95767c64c5",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Jidoor, Aristocratic Capital // Overture",
+    "uuid": "502d08c5-f047-580f-bcf5-9383cd67e30d",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{4}{U}{U}"
+  },
+  {
+    "name": "Lindblum, Industrial Regency // Mage Siege",
+    "uuid": "cae600e6-0d15-5aa5-8ac6-10cfdde489c8",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Lindblum, Industrial Regency // Mage Siege",
+    "uuid": "15ac5eff-43fd-5766-baca-3ae91d3654fd",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Midgar, City of Mako // Reactor Raid",
+    "uuid": "f6c8a213-d02c-5c1d-b8d5-6566eb731bce",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Midgar, City of Mako // Reactor Raid",
+    "uuid": "58da38c2-ad58-5cc6-8113-fa9285d1856d",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Zanarkand, Ancient Metropolis // Lasting Fayth",
+    "uuid": "3c4623da-5176-501a-b616-e36dc9d770d0",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Zanarkand, Ancient Metropolis // Lasting Fayth",
+    "uuid": "be7c3cdc-687b-5b8f-8064-205d351cdb6b",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{4}{G}{G}"
+  },
+  {
+    "name": "Ardyn, the Usurper",
+    "uuid": "974fb546-6a34-51bc-ba01-daef3b3c3bf2",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{5}{B}{B}{B}"
+  },
+  {
+    "name": "Kain, Traitorous Dragoon",
+    "uuid": "89fbefb1-e283-5b3a-aa51-9dfd9060d13c",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "uuid": "3751ebe2-eddc-5f2b-9dfe-11e4925797e7",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "uuid": "77894190-d8d5-5271-a76a-4d0b61db2c69",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",
+    "uuid": "fec0bef1-7c1f-5cea-b1f4-5d6b0adff83d",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{R}{R}"
+  },
+  {
+    "name": "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",
+    "uuid": "d031a4ed-67ee-5ec0-b40d-e9ffb42b6aed",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Balthier and Fran",
+    "uuid": "4d234a08-44c8-54dc-b4ff-1e36847a3e64",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{G}"
+  },
+  {
+    "name": "Lightning, Army of One",
+    "uuid": "fb12b778-cd4d-54b6-bba1-fd0f8b5edffe",
+    "rarity": "mythic",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{W}"
+  },
+  {
+    "name": "Vivi Ornitier",
+    "uuid": "305232d0-3a95-55dc-94f6-f4486b83331e",
+    "rarity": "mythic",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}{R}"
+  },
+  {
+    "name": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "uuid": "5fcd9a65-f6f2-5594-99e4-fc9628e147ce",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}{B}{R}"
+  },
+  {
+    "name": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "uuid": "7b0cb82e-66ff-5f92-91e1-e242a28f21f0",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Terra, Magical Adept // Esper Terra",
+    "uuid": "6972eef5-fc4c-5cb5-982f-1592ce3e91cc",
+    "rarity": "mythic",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{G}"
+  },
+  {
+    "name": "Terra, Magical Adept // Esper Terra",
+    "uuid": "9746212a-8101-51d5-91ab-c0f547006a5a",
+    "rarity": "mythic",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Ultima, Origin of Oblivion",
+    "uuid": "edf1a73d-5f05-5af7-99cc-bf27d324a1de",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{5}"
+  },
+  {
+    "name": "Ambrosia Whiteheart",
+    "uuid": "10af9a11-b805-5bb5-9cad-838b58555758",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Moogles' Valor",
+    "uuid": "db575c8d-0381-5399-b0b8-d0822cd42d98",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{3}{W}{W}"
+  },
+  {
+    "name": "Stiltzkin, Moogle Merchant",
+    "uuid": "f922c001-c392-574e-b11e-eca74a9bcf11",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "Ultima",
+    "uuid": "9e6cb522-d720-5f76-a6f9-d6c375d922b9",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{W}{W}"
+  },
+  {
+    "name": "Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal",
+    "uuid": "6e415bf2-0293-56b3-aa30-a996e8acbd67",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}{W}"
+  },
+  {
+    "name": "Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal",
+    "uuid": "c021761e-a325-5d1d-b9d2-1ecb32b8a238",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "The Wind Crystal",
+    "uuid": "0b59c387-96b4-59e1-92ab-3f31098fe049",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{W}{W}"
+  },
+  {
+    "name": "Memories Returning",
+    "uuid": "8c1990ef-c585-5b44-9814-386c42b5db98",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{2}{U}{U}"
+  },
+  {
+    "name": "Stolen Uniform",
+    "uuid": "7899f5e0-3c33-5db8-9d09-60434de3c8dd",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{U}"
+  },
+  {
+    "name": "The Water Crystal",
+    "uuid": "52a3a3f8-c1bc-5080-b767-ad129eb4a241",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{U}{U}"
+  },
+  {
+    "name": "Dark Confidant",
+    "uuid": "e79f39a2-7fd1-5915-bfc8-97f67b72ec03",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "The Darkness Crystal",
+    "uuid": "195af9d0-31d3-5a9d-9fef-e2ac95691ec7",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{B}{B}"
+  },
+  {
+    "name": "Zodiark, Umbral God",
+    "uuid": "0c360733-30eb-5f06-bd4e-f913b6d63379",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{B}{B}{B}{B}{B}"
+  },
+  {
+    "name": "The Fire Crystal",
+    "uuid": "891d4cae-e041-54a4-a979-c050fccd7edd",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{R}{R}"
+  },
+  {
+    "name": "Gilgamesh, Master-at-Arms",
+    "uuid": "3eb15ebd-e92f-5909-86f3-aaa7871b99ed",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{R}{R}"
+  },
+  {
+    "name": "Nibelheim Aflame",
+    "uuid": "c9459ace-852e-54b0-8c66-75242af6c19e",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{2}{R}{R}"
+  },
+  {
+    "name": "Triple Triad",
+    "uuid": "a076d5cf-4066-5f32-bd89-0a7437f93d3f",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{3}{R}{R}{R}"
+  },
+  {
+    "name": "Clash of the Eikons",
+    "uuid": "35b2f81e-5946-58b9-98fb-6131ab3cbe4e",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{G}"
+  },
+  {
+    "name": "The Earth Crystal",
+    "uuid": "a46b9daa-87a7-533b-91c7-c0cf166f3579",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{G}{G}"
+  },
+  {
+    "name": "Jumbo Cactuar",
+    "uuid": "dbf281d7-2cf2-5020-827a-884b39f2cb14",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{5}{G}{G}"
+  },
+  {
+    "name": "A Realm Reborn",
+    "uuid": "5bc3dc5e-9a06-5c18-aabc-4e8a0cb2cc61",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{4}{G}{G}"
+  },
+  {
+    "name": "Torgal, A Fine Hound",
+    "uuid": "a974709b-5ee8-51dd-b7fa-2a4ae876d433",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Jenova, Ancient Calamity",
+    "uuid": "8a5aaa23-fc79-503a-bd6b-a805d808c6cd",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{G}"
+  },
+  {
+    "name": "Omega, Heartless Evolution",
+    "uuid": "2139fd4a-bc28-5a0b-b666-09b4db7171d6",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "manaCost": "{5}{G}{U}"
+  },
+  {
+    "name": "Sin, Spira's Punishment",
+    "uuid": "2097852b-aaf6-5ba5-a3a7-69f569589cf5",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "G",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{B}{G}{U}"
+  },
+  {
+    "name": "Tellah, Great Sage",
+    "uuid": "230a88a6-d232-5356-8d25-1aa7fd3993d4",
+    "rarity": "rare",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{U}{R}"
+  },
+  {
+    "name": "Aettir and Priwen",
+    "uuid": "4cfc4f5e-82c2-5c57-ac0f-349e68ca9b6f",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{6}"
+  },
+  {
+    "name": "Buster Sword",
+    "uuid": "d76e4687-2626-5957-97b8-f1994428ffa9",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{3}"
+  },
+  {
+    "name": "Excalibur II",
+    "uuid": "20c55e55-eea0-5194-9796-c910f3f30b60",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{1}"
+  },
+  {
+    "name": "The Masamune",
+    "uuid": "c55f7bd5-ae9a-5685-9e54-6677ced985c2",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{3}"
+  },
+  {
+    "name": "Balamb Garden, SeeD Academy // Balamb Garden, Airborne",
+    "uuid": "35828728-6b73-5a47-8f9c-8a8b5495423f",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Balamb Garden, SeeD Academy // Balamb Garden, Airborne",
+    "uuid": "a72c4468-cbba-5b17-9985-d4196fe335be",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Eden, Seat of the Sanctum",
+    "uuid": "9289a5d1-3e70-5e3e-83fb-dae750675843",
+    "rarity": "uncommon",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Summon: Bahamut",
+    "uuid": "d053672b-9283-574f-a6d5-da12e136e528",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{9}"
+  },
+  {
+    "name": "Crystal Fragments // Summon: Alexander",
+    "uuid": "c6f17951-84f5-5b8b-8ef9-ad5df96525a1",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "Crystal Fragments // Summon: Alexander",
+    "uuid": "12908fb2-1c4a-54cc-bf93-975aeac95d02",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Summon: Choco/Mog",
+    "uuid": "2876f935-8f12-567e-a5ec-8d2f9f4fb401",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Summon: Knights of Round",
+    "uuid": "c805363c-538b-5b4f-bb21-2bd99f9ef29c",
+    "rarity": "mythic",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{6}{W}{W}"
+  },
+  {
+    "name": "Summon: Primal Garuda",
+    "uuid": "e36c8020-378e-59ef-9bb3-f59ba347df3e",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{3}{W}"
+  },
+  {
+    "name": "Summon: Leviathan",
+    "uuid": "be5dad9e-b3b5-5e45-99af-1eaaca39e763",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{4}{U}{U}"
+  },
+  {
+    "name": "Summon: Shiva",
+    "uuid": "e124bc76-947a-5600-bbc9-a5f53dc7aefe",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{3}{U}{U}"
+  },
+  {
+    "name": "Jecht, Reluctant Guardian // Braska's Final Aeon",
+    "uuid": "33a5d6c7-c0c5-5430-b0d2-4f5c28d1115b",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{B}"
+  },
+  {
+    "name": "Jecht, Reluctant Guardian // Braska's Final Aeon",
+    "uuid": "4b6a0755-3a3c-53e3-b7c9-4b77c54c85ba",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Summon: Anima",
+    "uuid": "947cbff8-758f-5cc7-a936-7235eb8d6652",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{4}{B}{B}"
+  },
+  {
+    "name": "Summon: Primal Odin",
+    "uuid": "df245ab0-6916-5b00-87e1-8dc7ef85fe13",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{4}{B}{B}"
+  },
+  {
+    "name": "Summon: Brynhildr",
+    "uuid": "7eed432c-9c61-5ef5-ba69-ab6da2408537",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Summon: Esper Ramuh",
+    "uuid": "ecb6a5d9-dc61-5a88-b7c7-d36cd995f03a",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{2}{R}{R}"
+  },
+  {
+    "name": "Summon: G.F. Cerberus",
+    "uuid": "6013027b-cd40-59f8-8f53-62bfec942ac9",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{2}{R}{R}"
+  },
+  {
+    "name": "Summon: G.F. Ifrit",
+    "uuid": "d2f80ab5-4f66-5a2a-b503-a3ac04475eb9",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Esper Origins // Summon: Esper Maduin",
+    "uuid": "2e487775-5277-5b02-ac97-54fe5751dc2e",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Esper Origins // Summon: Esper Maduin",
+    "uuid": "443238d2-bd76-5dd3-a27a-9c2de1d3188b",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Summon: Fat Chocobo",
+    "uuid": "2703d2b3-b202-5de9-a40b-f7a88c498cef",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{4}{G}"
+  },
+  {
+    "name": "Summon: Fenrir",
+    "uuid": "655a8d44-337a-5c51-a400-ebe0917e2e42",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Summon: Titan",
+    "uuid": "8da4ef21-3fe7-5932-ac02-fb5c7741b188",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": "{3}{G}{G}"
+  },
+  {
+    "name": "Aerith Gainsborough",
+    "uuid": "8de8d8d5-8e0b-55a8-af81-bb8f32a99273",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Cloud, Midgar Mercenary",
+    "uuid": "52236e62-1195-585a-8d01-a2de788632d6",
+    "rarity": "mythic",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}{W}"
+  },
+  {
+    "name": "Dion, Bahamut's Dominant // Bahamut, Warden of Light",
+    "uuid": "03f99653-cfda-58fc-a222-d23642e4251b",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{W}"
+  },
+  {
+    "name": "Dion, Bahamut's Dominant // Bahamut, Warden of Light",
+    "uuid": "f1f873cc-0917-5c7e-9270-d369f6ed3909",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Gogo, Master of Mimicry",
+    "uuid": "893d88f2-9c9d-59e0-bee9-26534d26e5e4",
+    "rarity": "mythic",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Jill, Shiva's Dominant // Shiva, Warden of Ice",
+    "uuid": "79d2cc47-2cb1-57a6-8bfb-e5052b72f66a",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Jill, Shiva's Dominant // Shiva, Warden of Ice",
+    "uuid": "ba9e1c8a-4610-578e-b48e-6a8b8a12f172",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Ardyn, the Usurper",
+    "uuid": "384cd877-7c7a-5a29-97b1-44cf4e4c4e5f",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{5}{B}{B}{B}"
+  },
+  {
+    "name": "Cecil, Dark Knight // Cecil, Redeemed Paladin",
+    "uuid": "35d5e17f-364e-53da-92a4-fa473dcc1482",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{B}"
+  },
+  {
+    "name": "Cecil, Dark Knight // Cecil, Redeemed Paladin",
+    "uuid": "cd7a23ab-9277-5933-b928-d72f6a8ec11a",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Fang, Fearless l'Cie // Ragnarok, Divine Deliverance",
+    "uuid": "14d87a06-22b6-575d-8963-9d9868ba3521",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Ragnarok, Divine Deliverance",
+    "uuid": "3b656422-c867-58ea-8c4d-960317d5712f",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "uuid": "cb6c74da-562e-55ad-81de-a415d409d64f",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "uuid": "5c8880f7-7eae-575e-b9e3-a935332d303a",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Vincent Valentine // Galian Beast",
+    "uuid": "93d4a359-ba36-5b2d-8f82-ee2c58a7972e",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{B}"
+  },
+  {
+    "name": "Vincent Valentine // Galian Beast",
+    "uuid": "05fb1db7-8ea6-5bbc-a5d7-ccebdadd9040",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Zenos yae Galvus // Shinryu, Transcendent Rival",
+    "uuid": "293feb0b-8508-58cc-be9b-520d3a5117f9",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{B}{B}"
+  },
+  {
+    "name": "Zenos yae Galvus // Shinryu, Transcendent Rival",
+    "uuid": "adebbff4-ea97-5917-87f9-73bd546a5a11",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",
+    "uuid": "9f67005d-ce84-5e4d-998b-46b45b611761",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{R}{R}"
+  },
+  {
+    "name": "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",
+    "uuid": "d97354af-1f40-5f9b-9b3d-f0f36c686324",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Firion, Wild Rose Warrior",
+    "uuid": "7e4bf02e-0fbb-5cd4-aec3-f374178bb7d5",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Prompto Argentum",
+    "uuid": "a4a30390-3839-50b5-93a8-d17025da4c37",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Raubahn, Bull of Ala Mhigo",
+    "uuid": "2ba32cf2-cc67-5a54-b66c-4821c67bbe96",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Seifer Almasy",
+    "uuid": "fb0a4dcb-7c04-5356-adf8-28129642b807",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}"
+  },
+  {
+    "name": "Vaan, Street Thief",
+    "uuid": "ac840c4b-a081-5c43-b121-ccc7144a84b3",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Tifa Lockhart",
+    "uuid": "088cedd1-450a-542f-b3be-809f9ea449b3",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Vanille, Cheerful l'Cie // Ragnarok, Divine Deliverance",
+    "uuid": "523b97de-7744-5ca1-adef-818ff02528d1",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}"
+  },
+  {
+    "name": "Balthier and Fran",
+    "uuid": "a50901c5-a7fc-5709-83ec-ed7c3fb27832",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{G}"
+  },
+  {
+    "name": "Emet-Selch, Unsundered // Hades, Sorcerer of Eld",
+    "uuid": "9430c8c4-903a-58b6-a835-9c71fb620028",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}{B}"
+  },
+  {
+    "name": "Emet-Selch, Unsundered // Hades, Sorcerer of Eld",
+    "uuid": "f67fe930-227c-51c0-adaf-bb86c4e7d2b6",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Golbez, Crystal Collector",
+    "uuid": "b3a3e757-5902-5b2f-9cd5-f33802460ced",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{U}{B}"
+  },
+  {
+    "name": "Hope Estheim",
+    "uuid": "4748df7d-949d-5f56-a8f1-fb295f42c80e",
+    "rarity": "rare",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}{U}"
+  },
+  {
+    "name": "Joshua, Phoenix's Dominant // Phoenix, Warden of Fire",
+    "uuid": "60fad755-84ef-5ae3-9cd8-e58eb5680f8e",
+    "rarity": "rare",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{W}"
+  },
+  {
+    "name": "Joshua, Phoenix's Dominant // Phoenix, Warden of Fire",
+    "uuid": "5691b978-d9e8-56f4-80e7-f3f8e80bcf49",
+    "rarity": "rare",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "uuid": "3c0163e0-2b86-5c75-b598-636dd1416e77",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}{B}{R}"
+  },
+  {
+    "name": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "uuid": "a1502a67-87e2-585a-8e49-eade19abd70e",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "uuid": "c3038a1f-1a9d-569b-8c9a-1c4610014e83",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{R}"
+  },
+  {
+    "name": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "uuid": "8a721bb0-6d7d-55ec-a596-ab56245f38ca",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "uuid": "af02c48e-b665-576b-97c1-8db6872b3c17",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{R}"
+  },
+  {
+    "name": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "uuid": "a7a06abe-70e9-566a-9a6b-c5b5f9926a5f",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Lightning, Army of One",
+    "uuid": "3fe6e9b6-177a-5da4-a41f-37f3c0c2854c",
+    "rarity": "mythic",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{W}"
+  },
+  {
+    "name": "Noctis, Prince of Lucis",
+    "uuid": "a080c85e-efd2-525a-bdb2-612e70de2bca",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}{U}{B}"
+  },
+  {
+    "name": "Squall, SeeD Mercenary",
+    "uuid": "9b00f8e1-6262-5006-b224-e96fbc723c01",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{B}"
+  },
+  {
+    "name": "The Wandering Minstrel",
+    "uuid": "3ec4b104-4140-5dbe-80ee-1f1b7bc32184",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{G}{U}"
+  },
+  {
+    "name": "Yuna, Hope of Spira",
+    "uuid": "5156eb3f-6ba3-55a0-8f89-30533d86e9ff",
+    "rarity": "mythic",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}{W}"
+  },
+  {
+    "name": "Zidane, Tantalus Thief",
+    "uuid": "f09d306d-5994-520e-b602-5834854033ca",
+    "rarity": "uncommon",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}{W}"
+  },
+  {
+    "name": "Traveling Chocobo",
+    "uuid": "19070be4-c404-58f9-8cfa-e8d53c9a26f5",
+    "rarity": "mythic",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Cid, Timeless Artificer",
+    "uuid": "faa5ddb1-f0c4-5ee4-8dd8-6c5338296993",
+    "rarity": "uncommon",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{U}"
+  },
+  {
+    "name": "Cid, Timeless Artificer",
+    "uuid": "8d60ae46-5fcd-5aac-b701-95f196bd53f4",
+    "rarity": "uncommon",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{U}"
+  },
+  {
+    "name": "Cid, Timeless Artificer",
+    "uuid": "ce914b8f-4126-5f97-b093-c01ca2facae5",
+    "rarity": "uncommon",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{U}"
+  },
+  {
+    "name": "Cid, Timeless Artificer",
+    "uuid": "6b2b63c7-c379-5c71-9fba-1c3e044109ff",
+    "rarity": "uncommon",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{U}"
+  },
+  {
+    "name": "Cid, Timeless Artificer",
+    "uuid": "e26efeda-8ce3-5803-ac93-1ebc55dc24d6",
+    "rarity": "uncommon",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{U}"
+  },
+  {
+    "name": "Cid, Timeless Artificer",
+    "uuid": "52d0eda3-09f8-5cfc-ac04-40d2615e5942",
+    "rarity": "uncommon",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{U}"
+  },
+  {
+    "name": "Cid, Timeless Artificer",
+    "uuid": "931953d1-4b6e-5c9b-a41b-e7cf341475eb",
+    "rarity": "uncommon",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{U}"
+  },
+  {
+    "name": "Cid, Timeless Artificer",
+    "uuid": "9150d65e-c53d-5db7-bded-5f43a449d722",
+    "rarity": "uncommon",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{U}"
+  },
+  {
+    "name": "Cid, Timeless Artificer",
+    "uuid": "343f561a-46c6-5559-a206-f7a7f69bfadd",
+    "rarity": "uncommon",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{U}"
+  },
+  {
+    "name": "Cid, Timeless Artificer",
+    "uuid": "b2191a86-a045-54d7-b48e-8bc938457f35",
+    "rarity": "uncommon",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{U}"
+  },
+  {
+    "name": "Cid, Timeless Artificer",
+    "uuid": "516eed7e-c637-5511-89a6-f6b9ff3db2c2",
+    "rarity": "uncommon",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{U}"
+  },
+  {
+    "name": "Cid, Timeless Artificer",
+    "uuid": "c1e05e88-095c-5eb6-ae13-9f447d48f31f",
+    "rarity": "uncommon",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{U}"
+  },
+  {
+    "name": "Cid, Timeless Artificer",
+    "uuid": "1b61b5c9-6d81-5b76-a76e-95fc0bd3fb08",
+    "rarity": "uncommon",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{U}"
+  },
+  {
+    "name": "Cid, Timeless Artificer",
+    "uuid": "21013e42-d87d-5633-a9e6-c55f2cb28f4c",
+    "rarity": "uncommon",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{U}"
+  },
+  {
+    "name": "Ultima, Origin of Oblivion",
+    "uuid": "60f14586-9abd-5a3b-b652-341d11f5a890",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{5}"
+  },
+  {
+    "name": "Adelbert Steiner",
+    "uuid": "ca29486f-1f19-5c7a-bb1a-9db9e1b6f76f",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Aerith Gainsborough",
+    "uuid": "4131a5a5-0fbf-501c-a36b-bf2c50b2d57d",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Ambrosia Whiteheart",
+    "uuid": "925ab2ef-0876-50e7-b561-2f68c9e08e99",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Ashe, Princess of Dalmasca",
+    "uuid": "86ebdf47-3521-549c-8d6f-ecc61b833326",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Beatrix, Loyal General",
+    "uuid": "8e6693e3-f2f6-5ce1-a473-0d48fdaaef10",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{W}{W}"
+  },
+  {
+    "name": "Cloud, Midgar Mercenary",
+    "uuid": "71d15b62-3329-57e7-b9dc-2a7b99be4045",
+    "rarity": "mythic",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}{W}"
+  },
+  {
+    "name": "Dion, Bahamut's Dominant // Bahamut, Warden of Light",
+    "uuid": "fb93e044-3a6e-5277-93ca-83b6bf93bb2e",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{W}"
+  },
+  {
+    "name": "Dion, Bahamut's Dominant // Bahamut, Warden of Light",
+    "uuid": "ea5fc012-ba88-5d34-bf00-314bdc4216cf",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "G'raha Tia",
+    "uuid": "09f0656a-4789-5837-acfc-27667def43c7",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{W}"
+  },
+  {
+    "name": "Minwu, White Mage",
+    "uuid": "dd0f05d0-b891-5f78-bf25-82a76c868b0e",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{W}{W}"
+  },
+  {
+    "name": "Rosa, Resolute White Mage",
+    "uuid": "f040df5a-d504-54a1-ab19-33a39ec4f7cf",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{W}"
+  },
+  {
+    "name": "Snow Villiers",
+    "uuid": "d366ce78-1883-5bea-8511-eaa4e27df643",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Stiltzkin, Moogle Merchant",
+    "uuid": "86c03015-97d3-57b1-9247-21b8b6c53004",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal",
+    "uuid": "72066022-cf5f-53bb-8caa-5fb64dc4c544",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}{W}"
+  },
+  {
+    "name": "Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal",
+    "uuid": "79e54f33-9739-5337-9139-a2338b4f308c",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Zack Fair",
+    "uuid": "4e807d75-f0b0-52c9-94f1-bbacce37a39f",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "Edgar, King of Figaro",
+    "uuid": "2519b731-9ab0-50d2-a830-a3709ac1c06b",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{U}{U}"
+  },
+  {
+    "name": "Gogo, Master of Mimicry",
+    "uuid": "fc16dfea-0cfe-5de1-8633-9798720a5dd7",
+    "rarity": "mythic",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Jill, Shiva's Dominant // Shiva, Warden of Ice",
+    "uuid": "5c6afdc8-3803-5d46-baf5-6ef218bf08ee",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Jill, Shiva's Dominant // Shiva, Warden of Ice",
+    "uuid": "501f5986-1660-5746-8241-3ac37ffc719f",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Matoya, Archon Elder",
+    "uuid": "3b6169ff-71b2-5b86-ad66-9a8a28a9b972",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Quistis Trepe",
+    "uuid": "7ada5f33-e36e-5f4f-8d77-cba091bb5017",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Ultimecia, Temporal Threat",
+    "uuid": "0c82ac53-5367-59b0-aa5a-6c89e69e2f29",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{U}{U}"
+  },
+  {
+    "name": "Ultros, Obnoxious Octopus",
+    "uuid": "a99a9409-e31c-59eb-a43e-62913fa0a3a3",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "Y'shtola Rhul",
+    "uuid": "0186e899-86b2-51db-8899-4aa21494ddaa",
+    "rarity": "mythic",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{U}{U}"
+  },
+  {
+    "name": "Ardyn, the Usurper",
+    "uuid": "3996d801-a382-5190-ada2-1d2f2cb05c6f",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{5}{B}{B}{B}"
+  },
+  {
+    "name": "Cecil, Dark Knight // Cecil, Redeemed Paladin",
+    "uuid": "1575c9ac-b1ac-569f-a359-7f721c5f5840",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{B}"
+  },
+  {
+    "name": "Cecil, Dark Knight // Cecil, Redeemed Paladin",
+    "uuid": "e44e649b-88a8-5659-8905-0c0ca8079906",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Fang, Fearless l'Cie // Ragnarok, Divine Deliverance",
+    "uuid": "5af57b16-2554-552f-98f5-ad8ed0a51beb",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Ragnarok, Divine Deliverance",
+    "uuid": "d870de05-4e42-532a-95d9-4e9d5980dfc2",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Gaius van Baelsar",
+    "uuid": "dadda32a-98d8-5376-b9c3-57d78bf587c3",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{B}"
+  },
+  {
+    "name": "Jecht, Reluctant Guardian // Braska's Final Aeon",
+    "uuid": "b525f0af-8481-58f4-89bb-2974a7059200",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{B}"
+  },
+  {
+    "name": "Jecht, Reluctant Guardian // Braska's Final Aeon",
+    "uuid": "6b04fec6-6c72-564a-86cc-2015e0af2f41",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Kain, Traitorous Dragoon",
+    "uuid": "6d6dcae1-697f-524e-a126-4b3df395da95",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Reno and Rude",
+    "uuid": "561ec653-8a8c-56a6-b0b6-bcca76b18213",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "uuid": "0435aa6e-99dc-5917-9816-f23d6725f3ea",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "uuid": "3c8993d3-0ede-5be2-8f14-666a416fa16e",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Seymour Flux",
+    "uuid": "723a6b66-4115-5465-b6fa-8712b7798f61",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{B}"
+  },
+  {
+    "name": "Sidequest: Hunt the Mark // Yiazmat, Ultimate Mark",
+    "uuid": "9f7f2fa0-ddaf-5e14-9d15-ebe8f332e810",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{3}{B}{B}"
+  },
+  {
+    "name": "Sidequest: Hunt the Mark // Yiazmat, Ultimate Mark",
+    "uuid": "441f9d04-4b13-5fd9-a6a0-f24e2b32e04b",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Vincent Valentine // Galian Beast",
+    "uuid": "7b10ed1d-2af9-59e1-b4c7-fcc56b642612",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{B}"
+  },
+  {
+    "name": "Vincent Valentine // Galian Beast",
+    "uuid": "ce0328f1-d7f7-57a3-8338-4f79c42df565",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Zenos yae Galvus // Shinryu, Transcendent Rival",
+    "uuid": "efd7d014-97a7-56c9-add2-c0b18b2deaa4",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{B}{B}"
+  },
+  {
+    "name": "Zenos yae Galvus // Shinryu, Transcendent Rival",
+    "uuid": "c1e5870e-f3a4-5669-8715-f172b998ac2a",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Zodiark, Umbral God",
+    "uuid": "ea26a79b-1ea7-577f-a25b-9ade388dac18",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{B}{B}{B}{B}{B}"
+  },
+  {
+    "name": "Barret Wallace",
+    "uuid": "e48afc1f-7c0a-5378-b76a-8960f38e28c3",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}"
+  },
+  {
+    "name": "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",
+    "uuid": "48bf8acd-5860-54a3-af34-e5d04bea5722",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{R}{R}"
+  },
+  {
+    "name": "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",
+    "uuid": "74940f7d-c448-5ad0-aba2-52c7dd10861c",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Firion, Wild Rose Warrior",
+    "uuid": "102db8a2-a8e1-5107-b368-e0aed1bc0373",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Freya Crescent",
+    "uuid": "ff4a18cc-0bf9-59b2-8ab0-2096416c784e",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{R}"
+  },
+  {
+    "name": "Gilgamesh, Master-at-Arms",
+    "uuid": "1a71be8d-f935-58f7-93f8-4884f4c88f95",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{R}{R}"
+  },
+  {
+    "name": "Lightning, Security Sergeant",
+    "uuid": "1093957b-e473-5ae7-88f4-7dae07e02301",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Prompto Argentum",
+    "uuid": "cf5b4cdc-272c-519e-a06f-fe65b46ffd44",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Queen Brahne",
+    "uuid": "e5d7c107-1541-51bd-8546-f27009199ac1",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Raubahn, Bull of Ala Mhigo",
+    "uuid": "e1c63996-fa3c-5ef8-9df7-d3acddbd0880",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Seifer Almasy",
+    "uuid": "ea995ec0-a35f-5b5d-b350-a692335fdb94",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}"
+  },
+  {
+    "name": "Vaan, Street Thief",
+    "uuid": "f5277ea3-0b9e-5838-accb-4e77c7d45a74",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Zell Dincht",
+    "uuid": "8e94a16c-8b5d-568c-bd3d-3ef319dee0f5",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Bartz and Boko",
+    "uuid": "631b9c2e-9256-517a-a0d1-5c4e7ec8d4f5",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}{G}"
+  },
+  {
+    "name": "Diamond Weapon",
+    "uuid": "9b0f053f-c0d5-5ef8-9cc9-cb2664210463",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "manaCost": "{7}{G}{G}"
+  },
+  {
+    "name": "Quina, Qu Gourmet",
+    "uuid": "dde10917-52c9-51db-a91e-185b938b553e",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Sazh Katzroy",
+    "uuid": "3e63984c-af6a-5ee4-ae80-cf8174270813",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}"
+  },
+  {
+    "name": "Tifa Lockhart",
+    "uuid": "52aa72eb-88de-50a2-9f6d-ba232a982a4d",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Torgal, A Fine Hound",
+    "uuid": "08a058cb-a150-58fa-bc73-85075f080f70",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Vanille, Cheerful l'Cie // Ragnarok, Divine Deliverance",
+    "uuid": "10e5f45a-743f-514b-9846-297fb997f534",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}"
+  },
+  {
+    "name": "Absolute Virtue",
+    "uuid": "3ac7b160-3bc9-5c2b-b6fd-7963d656926e",
+    "rarity": "mythic",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{6}{W}{U}"
+  },
+  {
+    "name": "Balthier and Fran",
+    "uuid": "c2000ba0-fdc2-529e-ab18-dd9746fef939",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{G}"
+  },
+  {
+    "name": "Black Waltz No. 3",
+    "uuid": "f02be86e-8be2-563c-bc63-b7ff46c52f3a",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{R}"
+  },
+  {
+    "name": "Choco, Seeker of Paradise",
+    "uuid": "6d82ed5e-d535-5d3b-9a14-7557ab395b03",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}{W}{U}"
+  },
+  {
+    "name": "Cid, Timeless Artificer",
+    "uuid": "4b2d17d0-463a-59d5-b410-cc1be6fc1b04",
+    "rarity": "uncommon",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{U}"
+  },
+  {
+    "name": "Cloud of Darkness",
+    "uuid": "6de01875-59e5-5d8a-ad00-888ca31a633a",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{G}{G}"
+  },
+  {
+    "name": "Cloud, Planet's Champion",
+    "uuid": "dc85e59c-3338-5b49-86e1-b320120c837b",
+    "rarity": "mythic",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}{W}"
+  },
+  {
+    "name": "Emet-Selch, Unsundered // Hades, Sorcerer of Eld",
+    "uuid": "c0ca6da0-7edc-593b-a9d5-93cefddf1bb2",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}{B}"
+  },
+  {
+    "name": "Emet-Selch, Unsundered // Hades, Sorcerer of Eld",
+    "uuid": "9e4c34ff-c180-5bbe-91c8-f84cc4aa7383",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "The Emperor of Palamecia // The Lord Master of Hell",
+    "uuid": "09f01da5-7024-5257-afc3-674f83f50196",
+    "rarity": "uncommon",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{U}{R}"
+  },
+  {
+    "name": "The Emperor of Palamecia // The Lord Master of Hell",
+    "uuid": "a9ed642c-fdc0-5f10-9685-fc987393c4f7",
+    "rarity": "uncommon",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Exdeath, Void Warlock // Neo Exdeath, Dimension's End",
+    "uuid": "31afe5b2-defb-5221-bafa-18042afe200b",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{B}{G}"
+  },
+  {
+    "name": "Exdeath, Void Warlock // Neo Exdeath, Dimension's End",
+    "uuid": "f16377fe-2f89-5953-b6e7-afbaab5d8c7e",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Garland, Knight of Cornelia // Chaos, the Endless",
+    "uuid": "b973a4b3-75cf-5005-acb3-15ebe8f8a49d",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{B}{R}"
+  },
+  {
+    "name": "Garland, Knight of Cornelia // Chaos, the Endless",
+    "uuid": "bc87c7c7-38f3-569b-8ab5-d601c4a4b0d4",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Garnet, Princess of Alexandria",
+    "uuid": "fe42fd39-38f9-5764-81fc-82f714272c46",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{G}{W}"
+  },
+  {
+    "name": "Giott, King of the Dwarves",
+    "uuid": "76b53596-535a-5b72-9303-712564218871",
+    "rarity": "uncommon",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{R}{W}"
+  },
+  {
+    "name": "Gladiolus Amicitia",
+    "uuid": "ca8f6b0c-4e57-55d6-96dd-88701e9795a8",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{R}{G}"
+  },
+  {
+    "name": "Golbez, Crystal Collector",
+    "uuid": "f8a5fdb3-a473-516c-b130-c6662c216158",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{U}{B}"
+  },
+  {
+    "name": "Hope Estheim",
+    "uuid": "22ba636f-5aaf-566c-86e2-7b772fccb606",
+    "rarity": "rare",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}{U}"
+  },
+  {
+    "name": "Ignis Scientia",
+    "uuid": "b05394e3-5028-5476-9e5a-a7f6d30a97d9",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}{U}"
+  },
+  {
+    "name": "Jenova, Ancient Calamity",
+    "uuid": "c4417bc8-86b3-5ba4-a908-88d0583f146a",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{G}"
+  },
+  {
+    "name": "Joshua, Phoenix's Dominant // Phoenix, Warden of Fire",
+    "uuid": "2f6f14e7-0fc9-5d9d-8918-94632fef4427",
+    "rarity": "rare",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{W}"
+  },
+  {
+    "name": "Joshua, Phoenix's Dominant // Phoenix, Warden of Fire",
+    "uuid": "88ac7ce7-7169-515d-938c-2bd4091595c6",
+    "rarity": "rare",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Judge Magister Gabranth",
+    "uuid": "44f80ed5-e61b-5a7d-8e1e-bebced27fd30",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}{B}"
+  },
+  {
+    "name": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "uuid": "63d5961c-ec44-5bca-b08a-14c62d527278",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}{B}{R}"
+  },
+  {
+    "name": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "uuid": "4fa31a90-f59c-52d4-8ea8-dcc7724a705b",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "uuid": "022876bf-011a-577d-b0e5-56211e50cd59",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{R}"
+  },
+  {
+    "name": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "uuid": "63cb953a-9a57-5b1f-979c-9eab966e8e35",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "uuid": "505ba831-661a-59eb-bb2b-ac71409bfd84",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{R}"
+  },
+  {
+    "name": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "uuid": "ad666158-a56e-5dd7-9c21-e8b4cd731ae6",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Lightning, Army of One",
+    "uuid": "23b546da-ad36-52ee-ba58-271eec3cec33",
+    "rarity": "mythic",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{W}"
+  },
+  {
+    "name": "Locke Cole",
+    "uuid": "99305890-19a4-5596-815a-e7c67005cd84",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}{B}"
+  },
+  {
+    "name": "Noctis, Prince of Lucis",
+    "uuid": "c9707d12-01ef-5699-83d6-9af70598c5cb",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}{U}{B}"
+  },
+  {
+    "name": "Omega, Heartless Evolution",
+    "uuid": "6ee49834-25a0-506b-bb45-2cd2f7a6462c",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "manaCost": "{5}{G}{U}"
+  },
+  {
+    "name": "Rinoa Heartilly",
+    "uuid": "3c297bba-443a-5a34-8b27-8f1646a126d0",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}{W}"
+  },
+  {
+    "name": "Rufus Shinra",
+    "uuid": "72ddf6f7-5fe5-53e3-9b3f-12de5480b0e3",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}{B}"
+  },
+  {
+    "name": "Rydia, Summoner of Mist",
+    "uuid": "050a8fa8-e7a5-5272-8add-9ce30157cb1c",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{R}{G}"
+  },
+  {
+    "name": "Sephiroth, Planet's Heir",
+    "uuid": "fb98ff8e-b63a-5c17-abe4-9d5225e52d49",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{U}{B}"
+  },
+  {
+    "name": "Serah Farron // Crystallized Serah",
+    "uuid": "2e8fe186-cc83-54b1-a056-62193a314d43",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}{W}"
+  },
+  {
+    "name": "Serah Farron // Crystallized Serah",
+    "uuid": "af6dddb3-75ae-5979-af11-e28cf6362326",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Shantotto, Tactician Magician",
+    "uuid": "84cf76fc-635b-5772-bec8-f6fd96b19b1a",
+    "rarity": "uncommon",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}{R}"
+  },
+  {
+    "name": "Sin, Spira's Punishment",
+    "uuid": "f9023721-5445-549e-9baa-24421119b41d",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "G",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{B}{G}{U}"
+  },
+  {
+    "name": "Squall, SeeD Mercenary",
+    "uuid": "e84e364a-571f-5eca-9792-4f96b848ee3d",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{B}"
+  },
+  {
+    "name": "Tellah, Great Sage",
+    "uuid": "8a8c6b2f-95b1-598c-8737-9bd9bdf1fe7e",
+    "rarity": "rare",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{U}{R}"
+  },
+  {
+    "name": "Terra, Magical Adept // Esper Terra",
+    "uuid": "544a5108-6968-5481-8d6a-c3adbe31afb1",
+    "rarity": "mythic",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{G}"
+  },
+  {
+    "name": "Terra, Magical Adept // Esper Terra",
+    "uuid": "c5514b5f-6fc1-5d34-a31f-096b88a51d01",
+    "rarity": "mythic",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Tidus, Blitzball Star",
+    "uuid": "73280ab6-b138-5412-93f1-22457af64aab",
+    "rarity": "uncommon",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}{U}"
+  },
+  {
+    "name": "Ultimecia, Time Sorceress // Ultimecia, Omnipotent",
+    "uuid": "7374b89d-5140-5c5c-923c-8908ff386eb0",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{U}{B}"
+  },
+  {
+    "name": "Ultimecia, Time Sorceress // Ultimecia, Omnipotent",
+    "uuid": "03d3070f-a12f-5667-bf5a-c3ca8e7d8bf5",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Vivi Ornitier",
+    "uuid": "c711027e-0564-5cc8-be90-942b95deaf98",
+    "rarity": "mythic",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}{R}"
+  },
+  {
+    "name": "The Wandering Minstrel",
+    "uuid": "ed421deb-e620-57af-9456-6b1a1f69fe6a",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{G}{U}"
+  },
+  {
+    "name": "Xande, Dark Mage",
+    "uuid": "9182be49-aaa2-59c1-bd65-e4f359fd84a0",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}{B}"
+  },
+  {
+    "name": "Yuna, Hope of Spira",
+    "uuid": "042572ef-35e7-5eea-b815-0305ac7d6d69",
+    "rarity": "mythic",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}{W}"
+  },
+  {
+    "name": "Zidane, Tantalus Thief",
+    "uuid": "5185399a-0900-5fe2-b961-4c1ae0799f6a",
+    "rarity": "uncommon",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}{W}"
+  },
+  {
+    "name": "Aerith Gainsborough",
+    "uuid": "d435bf30-51b4-5ca2-96d3-bb1a614c5e84",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Cloud, Midgar Mercenary",
+    "uuid": "bc371c3c-f863-5389-abf1-d7cda50cc43f",
+    "rarity": "mythic",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}{W}"
+  },
+  {
+    "name": "Dion, Bahamut's Dominant // Bahamut, Warden of Light",
+    "uuid": "12c833e8-ad4b-5dcb-9fa6-d73e0605001d",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{W}"
+  },
+  {
+    "name": "Dion, Bahamut's Dominant // Bahamut, Warden of Light",
+    "uuid": "19129052-8925-57a2-b0ca-19f30c86ae2a",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Gogo, Master of Mimicry",
+    "uuid": "631fd4f5-987c-5b7d-8a97-d9414085f4f3",
+    "rarity": "mythic",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Jill, Shiva's Dominant // Shiva, Warden of Ice",
+    "uuid": "da6d6d0b-29ff-5ed1-bbfc-d233dbcb57e2",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Jill, Shiva's Dominant // Shiva, Warden of Ice",
+    "uuid": "544cd5ae-f7f1-5fd4-a7f7-218b2bab71ca",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Ardyn, the Usurper",
+    "uuid": "0e1ae224-6d56-5d5f-985b-9a64e03f0c83",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{5}{B}{B}{B}"
+  },
+  {
+    "name": "Cecil, Dark Knight // Cecil, Redeemed Paladin",
+    "uuid": "0b6f9560-486c-5f9a-9a3c-e4792aaf9b56",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{B}"
+  },
+  {
+    "name": "Cecil, Dark Knight // Cecil, Redeemed Paladin",
+    "uuid": "1bdf8c58-f256-56f9-bac1-91d81197d6b6",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Fang, Fearless l'Cie // Ragnarok, Divine Deliverance",
+    "uuid": "f73959fe-4ed2-5a27-b218-d0979d6b1b75",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Ragnarok, Divine Deliverance",
+    "uuid": "bd42102d-9ec8-5ddc-81cd-f2ee99c9d5e8",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "uuid": "aaef9ad6-eb1a-5195-b6af-64de9659f881",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "uuid": "c59072e0-6018-54e3-a7e5-1859079acd37",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Vincent Valentine // Galian Beast",
+    "uuid": "faf3f276-61c2-5900-8723-f3b3988557c1",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{B}"
+  },
+  {
+    "name": "Vincent Valentine // Galian Beast",
+    "uuid": "016e8d86-9582-532b-87bd-71964b06c9ae",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Zenos yae Galvus // Shinryu, Transcendent Rival",
+    "uuid": "23eef467-c605-5a8e-b0f9-e97aa2ffc909",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{B}{B}"
+  },
+  {
+    "name": "Zenos yae Galvus // Shinryu, Transcendent Rival",
+    "uuid": "1e6def0f-8bf2-5de6-bbca-d50442bde592",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",
+    "uuid": "22812744-8a1a-5962-a73a-7b550c140d4c",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{R}{R}"
+  },
+  {
+    "name": "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",
+    "uuid": "2d26f951-c545-5a5b-a829-f057eff3fb01",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Firion, Wild Rose Warrior",
+    "uuid": "c51f06d2-9e38-5553-a904-8e4283d60801",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Prompto Argentum",
+    "uuid": "3f7c86b8-3b4b-53f3-951b-ec03a6cbb356",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Raubahn, Bull of Ala Mhigo",
+    "uuid": "3d7caa34-70fb-5e5a-9219-d51ddfff04a2",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Seifer Almasy",
+    "uuid": "ec99d2e0-1761-5a49-aa29-8d01a526c64f",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}"
+  },
+  {
+    "name": "Vaan, Street Thief",
+    "uuid": "e5832631-2039-59e9-b6f0-659dc6480b88",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Tifa Lockhart",
+    "uuid": "651e0e8a-ddef-5301-8bce-37b944d6beae",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Vanille, Cheerful l'Cie // Ragnarok, Divine Deliverance",
+    "uuid": "aed50dfb-16cd-54d4-9b02-3daeab2e606a",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}"
+  },
+  {
+    "name": "Balthier and Fran",
+    "uuid": "b3f619f4-ab6e-530a-82b7-587efdc0b4dc",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{G}"
+  },
+  {
+    "name": "Emet-Selch, Unsundered // Hades, Sorcerer of Eld",
+    "uuid": "a8320e28-66a0-5f3c-86cc-c649dd3a9a91",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}{B}"
+  },
+  {
+    "name": "Emet-Selch, Unsundered // Hades, Sorcerer of Eld",
+    "uuid": "926d336b-f0f5-52e7-9fe7-75c1551e159b",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Golbez, Crystal Collector",
+    "uuid": "0ce2cc2d-9969-52e5-9c25-bfad191b56ae",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{U}{B}"
+  },
+  {
+    "name": "Hope Estheim",
+    "uuid": "5502a0b0-c4b6-5de4-9a0a-15228be43392",
+    "rarity": "rare",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}{U}"
+  },
+  {
+    "name": "Joshua, Phoenix's Dominant // Phoenix, Warden of Fire",
+    "uuid": "49bc612b-a959-539f-891b-80f873025e63",
+    "rarity": "rare",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{W}"
+  },
+  {
+    "name": "Joshua, Phoenix's Dominant // Phoenix, Warden of Fire",
+    "uuid": "5a1b4f91-08ba-5ed3-9773-998e27bbcfb2",
+    "rarity": "rare",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Enchantment",
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "uuid": "9b99a0f6-ed2a-53b2-9aeb-472a88836b01",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}{B}{R}"
+  },
+  {
+    "name": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "uuid": "8f5c9afd-c5d3-5213-9939-5f76b9ed45b1",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "uuid": "6853b739-7784-5b37-bde4-3dc4c9c39802",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{R}"
+  },
+  {
+    "name": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "uuid": "a1fc9b5f-aea9-58f3-b115-be30d724efb5",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "uuid": "be91c3b8-279f-54e9-991c-ea09b7da103b",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{R}"
+  },
+  {
+    "name": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "uuid": "42be9b6c-0fe2-57b1-846d-c7cf2fe676a0",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Lightning, Army of One",
+    "uuid": "4e5017b5-9258-5006-95e5-8f46339f0e24",
+    "rarity": "mythic",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{W}"
+  },
+  {
+    "name": "Noctis, Prince of Lucis",
+    "uuid": "4f3d3dfa-6c9b-542b-906e-0a09bf6fb74a",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}{U}{B}"
+  },
+  {
+    "name": "Squall, SeeD Mercenary",
+    "uuid": "759fa78e-9946-533e-be8d-c8b4212df54a",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{B}"
+  },
+  {
+    "name": "The Wandering Minstrel",
+    "uuid": "194cade9-9bf6-530b-a318-76694f49a6fd",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{G}{U}"
+  },
+  {
+    "name": "Yuna, Hope of Spira",
+    "uuid": "bb69f6f5-def9-5de2-8ad0-dc4ff9bfc871",
+    "rarity": "mythic",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}{W}"
+  },
+  {
+    "name": "Zidane, Tantalus Thief",
+    "uuid": "df8ced3d-3eeb-53fb-8143-4a75c67a4d04",
+    "rarity": "uncommon",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}{W}"
+  },
+  {
+    "name": "Traveling Chocobo",
+    "uuid": "5c54d933-9ba3-5ae7-9527-9b51b42d1dc5",
+    "rarity": "mythic",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Traveling Chocobo",
+    "uuid": "1b999e7e-83ff-5536-8f0c-b28413d157dc",
+    "rarity": "mythic",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Traveling Chocobo",
+    "uuid": "b923c4dd-9428-5faf-9362-2c9b3d53528a",
+    "rarity": "mythic",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Traveling Chocobo",
+    "uuid": "35b4adeb-8470-58f5-b550-bd703566d2ca",
+    "rarity": "mythic",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Traveling Chocobo",
+    "uuid": "f8ce7ceb-d36d-5601-bc50-9f3b4f57cf4a",
+    "rarity": "mythic",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Traveling Chocobo",
+    "uuid": "a1ea8454-116c-5285-b5f0-74e67df5fc98",
+    "rarity": "mythic",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Cloud, Planet's Champion",
+    "uuid": "fceb6fc4-5dd6-5228-aa58-0726fffa461a",
+    "rarity": "mythic",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}{W}"
+  },
+  {
+    "name": "Sephiroth, Planet's Heir",
+    "uuid": "9a73c092-9f52-503b-96e4-bb247ffaf8fe",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{U}{B}"
+  },
+  {
+    "name": "Beatrix, Loyal General",
+    "uuid": "55fb1ecd-ce52-55d6-94fc-68ae9c55bdce",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{W}{W}"
+  },
+  {
+    "name": "Rosa, Resolute White Mage",
+    "uuid": "410fd2dd-cc69-5eb1-998b-29dc8ea27d43",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{W}"
+  },
+  {
+    "name": "Ultimecia, Temporal Threat",
+    "uuid": "1cbb6881-e7f5-5421-b9d6-3d700c094675",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{U}{U}"
+  },
+  {
+    "name": "Deadly Embrace",
+    "uuid": "c28c7b87-713d-5e0c-bbb4-00a5d40b161a",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{B}{B}"
+  },
+  {
+    "name": "Seymour Flux",
+    "uuid": "8cc34364-c0e5-55be-a6f4-99824c677ca8",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{B}"
+  },
+  {
+    "name": "Judgment Bolt",
+    "uuid": "166971f6-ff6e-5045-aefe-c9d9bea8fa10",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{3}{R}"
+  },
+  {
+    "name": "Lightning, Security Sergeant",
+    "uuid": "46f57045-bfaf-50b7-a537-229400c3c0be",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Xande, Dark Mage",
+    "uuid": "8ccd0c10-4885-58e3-8d5b-74ae62f71d70",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}{B}"
+  },
+  {
+    "name": "Magitek Scythe",
+    "uuid": "5aa2ae68-55de-5359-b357-45451e70e5df",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{4}"
+  },
+  {
+    "name": "Ultima Weapon",
+    "uuid": "e0f7f883-14eb-522f-afa9-9265787d2f13",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{7}"
+  },
+  {
+    "name": "Cloud, Midgar Mercenary",
+    "uuid": "629a7869-b0cd-5702-9e9e-17e1f6e0a52f",
+    "rarity": "mythic",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}{W}"
+  },
+  {
+    "name": "Stiltzkin, Moogle Merchant",
+    "uuid": "12273c6c-8520-515f-a93b-36b3c9146dbc",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "A Realm Reborn",
+    "uuid": "1c7713eb-ffaa-5e3c-a358-93b3e7c5b02b",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{4}{G}{G}"
+  },
+  {
+    "name": "Tifa Lockhart",
+    "uuid": "f5eb7892-b6fb-5683-8fe7-6034f5fed4e9",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Traveling Chocobo",
+    "uuid": "1b839e1f-e041-50cb-a2f2-87b4fdc1c6b5",
+    "rarity": "mythic",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Choco, Seeker of Paradise",
+    "uuid": "dd92ed02-e9d9-55d6-9e81-fd461c89e10f",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}{W}{U}"
+  },
+  {
+    "name": "Vivi Ornitier",
+    "uuid": "ea62475b-3102-5d37-8f6d-51a1fd2f47fd",
+    "rarity": "mythic",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}{R}"
+  },
+  {
+    "name": "Yuna, Hope of Spira",
+    "uuid": "bf3bb0eb-f9a3-5a26-95e1-6471b0adaa52",
+    "rarity": "mythic",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}{W}"
+  },
+  {
+    "name": "Plains",
+    "uuid": "e97f4a11-b1ba-5389-99c0-0343b93ce8f2",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Island",
+    "uuid": "20d2b684-2b56-54e4-9b10-cf40ddbf5688",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Swamp",
+    "uuid": "98f30cd2-1623-5e0c-853d-b69227e5318f",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Mountain",
+    "uuid": "4e31a400-3d2a-50cf-9db6-52e5e86e910e",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Forest",
+    "uuid": "d8a8b3e8-315d-5e2c-bbaa-c23c8a29974d",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Y'shtola Rhul",
+    "uuid": "038abe2f-3e9d-5084-b570-10433bccef91",
+    "rarity": "mythic",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{U}{U}"
+  },
+  {
+    "name": "Phoenix Down",
+    "uuid": "04952f88-1e94-5f4e-b66d-342b239e928c",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "White Auracite",
+    "uuid": "f500b9bd-75aa-5147-830d-f68aa3d972dc",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{W}{W}"
+  },
+  {
+    "name": "Zack Fair",
+    "uuid": "c7209bbd-ec2c-54f8-bc37-0e5b6aad8f28",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "Astrologian's Planisphere",
+    "uuid": "663a584a-49a4-5b8d-a3df-daae59e83a2b",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "Sage's Nouliths",
+    "uuid": "2effc457-9050-5bef-9734-415709bc1b28",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "Circle of Power",
+    "uuid": "c7410dc4-79f0-5762-bb7c-6f3285d86c29",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{B}"
+  },
+  {
+    "name": "Barret Wallace",
+    "uuid": "7d4a2877-2115-57a2-8978-fb5d1d8c49ff",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}"
+  },
+  {
+    "name": "Laughing Mad",
+    "uuid": "44548068-48a7-58ad-9861-7482b59e4b37",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{2}{R}"
+  }
+]
