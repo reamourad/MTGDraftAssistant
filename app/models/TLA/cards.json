@@ -1,0 +1,4935 @@
+[
+  {
+    "name": "Aang's Journey",
+    "uuid": "df34b2fd-a1fc-54fb-9250-d72d6fd9b915",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{2}"
+  },
+  {
+    "name": "Energybending",
+    "uuid": "81083b11-1090-544b-b55f-e4e6894d704d",
+    "rarity": "uncommon",
+    "colors": [],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{2}"
+  },
+  {
+    "name": "Zuko's Exile",
+    "uuid": "e07eea37-a298-5905-826f-8b8ae8d23663",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{5}"
+  },
+  {
+    "name": "Aang, the Last Airbender",
+    "uuid": "3e47a0bc-6140-59d9-a39c-525371b34ec5",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{W}"
+  },
+  {
+    "name": "Aang's Iceberg",
+    "uuid": "fc51af44-f7c4-51d7-b879-67e08624d36b",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Airbender Ascension",
+    "uuid": "07749abf-369c-5b51-9096-8801b9700e7a",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Airbender's Reversal",
+    "uuid": "abca9402-7efe-5fe2-a433-2644b75157b6",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Airbending Lesson",
+    "uuid": "f942bbc8-da13-5983-a60e-5c0f98852d73",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Appa, Loyal Sky Bison",
+    "uuid": "5a749cbd-6d91-54a2-b079-cbd77a5e76d7",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{W}{W}"
+  },
+  {
+    "name": "Appa, Steadfast Guardian",
+    "uuid": "f7cc6cd3-4108-5342-9b42-afca9bb5d6dd",
+    "rarity": "mythic",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{W}"
+  },
+  {
+    "name": "Avatar Enthusiasts",
+    "uuid": "c1ef4f81-ba5f-5617-be83-9e3d7df55023",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Avatar's Wrath",
+    "uuid": "4ef45228-6163-510a-8a8d-ab6a1a203183",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{2}{W}{W}"
+  },
+  {
+    "name": "Compassionate Healer",
+    "uuid": "c0d789d2-b596-55de-829d-d00afa617385",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Curious Farm Animals",
+    "uuid": "3360c8c4-3e31-562a-bcdc-0d6b731eaf92",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "Destined Confrontation",
+    "uuid": "1b9088d0-d044-5ff9-afae-a9980464a0fa",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{2}{W}{W}"
+  },
+  {
+    "name": "Earth Kingdom Jailer",
+    "uuid": "7fdbd235-b303-520b-9f9c-7ff6f63314a6",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Earth Kingdom Protectors",
+    "uuid": "2ef4c407-cc9a-5cc5-ad8b-8fa6be326fdf",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "Enter the Avatar State",
+    "uuid": "2e804d75-000f-5af7-8dda-26325b72b3e9",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "Fancy Footwork",
+    "uuid": "1edb9325-ce24-5b9c-ab9b-6b30015d94f5",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Gather the White Lotus",
+    "uuid": "cfd66e0c-be0d-5886-b328-e604d2e7d251",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{4}{W}"
+  },
+  {
+    "name": "Glider Kids",
+    "uuid": "7575f32d-66dc-52dd-b616-a277b3bae4d9",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Glider Staff",
+    "uuid": "e8764c21-76fc-58d4-b42f-56b290a1393c",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Hakoda, Selfless Commander",
+    "uuid": "3cae0412-e269-56b9-a6b9-4cd513e98961",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{W}"
+  },
+  {
+    "name": "Invasion Reinforcements",
+    "uuid": "1222672d-e5f8-5ca5-9a42-787103132456",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Jeong Jeong's Deserters",
+    "uuid": "b29fbeb2-15d2-5def-b45a-53437a7c03bc",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Kyoshi Warriors",
+    "uuid": "dbdf6674-824b-5c7f-9a02-31c5456c79bd",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{W}"
+  },
+  {
+    "name": "The Legend of Yangchen // Avatar Yangchen",
+    "uuid": "196d3d60-e284-5d4d-b45b-e50892ff1feb",
+    "rarity": "mythic",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{3}{W}{W}"
+  },
+  {
+    "name": "The Legend of Yangchen // Avatar Yangchen",
+    "uuid": "3829c718-250e-52f2-b627-e8732be34178",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Master Piandao",
+    "uuid": "887e2031-7cc8-5c94-86ee-c67bb29fb82b",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{W}"
+  },
+  {
+    "name": "Momo, Friendly Flier",
+    "uuid": "a2ce9a0e-aabb-59f5-b024-43cfbfa6572c",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "Momo, Playful Pet",
+    "uuid": "c0797dec-11b9-51c1-82e1-e76e95e2b216",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "Path to Redemption",
+    "uuid": "b69e7a9b-c3cd-5a75-81a6-25d0f913d8c2",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Rabaroo Troop",
+    "uuid": "78e56493-209f-5836-943c-505b10ca3835",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{W}{W}"
+  },
+  {
+    "name": "Razor Rings",
+    "uuid": "b81b7b7a-ab94-5fc4-98c4-fc914a70dec2",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Sandbenders' Storm",
+    "uuid": "2e3dad63-5928-5a64-b26f-1bae28c22cf3",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{3}{W}"
+  },
+  {
+    "name": "South Pole Voyager",
+    "uuid": "3db733ea-9d27-505a-8a92-fdc95e35e4f2",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Southern Air Temple",
+    "uuid": "890ad090-cccc-5c74-ab2e-331b64d0ab5e",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{3}{W}"
+  },
+  {
+    "name": "Suki, Courageous Rescuer",
+    "uuid": "a532fcc0-c7b6-54d1-82ae-b7efc4cceb69",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}{W}"
+  },
+  {
+    "name": "Team Avatar",
+    "uuid": "1425e196-7850-557d-9ca8-02faef851926",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "United Front",
+    "uuid": "05a3588f-8eea-55dd-82be-b951e46a0442",
+    "rarity": "mythic",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{X}{W}{W}"
+  },
+  {
+    "name": "Vengeful Villagers",
+    "uuid": "f247a69a-c5f4-512e-84bc-e1e2cf364c39",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{W}"
+  },
+  {
+    "name": "Water Tribe Captain",
+    "uuid": "400341f8-cbf5-558a-84ba-a2aead8d0fcf",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Water Tribe Rallier",
+    "uuid": "3d0bcd9b-3ccf-5c93-a90f-ddf556fc581a",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Yip Yip!",
+    "uuid": "f99cc254-6135-562a-89ba-ee7d6aa334f0",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "Accumulate Wisdom",
+    "uuid": "ebf22e64-6d98-5bc5-9f41-c35f425b1d1e",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "Benevolent River Spirit",
+    "uuid": "e08bed1e-e47e-55f4-b954-05c6373b6d41",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{U}{U}"
+  },
+  {
+    "name": "Boomerang Basics",
+    "uuid": "9aba6e59-8d37-50e9-ad5f-357ccef416c2",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{U}"
+  },
+  {
+    "name": "Crashing Wave",
+    "uuid": "2054f0fd-89f2-575d-8ef1-ea4b065ed323",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{U}{U}"
+  },
+  {
+    "name": "Ember Island Production",
+    "uuid": "4a95c4c4-1017-57fb-907d-d38969186295",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{U}{U}"
+  },
+  {
+    "name": "First-Time Flyer",
+    "uuid": "815dd3fa-79e0-5583-943a-54eb9f61a713",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "Flexible Waterbender",
+    "uuid": "714ab7fe-f8d1-5b5f-bf89-f5d59d69f9f1",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{U}"
+  },
+  {
+    "name": "Forecasting Fortune Teller",
+    "uuid": "78ae5dbe-278f-5935-a89f-b524643410fe",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "Geyser Leaper",
+    "uuid": "210e1db8-6579-5e48-ae3b-8a145b4956bc",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{U}"
+  },
+  {
+    "name": "Giant Koi",
+    "uuid": "c14cab51-b68e-5431-b18c-5a7de3e59e69",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{U}{U}"
+  },
+  {
+    "name": "Gran-Gran",
+    "uuid": "b5bd5f31-4bae-5f67-8c00-175a332eb77c",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{U}"
+  },
+  {
+    "name": "Honest Work",
+    "uuid": "f56fb5db-eec9-5f34-aa0a-6da805ba4603",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{U}"
+  },
+  {
+    "name": "Iguana Parrot",
+    "uuid": "d5d9fa0e-4dc7-5a6a-a54c-c8c5fa55a575",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Invasion Submersible",
+    "uuid": "404e3e1b-bbf2-5108-b297-153e032a54f5",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "It'll Quench Ya!",
+    "uuid": "ce957309-289c-5687-a7ae-67d4bca8aa8e",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "Katara, Bending Prodigy",
+    "uuid": "191b6587-cbc0-5b59-89f0-af0c20f916b6",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Knowledge Seeker",
+    "uuid": "620d6555-26a3-58b1-b604-436dd14a3fe3",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "The Legend of Kuruk // Avatar Kuruk",
+    "uuid": "a02fd27e-e8f1-573a-a082-439a5597024f",
+    "rarity": "mythic",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{2}{U}{U}"
+  },
+  {
+    "name": "The Legend of Kuruk // Avatar Kuruk",
+    "uuid": "daa334a4-9adc-5c2f-aa08-ecc9df9428d9",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Lost Days",
+    "uuid": "5bd8e6ab-ff6d-5545-9de6-cf1454f0cc78",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{4}{U}"
+  },
+  {
+    "name": "Master Pakku",
+    "uuid": "75285c54-d3ca-576d-b246-27b65b2d4723",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "The Mechanist, Aerial Artisan",
+    "uuid": "2b685910-02ad-563a-b1fb-51df684aae26",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "North Pole Patrol",
+    "uuid": "aa454f52-a6c4-55b7-8a3e-623b6c17293a",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Octopus Form",
+    "uuid": "fddcdfe5-2013-59d6-a4c4-8e2ac1daf86b",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{U}"
+  },
+  {
+    "name": "Otter-Penguin",
+    "uuid": "b4375b91-4eed-54c5-8a5f-e3a86b88f42e",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "Rowdy Snowballers",
+    "uuid": "9a2af7e0-8912-50f2-a4f2-e74bb332f0cf",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Secret of Bloodbending",
+    "uuid": "1fdf2ebb-c62f-5299-b07c-8a20a7728b35",
+    "rarity": "mythic",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{U}{U}{U}{U}"
+  },
+  {
+    "name": "Serpent of the Pass",
+    "uuid": "651fcc1f-b127-57e4-a2c2-76ef2af32c3e",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{5}{U}{U}"
+  },
+  {
+    "name": "Sokka's Haiku",
+    "uuid": "4063d9e7-72d2-5750-aeab-b75b3743cd39",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{3}{U}{U}"
+  },
+  {
+    "name": "The Spirit Oasis",
+    "uuid": "f19d41e2-1459-5638-9fcc-95bde9dae7e0",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Spirit Water Revival",
+    "uuid": "91dd2819-2556-5f44-8c7f-b844566670aa",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{1}{U}{U}"
+  },
+  {
+    "name": "Teo, Spirited Glider",
+    "uuid": "db0eae1d-de1a-5f5b-879e-2e97f91ef017",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{U}"
+  },
+  {
+    "name": "Tiger-Seal",
+    "uuid": "cd02671d-9ddf-5f71-9f9c-5395cc20a559",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{U}"
+  },
+  {
+    "name": "Ty Lee, Chi Blocker",
+    "uuid": "92b53cb1-4f19-52ce-ac34-6191d3108b05",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "The Unagi of Kyoshi Island",
+    "uuid": "6ad9d472-21ea-50c5-9713-f616c33379ef",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{U}{U}"
+  },
+  {
+    "name": "Wan Shi Tong, Librarian",
+    "uuid": "4b71e29f-628f-5539-8171-f314d2c34154",
+    "rarity": "mythic",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{X}{U}{U}"
+  },
+  {
+    "name": "Waterbender Ascension",
+    "uuid": "e8510d92-c3e5-5cb7-a0b9-4aadfcdcd93e",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "Waterbending Lesson",
+    "uuid": "0bd4fb84-2fa3-52fc-9db2-c539c21d1d10",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{U}"
+  },
+  {
+    "name": "Waterbending Scroll",
+    "uuid": "ab57df7b-4771-55fa-b6aa-771e4e2744d9",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "Watery Grasp",
+    "uuid": "779918b4-dc87-597d-98c7-ec7d9c54fabe",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{U}"
+  },
+  {
+    "name": "Yue, the Moon Spirit",
+    "uuid": "3ffc422e-e1a7-5ccf-bcb6-39ca1e7c1ee2",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{U}"
+  },
+  {
+    "name": "Azula Always Lies",
+    "uuid": "e0faae2e-d27b-5eea-ba54-fac256468662",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Azula, On the Hunt",
+    "uuid": "ad9616e2-2a32-537d-ac00-3cd86f92d71b",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{B}"
+  },
+  {
+    "name": "Beetle-Headed Merchants",
+    "uuid": "6eff5dbd-d3fb-518e-b5e1-28bbfae0f2fc",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{B}"
+  },
+  {
+    "name": "Boiling Rock Rioter",
+    "uuid": "2a5bd62d-e060-53e5-87e0-8ae2a5dec2fd",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Buzzard-Wasp Colony",
+    "uuid": "ec7f7de9-6b1d-5c69-b410-bc50a12e1447",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{B}"
+  },
+  {
+    "name": "Callous Inspector",
+    "uuid": "cf4481e4-c5f6-5c45-a12d-7cb4040a579e",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{B}"
+  },
+  {
+    "name": "Canyon Crawler",
+    "uuid": "d50fb8c4-49b0-5510-9601-6e94b07dd665",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{B}{B}"
+  },
+  {
+    "name": "Cat-Gator",
+    "uuid": "db15bacb-7609-5f76-8158-d6c2cb54842a",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{6}{B}"
+  },
+  {
+    "name": "Corrupt Court Official",
+    "uuid": "50f37e53-37bb-537a-90cc-44d73efd428f",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Dai Li Indoctrination",
+    "uuid": "4d2cb3b4-1f3b-5476-9bc5-f2a68d85e146",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Day of Black Sun",
+    "uuid": "616d937a-fa2f-558b-b068-604da8735243",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{X}{B}{B}"
+  },
+  {
+    "name": "Deadly Precision",
+    "uuid": "687207c6-4c20-5529-a5e7-d9c1d8870525",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{B}"
+  },
+  {
+    "name": "Epic Downfall",
+    "uuid": "013a24c3-f872-5fe8-9b68-acfa271770d1",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Fatal Fissure",
+    "uuid": "11488d70-a0b9-565c-a022-c6ae6b3ca827",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "The Fire Nation Drill",
+    "uuid": "10275615-0113-5dad-a043-4c44d44c97b8",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{B}{B}"
+  },
+  {
+    "name": "Fire Nation Engineer",
+    "uuid": "d7e16847-324d-5d8e-b416-661f025f7393",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Fire Navy Trebuchet",
+    "uuid": "4cdbf8a4-fdb0-5d85-afa0-776698a7c8e3",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Foggy Swamp Hunters",
+    "uuid": "f201fe55-d34a-5a59-ab86-5911f5e1ee03",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{B}"
+  },
+  {
+    "name": "Foggy Swamp Visions",
+    "uuid": "a3436776-9b2c-551f-adaf-cdff46e33b01",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{1}{B}{B}"
+  },
+  {
+    "name": "Heartless Act",
+    "uuid": "d7500517-0cd1-59b4-8b01-885e5dd5cac0",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Hog-Monkey",
+    "uuid": "6e180c3d-6f1a-5b51-8116-2d6f4376cffd",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Joo Dee, One of Many",
+    "uuid": "d2413c0f-ce93-563e-9177-b6100c17dea1",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "June, Bounty Hunter",
+    "uuid": "4b2ae968-5328-55a4-b81f-f866a94cc211",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Koh, the Face Stealer",
+    "uuid": "d35856cb-fffc-5fb0-92b3-cd686a4ed307",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{B}{B}"
+  },
+  {
+    "name": "Lo and Li, Twin Tutors",
+    "uuid": "8e672ed5-2f72-540e-9b89-1480c8619b3c",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{B}"
+  },
+  {
+    "name": "Mai, Scornful Striker",
+    "uuid": "0f15e5c1-0525-5039-9ee1-079f79918f38",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Merchant of Many Hats",
+    "uuid": "8b8210e3-c635-5042-aa80-e3041dce59ce",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Northern Air Temple",
+    "uuid": "2f9c975c-d4b6-5b3b-a551-026efb82f6a0",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{B}"
+  },
+  {
+    "name": "Obsessive Pursuit",
+    "uuid": "8a4d0ce5-4ce0-5d1a-aefa-8dff0c65f3b6",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Ozai's Cruelty",
+    "uuid": "c4b101d4-d5c9-513d-8ea2-65058ee52170",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Phoenix Fleet Airship",
+    "uuid": "b0e2397f-cfff-53bd-96c2-589310b8dd42",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{B}{B}"
+  },
+  {
+    "name": "Pirate Peddlers",
+    "uuid": "3605fea0-57a4-51e2-b5db-00c0cd59d2f6",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Raven Eagle",
+    "uuid": "95043de2-888d-504c-98ca-9136649bb3f1",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "The Rise of Sozin // Fire Lord Sozin",
+    "uuid": "c093d624-930a-5af5-b86d-d90a61c66b38",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{4}{B}{B}"
+  },
+  {
+    "name": "The Rise of Sozin // Fire Lord Sozin",
+    "uuid": "d419daaf-d290-5aff-940d-9ac0c189e486",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Ruinous Waterbending",
+    "uuid": "b22a2bb7-c409-5e6f-aaf3-3ca137d34e69",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{1}{B}{B}"
+  },
+  {
+    "name": "Sold Out",
+    "uuid": "beece50e-75b8-5c60-acdb-ad76db66d921",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{3}{B}"
+  },
+  {
+    "name": "Swampsnare Trap",
+    "uuid": "8ffcc49b-a543-5bfa-8c17-e5db4f4913f1",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Tundra Tank",
+    "uuid": "7be12d1b-b2de-5164-bb45-97e2bb51829e",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Wolfbat",
+    "uuid": "a8ff7c78-aec3-5f66-b787-cafee81cfe5c",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Zuko's Conviction",
+    "uuid": "42175074-111f-5af2-9bc0-65d8949dec25",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{B}"
+  },
+  {
+    "name": "Boar-q-pine",
+    "uuid": "8a91c01c-308d-5e22-85a0-d7ae90096e1e",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Bumi Bash",
+    "uuid": "e3e6f878-a591-5eb1-a813-98be55e7d52f",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{R}"
+  },
+  {
+    "name": "The Cave of Two Lovers",
+    "uuid": "b32b3f23-76c9-565e-8520-a8335dfb5fd3",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{3}{R}"
+  },
+  {
+    "name": "Combustion Man",
+    "uuid": "936f0cb8-edd1-53e4-ba83-c23a09a1f32a",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}{R}"
+  },
+  {
+    "name": "Combustion Technique",
+    "uuid": "f3eeea29-c1e3-5885-9b2f-3c7b4ec61f6b",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Crescent Island Temple",
+    "uuid": "f74b1955-f6de-5ce1-84cc-23267a4b1799",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{3}{R}"
+  },
+  {
+    "name": "Cunning Maneuver",
+    "uuid": "b622b374-5fef-59bc-812f-30f04a82e9ff",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Deserter's Disciple",
+    "uuid": "baf813e4-db62-586f-b96c-541bf20c5b5b",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Fated Firepower",
+    "uuid": "cd356960-884d-51a6-a15d-3e8276b97ebc",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{X}{R}{R}{R}"
+  },
+  {
+    "name": "Fire Nation Attacks",
+    "uuid": "ebfce62b-b5ea-52c6-a129-64568390a3f4",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{4}{R}"
+  },
+  {
+    "name": "Fire Nation Cadets",
+    "uuid": "101dccf8-884a-5e01-aa1f-8eeb94e2243f",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{R}"
+  },
+  {
+    "name": "Fire Nation Raider",
+    "uuid": "d22a3184-2916-50b1-9636-b55ea18518ef",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}"
+  },
+  {
+    "name": "Fire Sages",
+    "uuid": "4cae08b9-9b83-5685-b06f-39e0638704fc",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Firebender Ascension",
+    "uuid": "f5a7b16e-748d-5855-83ce-8149f22d2682",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Firebending Lesson",
+    "uuid": "768914cc-69e0-5fc2-9b7a-b90dc66bf9dc",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{R}"
+  },
+  {
+    "name": "Firebending Student",
+    "uuid": "d3a3dd46-2880-55a7-90dc-882f63a6e562",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "How to Start a Riot",
+    "uuid": "e19b2be2-a632-5e2e-8387-39a845ff6e71",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Iroh's Demonstration",
+    "uuid": "558cc7e3-2a09-55a8-ab06-e6dd38daa5e8",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Jeong Jeong, the Deserter",
+    "uuid": "e554b84d-aec4-56ae-b49d-9c50fd6f15b7",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Jet's Brainwashing",
+    "uuid": "e59c45a8-fa5e-5296-95f3-01ccd781b447",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{R}"
+  },
+  {
+    "name": "The Last Agni Kai",
+    "uuid": "ae525935-7e40-599e-883a-b74dc6f3d3c4",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "The Legend of Roku // Avatar Roku",
+    "uuid": "57327dc4-f787-5599-bf8b-1b699465cf83",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{2}{R}{R}"
+  },
+  {
+    "name": "The Legend of Roku // Avatar Roku",
+    "uuid": "3985d642-c93a-5e15-a2aa-a0342ead37b4",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Lightning Strike",
+    "uuid": "19f845cd-da78-5f5a-a215-41bad95de1d2",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Mai, Jaded Edge",
+    "uuid": "eb2471a2-4571-57fc-a072-f3805eb311e6",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Mongoose Lizard",
+    "uuid": "0c7333dd-289f-5132-a0e6-440defc2eb6d",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{R}{R}"
+  },
+  {
+    "name": "Price of Freedom",
+    "uuid": "086f3893-c1d1-5bfa-97ca-31a9926cf112",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Ran and Shaw",
+    "uuid": "56c5c8e4-bfd4-5cf6-b3ca-f32109558628",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}{R}"
+  },
+  {
+    "name": "Redirect Lightning",
+    "uuid": "8543299b-82f7-53c7-b2e7-9a4403476d68",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{R}"
+  },
+  {
+    "name": "Rough Rhino Cavalry",
+    "uuid": "080c2416-ae8d-528f-8dac-94a2fdadd149",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{R}"
+  },
+  {
+    "name": "Solstice Revelations",
+    "uuid": "9f1f24f8-aa46-556d-9190-b1d33452c897",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Sozin's Comet",
+    "uuid": "84f91893-52ed-584b-b877-4eca43d56389",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{R}{R}"
+  },
+  {
+    "name": "Tiger-Dillo",
+    "uuid": "a9260bf1-f251-59f3-9330-0344d69d840a",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Treetop Freedom Fighters",
+    "uuid": "e6c60ad7-59c3-5050-a7e8-85269abb6010",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Twin Blades",
+    "uuid": "82dfb7ba-3aba-543a-827e-c5bf09a5ab92",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Ty Lee, Artful Acrobat",
+    "uuid": "f7da64c7-6434-5c9b-9854-e0a0fe1dda22",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "War Balloon",
+    "uuid": "7d28bc7b-078b-5be9-bac2-f71b8ffc0d82",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{R}"
+  },
+  {
+    "name": "Wartime Protestors",
+    "uuid": "b04430ec-efcf-5717-8598-051d8af6d1d6",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}"
+  },
+  {
+    "name": "Yuyan Archers",
+    "uuid": "ff12eb1c-6e28-5448-aeae-1b015b34714e",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Zhao, the Moon Slayer",
+    "uuid": "3660c2d0-ce55-5fa5-bb6a-456f7fc3cb48",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Zuko, Exiled Prince",
+    "uuid": "31ab91f3-c2cd-576a-81fe-e2a89c6a8cba",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}"
+  },
+  {
+    "name": "Allies at Last",
+    "uuid": "86891360-793b-501f-8a97-ce279639fb6c",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Avatar Destiny",
+    "uuid": "9e32fb7f-47bc-52f7-91f8-0e008abd560a",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{2}{G}{G}"
+  },
+  {
+    "name": "Badgermole",
+    "uuid": "0371ee84-a321-5318-8bf8-c380fb8905c3",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{G}"
+  },
+  {
+    "name": "Badgermole Cub",
+    "uuid": "7be44e2c-c3e4-546d-af05-1df626a264c7",
+    "rarity": "mythic",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "The Boulder, Ready to Rumble",
+    "uuid": "7ef33efa-b120-5a46-8007-8a213bba9b26",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}"
+  },
+  {
+    "name": "Bumi, King of Three Trials",
+    "uuid": "eda6a8a7-898b-5663-bdcf-2428f7466f28",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{5}{G}"
+  },
+  {
+    "name": "Cycle of Renewal",
+    "uuid": "9dd06d5e-823b-50b1-80d1-e2b89b6a6ab6",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Diligent Zookeeper",
+    "uuid": "3b055a7f-7ce3-5abe-8fed-296dbd6a9f95",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}"
+  },
+  {
+    "name": "The Earth King",
+    "uuid": "e1a99ed3-5d6f-55ca-8501-06c0c21690f9",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}"
+  },
+  {
+    "name": "Earth Kingdom General",
+    "uuid": "fb7beaf4-982e-5421-a72a-bf9dcc35c8ac",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}"
+  },
+  {
+    "name": "Earth Rumble",
+    "uuid": "71069dc3-1455-5e61-aa84-7fa4f14136c2",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{G}"
+  },
+  {
+    "name": "Earthbender Ascension",
+    "uuid": "88ddc1d0-c859-5251-8e8b-7d2caec47c0b",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Earthbending Lesson",
+    "uuid": "17b6a9d8-de10-5d62-a513-dd6a19b145f4",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{G}"
+  },
+  {
+    "name": "Earthen Ally",
+    "uuid": "e908a6aa-ba4b-517a-a670-ed595090893b",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{G}"
+  },
+  {
+    "name": "Elemental Teachings",
+    "uuid": "6601a19f-d2b2-5260-9170-f5f6c0d1291c",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{4}{G}"
+  },
+  {
+    "name": "Flopsie, Bumi's Buddy",
+    "uuid": "efb3a1a2-b978-5a1c-b677-4cecc28c9c99",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{G}{G}"
+  },
+  {
+    "name": "Foggy Swamp Vinebender",
+    "uuid": "416e72c7-cebd-57f5-9a0e-f8cd5fd2e2e9",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}"
+  },
+  {
+    "name": "Great Divide Guide",
+    "uuid": "2d135290-3f8b-51fa-a4c6-c80bdfae3119",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Haru, Hidden Talent",
+    "uuid": "b9b63c30-7858-5947-aa97-d6d2fdfb1311",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Invasion Tactics",
+    "uuid": "6c182de5-1b61-50ba-af65-5076681b0ade",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{4}{G}"
+  },
+  {
+    "name": "Kyoshi Island Plaza",
+    "uuid": "dc1d4b98-6fd2-5d96-8de8-99de4bea28e1",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{3}{G}"
+  },
+  {
+    "name": "Leaves from the Vine",
+    "uuid": "dbada988-511d-5312-9b2e-efe39b60e0f4",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "The Legend of Kyoshi // Avatar Kyoshi",
+    "uuid": "4f107cf0-11c9-576c-9c2e-0dddfd4c51d9",
+    "rarity": "mythic",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{4}{G}{G}"
+  },
+  {
+    "name": "The Legend of Kyoshi // Avatar Kyoshi",
+    "uuid": "e446776c-1f7b-512c-8232-6608372c3bb0",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Origin of Metalbending",
+    "uuid": "7c0c6c83-973b-5085-8c35-29e73257996f",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Ostrich-Horse",
+    "uuid": "911b1250-6802-5513-a6d5-83433e47ddc6",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Pillar Launch",
+    "uuid": "a5dd8ed8-7cd3-526b-879d-4b434a1af81c",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{G}"
+  },
+  {
+    "name": "Raucous Audience",
+    "uuid": "9936adbf-a9b0-5eb1-b369-f4c1ff315653",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Rebellious Captives",
+    "uuid": "f7cea9c2-da9c-56cc-8ef8-94ac9211526b",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Rockalanche",
+    "uuid": "4a7964de-2966-5bea-a260-999bbebb90e8",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Rocky Rebuke",
+    "uuid": "8583c986-d0cb-5a4c-8ba1-ccb203743e83",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Saber-Tooth Moose-Lion",
+    "uuid": "8c9b85a0-6eb2-5ecb-9acc-c7d6aa0b4a2a",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{G}{G}"
+  },
+  {
+    "name": "Seismic Sense",
+    "uuid": "4055d3be-a450-50db-bf8d-474ecad37d7d",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{G}"
+  },
+  {
+    "name": "Shared Roots",
+    "uuid": "98a0ed59-595a-5811-94a8-af091125cd24",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Sparring Dummy",
+    "uuid": "a717c587-656f-5fc9-a1b8-3640c0a6493a",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Toph, the Blind Bandit",
+    "uuid": "58ec2e64-efea-5941-86c7-8f73468bf0b2",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "True Ancestry",
+    "uuid": "7b10601a-d9f1-5788-a8ca-e6d309ad6912",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Turtle-Duck",
+    "uuid": "58e63f24-2aa7-5f75-9555-8249ebe26886",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{G}"
+  },
+  {
+    "name": "Unlucky Cabbage Merchant",
+    "uuid": "29f100d0-621a-5804-93a2-e799bf603167",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Walltop Sentries",
+    "uuid": "0176c95a-ed88-5b6c-96ee-b8172d6c70aa",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Aang, at the Crossroads // Aang, Destined Savior",
+    "uuid": "52b87eee-7ac7-5351-8cb9-b5e11bcc18a7",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{G}{W}{U}"
+  },
+  {
+    "name": "Aang, at the Crossroads // Aang, Destined Savior",
+    "uuid": "c6f12438-af49-57c4-9b46-985d7ce8340c",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Aang, Swift Savior // Aang and La, Ocean's Fury",
+    "uuid": "f8caa4f8-01ac-5ab7-af75-1ee021dc0762",
+    "rarity": "rare",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}{U}"
+  },
+  {
+    "name": "Aang, Swift Savior // Aang and La, Ocean's Fury",
+    "uuid": "3910d345-c4a4-5311-bf35-3caa972ad07e",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Abandon Attachments",
+    "uuid": "7da35d1a-a633-5464-a965-57028f5d331e",
+    "rarity": "common",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{U/R}"
+  },
+  {
+    "name": "Air Nomad Legacy",
+    "uuid": "958f8607-198f-5938-bc4e-393e75ccb100",
+    "rarity": "uncommon",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{W}{U}"
+  },
+  {
+    "name": "Avatar Aang // Aang, Master of Elements",
+    "uuid": "60e0dcc0-73dc-5dbb-97e8-9d3456f03dd7",
+    "rarity": "mythic",
+    "colors": [
+      "G",
+      "R",
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{R}{G}{W}{U}"
+  },
+  {
+    "name": "Avatar Aang // Aang, Master of Elements",
+    "uuid": "5d24cc49-eda8-5dc3-b00b-8b33e2834e1a",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Azula, Cunning Usurper",
+    "uuid": "49388d79-ebd5-5fca-9882-d5ac3a7b4149",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}{B}{B}"
+  },
+  {
+    "name": "Beifong's Bounty Hunters",
+    "uuid": "2945f6f3-5b4f-57e6-8b89-bce5beaf7015",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{G}"
+  },
+  {
+    "name": "Bitter Work",
+    "uuid": "b8262d91-32d7-5e78-8192-7fe8882fc806",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{1}{R}{G}"
+  },
+  {
+    "name": "Bumi, Unleashed",
+    "uuid": "0d3cf771-cde0-5587-b82e-a5298403920c",
+    "rarity": "mythic",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}{G}"
+  },
+  {
+    "name": "Cat-Owl",
+    "uuid": "a35980d3-98ec-571c-80c6-89f9c4c07558",
+    "rarity": "common",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{W/U}"
+  },
+  {
+    "name": "Cruel Administrator",
+    "uuid": "49860d80-ba96-535a-9160-88d40a5f115d",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{B}{R}"
+  },
+  {
+    "name": "Dai Li Agents",
+    "uuid": "3c8b4e69-ae3a-54f7-9079-6d3f4ad844eb",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{B}{G}"
+  },
+  {
+    "name": "Dragonfly Swarm",
+    "uuid": "dae9d4e5-633f-5387-b756-9727bd1fbd6b",
+    "rarity": "uncommon",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}{R}"
+  },
+  {
+    "name": "Earth Kingdom Soldier",
+    "uuid": "d8575081-ffc8-505f-89d3-19b84f550460",
+    "rarity": "common",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{G/W}"
+  },
+  {
+    "name": "Earth King's Lieutenant",
+    "uuid": "91cc1cda-8775-579e-8db0-d17e1639c07f",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{G}{W}"
+  },
+  {
+    "name": "Earth Rumble Wrestlers",
+    "uuid": "4e6d8aec-a1c7-55b3-867b-c551e7182c5d",
+    "rarity": "common",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R/G}"
+  },
+  {
+    "name": "Earth Village Ruffians",
+    "uuid": "9d9e3854-a087-5e5f-b20c-ae2571338efe",
+    "rarity": "common",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B/G}"
+  },
+  {
+    "name": "Fire Lord Azula",
+    "uuid": "34019706-f154-5fc8-a836-5d48e55fcf21",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}{B}{R}"
+  },
+  {
+    "name": "Fire Lord Zuko",
+    "uuid": "a68b337f-4645-5c4c-ba76-aecbb8727d37",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{R}{W}{B}"
+  },
+  {
+    "name": "Foggy Swamp Spirit Keeper",
+    "uuid": "243d801b-a395-5c97-bc6c-5ad72f252131",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}{B}"
+  },
+  {
+    "name": "Guru Pathik",
+    "uuid": "c08676c8-4ec5-5d45-8244-03b410a1df6b",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{G/U}{G/U}"
+  },
+  {
+    "name": "Hama, the Bloodbender",
+    "uuid": "c3f668ff-0000-504d-a4d4-c5bbad47c3f4",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U/B}{U/B}{U/B}"
+  },
+  {
+    "name": "Hei Bai, Spirit of Balance",
+    "uuid": "1ce48d2e-4e92-5523-9801-2d9c1e8da706",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W/B}{W/B}"
+  },
+  {
+    "name": "Hermitic Herbalist",
+    "uuid": "1cad62bc-07b5-56bf-b90f-88ed16eb5b99",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{G}{U}"
+  },
+  {
+    "name": "Iroh, Grand Lotus",
+    "uuid": "904c2071-f446-5c7a-a55d-4d8f2b3d0147",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}{U}{R}"
+  },
+  {
+    "name": "Iroh, Tea Master",
+    "uuid": "36f79026-030f-5af4-94b1-0a7ed1935c09",
+    "rarity": "rare",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{W}"
+  },
+  {
+    "name": "Jet, Freedom Fighter",
+    "uuid": "3e7df4d4-b9dc-5c15-9544-410a72ea0b40",
+    "rarity": "uncommon",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R/W}{R/W}{R/W}"
+  },
+  {
+    "name": "Katara, the Fearless",
+    "uuid": "98c89126-c2f2-559e-8f8b-05e97ecff132",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{G}{W}{U}"
+  },
+  {
+    "name": "Katara, Water Tribe's Hope",
+    "uuid": "01c56a0c-d2ed-5af5-be47-29c2f84ede91",
+    "rarity": "rare",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{U}{U}"
+  },
+  {
+    "name": "The Lion-Turtle",
+    "uuid": "02fe4019-ae2e-53fc-b011-46dec318bde8",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}{U}"
+  },
+  {
+    "name": "Long Feng, Grand Secretariat",
+    "uuid": "cacdcd97-301d-54af-9a98-f1cff23467ba",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{B/G}{B/G}"
+  },
+  {
+    "name": "Messenger Hawk",
+    "uuid": "f7e688a5-0912-59e1-96a3-7d05d4f9051e",
+    "rarity": "common",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U/B}"
+  },
+  {
+    "name": "Ozai, the Phoenix King",
+    "uuid": "fb1ab33e-860d-55a5-8b12-bba48d47bbbc",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{B}{R}{R}"
+  },
+  {
+    "name": "Platypus-Bear",
+    "uuid": "76d70ede-6a05-580a-9f12-5aec082b5fab",
+    "rarity": "common",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G/U}"
+  },
+  {
+    "name": "Pretending Poxbearers",
+    "uuid": "37f35666-52fe-5099-819e-64bc6553b36e",
+    "rarity": "common",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W/B}"
+  },
+  {
+    "name": "Professor Zei, Anthropologist",
+    "uuid": "0d694d88-d0f9-5ddd-aa7f-1d4e1f585ae5",
+    "rarity": "uncommon",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{U/R}{U/R}"
+  },
+  {
+    "name": "Sandbender Scavengers",
+    "uuid": "c2ea4b39-5753-5c22-9b09-64970e305a42",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}{B}"
+  },
+  {
+    "name": "Sokka, Bold Boomeranger",
+    "uuid": "73310509-b53c-5478-9ddf-9638154f1102",
+    "rarity": "rare",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{U}{R}"
+  },
+  {
+    "name": "Sokka, Lateral Strategist",
+    "uuid": "8ad4de0e-e377-58a5-9951-04dc8c1720b8",
+    "rarity": "uncommon",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W/U}{W/U}"
+  },
+  {
+    "name": "Sokka, Tenacious Tactician",
+    "uuid": "d207d552-0efe-5371-b830-8ac61831d2ef",
+    "rarity": "rare",
+    "colors": [
+      "R",
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}{R}{W}"
+  },
+  {
+    "name": "Suki, Kyoshi Warrior",
+    "uuid": "418e70d5-32d4-5ce9-8dda-b12783003292",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{G/W}{G/W}"
+  },
+  {
+    "name": "Sun Warriors",
+    "uuid": "b3e6727d-5ba1-5327-a42f-f1fd3e0dc2d0",
+    "rarity": "uncommon",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}{W}"
+  },
+  {
+    "name": "Tolls of War",
+    "uuid": "f46829e9-1083-5b42-b787-c9043de6a09b",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{W}{B}"
+  },
+  {
+    "name": "Toph, Hardheaded Teacher",
+    "uuid": "1e7f20cb-d4f0-54d0-a9f2-fe6263014b2d",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}{G}"
+  },
+  {
+    "name": "Toph, the First Metalbender",
+    "uuid": "19c1139e-9cef-5418-8f7d-22c46e899b43",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{G}{W}"
+  },
+  {
+    "name": "Uncle Iroh",
+    "uuid": "aed55f90-39b9-53dd-ab03-5005fb8bba1a",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R/G}{R/G}"
+  },
+  {
+    "name": "Vindictive Warden",
+    "uuid": "a9dc0b5d-7a78-564a-84f6-32f011096d57",
+    "rarity": "common",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B/R}"
+  },
+  {
+    "name": "Wandering Musicians",
+    "uuid": "51cc9284-f318-5412-9d74-8e8012e44ff9",
+    "rarity": "common",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R/W}"
+  },
+  {
+    "name": "White Lotus Reinforcements",
+    "uuid": "b1d0c005-3d34-5294-b7aa-95647fcc182f",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}{W}"
+  },
+  {
+    "name": "Zhao, Ruthless Admiral",
+    "uuid": "43e1dc7b-5d28-5604-9998-1959b09c48f1",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B/R}{B/R}"
+  },
+  {
+    "name": "Zuko, Conflicted",
+    "uuid": "82f55a34-b7da-5b4c-96f4-550b0ab56660",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{B}{R}"
+  },
+  {
+    "name": "Barrels of Blasting Jelly",
+    "uuid": "72b8a11b-d238-545a-b2f4-4bdc1f994289",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{1}"
+  },
+  {
+    "name": "Bender's Waterskin",
+    "uuid": "039b9a3c-dec1-53e4-a4e0-5809b3f06298",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{3}"
+  },
+  {
+    "name": "Fire Nation Warship",
+    "uuid": "36f85221-4d19-53fe-8029-669cf45e400f",
+    "rarity": "uncommon",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{3}"
+  },
+  {
+    "name": "Kyoshi Battle Fan",
+    "uuid": "0b544a38-63f3-51a6-8858-0d62a1374ec3",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}"
+  },
+  {
+    "name": "Meteor Sword",
+    "uuid": "757b3ecb-715d-5d1d-8ce1-2026f3d91012",
+    "rarity": "uncommon",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{7}"
+  },
+  {
+    "name": "Planetarium of Wan Shi Tong",
+    "uuid": "51654f1b-1859-5e27-93d0-f18b7bae3109",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{6}"
+  },
+  {
+    "name": "Trusty Boomerang",
+    "uuid": "df5b225f-18bc-57e1-a8c2-27b7279ced35",
+    "rarity": "uncommon",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{1}"
+  },
+  {
+    "name": "The Walls of Ba Sing Se",
+    "uuid": "41294dd8-6c0d-5657-9ecb-c7e94e0bc479",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "manaCost": "{8}"
+  },
+  {
+    "name": "White Lotus Tile",
+    "uuid": "65e42380-9e52-590f-8b41-b84dd656df5f",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{4}"
+  },
+  {
+    "name": "Abandoned Air Temple",
+    "uuid": "9192c3aa-563d-5130-8215-ce58dd7a653c",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Agna Qel'a",
+    "uuid": "a67385cd-4ec1-5e43-ab40-0403a6e2fb3b",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Airship Engine Room",
+    "uuid": "14e52bfb-7726-587f-9b27-6de73d2b92a4",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Ba Sing Se",
+    "uuid": "519b37a4-1705-5a1e-b181-763b36d43c9a",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Boiling Rock Prison",
+    "uuid": "206c5d0d-5047-5488-9b84-eee44da97e27",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Fire Nation Palace",
+    "uuid": "dc947e4b-b1c4-51a9-b17e-1d1d61b61861",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Foggy Bottom Swamp",
+    "uuid": "a9c6fea6-bc19-555f-b5c8-5d55b460e3b7",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Jasmine Dragon Tea Shop",
+    "uuid": "a68da1ab-8d83-51d8-bec9-dfb95931cde8",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Kyoshi Village",
+    "uuid": "c5784844-c878-5850-8ac3-85b3e6fd370c",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Meditation Pools",
+    "uuid": "c932777f-f928-55ed-8e2f-0765daf7c5c4",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Misty Palms Oasis",
+    "uuid": "1b12893a-9d23-556a-9fc7-5a323751494b",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "North Pole Gates",
+    "uuid": "e7e4e9a2-11fa-54c9-ab82-1277df61402b",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Omashu City",
+    "uuid": "dfba6258-2a02-5b1c-bebe-38ee5772b500",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Realm of Koh",
+    "uuid": "70c25307-ecf0-5870-94a6-a01621aa3a0e",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Rumble Arena",
+    "uuid": "faea691e-3ed1-5246-a360-c54ea98e641f",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Secret Tunnel",
+    "uuid": "075af7e1-cf8a-5da5-9c69-a1c984b23edd",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Serpent's Pass",
+    "uuid": "56ef997d-9e8b-5448-9791-487a1f541e2b",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Sun-Blessed Peak",
+    "uuid": "0fad31dd-db7a-5252-a475-c8a80d10f560",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "White Lotus Hideout",
+    "uuid": "1afc0384-c472-58ce-84c7-7ae8fbb2c9ba",
+    "rarity": "uncommon",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Plains",
+    "uuid": "f046cead-5455-59be-ba7a-84771579fd1a",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Island",
+    "uuid": "d22a7c25-580d-55d5-97fe-23a6dd5d884a",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Swamp",
+    "uuid": "0b804258-3cd7-5548-acc5-b077a5b7fd32",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Mountain",
+    "uuid": "289de300-57a3-5d75-b8b4-bf7bf71e1dba",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Forest",
+    "uuid": "ee5b3863-d52e-5264-b067-855d6f84e826",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Plains",
+    "uuid": "94259875-8097-58d3-9543-bf6468d5d5b0",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Island",
+    "uuid": "926ac7e1-76f9-5c2f-af5b-51be142f8e8a",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Swamp",
+    "uuid": "dbfb3e94-9a17-5451-a464-b87848c2527e",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Mountain",
+    "uuid": "3dd27fbe-3dac-5720-8a98-1ec78613f5f9",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Forest",
+    "uuid": "e2b8f3d6-f222-58f7-81a4-36384972f752",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Plains",
+    "uuid": "b2d82ec0-bda2-5a2c-919f-b9e3f5881915",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Island",
+    "uuid": "a204db24-9ca4-5a74-9f93-33db710a31a7",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Swamp",
+    "uuid": "cdd6a0bf-891a-5ebe-834e-0bfb31096431",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Mountain",
+    "uuid": "84407adb-031f-587c-9849-d6518fbb7d39",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Forest",
+    "uuid": "02d89230-1b8e-5a8b-9b42-6d004ff04772",
+    "rarity": "common",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Fated Firepower",
+    "uuid": "769e07e8-43d0-5842-8fe8-074ccca0b2f7",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{X}{R}{R}{R}"
+  },
+  {
+    "name": "Aang, Swift Savior // Aang and La, Ocean's Fury",
+    "uuid": "fc6cf7cc-c356-58a2-80bd-4bc63cbdb61e",
+    "rarity": "rare",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}{U}"
+  },
+  {
+    "name": "Aang, Swift Savior // Aang and La, Ocean's Fury",
+    "uuid": "2c4ab295-06d7-53f7-b950-4d943d9058d5",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Fire Nation Attacks",
+    "uuid": "19a3b155-3db6-5c0c-85de-85c086d24878",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{4}{R}"
+  },
+  {
+    "name": "Crashing Wave",
+    "uuid": "b6b42750-7725-5dc4-998b-3b930e780c96",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{U}{U}"
+  },
+  {
+    "name": "Combustion Technique",
+    "uuid": "0a8d3d8c-8a21-5eae-8097-a2c71848b000",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Zuko, Conflicted",
+    "uuid": "da331b08-9e72-51af-b844-3c259d05cb84",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{B}{R}"
+  },
+  {
+    "name": "Azula, Cunning Usurper",
+    "uuid": "6a4bd3b6-aa9e-5779-adaf-21f4d9267b72",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}{B}{B}"
+  },
+  {
+    "name": "Aang, at the Crossroads // Aang, Destined Savior",
+    "uuid": "7e87c66e-ac2e-5327-a3cc-0f3dda305bac",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{G}{W}{U}"
+  },
+  {
+    "name": "Aang, at the Crossroads // Aang, Destined Savior",
+    "uuid": "c64379a9-8d1c-5769-90a7-e1f7025bdf6f",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Katara, the Fearless",
+    "uuid": "bafc0d1d-4130-5c2d-b10b-29b64cb6daf9",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{G}{W}{U}"
+  },
+  {
+    "name": "Dai Li Agents",
+    "uuid": "11132b37-81a6-54c9-bb53-a24d37e39353",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{B}{G}"
+  },
+  {
+    "name": "Earthbender Ascension",
+    "uuid": "bf4a41cc-2675-56ec-a120-9f8e7a1f863a",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{2}{G}"
+  },
+  {
+    "name": "Avatar Aang // Aang, Master of Elements",
+    "uuid": "8506075a-e8e7-55f3-8ee8-3d67c7b3d99a",
+    "rarity": "mythic",
+    "colors": [
+      "G",
+      "R",
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{R}{G}{W}{U}"
+  },
+  {
+    "name": "Avatar Aang // Aang, Master of Elements",
+    "uuid": "56433d18-b6fb-5071-b8bc-a760e8af7138",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Sozin's Comet",
+    "uuid": "92f23baa-e669-5e30-84fd-56b6d2a8dc04",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{R}{R}"
+  },
+  {
+    "name": "Waterbender Ascension",
+    "uuid": "a9177899-ac28-527a-a961-213869ecf6bf",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{1}{U}"
+  },
+  {
+    "name": "Ozai, the Phoenix King",
+    "uuid": "53f78467-68dc-5a28-a5cf-5047e8abe2e1",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{B}{R}{R}"
+  },
+  {
+    "name": "Firebender Ascension",
+    "uuid": "c11051c9-deea-5bf7-bad6-96af925e5a2b",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Fire Lord Azula",
+    "uuid": "8e464141-247a-5e86-86d9-8cbba026ffa8",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}{B}{R}"
+  },
+  {
+    "name": "The Last Agni Kai",
+    "uuid": "9b90b797-4962-5bef-8f69-670dbcabe9d8",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Fire Lord Zuko",
+    "uuid": "016137ee-2161-5d33-a660-3fc7a7d604de",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{R}{W}{B}"
+  },
+  {
+    "name": "Appa, Steadfast Guardian",
+    "uuid": "db8de6b6-fea5-547c-a0d5-3e0d17f52459",
+    "rarity": "mythic",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{W}"
+  },
+  {
+    "name": "Momo, Friendly Flier",
+    "uuid": "6089e9f3-f12a-52f7-9732-8c7038fcdc36",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}"
+  },
+  {
+    "name": "Tiger-Seal",
+    "uuid": "bf509c48-3c65-57a0-aa28-698af539ae7f",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{U}"
+  },
+  {
+    "name": "The Unagi of Kyoshi Island",
+    "uuid": "aa1d0202-da2a-53b3-8f81-96bba9a5730d",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{U}{U}"
+  },
+  {
+    "name": "Wan Shi Tong, Librarian",
+    "uuid": "86e2944d-0bfb-530f-93c4-bf2ab93cbb57",
+    "rarity": "mythic",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{X}{U}{U}"
+  },
+  {
+    "name": "The Fire Nation Drill",
+    "uuid": "b62a04cc-acf1-534c-aeb3-fac8fab62ea3",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{B}{B}"
+  },
+  {
+    "name": "Koh, the Face Stealer",
+    "uuid": "e29de138-49c8-5252-94e5-dafbfd9df527",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{4}{B}{B}"
+  },
+  {
+    "name": "Phoenix Fleet Airship",
+    "uuid": "79bd2168-0bd3-5c61-b03d-289d3f690581",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{2}{B}{B}"
+  },
+  {
+    "name": "Raven Eagle",
+    "uuid": "4eb4d93b-0650-57a5-b981-5401a28c4ca4",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Ran and Shaw",
+    "uuid": "65c19faa-c83f-5e1d-b505-bada06750c74",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}{R}"
+  },
+  {
+    "name": "Badgermole Cub",
+    "uuid": "bc6c7611-7719-5739-a2f1-05fa50120935",
+    "rarity": "mythic",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Diligent Zookeeper",
+    "uuid": "c3725f4e-9b5e-51dc-829c-1b5065c98875",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}"
+  },
+  {
+    "name": "The Lion-Turtle",
+    "uuid": "b8589f92-4019-5687-8b9d-63c990994ecd",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}{U}"
+  },
+  {
+    "name": "The Walls of Ba Sing Se",
+    "uuid": "73d9d232-d325-5dac-99e2-704c30baf3c9",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "manaCost": "{8}"
+  },
+  {
+    "name": "White Lotus Tile",
+    "uuid": "51a219f0-fd2d-5ab0-8810-d58e8e5602d8",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{4}"
+  },
+  {
+    "name": "United Front",
+    "uuid": "352300e5-fd58-5178-bd2d-cdac54fd51c0",
+    "rarity": "mythic",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{X}{W}{W}"
+  },
+  {
+    "name": "Sozin's Comet",
+    "uuid": "370889e5-8040-5fb7-aec2-5ee8f1ee451b",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{3}{R}{R}"
+  },
+  {
+    "name": "Avatar Destiny",
+    "uuid": "b696e5c7-95c2-5307-8278-8d65c52213da",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{2}{G}{G}"
+  },
+  {
+    "name": "Fire Lord Azula",
+    "uuid": "f0eec108-d001-571b-b38e-4f8bbea95d75",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}{B}{R}"
+  },
+  {
+    "name": "Ozai, the Phoenix King",
+    "uuid": "919c5c5e-8a6f-5466-bc1a-478e1d44c9b3",
+    "rarity": "mythic",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{B}{R}{R}"
+  },
+  {
+    "name": "Aang's Iceberg",
+    "uuid": "841779ff-d662-5a0c-98d2-ac5d99de14b0",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{2}{W}"
+  },
+  {
+    "name": "Secret of Bloodbending",
+    "uuid": "40ffabac-9ae7-5200-99c8-51af4057d685",
+    "rarity": "mythic",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{U}{U}{U}{U}"
+  },
+  {
+    "name": "Yue, the Moon Spirit",
+    "uuid": "42db94a1-d189-5303-b19b-5ea79fb4b7d0",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{U}"
+  },
+  {
+    "name": "Foggy Swamp Visions",
+    "uuid": "1b374144-fd88-5ce4-bdd3-8907dae62eee",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{1}{B}{B}"
+  },
+  {
+    "name": "Obsessive Pursuit",
+    "uuid": "214a1038-ebe3-50e6-9632-02a827dcf917",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Fated Firepower",
+    "uuid": "e7303e8c-dc23-5f13-b436-42fa7449b300",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{X}{R}{R}{R}"
+  },
+  {
+    "name": "Firebending Student",
+    "uuid": "77c2777a-a185-53df-b1f8-d7dd00525678",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Redirect Lightning",
+    "uuid": "db7629a7-1963-500b-8b56-0cc209ae13b8",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{R}"
+  },
+  {
+    "name": "The Earth King",
+    "uuid": "3defb38b-8a7e-5021-9a6f-f98d5454cdf8",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}"
+  },
+  {
+    "name": "Great Divide Guide",
+    "uuid": "fc9bbeab-627a-5dd3-a994-f659ef68cf50",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{G}"
+  },
+  {
+    "name": "Aang, at the Crossroads // Aang, Destined Savior",
+    "uuid": "e057eb51-7281-5448-b565-13885fbe46a2",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{G}{W}{U}"
+  },
+  {
+    "name": "Aang, at the Crossroads // Aang, Destined Savior",
+    "uuid": "42aef4b8-528c-5d0e-9a55-5e3b6ec36eed",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Aang, Swift Savior // Aang and La, Ocean's Fury",
+    "uuid": "2bec2bb0-d2c8-5b5a-8bbd-e46024940cc0",
+    "rarity": "rare",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}{U}"
+  },
+  {
+    "name": "Aang, Swift Savior // Aang and La, Ocean's Fury",
+    "uuid": "dd972910-31bc-5151-8b54-8b1fd0b253cf",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Bumi, Unleashed",
+    "uuid": "dafedf01-13f3-5d19-8ee4-2489bda14ec7",
+    "rarity": "mythic",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}{G}"
+  },
+  {
+    "name": "Iroh, Grand Lotus",
+    "uuid": "b3dcc13c-1d3c-54d9-9a85-0e9ca6c13a5c",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{G}{U}{R}"
+  },
+  {
+    "name": "Katara, the Fearless",
+    "uuid": "fe690fda-f907-534a-a428-259cb819e57b",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{G}{W}{U}"
+  },
+  {
+    "name": "Katara, Water Tribe's Hope",
+    "uuid": "9d8f1668-b1e3-59e4-93b7-ce1bf06689a1",
+    "rarity": "rare",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{W}{U}{U}"
+  },
+  {
+    "name": "Sokka, Tenacious Tactician",
+    "uuid": "5af02e53-ff82-5c41-b797-1cba2734e417",
+    "rarity": "rare",
+    "colors": [
+      "R",
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{U}{R}{W}"
+  },
+  {
+    "name": "Toph, the First Metalbender",
+    "uuid": "c7d1282a-43e8-597d-ac65-4412d6a3c645",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{G}{W}"
+  },
+  {
+    "name": "The Legend of Yangchen // Avatar Yangchen",
+    "uuid": "4cf797e8-9629-50af-ad15-9da306a29ffc",
+    "rarity": "mythic",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{3}{W}{W}"
+  },
+  {
+    "name": "The Legend of Yangchen // Avatar Yangchen",
+    "uuid": "dd75b8ce-2858-5a02-9466-ba9ed20667cd",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "The Legend of Kuruk // Avatar Kuruk",
+    "uuid": "5e2425ac-2780-5f44-9c56-8c3ca6ecb851",
+    "rarity": "mythic",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{2}{U}{U}"
+  },
+  {
+    "name": "The Legend of Kuruk // Avatar Kuruk",
+    "uuid": "ecd50b42-755b-5871-8593-b25cca232167",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "The Rise of Sozin // Fire Lord Sozin",
+    "uuid": "f7cbb329-211e-5738-b0c7-c1520c561cd3",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{4}{B}{B}"
+  },
+  {
+    "name": "The Rise of Sozin // Fire Lord Sozin",
+    "uuid": "48d7d6bd-1148-5fd0-bc11-e3bbaba463d7",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "The Legend of Roku // Avatar Roku",
+    "uuid": "c9881c0e-523b-52a3-ad9f-4a0afe80f842",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{2}{R}{R}"
+  },
+  {
+    "name": "The Legend of Roku // Avatar Roku",
+    "uuid": "48a7b071-d5d6-5c69-8abe-21d317c9f813",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "The Legend of Kyoshi // Avatar Kyoshi",
+    "uuid": "c743ef29-dd16-52c4-b4ef-70d96d7765aa",
+    "rarity": "mythic",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{4}{G}{G}"
+  },
+  {
+    "name": "The Legend of Kyoshi // Avatar Kyoshi",
+    "uuid": "7446db7c-e224-5cc0-8b1f-7d0ce821f529",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Aang, Swift Savior // Aang and La, Ocean's Fury",
+    "uuid": "93a762b0-d06a-531a-8971-bb5d7fe8967a",
+    "rarity": "rare",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}{U}"
+  },
+  {
+    "name": "Aang, Swift Savior // Aang and La, Ocean's Fury",
+    "uuid": "66748b51-a88c-5a4b-b140-d28ad749457b",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Fire Lord Zuko",
+    "uuid": "8ce813a0-70ad-58a8-935f-70729706b0e2",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{R}{W}{B}"
+  },
+  {
+    "name": "Katara, the Fearless",
+    "uuid": "ba45eef9-123b-5b02-bcae-999e23049e2e",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{G}{W}{U}"
+  },
+  {
+    "name": "Toph, the First Metalbender",
+    "uuid": "8d578f99-927e-5f6c-bb95-981e00869ed6",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{G}{W}"
+  },
+  {
+    "name": "Avatar Aang // Aang, Master of Elements",
+    "uuid": "59111f74-e8ce-5736-b546-1d182db2f18c",
+    "rarity": "mythic",
+    "colors": [
+      "G",
+      "R",
+      "U",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{R}{G}{W}{U}"
+  },
+  {
+    "name": "Avatar Aang // Aang, Master of Elements",
+    "uuid": "efbb83b8-9cd3-5f7b-bf83-cd638635e2b9",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Airbender Ascension",
+    "uuid": "e4756b70-2428-5d4f-a5ce-739f63f8babd",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Enchantment"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Avatar's Wrath",
+    "uuid": "35c119c6-74e4-56af-996e-59438070a6f2",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{2}{W}{W}"
+  },
+  {
+    "name": "Hakoda, Selfless Commander",
+    "uuid": "e5238c64-c8f6-5991-be3e-e038191e6e50",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{W}"
+  },
+  {
+    "name": "South Pole Voyager",
+    "uuid": "e599fc71-d427-509d-acaa-5f200f0adbb9",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}"
+  },
+  {
+    "name": "Suki, Courageous Rescuer",
+    "uuid": "542db609-066c-586d-8c5a-e114fffcf5a4",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{W}{W}"
+  },
+  {
+    "name": "The Mechanist, Aerial Artisan",
+    "uuid": "14bef63b-45b1-57c9-ba37-e012fc887aae",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Spirit Water Revival",
+    "uuid": "903817bf-13e4-587c-96de-510ba0abf521",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{1}{U}{U}"
+  },
+  {
+    "name": "Ty Lee, Chi Blocker",
+    "uuid": "eb4bfe27-52b1-575f-8587-4b80fce7b632",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{U}"
+  },
+  {
+    "name": "Boiling Rock Rioter",
+    "uuid": "24b6f944-0028-56fe-9ca0-fe110c410ada",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}"
+  },
+  {
+    "name": "Day of Black Sun",
+    "uuid": "e69aca01-4e76-55db-8025-a5d7cf2a1860",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Sorcery"
+    ],
+    "manaCost": "{X}{B}{B}"
+  },
+  {
+    "name": "Mai, Scornful Striker",
+    "uuid": "bffa3702-6d6d-52de-9cbb-84189d5b5738",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{B}"
+  },
+  {
+    "name": "Wartime Protestors",
+    "uuid": "394bb906-0f79-5a0b-a798-e5cf30b23437",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{3}{R}"
+  },
+  {
+    "name": "Zhao, the Moon Slayer",
+    "uuid": "6bb4f8e1-eca2-5ca0-bb7b-3e714e6ad162",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Earthen Ally",
+    "uuid": "c6733a55-1814-51aa-bb72-bb67432ae6bb",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{G}"
+  },
+  {
+    "name": "Elemental Teachings",
+    "uuid": "c3855a1d-c11a-5ec1-a5d3-b7835b1cd0d1",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "types": [
+      "Instant"
+    ],
+    "manaCost": "{4}{G}"
+  },
+  {
+    "name": "Beifong's Bounty Hunters",
+    "uuid": "beb9d226-303a-5002-919b-7647b2482b6d",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{B}{G}"
+  },
+  {
+    "name": "Earth King's Lieutenant",
+    "uuid": "d04cdc72-cddf-5d71-99fd-a396ee4312c8",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{G}{W}"
+  },
+  {
+    "name": "Iroh, Tea Master",
+    "uuid": "8cc93573-4c3e-5b23-8a23-42a07c373aeb",
+    "rarity": "rare",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}{W}"
+  },
+  {
+    "name": "Sandbender Scavengers",
+    "uuid": "1fd18a3d-4a59-5bb3-8093-80092898b5fe",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}{B}"
+  },
+  {
+    "name": "Sokka, Bold Boomeranger",
+    "uuid": "ca89210d-0c8c-5d19-ad06-8d232ab6dde0",
+    "rarity": "rare",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{U}{R}"
+  },
+  {
+    "name": "Toph, Hardheaded Teacher",
+    "uuid": "b7437000-a177-5acf-b0c3-ab51d1f7007d",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{2}{R}{G}"
+  },
+  {
+    "name": "Planetarium of Wan Shi Tong",
+    "uuid": "778d53ed-8e90-5cd0-a682-283219966a6b",
+    "rarity": "mythic",
+    "colors": [],
+    "types": [
+      "Artifact"
+    ],
+    "manaCost": "{6}"
+  },
+  {
+    "name": "Abandoned Air Temple",
+    "uuid": "473a043f-b051-5932-a718-9138006f8d19",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Agna Qel'a",
+    "uuid": "3475e67b-7fb2-592a-8a24-2c1894110943",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Ba Sing Se",
+    "uuid": "c4666fd3-4e46-52a8-8ab1-516410dd98bd",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Fire Nation Palace",
+    "uuid": "1e1db1c4-d49e-5400-af0f-a5f8a613fa34",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Jasmine Dragon Tea Shop",
+    "uuid": "9d20e667-68d7-5da3-87f1-4f4cfeee3edc",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Realm of Koh",
+    "uuid": "313388a1-7f1c-52a1-97a4-bbb8e7bf4ff0",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Secret Tunnel",
+    "uuid": "4a8cf08a-15bf-59e4-95b2-afabc1328f57",
+    "rarity": "rare",
+    "colors": [],
+    "types": [
+      "Land"
+    ],
+    "manaCost": ""
+  },
+  {
+    "name": "Firebending Student",
+    "uuid": "9e6d2ceb-6fe8-5e48-ba97-6aa1f7947499",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{1}{R}"
+  },
+  {
+    "name": "Momo, Friendly Flier",
+    "uuid": "3e6cba2b-5d24-52db-9b21-89efaab14665",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "types": [
+      "Creature"
+    ],
+    "manaCost": "{W}"
+  }
+]
