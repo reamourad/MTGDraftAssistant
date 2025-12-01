@@ -892,7 +892,6 @@
         "contents": {
           "common": 7,
           "foil": 1,
-          "nonFoilLand": 1,
           "rareMythic": 1,
           "uncommon": 3,
           "wildcard": 1
@@ -903,7 +902,6 @@
         "contents": {
           "common": 7,
           "foil": 1,
-          "foilLand": 1,
           "rareMythic": 1,
           "uncommon": 3,
           "wildcard": 1
@@ -914,7 +912,6 @@
         "contents": {
           "common": 6,
           "foil": 1,
-          "nonFoilLand": 1,
           "rareMythic": 1,
           "specialGuest": 1,
           "uncommon": 3,
@@ -926,7 +923,6 @@
         "contents": {
           "common": 6,
           "foil": 1,
-          "foilLand": 1,
           "rareMythic": 1,
           "specialGuest": 1,
           "uncommon": 3,
