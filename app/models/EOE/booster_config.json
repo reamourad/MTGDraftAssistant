@@ -43,7 +43,12 @@
     ],
     "boostersTotalWeight": 1007,
     "languages": [
-      "en"
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
     ],
     "name": "Edge of Eternities Collector Booster",
     "sheets": {
@@ -932,7 +937,12 @@
     ],
     "boostersTotalWeight": 2500,
     "languages": [
-      "en"
+      "de",
+      "en",
+      "fr",
+      "it",
+      "jp",
+      "sp"
     ],
     "name": "Edge of Eternities Play Booster",
     "sheets": {
