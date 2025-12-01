@@ -126,17 +126,11 @@ def get_supported_sets():
         if not os.path.isdir(set_path) or entry == "README.md":
             continue
 
-        # Check if this directory has a model file
-        model_files = glob.glob(os.path.join(set_path, "*.keras"))
-        if not model_files:
-            continue
-
         # Read config.json if available
         config_path = os.path.join(set_path, "config.json")
         set_info = {
             "code": entry.upper(),
-            "name": entry.upper(),
-            "has_model": True
+            "name": entry.upper()
         }
 
         if os.path.exists(config_path):
@@ -151,6 +145,10 @@ def get_supported_sets():
         # Check if icon exists
         icon_path = os.path.join(set_path, "icon.png")
         set_info["has_icon"] = os.path.exists(icon_path)
+
+        # Check if this directory has a model file
+        model_files = glob.glob(os.path.join(set_path, "*.keras"))
+        set_info["has_model"] = os.path.exists(model_files)
 
         sets.append(set_info)
 
