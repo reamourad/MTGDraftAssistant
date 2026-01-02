@@ -12,7 +12,7 @@ Example:
 """
 import sys
 import os
-from app.booster.mtgjson_fetcher import save_booster_data
+from app.booster.mtgjson_fetcher import save_booster_data, build_and_save_sheets
 
 
 def main():
@@ -35,6 +35,7 @@ def main():
     try:
         # Fetch and save MTGJson data
         save_booster_data(set_code, output_dir)
+        build_and_save_sheets(set_code, output_dir)
 
         print(f"\n{'='*60}")
         print(f"✓ Successfully added {set_code}!")

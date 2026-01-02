@@ -8,13 +8,14 @@ import argparse
 import os
 import glob
 import sys
+import json
 
 # Add parent directory to path so we can import app modules
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from app.DraftData import DraftData
 from app.ModelBuilder import ModelBuilder
-from app.booster.mtgjson_fetcher import save_booster_data
+from app.booster.mtgjson_fetcher import save_booster_data, build_and_save_sheets
 
 
 def find_training_data(set_code: str) -> str:
@@ -60,6 +61,8 @@ def main():
     output_dir = f"app/models/{set_code}"
     save_booster_data(set_code, output_dir)
 
+
+    #TODO: check this step o-o weirddd
     # 3. Load training data
     print("\nStep 3: Loading training data...")
     draft_data = DraftData(csv_path)
@@ -68,12 +71,13 @@ def main():
     # 3.5. Save training card list for booster generation
     print("\nStep 3.5: Saving training card list...")
     training_cards = [col[len("pack_card_"):] for col in draft_data.draft_data.columns if col.startswith("pack_card_")]
-    training_cards_path = f"{output_dir}/training_cards.json"
+    training_cards_path = f"{output_dir}/seventeenlands_cards.json"
 
-    import json
     with open(training_cards_path, 'w', encoding='utf-8') as f:
         json.dump(sorted(training_cards), f, indent=2)
     print(f"✓ Saved {len(training_cards)} card names to {training_cards_path}")
+
+    build_and_save_sheets(set_code, output_dir)
 
     # 4. Train model
     print(f"\nStep 4: Training model ({args.epochs} epochs)...")

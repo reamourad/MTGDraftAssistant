@@ -85,7 +85,7 @@ pip install -r requirements.txt
 ### Step 2: Train the Model
 
 ```bash
-python train.py --set MH3 --epochs 10
+python train_model.py --set MH3 --epochs 10
 ```
 
 The script will:
@@ -97,13 +97,13 @@ The script will:
 **Training Options:**
 ```bash
 # Train with custom epochs
-python train.py --set MH3 --epochs 15
+python train_model.py --set MH3 --epochs 15
 
 # Train a different set
-python train.py --set BLB --epochs 10
+python train_model.py --set BLB --epochs 10
 
 # Process only first N rows (for testing)
-python train.py --set MH3 --limit 100000
+python train_model.py --set MH3 --limit 100000
 ```
 
 ## Running the API
