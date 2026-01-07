@@ -29,6 +29,7 @@ _model_cache = {}
 _draft_data_cache = {}
 
 
+#TODO: Change this function
 def load_set_model(set_code: str):
     """Load model and draft data for a specific set, with caching."""
     set_code = set_code.upper()

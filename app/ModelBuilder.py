@@ -95,7 +95,7 @@ class ModelBuilder:
         self._draft_data = draft_data
         self._model = None
     
-    def train_model(self, epochs=50, min_player_wr=0.65, validation_split=0.2):
+    def train_model(self, epochs=50, min_player_wr=0.60, validation_split=0.2):
         
         # --- 1. DATA FILTERING AND PREPARATION ---
         data = self._draft_data.draft_data.copy()

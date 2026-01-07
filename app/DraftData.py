@@ -65,25 +65,6 @@ class DraftData:
     def pad_token(self):
         return self._pad_token
 
-    #picks a random booster within the dataset
-    def boosterCreater(self):
-        if self._draft_data is None:
-            raise ValueError("boosterCreater() requires CSV data. Initialize with data_path instead of card_list.")
-
-        if not self._full_pack_indices:
-            raise ValueError("No full packs found in dataset")
-
-        # Randomly select an index from pre-computed list
-        index = random.choice(self._full_pack_indices)
-        row = self._draft_data.iloc[index]
-
-        pack = []
-        for k, v in row.items():
-            if k.startswith("pack_card_") and v == 1:
-                pack.append(self._card_to_int[k[len("pack_card_"):]])
-
-        return pack
-
     @property
     def empty_card(self):
         return len(self._cards)
