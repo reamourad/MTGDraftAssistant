@@ -1,6 +1,9 @@
 from app.CardEncoder import CardEncoder
+from app.CandidateTower import CandidateTower
 import numpy as np
 import numpy.testing as npt
+import torch
+
 card =   {
     "name": "Astelli Reclaimer",
     "uuid": "f6e47d02-efd5-5f85-879a-0da015bdf5b6",
@@ -53,5 +56,11 @@ npt.assert_array_equal(
     np.array([1, 5/15, 4/15], dtype=np.float32)
 )
 
-print(card_encoder.encode(card))
+candidateTower = CandidateTower()
+encoded = card_encoder.encode(card)
+card_tensor = torch.from_numpy(encoded).unsqueeze(0)  # (1, 424)
+x = candidateTower.forward(card_tensor)
+
+print(x)
+print(len(x))
 print('Test passed successfully.')
