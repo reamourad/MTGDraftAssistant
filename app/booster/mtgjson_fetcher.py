@@ -33,45 +33,102 @@ def fetch_set_data(set_code: str) -> Dict[str, Any]:
     print(f"[OK] Fetched data for {set_code}")
     return data
 
+def fetch_spg_set():
+    url = f"{MTGJSON_BASE_URL}/SPG.json"
+    response = requests.get(url, timeout=30)
+    response.raise_for_status()
 
-def extract_cards(set_data: Dict[str, Any]) -> List[Dict[str, Any]]:
+    data = response.json()
+    print(f"[OK] Fetched data for SPG")
+    return data
+
+
+def extract_cards(set_data: Dict[str, Any], uuids=None) -> List[Dict[str, Any]]:
     """
     Extract card list from set data.
 
-    Args:
-        set_data: Full set data from MTGJson
-
-    Returns:
-        List of card dictionaries with name, uuid, rarity, etc.
+    For double-faced cards, only keeps the front face.
+    Optionally combines oracle text from both faces.
     """
     cards = set_data.get('data', {}).get('cards', [])
 
-    # Simplify card data - keep only what we need
-    simplified_cards = []
+    # Group cards by name to detect DFCs
+    cards_by_name = {}
+
     for card in cards:
-        power = card.get('power')
-        toughness = card.get('toughness')
+        name = card.get('name')
+        uuid = card.get('uuid')
 
-        power_val = float(power) if power and power.lstrip('-').isdigit() else None
-        toughness_val = float(toughness) if toughness and toughness.lstrip('-').isdigit() else None
+        if uuids is not None:
+            if uuid not in uuids:
+                continue
 
+        # Skip if we've already processed this card name
+        if name in cards_by_name:
+            # This is a back face - we'll handle it below
+            continue
+
+        cards_by_name[name] = card
+
+    # Now process cards, handling DFCs
+    simplified_cards = []
+    processed_names = set()
+
+    for card in cards:
+        name = card.get('name')
+
+        if "//" in name:
+            name = name.split(" // ")[0].strip()
+
+        # Skip if already processed
+        if name in processed_names:
+            continue
+
+        # Check if this is a DFC
+        side = card.get('side')
+
+        if side == 'b':
+            # This is a back face, skip it
+            # (We'll get the front face separately)
+            continue
+
+        # Extract oracle text
+        oracle_text = card.get('text', '')
+
+        # If this is a DFC (has a side), find the back face
+        if side == 'a':
+            # Find the back face
+            back_face = None
+            for other_card in cards:
+                if (other_card.get('name') == name and
+                    other_card.get('side') == 'b'):
+                    back_face = other_card
+                    break
+
+            if back_face:
+                # Combine oracle text from both faces
+                back_text = back_face.get('text', '')
+                oracle_text = f"{oracle_text} // {back_text}"
+
+                print(f"[DFC] {name} (combined front + back text)")
+
+        # Create simplified card
         simplified_cards.append({
-            'name': card.get('name'),
+            'name': name,
             'uuid': card.get('uuid'),
             'rarity': card.get('rarity', '').lower(),
             'colors': card.get('colors', []),
-            'mana_cost': card.get('manaCost', ''),
-            'converted_mana_cost': card.get('manaValue', 0),
             'types': card.get('types', []),
-            'subtypes': card.get('subtypes', []),
-            'power': power_val,
-            'toughness': toughness_val,
-            'can_attack': power_val is not None and toughness_val is not None,
+            'manaCost': card.get('manaCost', ''),
+            'text': oracle_text,  # Combined text for DFCs
+            'power': card.get('power'),
+            'toughness': card.get('toughness'),
             'keywords': card.get('keywords', []),
-            'oracle_text': card.get('text', ''),
         })
 
-    print(f"[OK] Extracted {len(simplified_cards)} cards")
+        processed_names.add(name)
+
+    print(f"[OK] Extracted {len(simplified_cards)} cards (DFCs merged)")
     return simplified_cards
 
 
@@ -93,6 +150,31 @@ def extract_booster_config(set_data: Dict[str, Any]) -> Dict[str, Any]:
 
     print(f"[OK] Extracted booster configuration")
     return booster_config
+
+
+def extract_uuids_from_booster_config(booster_config: Dict[str, Any]) -> Set[str]:
+    """
+    Extract all card UUIDs referenced in the booster configuration.
+
+    Args:
+        booster_config: Booster configuration dictionary
+
+    Returns:
+        Set of all UUIDs found in booster sheets
+    """
+    uuids = set()
+
+    if not booster_config or 'play' not in booster_config:
+        return uuids
+
+    play_config = booster_config['play']
+    sheets = play_config.get('sheets', {})
+
+    for sheet_name, sheet_data in sheets.items():
+        sheet_cards = sheet_data.get('cards', {})
+        uuids.update(sheet_cards.keys())
+
+    return uuids
 
 
 def save_booster_data(set_code: str, output_dir: str):
@@ -118,6 +200,31 @@ def save_booster_data(set_code: str, output_dir: str):
     cards = extract_cards(set_data)
     booster_config = extract_booster_config(set_data)
 
+    # Extract all UUIDs from booster config
+    booster_uuids = extract_uuids_from_booster_config(booster_config)
+    print(f"[INFO] Found {len(booster_uuids)} UUIDs in booster configuration")
+
+    # Fetch SPG set data
+    spg_data = fetch_spg_set()
+    spg_all_cards = spg_data.get('data', {}).get('cards', [])
+    spg_uuids = {card['uuid'] for card in spg_all_cards}
+    print(f"[INFO] SPG set contains {len(spg_uuids)} cards")
+
+    # Find SPG UUIDs that appear in this set's booster config
+    spg_uuids_in_boosters = booster_uuids.intersection(spg_uuids)
+
+    if spg_uuids_in_boosters:
+        print(f"[INFO] Found {len(spg_uuids_in_boosters)} SPG cards in booster configuration")
+        # Extract only the SPG cards that appear in boosters
+        spg_cards = extract_cards(spg_data, spg_uuids_in_boosters)
+        # Combine main set cards with SPG cards
+        cards.extend(spg_cards)
+        print(f"[OK] Added {len(spg_cards)} SPG cards to card list:")
+        for spg_card in spg_cards:
+            print(f"  - {spg_card['name']}")
+    else:
+        print(f"[INFO] No SPG cards found in booster configuration")
+
     # Create output directory if needed
     os.makedirs(output_dir, exist_ok=True)
 
@@ -125,7 +232,7 @@ def save_booster_data(set_code: str, output_dir: str):
     cards_path = os.path.join(output_dir, 'cards.json')
     with open(cards_path, 'w', encoding='utf-8') as f:
         json.dump(cards, f, indent=2)
-    print(f"[OK] Saved cards to {cards_path}")
+    print(f"[OK] Saved {len(cards)} cards to {cards_path}")
 
     # Save booster_config.json
     config_path = os.path.join(output_dir, 'booster_config.json')
@@ -163,8 +270,11 @@ def build_filtered_sheets(cards: List[Dict], training_cards: Set[str], booster_c
         for uuid, weight in sheet_cards.items():
             if uuid in uuid_to_name:
                 card_name = uuid_to_name[uuid]
-                # Filter by training cards
-                if not training_cards or card_name in training_cards:
+
+                # Check if card should be included
+                should_include = not training_cards or card_name in training_cards
+
+                if should_include:
                     weighted_cards[card_name] = float(weight)
 
         if weighted_cards:

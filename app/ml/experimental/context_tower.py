@@ -11,24 +11,21 @@ class ContextTower(nn.Module):
         self.hidden_dim = hidden_dim
         self.output_dim = output_dim
 
-        # Pool encoder: "What do I have?"
         self.pool_encoder = nn.Sequential(
-            nn.Linear(card_dim, hidden_dim),  # 424 → 256
+            nn.Linear(card_dim, hidden_dim),  # 407 → 256
             nn.ReLU(),
             nn.Dropout(0.2),
         )
 
-        # Pack encoder: "What's available?"
         self.pack_encoder = nn.Sequential(
-            nn.Linear(card_dim, hidden_dim),  # 424 → 256
+            nn.Linear(card_dim, hidden_dim),  # 407 → 256
             nn.ReLU(),
             nn.Dropout(0.2),
         )
 
-        # Combiner: Merge pool + pack + pick number
-        # Input: 256 (pool) + 256 (pack) + 1 (pick) = 513 dims
+
         self.combiner = nn.Sequential(
-            nn.Linear(hidden_dim * 2 + 1, hidden_dim),  # 513 → 256
+            nn.Linear(hidden_dim * 2 + 1, hidden_dim),  #  407 → 256
             nn.ReLU(),
             nn.Dropout(0.2),
 
@@ -42,7 +39,6 @@ class ContextTower(nn.Module):
         dtype = pool_cards.dtype
 
         # Step 1: Mean pooling over cards
-        # Converts variable-length sequences to fixed-size vectors
 
         # Handle empty pool (first pick)
         if pool_cards.shape[1] == 0:

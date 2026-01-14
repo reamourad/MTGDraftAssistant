@@ -89,7 +89,7 @@ class CardEncoder:
                         if not part.isdigit():
                             encoding[COLORS.index(part)] += 0.5
 
-                elif not pips.isdigit():
+                elif pips in COLORS:
                     encoding[COLORS.index(pips)] += 1
 
             encoding = encoding / 8
@@ -132,4 +132,3 @@ class CardEncoder:
 
         encoding = self.text_model.encode(oracle_text + " " + str(subtypes))
         return encoding
-
