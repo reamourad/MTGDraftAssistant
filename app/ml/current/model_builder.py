@@ -1,3 +1,22 @@
+"""
+LEGACY TENSORFLOW MODEL BUILDER - PRODUCTION SYSTEM
+
+This module contains the TensorFlow/Keras transformer-based model for MTG draft pick prediction.
+This is the LEGACY system currently running in production.
+
+⚠️ DEPRECATION NOTICE ⚠️
+This TensorFlow-based system is being replaced by the PyTorch two-tower architecture
+in ml/experimental/. Do NOT add new features to this module. All new development
+should target the PyTorch system.
+
+Status: ACTIVE (Legacy)
+Framework: TensorFlow/Keras
+Replacement: ml/experimental/two_tower_model.py (PyTorch)
+
+The system will remain active during the transition period to ensure continuity of service.
+Both systems will run in parallel until the PyTorch model is fully validated.
+"""
+
 from enum import Enum
 import numpy as np
 import tensorflow as tf
@@ -95,7 +114,7 @@ class ModelBuilder:
         self._draft_data = draft_data
         self._model = None
     
-    def train_model(self, epochs=50, min_player_wr=0.65, validation_split=0.2):
+    def train_model(self, epochs=50, min_player_wr=0.60, validation_split=0.2):
         
         # --- 1. DATA FILTERING AND PREPARATION ---
         data = self._draft_data.draft_data.copy()

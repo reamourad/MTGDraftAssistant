@@ -1,7 +1,20 @@
+# Web Framework and API
 fastapi==0.95.2
 uvicorn[standard]==0.22.0
+pydantic~=1.10.24
+
+# Data Processing
 pandas==1.5.3
 numpy==1.23.5
-tensorflow==2.10.0
 scikit-learn==1.2.2
 requests==2.31.0
+
+# Machine Learning Frameworks
+# TensorFlow - Current production system (app/ml/current/)
+tensorflow==2.10.0
+
+# PyTorch - Experimental two-tower architecture (app/ml/experimental/)
+torch~=2.6.0+cu124
+
+# Text Processing
+sentence-transformers==5.2.0

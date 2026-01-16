@@ -7,7 +7,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{6}"
+    "manaCost": "{6}",
+    "text": "When this creature leaves the battlefield, draw a card, then you may put a permanent card with mana value less than or equal to the number of lands you control from your hand onto the battlefield tapped.\nWarp {4} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "7",
+    "toughness": "5",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Tezzeret, Cruel Captain",
@@ -17,7 +23,11 @@
     "types": [
       "Planeswalker"
     ],
-    "manaCost": "{3}"
+    "manaCost": "{3}",
+    "text": "Whenever an artifact you control enters, put a loyalty counter on Tezzeret.\n[0]: Untap target artifact or creature. If it's an artifact creature, put a +1/+1 counter on it.\n[\u22123]: Search your library for an artifact card with mana value 1 or less, reveal it, put it into your hand, then shuffle.\n[\u22127]: You get an emblem with \"At the beginning of combat on your turn, put three +1/+1 counters on target artifact you control. If it's not a creature, it becomes a 0/0 Robot artifact creature.\"",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "All-Fates Stalker",
@@ -29,7 +39,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{W}"
+    "manaCost": "{3}{W}",
+    "text": "When this creature enters, exile up to one target non-Assassin creature until this creature leaves the battlefield.\nWarp {1}{W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "2",
+    "toughness": "3",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Astelli Reclaimer",
@@ -41,7 +57,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{W}{W}"
+    "manaCost": "{3}{W}{W}",
+    "text": "Flying\nWhen this creature enters, return target noncreature, nonland permanent card with mana value X or less from your graveyard to the battlefield, where X is the amount of mana spent to cast this creature.\nWarp {2}{W}",
+    "power": "5",
+    "toughness": "4",
+    "keywords": [
+      "Flying",
+      "Warp"
+    ]
   },
   {
     "name": "Auxiliary Boosters",
@@ -53,7 +76,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{4}{W}"
+    "manaCost": "{4}{W}",
+    "text": "When this Equipment enters, create a 2/2 colorless Robot artifact creature token and attach this Equipment to it.\nEquipped creature gets +1/+2 and has flying.\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Equip"
+    ]
   },
   {
     "name": "Banishing Light",
@@ -65,7 +94,11 @@
     "types": [
       "Enchantment"
     ],
-    "manaCost": "{2}{W}"
+    "manaCost": "{2}{W}",
+    "text": "When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Beyond the Quiet",
@@ -77,7 +110,11 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{3}{W}{W}"
+    "manaCost": "{3}{W}{W}",
+    "text": "Exile all creatures and Spacecraft.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Brightspear Zealot",
@@ -89,7 +126,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{W}"
+    "manaCost": "{2}{W}",
+    "text": "Vigilance\nThis creature gets +2/+0 as long as you've cast two or more spells this turn.",
+    "power": "2",
+    "toughness": "4",
+    "keywords": [
+      "Vigilance"
+    ]
   },
   {
     "name": "Cosmogrand Zenith",
@@ -101,7 +144,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{W}"
+    "manaCost": "{2}{W}",
+    "text": "Whenever you cast your second spell each turn, choose one \u2014\n\u2022 Create two 1/1 white Human Soldier creature tokens.\n\u2022 Put a +1/+1 counter on each creature you control.",
+    "power": "2",
+    "toughness": "4",
+    "keywords": []
   },
   {
     "name": "Dawnstrike Vanguard",
@@ -113,7 +160,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{5}{W}"
+    "manaCost": "{5}{W}",
+    "text": "Lifelink\nAt the beginning of your end step, if you control two or more tapped creatures, put a +1/+1 counter on each creature you control other than this creature.",
+    "power": "4",
+    "toughness": "5",
+    "keywords": [
+      "Lifelink"
+    ]
   },
   {
     "name": "Dockworker Drone",
@@ -126,7 +179,11 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{1}{W}"
+    "manaCost": "{1}{W}",
+    "text": "This creature enters with a +1/+1 counter on it.\nWhen this creature dies, put its counters on target creature you control.",
+    "power": "1",
+    "toughness": "1",
+    "keywords": []
   },
   {
     "name": "Dual-Sun Adepts",
@@ -138,7 +195,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{W}"
+    "manaCost": "{2}{W}",
+    "text": "Double strike\n{5}: Creatures you control get +1/+1 until end of turn.",
+    "power": "2",
+    "toughness": "2",
+    "keywords": [
+      "Double strike"
+    ]
   },
   {
     "name": "Dual-Sun Technique",
@@ -150,7 +213,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{1}{W}"
+    "manaCost": "{1}{W}",
+    "text": "Target creature you control gains double strike until end of turn. If it has a +1/+1 counter on it, draw a card.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Emergency Eject",
@@ -162,7 +229,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{2}{W}"
+    "manaCost": "{2}{W}",
+    "text": "Destroy target nonland permanent. Its controller creates a Lander token. (It's an artifact with \"{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\")",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Exalted Sunborn",
@@ -174,7 +245,15 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{W}{W}"
+    "manaCost": "{3}{W}{W}",
+    "text": "Flying, lifelink\nIf one or more tokens would be created under your control, twice that many of those tokens are created instead.\nWarp {1}{W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "4",
+    "toughness": "5",
+    "keywords": [
+      "Flying",
+      "Lifelink",
+      "Warp"
+    ]
   },
   {
     "name": "Exosuit Savior",
@@ -186,7 +265,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{W}"
+    "manaCost": "{2}{W}",
+    "text": "Flying\nWhen this creature enters, return up to one other target permanent you control to its owner's hand.",
+    "power": "2",
+    "toughness": "2",
+    "keywords": [
+      "Flying"
+    ]
   },
   {
     "name": "Flight-Deck Coordinator",
@@ -198,7 +283,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{W}"
+    "manaCost": "{2}{W}",
+    "text": "At the beginning of your end step, if you control two or more tapped creatures, you gain 2 life.",
+    "power": "3",
+    "toughness": "3",
+    "keywords": []
   },
   {
     "name": "Focus Fire",
@@ -210,7 +299,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{W}"
+    "manaCost": "{W}",
+    "text": "Focus Fire deals X damage to target attacking or blocking creature, where X is 2 plus the number of creatures and/or Spacecraft you control.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Haliya, Guided by Light",
@@ -222,7 +315,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{W}"
+    "manaCost": "{2}{W}",
+    "text": "Whenever Haliya or another creature or artifact you control enters, you gain 1 life.\nAt the beginning of your end step, draw a card if you've gained 3 or more life this turn.\nWarp {W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "3",
+    "toughness": "3",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Hardlight Containment",
@@ -234,7 +333,13 @@
     "types": [
       "Enchantment"
     ],
-    "manaCost": "{W}"
+    "manaCost": "{W}",
+    "text": "Enchant artifact you control\nWhen this Aura enters, exile target creature an opponent controls until this Aura leaves the battlefield.\nEnchanted permanent has ward {1}.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Enchant"
+    ]
   },
   {
     "name": "Honor",
@@ -246,7 +351,11 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{W}"
+    "manaCost": "{W}",
+    "text": "Put a +1/+1 counter on target creature.\nDraw a card.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Honored Knight-Captain",
@@ -258,7 +367,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{1}{W}"
+    "manaCost": "{1}{W}",
+    "text": "When this creature enters, create a 1/1 white Human Soldier creature token.\n{4}{W}{W}, Sacrifice this creature: Search your library for an Equipment card, put it onto the battlefield, then shuffle.",
+    "power": "1",
+    "toughness": "1",
+    "keywords": []
   },
   {
     "name": "Knight Luminary",
@@ -270,7 +383,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{W}"
+    "manaCost": "{3}{W}",
+    "text": "When this creature enters, create a 1/1 white Human Soldier creature token.\nWarp {1}{W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "3",
+    "toughness": "2",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Lightstall Inquisitor",
@@ -282,7 +401,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{W}"
+    "manaCost": "{W}",
+    "text": "Vigilance\nWhen this creature enters, each opponent exiles a card from their hand and may play that card for as long as it remains exiled. Each spell cast this way costs {1} more to cast. Each land played this way enters tapped.",
+    "power": "2",
+    "toughness": "1",
+    "keywords": [
+      "Vigilance"
+    ]
   },
   {
     "name": "Lumen-Class Frigate",
@@ -294,7 +419,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{1}{W}"
+    "manaCost": "{1}{W}",
+    "text": "Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 12+.)\n2+ | Other creatures you control get +1/+1.\n12+ | Flying, lifelink",
+    "power": "3",
+    "toughness": "5",
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Luxknight Breacher",
@@ -306,7 +437,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{W}"
+    "manaCost": "{3}{W}",
+    "text": "This creature enters with a +1/+1 counter on it for each other creature and/or artifact you control.",
+    "power": "2",
+    "toughness": "2",
+    "keywords": []
   },
   {
     "name": "Pinnacle Starcage",
@@ -318,7 +453,11 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{1}{W}{W}"
+    "manaCost": "{1}{W}{W}",
+    "text": "When this artifact enters, exile all artifacts and creatures with mana value 2 or less until this artifact leaves the battlefield.\n{6}{W}{W}: Put each card exiled with this artifact into its owner's graveyard, then create a 2/2 colorless Robot artifact creature token for each card put into a graveyard this way. Sacrifice this artifact.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Pulsar Squadron Ace",
@@ -330,7 +469,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{1}{W}"
+    "manaCost": "{1}{W}",
+    "text": "When this creature enters, look at the top five cards of your library. You may reveal a Spacecraft card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. If you didn't put a card into your hand this way, put a +1/+1 counter on this creature.",
+    "power": "1",
+    "toughness": "2",
+    "keywords": []
   },
   {
     "name": "Radiant Strike",
@@ -342,7 +485,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{3}{W}"
+    "manaCost": "{3}{W}",
+    "text": "Destroy target artifact or tapped creature. You gain 3 life.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Rayblade Trooper",
@@ -354,7 +501,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{W}"
+    "manaCost": "{2}{W}",
+    "text": "When this creature enters, put a +1/+1 counter on target creature you control.\nWhenever a nontoken creature you control with a +1/+1 counter on it dies, create a 1/1 white Human Soldier creature token.\nWarp {1}{W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "2",
+    "toughness": "2",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Reroute Systems",
@@ -366,7 +519,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{W}"
+    "manaCost": "{W}",
+    "text": "Choose one \u2014\n\u2022 Target artifact or creature gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)\n\u2022 Reroute Systems deals 2 damage to target tapped creature.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Rescue Skiff",
@@ -378,7 +535,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{5}{W}"
+    "manaCost": "{5}{W}",
+    "text": "When this Spacecraft enters, return target creature or enchantment card from your graveyard to the battlefield.\nStation (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 10+.)\n10+ | Flying",
+    "power": "5",
+    "toughness": "6",
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Scout for Survivors",
@@ -390,7 +553,11 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{2}{W}"
+    "manaCost": "{2}{W}",
+    "text": "Return up to three target creature cards with total mana value 3 or less from your graveyard to the battlefield. Put a +1/+1 counter on each of them.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Seam Rip",
@@ -402,7 +569,11 @@
     "types": [
       "Enchantment"
     ],
-    "manaCost": "{W}"
+    "manaCost": "{W}",
+    "text": "When this enchantment enters, exile target nonland permanent an opponent controls with mana value 2 or less until this enchantment leaves the battlefield.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "The Seriema",
@@ -414,7 +585,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{1}{W}{W}"
+    "manaCost": "{1}{W}{W}",
+    "text": "When The Seriema enters, search your library for a legendary creature card, reveal it, put it into your hand, then shuffle.\nStation (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 7+.)\n7+ | Flying\nOther tapped legendary creatures you control have indestructible.",
+    "power": "5",
+    "toughness": "5",
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Squire's Lightblade",
@@ -426,7 +603,14 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{W}"
+    "manaCost": "{W}",
+    "text": "Flash\nWhen this Equipment enters, attach it to target creature you control. That creature gains first strike until end of turn.\nEquipped creature gets +1/+0.\nEquip {3}",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Equip",
+      "Flash"
+    ]
   },
   {
     "name": "Starfield Shepherd",
@@ -438,7 +622,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{W}{W}"
+    "manaCost": "{3}{W}{W}",
+    "text": "Flying\nWhen this creature enters, search your library for a basic Plains card or a creature card with mana value 1 or less, reveal it, put it into your hand, then shuffle.\nWarp {1}{W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "3",
+    "toughness": "2",
+    "keywords": [
+      "Flying",
+      "Warp"
+    ]
   },
   {
     "name": "Starfighter Pilot",
@@ -450,7 +641,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{1}{W}"
+    "manaCost": "{1}{W}",
+    "text": "Whenever this creature becomes tapped, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+    "power": "2",
+    "toughness": "2",
+    "keywords": [
+      "Surveil"
+    ]
   },
   {
     "name": "Starport Security",
@@ -463,7 +660,11 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{W}"
+    "manaCost": "{W}",
+    "text": "{3}{W}, {T}: Tap another target creature. This ability costs {2} less to activate if you control a creature with a +1/+1 counter on it.",
+    "power": "1",
+    "toughness": "1",
+    "keywords": []
   },
   {
     "name": "Sunstar Chaplain",
@@ -475,7 +676,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{1}{W}"
+    "manaCost": "{1}{W}",
+    "text": "At the beginning of your end step, if you control two or more tapped creatures, put a +1/+1 counter on target creature you control.\n{2}, Remove a +1/+1 counter from a creature you control: Tap target artifact or creature.",
+    "power": "3",
+    "toughness": "2",
+    "keywords": []
   },
   {
     "name": "Sunstar Expansionist",
@@ -487,7 +692,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{1}{W}"
+    "manaCost": "{1}{W}",
+    "text": "When this creature enters, if an opponent controls more lands than you, create a Lander token. (It's an artifact with \"{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\")\nLandfall \u2014 Whenever a land you control enters, this creature gets +1/+0 until end of turn.",
+    "power": "2",
+    "toughness": "3",
+    "keywords": [
+      "Landfall"
+    ]
   },
   {
     "name": "Sunstar Lightsmith",
@@ -499,7 +710,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{W}"
+    "manaCost": "{3}{W}",
+    "text": "Whenever you cast your second spell each turn, put a +1/+1 counter on this creature and draw a card.",
+    "power": "3",
+    "toughness": "3",
+    "keywords": []
   },
   {
     "name": "Wedgelight Rammer",
@@ -511,7 +726,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{3}{W}"
+    "manaCost": "{3}{W}",
+    "text": "When this Spacecraft enters, create a 2/2 colorless Robot artifact creature token.\nStation (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 9+.)\n9+ | Flying, first strike",
+    "power": "3",
+    "toughness": "4",
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Weftblade Enhancer",
@@ -523,7 +744,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{5}{W}"
+    "manaCost": "{5}{W}",
+    "text": "When this creature enters, put a +1/+1 counter on each of up to two target creatures.\nWarp {2}{W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "3",
+    "toughness": "4",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Zealous Display",
@@ -535,7 +762,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{2}{W}"
+    "manaCost": "{2}{W}",
+    "text": "Creatures you control get +2/+0 until end of turn. If it's not your turn, untap those creatures.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Annul",
@@ -547,7 +778,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{U}"
+    "manaCost": "{U}",
+    "text": "Counter target artifact or enchantment spell.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Atomic Microsizer",
@@ -559,7 +794,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{U}"
+    "manaCost": "{U}",
+    "text": "Equipped creature gets +1/+0.\nWhenever equipped creature attacks, choose up to one target creature. That creature can't be blocked this turn and has base power and toughness 1/1 until end of turn.\nEquip {2}",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Equip"
+    ]
   },
   {
     "name": "Cerebral Download",
@@ -571,7 +812,13 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{4}{U}"
+    "manaCost": "{4}{U}",
+    "text": "Surveil X, where X is the number of artifacts you control. Then draw three cards. (To surveil X, look at the top X cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Surveil"
+    ]
   },
   {
     "name": "Cloudsculpt Technician",
@@ -583,7 +830,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{U}"
+    "manaCost": "{2}{U}",
+    "text": "Flying\nAs long as you control an artifact, this creature gets +1/+0.",
+    "power": "1",
+    "toughness": "4",
+    "keywords": [
+      "Flying"
+    ]
   },
   {
     "name": "Codecracker Hound",
@@ -595,7 +848,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{U}"
+    "manaCost": "{2}{U}",
+    "text": "When this creature enters, look at the top two cards of your library. Put one into your hand and the other into your graveyard.\nWarp {2}{U} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "2",
+    "toughness": "1",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Consult the Star Charts",
@@ -607,7 +866,13 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{1}{U}"
+    "manaCost": "{1}{U}",
+    "text": "Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)\nLook at the top X cards of your library, where X is the number of lands you control. Put one of those cards into your hand. If this spell was kicked, put two of those cards into your hand instead. Put the rest on the bottom of your library in a random order.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Kicker"
+    ]
   },
   {
     "name": "Cryogen Relic",
@@ -619,7 +884,11 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{1}{U}"
+    "manaCost": "{1}{U}",
+    "text": "When this artifact enters or leaves the battlefield, draw a card.\n{1}{U}, Sacrifice this artifact: Put a stun counter on up to one target tapped creature. (If a permanent with a stun counter would become untapped, remove one from it instead.)",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Cryoshatter",
@@ -631,7 +900,13 @@
     "types": [
       "Enchantment"
     ],
-    "manaCost": "{U}"
+    "manaCost": "{U}",
+    "text": "Enchant creature\nEnchanted creature gets -5/-0.\nWhen enchanted creature becomes tapped or is dealt damage, destroy it.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Enchant"
+    ]
   },
   {
     "name": "Desculpting Blast",
@@ -643,7 +918,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{1}{U}"
+    "manaCost": "{1}{U}",
+    "text": "Return target nonland permanent to its owner's hand. If it was attacking, create a 1/1 colorless Drone artifact creature token with flying and \"This token can block only creatures with flying.\"",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Divert Disaster",
@@ -655,7 +934,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{1}{U}"
+    "manaCost": "{1}{U}",
+    "text": "Counter target spell unless its controller pays {2}. If they do, you create a Lander token. (It's an artifact with \"{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\")",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Emissary Escort",
@@ -668,7 +951,11 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{1}{U}"
+    "manaCost": "{1}{U}",
+    "text": "This creature gets +X/+0, where X is the greatest mana value among other artifacts you control.",
+    "power": "0",
+    "toughness": "4",
+    "keywords": []
   },
   {
     "name": "Gigastorm Titan",
@@ -680,7 +967,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{4}{U}"
+    "manaCost": "{4}{U}",
+    "text": "This spell costs {3} less to cast if you've cast another spell this turn.",
+    "power": "4",
+    "toughness": "4",
+    "keywords": []
   },
   {
     "name": "Illvoi Galeblade",
@@ -692,7 +983,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{U}"
+    "manaCost": "{U}",
+    "text": "Flash\nFlying\n{2}, Sacrifice this creature: Draw a card.",
+    "power": "1",
+    "toughness": "1",
+    "keywords": [
+      "Flash",
+      "Flying"
+    ]
   },
   {
     "name": "Illvoi Infiltrator",
@@ -704,7 +1002,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{U}"
+    "manaCost": "{2}{U}",
+    "text": "This creature can't be blocked if you've cast two or more spells this turn.\nWhenever this creature deals combat damage to a player, draw a card.",
+    "power": "1",
+    "toughness": "3",
+    "keywords": []
   },
   {
     "name": "Illvoi Light Jammer",
@@ -716,7 +1018,14 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{1}{U}"
+    "manaCost": "{1}{U}",
+    "text": "Flash\nWhen this Equipment enters, attach it to target creature you control. That creature gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)\nEquipped creature gets +1/+2.\nEquip {3}",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Equip",
+      "Flash"
+    ]
   },
   {
     "name": "Illvoi Operative",
@@ -728,7 +1037,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{1}{U}"
+    "manaCost": "{1}{U}",
+    "text": "Whenever you cast your second spell each turn, put a +1/+1 counter on this creature.",
+    "power": "2",
+    "toughness": "1",
+    "keywords": []
   },
   {
     "name": "Lost in Space",
@@ -740,7 +1053,13 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{3}{U}"
+    "manaCost": "{3}{U}",
+    "text": "Target artifact or creature's owner puts it on their choice of the top or bottom of their library. Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Surveil"
+    ]
   },
   {
     "name": "Mechan Assembler",
@@ -753,7 +1072,11 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{4}{U}"
+    "manaCost": "{4}{U}",
+    "text": "Whenever another artifact you control enters, create a 2/2 colorless Robot artifact creature token. This ability triggers only once each turn.",
+    "power": "4",
+    "toughness": "4",
+    "keywords": []
   },
   {
     "name": "Mechan Navigator",
@@ -766,7 +1089,11 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{1}{U}"
+    "manaCost": "{1}{U}",
+    "text": "Whenever this creature becomes tapped, draw a card, then discard a card.",
+    "power": "2",
+    "toughness": "1",
+    "keywords": []
   },
   {
     "name": "Mechan Shieldmate",
@@ -779,7 +1106,13 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{1}{U}"
+    "manaCost": "{1}{U}",
+    "text": "Defender\nAs long as an artifact entered the battlefield under your control this turn, this creature can attack as though it didn't have defender.",
+    "power": "3",
+    "toughness": "2",
+    "keywords": [
+      "Defender"
+    ]
   },
   {
     "name": "Mechanozoa",
@@ -792,7 +1125,13 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{4}{U}{U}"
+    "manaCost": "{4}{U}{U}",
+    "text": "When this creature enters, tap target artifact or creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)\nWarp {2}{U} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "5",
+    "toughness": "5",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Mental Modulation",
@@ -804,7 +1143,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{1}{U}"
+    "manaCost": "{1}{U}",
+    "text": "This spell costs {1} less to cast during your turn.\nTap target artifact or creature.\nDraw a card.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Mm'menon, the Right Hand",
@@ -816,7 +1159,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{U}{U}"
+    "manaCost": "{3}{U}{U}",
+    "text": "Flying\nYou may look at the top card of your library any time.\nYou may cast artifact spells from the top of your library.\nArtifacts you control have \"{T}: Add {U}. Spend this mana only to cast a spell from anywhere other than your hand.\"",
+    "power": "3",
+    "toughness": "4",
+    "keywords": [
+      "Flying"
+    ]
   },
   {
     "name": "Moonlit Meditation",
@@ -828,7 +1177,13 @@
     "types": [
       "Enchantment"
     ],
-    "manaCost": "{2}{U}"
+    "manaCost": "{2}{U}",
+    "text": "Enchant artifact or creature you control\nThe first time you would create one or more tokens each turn, you may instead create that many tokens that are copies of enchanted permanent.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Enchant"
+    ]
   },
   {
     "name": "Mouth of the Storm",
@@ -840,7 +1195,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{6}{U}"
+    "manaCost": "{6}{U}",
+    "text": "Flying\nWard {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)\nWhen this creature enters, creatures your opponents control get -3/-0 until your next turn.",
+    "power": "6",
+    "toughness": "6",
+    "keywords": [
+      "Flying",
+      "Ward"
+    ]
   },
   {
     "name": "Nanoform Sentinel",
@@ -853,7 +1215,11 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{2}{U}"
+    "manaCost": "{2}{U}",
+    "text": "Whenever this creature becomes tapped, untap another target permanent. This ability triggers only once each turn.",
+    "power": "3",
+    "toughness": "2",
+    "keywords": []
   },
   {
     "name": "Quantum Riddler",
@@ -865,7 +1231,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{U}{U}"
+    "manaCost": "{3}{U}{U}",
+    "text": "Flying\nWhen this creature enters, draw a card.\nAs long as you have one or fewer cards in hand, if you would draw one or more cards, you draw that many cards plus one instead.\nWarp {1}{U}",
+    "power": "4",
+    "toughness": "6",
+    "keywords": [
+      "Flying",
+      "Warp"
+    ]
   },
   {
     "name": "Scour for Scrap",
@@ -877,7 +1250,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{3}{U}"
+    "manaCost": "{3}{U}",
+    "text": "Choose one or both \u2014\n\u2022 Search your library for an artifact card, reveal it, put it into your hand, then shuffle.\n\u2022 Return target artifact card from your graveyard to your hand.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Selfcraft Mechan",
@@ -890,7 +1267,11 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{3}{U}"
+    "manaCost": "{3}{U}",
+    "text": "When this creature enters, you may sacrifice an artifact. When you do, put a +1/+1 counter on target creature and draw a card.",
+    "power": "3",
+    "toughness": "4",
+    "keywords": []
   },
   {
     "name": "Sinister Cryologist",
@@ -902,7 +1283,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{U}"
+    "manaCost": "{2}{U}",
+    "text": "When this creature enters, target creature an opponent controls gets -3/-0 until end of turn.\nWarp {U} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "2",
+    "toughness": "3",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Specimen Freighter",
@@ -914,7 +1301,14 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{5}{U}"
+    "manaCost": "{5}{U}",
+    "text": "When this Spacecraft enters, return up to two target non-Spacecraft creatures to their owners' hands.\nStation (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 9+.)\n9+ | Flying\nWhenever this Spacecraft attacks, defending player mills four cards.",
+    "power": "4",
+    "toughness": "7",
+    "keywords": [
+      "Mill",
+      "Station"
+    ]
   },
   {
     "name": "Starbreach Whale",
@@ -926,7 +1320,15 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{4}{U}"
+    "manaCost": "{4}{U}",
+    "text": "Flying\nWhen this creature enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\nWarp {1}{U} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "3",
+    "toughness": "5",
+    "keywords": [
+      "Flying",
+      "Surveil",
+      "Warp"
+    ]
   },
   {
     "name": "Starfield Vocalist",
@@ -938,7 +1340,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{U}"
+    "manaCost": "{3}{U}",
+    "text": "If a permanent entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.\nWarp {1}{U} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "3",
+    "toughness": "4",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Starwinder",
@@ -950,7 +1358,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{5}{U}{U}"
+    "manaCost": "{5}{U}{U}",
+    "text": "Whenever a creature you control deals combat damage to a player, you may draw that many cards.\nWarp {2}{U}{U} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "7",
+    "toughness": "7",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Steelswarm Operator",
@@ -963,7 +1377,13 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{1}{U}"
+    "manaCost": "{1}{U}",
+    "text": "Flying\n{T}: Add {U}. Spend this mana only to cast an artifact spell.\n{T}: Add {U}{U}. Spend this mana only to activate abilities of artifact sources.",
+    "power": "1",
+    "toughness": "1",
+    "keywords": [
+      "Flying"
+    ]
   },
   {
     "name": "Synthesizer Labship",
@@ -975,7 +1395,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{U}"
+    "manaCost": "{U}",
+    "text": "Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 9+.)\n2+ | At the beginning of combat on your turn, up to one other target artifact you control becomes an artifact creature with base power and toughness 2/2 and gains flying until end of turn.\n9+ | Flying, vigilance",
+    "power": "4",
+    "toughness": "4",
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Tractor Beam",
@@ -987,7 +1413,13 @@
     "types": [
       "Enchantment"
     ],
-    "manaCost": "{2}{U}{U}"
+    "manaCost": "{2}{U}{U}",
+    "text": "Enchant creature or Spacecraft\nWhen this Aura enters, tap enchanted permanent.\nYou control enchanted permanent.\nEnchanted permanent doesn't untap during its controller's untap step.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Enchant"
+    ]
   },
   {
     "name": "Unravel",
@@ -999,7 +1431,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{1}{U}{U}"
+    "manaCost": "{1}{U}{U}",
+    "text": "Counter target spell. If the amount of mana spent to cast that spell was less than its mana value, you draw a card.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Uthros Psionicist",
@@ -1011,7 +1447,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{U}"
+    "manaCost": "{2}{U}",
+    "text": "The second spell you cast each turn costs {2} less to cast.",
+    "power": "2",
+    "toughness": "4",
+    "keywords": []
   },
   {
     "name": "Uthros Scanship",
@@ -1023,7 +1463,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{3}{U}"
+    "manaCost": "{3}{U}",
+    "text": "When this Spacecraft enters, draw two cards, then discard a card.\nStation (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.)\n8+ | Flying",
+    "power": "4",
+    "toughness": "4",
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Weftwalking",
@@ -1035,7 +1481,11 @@
     "types": [
       "Enchantment"
     ],
-    "manaCost": "{4}{U}{U}"
+    "manaCost": "{4}{U}{U}",
+    "text": "When this enchantment enters, if you cast it, shuffle your hand and graveyard into your library, then draw seven cards.\nThe first spell each player casts during each of their turns may be cast without paying its mana cost.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Alpharael, Stonechosen",
@@ -1047,7 +1497,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{B}{B}"
+    "manaCost": "{3}{B}{B}",
+    "text": "Ward\u2014Discard a card at random.\nVoid \u2014 Whenever Alpharael attacks, if a nonland permanent left the battlefield this turn or a spell was warped this turn, defending player loses half their life, rounded up.",
+    "power": "3",
+    "toughness": "3",
+    "keywords": [
+      "Void",
+      "Ward"
+    ]
   },
   {
     "name": "Archenemy's Charm",
@@ -1059,7 +1516,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{B}{B}{B}"
+    "manaCost": "{B}{B}{B}",
+    "text": "Choose one \u2014\n\u2022 Exile target creature or planeswalker.\n\u2022 Return one or two target creature and/or planeswalker cards from your graveyard to your hand.\n\u2022 Put two +1/+1 counters on target creature you control. It gains lifelink until end of turn.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Beamsaw Prospector",
@@ -1071,7 +1532,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{1}{B}"
+    "manaCost": "{1}{B}",
+    "text": "When this creature dies, create a Lander token. (It's an artifact with \"{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\")",
+    "power": "2",
+    "toughness": "1",
+    "keywords": []
   },
   {
     "name": "Blade of the Swarm",
@@ -1083,7 +1548,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{B}"
+    "manaCost": "{3}{B}",
+    "text": "When this creature enters, choose one \u2014\n\u2022 Put two +1/+1 counters on this creature.\n\u2022 Put target exiled card with warp on the bottom of its owner's library.",
+    "power": "3",
+    "toughness": "1",
+    "keywords": []
   },
   {
     "name": "Chorale of the Void",
@@ -1095,7 +1564,14 @@
     "types": [
       "Enchantment"
     ],
-    "manaCost": "{3}{B}"
+    "manaCost": "{3}{B}",
+    "text": "Enchant creature you control\nWhenever enchanted creature attacks, put target creature card from defending player's graveyard onto the battlefield under your control tapped and attacking.\nVoid \u2014 At the beginning of your end step, sacrifice this Aura unless a nonland permanent left the battlefield this turn or a spell was warped this turn.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Enchant",
+      "Void"
+    ]
   },
   {
     "name": "Comet Crawler",
@@ -1107,7 +1583,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{B}"
+    "manaCost": "{2}{B}",
+    "text": "Lifelink\nWhenever this creature attacks, you may sacrifice another creature or artifact. If you do, this creature gets +2/+0 until end of turn.",
+    "power": "2",
+    "toughness": "3",
+    "keywords": [
+      "Lifelink"
+    ]
   },
   {
     "name": "Dark Endurance",
@@ -1119,7 +1601,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{1}{B}"
+    "manaCost": "{1}{B}",
+    "text": "This spell costs {1} less to cast if it targets a blocking creature.\nTarget creature gets +2/+0 and gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Decode Transmissions",
@@ -1131,7 +1617,13 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{2}{B}"
+    "manaCost": "{2}{B}",
+    "text": "You draw two cards and lose 2 life.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead you draw two cards and each opponent loses 2 life.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Void"
+    ]
   },
   {
     "name": "Depressurize",
@@ -1143,7 +1635,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{1}{B}"
+    "manaCost": "{1}{B}",
+    "text": "Target creature gets -3/-0 until end of turn. Then if that creature's power is 0 or less, destroy it.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Dubious Delicacy",
@@ -1155,7 +1651,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{2}{B}"
+    "manaCost": "{2}{B}",
+    "text": "Flash\nWhen this artifact enters, up to one target creature gets -3/-3 until end of turn.\n{2}, {T}, Sacrifice this artifact: You gain 3 life.\n{2}, {T}, Sacrifice this artifact: Target opponent loses 3 life.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Flash"
+    ]
   },
   {
     "name": "Elegy Acolyte",
@@ -1167,7 +1669,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{B}{B}"
+    "manaCost": "{2}{B}{B}",
+    "text": "Lifelink\nWhenever one or more creatures you control deal combat damage to a player, you draw a card and lose 1 life.\nVoid \u2014 At the beginning of your end step, if a nonland permanent left the battlefield this turn or a spell was warped this turn, create a 2/2 colorless Robot artifact creature token.",
+    "power": "4",
+    "toughness": "4",
+    "keywords": [
+      "Lifelink",
+      "Void"
+    ]
   },
   {
     "name": "Embrace Oblivion",
@@ -1179,7 +1688,11 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{B}"
+    "manaCost": "{B}",
+    "text": "As an additional cost to cast this spell, sacrifice an artifact or creature.\nDestroy target creature or Spacecraft.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Entropic Battlecruiser",
@@ -1191,7 +1704,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{3}{B}"
+    "manaCost": "{3}{B}",
+    "text": "Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.)\n1+ | Whenever an opponent discards a card, they lose 3 life.\n8+ | Flying, deathtouch\nWhenever this Spacecraft attacks, each opponent discards a card. Each opponent who can't loses 3 life.",
+    "power": "3",
+    "toughness": "10",
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Faller's Faithful",
@@ -1203,7 +1722,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{B}"
+    "manaCost": "{2}{B}",
+    "text": "When this creature enters, destroy up to one other target creature. If that creature wasn't dealt damage this turn, its controller draws two cards.",
+    "power": "3",
+    "toughness": "1",
+    "keywords": []
   },
   {
     "name": "Fell Gravship",
@@ -1215,7 +1738,14 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{2}{B}"
+    "manaCost": "{2}{B}",
+    "text": "When this Spacecraft enters, mill three cards, then return a creature or Spacecraft card from your graveyard to your hand.\nStation (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.)\n8+ | Flying, lifelink",
+    "power": "3",
+    "toughness": "2",
+    "keywords": [
+      "Mill",
+      "Station"
+    ]
   },
   {
     "name": "Gravblade Heavy",
@@ -1227,7 +1757,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{B}"
+    "manaCost": "{3}{B}",
+    "text": "As long as you control an artifact, this creature gets +1/+0 and has deathtouch.",
+    "power": "3",
+    "toughness": "4",
+    "keywords": []
   },
   {
     "name": "Gravkill",
@@ -1239,7 +1773,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{3}{B}"
+    "manaCost": "{3}{B}",
+    "text": "Exile target creature or Spacecraft.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Gravpack Monoist",
@@ -1251,7 +1789,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{B}"
+    "manaCost": "{2}{B}",
+    "text": "Flying\nWhen this creature dies, create a tapped 2/2 colorless Robot artifact creature token.",
+    "power": "2",
+    "toughness": "1",
+    "keywords": [
+      "Flying"
+    ]
   },
   {
     "name": "Hullcarver",
@@ -1264,7 +1808,13 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{B}"
+    "manaCost": "{B}",
+    "text": "Deathtouch",
+    "power": "1",
+    "toughness": "1",
+    "keywords": [
+      "Deathtouch"
+    ]
   },
   {
     "name": "Hylderblade",
@@ -1276,7 +1826,14 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{B}"
+    "manaCost": "{B}",
+    "text": "Equipped creature gets +3/+1.\nVoid \u2014 At the beginning of your end step, if a nonland permanent left the battlefield this turn or a spell was warped this turn, attach this Equipment to target creature you control.\nEquip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Equip",
+      "Void"
+    ]
   },
   {
     "name": "Hymn of the Faller",
@@ -1288,7 +1845,14 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{1}{B}"
+    "manaCost": "{1}{B}",
+    "text": "Surveil 1, then you draw a card and lose 1 life. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, draw another card.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Surveil",
+      "Void"
+    ]
   },
   {
     "name": "Insatiable Skittermaw",
@@ -1300,7 +1864,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{B}"
+    "manaCost": "{2}{B}",
+    "text": "Menace (This creature can't be blocked except by two or more creatures.)\nVoid \u2014 At the beginning of your end step, if a nonland permanent left the battlefield this turn or a spell was warped this turn, put a +1/+1 counter on this creature.",
+    "power": "2",
+    "toughness": "2",
+    "keywords": [
+      "Menace",
+      "Void"
+    ]
   },
   {
     "name": "Lightless Evangel",
@@ -1312,7 +1883,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{1}{B}"
+    "manaCost": "{1}{B}",
+    "text": "Whenever you sacrifice another creature or artifact, put a +1/+1 counter on this creature.",
+    "power": "2",
+    "toughness": "2",
+    "keywords": []
   },
   {
     "name": "Monoist Circuit-Feeder",
@@ -1325,7 +1900,13 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{4}{B}{B}"
+    "manaCost": "{4}{B}{B}",
+    "text": "Flying\nWhen this creature enters, until end of turn, target creature you control gets +X/+0 and target creature an opponent controls gets -0/-X, where X is the number of artifacts you control.",
+    "power": "4",
+    "toughness": "4",
+    "keywords": [
+      "Flying"
+    ]
   },
   {
     "name": "Monoist Sentry",
@@ -1338,7 +1919,13 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{B}"
+    "manaCost": "{B}",
+    "text": "Defender",
+    "power": "4",
+    "toughness": "1",
+    "keywords": [
+      "Defender"
+    ]
   },
   {
     "name": "Perigee Beckoner",
@@ -1350,7 +1937,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{4}{B}"
+    "manaCost": "{4}{B}",
+    "text": "When this creature enters, until end of turn, another target creature you control gets +2/+0 and gains \"When this creature dies, return it to the battlefield tapped under its owner's control.\"\nWarp {1}{B} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "4",
+    "toughness": "5",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Requiem Monolith",
@@ -1362,7 +1955,11 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{2}{B}"
+    "manaCost": "{2}{B}",
+    "text": "{T}: Until end of turn, target creature gains \"Whenever this creature is dealt damage, you draw that many cards and lose that much life.\" That creature's controller may have this artifact deal 1 damage to it. Activate only as a sorcery.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Scrounge for Eternity",
@@ -1374,7 +1971,11 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{2}{B}"
+    "manaCost": "{2}{B}",
+    "text": "As an additional cost to cast this spell, sacrifice an artifact or creature.\nReturn target creature or Spacecraft card with mana value 5 or less from your graveyard to the battlefield. Then create a Lander token. (It's an artifact with \"{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\")",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Sothera, the Supervoid",
@@ -1386,7 +1987,11 @@
     "types": [
       "Enchantment"
     ],
-    "manaCost": "{2}{B}{B}"
+    "manaCost": "{2}{B}{B}",
+    "text": "Whenever a creature you control dies, each opponent chooses a creature they control and exiles it.\nAt the beginning of your end step, if a player controls no creatures, sacrifice Sothera, then put a creature card exiled with it onto the battlefield under your control with two additional +1/+1 counters on it.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Sunset Saboteur",
@@ -1398,7 +2003,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{1}{B}"
+    "manaCost": "{1}{B}",
+    "text": "Menace\nWard\u2014Discard a card.\nWhenever this creature attacks, put a +1/+1 counter on target creature an opponent controls.",
+    "power": "4",
+    "toughness": "1",
+    "keywords": [
+      "Menace",
+      "Ward"
+    ]
   },
   {
     "name": "Susurian Dirgecraft",
@@ -1410,7 +2022,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{4}{B}"
+    "manaCost": "{4}{B}",
+    "text": "When this Spacecraft enters, each opponent sacrifices a nontoken creature of their choice.\nStation (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 7+.)\n7+ | Flying",
+    "power": "4",
+    "toughness": "3",
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Susurian Voidborn",
@@ -1422,7 +2040,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{B}"
+    "manaCost": "{2}{B}",
+    "text": "Whenever this creature or another creature or artifact you control dies, target opponent loses 1 life and you gain 1 life.\nWarp {B} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "2",
+    "toughness": "2",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Swarm Culler",
@@ -1434,7 +2058,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{B}"
+    "manaCost": "{3}{B}",
+    "text": "Flying\nWhenever this creature becomes tapped, you may sacrifice another creature or artifact. If you do, draw a card.",
+    "power": "2",
+    "toughness": "4",
+    "keywords": [
+      "Flying"
+    ]
   },
   {
     "name": "Temporal Intervention",
@@ -1446,7 +2076,13 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{2}{B}"
+    "manaCost": "{2}{B}",
+    "text": "Void \u2014 This spell costs {2} less to cast if a nonland permanent left the battlefield this turn or a spell was warped this turn.\nTarget opponent reveals their hand. You choose a nonland card from it. That player discards that card.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Void"
+    ]
   },
   {
     "name": "Timeline Culler",
@@ -1458,7 +2094,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{B}{B}"
+    "manaCost": "{B}{B}",
+    "text": "Haste\nYou may cast this card from your graveyard using its warp ability.\nWarp\u2014{B}, Pay 2 life. (You may cast this card from your hand or graveyard for its warp cost. If you do, exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "2",
+    "toughness": "2",
+    "keywords": [
+      "Haste",
+      "Warp"
+    ]
   },
   {
     "name": "Tragic Trajectory",
@@ -1470,7 +2113,13 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{B}"
+    "manaCost": "{B}",
+    "text": "Target creature gets -2/-2 until end of turn.\nVoid \u2014 That creature gets -10/-10 until end of turn instead if a nonland permanent left the battlefield this turn or a spell was warped this turn.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Void"
+    ]
   },
   {
     "name": "Umbral Collar Zealot",
@@ -1482,7 +2131,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{1}{B}"
+    "manaCost": "{1}{B}",
+    "text": "Sacrifice another creature or artifact: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+    "power": "3",
+    "toughness": "2",
+    "keywords": [
+      "Surveil"
+    ]
   },
   {
     "name": "Virus Beetle",
@@ -1495,7 +2150,11 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{1}{B}"
+    "manaCost": "{1}{B}",
+    "text": "When this creature enters, each opponent discards a card.",
+    "power": "1",
+    "toughness": "1",
+    "keywords": []
   },
   {
     "name": "Voidforged Titan",
@@ -1508,7 +2167,13 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{4}{B}"
+    "manaCost": "{4}{B}",
+    "text": "Void \u2014 At the beginning of your end step, if a nonland permanent left the battlefield this turn or a spell was warped this turn, you draw a card and lose 1 life.",
+    "power": "5",
+    "toughness": "4",
+    "keywords": [
+      "Void"
+    ]
   },
   {
     "name": "Vote Out",
@@ -1520,7 +2185,13 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{3}{B}"
+    "manaCost": "{3}{B}",
+    "text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nDestroy target creature.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Convoke"
+    ]
   },
   {
     "name": "Xu-Ifit, Osteoharmonist",
@@ -1532,7 +2203,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{1}{B}{B}"
+    "manaCost": "{1}{B}{B}",
+    "text": "{T}: Return target creature card from your graveyard to the battlefield. It's a Skeleton in addition to its other types and has no abilities. Activate only as a sorcery.",
+    "power": "2",
+    "toughness": "3",
+    "keywords": []
   },
   {
     "name": "Zero Point Ballad",
@@ -1544,7 +2219,11 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{X}{B}"
+    "manaCost": "{X}{B}",
+    "text": "Destroy all creatures with toughness X or less. You lose X life. If X is 6 or more, return a creature card put into a graveyard this way to the battlefield under your control.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Bombard",
@@ -1556,7 +2235,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{2}{R}"
+    "manaCost": "{2}{R}",
+    "text": "Bombard deals 4 damage to target creature.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Cut Propulsion",
@@ -1568,7 +2251,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{2}{R}"
+    "manaCost": "{2}{R}",
+    "text": "Target creature deals damage to itself equal to its power. If that creature has flying, it deals twice that much damage to itself instead.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Debris Field Crusher",
@@ -1580,7 +2267,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{4}{R}"
+    "manaCost": "{4}{R}",
+    "text": "When this Spacecraft enters, it deals 3 damage to any target.\nStation (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.)\n8+ | Flying\n{1}{R}: This Spacecraft gets +2/+0 until end of turn.",
+    "power": "1",
+    "toughness": "5",
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Devastating Onslaught",
@@ -1592,7 +2285,11 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{X}{X}{R}"
+    "manaCost": "{X}{X}{R}",
+    "text": "Create X tokens that are copies of target artifact or creature you control. Those tokens gain haste until end of turn. Sacrifice them at the beginning of the next end step.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Drill Too Deep",
@@ -1604,7 +2301,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{1}{R}"
+    "manaCost": "{1}{R}",
+    "text": "Choose one \u2014\n\u2022 Put five charge counters on target Spacecraft or Planet you control.\n\u2022 Destroy target artifact.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Frontline War-Rager",
@@ -1616,7 +2317,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{R}"
+    "manaCost": "{2}{R}",
+    "text": "At the beginning of your end step, if you control two or more tapped creatures, put a +1/+1 counter on this creature.",
+    "power": "2",
+    "toughness": "3",
+    "keywords": []
   },
   {
     "name": "Full Bore",
@@ -1628,7 +2333,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{R}"
+    "manaCost": "{R}",
+    "text": "Target creature you control gets +3/+2 until end of turn. If that creature was cast for its warp cost, it also gains trample and haste until end of turn.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Galvanizing Sawship",
@@ -1640,7 +2349,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{5}{R}"
+    "manaCost": "{5}{R}",
+    "text": "Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 3+.)\n3+ | Flying, haste",
+    "power": "6",
+    "toughness": "5",
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Invasive Maneuvers",
@@ -1652,7 +2367,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{1}{R}"
+    "manaCost": "{1}{R}",
+    "text": "Invasive Maneuvers deals 3 damage to target creature. It deals 5 damage instead if you control a Spacecraft.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Kav Landseeker",
@@ -1664,7 +2383,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{R}"
+    "manaCost": "{3}{R}",
+    "text": "Menace (This creature can't be blocked except by two or more creatures.)\nWhen this creature enters, create a Lander token. At the beginning of the end step on your next turn, sacrifice that token. (It's an artifact with \"{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\")",
+    "power": "4",
+    "toughness": "3",
+    "keywords": [
+      "Menace"
+    ]
   },
   {
     "name": "Kavaron Harrier",
@@ -1677,7 +2402,11 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{R}"
+    "manaCost": "{R}",
+    "text": "Whenever this creature attacks, you may pay {2}. If you do, create a 2/2 colorless Robot artifact creature token that's tapped and attacking. Sacrifice that token at end of combat.",
+    "power": "2",
+    "toughness": "1",
+    "keywords": []
   },
   {
     "name": "Kavaron Skywarden",
@@ -1689,7 +2418,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{4}{R}"
+    "manaCost": "{4}{R}",
+    "text": "Reach\nVoid \u2014 At the beginning of your end step, if a nonland permanent left the battlefield this turn or a spell was warped this turn, put a +1/+1 counter on this creature.",
+    "power": "4",
+    "toughness": "5",
+    "keywords": [
+      "Reach",
+      "Void"
+    ]
   },
   {
     "name": "Kavaron Turbodrone",
@@ -1702,7 +2438,11 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{2}{R}"
+    "manaCost": "{2}{R}",
+    "text": "{T}: Target creature you control gets +1/+1 and gains haste until end of turn. Activate only as a sorcery.",
+    "power": "2",
+    "toughness": "3",
+    "keywords": []
   },
   {
     "name": "Lithobraking",
@@ -1714,7 +2454,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{2}{R}"
+    "manaCost": "{2}{R}",
+    "text": "Create a Lander token. Then you may sacrifice an artifact. When you do, Lithobraking deals 2 damage to each creature. (A Lander token is an artifact with \"{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\")",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Melded Moxite",
@@ -1726,7 +2470,11 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{1}{R}"
+    "manaCost": "{1}{R}",
+    "text": "When this artifact enters, you may discard a card. If you do, draw two cards.\n{3}, Sacrifice this artifact: Create a tapped 2/2 colorless Robot artifact creature token.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Memorial Team Leader",
@@ -1738,7 +2486,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{R}"
+    "manaCost": "{3}{R}",
+    "text": "During your turn, other creatures you control get +1/+0.\nWarp {1}{R} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "4",
+    "toughness": "3",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Memorial Vault",
@@ -1750,7 +2504,11 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{3}{R}"
+    "manaCost": "{3}{R}",
+    "text": "{T}, Sacrifice another artifact: Exile the top X cards of your library, where X is one plus the mana value of the sacrificed artifact. You may play those cards this turn.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Molecular Modifier",
@@ -1762,7 +2520,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{R}"
+    "manaCost": "{2}{R}",
+    "text": "At the beginning of combat on your turn, target creature you control gets +1/+0 and gains first strike until end of turn.",
+    "power": "2",
+    "toughness": "2",
+    "keywords": []
   },
   {
     "name": "Nebula Dragon",
@@ -1774,7 +2536,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{6}{R}"
+    "manaCost": "{6}{R}",
+    "text": "Flying\nWhen this creature enters, it deals 3 damage to any target.",
+    "power": "4",
+    "toughness": "4",
+    "keywords": [
+      "Flying"
+    ]
   },
   {
     "name": "Nova Hellkite",
@@ -1786,7 +2554,15 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{R}{R}"
+    "manaCost": "{3}{R}{R}",
+    "text": "Flying, haste\nWhen this creature enters, it deals 1 damage to target creature an opponent controls.\nWarp {2}{R} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "4",
+    "toughness": "5",
+    "keywords": [
+      "Flying",
+      "Haste",
+      "Warp"
+    ]
   },
   {
     "name": "Orbital Plunge",
@@ -1798,7 +2574,11 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{3}{R}"
+    "manaCost": "{3}{R}",
+    "text": "Orbital Plunge deals 6 damage to target creature. If excess damage was dealt this way, create a Lander token. (It's an artifact with \"{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\")",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Oreplate Pangolin",
@@ -1811,7 +2591,11 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{1}{R}"
+    "manaCost": "{1}{R}",
+    "text": "Whenever another artifact you control enters, you may pay {1}. If you do, put a +1/+1 counter on this creature.",
+    "power": "2",
+    "toughness": "2",
+    "keywords": []
   },
   {
     "name": "Pain for All",
@@ -1823,7 +2607,13 @@
     "types": [
       "Enchantment"
     ],
-    "manaCost": "{2}{R}"
+    "manaCost": "{2}{R}",
+    "text": "Enchant creature you control\nWhen this Aura enters, enchanted creature deals damage equal to its power to any other target.\nWhenever enchanted creature is dealt damage, it deals that much damage to each opponent.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Enchant"
+    ]
   },
   {
     "name": "Plasma Bolt",
@@ -1835,7 +2625,13 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{R}"
+    "manaCost": "{R}",
+    "text": "Plasma Bolt deals 2 damage to any target.\nVoid \u2014 Plasma Bolt deals 3 damage instead if a nonland permanent left the battlefield this turn or a spell was warped this turn.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Void"
+    ]
   },
   {
     "name": "Possibility Technician",
@@ -1847,7 +2643,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{R}"
+    "manaCost": "{2}{R}",
+    "text": "Whenever this creature or another Kavu you control enters, exile the top card of your library. For as long as that card remains exiled, you may play it if you control a Kavu.\nWarp {1}{R} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "3",
+    "toughness": "3",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Red Tiger Mechan",
@@ -1860,7 +2662,14 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{3}{R}"
+    "manaCost": "{3}{R}",
+    "text": "Haste\nWarp {1}{R} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "3",
+    "toughness": "3",
+    "keywords": [
+      "Haste",
+      "Warp"
+    ]
   },
   {
     "name": "Remnant Elemental",
@@ -1872,7 +2681,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{1}{R}"
+    "manaCost": "{1}{R}",
+    "text": "Reach\nLandfall \u2014 Whenever a land you control enters, this creature gets +2/+0 until end of turn.",
+    "power": "0",
+    "toughness": "4",
+    "keywords": [
+      "Landfall",
+      "Reach"
+    ]
   },
   {
     "name": "Rig for War",
@@ -1884,7 +2700,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{1}{R}"
+    "manaCost": "{1}{R}",
+    "text": "Target creature gets +3/+0 and gains first strike and reach until end of turn.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Roving Actuator",
@@ -1897,7 +2717,13 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{3}{R}"
+    "manaCost": "{3}{R}",
+    "text": "Void \u2014 When this creature enters, if a nonland permanent left the battlefield this turn or a spell was warped this turn, exile up to one target instant or sorcery card with mana value 2 or less from your graveyard. Copy it. You may cast the copy without paying its mana cost.",
+    "power": "3",
+    "toughness": "4",
+    "keywords": [
+      "Void"
+    ]
   },
   {
     "name": "Ruinous Rampage",
@@ -1909,7 +2735,11 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{1}{R}{R}"
+    "manaCost": "{1}{R}{R}",
+    "text": "Choose one \u2014\n\u2022 Ruinous Rampage deals 3 damage to each opponent.\n\u2022 Exile all artifacts with mana value 3 or less.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Rust Harvester",
@@ -1922,7 +2752,13 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{R}"
+    "manaCost": "{R}",
+    "text": "Menace\n{2}, {T}, Exile an artifact card from your graveyard: Put a +1/+1 counter on this creature, then it deals damage equal to its power to any target.",
+    "power": "1",
+    "toughness": "1",
+    "keywords": [
+      "Menace"
+    ]
   },
   {
     "name": "Slagdrill Scrapper",
@@ -1935,7 +2771,11 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{R}"
+    "manaCost": "{R}",
+    "text": "{2}, {T}, Sacrifice another artifact or land: Draw a card.",
+    "power": "1",
+    "toughness": "2",
+    "keywords": []
   },
   {
     "name": "Systems Override",
@@ -1947,7 +2787,11 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{2}{R}"
+    "manaCost": "{2}{R}",
+    "text": "Gain control of target artifact or creature until end of turn. Untap that permanent. It gains haste until end of turn. If it's a Spacecraft, put ten charge counters on it. If you do, remove ten charge counters from it at the beginning of the next end step.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Tannuk, Steadfast Second",
@@ -1959,7 +2803,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{R}{R}"
+    "manaCost": "{2}{R}{R}",
+    "text": "Other creatures you control have haste.\nArtifact cards and red creature cards in your hand have warp {2}{R}. (You may cast a card from your hand for its warp cost. Exile that permanent at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "3",
+    "toughness": "5",
+    "keywords": []
   },
   {
     "name": "Terminal Velocity",
@@ -1971,7 +2819,11 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{4}{R}{R}"
+    "manaCost": "{4}{R}{R}",
+    "text": "You may put an artifact or creature card from your hand onto the battlefield. That permanent gains haste, \"When this permanent leaves the battlefield, it deals damage equal to its mana value to each creature,\" and \"At the beginning of your end step, sacrifice this permanent.\"",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Terrapact Intimidator",
@@ -1983,7 +2835,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{1}{R}"
+    "manaCost": "{1}{R}",
+    "text": "When this creature enters, target opponent may have you create two Lander tokens. If they don't, put two +1/+1 counters on this creature. (A Lander token is an artifact with \"{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\")",
+    "power": "2",
+    "toughness": "1",
+    "keywords": []
   },
   {
     "name": "Territorial Bruntar",
@@ -1995,7 +2851,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{4}{R}{R}"
+    "manaCost": "{4}{R}{R}",
+    "text": "Reach\nLandfall \u2014 Whenever a land you control enters, exile cards from the top of your library until you exile a nonland card. You may cast that card this turn.",
+    "power": "6",
+    "toughness": "6",
+    "keywords": [
+      "Landfall",
+      "Reach"
+    ]
   },
   {
     "name": "Vaultguard Trooper",
@@ -2007,7 +2870,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{4}{R}"
+    "manaCost": "{4}{R}",
+    "text": "At the beginning of your end step, if you control two or more tapped creatures, you may discard your hand. If you do, draw two cards.",
+    "power": "5",
+    "toughness": "5",
+    "keywords": []
   },
   {
     "name": "Warmaker Gunship",
@@ -2019,7 +2886,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{2}{R}"
+    "manaCost": "{2}{R}",
+    "text": "When this Spacecraft enters, it deals damage equal to the number of artifacts you control to target creature an opponent controls.\nStation (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 6+.)\n6+ | Flying",
+    "power": "4",
+    "toughness": "3",
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Weapons Manufacturing",
@@ -2031,7 +2904,11 @@
     "types": [
       "Enchantment"
     ],
-    "manaCost": "{1}{R}"
+    "manaCost": "{1}{R}",
+    "text": "Whenever a nontoken artifact you control enters, create a colorless artifact token named Munitions with \"When this token leaves the battlefield, it deals 2 damage to any target.\"",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Weftstalker Ardent",
@@ -2043,7 +2920,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{R}"
+    "manaCost": "{2}{R}",
+    "text": "Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent.\nWarp {R} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "2",
+    "toughness": "3",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Zookeeper Mechan",
@@ -2056,7 +2939,11 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{1}{R}"
+    "manaCost": "{1}{R}",
+    "text": "{T}: Add {R}.\n{6}{R}: Target creature you control gets +4/+0 until end of turn. Activate only as a sorcery.",
+    "power": "1",
+    "toughness": "3",
+    "keywords": []
   },
   {
     "name": "Atmospheric Greenhouse",
@@ -2068,7 +2955,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{4}{G}"
+    "manaCost": "{4}{G}",
+    "text": "When this Spacecraft enters, put a +1/+1 counter on each creature you control.\nStation (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.)\n8+ | Flying, trample",
+    "power": "5",
+    "toughness": "4",
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Bioengineered Future",
@@ -2080,7 +2973,11 @@
     "types": [
       "Enchantment"
     ],
-    "manaCost": "{1}{G}{G}"
+    "manaCost": "{1}{G}{G}",
+    "text": "When this enchantment enters, create a Lander token. (It's an artifact with \"{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\")\nEach creature you control enters with an additional +1/+1 counter on it for each land that entered the battlefield under your control this turn.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Biosynthic Burst",
@@ -2092,7 +2989,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{1}{G}"
+    "manaCost": "{1}{G}",
+    "text": "Put a +1/+1 counter on target creature you control. It gains reach, trample, and indestructible until end of turn. Untap it. (Damage and effects that say \"destroy\" don't destroy it.)",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Blooming Stinger",
@@ -2104,7 +3005,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{1}{G}"
+    "manaCost": "{1}{G}",
+    "text": "Deathtouch\nWhen this creature enters, another target creature you control gains deathtouch until end of turn.",
+    "power": "2",
+    "toughness": "2",
+    "keywords": [
+      "Deathtouch"
+    ]
   },
   {
     "name": "Broodguard Elite",
@@ -2116,7 +3023,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{X}{G}{G}"
+    "manaCost": "{X}{G}{G}",
+    "text": "This creature enters with X +1/+1 counters on it.\nWhen this creature leaves the battlefield, put its counters on target creature you control.\nWarp {X}{G} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "0",
+    "toughness": "0",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Close Encounter",
@@ -2128,7 +3041,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{1}{G}"
+    "manaCost": "{1}{G}",
+    "text": "As an additional cost to cast this spell, choose a creature you control or a warped creature card you own in exile.\nClose Encounter deals damage equal to the power of the chosen creature or card to target creature.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Diplomatic Relations",
@@ -2140,7 +3057,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{2}{G}"
+    "manaCost": "{2}{G}",
+    "text": "Target creature you control gets +1/+0 and gains vigilance until end of turn. It deals damage equal to its power to target creature an opponent controls.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Drix Fatemaker",
@@ -2152,7 +3073,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{G}"
+    "manaCost": "{3}{G}",
+    "text": "When this creature enters, put a +1/+1 counter on target creature.\nEach creature you control with a +1/+1 counter on it has trample.\nWarp {1}{G} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "3",
+    "toughness": "2",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Edge Rover",
@@ -2165,7 +3092,13 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{G}"
+    "manaCost": "{G}",
+    "text": "Reach\nWhen this creature dies, each player creates a Lander token. (It's an artifact with \"{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\")",
+    "power": "2",
+    "toughness": "2",
+    "keywords": [
+      "Reach"
+    ]
   },
   {
     "name": "Eumidian Terrabotanist",
@@ -2177,7 +3110,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{1}{G}"
+    "manaCost": "{1}{G}",
+    "text": "Landfall \u2014 Whenever a land you control enters, you gain 1 life.",
+    "power": "2",
+    "toughness": "3",
+    "keywords": [
+      "Landfall"
+    ]
   },
   {
     "name": "Eusocial Engineering",
@@ -2189,7 +3128,14 @@
     "types": [
       "Enchantment"
     ],
-    "manaCost": "{3}{G}{G}"
+    "manaCost": "{3}{G}{G}",
+    "text": "Landfall \u2014 Whenever a land you control enters, create a 2/2 colorless Robot artifact creature token.\nWarp {1}{G} (You may cast this card from your hand for its warp cost. Exile this enchantment at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Landfall",
+      "Warp"
+    ]
   },
   {
     "name": "Famished Worldsire",
@@ -2201,7 +3147,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{5}{G}{G}{G}"
+    "manaCost": "{5}{G}{G}{G}",
+    "text": "Ward {3}\nDevour land 3 (As this creature enters, you may sacrifice any number of lands. It enters with three times that many +1/+1 counters on it.)\nWhen this creature enters, look at the top X cards of your library, where X is this creature's power. Put any number of land cards from among them onto the battlefield tapped, then shuffle.",
+    "power": "0",
+    "toughness": "0",
+    "keywords": [
+      "Devour",
+      "Ward"
+    ]
   },
   {
     "name": "Frenzied Baloth",
@@ -2213,7 +3166,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{G}{G}"
+    "manaCost": "{G}{G}",
+    "text": "This spell can't be countered.\nTrample, haste\nCreature spells you control can't be countered.\nCombat damage can't be prevented.",
+    "power": "3",
+    "toughness": "2",
+    "keywords": [
+      "Haste",
+      "Trample"
+    ]
   },
   {
     "name": "Fungal Colossus",
@@ -2225,7 +3185,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{6}{G}"
+    "manaCost": "{6}{G}",
+    "text": "This spell costs {X} less to cast, where X is the number of differently named lands you control.",
+    "power": "5",
+    "toughness": "5",
+    "keywords": []
   },
   {
     "name": "Galactic Wayfarer",
@@ -2237,7 +3201,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{G}"
+    "manaCost": "{2}{G}",
+    "text": "When this creature enters, create a Lander token. (It's an artifact with \"{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\")",
+    "power": "3",
+    "toughness": "3",
+    "keywords": []
   },
   {
     "name": "Gene Pollinator",
@@ -2250,7 +3218,11 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{G}"
+    "manaCost": "{G}",
+    "text": "{T}, Tap an untapped permanent you control: Add one mana of any color.",
+    "power": "1",
+    "toughness": "2",
+    "keywords": []
   },
   {
     "name": "Germinating Wurm",
@@ -2262,7 +3234,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{4}{G}"
+    "manaCost": "{4}{G}",
+    "text": "When this creature enters, you gain 2 life.\nWarp {1}{G} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "5",
+    "toughness": "5",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Glacier Godmaw",
@@ -2274,7 +3252,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{5}{G}{G}"
+    "manaCost": "{5}{G}{G}",
+    "text": "Trample\nWhen this creature enters, create a Lander token. (It's an artifact with \"{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\")\nLandfall \u2014 Whenever a land you control enters, creatures you control get +1/+1 and gain vigilance and haste until end of turn.",
+    "power": "6",
+    "toughness": "6",
+    "keywords": [
+      "Landfall",
+      "Trample"
+    ]
   },
   {
     "name": "Harmonious Grovestrider",
@@ -2286,7 +3271,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{G}{G}"
+    "manaCost": "{3}{G}{G}",
+    "text": "Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)\nHarmonious Grovestrider's power and toughness are each equal to the number of lands you control.",
+    "power": "*",
+    "toughness": "*",
+    "keywords": [
+      "Ward"
+    ]
   },
   {
     "name": "Hemosymbic Mite",
@@ -2298,7 +3289,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{G}"
+    "manaCost": "{G}",
+    "text": "Whenever this creature becomes tapped, another target creature you control gets +X/+X until end of turn, where X is this creature's power.",
+    "power": "1",
+    "toughness": "1",
+    "keywords": []
   },
   {
     "name": "Icecave Crasher",
@@ -2310,7 +3305,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{G}"
+    "manaCost": "{3}{G}",
+    "text": "Trample\nLandfall \u2014 Whenever a land you control enters, this creature gets +1/+0 until end of turn.",
+    "power": "4",
+    "toughness": "4",
+    "keywords": [
+      "Landfall",
+      "Trample"
+    ]
   },
   {
     "name": "Icetill Explorer",
@@ -2322,7 +3324,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{G}{G}"
+    "manaCost": "{2}{G}{G}",
+    "text": "You may play an additional land on each of your turns.\nYou may play lands from your graveyard.\nLandfall \u2014 Whenever a land you control enters, mill a card.",
+    "power": "2",
+    "toughness": "4",
+    "keywords": [
+      "Landfall",
+      "Mill"
+    ]
   },
   {
     "name": "Intrepid Tenderfoot",
@@ -2334,7 +3343,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{1}{G}"
+    "manaCost": "{1}{G}",
+    "text": "{3}: Put a +1/+1 counter on this creature. Activate only as a sorcery.",
+    "power": "2",
+    "toughness": "2",
+    "keywords": []
   },
   {
     "name": "Larval Scoutlander",
@@ -2346,7 +3359,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{2}{G}"
+    "manaCost": "{2}{G}",
+    "text": "When this Spacecraft enters, you may sacrifice a land or Lander. If you do, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.\nStation (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 7+.)\n7+ | Flying",
+    "power": "3",
+    "toughness": "3",
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Lashwhip Predator",
@@ -2358,7 +3377,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{4}{G}{G}"
+    "manaCost": "{4}{G}{G}",
+    "text": "This spell costs {2} less to cast if your opponents control three or more creatures.\nReach",
+    "power": "5",
+    "toughness": "7",
+    "keywords": [
+      "Reach"
+    ]
   },
   {
     "name": "Loading Zone",
@@ -2370,7 +3395,13 @@
     "types": [
       "Enchantment"
     ],
-    "manaCost": "{3}{G}"
+    "manaCost": "{3}{G}",
+    "text": "If one or more counters would be put on a creature, Spacecraft, or Planet you control, twice that many of each of those kinds of counters are put on it instead.\nWarp {G} (You may cast this card from your hand for its warp cost. Exile this enchantment at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Meltstrider Eulogist",
@@ -2382,7 +3413,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{G}"
+    "manaCost": "{2}{G}",
+    "text": "Whenever a creature you control with a +1/+1 counter on it dies, draw a card.",
+    "power": "3",
+    "toughness": "3",
+    "keywords": []
   },
   {
     "name": "Meltstrider's Gear",
@@ -2394,7 +3429,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{G}"
+    "manaCost": "{G}",
+    "text": "When this Equipment enters, attach it to target creature you control.\nEquipped creature gets +2/+1 and has reach.\nEquip {5} ({5}: Attach to target creature you control. Equip only as a sorcery.)",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Equip"
+    ]
   },
   {
     "name": "Meltstrider's Resolve",
@@ -2406,7 +3447,14 @@
     "types": [
       "Enchantment"
     ],
-    "manaCost": "{G}"
+    "manaCost": "{G}",
+    "text": "Enchant creature you control\nWhen this Aura enters, enchanted creature fights up to one target creature an opponent controls. (Each deals damage equal to its power to the other.)\nEnchanted creature gets +0/+2 and can't be blocked by more than one creature.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Enchant",
+      "Fight"
+    ]
   },
   {
     "name": "Mightform Harmonizer",
@@ -2418,7 +3466,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{G}{G}"
+    "manaCost": "{2}{G}{G}",
+    "text": "Landfall \u2014 Whenever a land you control enters, double the power of target creature you control until end of turn.\nWarp {2}{G} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "4",
+    "toughness": "4",
+    "keywords": [
+      "Landfall",
+      "Warp"
+    ]
   },
   {
     "name": "Ouroboroid",
@@ -2430,7 +3485,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{G}{G}"
+    "manaCost": "{2}{G}{G}",
+    "text": "At the beginning of combat on your turn, put X +1/+1 counters on each creature you control, where X is this creature's power.",
+    "power": "1",
+    "toughness": "3",
+    "keywords": []
   },
   {
     "name": "Pull Through the Weft",
@@ -2442,7 +3501,11 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{3}{G}{G}"
+    "manaCost": "{3}{G}{G}",
+    "text": "Return up to two target nonland permanent cards from your graveyard to your hand, then return up to two target land cards from your graveyard to the battlefield tapped.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Sami's Curiosity",
@@ -2454,7 +3517,11 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{G}"
+    "manaCost": "{G}",
+    "text": "You gain 2 life. Create a Lander token. (It's an artifact with \"{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\")",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Seedship Agrarian",
@@ -2466,7 +3533,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{3}{G}"
+    "manaCost": "{3}{G}",
+    "text": "Whenever this creature becomes tapped, create a Lander token. (It's an artifact with \"{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\")\nLandfall \u2014 Whenever a land you control enters, put a +1/+1 counter on this creature.",
+    "power": "3",
+    "toughness": "3",
+    "keywords": [
+      "Landfall"
+    ]
   },
   {
     "name": "Seedship Impact",
@@ -2478,7 +3551,11 @@
     "types": [
       "Instant"
     ],
-    "manaCost": "{1}{G}"
+    "manaCost": "{1}{G}",
+    "text": "Destroy target artifact or enchantment. If its mana value was 2 or less, create a Lander token. (It's an artifact with \"{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\")",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Shattered Wings",
@@ -2490,7 +3567,13 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{2}{G}"
+    "manaCost": "{2}{G}",
+    "text": "Destroy target artifact, enchantment, or creature with flying. Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Surveil"
+    ]
   },
   {
     "name": "Skystinger",
@@ -2502,7 +3585,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{G}"
+    "manaCost": "{2}{G}",
+    "text": "Reach\nWhenever this creature blocks a creature with flying, this creature gets +5/+0 until end of turn.",
+    "power": "3",
+    "toughness": "3",
+    "keywords": [
+      "Reach"
+    ]
   },
   {
     "name": "Sledge-Class Seedship",
@@ -2514,7 +3603,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{2}{G}"
+    "manaCost": "{2}{G}",
+    "text": "Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 7+.)\n7+ | Flying\nWhenever this Spacecraft attacks, you may put a creature card from your hand onto the battlefield.",
+    "power": "4",
+    "toughness": "5",
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Tapestry Warden",
@@ -2527,7 +3622,13 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{3}{G}"
+    "manaCost": "{3}{G}",
+    "text": "Vigilance\nEach creature you control with toughness greater than its power assigns combat damage equal to its toughness rather than its power.\nEach creature you control with toughness greater than its power stations permanents using its toughness rather than its power.",
+    "power": "3",
+    "toughness": "4",
+    "keywords": [
+      "Vigilance"
+    ]
   },
   {
     "name": "Terrasymbiosis",
@@ -2539,7 +3640,11 @@
     "types": [
       "Enchantment"
     ],
-    "manaCost": "{2}{G}"
+    "manaCost": "{2}{G}",
+    "text": "Whenever you put one or more +1/+1 counters on a creature you control, you may draw that many cards. Do this only once each turn.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Thawbringer",
@@ -2551,7 +3656,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{G}"
+    "manaCost": "{2}{G}",
+    "text": "When this creature enters or dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+    "power": "4",
+    "toughness": "2",
+    "keywords": [
+      "Surveil"
+    ]
   },
   {
     "name": "Alpharael, Dreaming Acolyte",
@@ -2564,7 +3675,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{1}{U}{B}"
+    "manaCost": "{1}{U}{B}",
+    "text": "When Alpharael enters, draw two cards. Then discard two cards unless you discard an artifact card.\nDuring your turn, Alpharael has deathtouch.",
+    "power": "2",
+    "toughness": "3",
+    "keywords": []
   },
   {
     "name": "Biomechan Engineer",
@@ -2577,7 +3692,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{G}{U}"
+    "manaCost": "{G}{U}",
+    "text": "When this creature enters, create a Lander token. (It's an artifact with \"{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\")\n{8}: Draw two cards and create a 2/2 colorless Robot artifact creature token.",
+    "power": "2",
+    "toughness": "2",
+    "keywords": []
   },
   {
     "name": "Biotech Specialist",
@@ -2590,7 +3709,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{R}{G}"
+    "manaCost": "{R}{G}",
+    "text": "When this creature enters, create a Lander token. (It's an artifact with \"{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\")\nWhenever you sacrifice an artifact, this creature deals 2 damage to target opponent.",
+    "power": "1",
+    "toughness": "3",
+    "keywords": []
   },
   {
     "name": "Cosmogoyf",
@@ -2603,7 +3726,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{B}{G}"
+    "manaCost": "{B}{G}",
+    "text": "Cosmogoyf's power is equal to the number of cards you own in exile and its toughness is equal to that number plus 1.",
+    "power": "*",
+    "toughness": "1+*",
+    "keywords": []
   },
   {
     "name": "Dyadrine, Synthesis Amalgam",
@@ -2617,7 +3744,13 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{X}{G}{W}"
+    "manaCost": "{X}{G}{W}",
+    "text": "Trample\nDyadrine enters with a number of +1/+1 counters on it equal to the amount of mana spent to cast it.\nWhenever you attack, you may remove a +1/+1 counter from each of two creatures you control. If you do, draw a card and create a 2/2 colorless Robot artifact creature token.",
+    "power": "0",
+    "toughness": "1",
+    "keywords": [
+      "Trample"
+    ]
   },
   {
     "name": "Genemorph Imago",
@@ -2630,7 +3763,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{G}{U}"
+    "manaCost": "{G}{U}",
+    "text": "Flying\nLandfall \u2014 Whenever a land you control enters, target creature has base power and toughness 3/3 until end of turn. If you control six or more lands, that creature has base power and toughness 6/6 until end of turn instead.",
+    "power": "1",
+    "toughness": "3",
+    "keywords": [
+      "Flying",
+      "Landfall"
+    ]
   },
   {
     "name": "Haliya, Ascendant Cadet",
@@ -2643,7 +3783,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{G}{W}{W}"
+    "manaCost": "{2}{G}{W}{W}",
+    "text": "Whenever Haliya enters or attacks, put a +1/+1 counter on target creature you control.\nWhenever one or more creatures you control with +1/+1 counters on them deal combat damage to a player, draw a card.",
+    "power": "3",
+    "toughness": "3",
+    "keywords": []
   },
   {
     "name": "Infinite Guideline Station",
@@ -2659,7 +3803,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{W}{U}{B}{R}{G}"
+    "manaCost": "{W}{U}{B}{R}{G}",
+    "text": "When Infinite Guideline Station enters, create a tapped 2/2 colorless Robot artifact creature token for each multicolored permanent you control.\nStation (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 12+.)\n12+ | Flying\nWhenever Infinite Guideline Station attacks, draw a card for each multicolored permanent you control.",
+    "power": "7",
+    "toughness": "15",
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Interceptor Mechan",
@@ -2673,7 +3823,14 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{2}{B}{R}"
+    "manaCost": "{2}{B}{R}",
+    "text": "Flying\nWhen this creature enters, return target artifact or creature card from your graveyard to your hand.\nVoid \u2014 At the beginning of your end step, if a nonland permanent left the battlefield this turn or a spell was warped this turn, put a +1/+1 counter on this creature.",
+    "power": "2",
+    "toughness": "2",
+    "keywords": [
+      "Flying",
+      "Void"
+    ]
   },
   {
     "name": "Mm'menon, Uthros Exile",
@@ -2686,7 +3843,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{1}{U}{R}"
+    "manaCost": "{1}{U}{R}",
+    "text": "Flying\nWhenever an artifact you control enters, put a +1/+1 counter on target creature.",
+    "power": "1",
+    "toughness": "3",
+    "keywords": [
+      "Flying"
+    ]
   },
   {
     "name": "Mutinous Massacre",
@@ -2699,7 +3862,11 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{3}{B}{B}{R}{R}"
+    "manaCost": "{3}{B}{B}{R}{R}",
+    "text": "Choose odd or even. Destroy each creature with mana value of the chosen quality. Then gain control of all creatures until end of turn. Untap them. They gain haste until end of turn. (Zero is even.)",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Pinnacle Emissary",
@@ -2713,7 +3880,13 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{1}{U}{R}"
+    "manaCost": "{1}{U}{R}",
+    "text": "Whenever you cast an artifact spell, create a 1/1 colorless Drone artifact creature token with flying and \"This token can block only creatures with flying.\"\nWarp {U/R} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "3",
+    "toughness": "3",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Ragost, Deft Gastronaut",
@@ -2726,7 +3899,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{R}{W}"
+    "manaCost": "{R}{W}",
+    "text": "Artifacts you control are Foods in addition to their other types and have \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\"\n{1}, {T}, Sacrifice a Food: Ragost deals 3 damage to each opponent.\nAt the beginning of each end step, if you gained life this turn, untap Ragost.",
+    "power": "2",
+    "toughness": "2",
+    "keywords": []
   },
   {
     "name": "Sami, Ship's Engineer",
@@ -2739,7 +3916,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{R}{W}"
+    "manaCost": "{2}{R}{W}",
+    "text": "At the beginning of your end step, if you control two or more tapped creatures, create a tapped 2/2 colorless Robot artifact creature token.",
+    "power": "2",
+    "toughness": "4",
+    "keywords": []
   },
   {
     "name": "Sami, Wildcat Captain",
@@ -2752,7 +3933,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{4}{R}{W}"
+    "manaCost": "{4}{R}{W}",
+    "text": "Double strike, vigilance\nSpells you cast have affinity for artifacts. (They cost {1} less to cast for each artifact you control.)",
+    "power": "4",
+    "toughness": "4",
+    "keywords": [
+      "Double strike",
+      "Vigilance"
+    ]
   },
   {
     "name": "Seedship Broodtender",
@@ -2765,7 +3953,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{B}{G}"
+    "manaCost": "{B}{G}",
+    "text": "When this creature enters, mill three cards. (Put the top three cards of your library into your graveyard.)\n{3}{B}{G}, Sacrifice this creature: Return target creature or Spacecraft card from your graveyard to the battlefield. Activate only as a sorcery.",
+    "power": "2",
+    "toughness": "3",
+    "keywords": [
+      "Mill"
+    ]
   },
   {
     "name": "Singularity Rupture",
@@ -2778,7 +3972,13 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{3}{U}{B}{B}"
+    "manaCost": "{3}{U}{B}{B}",
+    "text": "Destroy all creatures, then any number of target players each mill half their library, rounded down.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Mill"
+    ]
   },
   {
     "name": "Space-Time Anomaly",
@@ -2791,7 +3991,13 @@
     "types": [
       "Sorcery"
     ],
-    "manaCost": "{2}{W}{U}"
+    "manaCost": "{2}{W}{U}",
+    "text": "Target player mills cards equal to your life total.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Mill"
+    ]
   },
   {
     "name": "Station Monitor",
@@ -2804,7 +4010,11 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{W}{U}"
+    "manaCost": "{W}{U}",
+    "text": "Whenever you cast your second spell each turn, create a 1/1 colorless Drone artifact creature token with flying and \"This token can block only creatures with flying.\"",
+    "power": "2",
+    "toughness": "2",
+    "keywords": []
   },
   {
     "name": "Syr Vondam, Sunstar Exemplar",
@@ -2817,7 +4027,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{W}{B}"
+    "manaCost": "{W}{B}",
+    "text": "Vigilance, menace\nWhenever another creature you control dies or is put into exile, put a +1/+1 counter on Syr Vondam and you gain 1 life.\nWhen Syr Vondam dies or is put into exile while its power is 4 or greater, destroy up to one target nonland permanent.",
+    "power": "2",
+    "toughness": "2",
+    "keywords": [
+      "Menace",
+      "Vigilance"
+    ]
   },
   {
     "name": "Syr Vondam, the Lucent",
@@ -2830,7 +4047,14 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{2}{W}{B}{B}"
+    "manaCost": "{2}{W}{B}{B}",
+    "text": "Deathtouch, lifelink\nWhenever Syr Vondam enters or attacks, other creatures you control get +1/+0 and gain deathtouch until end of turn.",
+    "power": "4",
+    "toughness": "4",
+    "keywords": [
+      "Deathtouch",
+      "Lifelink"
+    ]
   },
   {
     "name": "Tannuk, Memorial Ensign",
@@ -2843,7 +4067,13 @@
     "types": [
       "Creature"
     ],
-    "manaCost": "{1}{R}{G}"
+    "manaCost": "{1}{R}{G}",
+    "text": "Landfall \u2014 Whenever a land you control enters, Tannuk deals 1 damage to each opponent. If this is the second time this ability has resolved this turn, draw a card.",
+    "power": "2",
+    "toughness": "4",
+    "keywords": [
+      "Landfall"
+    ]
   },
   {
     "name": "All-Fates Scroll",
@@ -2853,7 +4083,11 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{3}"
+    "manaCost": "{3}",
+    "text": "{T}: Add one mana of any color.\n{7}, {T}, Sacrifice this artifact: Draw X cards, where X is the number of differently named lands you control.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Bygone Colossus",
@@ -2864,7 +4098,13 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{9}"
+    "manaCost": "{9}",
+    "text": "Warp {3} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+    "power": "9",
+    "toughness": "9",
+    "keywords": [
+      "Warp"
+    ]
   },
   {
     "name": "Chrome Companion",
@@ -2875,7 +4115,11 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{2}"
+    "manaCost": "{2}",
+    "text": "Whenever this creature becomes tapped, you gain 1 life.\n{2}, {T}: Put target card from a graveyard on the bottom of its owner's library.",
+    "power": "2",
+    "toughness": "1",
+    "keywords": []
   },
   {
     "name": "Dauntless Scrapbot",
@@ -2886,7 +4130,11 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{3}"
+    "manaCost": "{3}",
+    "text": "When this creature enters, exile each opponent's graveyard. Create a Lander token. (It's an artifact with \"{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\")",
+    "power": "3",
+    "toughness": "1",
+    "keywords": []
   },
   {
     "name": "Dawnsire, Sunstar Dreadnought",
@@ -2896,7 +4144,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{5}"
+    "manaCost": "{5}",
+    "text": "Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 20+.)\n10+ | Whenever you attack, Dawnsire deals 100 damage to up to one target creature or planeswalker.\n20+ | Flying",
+    "power": "20",
+    "toughness": "20",
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "The Dominion Bracelet",
@@ -2906,7 +4160,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{2}"
+    "manaCost": "{2}",
+    "text": "Equipped creature gets +1/+1 and has \"{15}, Exile The Dominion Bracelet: You control target opponent during their next turn. This ability costs {X} less to activate, where X is this creature's power. Activate only as a sorcery.\" (You see all cards that player could see and make all decisions for them.)\nEquip {1}",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Equip"
+    ]
   },
   {
     "name": "The Endstone",
@@ -2916,7 +4176,11 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{7}"
+    "manaCost": "{7}",
+    "text": "Whenever you play a land or cast a spell, draw a card.\nAt the beginning of your end step, your life total becomes half your starting life total, rounded up.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "The Eternity Elevator",
@@ -2926,7 +4190,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{5}"
+    "manaCost": "{5}",
+    "text": "{T}: Add {C}{C}{C}.\nStation (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)\n20+ | {T}: Add X mana of any one color, where X is the number of charge counters on The Eternity Elevator.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Extinguisher Battleship",
@@ -2936,7 +4206,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{8}"
+    "manaCost": "{8}",
+    "text": "When this Spacecraft enters, destroy target noncreature permanent. Then this Spacecraft deals 4 damage to each creature.\nStation (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 5+.)\n5+ | Flying, trample",
+    "power": "10",
+    "toughness": "10",
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Nutrient Block",
@@ -2946,7 +4222,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{1}"
+    "manaCost": "{1}",
+    "text": "Indestructible (Effects that say \"destroy\" don't destroy this artifact.)\n{2}, {T}, Sacrifice this artifact: You gain 3 life.\nWhen this artifact is put into a graveyard from the battlefield, draw a card.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Indestructible"
+    ]
   },
   {
     "name": "Pinnacle Kill-Ship",
@@ -2956,7 +4238,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{7}"
+    "manaCost": "{7}",
+    "text": "When this Spacecraft enters, it deals 10 damage to up to one target creature.\nStation (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 7+.)\n7+ | Flying",
+    "power": "7",
+    "toughness": "7",
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Survey Mechan",
@@ -2967,7 +4255,14 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{4}"
+    "manaCost": "{4}",
+    "text": "Flying\nHexproof (This creature can't be the target of spells or abilities your opponents control.)\n{10}, Sacrifice this creature: It deals 3 damage to any target. Target player draws three cards and gains 3 life. This ability costs {X} less to activate, where X is the number of differently named lands you control.",
+    "power": "1",
+    "toughness": "3",
+    "keywords": [
+      "Flying",
+      "Hexproof"
+    ]
   },
   {
     "name": "Thaumaton Torpedo",
@@ -2977,7 +4272,11 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{1}"
+    "manaCost": "{1}",
+    "text": "{6}, {T}, Sacrifice this artifact: Destroy target nonland permanent. This ability costs {3} less to activate if you attacked with a Spacecraft this turn.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Thrumming Hivepool",
@@ -2987,7 +4286,13 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{6}"
+    "manaCost": "{6}",
+    "text": "Affinity for Slivers (This spell costs {1} less to cast for each Sliver you control.)\nSlivers you control have double strike and haste.\nAt the beginning of your upkeep, create two 1/1 colorless Sliver creature tokens.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Affinity"
+    ]
   },
   {
     "name": "Virulent Silencer",
@@ -2998,7 +4303,11 @@
       "Artifact",
       "Creature"
     ],
-    "manaCost": "{3}"
+    "manaCost": "{3}",
+    "text": "Whenever a nontoken artifact creature you control deals combat damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.)",
+    "power": "2",
+    "toughness": "3",
+    "keywords": []
   },
   {
     "name": "Wurmwall Sweeper",
@@ -3008,7 +4317,14 @@
     "types": [
       "Artifact"
     ],
-    "manaCost": "{2}"
+    "manaCost": "{2}",
+    "text": "When this Spacecraft enters, surveil 2.\nStation (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 4+.)\n4+ | Flying",
+    "power": "2",
+    "toughness": "2",
+    "keywords": [
+      "Station",
+      "Surveil"
+    ]
   },
   {
     "name": "Adagia, Windswept Bastion",
@@ -3018,7 +4334,13 @@
     "types": [
       "Land"
     ],
-    "manaCost": ""
+    "manaCost": "",
+    "text": "This land enters tapped.\n{T}: Add {W}.\nStation (Tap another creature you control: Put charge counters equal to its power on this Planet. Station only as a sorcery.)\n12+ | {3}{W}, {T}: Create a token that's a copy of target artifact or enchantment you control, except it's legendary. Activate only as a sorcery.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Breeding Pool",
@@ -3028,7 +4350,11 @@
     "types": [
       "Land"
     ],
-    "manaCost": ""
+    "manaCost": "",
+    "text": "({T}: Add {G} or {U}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Command Bridge",
@@ -3038,7 +4364,11 @@
     "types": [
       "Land"
     ],
-    "manaCost": ""
+    "manaCost": "",
+    "text": "This land enters tapped.\nWhen this land enters, sacrifice it unless you tap an untapped permanent you control.\n{T}: Add one mana of any color.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Evendo, Waking Haven",
@@ -3048,7 +4378,13 @@
     "types": [
       "Land"
     ],
-    "manaCost": ""
+    "manaCost": "",
+    "text": "This land enters tapped.\n{T}: Add {G}.\nStation (Tap another creature you control: Put charge counters equal to its power on this Planet. Station only as a sorcery.)\n12+ | {G}, {T}: Add {G} for each creature you control.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Godless Shrine",
@@ -3058,7 +4394,11 @@
     "types": [
       "Land"
     ],
-    "manaCost": ""
+    "manaCost": "",
+    "text": "({T}: Add {W} or {B}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Kavaron, Memorial World",
@@ -3068,7 +4408,13 @@
     "types": [
       "Land"
     ],
-    "manaCost": ""
+    "manaCost": "",
+    "text": "This land enters tapped.\n{T}: Add {R}.\nStation (Tap another creature you control: Put charge counters equal to its power on this Planet. Station only as a sorcery.)\n12+ | {1}{R}, {T}, Sacrifice a land: Create a 2/2 colorless Robot artifact creature token, then creatures you control get +1/+0 and gain haste until end of turn.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Sacred Foundry",
@@ -3078,7 +4424,11 @@
     "types": [
       "Land"
     ],
-    "manaCost": ""
+    "manaCost": "",
+    "text": "({T}: Add {R} or {W}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Secluded Starforge",
@@ -3088,7 +4438,11 @@
     "types": [
       "Land"
     ],
-    "manaCost": ""
+    "manaCost": "",
+    "text": "{T}: Add {C}.\n{2}, {T}, Tap X untapped artifacts you control: Target creature gets +X/+0 until end of turn. Activate only as a sorcery.\n{5}, {T}: Create a 2/2 colorless Robot artifact creature token.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Stomping Ground",
@@ -3098,7 +4452,11 @@
     "types": [
       "Land"
     ],
-    "manaCost": ""
+    "manaCost": "",
+    "text": "({T}: Add {R} or {G}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Susur Secundi, Void Altar",
@@ -3108,7 +4466,13 @@
     "types": [
       "Land"
     ],
-    "manaCost": ""
+    "manaCost": "",
+    "text": "This land enters tapped.\n{T}: Add {B}.\nStation (Tap another creature you control: Put charge counters equal to its power on this Planet. Station only as a sorcery.)\n12+ | {1}{B}, {T}, Pay 2 life, Sacrifice a creature: Draw cards equal to the sacrificed creature's power. Activate only as a sorcery.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Uthros, Titanic Godcore",
@@ -3118,7 +4482,13 @@
     "types": [
       "Land"
     ],
-    "manaCost": ""
+    "manaCost": "",
+    "text": "This land enters tapped.\n{T}: Add {U}.\nStation (Tap another creature you control: Put charge counters equal to its power on this Planet. Station only as a sorcery.)\n12+ | {U}, {T}: Add {U} for each artifact you control.",
+    "power": null,
+    "toughness": null,
+    "keywords": [
+      "Station"
+    ]
   },
   {
     "name": "Watery Grave",
@@ -3128,7 +4498,11 @@
     "types": [
       "Land"
     ],
-    "manaCost": ""
+    "manaCost": "",
+    "text": "({T}: Add {U} or {B}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Plains",
@@ -3138,7 +4512,11 @@
     "types": [
       "Land"
     ],
-    "manaCost": ""
+    "manaCost": "",
+    "text": "({T}: Add {W}.)",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Island",
@@ -3148,7 +4526,11 @@
     "types": [
       "Land"
     ],
-    "manaCost": ""
+    "manaCost": "",
+    "text": "({T}: Add {U}.)",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Swamp",
@@ -3158,7 +4540,11 @@
     "types": [
       "Land"
     ],
-    "manaCost": ""
+    "manaCost": "",
+    "text": "({T}: Add {B}.)",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Mountain",
@@ -3168,7 +4554,11 @@
     "types": [
       "Land"
     ],
-    "manaCost": ""
+    "manaCost": "",
+    "text": "({T}: Add {R}.)",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   },
   {
     "name": "Forest",
@@ -3178,1522 +4568,10 @@
     "types": [
       "Land"
     ],
-    "manaCost": ""
-  },
-  {
-    "name": "Plains",
-    "uuid": "d53bcaed-aad8-5745-8b2e-b73cea17fec9",
-    "rarity": "common",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Plains",
-    "uuid": "c7e26aa4-d3b1-514a-8668-5490a8498568",
-    "rarity": "common",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Island",
-    "uuid": "3bf9f062-0a9d-5e69-a318-3b9b70a0caf9",
-    "rarity": "common",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Island",
-    "uuid": "37bf1b7e-bf43-55f2-9b3e-4669d1e5d7ed",
-    "rarity": "common",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Swamp",
-    "uuid": "9fa89106-50bb-5d0b-8122-7d0ca0396eee",
-    "rarity": "common",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Swamp",
-    "uuid": "68bf2ae1-0d42-57e4-84ae-25263b917396",
-    "rarity": "common",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Mountain",
-    "uuid": "ab1ef946-8a4a-51d9-90ba-43860225a4c9",
-    "rarity": "common",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Mountain",
-    "uuid": "9b1b7040-b809-5e3a-b587-9cc6b8e91b05",
-    "rarity": "common",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Forest",
-    "uuid": "d3044be7-80e6-5ea7-841c-0b9d5ae2ed07",
-    "rarity": "common",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Forest",
-    "uuid": "ecc2792a-fbc3-5736-af11-a7b4402c35a2",
-    "rarity": "common",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Adagia, Windswept Bastion",
-    "uuid": "223bc127-dce1-5eef-ad8a-b302bdd71374",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Breeding Pool",
-    "uuid": "b1caf6a5-d488-58d8-baf5-d61c70446245",
-    "rarity": "rare",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Evendo, Waking Haven",
-    "uuid": "8f218e0e-e669-58af-b64c-34240819b9d0",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Godless Shrine",
-    "uuid": "8d8da147-e97c-53cf-acee-6aea28ab2ae7",
-    "rarity": "rare",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Kavaron, Memorial World",
-    "uuid": "99d74648-3d0b-5d83-8ff6-40c62ef2f14a",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Sacred Foundry",
-    "uuid": "76998b1e-1354-5a09-b3ce-cf559720f630",
-    "rarity": "rare",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Stomping Ground",
-    "uuid": "9a1931b7-7c88-57ae-9ea3-aaac6e3bbc68",
-    "rarity": "rare",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Susur Secundi, Void Altar",
-    "uuid": "ca9a9f94-323e-5012-8115-3d1a25b7a9d9",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Uthros, Titanic Godcore",
-    "uuid": "c8fcfe09-c55c-542e-b9ae-4e8188e1dce5",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Watery Grave",
-    "uuid": "c021a014-6953-560d-a4f5-d7854d6d73cb",
-    "rarity": "rare",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Tezzeret, Cruel Captain",
-    "uuid": "8d390c57-da25-56d2-9422-9da245c7526d",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Planeswalker"
-    ],
-    "manaCost": "{3}"
-  },
-  {
-    "name": "Astelli Reclaimer",
-    "uuid": "f6e47d02-efd5-5f85-879a-0da015bdf5b6",
-    "rarity": "rare",
-    "colors": [
-      "W"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{3}{W}{W}"
-  },
-  {
-    "name": "Haliya, Guided by Light",
-    "uuid": "694f0077-68b2-5d56-8415-75dca89c1ae2",
-    "rarity": "rare",
-    "colors": [
-      "W"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{2}{W}"
-  },
-  {
-    "name": "Mm'menon, the Right Hand",
-    "uuid": "afdb3a6b-0e81-5318-988b-43e43f5259b8",
-    "rarity": "rare",
-    "colors": [
-      "U"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{3}{U}{U}"
-  },
-  {
-    "name": "Starwinder",
-    "uuid": "69fb1158-f0fe-520f-9da5-67a0b01a4d55",
-    "rarity": "rare",
-    "colors": [
-      "U"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{5}{U}{U}"
-  },
-  {
-    "name": "Alpharael, Stonechosen",
-    "uuid": "4d5e89a2-927a-580f-893d-cd73e4855309",
-    "rarity": "mythic",
-    "colors": [
-      "B"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{3}{B}{B}"
-  },
-  {
-    "name": "Elegy Acolyte",
-    "uuid": "8f1e97ba-4356-535b-bc81-1a239b2626a7",
-    "rarity": "rare",
-    "colors": [
-      "B"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{2}{B}{B}"
-  },
-  {
-    "name": "Xu-Ifit, Osteoharmonist",
-    "uuid": "258d2aea-5fc0-5fe1-adef-8447f9a93a9d",
-    "rarity": "rare",
-    "colors": [
-      "B"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{1}{B}{B}"
-  },
-  {
-    "name": "Possibility Technician",
-    "uuid": "a9eb2545-b14a-51f7-9a89-a5721da42991",
-    "rarity": "rare",
-    "colors": [
-      "R"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{2}{R}"
-  },
-  {
-    "name": "Tannuk, Steadfast Second",
-    "uuid": "107cc5f0-a9cd-5119-bcf8-760e2bb9b3a9",
-    "rarity": "mythic",
-    "colors": [
-      "R"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{2}{R}{R}"
-  },
-  {
-    "name": "Mightform Harmonizer",
-    "uuid": "d1786040-85df-5e05-8875-adae613a906c",
-    "rarity": "rare",
-    "colors": [
-      "G"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{2}{G}{G}"
-  },
-  {
-    "name": "Dyadrine, Synthesis Amalgam",
-    "uuid": "75b2a64f-31c3-5554-a0b2-ff79a4a77c21",
-    "rarity": "rare",
-    "colors": [
-      "G",
-      "W"
-    ],
-    "types": [
-      "Artifact",
-      "Creature"
-    ],
-    "manaCost": "{X}{G}{W}"
-  },
-  {
-    "name": "Genemorph Imago",
-    "uuid": "fa2f1bca-72ae-5de0-8286-f38e9de41fd1",
-    "rarity": "rare",
-    "colors": [
-      "G",
-      "U"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{G}{U}"
-  },
-  {
-    "name": "Ragost, Deft Gastronaut",
-    "uuid": "b312ff38-9d61-5eb2-8b97-6095af452456",
-    "rarity": "rare",
-    "colors": [
-      "R",
-      "W"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{R}{W}"
-  },
-  {
-    "name": "Sami, Wildcat Captain",
-    "uuid": "6589b5c9-e3d7-5926-9a45-9141f0acc646",
-    "rarity": "mythic",
-    "colors": [
-      "R",
-      "W"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{4}{R}{W}"
-  },
-  {
-    "name": "Syr Vondam, Sunstar Exemplar",
-    "uuid": "3d187dec-a134-5cc8-9b8d-d7c39de781c0",
-    "rarity": "rare",
-    "colors": [
-      "B",
-      "W"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{W}{B}"
-  },
-  {
-    "name": "Beyond the Quiet",
-    "uuid": "942875bc-5710-5307-bcc2-cc1e0c46e423",
-    "rarity": "rare",
-    "colors": [
-      "W"
-    ],
-    "types": [
-      "Sorcery"
-    ],
-    "manaCost": "{3}{W}{W}"
-  },
-  {
-    "name": "Cosmogrand Zenith",
-    "uuid": "843d7240-6ad1-5072-9a6b-19ab4618cd04",
-    "rarity": "mythic",
-    "colors": [
-      "W"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{2}{W}"
-  },
-  {
-    "name": "Quantum Riddler",
-    "uuid": "368f0c94-fcc9-5eba-bdcf-58c5bf07580e",
-    "rarity": "mythic",
-    "colors": [
-      "U"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{3}{U}{U}"
-  },
-  {
-    "name": "Starwinder",
-    "uuid": "4aacd6a8-ee56-5c59-9d8b-8a4dc6f7d09b",
-    "rarity": "rare",
-    "colors": [
-      "U"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{5}{U}{U}"
-  },
-  {
-    "name": "Archenemy's Charm",
-    "uuid": "0268f22b-ebf9-55d3-b3a7-237f7ea042f3",
-    "rarity": "rare",
-    "colors": [
-      "B"
-    ],
-    "types": [
-      "Instant"
-    ],
-    "manaCost": "{B}{B}{B}"
-  },
-  {
-    "name": "Devastating Onslaught",
-    "uuid": "c16b251d-57f0-510e-bbce-c804fc0194f7",
-    "rarity": "mythic",
-    "colors": [
-      "R"
-    ],
-    "types": [
-      "Sorcery"
-    ],
-    "manaCost": "{X}{X}{R}"
-  },
-  {
-    "name": "Nova Hellkite",
-    "uuid": "e1224c57-5684-5817-afad-43ac85f3ad29",
-    "rarity": "rare",
-    "colors": [
-      "R"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{3}{R}{R}"
-  },
-  {
-    "name": "Rust Harvester",
-    "uuid": "b42d1d65-8aac-56f5-b3dd-f526dcf7449e",
-    "rarity": "rare",
-    "colors": [
-      "R"
-    ],
-    "types": [
-      "Artifact",
-      "Creature"
-    ],
-    "manaCost": "{R}"
-  },
-  {
-    "name": "Weapons Manufacturing",
-    "uuid": "981079a4-1f37-5e52-b386-f0c5693b7ef2",
-    "rarity": "rare",
-    "colors": [
-      "R"
-    ],
-    "types": [
-      "Enchantment"
-    ],
-    "manaCost": "{1}{R}"
-  },
-  {
-    "name": "Terrasymbiosis",
-    "uuid": "e835032b-a2b6-574b-97e8-b76c630dfb2b",
-    "rarity": "rare",
-    "colors": [
-      "G"
-    ],
-    "types": [
-      "Enchantment"
-    ],
-    "manaCost": "{2}{G}"
-  },
-  {
-    "name": "Cosmogoyf",
-    "uuid": "27db2132-e225-555b-ab6c-4e4cf8448498",
-    "rarity": "rare",
-    "colors": [
-      "B",
-      "G"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{B}{G}"
-  },
-  {
-    "name": "Mutinous Massacre",
-    "uuid": "dd9d3cef-7b13-5572-a794-b199d9c799e0",
-    "rarity": "rare",
-    "colors": [
-      "B",
-      "R"
-    ],
-    "types": [
-      "Sorcery"
-    ],
-    "manaCost": "{3}{B}{B}{R}{R}"
-  },
-  {
-    "name": "Space-Time Anomaly",
-    "uuid": "e1055693-0bbc-504e-bde6-887f465b5262",
-    "rarity": "rare",
-    "colors": [
-      "U",
-      "W"
-    ],
-    "types": [
-      "Sorcery"
-    ],
-    "manaCost": "{2}{W}{U}"
-  },
-  {
-    "name": "Secluded Starforge",
-    "uuid": "2b63381a-3594-5668-bdb9-4e0f0da7babc",
-    "rarity": "rare",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Anticausal Vestige",
-    "uuid": "832e1507-b77a-5e53-9b8d-b07ae72058ae",
-    "rarity": "rare",
-    "colors": [],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{6}"
-  },
-  {
-    "name": "Exalted Sunborn",
-    "uuid": "01fb2221-03fc-54c7-9fad-ad9cb513bf87",
-    "rarity": "mythic",
-    "colors": [
-      "W"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{3}{W}{W}"
-  },
-  {
-    "name": "Hardlight Containment",
-    "uuid": "96171b6c-0a06-55c0-9b5e-4cdb43bb3dd5",
-    "rarity": "rare",
-    "colors": [
-      "W"
-    ],
-    "types": [
-      "Enchantment"
-    ],
-    "manaCost": "{W}"
-  },
-  {
-    "name": "Lightstall Inquisitor",
-    "uuid": "81198e2a-7cca-533f-b0be-58cd51c73426",
-    "rarity": "rare",
-    "colors": [
-      "W"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{W}"
-  },
-  {
-    "name": "Lumen-Class Frigate",
-    "uuid": "88d337d8-51b0-5e0d-89ed-81513830b1db",
-    "rarity": "rare",
-    "colors": [
-      "W"
-    ],
-    "types": [
-      "Artifact"
-    ],
-    "manaCost": "{1}{W}"
-  },
-  {
-    "name": "Pinnacle Starcage",
-    "uuid": "c9924003-c2e9-536d-807d-1f1b097eb206",
-    "rarity": "rare",
-    "colors": [
-      "W"
-    ],
-    "types": [
-      "Artifact"
-    ],
-    "manaCost": "{1}{W}{W}"
-  },
-  {
-    "name": "The Seriema",
-    "uuid": "9dd6301e-1622-55a9-aee4-04f78bc888a6",
-    "rarity": "rare",
-    "colors": [
-      "W"
-    ],
-    "types": [
-      "Artifact"
-    ],
-    "manaCost": "{1}{W}{W}"
-  },
-  {
-    "name": "Sunstar Chaplain",
-    "uuid": "7ecfda2f-7dc0-5e0b-abd1-60d1a472f88b",
-    "rarity": "rare",
-    "colors": [
-      "W"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{1}{W}"
-  },
-  {
-    "name": "Consult the Star Charts",
-    "uuid": "e2797cd3-aa39-59de-9cea-b9b99986b8db",
-    "rarity": "rare",
-    "colors": [
-      "U"
-    ],
-    "types": [
-      "Instant"
-    ],
-    "manaCost": "{1}{U}"
-  },
-  {
-    "name": "Emissary Escort",
-    "uuid": "5762d665-01d1-568a-b55d-5df21b31f812",
-    "rarity": "rare",
-    "colors": [
-      "U"
-    ],
-    "types": [
-      "Artifact",
-      "Creature"
-    ],
-    "manaCost": "{1}{U}"
-  },
-  {
-    "name": "Moonlit Meditation",
-    "uuid": "5ce1e898-7614-5913-89d5-3cbb6846f1aa",
-    "rarity": "rare",
-    "colors": [
-      "U"
-    ],
-    "types": [
-      "Enchantment"
-    ],
-    "manaCost": "{2}{U}"
-  },
-  {
-    "name": "Starfield Vocalist",
-    "uuid": "36ec1df4-e59b-553f-aac4-aeeadd65e419",
-    "rarity": "rare",
-    "colors": [
-      "U"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{3}{U}"
-  },
-  {
-    "name": "Synthesizer Labship",
-    "uuid": "717734d3-8946-5501-be95-a8b99e2bbdd4",
-    "rarity": "rare",
-    "colors": [
-      "U"
-    ],
-    "types": [
-      "Artifact"
-    ],
-    "manaCost": "{U}"
-  },
-  {
-    "name": "Weftwalking",
-    "uuid": "ba770175-8581-56f5-814f-48545cf5487f",
-    "rarity": "mythic",
-    "colors": [
-      "U"
-    ],
-    "types": [
-      "Enchantment"
-    ],
-    "manaCost": "{4}{U}{U}"
-  },
-  {
-    "name": "Chorale of the Void",
-    "uuid": "7f788ca5-b664-5eae-8f48-192242a29925",
-    "rarity": "rare",
-    "colors": [
-      "B"
-    ],
-    "types": [
-      "Enchantment"
-    ],
-    "manaCost": "{3}{B}"
-  },
-  {
-    "name": "Entropic Battlecruiser",
-    "uuid": "21149c44-3933-5bc3-970c-19db9ddcbaf3",
-    "rarity": "rare",
-    "colors": [
-      "B"
-    ],
-    "types": [
-      "Artifact"
-    ],
-    "manaCost": "{3}{B}"
-  },
-  {
-    "name": "Requiem Monolith",
-    "uuid": "1b3eaade-a1fb-5ac6-bdd8-ed52ee82c5b2",
-    "rarity": "rare",
-    "colors": [
-      "B"
-    ],
-    "types": [
-      "Artifact"
-    ],
-    "manaCost": "{2}{B}"
-  },
-  {
-    "name": "Sunset Saboteur",
-    "uuid": "850cd132-a679-5af2-9685-fd2d504cfb3f",
-    "rarity": "rare",
-    "colors": [
-      "B"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{1}{B}"
-  },
-  {
-    "name": "Zero Point Ballad",
-    "uuid": "feb5da86-7ccf-5d5a-aab0-ef4502c9e782",
-    "rarity": "rare",
-    "colors": [
-      "B"
-    ],
-    "types": [
-      "Sorcery"
-    ],
-    "manaCost": "{X}{B}"
-  },
-  {
-    "name": "Memorial Vault",
-    "uuid": "f87980a5-97e7-5b8b-bd51-9de1a599585b",
-    "rarity": "rare",
-    "colors": [
-      "R"
-    ],
-    "types": [
-      "Artifact"
-    ],
-    "manaCost": "{3}{R}"
-  },
-  {
-    "name": "Pain for All",
-    "uuid": "9ac9d1f5-db91-5f1d-9ca2-df88661da5a7",
-    "rarity": "rare",
-    "colors": [
-      "R"
-    ],
-    "types": [
-      "Enchantment"
-    ],
-    "manaCost": "{2}{R}"
-  },
-  {
-    "name": "Terminal Velocity",
-    "uuid": "c955d14c-5f00-5973-87c9-8b00ded7c2ea",
-    "rarity": "rare",
-    "colors": [
-      "R"
-    ],
-    "types": [
-      "Sorcery"
-    ],
-    "manaCost": "{4}{R}{R}"
-  },
-  {
-    "name": "Warmaker Gunship",
-    "uuid": "1b9aada0-7686-5bf7-acec-7f7784f8fa0a",
-    "rarity": "rare",
-    "colors": [
-      "R"
-    ],
-    "types": [
-      "Artifact"
-    ],
-    "manaCost": "{2}{R}"
-  },
-  {
-    "name": "Bioengineered Future",
-    "uuid": "74bc5333-6601-5ab7-9fb8-901b29b26bc7",
-    "rarity": "rare",
-    "colors": [
-      "G"
-    ],
-    "types": [
-      "Enchantment"
-    ],
-    "manaCost": "{1}{G}{G}"
-  },
-  {
-    "name": "Famished Worldsire",
-    "uuid": "7a2512fa-0283-5e86-be80-aee5a622af74",
-    "rarity": "mythic",
-    "colors": [
-      "G"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{5}{G}{G}{G}"
-  },
-  {
-    "name": "Frenzied Baloth",
-    "uuid": "b18535bf-4217-5d18-9568-1369d6a44642",
-    "rarity": "rare",
-    "colors": [
-      "G"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{G}{G}"
-  },
-  {
-    "name": "Icetill Explorer",
-    "uuid": "16c28ff7-591f-59c3-b32c-1bdc7769eeb7",
-    "rarity": "rare",
-    "colors": [
-      "G"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{2}{G}{G}"
-  },
-  {
-    "name": "Loading Zone",
-    "uuid": "2fd4007c-7b93-5d7f-80d3-9fa48988e193",
-    "rarity": "rare",
-    "colors": [
-      "G"
-    ],
-    "types": [
-      "Enchantment"
-    ],
-    "manaCost": "{3}{G}"
-  },
-  {
-    "name": "Ouroboroid",
-    "uuid": "eade7a7f-8341-5e88-b65a-a9899ea8f0ee",
-    "rarity": "mythic",
-    "colors": [
-      "G"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{2}{G}{G}"
-  },
-  {
-    "name": "Sledge-Class Seedship",
-    "uuid": "8549e7cc-436a-588b-9725-58fef354d790",
-    "rarity": "rare",
-    "colors": [
-      "G"
-    ],
-    "types": [
-      "Artifact"
-    ],
-    "manaCost": "{2}{G}"
-  },
-  {
-    "name": "Biotech Specialist",
-    "uuid": "017756da-744d-58da-8de9-bdd8231e8ff7",
-    "rarity": "rare",
-    "colors": [
-      "G",
-      "R"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{R}{G}"
-  },
-  {
-    "name": "Infinite Guideline Station",
-    "uuid": "f402775a-0fe1-5fff-af3e-5159b37be589",
-    "rarity": "rare",
-    "colors": [
-      "B",
-      "G",
-      "R",
-      "U",
-      "W"
-    ],
-    "types": [
-      "Artifact"
-    ],
-    "manaCost": "{W}{U}{B}{R}{G}"
-  },
-  {
-    "name": "Pinnacle Emissary",
-    "uuid": "25ccf8f0-577c-539b-be40-0b611b4faeed",
-    "rarity": "rare",
-    "colors": [
-      "R",
-      "U"
-    ],
-    "types": [
-      "Artifact",
-      "Creature"
-    ],
-    "manaCost": "{1}{U}{R}"
-  },
-  {
-    "name": "Singularity Rupture",
-    "uuid": "c78b246b-bc16-5fe3-b0cf-65fae5ee64c2",
-    "rarity": "rare",
-    "colors": [
-      "B",
-      "U"
-    ],
-    "types": [
-      "Sorcery"
-    ],
-    "manaCost": "{3}{U}{B}{B}"
-  },
-  {
-    "name": "Dawnsire, Sunstar Dreadnought",
-    "uuid": "06964b7b-1f80-53d6-b389-1b5b98459b88",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Artifact"
-    ],
-    "manaCost": "{5}"
-  },
-  {
-    "name": "The Dominion Bracelet",
-    "uuid": "602fb839-c929-567d-aa91-6453984963cb",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Artifact"
-    ],
-    "manaCost": "{2}"
-  },
-  {
-    "name": "The Endstone",
-    "uuid": "e77b92eb-d83d-5eff-82fc-fc57dd104347",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Artifact"
-    ],
-    "manaCost": "{7}"
-  },
-  {
-    "name": "The Eternity Elevator",
-    "uuid": "12bf9028-4f73-52ee-9ac4-decead79db4f",
-    "rarity": "rare",
-    "colors": [],
-    "types": [
-      "Artifact"
-    ],
-    "manaCost": "{5}"
-  },
-  {
-    "name": "Extinguisher Battleship",
-    "uuid": "921310b2-35b8-5fd7-83ba-6352ced07c20",
-    "rarity": "rare",
-    "colors": [],
-    "types": [
-      "Artifact"
-    ],
-    "manaCost": "{8}"
-  },
-  {
-    "name": "Thrumming Hivepool",
-    "uuid": "fccc0f43-fed3-5750-9a40-f4b67fa18902",
-    "rarity": "rare",
-    "colors": [],
-    "types": [
-      "Artifact"
-    ],
-    "manaCost": "{6}"
-  },
-  {
-    "name": "Anticausal Vestige",
-    "uuid": "2f4aa6c2-caaa-565d-a0cd-7b18db3466d4",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{6}"
-  },
-  {
-    "name": "Exalted Sunborn",
-    "uuid": "fa9629c8-92b3-59d6-9d8b-8e125f329935",
-    "rarity": "mythic",
-    "colors": [
-      "W"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{3}{W}{W}"
-  },
-  {
-    "name": "Starfield Vocalist",
-    "uuid": "db89274c-2464-5533-b75e-e9a2fdad605f",
-    "rarity": "mythic",
-    "colors": [
-      "U"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{3}{U}"
-  },
-  {
-    "name": "Sothera, the Supervoid",
-    "uuid": "915530be-152d-5151-b2a6-09078f848af2",
-    "rarity": "mythic",
-    "colors": [
-      "B"
-    ],
-    "types": [
-      "Enchantment"
-    ],
-    "manaCost": "{2}{B}{B}"
-  },
-  {
-    "name": "Devastating Onslaught",
-    "uuid": "cf447388-e7a9-5243-bd22-5ac91397eaa2",
-    "rarity": "mythic",
-    "colors": [
-      "R"
-    ],
-    "types": [
-      "Sorcery"
-    ],
-    "manaCost": "{X}{X}{R}"
-  },
-  {
-    "name": "Icetill Explorer",
-    "uuid": "994f0949-f476-5c9b-917a-ad97a426f079",
-    "rarity": "mythic",
-    "colors": [
-      "G"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{2}{G}{G}"
-  },
-  {
-    "name": "Mutinous Massacre",
-    "uuid": "e7c66730-b0ba-5737-ba1c-96b50f347853",
-    "rarity": "mythic",
-    "colors": [
-      "B",
-      "R"
-    ],
-    "types": [
-      "Sorcery"
-    ],
-    "manaCost": "{3}{B}{B}{R}{R}"
-  },
-  {
-    "name": "The Dominion Bracelet",
-    "uuid": "90dc3dc2-5955-586d-bb7f-c20829e95c58",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Artifact"
-    ],
-    "manaCost": "{2}"
-  },
-  {
-    "name": "The Endstone",
-    "uuid": "ad370796-836b-597c-b5d3-54ba1086b277",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Artifact"
-    ],
-    "manaCost": "{7}"
-  },
-  {
-    "name": "Secluded Starforge",
-    "uuid": "d2b09fad-3a19-50fd-b4e2-ac03372708ca",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Plains",
-    "uuid": "a61a1f0e-868e-55e7-b852-1c471387e3f1",
-    "rarity": "common",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Island",
-    "uuid": "859c3c83-9764-55e2-ac08-936d213dfd06",
-    "rarity": "common",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Swamp",
-    "uuid": "097da2ac-dfc4-58ce-a635-3967b0e9271b",
-    "rarity": "common",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Mountain",
-    "uuid": "66829350-6464-5ed3-ab04-e491a1466552",
-    "rarity": "common",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Forest",
-    "uuid": "ac4bb99b-4863-5356-9723-c1cd24849f96",
-    "rarity": "common",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Adagia, Windswept Bastion",
-    "uuid": "15b70fdb-dabf-5020-90f3-fc211697a208",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Breeding Pool",
-    "uuid": "786b016a-9e42-587e-828e-b03178bc073c",
-    "rarity": "rare",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Evendo, Waking Haven",
-    "uuid": "5cf1f1dc-163b-546e-ac55-2b47226bc9fe",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Godless Shrine",
-    "uuid": "41ae360c-8c59-5897-b1c3-fdf5f5852f74",
-    "rarity": "rare",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Kavaron, Memorial World",
-    "uuid": "118dd877-8550-5a3a-9262-b764423187c2",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Sacred Foundry",
-    "uuid": "ca9b3b68-0369-506c-a85e-7f2e439f8558",
-    "rarity": "rare",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Stomping Ground",
-    "uuid": "258101d3-76e2-52f4-ab23-64519e6e1f16",
-    "rarity": "rare",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Susur Secundi, Void Altar",
-    "uuid": "5a19b0e8-c225-5a1c-9a22-b459fb90d088",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Uthros, Titanic Godcore",
-    "uuid": "d6f0aaa8-7886-5b01-8d3e-beac5d7ba251",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Watery Grave",
-    "uuid": "bef61170-626e-5580-9887-1b39a1b43c97",
-    "rarity": "rare",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Sothera, the Supervoid",
-    "uuid": "bcbf202e-3f3a-5e1a-aca6-17f455700c3c",
-    "rarity": "mythic",
-    "colors": [
-      "B"
-    ],
-    "types": [
-      "Enchantment"
-    ],
-    "manaCost": "{2}{B}{B}"
-  },
-  {
-    "name": "Anticausal Vestige",
-    "uuid": "9c2fc3ea-1a39-5486-90be-6d115d91a074",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{6}"
-  },
-  {
-    "name": "Exalted Sunborn",
-    "uuid": "12258f5e-aaa8-5aac-868e-18c685af3799",
-    "rarity": "mythic",
-    "colors": [
-      "W"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{3}{W}{W}"
-  },
-  {
-    "name": "Starfield Vocalist",
-    "uuid": "fafef82a-955c-5c12-adba-0d6d3f15b6a0",
-    "rarity": "mythic",
-    "colors": [
-      "U"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{3}{U}"
-  },
-  {
-    "name": "Sothera, the Supervoid",
-    "uuid": "3765a842-0da4-592d-866e-eb831e0c968c",
-    "rarity": "mythic",
-    "colors": [
-      "B"
-    ],
-    "types": [
-      "Enchantment"
-    ],
-    "manaCost": "{2}{B}{B}"
-  },
-  {
-    "name": "Devastating Onslaught",
-    "uuid": "367b7ace-c96e-55b8-a995-834822dfb314",
-    "rarity": "mythic",
-    "colors": [
-      "R"
-    ],
-    "types": [
-      "Sorcery"
-    ],
-    "manaCost": "{X}{X}{R}"
-  },
-  {
-    "name": "Icetill Explorer",
-    "uuid": "afcdf4df-9056-54e3-8333-27c85de7aafd",
-    "rarity": "mythic",
-    "colors": [
-      "G"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{2}{G}{G}"
-  },
-  {
-    "name": "Mutinous Massacre",
-    "uuid": "bf34b943-c256-5efa-8752-ef4c8004123d",
-    "rarity": "mythic",
-    "colors": [
-      "B",
-      "R"
-    ],
-    "types": [
-      "Sorcery"
-    ],
-    "manaCost": "{3}{B}{B}{R}{R}"
-  },
-  {
-    "name": "The Dominion Bracelet",
-    "uuid": "2dc55da2-3560-5549-a05d-08a58c92e5f6",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Artifact"
-    ],
-    "manaCost": "{2}"
-  },
-  {
-    "name": "The Endstone",
-    "uuid": "50028409-d0ba-5104-896e-c1da958d7076",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Artifact"
-    ],
-    "manaCost": "{7}"
-  },
-  {
-    "name": "Secluded Starforge",
-    "uuid": "d0be67f8-c094-50e2-aeda-0c6f926b0af9",
-    "rarity": "mythic",
-    "colors": [],
-    "types": [
-      "Land"
-    ],
-    "manaCost": ""
-  },
-  {
-    "name": "Starfield Shepherd",
-    "uuid": "dd4f566c-a8e9-5b8c-8a1f-ecdd7187119f",
-    "rarity": "uncommon",
-    "colors": [
-      "W"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{3}{W}{W}"
-  },
-  {
-    "name": "Annul",
-    "uuid": "3d82cad0-2c8c-508c-8aee-44fc3be22c4d",
-    "rarity": "uncommon",
-    "colors": [
-      "U"
-    ],
-    "types": [
-      "Instant"
-    ],
-    "manaCost": "{U}"
-  },
-  {
-    "name": "Umbral Collar Zealot",
-    "uuid": "9accc4a3-6451-546a-9e42-0d5c03665acc",
-    "rarity": "uncommon",
-    "colors": [
-      "B"
-    ],
-    "types": [
-      "Creature"
-    ],
-    "manaCost": "{1}{B}"
-  },
-  {
-    "name": "Kavaron Harrier",
-    "uuid": "ffc7665e-fd07-57a3-9f38-14980ba99689",
-    "rarity": "uncommon",
-    "colors": [
-      "R"
-    ],
-    "types": [
-      "Artifact",
-      "Creature"
-    ],
-    "manaCost": "{R}"
-  },
-  {
-    "name": "Pull Through the Weft",
-    "uuid": "500dedb8-5d73-5d4d-b68a-9e0b72014510",
-    "rarity": "uncommon",
-    "colors": [
-      "G"
-    ],
-    "types": [
-      "Sorcery"
-    ],
-    "manaCost": "{3}{G}{G}"
-  },
-  {
-    "name": "Singularity Rupture",
-    "uuid": "10b2d18f-fd56-52d0-bf5f-c17aeaf3b01d",
-    "rarity": "rare",
-    "colors": [
-      "B",
-      "U"
-    ],
-    "types": [
-      "Sorcery"
-    ],
-    "manaCost": "{3}{U}{B}{B}"
-  },
-  {
-    "name": "Emissary Escort",
-    "uuid": "7e4b757a-deab-52f1-84f9-90dc60179f48",
-    "rarity": "rare",
-    "colors": [
-      "U"
-    ],
-    "types": [
-      "Artifact",
-      "Creature"
-    ],
-    "manaCost": "{1}{U}"
+    "manaCost": "",
+    "text": "({T}: Add {G}.)",
+    "power": null,
+    "toughness": null,
+    "keywords": []
   }
 ]
