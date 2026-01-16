@@ -1,3 +1,22 @@
+"""
+LEGACY TENSORFLOW DRAFT DATA - PRODUCTION SYSTEM
+
+This module handles data loading and preprocessing for the TensorFlow-based model.
+This is part of the LEGACY system currently running in production.
+
+⚠️ DEPRECATION NOTICE ⚠️
+This module is being replaced by the PyTorch-compatible data layer in:
+- app/data/repositories.py
+- app/ml/experimental/card_encoder.py
+
+Status: ACTIVE (Legacy)
+Framework: TensorFlow/Keras
+Replacement: app/data/ and app/ml/experimental/ (PyTorch)
+
+Do NOT add new features to this module. All new data processing should target
+the PyTorch-compatible data layer.
+"""
+
 import pandas as pd
 import random
 

@@ -83,7 +83,8 @@
       "Octopus Form": 1.0,
       "Yuyan Archers": 1.0
     },
-    "totalWeight": 81.0
+    "totalWeight": 81.0,
+    "foil": false
   },
   "foil": {
     "cards": {
@@ -359,7 +360,8 @@
       "Octopus Form": 48973540.0,
       "Yuyan Archers": 48973540.0
     },
-    "totalWeight": 7249265100.0
+    "totalWeight": 7249265100.0,
+    "foil": true
   },
   "foilLand": {
     "cards": {
@@ -379,7 +381,8 @@
       "Forest": 2.0,
       "Plains": 2.0
     },
-    "totalWeight": 30.0
+    "totalWeight": 30.0,
+    "foil": true
   },
   "nonFoilLand": {
     "cards": {
@@ -399,7 +402,8 @@
       "Forest": 2.0,
       "Plains": 2.0
     },
-    "totalWeight": 30.0
+    "totalWeight": 30.0,
+    "foil": false
   },
   "rareMythicBoosterfun": {
     "cards": {
@@ -484,7 +488,75 @@
       "Ozai, the Phoenix King": 21761.0,
       "Aang's Iceberg": 43522.0
     },
-    "totalWeight": 3046540.0
+    "totalWeight": 3046540.0,
+    "foil": false
+  },
+  "sourceMaterial": {
+    "cards": {
+      "Clone Legion": 1.0,
+      "Fervor": 1.0,
+      "Rending Volley": 1.0,
+      "Warstorm Surge": 1.0,
+      "Shattering Spree": 1.0,
+      "Brought Back": 1.0,
+      "Standstill": 1.0,
+      "Visions of Beyond": 1.0,
+      "Koma, Cosmos Serpent": 1.0,
+      "Teferi's Protection": 1.0,
+      "Three Dreams": 1.0,
+      "Return of the Wildspeaker": 1.0,
+      "Blasphemous Act": 1.0,
+      "Empty City Ruse": 1.0,
+      "Mirrorwing Dragon": 1.0,
+      "Drannith Magistrate": 1.0,
+      "Searing Blood": 1.0,
+      "Cruel Tutor": 1.0,
+      "Eladamri's Call": 1.0,
+      "Clone": 1.0,
+      "Lightning Bolt": 1.0,
+      "Meteorite": 1.0,
+      "The Great Henge": 1.0,
+      "Taunting Challenge": 1.0,
+      "Elemental Bond": 1.0,
+      "Lita, Mechanical Engineer": 1.0,
+      "Mystic Remora": 1.0,
+      "Cityscape Leveler": 1.0,
+      "Humble Defector": 1.0,
+      "Sundial of the Infinite": 1.0,
+      "Bribery": 1.0,
+      "Volcanic Torrent": 1.0,
+      "Noxious Gearhulk": 1.0,
+      "Fabled Passage": 1.0,
+      "Rhys the Redeemed": 1.0,
+      "Tarnished Citadel": 1.0,
+      "Sakashima of a Thousand Faces": 1.0,
+      "Prosperity": 1.0,
+      "Heroic Intervention": 1.0,
+      "Release to Memory": 1.0,
+      "Valakut, the Molten Pinnacle": 1.0,
+      "Bloodchief Ascension": 1.0,
+      "Imprisoned in the Moon": 1.0,
+      "Scout's Warning": 1.0,
+      "Dockside Extortionist": 1.0,
+      "Force of Negation": 1.0,
+      "Training Grounds": 1.0,
+      "Black Sun's Zenith": 1.0,
+      "Heartbeat of Spring": 1.0,
+      "Insurrection": 1.0,
+      "Rites of Flourishing": 1.0,
+      "Captain Sisay": 1.0,
+      "Beastmaster Ascension": 1.0,
+      "Sunbaked Canyon": 1.0,
+      "Agent of Treachery": 1.0,
+      "Treetop Village": 1.0,
+      "Fevered Visions": 1.0,
+      "Dark Depths": 1.0,
+      "Intruder Alarm": 1.0,
+      "Join the Dance": 1.0,
+      "Diaochan, Artful Beauty": 1.0
+    },
+    "totalWeight": 61.0,
+    "foil": false
   },
   "uncommonScene": {
     "cards": {
@@ -599,7 +671,8 @@
       "Ty Lee, Artful Acrobat": 1.0,
       "Earth Kingdom General": 1.0
     },
-    "totalWeight": 110.0
+    "totalWeight": 110.0,
+    "foil": false
   },
   "wildcard": {
     "cards": {
@@ -875,6 +948,7 @@
       "Octopus Form": 1272040.0,
       "Yuyan Archers": 1272040.0
     },
-    "totalWeight": 2394342720.0
+    "totalWeight": 2394342720.0,
+    "foil": false
   }
 }

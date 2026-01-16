@@ -1,5 +1,5 @@
-from app.CardEncoder import CardEncoder
-from app.CandidateTower import CandidateTower
+from app.ml.experimental.card_encoder import CardEncoder
+from app.ml.experimental.candidate_tower import CandidateTower
 import numpy as np
 import numpy.testing as npt
 import torch

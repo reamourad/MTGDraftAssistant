@@ -9,6 +9,62 @@ from typing import Dict, List, Any, Set, Union
 
 MTGJSON_BASE_URL = "https://mtgjson.com/api/v5"
 
+# Cache for set list to avoid repeated API calls
+_SET_LIST_CACHE = None
+
+
+def get_set_list() -> List[Dict[str, Any]]:
+    """
+    Fetch and cache the list of all MTGJson sets.
+    
+    Returns:
+        List of set metadata dictionaries
+    """
+    global _SET_LIST_CACHE
+    
+    if _SET_LIST_CACHE is None:
+        print("[INFO] Fetching MTGJson set list...")
+        response = requests.get(f"{MTGJSON_BASE_URL}/SetList.json", timeout=30)
+        response.raise_for_status()
+        _SET_LIST_CACHE = response.json()['data']
+        print(f"[OK] Loaded {len(_SET_LIST_CACHE)} sets from MTGJson")
+    
+    return _SET_LIST_CACHE
+
+
+def find_companion_sets(set_code: str) -> List[str]:
+    """
+    Dynamically find companion sets (Commander, Jumpstart, etc.) for a given set.
+    
+    Uses MTGJson's parentCode metadata to find related sets.
+    
+    Args:
+        set_code: Main set code (e.g., 'MH3', 'TLA')
+    
+    Returns:
+        List of companion set codes (e.g., ['M3C'] for MH3, ['TLE'] for TLA)
+    """
+    try:
+        all_sets = get_set_list()
+        
+        # Find sets where parentCode matches our set_code
+        # Include commander, jumpstart, eternal, and other related types
+        companion_sets = [
+            s['code'] for s in all_sets 
+            if s.get('parentCode') == set_code
+        ]
+        
+        if companion_sets:
+            print(f"[INFO] Found companion sets for {set_code}: {companion_sets}")
+        else:
+            print(f"[INFO] No companion sets found for {set_code}")
+        
+        return companion_sets
+    
+    except Exception as e:
+        print(f"[WARN] Could not fetch companion sets for {set_code}: {e}")
+        return []
+
 
 def fetch_set_data(set_code: str) -> Dict[str, Any]:
     """
@@ -33,6 +89,124 @@ def fetch_set_data(set_code: str) -> Dict[str, Any]:
     print(f"[OK] Fetched data for {set_code}")
     return data
 
+def fetch_bonus_sheet_cards(set_code: str, booster_config: Dict[str, Any], card_names_filter: set) -> List[Dict[str, Any]]:
+    """
+    Fetch bonus sheet cards (SPG, The List, Source Material, etc.) from booster config.
+    
+    These are cards from other sets that appear in boosters. We check:
+    1. SPG (Special Guests)
+    2. PLST (The List - contains reprints from many sets)
+    
+    Args:
+        set_code: Main set code
+        booster_config: Booster configuration with UUIDs
+        card_names_filter: Card names from 17Lands CSV
+    
+    Returns:
+        List of bonus sheet cards
+    """
+    bonus_cards = []
+    
+    # Get all UUIDs from booster config
+    booster_uuids = extract_uuids_from_booster_config(booster_config)
+    if not booster_uuids:
+        return bonus_cards
+    
+    print(f"[INFO] Found {len(booster_uuids)} UUIDs in booster configuration")
+    
+    # Check bonus sheet sets: SPG and PLST
+    bonus_sets = [
+        ('SPG', fetch_spg_set),
+        ('PLST', lambda: fetch_set_data('PLST'))
+    ]
+    
+    for bonus_set_code, fetch_func in bonus_sets:
+        try:
+            bonus_set_data = fetch_func()
+            bonus_set_cards = bonus_set_data.get('data', {}).get('cards', [])
+            bonus_set_uuids = {card['uuid'] for card in bonus_set_cards}
+            
+            # Find UUIDs that are in both booster config and this bonus set
+            matching_uuids = booster_uuids.intersection(bonus_set_uuids)
+            
+            if matching_uuids:
+                print(f"[INFO] Found {len(matching_uuids)} {bonus_set_code} cards in booster configuration")
+                # Extract only the matching cards
+                matching_cards = extract_cards(bonus_set_data, matching_uuids)
+                
+                # Filter to only cards in 17Lands CSV
+                filtered_cards = [
+                    card for card in matching_cards
+                    if card['name'] in card_names_filter
+                ]
+                
+                if filtered_cards:
+                    bonus_cards.extend(filtered_cards)
+                    print(f"[OK] Added {len(filtered_cards)} {bonus_set_code} cards from 17Lands data")
+                    for card in filtered_cards[:5]:  # Show first 5
+                        print(f"  - {card['name']}")
+                    if len(filtered_cards) > 5:
+                        print(f"  ... and {len(filtered_cards) - 5} more")
+        
+        except Exception as e:
+            print(f"[WARN] Could not fetch bonus set {bonus_set_code}: {e}")
+            continue
+    
+    return bonus_cards
+
+
+def fetch_companion_sets(set_code: str, card_names_filter: set = None) -> List[Dict[str, Any]]:
+    """
+    Fetch cards from companion sets (e.g., Commander decks).
+    
+    Automatically discovers companion sets using MTGJson's parentCode metadata.
+    Only fetches cards that are in the card_names_filter (from 17Lands CSV).
+    
+    Args:
+        set_code: Main set code (e.g., 'MH3')
+        card_names_filter: Set of card names to filter by (from 17Lands CSV)
+    
+    Returns:
+        List of cards from companion sets that match the filter
+    """
+    if not card_names_filter:
+        return []
+    
+    companion_cards = []
+    
+    # Dynamically find companion sets
+    companion_set_codes = find_companion_sets(set_code)
+    
+    if not companion_set_codes:
+        return companion_cards
+    
+    for companion_code in companion_set_codes:
+        try:
+            print(f"[INFO] Fetching companion set: {companion_code}")
+            companion_data = fetch_set_data(companion_code)
+            all_companion_cards = extract_cards(companion_data)
+            
+            # Filter to only cards in 17Lands CSV
+            filtered_cards = [
+                card for card in all_companion_cards 
+                if card['name'] in card_names_filter
+            ]
+            
+            if filtered_cards:
+                companion_cards.extend(filtered_cards)
+                print(f"[OK] Found {len(filtered_cards)}/{len(all_companion_cards)} cards from {companion_code} in 17Lands data")
+                for card in filtered_cards:
+                    print(f"  - {card['name']}")
+            else:
+                print(f"[INFO] No cards from {companion_code} found in 17Lands data")
+                
+        except Exception as e:
+            print(f"[WARN] Could not fetch companion set {companion_code}: {e}")
+            continue
+    
+    return companion_cards
+
+
 def fetch_spg_set():
     url = f"{MTGJSON_BASE_URL}/SPG.json"
     response = requests.get(url, timeout=30)
@@ -49,26 +223,20 @@ def extract_cards(set_data: Dict[str, Any], uuids=None) -> List[Dict[str, Any]]:
 
     For double-faced cards, only keeps the front face.
     Optionally combines oracle text from both faces.
+    
+    Args:
+        set_data: Full set data from MTGJson
+        uuids: Optional set of UUIDs to filter cards (None = all cards)
+    
+    Returns:
+        List of simplified card dictionaries
     """
     cards = set_data.get('data', {}).get('cards', [])
 
-    # Group cards by name to detect DFCs
-    cards_by_name = {}
-
-    for card in cards:
-        name = card.get('name')
-        uuid = card.get('uuid')
-
-        if uuids is not None:
-            if uuid not in uuids:
-                continue
-
-        # Skip if we've already processed this card name
-        if name in cards_by_name:
-            # This is a back face - we'll handle it below
-            continue
-
-        cards_by_name[name] = card
+    # Filter by UUIDs first if provided
+    if uuids is not None:
+        cards = [card for card in cards if card.get('uuid') in uuids]
+        print(f"[DEBUG] Filtered to {len(cards)} cards matching {len(uuids)} UUIDs")
 
     # Now process cards, handling DFCs
     simplified_cards = []
@@ -112,6 +280,15 @@ def extract_cards(set_data: Dict[str, Any], uuids=None) -> List[Dict[str, Any]]:
 
                 print(f"[DFC] {name} (combined front + back text)")
 
+        # Calculate converted mana cost (CMC)
+        cmc = card.get('manaValue', 0)  # MTGJson uses 'manaValue' for CMC
+        
+        # Determine if card can attack (creatures with power/toughness)
+        can_attack = 'Creature' in card.get('types', []) and card.get('power') is not None
+        
+        # Get subtypes
+        subtypes = card.get('subtypes', [])
+        
         # Create simplified card
         simplified_cards.append({
             'name': name,
@@ -119,10 +296,15 @@ def extract_cards(set_data: Dict[str, Any], uuids=None) -> List[Dict[str, Any]]:
             'rarity': card.get('rarity', '').lower(),
             'colors': card.get('colors', []),
             'types': card.get('types', []),
+            'subtypes': subtypes,
             'manaCost': card.get('manaCost', ''),
+            'mana_cost': card.get('manaCost', ''),  # Alias for CardEncoder
+            'converted_mana_cost': cmc,  # For CardEncoder
             'text': oracle_text,  # Combined text for DFCs
+            'oracle_text': oracle_text,  # Alias for CardEncoder
             'power': card.get('power'),
             'toughness': card.get('toughness'),
+            'can_attack': can_attack,  # For CardEncoder
             'keywords': card.get('keywords', []),
         })
 
@@ -188,7 +370,7 @@ def save_booster_data(set_code: str, output_dir: str):
         output_dir: Directory to save files (e.g., 'app/models/MH3/')
 
     Creates:
-        - output_dir/booster_config.json
+        - output_dir/booster_config.json (structure only, no card data)
         - output_dir/cards.json
     """
     print(f"\n=== Fetching MTGJson data for {set_code} ===")
@@ -234,13 +416,44 @@ def save_booster_data(set_code: str, output_dir: str):
         json.dump(cards, f, indent=2)
     print(f"[OK] Saved {len(cards)} cards to {cards_path}")
 
-    # Save booster_config.json
+    # Extract and save minimal booster structure (no card data)
+    booster_structure = extract_booster_structure(booster_config)
     config_path = os.path.join(output_dir, 'booster_config.json')
     with open(config_path, 'w', encoding='utf-8') as f:
-        json.dump(booster_config, f, indent=2)
-    print(f"[OK] Saved booster config to {config_path}")
+        json.dump(booster_structure, f, indent=2)
+    print(f"[OK] Saved booster structure to {config_path}")
 
     print(f"=== MTGJson data cached successfully ===\n")
+
+def extract_booster_structure(booster_config: Dict) -> Dict:
+    """
+    Extract just the booster structure (no card data).
+    
+    This includes the boosters array with weights and contents,
+    but removes the actual card sheets.
+    
+    Args:
+        booster_config: Full booster config from MTGJson
+        
+    Returns:
+        Minimal booster structure without card data
+    """
+    if not booster_config or 'play' not in booster_config:
+        raise ValueError("No play booster configuration found")
+    
+    play_config = booster_config['play']
+    
+    # Extract structure without card data
+    structure = {
+        'play': {
+            'boosters': play_config.get('boosters', []),
+            'boostersTotalWeight': play_config.get('boostersTotalWeight', 0),
+            'name': play_config.get('name', ''),
+        }
+    }
+    
+    return structure
+
 
 def build_filtered_sheets(cards: List[Dict], training_cards: Set[str], booster_config: Dict = None) -> Dict[str, Dict[str, float]]:
     """
@@ -280,19 +493,27 @@ def build_filtered_sheets(cards: List[Dict], training_cards: Set[str], booster_c
         if weighted_cards:
             sheets[sheet_name] = {
                 "cards": weighted_cards,
-                "totalWeight": sum(weighted_cards.values())
+                "totalWeight": sum(weighted_cards.values()),
+                "foil": sheet_data.get('foil', False)
             }
 
     return sheets
 
 def build_and_save_sheets(set_code: str, output_dir: str):
-    """Build sheets and save to disk. Called during training/add_set."""
+    """
+    Build sheets from cards and booster config, save to disk.
+    
+    Called during training/add_set to create the sheets.json file
+    with card names and weights (separate from booster structure).
+    """
 
     with open(f"{output_dir}/cards.json", 'r', encoding='utf-8') as f:
         cards = json.load(f)
 
-    with open(f"{output_dir}/booster_config.json", 'r', encoding='utf-8') as f:
-        booster_config = json.load(f)
+    # Load the FULL booster config from MTGJson (with UUIDs)
+    # We need this to build the sheets, but we won't save it
+    set_data = fetch_set_data(set_code)
+    full_booster_config = extract_booster_config(set_data)
 
     training_cards_path = f"{output_dir}/seventeenlands_cards.json"
     if os.path.exists(training_cards_path):
@@ -301,10 +522,91 @@ def build_and_save_sheets(set_code: str, output_dir: str):
     else:
         training_cards = set()
 
-    sheets = build_filtered_sheets(cards, training_cards, booster_config)
+    sheets = build_filtered_sheets(cards, training_cards, full_booster_config)
 
     with open(f"{output_dir}/sheets.json", 'w', encoding='utf-8') as f:
         json.dump(sheets, f, indent=2)
 
-    print(f"=== Saved sheets to {output_dir}/sheets.json ===")
+    print(f"[OK] Saved {len(sheets)} sheets to {output_dir}/sheets.json")
+
+
+def fetch_all_card_data(set_code: str, card_names_filter: set) -> tuple[List[Dict[str, Any]], Dict[str, Any]]:
+    """
+    Fetch all card data for a set including main set, companion sets, and bonus sheets.
+    
+    This function fetches:
+    1. Main set cards
+    2. Companion sets (Commander decks)
+    3. SPG cards (if in booster config)
+    4. Bonus sheet cards from other sets (e.g., "The List", "Source Material")
+    
+    Args:
+        set_code: Main set code (e.g., 'MH3')
+        card_names_filter: Set of card names from 17Lands CSV
+    
+    Returns:
+        Tuple of (all_cards, booster_config)
+    """
+    # Fetch main set data
+    set_data = fetch_set_data(set_code)
+    all_cards = extract_cards(set_data)
+    booster_config = extract_booster_config(set_data)
+    
+    # Fetch companion sets (Commander decks, etc.)
+    companion_cards = fetch_companion_sets(set_code, card_names_filter)
+    if companion_cards:
+        all_cards.extend(companion_cards)
+    
+    # Fetch bonus sheet cards (SPG and others from booster config)
+    bonus_cards = fetch_bonus_sheet_cards(set_code, booster_config, card_names_filter)
+    if bonus_cards:
+        all_cards.extend(bonus_cards)
+        print(f"[OK] Added {len(bonus_cards)} bonus sheet cards")
+    
+    return all_cards, booster_config
+
+
+def save_booster_files(
+    set_code: str,
+    output_dir: str,
+    all_cards: List[Dict[str, Any]],
+    card_names_filter: set,
+    booster_config: Dict[str, Any]
+):
+    """
+    Save booster configuration, cards, and sheets to disk.
+    
+    Args:
+        set_code: Set code
+        output_dir: Directory to save files
+        all_cards: All cards (main set + companion + SPG)
+        card_names_filter: Card names from 17Lands CSV
+        booster_config: Booster configuration
+    """
+    # Create output directory if needed
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # Save cards.json (needed by training script)
+    cards_path = os.path.join(output_dir, 'cards.json')
+    with open(cards_path, 'w', encoding='utf-8') as f:
+        json.dump(all_cards, f, indent=2)
+    print(f"[OK] Saved {len(all_cards)} cards to {cards_path}")
+    
+    # Save booster_config.json
+    booster_structure = extract_booster_structure(booster_config)
+    config_path = os.path.join(output_dir, 'booster_config.json')
+    with open(config_path, 'w', encoding='utf-8') as f:
+        json.dump(booster_structure, f, indent=2)
+    print(f"[OK] Saved booster config to {config_path}")
+    
+    # Build and save sheets.json
+    try:
+        sheets = build_filtered_sheets(all_cards, card_names_filter, booster_config)
+        sheets_path = os.path.join(output_dir, 'sheets.json')
+        with open(sheets_path, 'w', encoding='utf-8') as f:
+            json.dump(sheets, f, indent=2)
+        print(f"[OK] Saved {len(sheets)} sheets to {sheets_path}")
+    except Exception as e:
+        print(f"[WARN] Could not build sheets: {e}")
+
 

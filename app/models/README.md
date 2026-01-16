@@ -21,13 +21,19 @@ app/models/
 ## Files Per Set
 
 **Required:**
-- `{set}_model.keras` - The trained Transformer model
+- `{set}_model.keras` - The trained Transformer model (TensorFlow/Keras)
+- `booster_config.json` - Booster generation structure and rules
+- `sheets.json` - Filtered card sheets for booster generation
+- `card_encodings.pkl` - Pre-computed 407-dim card encodings
 
 **Optional:**
 - `config.json` - Set metadata (name, code, release date, etc.)
 - `icon.png` - Set icon/symbol for UI
-- `cards.json` - Cached card list for inference
-- `booster_rules.json` - Booster generation configuration
+- `training_cards.json` - List of card names used in training
+
+**Note:** As of the codebase cleanup, `cards.json` is no longer generated or used. 
+Card data is accessed through `card_encodings.pkl` for predictions and `sheets.json` 
+for booster generation, eliminating redundant data storage.
 
 ## Training a Model
 

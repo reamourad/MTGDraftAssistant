@@ -82,7 +82,8 @@
       "Weapons Vendor": 1.0,
       "Syncopate": 1.0
     },
-    "totalWeight": 80.0
+    "totalWeight": 80.0,
+    "foil": false
   },
   "foil": {
     "cards": {
@@ -370,7 +371,8 @@
       "Syncopate": 46560393.0,
       "Lion Heart": 22209176.0
     },
-    "totalWeight": 6542118000.0
+    "totalWeight": 6542118000.0,
+    "foil": true
   },
   "foilLand": {
     "cards": {
@@ -391,7 +393,8 @@
       "Island": 45.0,
       "Mountain": 45.0
     },
-    "totalWeight": 1150.0
+    "totalWeight": 1150.0,
+    "foil": true
   },
   "nonFoilLand": {
     "cards": {
@@ -412,7 +415,8 @@
       "Island": 45.0,
       "Mountain": 45.0
     },
-    "totalWeight": 1150.0
+    "totalWeight": 1150.0,
+    "foil": false
   },
   "rareMythic": {
     "cards": {
@@ -511,7 +515,78 @@
       "Dark Confidant": 162393.0,
       "Moogles' Valor": 351120.0
     },
-    "totalWeight": 29230740.0
+    "totalWeight": 29230740.0,
+    "foil": false
+  },
+  "throughTheAges": {
+    "cards": {
+      "Carpet of Flowers": 30345.0,
+      "Wall of Omens": 121440.0,
+      "Azusa, Lost but Seeking": 30345.0,
+      "Teferi, Mage of Zhalfir": 30345.0,
+      "Kenrith, the Returned King": 30345.0,
+      "Ranger-Captain of Eos": 15232.0,
+      "Akroma's Will": 15232.0,
+      "Brainstorm": 121440.0,
+      "Muldrotha, the Gravetide": 30345.0,
+      "Isshin, Two Heavens as One": 30345.0,
+      "K'rrik, Son of Yawgmoth": 30345.0,
+      "Adeline, Resplendent Cathar": 30345.0,
+      "Rhystic Study": 15232.0,
+      "Tymna the Weaver": 30345.0,
+      "Stroke of Midnight": 121440.0,
+      "Godo, Bandit Warlord": 30345.0,
+      "Sram, Senior Edificer": 30345.0,
+      "Deadly Dispute": 121440.0,
+      "Counterspell": 121440.0,
+      "Nyxbloom Ancient": 15232.0,
+      "Inalla, Archmage Ritualist": 30345.0,
+      "Yuriko, the Tiger's Shadow": 30345.0,
+      "Traxos, Scourge of Kroog": 30345.0,
+      "Kraum, Ludevic's Opus": 30345.0,
+      "Purphoros, God of the Forge": 15232.0,
+      "Ancient Copper Dragon": 15232.0,
+      "Primeval Titan": 30345.0,
+      "Chromatic Lantern": 30345.0,
+      "Varragoth, Bloodsky Sire": 30345.0,
+      "Smuggler's Copter": 30345.0,
+      "Nature's Claim": 121440.0,
+      "Diabolic Intent": 30345.0,
+      "Laboratory Maniac": 121440.0,
+      "Yawgmoth, Thran Physician": 15232.0,
+      "Bruse Tarl, Boorish Herder": 30345.0,
+      "Loran of the Third Path": 30345.0,
+      "Ragavan, Nimble Pilferer": 15232.0,
+      "Atraxa, Grand Unifier": 15232.0,
+      "Gix, Yawgmoth Praetor": 15232.0,
+      "Cryptic Command": 30345.0,
+      "Venser, Shaper Savant": 30345.0,
+      "Command Beacon": 30345.0,
+      "Fatal Push": 121440.0,
+      "Captain Lannery Storm": 121440.0,
+      "Ishai, Ojutai Dragonspeaker": 30345.0,
+      "Jodah, the Unifier": 30345.0,
+      "Lightning Bolt": 121440.0,
+      "Dovin's Veto": 121440.0,
+      "Mangara, the Diplomat": 30345.0,
+      "Fynn, the Fangbearer": 121440.0,
+      "Winota, Joiner of Forces": 30345.0,
+      "Danitha Capashen, Paragon": 121440.0,
+      "Najeela, the Blade-Blossom": 15232.0,
+      "Farseek": 121440.0,
+      "Vial Smasher the Fierce": 15232.0,
+      "Strixhaven Stadium": 121440.0,
+      "Light Up the Stage": 121440.0,
+      "Urza, Lord High Artificer": 15232.0,
+      "Thrasios, Triton Hero": 15232.0,
+      "Bolas's Citadel": 30345.0,
+      "Dark Ritual": 30345.0,
+      "Kinnan, Bonder Prodigy": 15232.0,
+      "Syr Konrad, the Grim": 121440.0,
+      "Mizzix's Mastery": 30345.0
+    },
+    "totalWeight": 3264000.0,
+    "foil": false
   },
   "uncommon": {
     "cards": {
@@ -625,7 +700,8 @@
       "Fire Magic": 14955.0,
       "Lion Heart": 14955.0
     },
-    "totalWeight": 1616137.0
+    "totalWeight": 1616137.0,
+    "foil": false
   },
   "wildcard": {
     "cards": {
@@ -913,6 +989,7 @@
       "Syncopate": 369504972375.0,
       "Lion Heart": 943910936430.0
     },
-    "totalWeight": 158170064331202.0
+    "totalWeight": 158170064331202.0,
+    "foil": false
   }
 }

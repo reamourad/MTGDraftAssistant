@@ -1,12 +1,24 @@
 """
 Pre-encode all cards for each set using CardEncoder.
 
+This script generates data compatible with BOTH TensorFlow (legacy) and PyTorch (future) systems:
+- TensorFlow system: Uses training_cards.json and DraftData for integer-based encoding
+- PyTorch system: Uses card_encodings.pkl with 407-dimensional feature vectors
+
 Reads CSVs from:      data/{SET}/draft_data_public.{SET}.PremierDraft.csv.gz
 Saves outputs to:     app/models/{SET}/
-  - cards.json           (MTGJson card data)
-  - booster_config.json  (booster generation rules)
-  - sheets.json          (filtered sheets)
-  - card_encodings.pkl   (407-dim encodings for training)
+  - booster_config.json  (booster generation rules) - SHARED by both systems
+  - sheets.json          (filtered sheets) - SHARED by both systems
+  - card_encodings.pkl   (407-dim encodings) - PYTORCH two-tower model
+  - training_cards.json  (card list) - TENSORFLOW legacy system
+
+The 407-dimensional encoding format:
+  - Rarity: 4 dims (one-hot)
+  - Mana cost: 7 dims (6 colors + CMC)
+  - Types: 9 dims (one-hot)
+  - Power/Toughness: 3 dims (can_attack, power, toughness)
+  - Oracle text: 384 dims (sentence embedding)
+  Total: 407 dims
 
 This only needs to be run once (or when adding new sets).
 
@@ -21,14 +33,9 @@ import pickle
 import pandas as pd
 import numpy as np
 import argparse
-from app.CardEncoder import CardEncoder
-from app.booster.mtgjson_fetcher import (
-    fetch_set_data,
-    extract_cards,
-    extract_booster_config,
-    fetch_spg_set,
-    extract_uuids_from_booster_config
-)
+import json
+from app.ml.experimental.card_encoder import CardEncoder
+from app.booster import mtgjson_fetcher
 
 
 def extract_unique_cards_from_csv(csv_path):
@@ -52,8 +59,9 @@ def fetch_and_prepare_card_data(set_code, card_names_filter):
     """Fetch MTGJson data and filter to cards in training data."""
     print(f"\nFetching MTGJson data for {set_code}...")
 
-    set_data = fetch_set_data(set_code) #fetches all the data from mtjjson
-    all_cards = extract_cards(set_data) #fetches all the cards from mtgjson
+    # Use mtgjson_fetcher helper functions
+    set_data = mtgjson_fetcher.fetch_set_data(set_code)
+    all_cards = mtgjson_fetcher.extract_cards(set_data)
 
     # Filter to only cards in training data
     card_name_to_data = {card['name']: card for card in all_cards}
@@ -77,7 +85,7 @@ def fetch_and_prepare_card_data(set_code, card_names_filter):
 
 
 def encode_cards(cards):
-    """Encode all cards using CardEncoder."""
+    """Encode all cards using CardEncoder (PyTorch-compatible 407-dim vectors)."""
     print("\nInitializing CardEncoder...")
     encoder = CardEncoder(card_list=cards)
 
@@ -88,12 +96,41 @@ def encode_cards(cards):
         if i % 50 == 0:
             print(f"  Encoded {i}/{len(cards)} cards...")
 
+        # Use UUID as key instead of name for uniqueness
+        card_uuid = card['uuid']
         card_name = card['name']
         encoding = encoder.encode(card)  # Returns 407-dim np.array
-        encodings[card_name] = encoding
+        
+        # Store with both UUID and name for compatibility
+        encodings[card_uuid] = {
+            'encoding': encoding,
+            'name': card_name,
+            'uuid': card_uuid
+        }
 
     print(f"Finished encoding {len(encodings)} cards")
     return encodings
+
+
+def save_training_cards_list(card_names, output_dir):
+    """
+    Save training_cards.json for backward compatibility with TensorFlow system.
+    
+    The TensorFlow system (app/DraftData.py, app/ModelBuilder.py) expects a simple
+    list of card names in training_cards.json. This maintains compatibility during
+    the migration to PyTorch.
+    """
+    import json
+    
+    training_cards_path = os.path.join(output_dir, 'training_cards.json')
+    card_list = sorted(list(card_names))
+    
+    print(f"\nSaving training_cards.json for TensorFlow compatibility...")
+    with open(training_cards_path, 'w', encoding='utf-8') as f:
+        json.dump(card_list, f, indent=2)
+    
+    print(f"Saved {len(card_list)} card names to {training_cards_path}")
+    return training_cards_path
 
 
 def preprocess_set(set_code, data_dir='data', models_dir='app/models'):
@@ -118,105 +155,105 @@ def preprocess_set(set_code, data_dir='data', models_dir='app/models'):
     csv_path = os.path.join(data_set_dir, csv_files[0])
 
     # Step 1: Extract unique cards from CSV
-    print("\n[Step 1/6] Extracting card names from CSV...")
+    print("\n[Step 1/4] Extracting card names from CSV...")
     card_names = extract_unique_cards_from_csv(csv_path)
 
-    # Step 2: Fetch MTGJson data
-    print("\n[Step 2/6] Fetching MTGJson data...")
-    set_data = fetch_set_data(set_code)
-    all_cards = extract_cards(set_data)
-    booster_config = extract_booster_config(set_data)
+    # Step 2: Fetch all card data using mtgjson_fetcher helper
+    # This handles: main set, companion sets (Commander), and SPG cards
+    print("\n[Step 2/4] Fetching card data from MTGJson...")
+    print("  - Fetching main set data")
+    print("  - Checking for companion sets (Commander decks)")
+    print("  - Checking for SPG cards in boosters")
+    
+    all_cards, booster_config = mtgjson_fetcher.fetch_all_card_data(
+        set_code=set_code,
+        card_names_filter=card_names
+    )
+    
+    print(f"[OK] Total cards loaded: {len(all_cards)}")
 
-    # Step 2a: Fetch and add SPG cards if present in booster config
-    print("\n[Step 2a/6] Checking for SPG cards...")
-    booster_uuids = extract_uuids_from_booster_config(booster_config)
-    print(f"[INFO] Found {len(booster_uuids)} UUIDs in booster configuration")
+    # Step 3: Save booster data (config and sheets)
+    print("\n[Step 3/4] Saving booster data...")
+    mtgjson_fetcher.save_booster_files(
+        set_code=set_code,
+        output_dir=models_set_dir,
+        all_cards=all_cards,
+        card_names_filter=card_names,
+        booster_config=booster_config
+    )
 
-    spg_data = fetch_spg_set()
-    spg_all_cards = spg_data.get('data', {}).get('cards', [])
-    spg_uuids = {card['uuid'] for card in spg_all_cards}
-    print(f"[INFO] SPG set contains {len(spg_uuids)} cards")
-
-    spg_uuids_in_boosters = booster_uuids.intersection(spg_uuids)
-
-    if spg_uuids_in_boosters:
-        print(f"[INFO] Found {len(spg_uuids_in_boosters)} SPG cards in booster configuration")
-        spg_cards = extract_cards(spg_data, spg_uuids_in_boosters)
-        all_cards.extend(spg_cards)
-        print(f"[OK] Added {len(spg_cards)} SPG cards:")
-        for spg_card in spg_cards:
-            print(f"  - {spg_card['name']}")
-    else:
-        print(f"[INFO] No SPG cards found in booster configuration")
-
-    # Step 3: Save cards.json
-    print("\n[Step 3/6] Saving cards.json...")
-    cards_path = os.path.join(models_set_dir, 'cards.json')
-    with open(cards_path, 'w', encoding='utf-8') as f:
-        import json
-        json.dump(all_cards, f, indent=2)
-    print(f"Saved {len(all_cards)} cards to {cards_path}")
-
-    # Step 4: Save booster_config.json
-    print("\n[Step 4/6] Saving booster_config.json...")
-    config_path = os.path.join(models_set_dir, 'booster_config.json')
-    with open(config_path, 'w', encoding='utf-8') as f:
-        import json
-        json.dump(booster_config, f, indent=2)
-    print(f"Saved booster config to {config_path}")
-
-    # Step 5: Build and save sheets.json (filtered by training cards)
-    print("\n[Step 5/6] Building filtered sheets...")
-    try:
-        from app.booster.mtgjson_fetcher import build_filtered_sheets
-        sheets = build_filtered_sheets(all_cards, card_names, booster_config)
-        sheets_path = os.path.join(models_set_dir, 'sheets.json')
-        with open(sheets_path, 'w', encoding='utf-8') as f:
-            import json
-            json.dump(sheets, f, indent=2)
-        print(f"Saved {len(sheets)} sheets to {sheets_path}")
-    except Exception as e:
-        print(f"WARNING: Could not build sheets: {e}")
-
-    # Step 6: Encode cards and save encodings
-    print("\n[Step 6/6] Encoding cards...")
-    # Filter to only cards in training data
+    # Step 4: Encode cards and save
+    print("\n[Step 4/4] Encoding cards...")
+    
+    # Build lookup dictionaries
     card_name_to_data = {card['name']: card for card in all_cards}
+    
     filtered_cards = []
     missing_cards = []
+    card_name_to_uuid = {}  # Track name -> UUID mapping
 
-    # Add cards from the set (including SPG cards if present)
+    # Match cards from CSV names to MTGJson data
     for name in card_names:
+        card = None
+        
+        # Try exact name match first
         if name in card_name_to_data:
-            filtered_cards.append(card_name_to_data[name])
+            card = card_name_to_data[name]
+        # Try case-insensitive match as fallback
+        else:
+            for card_name, card_data in card_name_to_data.items():
+                if card_name.lower() == name.lower():
+                    card = card_data
+                    print(f"[INFO] Found '{name}' via case-insensitive match: '{card_name}'")
+                    break
+        
+        if card:
+            filtered_cards.append(card)
+            card_name_to_uuid[name] = card['uuid']  # Store mapping
         else:
             missing_cards.append(name)
 
     if missing_cards:
         print(f"\nWARNING: {len(missing_cards)} cards could not be found:")
-        for card in missing_cards[:10]:  # Show first 10
+        for card in missing_cards:  # Show first 10
             print(f"  - {card}")
-        if len(missing_cards) > 10:
-            print(f"  ... and {len(missing_cards) - 10} more")
+        print(f"\nThese cards will be skipped during training.")
+        print(f"This may happen if:")
+        print(f"  - Card names differ between 17Lands and MTGJson")
+        print(f"  - Cards are from a different set or special edition")
+        print(f"  - Cards are variants not in the main set data")
 
+    # Encode cards (now uses UUIDs as keys)
     encodings = encode_cards(filtered_cards)
 
+    # Save encodings with UUID keys
     output_path = os.path.join(models_set_dir, 'card_encodings.pkl')
-    print(f"\nSaving encodings to {output_path}...")
+    print(f"\nSaving PyTorch-compatible encodings to {output_path}...")
     with open(output_path, 'wb') as f:
         pickle.dump(encodings, f)
+
+    # Save name->UUID mapping for lookup during training
+    mapping_path = os.path.join(models_set_dir, 'card_name_to_uuid.json')
+    with open(mapping_path, 'w', encoding='utf-8') as f:
+        json.dump(card_name_to_uuid, f, indent=2)
+    print(f"Saved card name->UUID mapping to {mapping_path}")
 
     # Verify file size
     file_size_mb = os.path.getsize(output_path) / (1024 * 1024)
     print(f"Saved successfully! File size: {file_size_mb:.2f} MB")
-    print(f"Average encoding shape: {list(encodings.values())[0].shape}")
+    print(f"Encoding format: UUID -> {{encoding: 407-dim array, name: str, uuid: str}}")
+
+    # Save training_cards.json for TensorFlow backward compatibility
+    print("\nSaving training_cards.json for TensorFlow compatibility...")
+    save_training_cards_list(card_names, models_set_dir)
 
     print(f"\n{'='*60}")
     print(f"COMPLETED: {set_code}")
-    print(f"  - cards.json: {len(all_cards)} cards")
-    print(f"  - booster_config.json: saved")
-    print(f"  - sheets.json: saved")
-    print(f"  - card_encodings.pkl: {len(encodings)} encoded cards")
+    print(f"  - booster_config.json: saved (SHARED)")
+    print(f"  - sheets.json: saved (SHARED)")
+    print(f"  - card_encodings.pkl: {len(encodings)} cards @ 407-dim (PYTORCH, UUID-keyed)")
+    print(f"  - card_name_to_uuid.json: {len(card_name_to_uuid)} mappings")
+    print(f"  - training_cards.json: {len(card_names)} card names (TENSORFLOW)")
     print(f"{'='*60}")
 
     return True

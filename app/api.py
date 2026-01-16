@@ -1,18 +1,39 @@
+"""
+LEGACY COMPATIBILITY LAYER - TensorFlow to PyTorch Migration
+
+This file maintains backward compatibility with the existing TensorFlow-based
+prediction system while preparing for migration to the PyTorch two-tower architecture.
+
+Migration Path:
+1. Current: /predict endpoint uses TensorFlow models (ml/current/)
+2. Future: /predict_v2 endpoint will use PyTorch 2-tower model (ml/experimental/)
+3. Once PyTorch model is trained and validated, /predict will be updated to use it
+
+Architecture:
+- TensorFlow System (CURRENT): app/ml/current/ - Production-ready, serving predictions
+- PyTorch System (FUTURE): app/ml/experimental/ - Two-tower architecture, awaiting training
+
+Note: Both systems coexist during transition. This file will be deprecated once
+migration to app/api/main.py is complete.
+"""
+
 from fastapi import FastAPI, Query, HTTPException
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
-from app.DraftData import DraftData
-from app.ModelBuilder import ModelBuilder
+from app.ml.current.draft_data import DraftData
+from app.ml.current.model_builder import ModelBuilder, TransformerBlock, PositionalEmbedding
 from tensorflow.keras.models import load_model
 import os
 import glob
 import json
-from app.ModelBuilder import TransformerBlock, PositionalEmbedding
 from fastapi.middleware.cors import CORSMiddleware
-from app.booster.generator import generate_booster
+from app.core.booster import generate_booster
 import uvicorn
 
-app = FastAPI(title="Lotus Draft Assistant API")
+app = FastAPI(
+    title="Lotus Draft Assistant API",
+    description="MTG Draft Assistant - TensorFlow (legacy) and PyTorch (future) prediction systems"
+)
 
 origins = ["*"]
 
@@ -24,12 +45,15 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Cache for loaded models and draft data
+# ============================================================================
+# TENSORFLOW SYSTEM (CURRENT/LEGACY)
+# ============================================================================
+
+# Cache for loaded TensorFlow models and draft data
 _model_cache = {}
 _draft_data_cache = {}
 
 
-#TODO: Change this function
 def load_set_model(set_code: str):
     """Load model and draft data for a specific set, with caching."""
     set_code = set_code.upper()
@@ -104,6 +128,47 @@ class PredictRequest(BaseModel):
 @app.get("/")
 def root():
     return {"message": "Welcome to the Lotus Draft Assistant API"}
+
+
+@app.get("/status")
+def get_system_status():
+    """
+    Get information about available prediction systems.
+    
+    Returns information about TensorFlow (legacy) and PyTorch (experimental) systems.
+    """
+    # Check if PyTorch general model is available
+    from app.ml.experimental.model_loader import PyTorchModelLoader
+    
+    pytorch_status = "not_ready"
+    try:
+        model_loader = PyTorchModelLoader(models_dir="app/models", use_gpu=False)
+        if model_loader.is_model_available("general"):
+            pytorch_status = "active"
+    except Exception:
+        pass
+    
+    return {
+        "systems": {
+            "tensorflow": {
+                "status": "active",
+                "endpoint": "/predict",
+                "description": "Current production system using TensorFlow models",
+                "location": "app/ml/current/"
+            },
+            "pytorch": {
+                "status": pytorch_status,
+                "endpoint": "/predict_pytorch",
+                "description": "Two-tower architecture using PyTorch",
+                "location": "app/ml/experimental/"
+            }
+        },
+        "migration": {
+            "current_phase": "Phase 2: PyTorch Model Available" if pytorch_status == "active" else "Phase 1: Dual System Operation",
+            "next_phase": "Phase 3: Full Migration to PyTorch" if pytorch_status == "active" else "Phase 2: PyTorch Model Training",
+            "timeline": "Ready for testing" if pytorch_status == "active" else "TBD - awaiting PyTorch model training completion"
+        }
+    }
 
 
 @app.get("/sets")
@@ -210,7 +275,10 @@ def get_booster(set: str = Query("MH3", description="Set code (e.g., 'MH3', 'BLB
 @app.post("/predict")
 def predict_next_card(req: PredictRequest):
     """
-    Predict the best card to pick from a pack.
+    [TENSORFLOW/LEGACY] Predict the best card to pick from a pack.
+    
+    This endpoint uses the TensorFlow-based prediction system (ml/current/).
+    For the future PyTorch two-tower model, use /predict_v2 (when available).
 
     Request body:
     - set: Set code (e.g., "MH3")
@@ -221,7 +289,7 @@ def predict_next_card(req: PredictRequest):
     - predictions: List of cards with probabilities, sorted by recommendation
     """
     try:
-        # Load the appropriate model for this set
+        # Load the appropriate TensorFlow model for this set
         model_builder, draft_data = load_set_model(req.set)
 
         # Convert card names to integers
@@ -239,18 +307,58 @@ def predict_next_card(req: PredictRequest):
             else:
                 raise HTTPException(status_code=400, detail=f"Card '{card_name}' not found in {req.set} set")
 
-        # Get predictions
+        # Get predictions from TensorFlow model
         predictions = model_builder.predict(deck_ids, pack_ids)
 
         return {
             "set": req.set.upper(),
-            "predictions": predictions
+            "predictions": predictions,
+            "model_type": "tensorflow"  # Indicate which model was used
         }
 
     except HTTPException:
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Prediction failed: {str(e)}")
+
+
+# ============================================================================
+# PYTORCH SYSTEM (FUTURE/EXPERIMENTAL)
+# ============================================================================
+
+@app.post("/predict_v2")
+def predict_next_card_v2(req: PredictRequest):
+    """
+    [PYTORCH/EXPERIMENTAL] Predict the best card to pick using two-tower architecture.
+    
+    This endpoint will use the PyTorch two-tower model (ml/experimental/) once trained.
+    Currently returns a placeholder response indicating the model is not yet available.
+    
+    Request body:
+    - set: Set code (e.g., "MH3")
+    - deck: List of card names already in your pool
+    - pack: List of card names available in current pack (from /booster)
+
+    Returns:
+    - predictions: List of cards with probabilities, sorted by recommendation
+    
+    Status: NOT YET IMPLEMENTED - PyTorch model training in progress
+    """
+    # TODO: Implement PyTorch two-tower prediction once model is trained
+    # This will use:
+    # - app/ml/experimental/two_tower_model.py for model architecture
+    # - app/ml/experimental/model_loader.py for loading trained checkpoints
+    # - app/ml/experimental/card_encoder.py for encoding cards (407-dim)
+    # - app/core/prediction.py for orchestration
+    
+    raise HTTPException(
+        status_code=501,
+        detail=(
+            "PyTorch two-tower model not yet available. "
+            "Use /predict endpoint for TensorFlow-based predictions. "
+            "The PyTorch model will be available after training is complete."
+        )
+    )
 
 if __name__ == "__main__":
     import uvicorn

@@ -82,7 +82,8 @@
       "Twisted Landscape": 1.0,
       "Temperamental Oozewagg": 1.0
     },
-    "totalWeight": 80.0
+    "totalWeight": 80.0,
+    "foil": false
   },
   "foilLand": {
     "cards": {
@@ -92,7 +93,8 @@
       "Forest": 1.0,
       "Swamp": 1.0
     },
-    "totalWeight": 5.0
+    "totalWeight": 5.0,
+    "foil": true
   },
   "foilWithShowcase": {
     "cards": {
@@ -240,6 +242,7 @@
       "Writhing Chrysalis": 47376.0,
       "Tamiyo, Inquisitive Student": 2420.0,
       "Tempest Harvester": 47376.0,
+      "Omo, Queen of Vesuva": 2420.0,
       "Titans' Vanguard": 7896.0,
       "Metastatic Evangel": 5264.0,
       "Meteoric Mace": 7896.0,
@@ -255,12 +258,14 @@
       "Nulldrifter": 4840.0,
       "Gift of the Viper": 47376.0,
       "Proud Pack-Rhino": 7896.0,
+      "Jyoti, Moag Ancient": 2420.0,
       "Unfathomable Truths": 47376.0,
       "White Orchid Phantom": 4840.0,
       "Estrid's Invocation": 7260.0,
       "Furnace Hellkite": 7896.0,
       "Fangs of Kalonia": 7896.0,
       "Golden-Tail Trainer": 7896.0,
+      "Azlask, the Swelling Scourge": 2420.0,
       "Corrupted Shapeshifter": 47376.0,
       "Shattered Landscape": 31584.0,
       "Ugin's Labyrinth": 2420.0,
@@ -285,6 +290,7 @@
       "Warped Tusker": 47376.0,
       "Jolted Awake": 31584.0,
       "Strix Serenade": 4840.0,
+      "Satya, Aetherflux Genius": 2420.0,
       "Ajani, Nacatl Pariah": 2420.0,
       "Crabomination": 7260.0,
       "Territory Culler": 7896.0,
@@ -302,12 +308,14 @@
       "Ophiomancer": 7260.0,
       "Gravedig": 47376.0,
       "Kozilek, the Broken Reality": 2420.0,
+      "Ulalek, Fused Atrocity": 2420.0,
       "Signature Slam": 7896.0,
       "Lion Umbra": 5264.0,
       "Glaring Fleshraker": 7896.0,
       "Flare of Duplication": 4840.0,
       "Depth Defiler": 7896.0,
       "Dog Umbra": 47376.0,
+      "Disa the Restless": 2420.0,
       "Guide of Souls": 7260.0,
       "Lethal Throwdown": 7896.0,
       "Witch Enchanter": 7896.0,
@@ -337,6 +345,7 @@
       "Echoes of Eternity": 4840.0,
       "Drowner of Truth": 7896.0,
       "Ondu Knotmaster": 7896.0,
+      "Cayth, Famed Mechanist": 2420.0,
       "Bloodstained Mire": 4840.0,
       "Branching Evolution": 7260.0,
       "Ral, Monsoon Mage": 2420.0,
@@ -374,6 +383,7 @@
       "Tranquil Landscape": 47376.0,
       "Emrakul's Messenger": 7896.0,
       "Seething Landscape": 47376.0,
+      "Coram, the Undertaker": 2420.0,
       "Eldrazi Ravager": 7896.0,
       "Inventor's Axe": 47376.0,
       "Psychic Frog": 4840.0,
@@ -400,7 +410,8 @@
       "Twisted Riddlekeeper": 7896.0,
       "Temperamental Oozewagg": 47376.0
     },
-    "totalWeight": 5079198.0
+    "totalWeight": 5098558.0,
+    "foil": true
   },
   "land": {
     "cards": {
@@ -410,7 +421,8 @@
       "Forest": 1.0,
       "Swamp": 1.0
     },
-    "totalWeight": 5.0
+    "totalWeight": 5.0,
+    "foil": false
   },
   "newRareMythic": {
     "cards": {
@@ -490,7 +502,8 @@
       "Monumental Henge": 8.0,
       "Sowing Mycospawn": 8.0
     },
-    "totalWeight": 598.0
+    "totalWeight": 598.0,
+    "foil": false
   },
   "newUncommon": {
     "cards": {
@@ -596,7 +609,8 @@
       "Dreadmobile": 1.0,
       "Twisted Riddlekeeper": 1.0
     },
-    "totalWeight": 101.0
+    "totalWeight": 101.0,
+    "foil": false
   },
   "reprint": {
     "cards": {
@@ -648,7 +662,8 @@
       "Buried Alive": 20700.0,
       "Kaalia of the Vast": 2116.0
     },
-    "totalWeight": 486880.0
+    "totalWeight": 486880.0,
+    "foil": false
   },
   "specialGuest": {
     "cards": {
@@ -663,7 +678,8 @@
       "Grief": 1.0,
       "Prismatic Ending": 1.0
     },
-    "totalWeight": 10.0
+    "totalWeight": 10.0,
+    "foil": false
   },
   "wildcard": {
     "cards": {
@@ -787,6 +803,7 @@
       "Writhing Chrysalis": 10676232.0,
       "Tamiyo, Inquisitive Student": 742940.0,
       "Tempest Harvester": 10676232.0,
+      "Omo, Queen of Vesuva": 742940.0,
       "Titans' Vanguard": 2103948.0,
       "Metastatic Evangel": 1402632.0,
       "Kami of Jealous Thirst": 10676232.0,
@@ -798,11 +815,13 @@
       "Nulldrifter": 1485880.0,
       "Gift of the Viper": 10676232.0,
       "Proud Pack-Rhino": 2103948.0,
+      "Jyoti, Moag Ancient": 742940.0,
       "Unfathomable Truths": 10676232.0,
       "White Orchid Phantom": 1485880.0,
       "Furnace Hellkite": 2103948.0,
       "Fangs of Kalonia": 2103948.0,
       "Golden-Tail Trainer": 2103948.0,
+      "Azlask, the Swelling Scourge": 742940.0,
       "Corrupted Shapeshifter": 10676232.0,
       "Shattered Landscape": 7117488.0,
       "Ugin's Labyrinth": 742940.0,
@@ -824,6 +843,7 @@
       "Warped Tusker": 10676232.0,
       "Jolted Awake": 7117488.0,
       "Strix Serenade": 1485880.0,
+      "Satya, Aetherflux Genius": 742940.0,
       "Ajani, Nacatl Pariah": 742940.0,
       "Crabomination": 2228820.0,
       "Territory Culler": 2103948.0,
@@ -836,12 +856,14 @@
       "Shilgengar, Sire of Famine": 1485880.0,
       "Gravedig": 10676232.0,
       "Kozilek, the Broken Reality": 742940.0,
+      "Ulalek, Fused Atrocity": 742940.0,
       "Signature Slam": 2103948.0,
       "Lion Umbra": 1402632.0,
       "Glaring Fleshraker": 2103948.0,
       "Flare of Duplication": 1485880.0,
       "Depth Defiler": 2103948.0,
       "Dog Umbra": 10676232.0,
+      "Disa the Restless": 742940.0,
       "Guide of Souls": 2228820.0,
       "Lethal Throwdown": 2103948.0,
       "Witch Enchanter": 2103948.0,
@@ -868,6 +890,7 @@
       "Echoes of Eternity": 1485880.0,
       "Drowner of Truth": 2103948.0,
       "Ondu Knotmaster": 2103948.0,
+      "Cayth, Famed Mechanist": 742940.0,
       "Ral, Monsoon Mage": 742940.0,
       "Izzet Generatorium": 2103948.0,
       "Bountiful Landscape": 10676232.0,
@@ -899,6 +922,7 @@
       "Tranquil Landscape": 10676232.0,
       "Emrakul's Messenger": 2103948.0,
       "Seething Landscape": 10676232.0,
+      "Coram, the Undertaker": 742940.0,
       "Eldrazi Ravager": 2103948.0,
       "Inventor's Axe": 10676232.0,
       "Psychic Frog": 1485880.0,
@@ -924,6 +948,7 @@
       "Twisted Riddlekeeper": 2103948.0,
       "Temperamental Oozewagg": 10676232.0
     },
-    "totalWeight": 1140781094.0
+    "totalWeight": 1146724614.0,
+    "foil": false
   }
 }
