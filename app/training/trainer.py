@@ -69,10 +69,21 @@ class TwoTowerTrainer:
         # Move model to device
         self.model.to(self.device)
         
-        # Setup optimizer
-        self.optimizer = torch.optim.Adam(
+        # FIX 4: Setup optimizer with AdamW and weight decay
+        self.optimizer = torch.optim.AdamW(  # Changed from Adam to AdamW
             self.model.parameters(),
-            lr=config.learning_rate
+            lr=config.learning_rate,
+            weight_decay=0.01  # FIX 4: Add weight decay for regularization
+        )
+        
+        # FIX 4: Add learning rate scheduler
+        self.scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
+            self.optimizer,
+            mode='min',
+            factor=0.5,
+            patience=3,
+            verbose=True,
+            min_lr=1e-6
         )
         
         # Setup loss function
@@ -130,7 +141,13 @@ class TwoTowerTrainer:
             self.training_history['val_top1_acc'].append(val_metrics['top1_acc'])
             self.training_history['val_top3_acc'].append(val_metrics['top3_acc'])
             self.training_history['val_top5_acc'].append(val_metrics['top5_acc'])
-            self.training_history['learning_rate'].append(self.config.learning_rate)
+            
+            # FIX 4: Step the learning rate scheduler
+            self.scheduler.step(val_metrics['loss'])
+            
+            # FIX 4: Record current learning rate
+            current_lr = self.optimizer.param_groups[0]['lr']
+            self.training_history['learning_rate'].append(current_lr)
             
             # Log progress
             logger.info(
@@ -138,7 +155,8 @@ class TwoTowerTrainer:
                 f"Train Loss: {train_loss:.4f}, "
                 f"Val Loss: {val_metrics['loss']:.4f}, "
                 f"Val Top-1: {val_metrics['top1_acc']:.4f}, "
-                f"Val Top-3: {val_metrics['top3_acc']:.4f}"
+                f"Val Top-3: {val_metrics['top3_acc']:.4f}, "
+                f"LR: {current_lr:.6f}"
             )
             
             # Save checkpoint if improved
@@ -205,12 +223,25 @@ class TwoTowerTrainer:
             # target_idx: (batch, 1) -> (batch,)
             target = target_idx.squeeze(-1)
             
-            # Compute loss
-            loss = self.criterion(scores, target)
+            # CRITICAL FIX: Create mask for non-padded cards
+            # Padded cards are all zeros, so sum of abs values will be 0
+            card_mask = (pack_cards.abs().sum(dim=-1) > 0)  # (batch, num_candidates)
+            
+            # Mask out padding by setting scores to very negative value
+            # This prevents the model from learning to predict padded positions
+            masked_scores = scores.clone()
+            masked_scores[~card_mask] = -1e9  # Will result in ~0 probability after softmax
+            
+            # Compute loss with masked scores
+            loss = self.criterion(masked_scores, target)
             
             # Backward pass
             self.optimizer.zero_grad()
             loss.backward()
+            
+            # Gradient clipping to prevent exploding gradients
+            torch.nn.utils.clip_grad_norm_(self.model.parameters(), max_norm=1.0)
+            
             self.optimizer.step()
             
             # Accumulate loss

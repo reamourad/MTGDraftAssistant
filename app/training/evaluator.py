@@ -99,14 +99,21 @@ class ModelEvaluator:
                 # target: (batch, 1) -> (batch,)
                 target = target_idx.squeeze(-1)
                 
-                # Compute loss
-                loss = self.criterion(scores, target)
+                # CRITICAL FIX: Create mask for non-padded cards
+                card_mask = (pack_cards.abs().sum(dim=-1) > 0)  # (batch, num_candidates)
+                
+                # Mask out padding by setting scores to very negative value
+                masked_scores = scores.clone()
+                masked_scores[~card_mask] = -1e9
+                
+                # Compute loss with masked scores
+                loss = self.criterion(masked_scores, target)
                 total_loss += loss.item()
                 num_batches += 1
                 
-                # Compute top-k accuracy
+                # Compute top-k accuracy using masked scores
                 batch_size = scores.size(0)
-                top1, top3, top5 = self.compute_top_k_accuracy(scores, target)
+                top1, top3, top5 = self.compute_top_k_accuracy(masked_scores, target)
                 
                 top1_correct += top1 * batch_size
                 top3_correct += top3 * batch_size

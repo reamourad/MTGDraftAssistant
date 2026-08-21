@@ -6,6 +6,7 @@ handling card encoding, model inference, and result formatting for the API.
 """
 
 import torch
+import numpy as np
 import logging
 from typing import List, Optional
 from dataclasses import dataclass
@@ -96,6 +97,17 @@ class PyTorchPredictionService:
             try:
                 pool_encoded = self.encoder.encode_batch_by_names(deck) if deck else None
                 pack_encoded = self.encoder.encode_batch_by_names(pack)
+                
+                # Check for NaN in encodings
+                if pool_encoded is not None:
+                    if np.isnan(pool_encoded).any():
+                        logger.error("NaN detected in pool encodings")
+                        raise PyTorchPredictionError("Invalid pool card encodings")
+                
+                if np.isnan(pack_encoded).any():
+                    logger.error("NaN detected in pack encodings")
+                    raise PyTorchPredictionError("Invalid pack card encodings")
+                    
             except CardEncoderError as e:
                 raise PyTorchPredictionError(f"Failed to encode cards: {str(e)}")
             
@@ -122,6 +134,14 @@ class PyTorchPredictionService:
                     pick_number
                 )
             
+            # Check for NaN or Inf values
+            if torch.isnan(scores).any() or torch.isinf(scores).any():
+                logger.error(f"Model produced invalid scores (NaN or Inf). This usually means the model architecture has changed.")
+                raise PyTorchPredictionError(
+                    "Model produced invalid predictions. The model may be incompatible with the current code. "
+                    "Please retrain the model: python scripts/train_pytorch.py --sets TLA TDM MH3 FIN --epochs 50 --lr 0.0003"
+                )
+            
             # Log raw scores for debugging
             logger.debug(f"Raw scores - min: {scores.min().item():.4f}, max: {scores.max().item():.4f}, mean: {scores.mean().item():.4f}")
             
@@ -129,12 +149,22 @@ class PyTorchPredictionService:
             # The model outputs logits for CrossEntropyLoss
             probabilities = torch.softmax(scores, dim=0).cpu().numpy()
             
+            # Check probabilities for NaN
+            if np.isnan(probabilities).any():
+                logger.error("Softmax produced NaN probabilities")
+                raise PyTorchPredictionError("Invalid probability computation")
+            
             # Create predictions
             predictions = []
             for idx, prob in enumerate(probabilities):
+                # Ensure probability is a valid float
+                prob_value = float(prob)
+                if not np.isfinite(prob_value):
+                    prob_value = 0.0
+                    
                 predictions.append(CardPrediction(
                     card_name=pack[idx],
-                    probability=float(prob)
+                    probability=prob_value
                 ))
             
             # Sort by probability (highest first)
