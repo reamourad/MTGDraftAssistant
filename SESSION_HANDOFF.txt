@@ -1,0 +1,115 @@
+MTGDraftAssistant — session handoff (porting from Claude Code/WSL session to Claude Code on Windows)
+=====================================================================================================
+
+GOAL
+----
+Rebuild the draft-pick prediction model from scratch, by hand, to actually understand it —
+the existing implementation was entirely AI-generated and the user wants to relearn/rebuild it
+themselves rather than keep extending code they didn't write.
+
+MY ROLE (agreed with user)
+---------------------------
+Socratic reviewer, not author. User writes the code; I read diffs, ask questions, point out bugs
+or gaps in reasoning — I do NOT write implementation code for them unless they're truly stuck and
+ask directly.
+
+REPO STATE
+----------
+- `main` branch: contains the finished/fixed two-tower model implementation. Last commit
+  "Fix padding/NaN bugs and add attention to two-tower model" — committed locally but NOT YET
+  PUSHED to origin/main (1 commit ahead). User hadn't decided whether to push it.
+- `from-scratch` branch (created off that main commit): the entire previous implementation was
+  `git mv`'d into `reference_old/` — this includes app/ (api, booster, core, ml, training, models,
+  services, utils), scripts/, docs/, README.md, preprocess_cards.py, requirements.txt, render.yaml,
+  runtime.txt, and all root-level test_*.py files. Commit: "Archive current implementation to
+  reference_old/".
+- `data/` was deliberately left at repo root (NOT moved into reference_old/) — it's git-ignored
+  (never tracked) and is the shared 17Lands training data used by both old and new implementations.
+- Local tooling left alone/untouched: venv310/, .idea/, .kiro/, .claude/ (all git-ignored, not
+  part of either implementation).
+- Currently on `from-scratch` branch. User has started `draftmodel/explore.py` (stage 1 script,
+  currently open in their IDE) — check its contents to see how far they've gotten.
+
+OLD MODEL ARCHITECTURE (now in reference_old/, useful as reference / to avoid re-deriving from
+scratch when explaining concepts, but NOT to be copied into the new build)
+-----------------------------------------------------------------------------------------------
+Two-tower architecture for MTG draft pick prediction:
+- CardEncoder (reference_old/app/ml/experimental/card_encoder.py): encodes each card to a
+  407-dim vector — rarity (4, one-hot), mana cost (7: 6 colors + CMC), types (9, multi-hot),
+  power/toughness (3), oracle text (384-dim via sentence-transformers all-MiniLM-L6-v2).
+- CandidateTower: MLP 407→256→256→128 with LayerNorm at input and each hidden layer, scores
+  each candidate card independently.
+- ContextTower: learned-query multi-head attention over pool cards (already picked) and pack
+  cards (available now), plus a pick-number embedding (1-45 → 16 dims) — concatenated and MLP'd
+  to a 128-dim context embedding. (This attention mechanism replaced an earlier mean-pooling
+  approach.)
+- ScoringHead: concatenates candidate embedding + context embedding (256 dims) → MLP → 1 score.
+- Trained with CrossEntropyLoss treating "which card in the pack was picked" as a classification
+  problem over the pack; padded pack slots are masked out of the loss (this was a real bug fix —
+  earlier version trained against zero-padding).
+- Training run: AdamW + weight decay, ReduceLROnPlateau scheduler, gradient clipping. Trained on
+  sets TLA/TDM/MH3/FIN — 2,972,548 train / 743,138 val pick-sequences, 2.5M params, 30 epochs.
+  Best val loss 0.8399, val top-1 accuracy 68%, top-3 94%, top-5 98.8%.
+- Known weakness discussed: top-1 much lower than top-3/top-5 — the model narrows to a good
+  shortlist but struggles to pick the exact card. Candidates are scored independently (no
+  cross-candidate comparison within a pack) — a set-transformer-style layer letting candidates
+  attend to each other was suggested as the highest-value architectural improvement, along with
+  label smoothing (multiple picks in a pack are often reasonably "correct"), explicit color-
+  commitment features in the context, and training longer (val loss was still falling at epoch
+  30, patience never triggered).
+
+FASTAPI / OLD API NOTES
+------------------------
+reference_old/app/api/main.py is the real FastAPI app (routes as decorated functions, Pydantic
+request model `PredictRequest {set, deck: list[str], pack: list[str]}`, a lazily-constructed
+module-global `PyTorchPredictionService` cached after first request to avoid reloading the
+sentence-transformer/encodings per request). reference_old/app/api.py at repo root is DEAD CODE —
+a stale near-duplicate from an earlier TensorFlow-only migration phase, never cleaned up after
+main.py superseded it. Lesson flagged to user: don't let two files own the same routes.
+
+Sequencing guidance given: pick-a-card WILL be an API endpoint eventually (this wasn't in
+question) — but build `predict(pool, pack) -> ranked cards` as a plain callable first, verify it
+via a script/REPL, and only then wrap it in a thin FastAPI route (~5 lines: validate request,
+call function, return JSON). Reason: debugging model correctness and HTTP/request-parsing at the
+same time via round-trips is a worse feedback loop than testing the function directly.
+
+FOLDER ARCHITECTURE GUIDANCE GIVEN
+------------------------------------
+Recommended NOT building out a full package tree up front (that's premature structure, easy to
+copy without understanding why it exists). Started minimal:
+
+    draftmodel/
+      __init__.py
+      explore.py     # stage 1: load one CSV, print a pick's pack/pool/target by hand
+
+`encode.py`, `model.py`, `train.py`, `eval.py` etc. should only be added when a later stage
+actually needs them — not stubbed out now.
+
+STAGED LEARNING CURRICULUM (agreed plan, in order)
+----------------------------------------------------
+1. Read raw data by hand — script loads one 17Lands draft CSV, prints a single pick's
+   pack/pool/pick_number/picked-card in human-readable form. No ML. (IN PROGRESS —
+   draftmodel/explore.py)
+2. Non-ML baseline — simple heuristic (e.g. highest rarity) + hand-written top-1/top-3/top-5
+   accuracy eval over validation data. Gives a number to beat and forces understanding the metric
+   before any model exists.
+3. Minimal card features — own CardEncoder v1 with just rarity + CMC + color, skip oracle-text
+   embedding initially.
+4. Simplest possible model — single linear layer scoring each candidate from its own features
+   alone, no pool/context. Learn the training loop mechanics (batching, loss, optimizer) in
+   isolation.
+5. Naive context — mean-pool the picked pool into a context vector, concatenate with candidate
+   features, MLP. Compare accuracy to step 4.
+6. Attention over pool/pack, replacing mean pooling. Compare again.
+7. Add oracle text embeddings back in.
+8. Tuning pass — LR schedule, loss function choice (e.g. label smoothing), regularization,
+   informed by what the numbers showed at each earlier stage rather than copied from the old
+   trainer.py.
+
+Each stage: user writes it, I review by asking questions / flagging bugs rather than patching
+code myself, unless they explicitly ask me to write something.
+
+NEXT STEP
+---------
+Check draftmodel/explore.py to see what the user has written for stage 1, and continue in
+Socratic-reviewer mode from there.
