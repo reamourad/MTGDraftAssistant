@@ -1,0 +1,53 @@
+{
+  "boosters": [
+    {
+      "contents": {
+        "common": 6,
+        "foilReplacement": 1,
+        "land": 1,
+        "newRareMythic": 1,
+        "newUncommon": 3,
+        "reprint": 1,
+        "wildcard": 1
+      },
+      "weight": 63
+    },
+    {
+      "contents": {
+        "common": 5,
+        "foilReplacement": 1,
+        "land": 1,
+        "newRareMythic": 1,
+        "newUncommon": 3,
+        "reprint": 1,
+        "specialGuest": 1,
+        "wildcard": 1
+      },
+      "weight": 1
+    },
+    {
+      "contents": {
+        "common": 7,
+        "foilReplacement": 1,
+        "newRareMythic": 1,
+        "newUncommon": 3,
+        "reprint": 1,
+        "wildcard": 1
+      },
+      "weight": 63
+    },
+    {
+      "contents": {
+        "common": 6,
+        "foilReplacement": 1,
+        "newRareMythic": 1,
+        "newUncommon": 3,
+        "reprint": 1,
+        "specialGuest": 1,
+        "wildcard": 1
+      },
+      "weight": 1
+    }
+  ],
+  "boostersTotalWeight": 128
+}

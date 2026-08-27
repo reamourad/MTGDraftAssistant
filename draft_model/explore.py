@@ -5,9 +5,10 @@ import json
 from pathlib import Path
 import random
 
-SET_NAME = "Powered_Cube"
-FOLDER = f"data/{SET_NAME}"
-CARD_LIST_FILE_NAME = "card_list.json"
+from data_processing.config import DATA_DIR, CARD_LIST_FILENAME
+
+SET_NAME = "MH3"
+FOLDER = f"{DATA_DIR}/{SET_NAME}"
 
 def unpack_csv_to_card_list(csv_path, file_destination):
     #0. find the .csv.gz file name
@@ -18,7 +19,7 @@ def unpack_csv_to_card_list(csv_path, file_destination):
     #1. we want to read the .csv.gz
     column_names = pandas.read_csv(csv_file_matches[0], nrows=0).columns
 
-    #2. we want to get all the possible cards to get drafted and save this as a list in /data
+    #2. we want to get all the possible cards that can get drafted and save this as a list in /data
     card_names = set()
     for col in column_names:
         if col.startswith('pack_card_'):
@@ -26,7 +27,7 @@ def unpack_csv_to_card_list(csv_path, file_destination):
             card_names.add(card_name)
 
     #Save this to file_destination
-    file_name = os.path.join(file_destination, CARD_LIST_FILE_NAME)
+    file_name = os.path.join(file_destination, CARD_LIST_FILENAME)
 
     with open(file_name, 'w', newline='') as jsonfile:
         json.dump(sorted(card_names), jsonfile)
@@ -52,7 +53,8 @@ def pick_multiple(card_list, number):
 
 
 if __name__ == "__main__":
-    folder = FOLDER + "/" + CARD_LIST_FILE_NAME
+    folder = FOLDER + "/" + CARD_LIST_FILENAME
+    unpack_csv_to_card_list(FOLDER, FOLDER)
     result = pick_one(folder)
     print(FOLDER)
     print(result)

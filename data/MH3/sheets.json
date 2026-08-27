@@ -1,0 +1,4549 @@
+{
+  "common": {
+    "cards": [
+      {
+        "uuid": "0423c2bc-6f15-5459-9062-c21a50742a79",
+        "name": "Electrozoa",
+        "weight": 1
+      },
+      {
+        "uuid": "05dfa15e-1a10-5c75-8e62-26c55b2333bf",
+        "name": "Glimpse the Impossible",
+        "weight": 1
+      },
+      {
+        "uuid": "0a0ecc26-2faf-5f5b-8121-de983a204c26",
+        "name": "Galvanic Discharge",
+        "weight": 1
+      },
+      {
+        "uuid": "0ae63b32-dbcd-5cea-9146-f3f7069e935a",
+        "name": "Riddle Gate Gargoyle",
+        "weight": 1
+      },
+      {
+        "uuid": "0bf9374c-6fa8-577c-84e4-e293478228dc",
+        "name": "Infernal Captor",
+        "weight": 1
+      },
+      {
+        "uuid": "0d2d7b81-2d82-5c26-ab22-59b8982de648",
+        "name": "Utter Insignificance",
+        "weight": 1
+      },
+      {
+        "uuid": "12069abb-426a-5e47-bb1c-2eea7ce6d2d4",
+        "name": "Cranial Ram",
+        "weight": 1
+      },
+      {
+        "uuid": "172c14e1-bc59-572c-aa72-f3a8118d6108",
+        "name": "Thriving Skyclaw",
+        "weight": 1
+      },
+      {
+        "uuid": "17faa53a-33e9-5015-992b-dd1a048ae83c",
+        "name": "Sneaky Snacker",
+        "weight": 1
+      },
+      {
+        "uuid": "18b918c9-af6d-5138-8ed5-6391a978bbd9",
+        "name": "Petrifying Meddler",
+        "weight": 1
+      },
+      {
+        "uuid": "18bf5cfc-c0f9-57a9-8592-b3949d4f545f",
+        "name": "Colossal Dreadmask",
+        "weight": 1
+      },
+      {
+        "uuid": "199bd3be-d81e-567a-ae41-8de1c6d35f4b",
+        "name": "Evolution Witness",
+        "weight": 1
+      },
+      {
+        "uuid": "20f72f1a-8ca3-5efb-b395-0867e7afbc9f",
+        "name": "Malevolent Rumble",
+        "weight": 1
+      },
+      {
+        "uuid": "242f794d-c10c-51c9-a67f-caa4772466d8",
+        "name": "Inspired Inventor",
+        "weight": 1
+      },
+      {
+        "uuid": "2461aba8-093a-56d1-b471-fc233524d8c3",
+        "name": "Wither and Bloom",
+        "weight": 1
+      },
+      {
+        "uuid": "287fdf3e-6d47-5819-bd9f-2135af961b18",
+        "name": "Voidpouncer",
+        "weight": 1
+      },
+      {
+        "uuid": "28ba6129-362f-5cfb-8ddc-9e5310649eba",
+        "name": "Sage of the Unknowable",
+        "weight": 1
+      },
+      {
+        "uuid": "2dd99920-7cf9-5c46-8d3c-aa161ac1e844",
+        "name": "Foreboding Landscape",
+        "weight": 1
+      },
+      {
+        "uuid": "2e429867-a992-5cce-9d5d-44cf934f6d02",
+        "name": "Aerie Auxiliary",
+        "weight": 1
+      },
+      {
+        "uuid": "33a10cfc-d13d-5e15-8f6b-932ae2e633d8",
+        "name": "Retrofitted Transmogrant",
+        "weight": 1
+      },
+      {
+        "uuid": "34248229-f58c-553a-adca-9395f9cc6f0a",
+        "name": "Dreamdrinker Vampire",
+        "weight": 1
+      },
+      {
+        "uuid": "34583a06-d3ce-5963-a0f5-9626c1a6c7f5",
+        "name": "Thraben Charm",
+        "weight": 1
+      },
+      {
+        "uuid": "351d9157-e823-55ff-8967-3008972d3795",
+        "name": "Breathe Your Last",
+        "weight": 1
+      },
+      {
+        "uuid": "3886296c-9119-5a91-8823-03894745ab05",
+        "name": "Refurbished Familiar",
+        "weight": 1
+      },
+      {
+        "uuid": "3a1de3f6-3b8d-508c-a396-82e5021f30f3",
+        "name": "Tune the Narrative",
+        "weight": 1
+      },
+      {
+        "uuid": "3de8237d-713a-519b-8946-c78cb2ce5c50",
+        "name": "Fanged Flames",
+        "weight": 1
+      },
+      {
+        "uuid": "3e181565-80ae-51ca-a257-0f85253f9803",
+        "name": "Eviscerator's Insight",
+        "weight": 1
+      },
+      {
+        "uuid": "41c24fa2-edcd-5eaf-bbdf-5202b3a4bb26",
+        "name": "Smelted Chargebug",
+        "weight": 1
+      },
+      {
+        "uuid": "440234d7-451c-5214-bbbf-b7497972156c",
+        "name": "Mandibular Kite",
+        "weight": 1
+      },
+      {
+        "uuid": "44655c66-f06b-5afa-9707-3fd1cbb5ef81",
+        "name": "Accursed Marauder",
+        "weight": 1
+      },
+      {
+        "uuid": "46f35ab1-553b-57df-bfa5-3de7baf21dbc",
+        "name": "Deem Inferior",
+        "weight": 1
+      },
+      {
+        "uuid": "4851c79b-ebcd-5291-9181-1e26ee2b98c3",
+        "name": "Molten Gatekeeper",
+        "weight": 1
+      },
+      {
+        "uuid": "4c4f9a34-774a-55c1-8cb3-b172ab524709",
+        "name": "Nightshade Dryad",
+        "weight": 1
+      },
+      {
+        "uuid": "4c66fd7a-707d-560f-8923-344339ce8e63",
+        "name": "Aether Spike",
+        "weight": 1
+      },
+      {
+        "uuid": "4db7e6f9-34b4-5887-8f88-c5d9dcb63e72",
+        "name": "Faithful Watchdog",
+        "weight": 1
+      },
+      {
+        "uuid": "4eee2d26-8ef5-5d1c-9dc4-3e443d3cbbfc",
+        "name": "Wing It",
+        "weight": 1
+      },
+      {
+        "uuid": "56291a1e-dcd9-593b-95e7-67ea58e5288f",
+        "name": "Solstice Zealot",
+        "weight": 1
+      },
+      {
+        "uuid": "5b2e2819-265b-580a-8f4f-453b9e7f5ec5",
+        "name": "Fowl Strike",
+        "weight": 1
+      },
+      {
+        "uuid": "5cb278da-b220-5033-8cda-27ee257315bb",
+        "name": "Scurrilous Sentry",
+        "weight": 1
+      },
+      {
+        "uuid": "614503bf-187d-59b2-9271-1fa4f5e79fbd",
+        "name": "Writhing Chrysalis",
+        "weight": 1
+      },
+      {
+        "uuid": "61c5b907-b692-5562-bce1-5d67534fcf1b",
+        "name": "Tempest Harvester",
+        "weight": 1
+      },
+      {
+        "uuid": "69d09b89-cdfb-5fe3-8171-084b61e50d9b",
+        "name": "Kami of Jealous Thirst",
+        "weight": 1
+      },
+      {
+        "uuid": "6c41fe29-0a3a-5eb8-bcf4-b4668770df5d",
+        "name": "Nyxborn Unicorn",
+        "weight": 1
+      },
+      {
+        "uuid": "6f9ee059-17d1-5d10-b1ce-fa984edd7202",
+        "name": "Gift of the Viper",
+        "weight": 1
+      },
+      {
+        "uuid": "710cd074-c5c1-507c-8fd9-8cab17108edd",
+        "name": "Unfathomable Truths",
+        "weight": 1
+      },
+      {
+        "uuid": "758c23a7-75d9-58a1-aff2-fc0a817bc7bb",
+        "name": "Corrupted Shapeshifter",
+        "weight": 1
+      },
+      {
+        "uuid": "75ebcc1a-8fb3-536b-9f9d-c412826a4432",
+        "name": "Shattered Landscape",
+        "weight": 1
+      },
+      {
+        "uuid": "7cb34093-8dfb-595a-9fe5-ede07143b696",
+        "name": "Sheltering Landscape",
+        "weight": 1
+      },
+      {
+        "uuid": "7f4e041e-0278-5b22-9765-6723755533d0",
+        "name": "Hexgold Slith",
+        "weight": 1
+      },
+      {
+        "uuid": "843bdfed-0fb0-54d7-9936-7d0ef5319f55",
+        "name": "Expel the Unworthy",
+        "weight": 1
+      },
+      {
+        "uuid": "90e2259b-cd91-5547-853e-b820e2134692",
+        "name": "Warped Tusker",
+        "weight": 1
+      },
+      {
+        "uuid": "91031d68-29c0-515f-9633-118c4d10a7a0",
+        "name": "Jolted Awake",
+        "weight": 1
+      },
+      {
+        "uuid": "96aa47a6-9a78-57b5-97b8-f99918b0a348",
+        "name": "Serum Visionary",
+        "weight": 1
+      },
+      {
+        "uuid": "9aa66138-80e5-556a-9c8e-cebbe0a67692",
+        "name": "Drownyard Lurker",
+        "weight": 1
+      },
+      {
+        "uuid": "9ceed8dd-1373-584b-a654-6d8798b2e37d",
+        "name": "Deceptive Landscape",
+        "weight": 1
+      },
+      {
+        "uuid": "9d9ac668-fbfc-59f9-8a7f-cf5a832c65e5",
+        "name": "Gravedig",
+        "weight": 1
+      },
+      {
+        "uuid": "a3aeec60-595a-5847-a678-3fe0b7f2b95a",
+        "name": "Dog Umbra",
+        "weight": 1
+      },
+      {
+        "uuid": "a92205db-6497-5911-af3d-b6232a3899bb",
+        "name": "Conduit Goblin",
+        "weight": 1
+      },
+      {
+        "uuid": "a9531fb0-6a9d-5d03-b535-1edceddff956",
+        "name": "Drossclaw",
+        "weight": 1
+      },
+      {
+        "uuid": "aa075f9d-1302-59cb-97da-d35f7501114b",
+        "name": "Nyxborn Hydra",
+        "weight": 1
+      },
+      {
+        "uuid": "b14b9b1c-8060-5db9-8520-8f71219b8a0b",
+        "name": "Rosecot Knight",
+        "weight": 1
+      },
+      {
+        "uuid": "b2c4fa52-16e7-5ee0-958f-90dbac672681",
+        "name": "Sarpadian Simulacrum",
+        "weight": 1
+      },
+      {
+        "uuid": "c521d694-8b14-53c4-9320-6d94a5740c7e",
+        "name": "Bountiful Landscape",
+        "weight": 1
+      },
+      {
+        "uuid": "c817bb23-307e-5aeb-b463-a8aa10fde884",
+        "name": "Expanding Ooze",
+        "weight": 1
+      },
+      {
+        "uuid": "cbcb9d30-f6c0-5bbf-acf3-c0fd63d3ebee",
+        "name": "Contaminated Landscape",
+        "weight": 1
+      },
+      {
+        "uuid": "d3d31def-d7fc-5c85-b16c-956ccddc650c",
+        "name": "Eldrazi Repurposer",
+        "weight": 1
+      },
+      {
+        "uuid": "d78d59cc-901d-559a-b508-6f8179196a61",
+        "name": "Fetid Gargantua",
+        "weight": 1
+      },
+      {
+        "uuid": "e1779632-c645-5376-a734-f43c5612f8a5",
+        "name": "Siege Smash",
+        "weight": 1
+      },
+      {
+        "uuid": "e1ca3b0e-9280-5ef7-ac23-2626c9837e4f",
+        "name": "Cyclops Superconductor",
+        "weight": 1
+      },
+      {
+        "uuid": "e6de2375-a845-5147-821f-637bee301f48",
+        "name": "Tranquil Landscape",
+        "weight": 1
+      },
+      {
+        "uuid": "e790b126-ba6d-5ba2-8394-cd515429b01e",
+        "name": "Seething Landscape",
+        "weight": 1
+      },
+      {
+        "uuid": "eae1c717-0afa-59c8-a04f-9f253c8f16eb",
+        "name": "Inventor's Axe",
+        "weight": 1
+      },
+      {
+        "uuid": "ebf28291-11c1-5140-a218-eee767332da2",
+        "name": "Snapping Voidcraw",
+        "weight": 1
+      },
+      {
+        "uuid": "ecdd8036-5da7-596c-9e0d-7668f6d3fb0f",
+        "name": "Horrific Assault",
+        "weight": 1
+      },
+      {
+        "uuid": "eed83a21-137e-56be-9ab2-4544b9060e0f",
+        "name": "Basking Broodscale",
+        "weight": 1
+      },
+      {
+        "uuid": "ef9d4fb9-a6f6-5bbf-b654-b6986c3d1489",
+        "name": "Perilous Landscape",
+        "weight": 1
+      },
+      {
+        "uuid": "f508210a-1ef0-549c-a9f9-4d71aeaa7a51",
+        "name": "Obstinate Gargoyle",
+        "weight": 1
+      },
+      {
+        "uuid": "fa697373-70aa-5eac-9019-ceef8717dec2",
+        "name": "Skoa, Embermage",
+        "weight": 1
+      },
+      {
+        "uuid": "fd23e0b2-37a4-5f79-81b8-057cd09232a2",
+        "name": "Twisted Landscape",
+        "weight": 1
+      },
+      {
+        "uuid": "ff438f9c-b91e-550c-ad09-5f178b952e1d",
+        "name": "Temperamental Oozewagg",
+        "weight": 1
+      }
+    ]
+  },
+  "foilReplacement": {
+    "cards": [
+      {
+        "uuid": "00cb0247-c29c-5781-99ed-ee67097561d7",
+        "name": "Phyrexian Ironworks",
+        "weight": 954720
+      },
+      {
+        "uuid": "01af488b-2004-5f7b-92ed-613c42acca47",
+        "name": "Charitable Levy",
+        "weight": 954720
+      },
+      {
+        "uuid": "01c0a75b-3bf1-51e3-9960-da9e843a3858",
+        "name": "Flare of Malice",
+        "weight": 323200
+      },
+      {
+        "uuid": "02791d8b-58da-5d60-939d-c78899a1db53",
+        "name": "Breaker of Creation",
+        "weight": 954720
+      },
+      {
+        "uuid": "03015878-fb30-5020-b03f-e87c7c880c7d",
+        "name": "Invert Polarity",
+        "weight": 323200
+      },
+      {
+        "uuid": "0405fbef-3910-5997-8895-d59da67155a9",
+        "name": "Ugin's Binding",
+        "weight": 157560
+      },
+      {
+        "uuid": "041e10fd-833e-5d6e-866f-6a412f1f0c16",
+        "name": "Nadu, Winged Wisdom",
+        "weight": 323200
+      },
+      {
+        "uuid": "0423c2bc-6f15-5459-9062-c21a50742a79",
+        "name": "Electrozoa",
+        "weight": 1973439
+      },
+      {
+        "uuid": "044b5388-caf5-5088-9f30-0b68d24ad214",
+        "name": "Muster the Departed",
+        "weight": 954720
+      },
+      {
+        "uuid": "04d61069-61b8-5e6e-a03c-b6377030efa4",
+        "name": "Idol of False Gods",
+        "weight": 954720
+      },
+      {
+        "uuid": "05070f60-1fb1-5a87-97b7-7c898a7309ff",
+        "name": "Rush of Inspiration",
+        "weight": 1197456
+      },
+      {
+        "uuid": "05dfa15e-1a10-5c75-8e62-26c55b2333bf",
+        "name": "Glimpse the Impossible",
+        "weight": 1973439
+      },
+      {
+        "uuid": "08af11d6-5493-5b56-9a7b-b5e4ce8d0f53",
+        "name": "Ashling, Flame Dancer",
+        "weight": 157560
+      },
+      {
+        "uuid": "08cd7471-6e11-54b0-b60e-d5592646e95d",
+        "name": "Roil Cartographer",
+        "weight": 954720
+      },
+      {
+        "uuid": "091dcfd4-feec-5bd8-870a-4e48382b8959",
+        "name": "Genku, Future Shaper",
+        "weight": 323200
+      },
+      {
+        "uuid": "095261f9-a35e-56de-95bb-2454c0efc90e",
+        "name": "Grim Servant",
+        "weight": 954720
+      },
+      {
+        "uuid": "0a0ecc26-2faf-5f5b-8121-de983a204c26",
+        "name": "Galvanic Discharge",
+        "weight": 1973439
+      },
+      {
+        "uuid": "0ae63b32-dbcd-5cea-9146-f3f7069e935a",
+        "name": "Riddle Gate Gargoyle",
+        "weight": 1973439
+      },
+      {
+        "uuid": "0b3a0f36-8e1c-5635-ab35-3e0410367e5f",
+        "name": "Bespoke Battlewagon",
+        "weight": 954720
+      },
+      {
+        "uuid": "0bf9374c-6fa8-577c-84e4-e293478228dc",
+        "name": "Infernal Captor",
+        "weight": 1973439
+      },
+      {
+        "uuid": "0c127932-ffc2-55e5-b817-0ef7d94a48e9",
+        "name": "Dreamtide Whale",
+        "weight": 323200
+      },
+      {
+        "uuid": "0ca5ef79-ca0b-5fc6-b108-2dc6f3d970d2",
+        "name": "Emrakul, the World Anew",
+        "weight": 157560
+      },
+      {
+        "uuid": "0d0ef2d8-f0ea-55b3-9ffc-2fb64a4cf645",
+        "name": "Trickster's Elk",
+        "weight": 954720
+      },
+      {
+        "uuid": "0d2d7b81-2d82-5c26-ab22-59b8982de648",
+        "name": "Utter Insignificance",
+        "weight": 1973439
+      },
+      {
+        "uuid": "10d150a0-4fbd-5afc-a97a-653a2a67d723",
+        "name": "Harbinger of the Seas",
+        "weight": 323200
+      },
+      {
+        "uuid": "11feee44-ebca-5f59-afac-b8d5ea926a24",
+        "name": "Collective Resistance",
+        "weight": 954720
+      },
+      {
+        "uuid": "12069abb-426a-5e47-bb1c-2eea7ce6d2d4",
+        "name": "Cranial Ram",
+        "weight": 1973439
+      },
+      {
+        "uuid": "14948afe-b927-50b3-8009-d6e2ad7226e4",
+        "name": "Junk Diver",
+        "weight": 954720
+      },
+      {
+        "uuid": "14ec75b3-3500-5ac1-afb6-c61e7ae25226",
+        "name": "Eldrazi Linebreaker",
+        "weight": 323200
+      },
+      {
+        "uuid": "15ba2572-774e-59a8-ac6b-50df29a391d4",
+        "name": "Nadier's Nightblade",
+        "weight": 954720
+      },
+      {
+        "uuid": "172c14e1-bc59-572c-aa72-f3a8118d6108",
+        "name": "Thriving Skyclaw",
+        "weight": 1973439
+      },
+      {
+        "uuid": "17faa53a-33e9-5015-992b-dd1a048ae83c",
+        "name": "Sneaky Snacker",
+        "weight": 1973439
+      },
+      {
+        "uuid": "18b918c9-af6d-5138-8ed5-6391a978bbd9",
+        "name": "Petrifying Meddler",
+        "weight": 1973439
+      },
+      {
+        "uuid": "18bf5cfc-c0f9-57a9-8592-b3949d4f545f",
+        "name": "Colossal Dreadmask",
+        "weight": 1973439
+      },
+      {
+        "uuid": "1905b86c-a20e-534c-870d-f3ac1f6704a4",
+        "name": "Emperor of Bones",
+        "weight": 323200
+      },
+      {
+        "uuid": "199bd3be-d81e-567a-ae41-8de1c6d35f4b",
+        "name": "Evolution Witness",
+        "weight": 1973439
+      },
+      {
+        "uuid": "1a246652-3682-5efb-bc97-8cf82ca0c3dc",
+        "name": "Disruptor Flute",
+        "weight": 323200
+      },
+      {
+        "uuid": "1c6cacb6-be04-51d4-9308-f96dd93e5da3",
+        "name": "Angel of the Ruins",
+        "weight": 954720
+      },
+      {
+        "uuid": "1c7aa0bd-cffb-51c4-a34e-4f6941bc15e6",
+        "name": "Urza's Cave",
+        "weight": 954720
+      },
+      {
+        "uuid": "1c99e4a9-057e-5e5d-aeb1-a42842be8319",
+        "name": "Reiterating Bolt",
+        "weight": 954720
+      },
+      {
+        "uuid": "1cac1d46-56be-5690-ab52-a1227e2fc58f",
+        "name": "Hydra Trainer",
+        "weight": 954720
+      },
+      {
+        "uuid": "1e4983e2-644a-5deb-9847-1e9fce802950",
+        "name": "Archway of Innovation",
+        "weight": 323200
+      },
+      {
+        "uuid": "1ecb8709-4a82-5e08-81fd-d1e358723e79",
+        "name": "Kudo, King Among Bears",
+        "weight": 323200
+      },
+      {
+        "uuid": "1f760ed3-f217-56ef-b776-e90754471071",
+        "name": "The Hunger Tide Rises",
+        "weight": 954720
+      },
+      {
+        "uuid": "1fac7252-fc9f-594f-b5f0-35236cbb181a",
+        "name": "Emerald Medallion",
+        "weight": 323200
+      },
+      {
+        "uuid": "20f72f1a-8ca3-5efb-b395-0867e7afbc9f",
+        "name": "Malevolent Rumble",
+        "weight": 1973439
+      },
+      {
+        "uuid": "232adf27-a52e-57cc-9006-35215af05a9e",
+        "name": "Springheart Nantuko",
+        "weight": 323200
+      },
+      {
+        "uuid": "242f794d-c10c-51c9-a67f-caa4772466d8",
+        "name": "Inspired Inventor",
+        "weight": 1973439
+      },
+      {
+        "uuid": "24488650-34e7-576c-8533-4735246dba55",
+        "name": "Phelia, Exuberant Shepherd",
+        "weight": 323200
+      },
+      {
+        "uuid": "2461aba8-093a-56d1-b471-fc233524d8c3",
+        "name": "Wither and Bloom",
+        "weight": 1973439
+      },
+      {
+        "uuid": "265004b8-2140-5555-98fd-c73a6a79f780",
+        "name": "Etherium Pteramander",
+        "weight": 954720
+      },
+      {
+        "uuid": "27310488-922d-5d07-9b2a-b4139d26aa63",
+        "name": "Sorin of House Markov",
+        "weight": 157560
+      },
+      {
+        "uuid": "287fdf3e-6d47-5819-bd9f-2135af961b18",
+        "name": "Voidpouncer",
+        "weight": 1973439
+      },
+      {
+        "uuid": "28ba6129-362f-5cfb-8ddc-9e5310649eba",
+        "name": "Sage of the Unknowable",
+        "weight": 1973439
+      },
+      {
+        "uuid": "293295e9-2eed-5aac-a289-1bbab90e5e54",
+        "name": "Urza's Incubator",
+        "weight": 323200
+      },
+      {
+        "uuid": "2ac29122-d69f-5f89-a02d-2894cd02d4f5",
+        "name": "Shrieking Drake",
+        "weight": 954720
+      },
+      {
+        "uuid": "2b2da129-2c69-5d23-a4a6-7d1998afb9ea",
+        "name": "Waterlogged Teachings",
+        "weight": 1197456
+      },
+      {
+        "uuid": "2bd36d2c-750f-54bc-afe6-248e7e50e423",
+        "name": "Static Prison",
+        "weight": 954720
+      },
+      {
+        "uuid": "2d63cec1-e3ed-55e7-baf8-6d72e1cd1297",
+        "name": "Wumpus Aberration",
+        "weight": 954720
+      },
+      {
+        "uuid": "2dd99920-7cf9-5c46-8d3c-aa161ac1e844",
+        "name": "Foreboding Landscape",
+        "weight": 1973439
+      },
+      {
+        "uuid": "2e429867-a992-5cce-9d5d-44cf934f6d02",
+        "name": "Aerie Auxiliary",
+        "weight": 1973439
+      },
+      {
+        "uuid": "30c90adb-d95e-5daf-a3a4-e464eade96d6",
+        "name": "Rosheen, Roaring Prophet",
+        "weight": 323200
+      },
+      {
+        "uuid": "310d79cf-56f7-5837-a77e-9bae78afbc9a",
+        "name": "Revitalizing Repast",
+        "weight": 1197456
+      },
+      {
+        "uuid": "31768fbb-b480-5ce7-aecf-0f1fa7ea32d5",
+        "name": "Flare of Denial",
+        "weight": 323200
+      },
+      {
+        "uuid": "31f79b60-43a2-5dc1-b1bc-f366b985d61c",
+        "name": "Guardian of the Forgotten",
+        "weight": 954720
+      },
+      {
+        "uuid": "322531f6-7b3b-5860-85fe-f72eb0380dcd",
+        "name": "Frogmyr Enforcer",
+        "weight": 954720
+      },
+      {
+        "uuid": "332b83d9-1007-5f1f-a702-4c8b8a14bb2f",
+        "name": "Meltdown",
+        "weight": 954720
+      },
+      {
+        "uuid": "3336474a-97a4-52d5-8ad4-1378f9f4377c",
+        "name": "Shadow of the Second Sun",
+        "weight": 157560
+      },
+      {
+        "uuid": "33a10cfc-d13d-5e15-8f6b-932ae2e633d8",
+        "name": "Retrofitted Transmogrant",
+        "weight": 1973439
+      },
+      {
+        "uuid": "33b46870-f94a-5c52-ae96-4cfad384e5e3",
+        "name": "Imskir Iron-Eater",
+        "weight": 323200
+      },
+      {
+        "uuid": "33c71b11-67e2-51b1-b4e8-2c429197525d",
+        "name": "Wheel of Potential",
+        "weight": 323200
+      },
+      {
+        "uuid": "34248229-f58c-553a-adca-9395f9cc6f0a",
+        "name": "Dreamdrinker Vampire",
+        "weight": 1973439
+      },
+      {
+        "uuid": "34583a06-d3ce-5963-a0f5-9626c1a6c7f5",
+        "name": "Thraben Charm",
+        "weight": 1973439
+      },
+      {
+        "uuid": "34b4c375-dad5-5b75-9bd1-dcca15020b58",
+        "name": "Tamiyo Meets the Story Circle",
+        "weight": 954720
+      },
+      {
+        "uuid": "351d9157-e823-55ff-8967-3008972d3795",
+        "name": "Breathe Your Last",
+        "weight": 1973439
+      },
+      {
+        "uuid": "35bfa538-a36b-54ce-8fed-5f69583ab426",
+        "name": "Worn Powerstone",
+        "weight": 954720
+      },
+      {
+        "uuid": "3693c99f-1206-5a98-b0c7-3d4c2b7cd917",
+        "name": "Cursed Mirror",
+        "weight": 323200
+      },
+      {
+        "uuid": "38728faa-eeb6-55b0-9f6c-f48a6c0fc88a",
+        "name": "Null Elemental Blast",
+        "weight": 954720
+      },
+      {
+        "uuid": "3886296c-9119-5a91-8823-03894745ab05",
+        "name": "Refurbished Familiar",
+        "weight": 1973439
+      },
+      {
+        "uuid": "38abcca7-5ee7-5bd6-a49b-9220533a95a4",
+        "name": "Ghostfire Slice",
+        "weight": 954720
+      },
+      {
+        "uuid": "39bc978e-fe2d-5132-bead-0bda7020716c",
+        "name": "Bridgeworks Battle",
+        "weight": 1197456
+      },
+      {
+        "uuid": "3a1de3f6-3b8d-508c-a396-82e5021f30f3",
+        "name": "Tune the Narrative",
+        "weight": 1973439
+      },
+      {
+        "uuid": "3a2ad1db-5528-5308-820a-766887fa9279",
+        "name": "Arna Kenner\u00fcd, Skycaptain",
+        "weight": 157560
+      },
+      {
+        "uuid": "3a98f320-5bb3-5602-9d25-3cd5d8ef88f3",
+        "name": "Razorgrass Ambush",
+        "weight": 1197456
+      },
+      {
+        "uuid": "3abdb988-ee5f-568f-8582-44f86be8ec31",
+        "name": "Etched Slith",
+        "weight": 954720
+      },
+      {
+        "uuid": "3aeff659-75db-51b6-8364-902094db22ab",
+        "name": "Aether Revolt",
+        "weight": 323200
+      },
+      {
+        "uuid": "3b908dd3-a9ca-53d7-aae4-121760e6c2e0",
+        "name": "Flare of Cultivation",
+        "weight": 323200
+      },
+      {
+        "uuid": "3bb1c660-988c-561a-9e14-3f388c1c0f49",
+        "name": "Wastescape Battlemage",
+        "weight": 954720
+      },
+      {
+        "uuid": "3de8237d-713a-519b-8946-c78cb2ce5c50",
+        "name": "Fanged Flames",
+        "weight": 1973439
+      },
+      {
+        "uuid": "3e181565-80ae-51ca-a257-0f85253f9803",
+        "name": "Eviscerator's Insight",
+        "weight": 1973439
+      },
+      {
+        "uuid": "408eea78-22e9-59c0-a714-502075b40436",
+        "name": "Stump Stomp",
+        "weight": 1197456
+      },
+      {
+        "uuid": "410b91e9-36e3-590c-bfe7-10cc8c74e72e",
+        "name": "Devourer of Destiny",
+        "weight": 323200
+      },
+      {
+        "uuid": "41c24fa2-edcd-5eaf-bbdf-5202b3a4bb26",
+        "name": "Smelted Chargebug",
+        "weight": 1973439
+      },
+      {
+        "uuid": "4257b849-4e55-5b4f-bce6-6a05cdc0a86d",
+        "name": "Deep Analysis",
+        "weight": 954720
+      },
+      {
+        "uuid": "42dd85df-9c12-5389-911f-5eacec78d7a6",
+        "name": "Recruiter of the Guard",
+        "weight": 157560
+      },
+      {
+        "uuid": "440234d7-451c-5214-bbbf-b7497972156c",
+        "name": "Mandibular Kite",
+        "weight": 1973439
+      },
+      {
+        "uuid": "442a8e90-e5ec-5187-8868-04fa899568b3",
+        "name": "Jet Medallion",
+        "weight": 323200
+      },
+      {
+        "uuid": "444ba7ac-40cb-5f4c-b715-55569cb5c7f2",
+        "name": "Wrath of the Skies",
+        "weight": 323200
+      },
+      {
+        "uuid": "4450031a-e584-5022-a6be-97adebec35b0",
+        "name": "Laelia, the Blade Reforged",
+        "weight": 323200
+      },
+      {
+        "uuid": "44655c66-f06b-5afa-9707-3fd1cbb5ef81",
+        "name": "Accursed Marauder",
+        "weight": 1973439
+      },
+      {
+        "uuid": "4508bde5-72d3-503b-a6e0-756bc70b21a5",
+        "name": "Pearl-Ear, Imperial Advisor",
+        "weight": 323200
+      },
+      {
+        "uuid": "46b6ed83-6920-532d-aca1-c4384c67b00e",
+        "name": "Reef Worm",
+        "weight": 954720
+      },
+      {
+        "uuid": "46f35ab1-553b-57df-bfa5-3de7baf21dbc",
+        "name": "Deem Inferior",
+        "weight": 1973439
+      },
+      {
+        "uuid": "4735928e-7ad1-542c-b43c-268ec6eddc87",
+        "name": "Sink into Stupor",
+        "weight": 1197456
+      },
+      {
+        "uuid": "4781e96c-6301-5160-abd4-60e11f997e27",
+        "name": "Suppression Ray",
+        "weight": 1197456
+      },
+      {
+        "uuid": "484f3599-cb82-519e-a078-b6569a65d6a5",
+        "name": "Eladamri, Korvecdal",
+        "weight": 157560
+      },
+      {
+        "uuid": "4851c79b-ebcd-5291-9181-1e26ee2b98c3",
+        "name": "Molten Gatekeeper",
+        "weight": 1973439
+      },
+      {
+        "uuid": "492ce888-c5fe-5a99-9fac-8915ea7aa5dd",
+        "name": "Toxic Deluge",
+        "weight": 323200
+      },
+      {
+        "uuid": "4a726983-7b5f-56c0-a57d-5701e5e6e9cd",
+        "name": "Pearl Medallion",
+        "weight": 323200
+      },
+      {
+        "uuid": "4b8ed103-5009-54f1-b40d-49b65edc9409",
+        "name": "Wooded Foothills",
+        "weight": 323200
+      },
+      {
+        "uuid": "4bdc2dfb-1f04-5057-9396-064434f61833",
+        "name": "Nesting Grounds",
+        "weight": 954720
+      },
+      {
+        "uuid": "4c4f9a34-774a-55c1-8cb3-b172ab524709",
+        "name": "Nightshade Dryad",
+        "weight": 1973439
+      },
+      {
+        "uuid": "4c66fd7a-707d-560f-8923-344339ce8e63",
+        "name": "Aether Spike",
+        "weight": 1973439
+      },
+      {
+        "uuid": "4cc01edd-4bbc-5d96-ab62-ca8907583364",
+        "name": "Argent Dais",
+        "weight": 323200
+      },
+      {
+        "uuid": "4cecf2b1-82ae-56a9-99ca-73c4c79477ec",
+        "name": "Six",
+        "weight": 323200
+      },
+      {
+        "uuid": "4db7e6f9-34b4-5887-8f88-c5d9dcb63e72",
+        "name": "Faithful Watchdog",
+        "weight": 1973439
+      },
+      {
+        "uuid": "4eee2d26-8ef5-5d1c-9dc4-3e443d3cbbfc",
+        "name": "Wing It",
+        "weight": 1973439
+      },
+      {
+        "uuid": "4f0f36da-60fc-52e6-9e55-de4b638a1a13",
+        "name": "Spawn-Gang Commander",
+        "weight": 954720
+      },
+      {
+        "uuid": "4fd1a161-3b9c-535b-9b33-86e0e01529fe",
+        "name": "Sylvan Safekeeper",
+        "weight": 323200
+      },
+      {
+        "uuid": "521f1d4b-d46f-589c-b751-e3986c0444a3",
+        "name": "Distinguished Conjurer",
+        "weight": 954720
+      },
+      {
+        "uuid": "52e5ee35-4b38-5538-9414-0dd23e3ef52a",
+        "name": "Ruby Medallion",
+        "weight": 323200
+      },
+      {
+        "uuid": "52f7d503-dd20-5f85-8c62-97005958ba6c",
+        "name": "The Necrobloom",
+        "weight": 323200
+      },
+      {
+        "uuid": "53df824f-d506-5a67-8280-e97b93d3f5f8",
+        "name": "Emissary of Soulfire",
+        "weight": 954720
+      },
+      {
+        "uuid": "549699dc-f041-593b-af40-90d76450c283",
+        "name": "Polluted Delta",
+        "weight": 323200
+      },
+      {
+        "uuid": "55596b28-3a7e-5f4d-aeee-73186aa23f76",
+        "name": "Scurry of Gremlins",
+        "weight": 954720
+      },
+      {
+        "uuid": "561ab67c-2a60-5ca4-a7a0-2ea8cc976a95",
+        "name": "Marionette Apprentice",
+        "weight": 954720
+      },
+      {
+        "uuid": "56291a1e-dcd9-593b-95e7-67ea58e5288f",
+        "name": "Solstice Zealot",
+        "weight": 1973439
+      },
+      {
+        "uuid": "56d32dd5-271c-5d1b-a5a7-02a6667f4f55",
+        "name": "Party Thrasher",
+        "weight": 323200
+      },
+      {
+        "uuid": "572e4801-4d0d-5cab-8183-9fc8b9f05630",
+        "name": "Cursed Wombat",
+        "weight": 954720
+      },
+      {
+        "uuid": "576d2423-d76f-5cfa-968a-89c55b8c89c4",
+        "name": "Hope-Ender Coatl",
+        "weight": 954720
+      },
+      {
+        "uuid": "578e7410-549e-5ebb-9048-7a60485c91e4",
+        "name": "Legion Leadership",
+        "weight": 1197456
+      },
+      {
+        "uuid": "5849ba01-735a-59fb-89e6-a12d6c4ef09c",
+        "name": "Volatile Stormdrake",
+        "weight": 323200
+      },
+      {
+        "uuid": "587bebb1-e19a-56af-8c80-cfe94ee23ece",
+        "name": "Flooded Strand",
+        "weight": 323200
+      },
+      {
+        "uuid": "589c89e9-d149-5d15-9640-3bf6e9a456c4",
+        "name": "The Creation of Avacyn",
+        "weight": 954720
+      },
+      {
+        "uuid": "58c3ebcf-a175-5a9d-834f-2669c8a6528b",
+        "name": "Victimize",
+        "weight": 954720
+      },
+      {
+        "uuid": "5b1c1595-0ff7-5122-90cd-13b2c691aef2",
+        "name": "Quest for the Necropolis",
+        "weight": 954720
+      },
+      {
+        "uuid": "5b2e2819-265b-580a-8f4f-453b9e7f5ec5",
+        "name": "Fowl Strike",
+        "weight": 1973439
+      },
+      {
+        "uuid": "5b8e03cd-1735-53cb-ab9f-9748eefafa6b",
+        "name": "Glasswing Grace",
+        "weight": 1197456
+      },
+      {
+        "uuid": "5cb278da-b220-5033-8cda-27ee257315bb",
+        "name": "Scurrilous Sentry",
+        "weight": 1973439
+      },
+      {
+        "uuid": "5f82e093-44ee-5fc9-9dbe-8a622e6cda9a",
+        "name": "Path of Annihilation",
+        "weight": 954720
+      },
+      {
+        "uuid": "603f6ca3-4d99-5a18-9c3f-73ecbabaeaf4",
+        "name": "Monstrous Vortex",
+        "weight": 954720
+      },
+      {
+        "uuid": "614503bf-187d-59b2-9271-1fa4f5e79fbd",
+        "name": "Writhing Chrysalis",
+        "weight": 1973439
+      },
+      {
+        "uuid": "614f1d54-6bc9-5578-a9c3-d4d446b4a9ab",
+        "name": "Tamiyo, Inquisitive Student",
+        "weight": 157560
+      },
+      {
+        "uuid": "61c5b907-b692-5562-bce1-5d67534fcf1b",
+        "name": "Tempest Harvester",
+        "weight": 1973439
+      },
+      {
+        "uuid": "644b6ce8-b07d-5840-8238-55cb3841e803",
+        "name": "Omo, Queen of Vesuva",
+        "weight": 984750
+      },
+      {
+        "uuid": "654d91ae-f8b5-5f0a-a609-d2d1fec2254b",
+        "name": "Titans' Vanguard",
+        "weight": 954720
+      },
+      {
+        "uuid": "664b67e7-c7b3-5753-a3af-b1f708b7b29c",
+        "name": "Metastatic Evangel",
+        "weight": 954720
+      },
+      {
+        "uuid": "66689ef5-7f41-5a21-a9de-6776b5b4f0b1",
+        "name": "Meteoric Mace",
+        "weight": 954720
+      },
+      {
+        "uuid": "66ae25d9-4d13-5e8b-bf3b-b35ac184dca3",
+        "name": "K'rrik, Son of Yawgmoth",
+        "weight": 323200
+      },
+      {
+        "uuid": "69d09b89-cdfb-5fe3-8171-084b61e50d9b",
+        "name": "Kami of Jealous Thirst",
+        "weight": 1973439
+      },
+      {
+        "uuid": "6bae738d-fba6-5bf9-9f81-12f7e4f51b09",
+        "name": "Pyretic Rebirth",
+        "weight": 954720
+      },
+      {
+        "uuid": "6beb5ea1-2135-5c15-837e-ee47b92b8c69",
+        "name": "Nethergoyf",
+        "weight": 157560
+      },
+      {
+        "uuid": "6c41fe29-0a3a-5eb8-bcf4-b4668770df5d",
+        "name": "Nyxborn Unicorn",
+        "weight": 1973439
+      },
+      {
+        "uuid": "6ceb0d71-e802-5513-819e-69a629809d30",
+        "name": "Breya, Etherium Shaper",
+        "weight": 157560
+      },
+      {
+        "uuid": "6e4ea43a-94b8-52e5-b432-560997c2fe11",
+        "name": "Decree of Justice",
+        "weight": 954720
+      },
+      {
+        "uuid": "6e9099be-3ffd-504c-bcfe-7c7296463e30",
+        "name": "Solar Transformer",
+        "weight": 954720
+      },
+      {
+        "uuid": "6ea65582-7b07-5eb0-a388-0ea914785d02",
+        "name": "Flare of Fortitude",
+        "weight": 323200
+      },
+      {
+        "uuid": "6f7e51c2-dc49-5aa6-b83c-8d543d15f027",
+        "name": "Nulldrifter",
+        "weight": 323200
+      },
+      {
+        "uuid": "6f9ee059-17d1-5d10-b1ce-fa984edd7202",
+        "name": "Gift of the Viper",
+        "weight": 1973439
+      },
+      {
+        "uuid": "6fe5f480-a737-5d92-b6a1-29b594bf9f14",
+        "name": "Proud Pack-Rhino",
+        "weight": 954720
+      },
+      {
+        "uuid": "70f6d0da-e27a-54a7-be99-b02e9109c643",
+        "name": "Jyoti, Moag Ancient",
+        "weight": 984750
+      },
+      {
+        "uuid": "710cd074-c5c1-507c-8fd9-8cab17108edd",
+        "name": "Unfathomable Truths",
+        "weight": 1973439
+      },
+      {
+        "uuid": "71ced676-d4f3-5da5-98e2-a6be14cb5dd7",
+        "name": "White Orchid Phantom",
+        "weight": 323200
+      },
+      {
+        "uuid": "733f028f-8cc0-56d7-9f8d-342015fc7ed3",
+        "name": "Estrid's Invocation",
+        "weight": 323200
+      },
+      {
+        "uuid": "736e5898-943f-52d5-84d7-8f0dd9c5965a",
+        "name": "Furnace Hellkite",
+        "weight": 954720
+      },
+      {
+        "uuid": "737c15c5-e881-52a6-828e-97cc0edc62c2",
+        "name": "Fangs of Kalonia",
+        "weight": 954720
+      },
+      {
+        "uuid": "73a2f007-3c00-57cd-8311-97550fb73d53",
+        "name": "Golden-Tail Trainer",
+        "weight": 954720
+      },
+      {
+        "uuid": "74eed19c-0a4f-5d75-bd1a-87d2959dd545",
+        "name": "Azlask, the Swelling Scourge",
+        "weight": 984750
+      },
+      {
+        "uuid": "758c23a7-75d9-58a1-aff2-fc0a817bc7bb",
+        "name": "Corrupted Shapeshifter",
+        "weight": 1973439
+      },
+      {
+        "uuid": "75ebcc1a-8fb3-536b-9f9d-c412826a4432",
+        "name": "Shattered Landscape",
+        "weight": 1973439
+      },
+      {
+        "uuid": "767fd71b-7f44-5e8a-b681-1ef52e137fbf",
+        "name": "Ugin's Labyrinth",
+        "weight": 157560
+      },
+      {
+        "uuid": "786439eb-32e9-5ac9-922d-94f7605fe194",
+        "name": "Warren Soultrader",
+        "weight": 323200
+      },
+      {
+        "uuid": "7cb34093-8dfb-595a-9fe5-ede07143b696",
+        "name": "Sheltering Landscape",
+        "weight": 1973439
+      },
+      {
+        "uuid": "7ccb4f69-c1dc-57a6-b7d6-24bba2a33f94",
+        "name": "Strength of the Harvest",
+        "weight": 1197456
+      },
+      {
+        "uuid": "7f4e041e-0278-5b22-9765-6723755533d0",
+        "name": "Hexgold Slith",
+        "weight": 1973439
+      },
+      {
+        "uuid": "7f62a152-f57e-59ff-934e-1f7d51af4e15",
+        "name": "Abstruse Appropriation",
+        "weight": 323200
+      },
+      {
+        "uuid": "7ff0f7cb-d87a-590b-82e1-a5a56f60084c",
+        "name": "Grist, Voracious Larva",
+        "weight": 157560
+      },
+      {
+        "uuid": "810d9bdc-8ecb-5ae5-8131-5dbda9df6ca2",
+        "name": "Windswept Heath",
+        "weight": 323200
+      },
+      {
+        "uuid": "8183ba2c-988a-50c5-92c4-98498ffb1730",
+        "name": "Ulamog, the Defiler",
+        "weight": 157560
+      },
+      {
+        "uuid": "836961bd-fdae-5f9b-b943-199be94b1d3a",
+        "name": "Phyrexian Tower",
+        "weight": 157560
+      },
+      {
+        "uuid": "83894c8c-77c0-5974-aada-c02649216e88",
+        "name": "Orim's Chant",
+        "weight": 323200
+      },
+      {
+        "uuid": "83ad96e8-e01b-58cf-820e-d2c86a3a74d7",
+        "name": "Indebted Spirit",
+        "weight": 954720
+      },
+      {
+        "uuid": "843bdfed-0fb0-54d7-9936-7d0ef5319f55",
+        "name": "Expel the Unworthy",
+        "weight": 1973439
+      },
+      {
+        "uuid": "85444a87-aa7b-509a-acc9-6af666903b35",
+        "name": "Brainsurge",
+        "weight": 954720
+      },
+      {
+        "uuid": "860928cf-17e9-53c9-8fc1-d71f1ca531f3",
+        "name": "Horrid Shadowspinner",
+        "weight": 954720
+      },
+      {
+        "uuid": "8a94d048-e6b1-51c0-8c05-2267f800b3b0",
+        "name": "Ajani Fells the Godsire",
+        "weight": 954720
+      },
+      {
+        "uuid": "8bdef6a5-46f7-5e5d-979f-a95c3f8f0b98",
+        "name": "Vexing Bauble",
+        "weight": 954720
+      },
+      {
+        "uuid": "8c8b5487-38d3-5ecc-8632-abb2d2721052",
+        "name": "Powerbalance",
+        "weight": 323200
+      },
+      {
+        "uuid": "8d95401a-8b91-5c1b-b5eb-eb7e23fd6c4c",
+        "name": "Birthing Ritual",
+        "weight": 157560
+      },
+      {
+        "uuid": "90e2259b-cd91-5547-853e-b820e2134692",
+        "name": "Warped Tusker",
+        "weight": 1973439
+      },
+      {
+        "uuid": "91031d68-29c0-515f-9633-118c4d10a7a0",
+        "name": "Jolted Awake",
+        "weight": 1973439
+      },
+      {
+        "uuid": "913df8e4-c396-5e27-b3b5-5bc7e869a5a9",
+        "name": "Strix Serenade",
+        "weight": 323200
+      },
+      {
+        "uuid": "91824013-3dc1-597a-ab68-f1d439964fc0",
+        "name": "Satya, Aetherflux Genius",
+        "weight": 984750
+      },
+      {
+        "uuid": "9191bfd4-a5f4-543c-9f72-b0ccb3fae2bc",
+        "name": "Ajani, Nacatl Pariah",
+        "weight": 157560
+      },
+      {
+        "uuid": "91df80c1-197f-5f5d-92ac-761ce4af622e",
+        "name": "Crabomination",
+        "weight": 323200
+      },
+      {
+        "uuid": "93657372-7c9b-5b40-b6d4-dfb5ef15175a",
+        "name": "Territory Culler",
+        "weight": 954720
+      },
+      {
+        "uuid": "93b18ee7-08bf-585a-80ad-6fe27fa9d438",
+        "name": "Mindless Conscription",
+        "weight": 954720
+      },
+      {
+        "uuid": "93b21db2-7673-585c-abf8-254616974c7c",
+        "name": "Wurmcoil Larva",
+        "weight": 954720
+      },
+      {
+        "uuid": "94499941-afe4-533a-a698-3277da40f2b5",
+        "name": "Sundering Eruption",
+        "weight": 1197456
+      },
+      {
+        "uuid": "962b0255-09ae-5989-a56e-ccd838b75238",
+        "name": "Fledgling Dragon",
+        "weight": 954720
+      },
+      {
+        "uuid": "969ca6ce-eb1b-50de-89ad-61b4f24c02b4",
+        "name": "Priest of Titania",
+        "weight": 954720
+      },
+      {
+        "uuid": "96aa47a6-9a78-57b5-97b8-f99918b0a348",
+        "name": "Serum Visionary",
+        "weight": 1973439
+      },
+      {
+        "uuid": "972648aa-a151-5eb1-98c2-50f5a631d03f",
+        "name": "Sapphire Medallion",
+        "weight": 323200
+      },
+      {
+        "uuid": "9aa66138-80e5-556a-9c8e-cebbe0a67692",
+        "name": "Drownyard Lurker",
+        "weight": 1973439
+      },
+      {
+        "uuid": "9ad885a8-66c5-5027-97b6-04c225fdf99c",
+        "name": "Wirewood Symbiote",
+        "weight": 954720
+      },
+      {
+        "uuid": "9ceed8dd-1373-584b-a654-6d8798b2e37d",
+        "name": "Deceptive Landscape",
+        "weight": 1973439
+      },
+      {
+        "uuid": "9cf1c168-a91f-57d0-a4b0-d7ee57c0c2f5",
+        "name": "Shilgengar, Sire of Famine",
+        "weight": 323200
+      },
+      {
+        "uuid": "9d65a815-f542-5209-855a-0c3ee0b3d84b",
+        "name": "Ophiomancer",
+        "weight": 323200
+      },
+      {
+        "uuid": "9d9ac668-fbfc-59f9-8a7f-cf5a832c65e5",
+        "name": "Gravedig",
+        "weight": 1973439
+      },
+      {
+        "uuid": "9da7f8de-25d5-5caf-8c09-0f534d0fe609",
+        "name": "Kozilek, the Broken Reality",
+        "weight": 157560
+      },
+      {
+        "uuid": "9efa8cf9-13eb-582c-9855-6211b9d05ade",
+        "name": "Ulalek, Fused Atrocity",
+        "weight": 984750
+      },
+      {
+        "uuid": "9f47fd7a-c051-5f02-a730-8d729739263c",
+        "name": "Signature Slam",
+        "weight": 954720
+      },
+      {
+        "uuid": "9f523b19-c1ef-5858-b948-0fed2a01c3ee",
+        "name": "Lion Umbra",
+        "weight": 954720
+      },
+      {
+        "uuid": "9ff09957-8a19-5826-829c-967017a4c7b4",
+        "name": "Glaring Fleshraker",
+        "weight": 954720
+      },
+      {
+        "uuid": "a0a41612-27ca-5b16-b3db-d1bad8d45b64",
+        "name": "Flare of Duplication",
+        "weight": 323200
+      },
+      {
+        "uuid": "a209562e-4b50-5534-94dc-87393218fcaf",
+        "name": "Depth Defiler",
+        "weight": 954720
+      },
+      {
+        "uuid": "a3aeec60-595a-5847-a678-3fe0b7f2b95a",
+        "name": "Dog Umbra",
+        "weight": 1973439
+      },
+      {
+        "uuid": "a415f4b4-5d2c-5da7-930d-83bd62b5dd24",
+        "name": "Disa the Restless",
+        "weight": 984750
+      },
+      {
+        "uuid": "a527d5f5-9f4d-53d2-b494-4c4e52068184",
+        "name": "Guide of Souls",
+        "weight": 323200
+      },
+      {
+        "uuid": "a53b2279-d530-5f25-9587-831fe2246f15",
+        "name": "Lethal Throwdown",
+        "weight": 954720
+      },
+      {
+        "uuid": "a737a715-d53d-57e4-8186-21e3a56a048d",
+        "name": "Witch Enchanter",
+        "weight": 1197456
+      },
+      {
+        "uuid": "a7531dc2-d9fa-5769-86ec-277a392a791a",
+        "name": "Arcbound Condor",
+        "weight": 954720
+      },
+      {
+        "uuid": "a92205db-6497-5911-af3d-b6232a3899bb",
+        "name": "Conduit Goblin",
+        "weight": 1973439
+      },
+      {
+        "uuid": "a9531fb0-6a9d-5d03-b535-1edceddff956",
+        "name": "Drossclaw",
+        "weight": 1973439
+      },
+      {
+        "uuid": "aa075f9d-1302-59cb-97da-d35f7501114b",
+        "name": "Nyxborn Hydra",
+        "weight": 1973439
+      },
+      {
+        "uuid": "abda2134-de62-534f-b5eb-2b49f95981d0",
+        "name": "Herigast, Erupting Nullkite",
+        "weight": 157560
+      },
+      {
+        "uuid": "abf0e10d-e128-58c7-83fd-6bf8526fb880",
+        "name": "Envoy of the Ancestors",
+        "weight": 954720
+      },
+      {
+        "uuid": "ac065932-5493-5e8c-a9b9-dd0469692ba5",
+        "name": "Phlage, Titan of Fire's Fury",
+        "weight": 157560
+      },
+      {
+        "uuid": "ad13706b-0d65-5586-acdd-0575a5fc4549",
+        "name": "Propagator Drone",
+        "weight": 954720
+      },
+      {
+        "uuid": "ad20260f-e1bd-59c4-a578-eaefb04bcaaa",
+        "name": "Essence Reliquary",
+        "weight": 954720
+      },
+      {
+        "uuid": "ad6a8fc8-94bf-5da1-9ad6-711642e8df5a",
+        "name": "Primal Prayers",
+        "weight": 323200
+      },
+      {
+        "uuid": "ad7d9412-4564-5a17-b0ff-c85f89065f16",
+        "name": "Kozilek's Command",
+        "weight": 323200
+      },
+      {
+        "uuid": "aeb657d8-fc52-519c-baa6-8093f6b363ea",
+        "name": "Winter Moon",
+        "weight": 323200
+      },
+      {
+        "uuid": "afe19133-5882-54da-bd94-fc39e2353965",
+        "name": "Wight of the Reliquary",
+        "weight": 323200
+      },
+      {
+        "uuid": "b0265b85-7ae6-5a09-babe-27a16d3964db",
+        "name": "Unstable Amulet",
+        "weight": 954720
+      },
+      {
+        "uuid": "b045ab78-84a0-568c-b71c-1992e6f57bdc",
+        "name": "Fell the Profane",
+        "weight": 1197456
+      },
+      {
+        "uuid": "b14b9b1c-8060-5db9-8520-8f71219b8a0b",
+        "name": "Rosecot Knight",
+        "weight": 1973439
+      },
+      {
+        "uuid": "b2612df4-4767-5ee3-b65d-f6ce68dcb93c",
+        "name": "Kappa Cannoneer",
+        "weight": 323200
+      },
+      {
+        "uuid": "b2c4fa52-16e7-5ee0-958f-90dbac672681",
+        "name": "Sarpadian Simulacrum",
+        "weight": 1973439
+      },
+      {
+        "uuid": "b7273086-1327-5cfc-bfe2-0bac73bd1e6f",
+        "name": "Consign to Memory",
+        "weight": 954720
+      },
+      {
+        "uuid": "b77387cf-6699-5577-bb61-2bae0fb88f1e",
+        "name": "Sevinne's Reclamation",
+        "weight": 323200
+      },
+      {
+        "uuid": "b83057ae-433e-598f-965c-5c970a668f98",
+        "name": "Planar Genesis",
+        "weight": 954720
+      },
+      {
+        "uuid": "b854fc5a-6cfd-55d5-8bfd-4ca0632a5b42",
+        "name": "Barbarian Ring",
+        "weight": 954720
+      },
+      {
+        "uuid": "b8590cac-2714-5dcb-aa4b-6b684d50eb07",
+        "name": "Skittering Precursor",
+        "weight": 954720
+      },
+      {
+        "uuid": "bb0aab6d-0741-5f9d-bdd8-6a9d12a980f5",
+        "name": "Echoes of Eternity",
+        "weight": 323200
+      },
+      {
+        "uuid": "bb762192-6788-53c7-b5ea-811ae295629c",
+        "name": "Drowner of Truth",
+        "weight": 1197456
+      },
+      {
+        "uuid": "bc9614ef-1304-5986-a728-70880d4670e2",
+        "name": "Ondu Knotmaster",
+        "weight": 954720
+      },
+      {
+        "uuid": "bd5dc78e-e7ce-5f2a-9061-017e12ba2b9e",
+        "name": "Cayth, Famed Mechanist",
+        "weight": 984750
+      },
+      {
+        "uuid": "c094f759-c561-513c-b307-9ca4e0bb3b7a",
+        "name": "Bloodstained Mire",
+        "weight": 323200
+      },
+      {
+        "uuid": "c356051d-8370-5302-b258-f6b966966110",
+        "name": "Branching Evolution",
+        "weight": 323200
+      },
+      {
+        "uuid": "c398deca-20aa-5b75-bed8-3739eeb2f63e",
+        "name": "Ral, Monsoon Mage",
+        "weight": 157560
+      },
+      {
+        "uuid": "c456fc6e-1ca5-518b-8f17-9eb057ef7891",
+        "name": "Izzet Generatorium",
+        "weight": 954720
+      },
+      {
+        "uuid": "c521d694-8b14-53c4-9320-6d94a5740c7e",
+        "name": "Bountiful Landscape",
+        "weight": 1973439
+      },
+      {
+        "uuid": "c5e406cf-a4da-5d13-9557-7a372366bb7d",
+        "name": "Pinnacle Monk",
+        "weight": 1197456
+      },
+      {
+        "uuid": "c817bb23-307e-5aeb-b463-a8aa10fde884",
+        "name": "Expanding Ooze",
+        "weight": 1973439
+      },
+      {
+        "uuid": "c81a249e-e167-5820-ae3c-d2a3c9cb0312",
+        "name": "Reckless Pyrosurfer",
+        "weight": 954720
+      },
+      {
+        "uuid": "c8e344d4-aeb6-5f3e-9328-8b2948ec4a64",
+        "name": "Copycrook",
+        "weight": 954720
+      },
+      {
+        "uuid": "ca100dbd-60c0-517c-bf67-070a5bfa736d",
+        "name": "Cephalid Coliseum",
+        "weight": 954720
+      },
+      {
+        "uuid": "cbcb9d30-f6c0-5bbf-acf3-c0fd63d3ebee",
+        "name": "Contaminated Landscape",
+        "weight": 1973439
+      },
+      {
+        "uuid": "cc4f98d1-1add-56b4-9e69-752b8ad082b7",
+        "name": "Triton Wavebreaker",
+        "weight": 954720
+      },
+      {
+        "uuid": "cddd8253-4b21-573a-9b7b-4a85597c88f8",
+        "name": "Bloodsoaked Insight",
+        "weight": 1197456
+      },
+      {
+        "uuid": "ce4e660f-e971-53fe-a1f2-1c323f78f848",
+        "name": "Voltstorm Angel",
+        "weight": 954720
+      },
+      {
+        "uuid": "cf20d4e0-05df-5fff-85dd-768d3f92211a",
+        "name": "Thief of Existence",
+        "weight": 323200
+      },
+      {
+        "uuid": "d2b86473-616c-50f7-89ec-8f0d0c5bd11d",
+        "name": "It That Heralds the End",
+        "weight": 954720
+      },
+      {
+        "uuid": "d3d31def-d7fc-5c85-b16c-956ccddc650c",
+        "name": "Eldrazi Repurposer",
+        "weight": 1973439
+      },
+      {
+        "uuid": "d4003a6b-2200-5214-b07f-0deda2011fbb",
+        "name": "Snow-Covered Wastes",
+        "weight": 954720
+      },
+      {
+        "uuid": "d49ece9c-e674-56b4-b436-75d5ee89eb1a",
+        "name": "Disciple of Freyalise",
+        "weight": 1197456
+      },
+      {
+        "uuid": "d6b52215-6c8f-520c-9d42-014e08cd036c",
+        "name": "Kozilek's Unsealing",
+        "weight": 954720
+      },
+      {
+        "uuid": "d78d59cc-901d-559a-b508-6f8179196a61",
+        "name": "Fetid Gargantua",
+        "weight": 1973439
+      },
+      {
+        "uuid": "d8319975-b97a-5661-998f-2b1e118a0114",
+        "name": "Ral and the Implicit Maze",
+        "weight": 954720
+      },
+      {
+        "uuid": "d911421a-1b46-55df-a34d-0bad4aeb8b11",
+        "name": "Annoyed Altisaur",
+        "weight": 954720
+      },
+      {
+        "uuid": "dbc3b11a-79b5-56ff-8786-db3ef3f2a4ee",
+        "name": "Mogg Mob",
+        "weight": 954720
+      },
+      {
+        "uuid": "dbd87492-aa7e-590e-a529-4449a7fb0ee7",
+        "name": "Deserted Temple",
+        "weight": 323200
+      },
+      {
+        "uuid": "dd1407e1-b970-5cc0-bd05-8f823dc0b191",
+        "name": "Ripples of Undeath",
+        "weight": 323200
+      },
+      {
+        "uuid": "dd2f7f8d-0b6c-5e6a-a50a-dc8b9cdbcbd7",
+        "name": "Necrodominance",
+        "weight": 157560
+      },
+      {
+        "uuid": "ddb45742-fab2-5989-880f-681a2834148b",
+        "name": "Chthonian Nightmare",
+        "weight": 323200
+      },
+      {
+        "uuid": "e0279383-d355-573f-a17e-ec621b53effe",
+        "name": "Glyph Elemental",
+        "weight": 954720
+      },
+      {
+        "uuid": "e06e4b32-af41-50a1-b6df-70150c43311b",
+        "name": "Ocelot Pride",
+        "weight": 157560
+      },
+      {
+        "uuid": "e07f2836-14ee-5a83-8be3-79fde0041210",
+        "name": "Amphibian Downpour",
+        "weight": 323200
+      },
+      {
+        "uuid": "e1779632-c645-5376-a734-f43c5612f8a5",
+        "name": "Siege Smash",
+        "weight": 1973439
+      },
+      {
+        "uuid": "e1980ca7-9176-5156-84d1-f6c48c7d9117",
+        "name": "Buried Alive",
+        "weight": 954720
+      },
+      {
+        "uuid": "e1ca3b0e-9280-5ef7-ac23-2626c9837e4f",
+        "name": "Cyclops Superconductor",
+        "weight": 1973439
+      },
+      {
+        "uuid": "e6de2375-a845-5147-821f-637bee301f48",
+        "name": "Tranquil Landscape",
+        "weight": 1973439
+      },
+      {
+        "uuid": "e6e89362-eb3d-5897-b4ba-49437fddf728",
+        "name": "Emrakul's Messenger",
+        "weight": 954720
+      },
+      {
+        "uuid": "e790b126-ba6d-5ba2-8394-cd515429b01e",
+        "name": "Seething Landscape",
+        "weight": 1973439
+      },
+      {
+        "uuid": "e82d179e-7201-5620-866d-d613e08fed41",
+        "name": "Coram, the Undertaker",
+        "weight": 984750
+      },
+      {
+        "uuid": "e90f91e6-0aea-5caf-b0d6-f3fd932da900",
+        "name": "Eldrazi Ravager",
+        "weight": 954720
+      },
+      {
+        "uuid": "eae1c717-0afa-59c8-a04f-9f253c8f16eb",
+        "name": "Inventor's Axe",
+        "weight": 1973439
+      },
+      {
+        "uuid": "eb4cffdc-c32b-5679-9234-3943762e8cbe",
+        "name": "Psychic Frog",
+        "weight": 323200
+      },
+      {
+        "uuid": "ebf28291-11c1-5140-a218-eee767332da2",
+        "name": "Snapping Voidcraw",
+        "weight": 1973439
+      },
+      {
+        "uuid": "ec35f2dd-baf4-5bd2-ab08-85d14b251db5",
+        "name": "Hydroelectric Specimen",
+        "weight": 1197456
+      },
+      {
+        "uuid": "ec41dbde-c951-5454-8210-e9fcad225741",
+        "name": "Arena of Glory",
+        "weight": 323200
+      },
+      {
+        "uuid": "ecdd8036-5da7-596c-9e0d-7668f6d3fb0f",
+        "name": "Horrific Assault",
+        "weight": 1973439
+      },
+      {
+        "uuid": "ee0375ba-2584-52f6-9298-ebc4a04da059",
+        "name": "Amped Raptor",
+        "weight": 954720
+      },
+      {
+        "uuid": "eed83a21-137e-56be-9ab2-4544b9060e0f",
+        "name": "Basking Broodscale",
+        "weight": 1973439
+      },
+      {
+        "uuid": "ef9d4fb9-a6f6-5bbf-b654-b6986c3d1489",
+        "name": "Perilous Landscape",
+        "weight": 1973439
+      },
+      {
+        "uuid": "f326634c-927c-593d-acfc-c8a76fc33d6a",
+        "name": "Fanatic of Rhonas",
+        "weight": 323200
+      },
+      {
+        "uuid": "f34f3fed-44f9-5ae2-9e49-f1d19e5296b4",
+        "name": "Boggart Trawler",
+        "weight": 1197456
+      },
+      {
+        "uuid": "f362acdd-02bd-5a0e-9710-9910badda67a",
+        "name": "Consuming Corruption",
+        "weight": 954720
+      },
+      {
+        "uuid": "f508210a-1ef0-549c-a9f9-4d71aeaa7a51",
+        "name": "Obstinate Gargoyle",
+        "weight": 1973439
+      },
+      {
+        "uuid": "f733d252-2706-5ca9-b205-157041808c75",
+        "name": "Detective's Phoenix",
+        "weight": 323200
+      },
+      {
+        "uuid": "f7e0779d-e40f-5974-b524-409971f71514",
+        "name": "Spymaster's Vault",
+        "weight": 323200
+      },
+      {
+        "uuid": "f8279d95-b679-5816-82e1-e3e32f398a83",
+        "name": "Shifting Woodland",
+        "weight": 323200
+      },
+      {
+        "uuid": "f8b3c5f2-5d6e-5ec1-8c64-0956a6ee7775",
+        "name": "Monumental Henge",
+        "weight": 323200
+      },
+      {
+        "uuid": "f8ee5841-00a6-52bf-820d-a4fa29e18fe6",
+        "name": "Kaalia of the Vast",
+        "weight": 157560
+      },
+      {
+        "uuid": "fa697373-70aa-5eac-9019-ceef8717dec2",
+        "name": "Skoa, Embermage",
+        "weight": 1973439
+      },
+      {
+        "uuid": "fc5bda91-33bd-5d33-b97d-25a4f244c28c",
+        "name": "Sowing Mycospawn",
+        "weight": 323200
+      },
+      {
+        "uuid": "fd23e0b2-37a4-5f79-81b8-057cd09232a2",
+        "name": "Twisted Landscape",
+        "weight": 1973439
+      },
+      {
+        "uuid": "fd41eb3c-8592-5274-bd4a-0494e33c53b7",
+        "name": "Dreadmobile",
+        "weight": 954720
+      },
+      {
+        "uuid": "fef8ba31-4834-5144-8177-7fd7d16d2a4a",
+        "name": "Twisted Riddlekeeper",
+        "weight": 954720
+      },
+      {
+        "uuid": "ff438f9c-b91e-550c-ad09-5f178b952e1d",
+        "name": "Temperamental Oozewagg",
+        "weight": 1973439
+      }
+    ]
+  },
+  "land": {
+    "cards": [
+      {
+        "uuid": "20aee50c-8e86-57c0-a0a4-85ca21b5a61f",
+        "name": "Island",
+        "weight": 1
+      },
+      {
+        "uuid": "661d2683-7a76-554c-9542-6e3cabd8d8c0",
+        "name": "Mountain",
+        "weight": 1
+      },
+      {
+        "uuid": "6af8cf39-4f25-5269-a0bd-155230f075e8",
+        "name": "Plains",
+        "weight": 1
+      },
+      {
+        "uuid": "8a6f72b0-9feb-5cb0-82d8-2a4cf15d4bf9",
+        "name": "Swamp",
+        "weight": 1
+      },
+      {
+        "uuid": "8b911a1f-44f0-5054-b249-a0aef91cf933",
+        "name": "Forest",
+        "weight": 1
+      },
+      {
+        "uuid": "9d06b4cf-604c-560b-abab-cb8561fe2731",
+        "name": "Plains",
+        "weight": 1
+      },
+      {
+        "uuid": "a8ebc342-480f-532a-8e34-0864e7067416",
+        "name": "Mountain",
+        "weight": 1
+      },
+      {
+        "uuid": "af5c4112-c59e-5417-a005-d9bdca6f9bca",
+        "name": "Island",
+        "weight": 1
+      },
+      {
+        "uuid": "e6f5c0c1-64ca-5f4a-8a14-b5b820b34dc3",
+        "name": "Swamp",
+        "weight": 1
+      },
+      {
+        "uuid": "f9752529-9629-5dc9-bb00-bb5b37a2ae98",
+        "name": "Forest",
+        "weight": 1
+      }
+    ]
+  },
+  "newRareMythic": {
+    "cards": [
+      {
+        "uuid": "01c0a75b-3bf1-51e3-9960-da9e843a3858",
+        "name": "Flare of Malice",
+        "weight": 2
+      },
+      {
+        "uuid": "03015878-fb30-5020-b03f-e87c7c880c7d",
+        "name": "Invert Polarity",
+        "weight": 2
+      },
+      {
+        "uuid": "0405fbef-3910-5997-8895-d59da67155a9",
+        "name": "Ugin's Binding",
+        "weight": 1
+      },
+      {
+        "uuid": "041e10fd-833e-5d6e-866f-6a412f1f0c16",
+        "name": "Nadu, Winged Wisdom",
+        "weight": 2
+      },
+      {
+        "uuid": "08af11d6-5493-5b56-9a7b-b5e4ce8d0f53",
+        "name": "Ashling, Flame Dancer",
+        "weight": 1
+      },
+      {
+        "uuid": "091dcfd4-feec-5bd8-870a-4e48382b8959",
+        "name": "Genku, Future Shaper",
+        "weight": 2
+      },
+      {
+        "uuid": "0c127932-ffc2-55e5-b817-0ef7d94a48e9",
+        "name": "Dreamtide Whale",
+        "weight": 2
+      },
+      {
+        "uuid": "0ca5ef79-ca0b-5fc6-b108-2dc6f3d970d2",
+        "name": "Emrakul, the World Anew",
+        "weight": 1
+      },
+      {
+        "uuid": "10d150a0-4fbd-5afc-a97a-653a2a67d723",
+        "name": "Harbinger of the Seas",
+        "weight": 2
+      },
+      {
+        "uuid": "14ec75b3-3500-5ac1-afb6-c61e7ae25226",
+        "name": "Eldrazi Linebreaker",
+        "weight": 2
+      },
+      {
+        "uuid": "1905b86c-a20e-534c-870d-f3ac1f6704a4",
+        "name": "Emperor of Bones",
+        "weight": 2
+      },
+      {
+        "uuid": "1a246652-3682-5efb-bc97-8cf82ca0c3dc",
+        "name": "Disruptor Flute",
+        "weight": 2
+      },
+      {
+        "uuid": "1e4983e2-644a-5deb-9847-1e9fce802950",
+        "name": "Archway of Innovation",
+        "weight": 2
+      },
+      {
+        "uuid": "1ecb8709-4a82-5e08-81fd-d1e358723e79",
+        "name": "Kudo, King Among Bears",
+        "weight": 2
+      },
+      {
+        "uuid": "232adf27-a52e-57cc-9006-35215af05a9e",
+        "name": "Springheart Nantuko",
+        "weight": 2
+      },
+      {
+        "uuid": "24488650-34e7-576c-8533-4735246dba55",
+        "name": "Phelia, Exuberant Shepherd",
+        "weight": 2
+      },
+      {
+        "uuid": "27310488-922d-5d07-9b2a-b4139d26aa63",
+        "name": "Sorin of House Markov",
+        "weight": 1
+      },
+      {
+        "uuid": "30c90adb-d95e-5daf-a3a4-e464eade96d6",
+        "name": "Rosheen, Roaring Prophet",
+        "weight": 2
+      },
+      {
+        "uuid": "31768fbb-b480-5ce7-aecf-0f1fa7ea32d5",
+        "name": "Flare of Denial",
+        "weight": 2
+      },
+      {
+        "uuid": "3336474a-97a4-52d5-8ad4-1378f9f4377c",
+        "name": "Shadow of the Second Sun",
+        "weight": 1
+      },
+      {
+        "uuid": "33b46870-f94a-5c52-ae96-4cfad384e5e3",
+        "name": "Imskir Iron-Eater",
+        "weight": 2
+      },
+      {
+        "uuid": "33c71b11-67e2-51b1-b4e8-2c429197525d",
+        "name": "Wheel of Potential",
+        "weight": 2
+      },
+      {
+        "uuid": "3a2ad1db-5528-5308-820a-766887fa9279",
+        "name": "Arna Kenner\u00fcd, Skycaptain",
+        "weight": 1
+      },
+      {
+        "uuid": "3aeff659-75db-51b6-8364-902094db22ab",
+        "name": "Aether Revolt",
+        "weight": 2
+      },
+      {
+        "uuid": "3b908dd3-a9ca-53d7-aae4-121760e6c2e0",
+        "name": "Flare of Cultivation",
+        "weight": 2
+      },
+      {
+        "uuid": "410b91e9-36e3-590c-bfe7-10cc8c74e72e",
+        "name": "Devourer of Destiny",
+        "weight": 2
+      },
+      {
+        "uuid": "444ba7ac-40cb-5f4c-b715-55569cb5c7f2",
+        "name": "Wrath of the Skies",
+        "weight": 2
+      },
+      {
+        "uuid": "4508bde5-72d3-503b-a6e0-756bc70b21a5",
+        "name": "Pearl-Ear, Imperial Advisor",
+        "weight": 2
+      },
+      {
+        "uuid": "484f3599-cb82-519e-a078-b6569a65d6a5",
+        "name": "Eladamri, Korvecdal",
+        "weight": 1
+      },
+      {
+        "uuid": "4b8ed103-5009-54f1-b40d-49b65edc9409",
+        "name": "Wooded Foothills",
+        "weight": 2
+      },
+      {
+        "uuid": "4cc01edd-4bbc-5d96-ab62-ca8907583364",
+        "name": "Argent Dais",
+        "weight": 2
+      },
+      {
+        "uuid": "4cecf2b1-82ae-56a9-99ca-73c4c79477ec",
+        "name": "Six",
+        "weight": 2
+      },
+      {
+        "uuid": "52f7d503-dd20-5f85-8c62-97005958ba6c",
+        "name": "The Necrobloom",
+        "weight": 2
+      },
+      {
+        "uuid": "549699dc-f041-593b-af40-90d76450c283",
+        "name": "Polluted Delta",
+        "weight": 2
+      },
+      {
+        "uuid": "56d32dd5-271c-5d1b-a5a7-02a6667f4f55",
+        "name": "Party Thrasher",
+        "weight": 2
+      },
+      {
+        "uuid": "5849ba01-735a-59fb-89e6-a12d6c4ef09c",
+        "name": "Volatile Stormdrake",
+        "weight": 2
+      },
+      {
+        "uuid": "587bebb1-e19a-56af-8c80-cfe94ee23ece",
+        "name": "Flooded Strand",
+        "weight": 2
+      },
+      {
+        "uuid": "614f1d54-6bc9-5578-a9c3-d4d446b4a9ab",
+        "name": "Tamiyo, Inquisitive Student",
+        "weight": 1
+      },
+      {
+        "uuid": "6beb5ea1-2135-5c15-837e-ee47b92b8c69",
+        "name": "Nethergoyf",
+        "weight": 1
+      },
+      {
+        "uuid": "6ea65582-7b07-5eb0-a388-0ea914785d02",
+        "name": "Flare of Fortitude",
+        "weight": 2
+      },
+      {
+        "uuid": "6f7e51c2-dc49-5aa6-b83c-8d543d15f027",
+        "name": "Nulldrifter",
+        "weight": 2
+      },
+      {
+        "uuid": "71ced676-d4f3-5da5-98e2-a6be14cb5dd7",
+        "name": "White Orchid Phantom",
+        "weight": 2
+      },
+      {
+        "uuid": "767fd71b-7f44-5e8a-b681-1ef52e137fbf",
+        "name": "Ugin's Labyrinth",
+        "weight": 1
+      },
+      {
+        "uuid": "786439eb-32e9-5ac9-922d-94f7605fe194",
+        "name": "Warren Soultrader",
+        "weight": 2
+      },
+      {
+        "uuid": "7f62a152-f57e-59ff-934e-1f7d51af4e15",
+        "name": "Abstruse Appropriation",
+        "weight": 2
+      },
+      {
+        "uuid": "7ff0f7cb-d87a-590b-82e1-a5a56f60084c",
+        "name": "Grist, Voracious Larva",
+        "weight": 1
+      },
+      {
+        "uuid": "810d9bdc-8ecb-5ae5-8131-5dbda9df6ca2",
+        "name": "Windswept Heath",
+        "weight": 2
+      },
+      {
+        "uuid": "8183ba2c-988a-50c5-92c4-98498ffb1730",
+        "name": "Ulamog, the Defiler",
+        "weight": 1
+      },
+      {
+        "uuid": "8c8b5487-38d3-5ecc-8632-abb2d2721052",
+        "name": "Powerbalance",
+        "weight": 2
+      },
+      {
+        "uuid": "8d95401a-8b91-5c1b-b5eb-eb7e23fd6c4c",
+        "name": "Birthing Ritual",
+        "weight": 1
+      },
+      {
+        "uuid": "913df8e4-c396-5e27-b3b5-5bc7e869a5a9",
+        "name": "Strix Serenade",
+        "weight": 2
+      },
+      {
+        "uuid": "9191bfd4-a5f4-543c-9f72-b0ccb3fae2bc",
+        "name": "Ajani, Nacatl Pariah",
+        "weight": 1
+      },
+      {
+        "uuid": "91df80c1-197f-5f5d-92ac-761ce4af622e",
+        "name": "Crabomination",
+        "weight": 2
+      },
+      {
+        "uuid": "9cf1c168-a91f-57d0-a4b0-d7ee57c0c2f5",
+        "name": "Shilgengar, Sire of Famine",
+        "weight": 2
+      },
+      {
+        "uuid": "9da7f8de-25d5-5caf-8c09-0f534d0fe609",
+        "name": "Kozilek, the Broken Reality",
+        "weight": 1
+      },
+      {
+        "uuid": "a0a41612-27ca-5b16-b3db-d1bad8d45b64",
+        "name": "Flare of Duplication",
+        "weight": 2
+      },
+      {
+        "uuid": "a527d5f5-9f4d-53d2-b494-4c4e52068184",
+        "name": "Guide of Souls",
+        "weight": 2
+      },
+      {
+        "uuid": "abda2134-de62-534f-b5eb-2b49f95981d0",
+        "name": "Herigast, Erupting Nullkite",
+        "weight": 1
+      },
+      {
+        "uuid": "ac065932-5493-5e8c-a9b9-dd0469692ba5",
+        "name": "Phlage, Titan of Fire's Fury",
+        "weight": 1
+      },
+      {
+        "uuid": "ad6a8fc8-94bf-5da1-9ad6-711642e8df5a",
+        "name": "Primal Prayers",
+        "weight": 2
+      },
+      {
+        "uuid": "ad7d9412-4564-5a17-b0ff-c85f89065f16",
+        "name": "Kozilek's Command",
+        "weight": 2
+      },
+      {
+        "uuid": "aeb657d8-fc52-519c-baa6-8093f6b363ea",
+        "name": "Winter Moon",
+        "weight": 2
+      },
+      {
+        "uuid": "afe19133-5882-54da-bd94-fc39e2353965",
+        "name": "Wight of the Reliquary",
+        "weight": 2
+      },
+      {
+        "uuid": "bb0aab6d-0741-5f9d-bdd8-6a9d12a980f5",
+        "name": "Echoes of Eternity",
+        "weight": 2
+      },
+      {
+        "uuid": "c094f759-c561-513c-b307-9ca4e0bb3b7a",
+        "name": "Bloodstained Mire",
+        "weight": 2
+      },
+      {
+        "uuid": "c398deca-20aa-5b75-bed8-3739eeb2f63e",
+        "name": "Ral, Monsoon Mage",
+        "weight": 1
+      },
+      {
+        "uuid": "cf20d4e0-05df-5fff-85dd-768d3f92211a",
+        "name": "Thief of Existence",
+        "weight": 2
+      },
+      {
+        "uuid": "dd1407e1-b970-5cc0-bd05-8f823dc0b191",
+        "name": "Ripples of Undeath",
+        "weight": 2
+      },
+      {
+        "uuid": "dd2f7f8d-0b6c-5e6a-a50a-dc8b9cdbcbd7",
+        "name": "Necrodominance",
+        "weight": 1
+      },
+      {
+        "uuid": "ddb45742-fab2-5989-880f-681a2834148b",
+        "name": "Chthonian Nightmare",
+        "weight": 2
+      },
+      {
+        "uuid": "e06e4b32-af41-50a1-b6df-70150c43311b",
+        "name": "Ocelot Pride",
+        "weight": 1
+      },
+      {
+        "uuid": "e07f2836-14ee-5a83-8be3-79fde0041210",
+        "name": "Amphibian Downpour",
+        "weight": 2
+      },
+      {
+        "uuid": "eb4cffdc-c32b-5679-9234-3943762e8cbe",
+        "name": "Psychic Frog",
+        "weight": 2
+      },
+      {
+        "uuid": "ec41dbde-c951-5454-8210-e9fcad225741",
+        "name": "Arena of Glory",
+        "weight": 2
+      },
+      {
+        "uuid": "f326634c-927c-593d-acfc-c8a76fc33d6a",
+        "name": "Fanatic of Rhonas",
+        "weight": 2
+      },
+      {
+        "uuid": "f733d252-2706-5ca9-b205-157041808c75",
+        "name": "Detective's Phoenix",
+        "weight": 2
+      },
+      {
+        "uuid": "f7e0779d-e40f-5974-b524-409971f71514",
+        "name": "Spymaster's Vault",
+        "weight": 2
+      },
+      {
+        "uuid": "f8279d95-b679-5816-82e1-e3e32f398a83",
+        "name": "Shifting Woodland",
+        "weight": 2
+      },
+      {
+        "uuid": "f8b3c5f2-5d6e-5ec1-8c64-0956a6ee7775",
+        "name": "Monumental Henge",
+        "weight": 2
+      },
+      {
+        "uuid": "fc5bda91-33bd-5d33-b97d-25a4f244c28c",
+        "name": "Sowing Mycospawn",
+        "weight": 2
+      }
+    ]
+  },
+  "newUncommon": {
+    "cards": [
+      {
+        "uuid": "00cb0247-c29c-5781-99ed-ee67097561d7",
+        "name": "Phyrexian Ironworks",
+        "weight": 1
+      },
+      {
+        "uuid": "01af488b-2004-5f7b-92ed-613c42acca47",
+        "name": "Charitable Levy",
+        "weight": 1
+      },
+      {
+        "uuid": "02791d8b-58da-5d60-939d-c78899a1db53",
+        "name": "Breaker of Creation",
+        "weight": 1
+      },
+      {
+        "uuid": "044b5388-caf5-5088-9f30-0b68d24ad214",
+        "name": "Muster the Departed",
+        "weight": 1
+      },
+      {
+        "uuid": "04d61069-61b8-5e6e-a03c-b6377030efa4",
+        "name": "Idol of False Gods",
+        "weight": 1
+      },
+      {
+        "uuid": "05070f60-1fb1-5a87-97b7-7c898a7309ff",
+        "name": "Rush of Inspiration",
+        "weight": 1
+      },
+      {
+        "uuid": "08cd7471-6e11-54b0-b60e-d5592646e95d",
+        "name": "Roil Cartographer",
+        "weight": 1
+      },
+      {
+        "uuid": "095261f9-a35e-56de-95bb-2454c0efc90e",
+        "name": "Grim Servant",
+        "weight": 1
+      },
+      {
+        "uuid": "0b3a0f36-8e1c-5635-ab35-3e0410367e5f",
+        "name": "Bespoke Battlewagon",
+        "weight": 1
+      },
+      {
+        "uuid": "0d0ef2d8-f0ea-55b3-9ffc-2fb64a4cf645",
+        "name": "Trickster's Elk",
+        "weight": 1
+      },
+      {
+        "uuid": "11feee44-ebca-5f59-afac-b8d5ea926a24",
+        "name": "Collective Resistance",
+        "weight": 1
+      },
+      {
+        "uuid": "1c7aa0bd-cffb-51c4-a34e-4f6941bc15e6",
+        "name": "Urza's Cave",
+        "weight": 1
+      },
+      {
+        "uuid": "1c99e4a9-057e-5e5d-aeb1-a42842be8319",
+        "name": "Reiterating Bolt",
+        "weight": 1
+      },
+      {
+        "uuid": "1cac1d46-56be-5690-ab52-a1227e2fc58f",
+        "name": "Hydra Trainer",
+        "weight": 1
+      },
+      {
+        "uuid": "1f760ed3-f217-56ef-b776-e90754471071",
+        "name": "The Hunger Tide Rises",
+        "weight": 1
+      },
+      {
+        "uuid": "265004b8-2140-5555-98fd-c73a6a79f780",
+        "name": "Etherium Pteramander",
+        "weight": 1
+      },
+      {
+        "uuid": "2b2da129-2c69-5d23-a4a6-7d1998afb9ea",
+        "name": "Waterlogged Teachings",
+        "weight": 1
+      },
+      {
+        "uuid": "2bd36d2c-750f-54bc-afe6-248e7e50e423",
+        "name": "Static Prison",
+        "weight": 1
+      },
+      {
+        "uuid": "2d63cec1-e3ed-55e7-baf8-6d72e1cd1297",
+        "name": "Wumpus Aberration",
+        "weight": 1
+      },
+      {
+        "uuid": "310d79cf-56f7-5837-a77e-9bae78afbc9a",
+        "name": "Revitalizing Repast",
+        "weight": 1
+      },
+      {
+        "uuid": "31f79b60-43a2-5dc1-b1bc-f366b985d61c",
+        "name": "Guardian of the Forgotten",
+        "weight": 1
+      },
+      {
+        "uuid": "322531f6-7b3b-5860-85fe-f72eb0380dcd",
+        "name": "Frogmyr Enforcer",
+        "weight": 1
+      },
+      {
+        "uuid": "34b4c375-dad5-5b75-9bd1-dcca15020b58",
+        "name": "Tamiyo Meets the Story Circle",
+        "weight": 1
+      },
+      {
+        "uuid": "38728faa-eeb6-55b0-9f6c-f48a6c0fc88a",
+        "name": "Null Elemental Blast",
+        "weight": 1
+      },
+      {
+        "uuid": "38abcca7-5ee7-5bd6-a49b-9220533a95a4",
+        "name": "Ghostfire Slice",
+        "weight": 1
+      },
+      {
+        "uuid": "39bc978e-fe2d-5132-bead-0bda7020716c",
+        "name": "Bridgeworks Battle",
+        "weight": 1
+      },
+      {
+        "uuid": "3a98f320-5bb3-5602-9d25-3cd5d8ef88f3",
+        "name": "Razorgrass Ambush",
+        "weight": 1
+      },
+      {
+        "uuid": "3abdb988-ee5f-568f-8582-44f86be8ec31",
+        "name": "Etched Slith",
+        "weight": 1
+      },
+      {
+        "uuid": "3bb1c660-988c-561a-9e14-3f388c1c0f49",
+        "name": "Wastescape Battlemage",
+        "weight": 1
+      },
+      {
+        "uuid": "408eea78-22e9-59c0-a714-502075b40436",
+        "name": "Stump Stomp",
+        "weight": 1
+      },
+      {
+        "uuid": "4735928e-7ad1-542c-b43c-268ec6eddc87",
+        "name": "Sink into Stupor",
+        "weight": 1
+      },
+      {
+        "uuid": "4781e96c-6301-5160-abd4-60e11f997e27",
+        "name": "Suppression Ray",
+        "weight": 1
+      },
+      {
+        "uuid": "4f0f36da-60fc-52e6-9e55-de4b638a1a13",
+        "name": "Spawn-Gang Commander",
+        "weight": 1
+      },
+      {
+        "uuid": "53df824f-d506-5a67-8280-e97b93d3f5f8",
+        "name": "Emissary of Soulfire",
+        "weight": 1
+      },
+      {
+        "uuid": "55596b28-3a7e-5f4d-aeee-73186aa23f76",
+        "name": "Scurry of Gremlins",
+        "weight": 1
+      },
+      {
+        "uuid": "561ab67c-2a60-5ca4-a7a0-2ea8cc976a95",
+        "name": "Marionette Apprentice",
+        "weight": 1
+      },
+      {
+        "uuid": "572e4801-4d0d-5cab-8183-9fc8b9f05630",
+        "name": "Cursed Wombat",
+        "weight": 1
+      },
+      {
+        "uuid": "576d2423-d76f-5cfa-968a-89c55b8c89c4",
+        "name": "Hope-Ender Coatl",
+        "weight": 1
+      },
+      {
+        "uuid": "578e7410-549e-5ebb-9048-7a60485c91e4",
+        "name": "Legion Leadership",
+        "weight": 1
+      },
+      {
+        "uuid": "589c89e9-d149-5d15-9640-3bf6e9a456c4",
+        "name": "The Creation of Avacyn",
+        "weight": 1
+      },
+      {
+        "uuid": "5b1c1595-0ff7-5122-90cd-13b2c691aef2",
+        "name": "Quest for the Necropolis",
+        "weight": 1
+      },
+      {
+        "uuid": "5b8e03cd-1735-53cb-ab9f-9748eefafa6b",
+        "name": "Glasswing Grace",
+        "weight": 1
+      },
+      {
+        "uuid": "5f82e093-44ee-5fc9-9dbe-8a622e6cda9a",
+        "name": "Path of Annihilation",
+        "weight": 1
+      },
+      {
+        "uuid": "603f6ca3-4d99-5a18-9c3f-73ecbabaeaf4",
+        "name": "Monstrous Vortex",
+        "weight": 1
+      },
+      {
+        "uuid": "654d91ae-f8b5-5f0a-a609-d2d1fec2254b",
+        "name": "Titans' Vanguard",
+        "weight": 1
+      },
+      {
+        "uuid": "664b67e7-c7b3-5753-a3af-b1f708b7b29c",
+        "name": "Metastatic Evangel",
+        "weight": 1
+      },
+      {
+        "uuid": "6bae738d-fba6-5bf9-9f81-12f7e4f51b09",
+        "name": "Pyretic Rebirth",
+        "weight": 1
+      },
+      {
+        "uuid": "6e9099be-3ffd-504c-bcfe-7c7296463e30",
+        "name": "Solar Transformer",
+        "weight": 1
+      },
+      {
+        "uuid": "6fe5f480-a737-5d92-b6a1-29b594bf9f14",
+        "name": "Proud Pack-Rhino",
+        "weight": 1
+      },
+      {
+        "uuid": "736e5898-943f-52d5-84d7-8f0dd9c5965a",
+        "name": "Furnace Hellkite",
+        "weight": 1
+      },
+      {
+        "uuid": "737c15c5-e881-52a6-828e-97cc0edc62c2",
+        "name": "Fangs of Kalonia",
+        "weight": 1
+      },
+      {
+        "uuid": "73a2f007-3c00-57cd-8311-97550fb73d53",
+        "name": "Golden-Tail Trainer",
+        "weight": 1
+      },
+      {
+        "uuid": "7ccb4f69-c1dc-57a6-b7d6-24bba2a33f94",
+        "name": "Strength of the Harvest",
+        "weight": 1
+      },
+      {
+        "uuid": "83ad96e8-e01b-58cf-820e-d2c86a3a74d7",
+        "name": "Indebted Spirit",
+        "weight": 1
+      },
+      {
+        "uuid": "85444a87-aa7b-509a-acc9-6af666903b35",
+        "name": "Brainsurge",
+        "weight": 1
+      },
+      {
+        "uuid": "860928cf-17e9-53c9-8fc1-d71f1ca531f3",
+        "name": "Horrid Shadowspinner",
+        "weight": 1
+      },
+      {
+        "uuid": "8a94d048-e6b1-51c0-8c05-2267f800b3b0",
+        "name": "Ajani Fells the Godsire",
+        "weight": 1
+      },
+      {
+        "uuid": "8bdef6a5-46f7-5e5d-979f-a95c3f8f0b98",
+        "name": "Vexing Bauble",
+        "weight": 1
+      },
+      {
+        "uuid": "93657372-7c9b-5b40-b6d4-dfb5ef15175a",
+        "name": "Territory Culler",
+        "weight": 1
+      },
+      {
+        "uuid": "93b18ee7-08bf-585a-80ad-6fe27fa9d438",
+        "name": "Mindless Conscription",
+        "weight": 1
+      },
+      {
+        "uuid": "93b21db2-7673-585c-abf8-254616974c7c",
+        "name": "Wurmcoil Larva",
+        "weight": 1
+      },
+      {
+        "uuid": "94499941-afe4-533a-a698-3277da40f2b5",
+        "name": "Sundering Eruption",
+        "weight": 1
+      },
+      {
+        "uuid": "9f47fd7a-c051-5f02-a730-8d729739263c",
+        "name": "Signature Slam",
+        "weight": 1
+      },
+      {
+        "uuid": "9f523b19-c1ef-5858-b948-0fed2a01c3ee",
+        "name": "Lion Umbra",
+        "weight": 1
+      },
+      {
+        "uuid": "9ff09957-8a19-5826-829c-967017a4c7b4",
+        "name": "Glaring Fleshraker",
+        "weight": 1
+      },
+      {
+        "uuid": "a209562e-4b50-5534-94dc-87393218fcaf",
+        "name": "Depth Defiler",
+        "weight": 1
+      },
+      {
+        "uuid": "a53b2279-d530-5f25-9587-831fe2246f15",
+        "name": "Lethal Throwdown",
+        "weight": 1
+      },
+      {
+        "uuid": "a737a715-d53d-57e4-8186-21e3a56a048d",
+        "name": "Witch Enchanter",
+        "weight": 1
+      },
+      {
+        "uuid": "a7531dc2-d9fa-5769-86ec-277a392a791a",
+        "name": "Arcbound Condor",
+        "weight": 1
+      },
+      {
+        "uuid": "abf0e10d-e128-58c7-83fd-6bf8526fb880",
+        "name": "Envoy of the Ancestors",
+        "weight": 1
+      },
+      {
+        "uuid": "ad13706b-0d65-5586-acdd-0575a5fc4549",
+        "name": "Propagator Drone",
+        "weight": 1
+      },
+      {
+        "uuid": "ad20260f-e1bd-59c4-a578-eaefb04bcaaa",
+        "name": "Essence Reliquary",
+        "weight": 1
+      },
+      {
+        "uuid": "b0265b85-7ae6-5a09-babe-27a16d3964db",
+        "name": "Unstable Amulet",
+        "weight": 1
+      },
+      {
+        "uuid": "b045ab78-84a0-568c-b71c-1992e6f57bdc",
+        "name": "Fell the Profane",
+        "weight": 1
+      },
+      {
+        "uuid": "b7273086-1327-5cfc-bfe2-0bac73bd1e6f",
+        "name": "Consign to Memory",
+        "weight": 1
+      },
+      {
+        "uuid": "b83057ae-433e-598f-965c-5c970a668f98",
+        "name": "Planar Genesis",
+        "weight": 1
+      },
+      {
+        "uuid": "b8590cac-2714-5dcb-aa4b-6b684d50eb07",
+        "name": "Skittering Precursor",
+        "weight": 1
+      },
+      {
+        "uuid": "bb762192-6788-53c7-b5ea-811ae295629c",
+        "name": "Drowner of Truth",
+        "weight": 1
+      },
+      {
+        "uuid": "bc9614ef-1304-5986-a728-70880d4670e2",
+        "name": "Ondu Knotmaster",
+        "weight": 1
+      },
+      {
+        "uuid": "c456fc6e-1ca5-518b-8f17-9eb057ef7891",
+        "name": "Izzet Generatorium",
+        "weight": 1
+      },
+      {
+        "uuid": "c5e406cf-a4da-5d13-9557-7a372366bb7d",
+        "name": "Pinnacle Monk",
+        "weight": 1
+      },
+      {
+        "uuid": "c81a249e-e167-5820-ae3c-d2a3c9cb0312",
+        "name": "Reckless Pyrosurfer",
+        "weight": 1
+      },
+      {
+        "uuid": "c8e344d4-aeb6-5f3e-9328-8b2948ec4a64",
+        "name": "Copycrook",
+        "weight": 1
+      },
+      {
+        "uuid": "cc4f98d1-1add-56b4-9e69-752b8ad082b7",
+        "name": "Triton Wavebreaker",
+        "weight": 1
+      },
+      {
+        "uuid": "cddd8253-4b21-573a-9b7b-4a85597c88f8",
+        "name": "Bloodsoaked Insight",
+        "weight": 1
+      },
+      {
+        "uuid": "ce4e660f-e971-53fe-a1f2-1c323f78f848",
+        "name": "Voltstorm Angel",
+        "weight": 1
+      },
+      {
+        "uuid": "d2b86473-616c-50f7-89ec-8f0d0c5bd11d",
+        "name": "It That Heralds the End",
+        "weight": 1
+      },
+      {
+        "uuid": "d4003a6b-2200-5214-b07f-0deda2011fbb",
+        "name": "Snow-Covered Wastes",
+        "weight": 1
+      },
+      {
+        "uuid": "d49ece9c-e674-56b4-b436-75d5ee89eb1a",
+        "name": "Disciple of Freyalise",
+        "weight": 1
+      },
+      {
+        "uuid": "d6b52215-6c8f-520c-9d42-014e08cd036c",
+        "name": "Kozilek's Unsealing",
+        "weight": 1
+      },
+      {
+        "uuid": "d8319975-b97a-5661-998f-2b1e118a0114",
+        "name": "Ral and the Implicit Maze",
+        "weight": 1
+      },
+      {
+        "uuid": "dbc3b11a-79b5-56ff-8786-db3ef3f2a4ee",
+        "name": "Mogg Mob",
+        "weight": 1
+      },
+      {
+        "uuid": "e0279383-d355-573f-a17e-ec621b53effe",
+        "name": "Glyph Elemental",
+        "weight": 1
+      },
+      {
+        "uuid": "e6e89362-eb3d-5897-b4ba-49437fddf728",
+        "name": "Emrakul's Messenger",
+        "weight": 1
+      },
+      {
+        "uuid": "e90f91e6-0aea-5caf-b0d6-f3fd932da900",
+        "name": "Eldrazi Ravager",
+        "weight": 1
+      },
+      {
+        "uuid": "ec35f2dd-baf4-5bd2-ab08-85d14b251db5",
+        "name": "Hydroelectric Specimen",
+        "weight": 1
+      },
+      {
+        "uuid": "ee0375ba-2584-52f6-9298-ebc4a04da059",
+        "name": "Amped Raptor",
+        "weight": 1
+      },
+      {
+        "uuid": "f34f3fed-44f9-5ae2-9e49-f1d19e5296b4",
+        "name": "Boggart Trawler",
+        "weight": 1
+      },
+      {
+        "uuid": "f362acdd-02bd-5a0e-9710-9910badda67a",
+        "name": "Consuming Corruption",
+        "weight": 1
+      },
+      {
+        "uuid": "fd41eb3c-8592-5274-bd4a-0494e33c53b7",
+        "name": "Dreadmobile",
+        "weight": 1
+      },
+      {
+        "uuid": "fef8ba31-4834-5144-8177-7fd7d16d2a4a",
+        "name": "Twisted Riddlekeeper",
+        "weight": 1
+      }
+    ]
+  },
+  "reprint": {
+    "cards": [
+      {
+        "uuid": "14948afe-b927-50b3-8009-d6e2ad7226e4",
+        "name": "Junk Diver",
+        "weight": 450
+      },
+      {
+        "uuid": "15ba2572-774e-59a8-ac6b-50df29a391d4",
+        "name": "Nadier's Nightblade",
+        "weight": 450
+      },
+      {
+        "uuid": "1c6cacb6-be04-51d4-9308-f96dd93e5da3",
+        "name": "Angel of the Ruins",
+        "weight": 450
+      },
+      {
+        "uuid": "1fac7252-fc9f-594f-b5f0-35236cbb181a",
+        "name": "Emerald Medallion",
+        "weight": 142
+      },
+      {
+        "uuid": "293295e9-2eed-5aac-a289-1bbab90e5e54",
+        "name": "Urza's Incubator",
+        "weight": 142
+      },
+      {
+        "uuid": "2ac29122-d69f-5f89-a02d-2894cd02d4f5",
+        "name": "Shrieking Drake",
+        "weight": 450
+      },
+      {
+        "uuid": "332b83d9-1007-5f1f-a702-4c8b8a14bb2f",
+        "name": "Meltdown",
+        "weight": 450
+      },
+      {
+        "uuid": "35bfa538-a36b-54ce-8fed-5f69583ab426",
+        "name": "Worn Powerstone",
+        "weight": 450
+      },
+      {
+        "uuid": "3693c99f-1206-5a98-b0c7-3d4c2b7cd917",
+        "name": "Cursed Mirror",
+        "weight": 142
+      },
+      {
+        "uuid": "4257b849-4e55-5b4f-bce6-6a05cdc0a86d",
+        "name": "Deep Analysis",
+        "weight": 450
+      },
+      {
+        "uuid": "42dd85df-9c12-5389-911f-5eacec78d7a6",
+        "name": "Recruiter of the Guard",
+        "weight": 69
+      },
+      {
+        "uuid": "442a8e90-e5ec-5187-8868-04fa899568b3",
+        "name": "Jet Medallion",
+        "weight": 142
+      },
+      {
+        "uuid": "4450031a-e584-5022-a6be-97adebec35b0",
+        "name": "Laelia, the Blade Reforged",
+        "weight": 142
+      },
+      {
+        "uuid": "46b6ed83-6920-532d-aca1-c4384c67b00e",
+        "name": "Reef Worm",
+        "weight": 450
+      },
+      {
+        "uuid": "492ce888-c5fe-5a99-9fac-8915ea7aa5dd",
+        "name": "Toxic Deluge",
+        "weight": 142
+      },
+      {
+        "uuid": "4a726983-7b5f-56c0-a57d-5701e5e6e9cd",
+        "name": "Pearl Medallion",
+        "weight": 142
+      },
+      {
+        "uuid": "4bdc2dfb-1f04-5057-9396-064434f61833",
+        "name": "Nesting Grounds",
+        "weight": 450
+      },
+      {
+        "uuid": "4fd1a161-3b9c-535b-9b33-86e0e01529fe",
+        "name": "Sylvan Safekeeper",
+        "weight": 142
+      },
+      {
+        "uuid": "521f1d4b-d46f-589c-b751-e3986c0444a3",
+        "name": "Distinguished Conjurer",
+        "weight": 450
+      },
+      {
+        "uuid": "52e5ee35-4b38-5538-9414-0dd23e3ef52a",
+        "name": "Ruby Medallion",
+        "weight": 142
+      },
+      {
+        "uuid": "58c3ebcf-a175-5a9d-834f-2669c8a6528b",
+        "name": "Victimize",
+        "weight": 450
+      },
+      {
+        "uuid": "66689ef5-7f41-5a21-a9de-6776b5b4f0b1",
+        "name": "Meteoric Mace",
+        "weight": 450
+      },
+      {
+        "uuid": "66ae25d9-4d13-5e8b-bf3b-b35ac184dca3",
+        "name": "K'rrik, Son of Yawgmoth",
+        "weight": 142
+      },
+      {
+        "uuid": "6ceb0d71-e802-5513-819e-69a629809d30",
+        "name": "Breya, Etherium Shaper",
+        "weight": 69
+      },
+      {
+        "uuid": "6e4ea43a-94b8-52e5-b432-560997c2fe11",
+        "name": "Decree of Justice",
+        "weight": 450
+      },
+      {
+        "uuid": "733f028f-8cc0-56d7-9f8d-342015fc7ed3",
+        "name": "Estrid's Invocation",
+        "weight": 142
+      },
+      {
+        "uuid": "836961bd-fdae-5f9b-b943-199be94b1d3a",
+        "name": "Phyrexian Tower",
+        "weight": 69
+      },
+      {
+        "uuid": "83894c8c-77c0-5974-aada-c02649216e88",
+        "name": "Orim's Chant",
+        "weight": 142
+      },
+      {
+        "uuid": "962b0255-09ae-5989-a56e-ccd838b75238",
+        "name": "Fledgling Dragon",
+        "weight": 450
+      },
+      {
+        "uuid": "969ca6ce-eb1b-50de-89ad-61b4f24c02b4",
+        "name": "Priest of Titania",
+        "weight": 450
+      },
+      {
+        "uuid": "972648aa-a151-5eb1-98c2-50f5a631d03f",
+        "name": "Sapphire Medallion",
+        "weight": 142
+      },
+      {
+        "uuid": "9ad885a8-66c5-5027-97b6-04c225fdf99c",
+        "name": "Wirewood Symbiote",
+        "weight": 450
+      },
+      {
+        "uuid": "9d65a815-f542-5209-855a-0c3ee0b3d84b",
+        "name": "Ophiomancer",
+        "weight": 142
+      },
+      {
+        "uuid": "b2612df4-4767-5ee3-b65d-f6ce68dcb93c",
+        "name": "Kappa Cannoneer",
+        "weight": 142
+      },
+      {
+        "uuid": "b77387cf-6699-5577-bb61-2bae0fb88f1e",
+        "name": "Sevinne's Reclamation",
+        "weight": 142
+      },
+      {
+        "uuid": "b854fc5a-6cfd-55d5-8bfd-4ca0632a5b42",
+        "name": "Barbarian Ring",
+        "weight": 450
+      },
+      {
+        "uuid": "c356051d-8370-5302-b258-f6b966966110",
+        "name": "Branching Evolution",
+        "weight": 142
+      },
+      {
+        "uuid": "ca100dbd-60c0-517c-bf67-070a5bfa736d",
+        "name": "Cephalid Coliseum",
+        "weight": 450
+      },
+      {
+        "uuid": "d911421a-1b46-55df-a34d-0bad4aeb8b11",
+        "name": "Annoyed Altisaur",
+        "weight": 450
+      },
+      {
+        "uuid": "dbd87492-aa7e-590e-a529-4449a7fb0ee7",
+        "name": "Deserted Temple",
+        "weight": 142
+      },
+      {
+        "uuid": "e1980ca7-9176-5156-84d1-f6c48c7d9117",
+        "name": "Buried Alive",
+        "weight": 450
+      },
+      {
+        "uuid": "f8ee5841-00a6-52bf-820d-a4fa29e18fe6",
+        "name": "Kaalia of the Vast",
+        "weight": 69
+      }
+    ]
+  },
+  "specialGuest": {
+    "cards": [
+      {
+        "uuid": "3fa69df6-43fc-5a52-99ed-9660388da96b",
+        "name": "Endurance",
+        "weight": 1
+      },
+      {
+        "uuid": "4998a75c-ca40-5d73-ad65-d73c40f47f73",
+        "name": "Expressive Iteration",
+        "weight": 1
+      },
+      {
+        "uuid": "6dc16824-51e0-5ea4-bd3c-e078bdc6d606",
+        "name": "Solitude",
+        "weight": 1
+      },
+      {
+        "uuid": "83641675-8875-5662-9925-8ce6f845b421",
+        "name": "Fury",
+        "weight": 1
+      },
+      {
+        "uuid": "a8d64cf3-a149-538c-816d-b0926d9dde4f",
+        "name": "Dismember",
+        "weight": 1
+      },
+      {
+        "uuid": "bb87dc6b-8c64-5bf6-9930-6fefceec072b",
+        "name": "Thought-Knot Seer",
+        "weight": 1
+      },
+      {
+        "uuid": "d9c661e4-0a85-56d8-91fb-54fd23f5f19e",
+        "name": "Persist",
+        "weight": 1
+      },
+      {
+        "uuid": "db1a6d0c-b732-522e-aa3d-a364ec4bca2f",
+        "name": "Subtlety",
+        "weight": 1
+      },
+      {
+        "uuid": "de56e60e-94de-5c5a-b704-7658d27c4de6",
+        "name": "Grief",
+        "weight": 1
+      },
+      {
+        "uuid": "e9ce2a49-98ba-5d66-b53a-0b1fc911bc41",
+        "name": "Prismatic Ending",
+        "weight": 1
+      }
+    ]
+  },
+  "wildcard": {
+    "cards": [
+      {
+        "uuid": "00cb0247-c29c-5781-99ed-ee67097561d7",
+        "name": "Phyrexian Ironworks",
+        "weight": 2720
+      },
+      {
+        "uuid": "01af488b-2004-5f7b-92ed-613c42acca47",
+        "name": "Charitable Levy",
+        "weight": 2720
+      },
+      {
+        "uuid": "01c0a75b-3bf1-51e3-9960-da9e843a3858",
+        "name": "Flare of Malice",
+        "weight": 960
+      },
+      {
+        "uuid": "02791d8b-58da-5d60-939d-c78899a1db53",
+        "name": "Breaker of Creation",
+        "weight": 2720
+      },
+      {
+        "uuid": "03015878-fb30-5020-b03f-e87c7c880c7d",
+        "name": "Invert Polarity",
+        "weight": 960
+      },
+      {
+        "uuid": "0405fbef-3910-5997-8895-d59da67155a9",
+        "name": "Ugin's Binding",
+        "weight": 432
+      },
+      {
+        "uuid": "041e10fd-833e-5d6e-866f-6a412f1f0c16",
+        "name": "Nadu, Winged Wisdom",
+        "weight": 960
+      },
+      {
+        "uuid": "0423c2bc-6f15-5459-9062-c21a50742a79",
+        "name": "Electrozoa",
+        "weight": 4509
+      },
+      {
+        "uuid": "044b5388-caf5-5088-9f30-0b68d24ad214",
+        "name": "Muster the Departed",
+        "weight": 2720
+      },
+      {
+        "uuid": "04d61069-61b8-5e6e-a03c-b6377030efa4",
+        "name": "Idol of False Gods",
+        "weight": 2720
+      },
+      {
+        "uuid": "05070f60-1fb1-5a87-97b7-7c898a7309ff",
+        "name": "Rush of Inspiration",
+        "weight": 2736
+      },
+      {
+        "uuid": "05dfa15e-1a10-5c75-8e62-26c55b2333bf",
+        "name": "Glimpse the Impossible",
+        "weight": 4509
+      },
+      {
+        "uuid": "08af11d6-5493-5b56-9a7b-b5e4ce8d0f53",
+        "name": "Ashling, Flame Dancer",
+        "weight": 432
+      },
+      {
+        "uuid": "08cd7471-6e11-54b0-b60e-d5592646e95d",
+        "name": "Roil Cartographer",
+        "weight": 2720
+      },
+      {
+        "uuid": "091dcfd4-feec-5bd8-870a-4e48382b8959",
+        "name": "Genku, Future Shaper",
+        "weight": 960
+      },
+      {
+        "uuid": "095261f9-a35e-56de-95bb-2454c0efc90e",
+        "name": "Grim Servant",
+        "weight": 2720
+      },
+      {
+        "uuid": "0a0ecc26-2faf-5f5b-8121-de983a204c26",
+        "name": "Galvanic Discharge",
+        "weight": 4509
+      },
+      {
+        "uuid": "0ae63b32-dbcd-5cea-9146-f3f7069e935a",
+        "name": "Riddle Gate Gargoyle",
+        "weight": 4509
+      },
+      {
+        "uuid": "0b3a0f36-8e1c-5635-ab35-3e0410367e5f",
+        "name": "Bespoke Battlewagon",
+        "weight": 2720
+      },
+      {
+        "uuid": "0bf9374c-6fa8-577c-84e4-e293478228dc",
+        "name": "Infernal Captor",
+        "weight": 4509
+      },
+      {
+        "uuid": "0c127932-ffc2-55e5-b817-0ef7d94a48e9",
+        "name": "Dreamtide Whale",
+        "weight": 960
+      },
+      {
+        "uuid": "0ca5ef79-ca0b-5fc6-b108-2dc6f3d970d2",
+        "name": "Emrakul, the World Anew",
+        "weight": 432
+      },
+      {
+        "uuid": "0d0ef2d8-f0ea-55b3-9ffc-2fb64a4cf645",
+        "name": "Trickster's Elk",
+        "weight": 2720
+      },
+      {
+        "uuid": "0d2d7b81-2d82-5c26-ab22-59b8982de648",
+        "name": "Utter Insignificance",
+        "weight": 4509
+      },
+      {
+        "uuid": "10d150a0-4fbd-5afc-a97a-653a2a67d723",
+        "name": "Harbinger of the Seas",
+        "weight": 960
+      },
+      {
+        "uuid": "11feee44-ebca-5f59-afac-b8d5ea926a24",
+        "name": "Collective Resistance",
+        "weight": 2720
+      },
+      {
+        "uuid": "12069abb-426a-5e47-bb1c-2eea7ce6d2d4",
+        "name": "Cranial Ram",
+        "weight": 4509
+      },
+      {
+        "uuid": "14ec75b3-3500-5ac1-afb6-c61e7ae25226",
+        "name": "Eldrazi Linebreaker",
+        "weight": 960
+      },
+      {
+        "uuid": "172c14e1-bc59-572c-aa72-f3a8118d6108",
+        "name": "Thriving Skyclaw",
+        "weight": 4509
+      },
+      {
+        "uuid": "17faa53a-33e9-5015-992b-dd1a048ae83c",
+        "name": "Sneaky Snacker",
+        "weight": 4509
+      },
+      {
+        "uuid": "18b918c9-af6d-5138-8ed5-6391a978bbd9",
+        "name": "Petrifying Meddler",
+        "weight": 4509
+      },
+      {
+        "uuid": "18bf5cfc-c0f9-57a9-8592-b3949d4f545f",
+        "name": "Colossal Dreadmask",
+        "weight": 4509
+      },
+      {
+        "uuid": "1905b86c-a20e-534c-870d-f3ac1f6704a4",
+        "name": "Emperor of Bones",
+        "weight": 960
+      },
+      {
+        "uuid": "199bd3be-d81e-567a-ae41-8de1c6d35f4b",
+        "name": "Evolution Witness",
+        "weight": 4509
+      },
+      {
+        "uuid": "1a246652-3682-5efb-bc97-8cf82ca0c3dc",
+        "name": "Disruptor Flute",
+        "weight": 960
+      },
+      {
+        "uuid": "1c7aa0bd-cffb-51c4-a34e-4f6941bc15e6",
+        "name": "Urza's Cave",
+        "weight": 2720
+      },
+      {
+        "uuid": "1c99e4a9-057e-5e5d-aeb1-a42842be8319",
+        "name": "Reiterating Bolt",
+        "weight": 2720
+      },
+      {
+        "uuid": "1cac1d46-56be-5690-ab52-a1227e2fc58f",
+        "name": "Hydra Trainer",
+        "weight": 2720
+      },
+      {
+        "uuid": "1e4983e2-644a-5deb-9847-1e9fce802950",
+        "name": "Archway of Innovation",
+        "weight": 960
+      },
+      {
+        "uuid": "1ecb8709-4a82-5e08-81fd-d1e358723e79",
+        "name": "Kudo, King Among Bears",
+        "weight": 960
+      },
+      {
+        "uuid": "1f760ed3-f217-56ef-b776-e90754471071",
+        "name": "The Hunger Tide Rises",
+        "weight": 2720
+      },
+      {
+        "uuid": "20f72f1a-8ca3-5efb-b395-0867e7afbc9f",
+        "name": "Malevolent Rumble",
+        "weight": 4509
+      },
+      {
+        "uuid": "232adf27-a52e-57cc-9006-35215af05a9e",
+        "name": "Springheart Nantuko",
+        "weight": 960
+      },
+      {
+        "uuid": "242f794d-c10c-51c9-a67f-caa4772466d8",
+        "name": "Inspired Inventor",
+        "weight": 4509
+      },
+      {
+        "uuid": "24488650-34e7-576c-8533-4735246dba55",
+        "name": "Phelia, Exuberant Shepherd",
+        "weight": 960
+      },
+      {
+        "uuid": "2461aba8-093a-56d1-b471-fc233524d8c3",
+        "name": "Wither and Bloom",
+        "weight": 4509
+      },
+      {
+        "uuid": "265004b8-2140-5555-98fd-c73a6a79f780",
+        "name": "Etherium Pteramander",
+        "weight": 2720
+      },
+      {
+        "uuid": "27310488-922d-5d07-9b2a-b4139d26aa63",
+        "name": "Sorin of House Markov",
+        "weight": 432
+      },
+      {
+        "uuid": "287fdf3e-6d47-5819-bd9f-2135af961b18",
+        "name": "Voidpouncer",
+        "weight": 4509
+      },
+      {
+        "uuid": "28ba6129-362f-5cfb-8ddc-9e5310649eba",
+        "name": "Sage of the Unknowable",
+        "weight": 4509
+      },
+      {
+        "uuid": "2b2da129-2c69-5d23-a4a6-7d1998afb9ea",
+        "name": "Waterlogged Teachings",
+        "weight": 2736
+      },
+      {
+        "uuid": "2bd36d2c-750f-54bc-afe6-248e7e50e423",
+        "name": "Static Prison",
+        "weight": 2720
+      },
+      {
+        "uuid": "2d63cec1-e3ed-55e7-baf8-6d72e1cd1297",
+        "name": "Wumpus Aberration",
+        "weight": 2720
+      },
+      {
+        "uuid": "2dd99920-7cf9-5c46-8d3c-aa161ac1e844",
+        "name": "Foreboding Landscape",
+        "weight": 4509
+      },
+      {
+        "uuid": "2e429867-a992-5cce-9d5d-44cf934f6d02",
+        "name": "Aerie Auxiliary",
+        "weight": 4509
+      },
+      {
+        "uuid": "30c90adb-d95e-5daf-a3a4-e464eade96d6",
+        "name": "Rosheen, Roaring Prophet",
+        "weight": 960
+      },
+      {
+        "uuid": "310d79cf-56f7-5837-a77e-9bae78afbc9a",
+        "name": "Revitalizing Repast",
+        "weight": 2736
+      },
+      {
+        "uuid": "31768fbb-b480-5ce7-aecf-0f1fa7ea32d5",
+        "name": "Flare of Denial",
+        "weight": 960
+      },
+      {
+        "uuid": "31f79b60-43a2-5dc1-b1bc-f366b985d61c",
+        "name": "Guardian of the Forgotten",
+        "weight": 2720
+      },
+      {
+        "uuid": "322531f6-7b3b-5860-85fe-f72eb0380dcd",
+        "name": "Frogmyr Enforcer",
+        "weight": 2720
+      },
+      {
+        "uuid": "3336474a-97a4-52d5-8ad4-1378f9f4377c",
+        "name": "Shadow of the Second Sun",
+        "weight": 432
+      },
+      {
+        "uuid": "33a10cfc-d13d-5e15-8f6b-932ae2e633d8",
+        "name": "Retrofitted Transmogrant",
+        "weight": 4509
+      },
+      {
+        "uuid": "33b46870-f94a-5c52-ae96-4cfad384e5e3",
+        "name": "Imskir Iron-Eater",
+        "weight": 960
+      },
+      {
+        "uuid": "33c71b11-67e2-51b1-b4e8-2c429197525d",
+        "name": "Wheel of Potential",
+        "weight": 960
+      },
+      {
+        "uuid": "34248229-f58c-553a-adca-9395f9cc6f0a",
+        "name": "Dreamdrinker Vampire",
+        "weight": 4509
+      },
+      {
+        "uuid": "34583a06-d3ce-5963-a0f5-9626c1a6c7f5",
+        "name": "Thraben Charm",
+        "weight": 4509
+      },
+      {
+        "uuid": "34b4c375-dad5-5b75-9bd1-dcca15020b58",
+        "name": "Tamiyo Meets the Story Circle",
+        "weight": 2720
+      },
+      {
+        "uuid": "351d9157-e823-55ff-8967-3008972d3795",
+        "name": "Breathe Your Last",
+        "weight": 4509
+      },
+      {
+        "uuid": "38728faa-eeb6-55b0-9f6c-f48a6c0fc88a",
+        "name": "Null Elemental Blast",
+        "weight": 2720
+      },
+      {
+        "uuid": "3886296c-9119-5a91-8823-03894745ab05",
+        "name": "Refurbished Familiar",
+        "weight": 4509
+      },
+      {
+        "uuid": "38abcca7-5ee7-5bd6-a49b-9220533a95a4",
+        "name": "Ghostfire Slice",
+        "weight": 2720
+      },
+      {
+        "uuid": "39bc978e-fe2d-5132-bead-0bda7020716c",
+        "name": "Bridgeworks Battle",
+        "weight": 2736
+      },
+      {
+        "uuid": "3a1de3f6-3b8d-508c-a396-82e5021f30f3",
+        "name": "Tune the Narrative",
+        "weight": 4509
+      },
+      {
+        "uuid": "3a2ad1db-5528-5308-820a-766887fa9279",
+        "name": "Arna Kenner\u00fcd, Skycaptain",
+        "weight": 432
+      },
+      {
+        "uuid": "3a98f320-5bb3-5602-9d25-3cd5d8ef88f3",
+        "name": "Razorgrass Ambush",
+        "weight": 2736
+      },
+      {
+        "uuid": "3abdb988-ee5f-568f-8582-44f86be8ec31",
+        "name": "Etched Slith",
+        "weight": 2720
+      },
+      {
+        "uuid": "3aeff659-75db-51b6-8364-902094db22ab",
+        "name": "Aether Revolt",
+        "weight": 960
+      },
+      {
+        "uuid": "3b908dd3-a9ca-53d7-aae4-121760e6c2e0",
+        "name": "Flare of Cultivation",
+        "weight": 960
+      },
+      {
+        "uuid": "3bb1c660-988c-561a-9e14-3f388c1c0f49",
+        "name": "Wastescape Battlemage",
+        "weight": 2720
+      },
+      {
+        "uuid": "3de8237d-713a-519b-8946-c78cb2ce5c50",
+        "name": "Fanged Flames",
+        "weight": 4509
+      },
+      {
+        "uuid": "3e181565-80ae-51ca-a257-0f85253f9803",
+        "name": "Eviscerator's Insight",
+        "weight": 4509
+      },
+      {
+        "uuid": "408eea78-22e9-59c0-a714-502075b40436",
+        "name": "Stump Stomp",
+        "weight": 2736
+      },
+      {
+        "uuid": "410b91e9-36e3-590c-bfe7-10cc8c74e72e",
+        "name": "Devourer of Destiny",
+        "weight": 960
+      },
+      {
+        "uuid": "41c24fa2-edcd-5eaf-bbdf-5202b3a4bb26",
+        "name": "Smelted Chargebug",
+        "weight": 4509
+      },
+      {
+        "uuid": "440234d7-451c-5214-bbbf-b7497972156c",
+        "name": "Mandibular Kite",
+        "weight": 4509
+      },
+      {
+        "uuid": "444ba7ac-40cb-5f4c-b715-55569cb5c7f2",
+        "name": "Wrath of the Skies",
+        "weight": 960
+      },
+      {
+        "uuid": "44655c66-f06b-5afa-9707-3fd1cbb5ef81",
+        "name": "Accursed Marauder",
+        "weight": 4509
+      },
+      {
+        "uuid": "4508bde5-72d3-503b-a6e0-756bc70b21a5",
+        "name": "Pearl-Ear, Imperial Advisor",
+        "weight": 960
+      },
+      {
+        "uuid": "46f35ab1-553b-57df-bfa5-3de7baf21dbc",
+        "name": "Deem Inferior",
+        "weight": 4509
+      },
+      {
+        "uuid": "4735928e-7ad1-542c-b43c-268ec6eddc87",
+        "name": "Sink into Stupor",
+        "weight": 2736
+      },
+      {
+        "uuid": "4781e96c-6301-5160-abd4-60e11f997e27",
+        "name": "Suppression Ray",
+        "weight": 2736
+      },
+      {
+        "uuid": "484f3599-cb82-519e-a078-b6569a65d6a5",
+        "name": "Eladamri, Korvecdal",
+        "weight": 432
+      },
+      {
+        "uuid": "4851c79b-ebcd-5291-9181-1e26ee2b98c3",
+        "name": "Molten Gatekeeper",
+        "weight": 4509
+      },
+      {
+        "uuid": "4b8ed103-5009-54f1-b40d-49b65edc9409",
+        "name": "Wooded Foothills",
+        "weight": 960
+      },
+      {
+        "uuid": "4c4f9a34-774a-55c1-8cb3-b172ab524709",
+        "name": "Nightshade Dryad",
+        "weight": 4509
+      },
+      {
+        "uuid": "4c66fd7a-707d-560f-8923-344339ce8e63",
+        "name": "Aether Spike",
+        "weight": 4509
+      },
+      {
+        "uuid": "4cc01edd-4bbc-5d96-ab62-ca8907583364",
+        "name": "Argent Dais",
+        "weight": 960
+      },
+      {
+        "uuid": "4cecf2b1-82ae-56a9-99ca-73c4c79477ec",
+        "name": "Six",
+        "weight": 960
+      },
+      {
+        "uuid": "4db7e6f9-34b4-5887-8f88-c5d9dcb63e72",
+        "name": "Faithful Watchdog",
+        "weight": 4509
+      },
+      {
+        "uuid": "4eee2d26-8ef5-5d1c-9dc4-3e443d3cbbfc",
+        "name": "Wing It",
+        "weight": 4509
+      },
+      {
+        "uuid": "4f0f36da-60fc-52e6-9e55-de4b638a1a13",
+        "name": "Spawn-Gang Commander",
+        "weight": 2720
+      },
+      {
+        "uuid": "52f7d503-dd20-5f85-8c62-97005958ba6c",
+        "name": "The Necrobloom",
+        "weight": 960
+      },
+      {
+        "uuid": "53df824f-d506-5a67-8280-e97b93d3f5f8",
+        "name": "Emissary of Soulfire",
+        "weight": 2720
+      },
+      {
+        "uuid": "549699dc-f041-593b-af40-90d76450c283",
+        "name": "Polluted Delta",
+        "weight": 960
+      },
+      {
+        "uuid": "55596b28-3a7e-5f4d-aeee-73186aa23f76",
+        "name": "Scurry of Gremlins",
+        "weight": 2720
+      },
+      {
+        "uuid": "561ab67c-2a60-5ca4-a7a0-2ea8cc976a95",
+        "name": "Marionette Apprentice",
+        "weight": 2720
+      },
+      {
+        "uuid": "56291a1e-dcd9-593b-95e7-67ea58e5288f",
+        "name": "Solstice Zealot",
+        "weight": 4509
+      },
+      {
+        "uuid": "56d32dd5-271c-5d1b-a5a7-02a6667f4f55",
+        "name": "Party Thrasher",
+        "weight": 960
+      },
+      {
+        "uuid": "572e4801-4d0d-5cab-8183-9fc8b9f05630",
+        "name": "Cursed Wombat",
+        "weight": 2720
+      },
+      {
+        "uuid": "576d2423-d76f-5cfa-968a-89c55b8c89c4",
+        "name": "Hope-Ender Coatl",
+        "weight": 2720
+      },
+      {
+        "uuid": "578e7410-549e-5ebb-9048-7a60485c91e4",
+        "name": "Legion Leadership",
+        "weight": 2736
+      },
+      {
+        "uuid": "5849ba01-735a-59fb-89e6-a12d6c4ef09c",
+        "name": "Volatile Stormdrake",
+        "weight": 960
+      },
+      {
+        "uuid": "587bebb1-e19a-56af-8c80-cfe94ee23ece",
+        "name": "Flooded Strand",
+        "weight": 960
+      },
+      {
+        "uuid": "589c89e9-d149-5d15-9640-3bf6e9a456c4",
+        "name": "The Creation of Avacyn",
+        "weight": 2720
+      },
+      {
+        "uuid": "5b1c1595-0ff7-5122-90cd-13b2c691aef2",
+        "name": "Quest for the Necropolis",
+        "weight": 2720
+      },
+      {
+        "uuid": "5b2e2819-265b-580a-8f4f-453b9e7f5ec5",
+        "name": "Fowl Strike",
+        "weight": 4509
+      },
+      {
+        "uuid": "5b8e03cd-1735-53cb-ab9f-9748eefafa6b",
+        "name": "Glasswing Grace",
+        "weight": 2736
+      },
+      {
+        "uuid": "5cb278da-b220-5033-8cda-27ee257315bb",
+        "name": "Scurrilous Sentry",
+        "weight": 4509
+      },
+      {
+        "uuid": "5f82e093-44ee-5fc9-9dbe-8a622e6cda9a",
+        "name": "Path of Annihilation",
+        "weight": 2720
+      },
+      {
+        "uuid": "603f6ca3-4d99-5a18-9c3f-73ecbabaeaf4",
+        "name": "Monstrous Vortex",
+        "weight": 2720
+      },
+      {
+        "uuid": "614503bf-187d-59b2-9271-1fa4f5e79fbd",
+        "name": "Writhing Chrysalis",
+        "weight": 4509
+      },
+      {
+        "uuid": "614f1d54-6bc9-5578-a9c3-d4d446b4a9ab",
+        "name": "Tamiyo, Inquisitive Student",
+        "weight": 432
+      },
+      {
+        "uuid": "61c5b907-b692-5562-bce1-5d67534fcf1b",
+        "name": "Tempest Harvester",
+        "weight": 4509
+      },
+      {
+        "uuid": "644b6ce8-b07d-5840-8238-55cb3841e803",
+        "name": "Omo, Queen of Vesuva",
+        "weight": 2250
+      },
+      {
+        "uuid": "654d91ae-f8b5-5f0a-a609-d2d1fec2254b",
+        "name": "Titans' Vanguard",
+        "weight": 2720
+      },
+      {
+        "uuid": "664b67e7-c7b3-5753-a3af-b1f708b7b29c",
+        "name": "Metastatic Evangel",
+        "weight": 2720
+      },
+      {
+        "uuid": "69d09b89-cdfb-5fe3-8171-084b61e50d9b",
+        "name": "Kami of Jealous Thirst",
+        "weight": 4509
+      },
+      {
+        "uuid": "6bae738d-fba6-5bf9-9f81-12f7e4f51b09",
+        "name": "Pyretic Rebirth",
+        "weight": 2720
+      },
+      {
+        "uuid": "6beb5ea1-2135-5c15-837e-ee47b92b8c69",
+        "name": "Nethergoyf",
+        "weight": 432
+      },
+      {
+        "uuid": "6c41fe29-0a3a-5eb8-bcf4-b4668770df5d",
+        "name": "Nyxborn Unicorn",
+        "weight": 4509
+      },
+      {
+        "uuid": "6e9099be-3ffd-504c-bcfe-7c7296463e30",
+        "name": "Solar Transformer",
+        "weight": 2720
+      },
+      {
+        "uuid": "6ea65582-7b07-5eb0-a388-0ea914785d02",
+        "name": "Flare of Fortitude",
+        "weight": 960
+      },
+      {
+        "uuid": "6f7e51c2-dc49-5aa6-b83c-8d543d15f027",
+        "name": "Nulldrifter",
+        "weight": 960
+      },
+      {
+        "uuid": "6f9ee059-17d1-5d10-b1ce-fa984edd7202",
+        "name": "Gift of the Viper",
+        "weight": 4509
+      },
+      {
+        "uuid": "6fe5f480-a737-5d92-b6a1-29b594bf9f14",
+        "name": "Proud Pack-Rhino",
+        "weight": 2720
+      },
+      {
+        "uuid": "70f6d0da-e27a-54a7-be99-b02e9109c643",
+        "name": "Jyoti, Moag Ancient",
+        "weight": 2250
+      },
+      {
+        "uuid": "710cd074-c5c1-507c-8fd9-8cab17108edd",
+        "name": "Unfathomable Truths",
+        "weight": 4509
+      },
+      {
+        "uuid": "71ced676-d4f3-5da5-98e2-a6be14cb5dd7",
+        "name": "White Orchid Phantom",
+        "weight": 960
+      },
+      {
+        "uuid": "736e5898-943f-52d5-84d7-8f0dd9c5965a",
+        "name": "Furnace Hellkite",
+        "weight": 2720
+      },
+      {
+        "uuid": "737c15c5-e881-52a6-828e-97cc0edc62c2",
+        "name": "Fangs of Kalonia",
+        "weight": 2720
+      },
+      {
+        "uuid": "73a2f007-3c00-57cd-8311-97550fb73d53",
+        "name": "Golden-Tail Trainer",
+        "weight": 2720
+      },
+      {
+        "uuid": "74eed19c-0a4f-5d75-bd1a-87d2959dd545",
+        "name": "Azlask, the Swelling Scourge",
+        "weight": 2250
+      },
+      {
+        "uuid": "758c23a7-75d9-58a1-aff2-fc0a817bc7bb",
+        "name": "Corrupted Shapeshifter",
+        "weight": 4509
+      },
+      {
+        "uuid": "75ebcc1a-8fb3-536b-9f9d-c412826a4432",
+        "name": "Shattered Landscape",
+        "weight": 4509
+      },
+      {
+        "uuid": "767fd71b-7f44-5e8a-b681-1ef52e137fbf",
+        "name": "Ugin's Labyrinth",
+        "weight": 432
+      },
+      {
+        "uuid": "786439eb-32e9-5ac9-922d-94f7605fe194",
+        "name": "Warren Soultrader",
+        "weight": 960
+      },
+      {
+        "uuid": "7cb34093-8dfb-595a-9fe5-ede07143b696",
+        "name": "Sheltering Landscape",
+        "weight": 4509
+      },
+      {
+        "uuid": "7ccb4f69-c1dc-57a6-b7d6-24bba2a33f94",
+        "name": "Strength of the Harvest",
+        "weight": 2736
+      },
+      {
+        "uuid": "7f4e041e-0278-5b22-9765-6723755533d0",
+        "name": "Hexgold Slith",
+        "weight": 4509
+      },
+      {
+        "uuid": "7f62a152-f57e-59ff-934e-1f7d51af4e15",
+        "name": "Abstruse Appropriation",
+        "weight": 960
+      },
+      {
+        "uuid": "7ff0f7cb-d87a-590b-82e1-a5a56f60084c",
+        "name": "Grist, Voracious Larva",
+        "weight": 432
+      },
+      {
+        "uuid": "810d9bdc-8ecb-5ae5-8131-5dbda9df6ca2",
+        "name": "Windswept Heath",
+        "weight": 960
+      },
+      {
+        "uuid": "8183ba2c-988a-50c5-92c4-98498ffb1730",
+        "name": "Ulamog, the Defiler",
+        "weight": 432
+      },
+      {
+        "uuid": "83ad96e8-e01b-58cf-820e-d2c86a3a74d7",
+        "name": "Indebted Spirit",
+        "weight": 2720
+      },
+      {
+        "uuid": "843bdfed-0fb0-54d7-9936-7d0ef5319f55",
+        "name": "Expel the Unworthy",
+        "weight": 4509
+      },
+      {
+        "uuid": "85444a87-aa7b-509a-acc9-6af666903b35",
+        "name": "Brainsurge",
+        "weight": 2720
+      },
+      {
+        "uuid": "860928cf-17e9-53c9-8fc1-d71f1ca531f3",
+        "name": "Horrid Shadowspinner",
+        "weight": 2720
+      },
+      {
+        "uuid": "8a94d048-e6b1-51c0-8c05-2267f800b3b0",
+        "name": "Ajani Fells the Godsire",
+        "weight": 2720
+      },
+      {
+        "uuid": "8bdef6a5-46f7-5e5d-979f-a95c3f8f0b98",
+        "name": "Vexing Bauble",
+        "weight": 2720
+      },
+      {
+        "uuid": "8c8b5487-38d3-5ecc-8632-abb2d2721052",
+        "name": "Powerbalance",
+        "weight": 960
+      },
+      {
+        "uuid": "8d95401a-8b91-5c1b-b5eb-eb7e23fd6c4c",
+        "name": "Birthing Ritual",
+        "weight": 432
+      },
+      {
+        "uuid": "90e2259b-cd91-5547-853e-b820e2134692",
+        "name": "Warped Tusker",
+        "weight": 4509
+      },
+      {
+        "uuid": "91031d68-29c0-515f-9633-118c4d10a7a0",
+        "name": "Jolted Awake",
+        "weight": 4509
+      },
+      {
+        "uuid": "913df8e4-c396-5e27-b3b5-5bc7e869a5a9",
+        "name": "Strix Serenade",
+        "weight": 960
+      },
+      {
+        "uuid": "91824013-3dc1-597a-ab68-f1d439964fc0",
+        "name": "Satya, Aetherflux Genius",
+        "weight": 2250
+      },
+      {
+        "uuid": "9191bfd4-a5f4-543c-9f72-b0ccb3fae2bc",
+        "name": "Ajani, Nacatl Pariah",
+        "weight": 432
+      },
+      {
+        "uuid": "91df80c1-197f-5f5d-92ac-761ce4af622e",
+        "name": "Crabomination",
+        "weight": 960
+      },
+      {
+        "uuid": "93657372-7c9b-5b40-b6d4-dfb5ef15175a",
+        "name": "Territory Culler",
+        "weight": 2720
+      },
+      {
+        "uuid": "93b18ee7-08bf-585a-80ad-6fe27fa9d438",
+        "name": "Mindless Conscription",
+        "weight": 2720
+      },
+      {
+        "uuid": "93b21db2-7673-585c-abf8-254616974c7c",
+        "name": "Wurmcoil Larva",
+        "weight": 2720
+      },
+      {
+        "uuid": "94499941-afe4-533a-a698-3277da40f2b5",
+        "name": "Sundering Eruption",
+        "weight": 2736
+      },
+      {
+        "uuid": "96aa47a6-9a78-57b5-97b8-f99918b0a348",
+        "name": "Serum Visionary",
+        "weight": 4509
+      },
+      {
+        "uuid": "9aa66138-80e5-556a-9c8e-cebbe0a67692",
+        "name": "Drownyard Lurker",
+        "weight": 4509
+      },
+      {
+        "uuid": "9ceed8dd-1373-584b-a654-6d8798b2e37d",
+        "name": "Deceptive Landscape",
+        "weight": 4509
+      },
+      {
+        "uuid": "9cf1c168-a91f-57d0-a4b0-d7ee57c0c2f5",
+        "name": "Shilgengar, Sire of Famine",
+        "weight": 960
+      },
+      {
+        "uuid": "9d9ac668-fbfc-59f9-8a7f-cf5a832c65e5",
+        "name": "Gravedig",
+        "weight": 4509
+      },
+      {
+        "uuid": "9da7f8de-25d5-5caf-8c09-0f534d0fe609",
+        "name": "Kozilek, the Broken Reality",
+        "weight": 432
+      },
+      {
+        "uuid": "9efa8cf9-13eb-582c-9855-6211b9d05ade",
+        "name": "Ulalek, Fused Atrocity",
+        "weight": 2250
+      },
+      {
+        "uuid": "9f47fd7a-c051-5f02-a730-8d729739263c",
+        "name": "Signature Slam",
+        "weight": 2720
+      },
+      {
+        "uuid": "9f523b19-c1ef-5858-b948-0fed2a01c3ee",
+        "name": "Lion Umbra",
+        "weight": 2720
+      },
+      {
+        "uuid": "9ff09957-8a19-5826-829c-967017a4c7b4",
+        "name": "Glaring Fleshraker",
+        "weight": 2720
+      },
+      {
+        "uuid": "a0a41612-27ca-5b16-b3db-d1bad8d45b64",
+        "name": "Flare of Duplication",
+        "weight": 960
+      },
+      {
+        "uuid": "a209562e-4b50-5534-94dc-87393218fcaf",
+        "name": "Depth Defiler",
+        "weight": 2720
+      },
+      {
+        "uuid": "a3aeec60-595a-5847-a678-3fe0b7f2b95a",
+        "name": "Dog Umbra",
+        "weight": 4509
+      },
+      {
+        "uuid": "a415f4b4-5d2c-5da7-930d-83bd62b5dd24",
+        "name": "Disa the Restless",
+        "weight": 2250
+      },
+      {
+        "uuid": "a527d5f5-9f4d-53d2-b494-4c4e52068184",
+        "name": "Guide of Souls",
+        "weight": 960
+      },
+      {
+        "uuid": "a53b2279-d530-5f25-9587-831fe2246f15",
+        "name": "Lethal Throwdown",
+        "weight": 2720
+      },
+      {
+        "uuid": "a737a715-d53d-57e4-8186-21e3a56a048d",
+        "name": "Witch Enchanter",
+        "weight": 2736
+      },
+      {
+        "uuid": "a7531dc2-d9fa-5769-86ec-277a392a791a",
+        "name": "Arcbound Condor",
+        "weight": 2720
+      },
+      {
+        "uuid": "a92205db-6497-5911-af3d-b6232a3899bb",
+        "name": "Conduit Goblin",
+        "weight": 4509
+      },
+      {
+        "uuid": "a9531fb0-6a9d-5d03-b535-1edceddff956",
+        "name": "Drossclaw",
+        "weight": 4509
+      },
+      {
+        "uuid": "aa075f9d-1302-59cb-97da-d35f7501114b",
+        "name": "Nyxborn Hydra",
+        "weight": 4509
+      },
+      {
+        "uuid": "abda2134-de62-534f-b5eb-2b49f95981d0",
+        "name": "Herigast, Erupting Nullkite",
+        "weight": 432
+      },
+      {
+        "uuid": "abf0e10d-e128-58c7-83fd-6bf8526fb880",
+        "name": "Envoy of the Ancestors",
+        "weight": 2720
+      },
+      {
+        "uuid": "ac065932-5493-5e8c-a9b9-dd0469692ba5",
+        "name": "Phlage, Titan of Fire's Fury",
+        "weight": 432
+      },
+      {
+        "uuid": "ad13706b-0d65-5586-acdd-0575a5fc4549",
+        "name": "Propagator Drone",
+        "weight": 2720
+      },
+      {
+        "uuid": "ad20260f-e1bd-59c4-a578-eaefb04bcaaa",
+        "name": "Essence Reliquary",
+        "weight": 2720
+      },
+      {
+        "uuid": "ad6a8fc8-94bf-5da1-9ad6-711642e8df5a",
+        "name": "Primal Prayers",
+        "weight": 960
+      },
+      {
+        "uuid": "ad7d9412-4564-5a17-b0ff-c85f89065f16",
+        "name": "Kozilek's Command",
+        "weight": 960
+      },
+      {
+        "uuid": "aeb657d8-fc52-519c-baa6-8093f6b363ea",
+        "name": "Winter Moon",
+        "weight": 960
+      },
+      {
+        "uuid": "afe19133-5882-54da-bd94-fc39e2353965",
+        "name": "Wight of the Reliquary",
+        "weight": 960
+      },
+      {
+        "uuid": "b0265b85-7ae6-5a09-babe-27a16d3964db",
+        "name": "Unstable Amulet",
+        "weight": 2720
+      },
+      {
+        "uuid": "b045ab78-84a0-568c-b71c-1992e6f57bdc",
+        "name": "Fell the Profane",
+        "weight": 2736
+      },
+      {
+        "uuid": "b14b9b1c-8060-5db9-8520-8f71219b8a0b",
+        "name": "Rosecot Knight",
+        "weight": 4509
+      },
+      {
+        "uuid": "b2c4fa52-16e7-5ee0-958f-90dbac672681",
+        "name": "Sarpadian Simulacrum",
+        "weight": 4509
+      },
+      {
+        "uuid": "b7273086-1327-5cfc-bfe2-0bac73bd1e6f",
+        "name": "Consign to Memory",
+        "weight": 2720
+      },
+      {
+        "uuid": "b83057ae-433e-598f-965c-5c970a668f98",
+        "name": "Planar Genesis",
+        "weight": 2720
+      },
+      {
+        "uuid": "b8590cac-2714-5dcb-aa4b-6b684d50eb07",
+        "name": "Skittering Precursor",
+        "weight": 2720
+      },
+      {
+        "uuid": "bb0aab6d-0741-5f9d-bdd8-6a9d12a980f5",
+        "name": "Echoes of Eternity",
+        "weight": 960
+      },
+      {
+        "uuid": "bb762192-6788-53c7-b5ea-811ae295629c",
+        "name": "Drowner of Truth",
+        "weight": 2736
+      },
+      {
+        "uuid": "bc9614ef-1304-5986-a728-70880d4670e2",
+        "name": "Ondu Knotmaster",
+        "weight": 2720
+      },
+      {
+        "uuid": "bd5dc78e-e7ce-5f2a-9061-017e12ba2b9e",
+        "name": "Cayth, Famed Mechanist",
+        "weight": 2250
+      },
+      {
+        "uuid": "c094f759-c561-513c-b307-9ca4e0bb3b7a",
+        "name": "Bloodstained Mire",
+        "weight": 960
+      },
+      {
+        "uuid": "c398deca-20aa-5b75-bed8-3739eeb2f63e",
+        "name": "Ral, Monsoon Mage",
+        "weight": 432
+      },
+      {
+        "uuid": "c456fc6e-1ca5-518b-8f17-9eb057ef7891",
+        "name": "Izzet Generatorium",
+        "weight": 2720
+      },
+      {
+        "uuid": "c521d694-8b14-53c4-9320-6d94a5740c7e",
+        "name": "Bountiful Landscape",
+        "weight": 4509
+      },
+      {
+        "uuid": "c5e406cf-a4da-5d13-9557-7a372366bb7d",
+        "name": "Pinnacle Monk",
+        "weight": 2736
+      },
+      {
+        "uuid": "c817bb23-307e-5aeb-b463-a8aa10fde884",
+        "name": "Expanding Ooze",
+        "weight": 4509
+      },
+      {
+        "uuid": "c81a249e-e167-5820-ae3c-d2a3c9cb0312",
+        "name": "Reckless Pyrosurfer",
+        "weight": 2720
+      },
+      {
+        "uuid": "c8e344d4-aeb6-5f3e-9328-8b2948ec4a64",
+        "name": "Copycrook",
+        "weight": 2720
+      },
+      {
+        "uuid": "cbcb9d30-f6c0-5bbf-acf3-c0fd63d3ebee",
+        "name": "Contaminated Landscape",
+        "weight": 4509
+      },
+      {
+        "uuid": "cc4f98d1-1add-56b4-9e69-752b8ad082b7",
+        "name": "Triton Wavebreaker",
+        "weight": 2720
+      },
+      {
+        "uuid": "cddd8253-4b21-573a-9b7b-4a85597c88f8",
+        "name": "Bloodsoaked Insight",
+        "weight": 2736
+      },
+      {
+        "uuid": "ce4e660f-e971-53fe-a1f2-1c323f78f848",
+        "name": "Voltstorm Angel",
+        "weight": 2720
+      },
+      {
+        "uuid": "cf20d4e0-05df-5fff-85dd-768d3f92211a",
+        "name": "Thief of Existence",
+        "weight": 960
+      },
+      {
+        "uuid": "d2b86473-616c-50f7-89ec-8f0d0c5bd11d",
+        "name": "It That Heralds the End",
+        "weight": 2720
+      },
+      {
+        "uuid": "d3d31def-d7fc-5c85-b16c-956ccddc650c",
+        "name": "Eldrazi Repurposer",
+        "weight": 4509
+      },
+      {
+        "uuid": "d4003a6b-2200-5214-b07f-0deda2011fbb",
+        "name": "Snow-Covered Wastes",
+        "weight": 2720
+      },
+      {
+        "uuid": "d49ece9c-e674-56b4-b436-75d5ee89eb1a",
+        "name": "Disciple of Freyalise",
+        "weight": 2736
+      },
+      {
+        "uuid": "d6b52215-6c8f-520c-9d42-014e08cd036c",
+        "name": "Kozilek's Unsealing",
+        "weight": 2720
+      },
+      {
+        "uuid": "d78d59cc-901d-559a-b508-6f8179196a61",
+        "name": "Fetid Gargantua",
+        "weight": 4509
+      },
+      {
+        "uuid": "d8319975-b97a-5661-998f-2b1e118a0114",
+        "name": "Ral and the Implicit Maze",
+        "weight": 2720
+      },
+      {
+        "uuid": "dbc3b11a-79b5-56ff-8786-db3ef3f2a4ee",
+        "name": "Mogg Mob",
+        "weight": 2720
+      },
+      {
+        "uuid": "dd1407e1-b970-5cc0-bd05-8f823dc0b191",
+        "name": "Ripples of Undeath",
+        "weight": 960
+      },
+      {
+        "uuid": "dd2f7f8d-0b6c-5e6a-a50a-dc8b9cdbcbd7",
+        "name": "Necrodominance",
+        "weight": 432
+      },
+      {
+        "uuid": "ddb45742-fab2-5989-880f-681a2834148b",
+        "name": "Chthonian Nightmare",
+        "weight": 960
+      },
+      {
+        "uuid": "e0279383-d355-573f-a17e-ec621b53effe",
+        "name": "Glyph Elemental",
+        "weight": 2720
+      },
+      {
+        "uuid": "e06e4b32-af41-50a1-b6df-70150c43311b",
+        "name": "Ocelot Pride",
+        "weight": 432
+      },
+      {
+        "uuid": "e07f2836-14ee-5a83-8be3-79fde0041210",
+        "name": "Amphibian Downpour",
+        "weight": 960
+      },
+      {
+        "uuid": "e1779632-c645-5376-a734-f43c5612f8a5",
+        "name": "Siege Smash",
+        "weight": 4509
+      },
+      {
+        "uuid": "e1ca3b0e-9280-5ef7-ac23-2626c9837e4f",
+        "name": "Cyclops Superconductor",
+        "weight": 4509
+      },
+      {
+        "uuid": "e6de2375-a845-5147-821f-637bee301f48",
+        "name": "Tranquil Landscape",
+        "weight": 4509
+      },
+      {
+        "uuid": "e6e89362-eb3d-5897-b4ba-49437fddf728",
+        "name": "Emrakul's Messenger",
+        "weight": 2720
+      },
+      {
+        "uuid": "e790b126-ba6d-5ba2-8394-cd515429b01e",
+        "name": "Seething Landscape",
+        "weight": 4509
+      },
+      {
+        "uuid": "e82d179e-7201-5620-866d-d613e08fed41",
+        "name": "Coram, the Undertaker",
+        "weight": 2250
+      },
+      {
+        "uuid": "e90f91e6-0aea-5caf-b0d6-f3fd932da900",
+        "name": "Eldrazi Ravager",
+        "weight": 2720
+      },
+      {
+        "uuid": "eae1c717-0afa-59c8-a04f-9f253c8f16eb",
+        "name": "Inventor's Axe",
+        "weight": 4509
+      },
+      {
+        "uuid": "eb4cffdc-c32b-5679-9234-3943762e8cbe",
+        "name": "Psychic Frog",
+        "weight": 960
+      },
+      {
+        "uuid": "ebf28291-11c1-5140-a218-eee767332da2",
+        "name": "Snapping Voidcraw",
+        "weight": 4509
+      },
+      {
+        "uuid": "ec35f2dd-baf4-5bd2-ab08-85d14b251db5",
+        "name": "Hydroelectric Specimen",
+        "weight": 2736
+      },
+      {
+        "uuid": "ec41dbde-c951-5454-8210-e9fcad225741",
+        "name": "Arena of Glory",
+        "weight": 960
+      },
+      {
+        "uuid": "ecdd8036-5da7-596c-9e0d-7668f6d3fb0f",
+        "name": "Horrific Assault",
+        "weight": 4509
+      },
+      {
+        "uuid": "ee0375ba-2584-52f6-9298-ebc4a04da059",
+        "name": "Amped Raptor",
+        "weight": 2720
+      },
+      {
+        "uuid": "eed83a21-137e-56be-9ab2-4544b9060e0f",
+        "name": "Basking Broodscale",
+        "weight": 4509
+      },
+      {
+        "uuid": "ef9d4fb9-a6f6-5bbf-b654-b6986c3d1489",
+        "name": "Perilous Landscape",
+        "weight": 4509
+      },
+      {
+        "uuid": "f326634c-927c-593d-acfc-c8a76fc33d6a",
+        "name": "Fanatic of Rhonas",
+        "weight": 960
+      },
+      {
+        "uuid": "f34f3fed-44f9-5ae2-9e49-f1d19e5296b4",
+        "name": "Boggart Trawler",
+        "weight": 2736
+      },
+      {
+        "uuid": "f362acdd-02bd-5a0e-9710-9910badda67a",
+        "name": "Consuming Corruption",
+        "weight": 2720
+      },
+      {
+        "uuid": "f508210a-1ef0-549c-a9f9-4d71aeaa7a51",
+        "name": "Obstinate Gargoyle",
+        "weight": 4509
+      },
+      {
+        "uuid": "f733d252-2706-5ca9-b205-157041808c75",
+        "name": "Detective's Phoenix",
+        "weight": 960
+      },
+      {
+        "uuid": "f7e0779d-e40f-5974-b524-409971f71514",
+        "name": "Spymaster's Vault",
+        "weight": 960
+      },
+      {
+        "uuid": "f8279d95-b679-5816-82e1-e3e32f398a83",
+        "name": "Shifting Woodland",
+        "weight": 960
+      },
+      {
+        "uuid": "f8b3c5f2-5d6e-5ec1-8c64-0956a6ee7775",
+        "name": "Monumental Henge",
+        "weight": 960
+      },
+      {
+        "uuid": "fa697373-70aa-5eac-9019-ceef8717dec2",
+        "name": "Skoa, Embermage",
+        "weight": 4509
+      },
+      {
+        "uuid": "fc5bda91-33bd-5d33-b97d-25a4f244c28c",
+        "name": "Sowing Mycospawn",
+        "weight": 960
+      },
+      {
+        "uuid": "fd23e0b2-37a4-5f79-81b8-057cd09232a2",
+        "name": "Twisted Landscape",
+        "weight": 4509
+      },
+      {
+        "uuid": "fd41eb3c-8592-5274-bd4a-0494e33c53b7",
+        "name": "Dreadmobile",
+        "weight": 2720
+      },
+      {
+        "uuid": "fef8ba31-4834-5144-8177-7fd7d16d2a4a",
+        "name": "Twisted Riddlekeeper",
+        "weight": 2720
+      },
+      {
+        "uuid": "ff438f9c-b91e-550c-ad09-5f178b952e1d",
+        "name": "Temperamental Oozewagg",
+        "weight": 4509
+      }
+    ]
+  }
+}

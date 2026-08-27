@@ -29,6 +29,9 @@ env
 *.csv.gz
 data/**/*.csv
 data/**/*.csv.gz
+data/**/mtgjson_data.json
+data/**/card_list.json
+
 
 # But keep structure files
 !data/README.md
@@ -43,6 +46,4 @@ Thumbs.db
 *.tmp
 
 .claude
-data
-
 
