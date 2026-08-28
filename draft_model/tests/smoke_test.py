@@ -95,7 +95,9 @@ def test_pick_scorer():
     with torch.no_grad():
         score = model(seq, mask)
     check(score.shape == (1,), "score has shape (1,)")
-    check(0.0 <= score.item() <= 1.0, "score is a valid sigmoid output in [0, 1]")
+    # raw logit now, not a probability — sigmoid happens in the loss (or manually, for display)
+    check(not torch.isnan(score).any().item(), "score is a real number, not NaN")
+    check(0.0 <= torch.sigmoid(score).item() <= 1.0, "sigmoid(score) is a valid probability in [0, 1]")
 
     with torch.no_grad():
         model(seq, mask)  # warmup
@@ -108,7 +110,9 @@ def test_pick_scorer():
 
 def test_training_data_builder():
     print("TrainingDataBuilder")
-    tdb = TrainingDataBuilder()
+    projection = OracleTextProjection()
+    sequence_builder = SequenceBuilder(projection)
+    tdb = TrainingDataBuilder(sequence_builder)
 
     card_list = tdb.unpack_csv_to_card_list(SET_CODE)
     check(card_list is not None and len(card_list) > 0, "unpack_csv_to_card_list returns a non-empty set")
@@ -154,6 +158,38 @@ def test_training_data_builder():
           "total positive weight still sums to 1.0 when split across duplicate copies")
     check(dup_positives[0]["other_pack_cards"].count("Eviscerator's Insight") == 1,
           "excluding one occurrence as candidate leaves the OTHER copy visible in other_pack_cards")
+
+    name_to_features = tdb.get_name_to_features(SET_CODE)
+    check(len(name_to_features) > 0, "get_name_to_features returns a non-empty lookup")
+    check(all(name in name_to_features for name in card_list),
+          "every real card name in card_list resolves to features (no silent gaps)")
+    a_name = next(iter(card_list))
+    check(name_to_features[a_name]["name"] == a_name, "a resolved entry's own name matches its lookup key")
+
+    # full pipeline, end to end: raw CSV -> encode_pick -> straight into PickScorer
+    some_names = list(name_to_features.keys())[:5]
+    set_cards = [tdb.card_encoder.encode(name_to_features[n]) for n in some_names]
+    encoded = tdb.encode_pick(picks[0], set_cards, name_to_features)
+    check(len(encoded) == 14, "encode_pick produces one encoded example per card in the pack")
+
+    seq, mask, label, weight = encoded[0]
+    check(seq.shape == (660, 91) and mask.shape == (660,), "encoded example has the expected sequence/mask shape")
+
+    model = PickScorer()
+    model.eval()
+    with torch.no_grad():
+        score = model(seq.unsqueeze(0), mask.unsqueeze(0))
+    check(0.0 <= torch.sigmoid(score).item() <= 1.0, "a real encoded example scores end to end (sigmoid applied manually)")
+
+    all_sets = ["MH3", "TDM", "FIN"]
+    held_out, remaining = tdb.choose_held_out_set(all_sets)
+    check(held_out in all_sets and held_out not in remaining, "held-out set is excluded from the remaining list")
+    check(set(remaining) == set(all_sets) - {held_out}, "remaining sets are exactly all_sets minus the held-out one")
+
+    folds = tdb.get_draft_folds(remaining, k=5)
+    check(len(folds) == 5, "get_draft_folds returns the requested number of folds")
+    all_drafts = [pair for fold in folds for pair in fold]
+    check(len(all_drafts) == len(set(all_drafts)), "no (set_code, draft_id) pair appears in more than one fold")
 
 
 if __name__ == "__main__":

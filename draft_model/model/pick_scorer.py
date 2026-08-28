@@ -41,4 +41,4 @@ class PickScorer(nn.Module):
         candidate_representation = encoded[:, -1, :]
 
         score = self.scoring_head(candidate_representation)
-        return torch.sigmoid(score).squeeze(-1)
+        return score.squeeze(-1)

@@ -1,20 +1,77 @@
 import json
 import os
+import random
 from pathlib import Path
-from typing import Iterator, List, Optional, Set, Tuple
+from typing import Dict, Iterator, List, Optional, Set, Tuple
 
+import numpy as np
 import pandas as pd
+import torch
+from sklearn.model_selection import KFold
 
+from ..card_encoder.card_encoder import CardEncoder
 from ..external_api.config import DATA_DIR, CARD_LIST_FILENAME
+from ..external_api.mtgjson_data import MTGJson
+from ..model.sequence_builder import SequenceBuilder
 
 
 class TrainingDataBuilder:
+    def __init__(self, sequence_builder: SequenceBuilder):
+        # sequence_builder is passed in (not built here) because it holds the
+        # shared, trainable OracleTextProjection — same reasoning as everywhere
+        # else this session: trainable things get built once, externally, and
+        # handed to whatever needs them.
+        self.mtgjson = MTGJson()
+        self.card_encoder = CardEncoder()
+        self.sequence_builder = sequence_builder
+
+#takes one pick (pack number, pick number, pack cards, picked card and pool) and encodes it accordingly (ex: 14 bad example, 1 bad one)
+    def encode_pick(
+        self,
+        pick: dict,
+        set_cards: List[np.ndarray],
+        name_to_features: Dict[str, dict],
+    ) -> List[Tuple[torch.Tensor, torch.Tensor, int, float]]:
+        #Get all the example possible out of the pick (candidate, other_pack_cards, pool, label, weight)
+        examples = self.build_training_examples(pick)
+
+        #encode the pool since all the example share the same pool
+        pool_vectors = [self.card_encoder.encode(name_to_features[name]) for name in pick['pool']]
+
+        #for each example, encode the candidate and all the other card in the pack and build the final sequence to send to the model as input
+        encoded_examples = []
+        for example in examples:
+            candidate_vector = self.card_encoder.encode(name_to_features[example['candidate']])
+            other_pack_vectors = [
+                self.card_encoder.encode(name_to_features[name]) for name in example['other_pack_cards']
+            ]
+
+            sequence, mask = self.sequence_builder.build_full_sequence(
+                set_cards, pool_vectors, candidate_vector, other_pack_vectors
+            )
+
+            #for each draft possibility, we are keeping the result either as a good example (label = 1) or a bad one,
+            encoded_examples.append((sequence, mask, example['label'], example['weight']))
+
+        return encoded_examples
+
+    def get_name_to_features(self, set_code: str) -> Dict[str, dict]:
+        uuid_to_features = self.mtgjson.get_combined_uuid_lookup(set_code)
+        name_to_features = {features['name']: features for features in uuid_to_features.values()}
+
+        card_list = self.unpack_csv_to_card_list(set_code)
+        unresolved = sorted(name for name in card_list if name not in name_to_features)
+
+        if unresolved:
+            raise ValueError(
+                f"{len(unresolved)} card(s) in {set_code}'s card list did not resolve "
+                f"to features: {unresolved}"
+            )
+
+        return name_to_features
+
+    #get all the info about one draft, iterable
     def get_draft_pick_sequences(self, set_code: str) -> Iterator[Tuple[str, List[dict]]]:
-        """
-        Reads the set's CSV exactly once, filters to 7-win drafts, and yields
-        (draft_id, ordered_picks) for each one — ordered_picks is a list of
-        {pack_number, pick_number, pack_cards, picked_card} dicts, in draft order.
-        """
         csv_path = self._find_csv_path(set_code)
         if csv_path is None:
             raise FileNotFoundError(f"No .csv.gz found for set {set_code} in {DATA_DIR}/{set_code}")
@@ -54,22 +111,7 @@ class TrainingDataBuilder:
                 })
             yield draft_id, self.add_pool_history(picks)
 
-    def add_pool_history(self, picks: List[dict]) -> List[dict]:
-        """
-        Given one draft's ordered picks (from get_draft_pick_sequences), adds a
-        'pool' key to each pick — the cards already picked BEFORE that pick happened.
-        """
-        pool = []
-        enriched_picks = []
-
-        for pick in picks:
-            enriched_pick = dict(pick)
-            enriched_pick['pool'] = list(pool)  # snapshot — pool keeps growing after this
-            enriched_picks.append(enriched_pick)
-            pool.append(pick['picked_card'])
-
-        return enriched_picks
-
+    #this function makes the one pick become multiple training example, one for the positive card, and then the rest are negative examples
     def build_training_examples(self, pick: dict) -> List[dict]:
         """
         Given one pool-enriched pick, builds one training example per card in the
@@ -104,6 +146,12 @@ class TrainingDataBuilder:
         return examples
 
     def unpack_csv_to_card_list(self, set_code: str) -> Optional[Set[str]]:
+        """
+        Why: the pack-generation pipeline (sheets.json) needs to know which cards
+        actually appear in real 17lands data, to filter out MTGJSON cards that
+        technically exist but never show up in a real pack — this builds that
+        reference list, once, from the CSV's own column names.
+        """
         csv_path = self._find_csv_path(set_code)
         if csv_path is None:
             return None
@@ -123,6 +171,13 @@ class TrainingDataBuilder:
         return card_names
 
     def get_seven_win_draft_ids(self, set_code: str) -> Set[str]:
+        """
+        Why: the original, standalone version of the 7-win filter — written
+        before get_draft_pick_sequences existed. That method now recomputes this
+        same filter inline (to avoid reading the CSV twice), so this is mostly
+        redundant for the main pipeline now — kept as a lightweight, standalone
+        check for when you just need the draft IDs and nothing else.
+        """
         csv_path = self._find_csv_path(set_code)
         if csv_path is None:
             raise FileNotFoundError(f"No .csv.gz found for set {set_code} in {DATA_DIR}/{set_code}")
@@ -131,8 +186,33 @@ class TrainingDataBuilder:
         per_draft = df.groupby('draft_id')['event_match_wins'].max()
         return set(per_draft[per_draft == 7].index)
 
+    def add_pool_history(self, picks: List[dict]) -> List[dict]:
+        """
+        Why: kept separate from get_draft_pick_sequences (which calls this
+        internally) so pool-tracking could be tested and understood on its own,
+        apart from all the CSV-reading logic.
+
+        Given one draft's ordered picks, adds a 'pool' key to each pick — the
+        cards already picked BEFORE that pick happened.
+        """
+        pool = []
+        enriched_picks = []
+
+        for pick in picks:
+            enriched_pick = dict(pick)
+            enriched_pick['pool'] = list(pool)  # snapshot — pool keeps growing after this
+            enriched_picks.append(enriched_pick)
+            pool.append(pick['picked_card'])
+
+        return enriched_picks
 
     def _find_csv_path(self, set_code: str) -> Optional[Path]:
+        """
+        Why: every method above needs to find the set's CSV, and the actual
+        filenames are inconsistent (e.g. Powered_Cube's is named after "Cube_-_Powered",
+        not the folder name) — centralizing the glob logic here means it's only
+        written once, not copy-pasted into every method that needs it.
+        """
         set_dir = os.path.join(DATA_DIR, set_code)
         matches = list(Path(set_dir).glob("*.csv.gz"))
         if not matches:
