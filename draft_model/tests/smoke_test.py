@@ -15,7 +15,8 @@ from ..model.oracle_text_projection import OracleTextProjection
 from ..model.pick_scorer import PickScorer
 from ..model import sequence_builder as sequence_builder_module
 from ..model.sequence_builder import SequenceBuilder
-from ..training_data.training_data_builder import TrainingDataBuilder
+from ..training.training_data_builder import TrainingDataBuilder
+from ..training.draft_splitter import DraftSplitter
 
 SET_CODE = "MH3"
 
@@ -181,12 +182,20 @@ def test_training_data_builder():
         score = model(seq.unsqueeze(0), mask.unsqueeze(0))
     check(0.0 <= torch.sigmoid(score).item() <= 1.0, "a real encoded example scores end to end (sigmoid applied manually)")
 
+
+def test_draft_splitter():
+    print("DraftSplitter")
+    projection = OracleTextProjection()
+    sequence_builder = SequenceBuilder(projection)
+    tdb = TrainingDataBuilder(sequence_builder)
+    splitter = DraftSplitter(tdb)
+
     all_sets = ["MH3", "TDM", "FIN"]
-    held_out, remaining = tdb.choose_held_out_set(all_sets)
+    held_out, remaining = splitter.choose_held_out_set(all_sets)
     check(held_out in all_sets and held_out not in remaining, "held-out set is excluded from the remaining list")
     check(set(remaining) == set(all_sets) - {held_out}, "remaining sets are exactly all_sets minus the held-out one")
 
-    folds = tdb.get_draft_folds(remaining, k=5)
+    folds = splitter.get_draft_folds(remaining, k=5)
     check(len(folds) == 5, "get_draft_folds returns the requested number of folds")
     all_drafts = [pair for fold in folds for pair in fold]
     check(len(all_drafts) == len(set(all_drafts)), "no (set_code, draft_id) pair appears in more than one fold")
@@ -197,4 +206,5 @@ if __name__ == "__main__":
     test_sequence_builder()
     test_pick_scorer()
     test_training_data_builder()
+    test_draft_splitter()
     print("\nAll checks passed.")

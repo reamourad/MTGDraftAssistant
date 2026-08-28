@@ -7,7 +7,6 @@ from typing import Dict, Iterator, List, Optional, Set, Tuple
 import numpy as np
 import pandas as pd
 import torch
-from sklearn.model_selection import KFold
 
 from ..card_encoder.card_encoder import CardEncoder
 from ..external_api.config import DATA_DIR, CARD_LIST_FILENAME
@@ -17,15 +16,12 @@ from ..model.sequence_builder import SequenceBuilder
 
 class TrainingDataBuilder:
     def __init__(self, sequence_builder: SequenceBuilder):
-        # sequence_builder is passed in (not built here) because it holds the
-        # shared, trainable OracleTextProjection — same reasoning as everywhere
-        # else this session: trainable things get built once, externally, and
-        # handed to whatever needs them.
         self.mtgjson = MTGJson()
         self.card_encoder = CardEncoder()
         self.sequence_builder = sequence_builder
 
-#takes one pick (pack number, pick number, pack cards, picked card and pool) and encodes it accordingly (ex: 14 bad example, 1 bad one)
+    # takes one pick (pack number, pick number, pack cards, picked card and pool)
+    # and encodes it accordingly (ex: 14 bad example, 1 bad one)
     def encode_pick(
         self,
         pick: dict,
@@ -113,17 +109,6 @@ class TrainingDataBuilder:
 
     #this function makes the one pick become multiple training example, one for the positive card, and then the rest are negative examples
     def build_training_examples(self, pick: dict) -> List[dict]:
-        """
-        Given one pool-enriched pick, builds one training example per card in the
-        pack: positive (label=1) for the card actually chosen, negative (label=0)
-        for every other card. Each example's 'other_pack_cards' is that pack minus
-        only the ONE specific occurrence used as candidate in THIS example (by
-        position, not by name) — a pack can genuinely hold 2+ copies of the same
-        card, and excluding by name would wrongly hide every copy, not just this one.
-        Weights are class-balanced: total positive weight (1) always equals total
-        negative weight — split evenly if there's more than one positive occurrence
-        (e.g. two copies of the card that got picked).
-        """
         pack_cards = pick['pack_cards']
         picked_card = pick['picked_card']
 
@@ -146,12 +131,6 @@ class TrainingDataBuilder:
         return examples
 
     def unpack_csv_to_card_list(self, set_code: str) -> Optional[Set[str]]:
-        """
-        Why: the pack-generation pipeline (sheets.json) needs to know which cards
-        actually appear in real 17lands data, to filter out MTGJSON cards that
-        technically exist but never show up in a real pack — this builds that
-        reference list, once, from the CSV's own column names.
-        """
         csv_path = self._find_csv_path(set_code)
         if csv_path is None:
             return None
@@ -171,13 +150,6 @@ class TrainingDataBuilder:
         return card_names
 
     def get_seven_win_draft_ids(self, set_code: str) -> Set[str]:
-        """
-        Why: the original, standalone version of the 7-win filter — written
-        before get_draft_pick_sequences existed. That method now recomputes this
-        same filter inline (to avoid reading the CSV twice), so this is mostly
-        redundant for the main pipeline now — kept as a lightweight, standalone
-        check for when you just need the draft IDs and nothing else.
-        """
         csv_path = self._find_csv_path(set_code)
         if csv_path is None:
             raise FileNotFoundError(f"No .csv.gz found for set {set_code} in {DATA_DIR}/{set_code}")
@@ -188,11 +160,7 @@ class TrainingDataBuilder:
 
     def add_pool_history(self, picks: List[dict]) -> List[dict]:
         """
-        Why: kept separate from get_draft_pick_sequences (which calls this
-        internally) so pool-tracking could be tested and understood on its own,
-        apart from all the CSV-reading logic.
-
-        Given one draft's ordered picks, adds a 'pool' key to each pick — the
+        Given one draft's ordered picks, adds a 'pool' key to each pick, the
         cards already picked BEFORE that pick happened.
         """
         pool = []
@@ -207,12 +175,6 @@ class TrainingDataBuilder:
         return enriched_picks
 
     def _find_csv_path(self, set_code: str) -> Optional[Path]:
-        """
-        Why: every method above needs to find the set's CSV, and the actual
-        filenames are inconsistent (e.g. Powered_Cube's is named after "Cube_-_Powered",
-        not the folder name) — centralizing the glob logic here means it's only
-        written once, not copy-pasted into every method that needs it.
-        """
         set_dir = os.path.join(DATA_DIR, set_code)
         matches = list(Path(set_dir).glob("*.csv.gz"))
         if not matches:
