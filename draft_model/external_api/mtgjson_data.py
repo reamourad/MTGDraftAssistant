@@ -2,7 +2,7 @@ import requests
 import json
 import os
 
-from config import (
+from .config import (
     DATA_DIR,
     MTGJSON_BASE_URL,
     MTGJSON_CACHE_FILENAME,

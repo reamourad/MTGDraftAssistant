@@ -28,11 +28,11 @@
     {
       "contents": {
         "common": 7,
-        "foilReplacement": 1,
-        "newRareMythic": 1,
         "newUncommon": 3,
         "reprint": 1,
-        "wildcard": 1
+        "wildcard": 1,
+        "newRareMythic": 1,
+        "foilReplacement": 1
       },
       "weight": 63
     },

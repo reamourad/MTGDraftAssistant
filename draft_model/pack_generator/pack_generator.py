@@ -2,12 +2,15 @@ import json
 import os
 import random
 
-from ..data_processing.config import DATA_DIR, CARD_LIST_FILENAME, BOOSTER_CONFIG_FILENAME, SHEETS_FILENAME
+from ..external_api.config import DATA_DIR, CARD_LIST_FILENAME, BOOSTER_CONFIG_FILENAME, SHEETS_FILENAME
+from ..external_api.mtgjson_data import MTGJson
+
+RARITY_ORDER = {"common": 0, "uncommon": 1, "rare": 2, "mythic": 3}
 
 
 class PackGenerator:
     def __init__(self):
-        pass
+        self.mtgjson = MTGJson()
 
     def generate(self, set_code):
         #pick the card distribution
@@ -19,7 +22,7 @@ class PackGenerator:
             cards = self.pick_card_from_sheet(set_code, sheet_name, amount)
             picked_cards.extend(cards)
 
-        return picked_cards
+        return self.sort_pack_by_rarity(set_code, picked_cards)
 
     def pick_card_distribution(self, set_code):
         #read the json of card distribution
@@ -67,29 +70,38 @@ class PackGenerator:
 
         #create a pool so we don't pick the same card twice
         remaining_cards = list(sheets[sheet_name]["cards"])
-        picked_names = []
+        picked_cards = []
 
         for i in range(amount):
             if not remaining_cards:
                 raise ValueError(
                     f"Asked for {amount} cards from '{sheet_name}' but only "
-                    f"{len(picked_names)} were available after filtering"
+                    f"{len(picked_cards)} were available after filtering"
                 )
 
             #calculate total weight, choose a random number from that weight and then go to that number
             total_weight = sum(card["weight"] for card in remaining_cards)
             random_weight = random.randint(1, total_weight)
 
-            #once the card is found add it to picked_card to save it and then remove it from remaining cards so we don't pick the same card twice
+            #once the card is found add it to picked_cards to save it and then remove it from remaining cards so we don't pick the same card twice
             current_weight = 0
             for index, card in enumerate(remaining_cards):
                 current_weight += card["weight"]
                 if current_weight >= random_weight:
-                    picked_names.append(card["name"])
+                    picked_cards.append({"name": card["name"], "uuid": card["uuid"]})
                     remaining_cards.pop(index)
                     break
 
-        return picked_names
+        return picked_cards
+
+    def sort_pack_by_rarity(self, set_code, pack):
+        uuid_to_card = self.mtgjson.get_combined_uuid_lookup(set_code)
+
+        def rarity_rank(picked_card):
+            rarity = uuid_to_card[picked_card["uuid"]]["rarity"]
+            return RARITY_ORDER.get(rarity, len(RARITY_ORDER))
+
+        return sorted(pack, key=rarity_rank)
 
 
 
@@ -98,3 +110,5 @@ if __name__ == '__main__':
     pack_generator = PackGenerator()
     pack = pack_generator.generate(set_code="MH3")
     print(pack)
+    for picked_card in pack:
+        print(picked_card["name"])
