@@ -19,6 +19,7 @@ class TrainingDataBuilder:
         if csv_path is None:
             raise FileNotFoundError(f"No .csv.gz found for set {set_code} in {DATA_DIR}/{set_code}")
 
+        #only get the pack columns to read + some extra like pick number
         pack_cols = [c for c in pd.read_csv(csv_path, nrows=0).columns if c.startswith('pack_card_')]
         usecols = ['draft_id', 'pack_number', 'pick_number', 'pick', 'event_match_wins'] + pack_cols
         df = pd.read_csv(csv_path, usecols=usecols)
@@ -29,19 +30,78 @@ class TrainingDataBuilder:
         seven_win_ids = set(wins_per_draft[wins_per_draft == 7].index)
         df = df[df['draft_id'].isin(seven_win_ids)]
 
+        #sort first by draft ids, then we check the pack number and the pick number to make sure its accurately sorted in order
+        #if its not sorted in order it could "spoil" the model of which card to pick
         df = df.sort_values(['draft_id', 'pack_number', 'pick_number'])
 
+        #for each draft, create a cleaned package to send to training with the pack and pick number, the pack cards and the picked card
         for draft_id, draft_rows in df.groupby('draft_id', sort=False):
             picks = []
             for _, row in draft_rows.iterrows():
-                pack_cards = [col.replace('pack_card_', '') for col in pack_cols if row[col] == 1]
+                # pack_card_* values are COUNTS, not just 0/1 presence flags — a pack can
+                # genuinely contain 2+ copies of the same card, so we repeat the name that
+                # many times rather than checking == 1.
+                pack_cards = []
+                for col in pack_cols:
+                    count = int(row[col])
+                    if count > 0:
+                        pack_cards.extend([col.replace('pack_card_', '')] * count)
                 picks.append({
                     'pack_number': row['pack_number'],
                     'pick_number': row['pick_number'],
                     'pack_cards': pack_cards,
                     'picked_card': row['pick'],
                 })
-            yield draft_id, picks
+            yield draft_id, self.add_pool_history(picks)
+
+    def add_pool_history(self, picks: List[dict]) -> List[dict]:
+        """
+        Given one draft's ordered picks (from get_draft_pick_sequences), adds a
+        'pool' key to each pick — the cards already picked BEFORE that pick happened.
+        """
+        pool = []
+        enriched_picks = []
+
+        for pick in picks:
+            enriched_pick = dict(pick)
+            enriched_pick['pool'] = list(pool)  # snapshot — pool keeps growing after this
+            enriched_picks.append(enriched_pick)
+            pool.append(pick['picked_card'])
+
+        return enriched_picks
+
+    def build_training_examples(self, pick: dict) -> List[dict]:
+        """
+        Given one pool-enriched pick, builds one training example per card in the
+        pack: positive (label=1) for the card actually chosen, negative (label=0)
+        for every other card. Each example's 'other_pack_cards' is that pack minus
+        only the ONE specific occurrence used as candidate in THIS example (by
+        position, not by name) — a pack can genuinely hold 2+ copies of the same
+        card, and excluding by name would wrongly hide every copy, not just this one.
+        Weights are class-balanced: total positive weight (1) always equals total
+        negative weight — split evenly if there's more than one positive occurrence
+        (e.g. two copies of the card that got picked).
+        """
+        pack_cards = pick['pack_cards']
+        picked_card = pick['picked_card']
+
+        num_positives = pack_cards.count(picked_card)
+        num_negatives = len(pack_cards) - num_positives
+        positive_weight = 1.0 / num_positives
+        negative_weight = 1.0 / num_negatives if num_negatives > 0 else 0
+
+        examples = []
+        for i, candidate in enumerate(pack_cards):
+            is_picked = candidate == picked_card
+            examples.append({
+                'candidate': candidate,
+                'other_pack_cards': pack_cards[:i] + pack_cards[i + 1:],
+                'pool': pick['pool'],
+                'label': 1 if is_picked else 0,
+                'weight': positive_weight if is_picked else negative_weight,
+            })
+
+        return examples
 
     def unpack_csv_to_card_list(self, set_code: str) -> Optional[Set[str]]:
         csv_path = self._find_csv_path(set_code)
