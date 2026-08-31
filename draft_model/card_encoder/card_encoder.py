@@ -1,5 +1,6 @@
 import re
 import logging
+import time
 from typing import List, Optional, Union
 
 import numpy as np
@@ -41,30 +42,26 @@ class CardEncoder:
         except Exception as e:
             raise CardEncoderError(f"Failed to load sentence transformer model: {e}") from e
 
+        self._cache: dict[str, np.ndarray] = {}
+
     def encode(self, card: dict) -> np.ndarray:
+        #check if we previously encoded the card, reuse if we did
+        name = card.get('name')
+        if name is not None and name in self._cache:
+            return self._cache[name]
+
         try:
-            rarity_vec = self._encode_rarity(card.get('rarity', 'common'))
-            mana_vec = self._encode_mana_cost(
-                card.get('converted_mana_cost', 0),
-                card.get('mana_cost', '')
-            )
-            type_vec = self._encode_types(card.get('types', []))
-            pt_vec = self._encode_power_toughness(
-                can_attack=card.get('can_attack', False),
-                power=card.get('power'),
-                toughness=card.get('toughness'),
-            )
+            structured_vec = self._encode_structured(card)
             text_vec = self._encode_oracle_text(
                 card.get('oracle_text', ''),
                 card.get('subtypes', []),
             )
 
-            full_vector = np.concatenate([rarity_vec, mana_vec, type_vec, pt_vec, text_vec])
+            full_vector = np.concatenate([structured_vec, text_vec])
+            self._check_dim(full_vector, name)
 
-            if full_vector.shape[0] != self.TOTAL_DIM:
-                raise CardEncoderError(
-                    f"Encoded vector has wrong dimension: {full_vector.shape[0]}, expected {self.TOTAL_DIM}"
-                )
+            if name is not None:
+                self._cache[name] = full_vector
 
             return full_vector
         except Exception as e:
@@ -74,7 +71,67 @@ class CardEncoder:
     def encode_batch(self, cards: List[dict]) -> np.ndarray:
         if not cards:
             return np.zeros((0, self.TOTAL_DIM), dtype=np.float32)
-        return np.stack([self.encode(card) for card in cards], axis=0)
+
+        results: List[Optional[np.ndarray]] = [None] * len(cards)
+        miss_indices = []
+        for i, card in enumerate(cards):
+            name = card.get('name')
+            if name is not None and name in self._cache:
+                results[i] = self._cache[name]
+            else:
+                miss_indices.append(i)
+
+        if miss_indices:
+            start = time.perf_counter()
+            structured_by_index = {i: self._encode_structured(cards[i]) for i in miss_indices}
+            text_input_by_index = {
+                i: self._oracle_text_input(cards[i].get('oracle_text', ''), cards[i].get('subtypes', []))
+                for i in miss_indices
+            }
+
+            text_vec_by_index = {i: np.zeros(self.ORACLE_TEXT_DIM, dtype=np.float32) for i in miss_indices}
+            non_empty_indices = [i for i in miss_indices if text_input_by_index[i]]
+            if non_empty_indices:
+                texts = [text_input_by_index[i] for i in non_empty_indices]
+                encoded = self.text_model.encode(texts, convert_to_numpy=True)
+                for row, i in enumerate(non_empty_indices):
+                    text_vec_by_index[i] = encoded[row].astype(np.float32)
+
+            for i in miss_indices:
+                card = cards[i]
+                name = card.get('name')
+                full_vector = np.concatenate([structured_by_index[i], text_vec_by_index[i]])
+                self._check_dim(full_vector, name)
+                if name is not None:
+                    self._cache[name] = full_vector
+                results[i] = full_vector
+
+            elapsed = time.perf_counter() - start
+            print(f"[CardEncoder] batch-encoded {len(miss_indices)} cache-miss card(s) "
+                  f"({len(non_empty_indices)} with text) in {elapsed:.2f}s")
+
+        return np.stack(results, axis=0)
+
+    def _encode_structured(self, card: dict) -> np.ndarray:
+        rarity_vec = self._encode_rarity(card.get('rarity', 'common'))
+        mana_vec = self._encode_mana_cost(
+            card.get('converted_mana_cost', 0),
+            card.get('mana_cost', '')
+        )
+        type_vec = self._encode_types(card.get('types', []))
+        pt_vec = self._encode_power_toughness(
+            can_attack=card.get('can_attack', False),
+            power=card.get('power'),
+            toughness=card.get('toughness'),
+        )
+        return np.concatenate([rarity_vec, mana_vec, type_vec, pt_vec])
+
+    def _check_dim(self, full_vector: np.ndarray, name: Optional[str]):
+        if full_vector.shape[0] != self.TOTAL_DIM:
+            raise CardEncoderError(
+                f"Encoded vector has wrong dimension for card '{name}': "
+                f"{full_vector.shape[0]}, expected {self.TOTAL_DIM}"
+            )
 
     def _encode_rarity(self, rarity: str) -> np.ndarray:
         encoding = np.zeros(len(RARITIES), dtype=np.float32)
@@ -128,11 +185,16 @@ class CardEncoder:
                 encoding[2] = min(toughness / 15, 1.0)
         return encoding
 
-    def _encode_oracle_text(self, oracle_text: str, subtypes: List[str]) -> np.ndarray:
+    def _oracle_text_input(self, oracle_text: str, subtypes: List[str]) -> str:
         if not oracle_text:
+            return ''
+        return oracle_text + " " + " ".join(subtypes)
+
+    def _encode_oracle_text(self, oracle_text: str, subtypes: List[str]) -> np.ndarray:
+        text_to_encode = self._oracle_text_input(oracle_text, subtypes)
+        if not text_to_encode:
             return np.zeros(self.ORACLE_TEXT_DIM, dtype=np.float32)
         try:
-            text_to_encode = oracle_text + " " + " ".join(subtypes)
             encoding = self.text_model.encode(text_to_encode, convert_to_numpy=True)
             return encoding.astype(np.float32)
         except Exception as e:

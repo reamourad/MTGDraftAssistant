@@ -1,7 +1,7 @@
 import random
 
 from sklearn.model_selection import KFold
-from typing import List, Tuple
+from typing import List, Optional, Tuple
 
 from .training_data_builder import TrainingDataBuilder
 
@@ -17,16 +17,18 @@ class DraftSplitter:
         return held_out, remaining
 
 
-    def get_draft_folds(self, set_codes: List[str], k: int) -> List[List[Tuple[str, str]]]:
+    def get_draft_folds(self, set_codes: List[str], k: int, max_drafts: Optional[int] = None) -> List[List[Tuple[str, str]]]:
         """
         splits real drafts into k folds for cross-validation, at the DRAFT
         level. every pick from the same draft always lands in the same fold.
         """
-        draft_ids = [
-            (set_code, draft_id)
-            for set_code in set_codes
-            for draft_id in self.training_data_builder.get_seven_win_draft_ids(set_code)
-        ]
+        draft_ids = []
+        for set_code in set_codes:
+            set_draft_ids = list(self.training_data_builder.get_seven_win_draft_ids(set_code))
+            if max_drafts is not None:
+                random.shuffle(set_draft_ids)
+                set_draft_ids = set_draft_ids[:max_drafts]
+            draft_ids.extend((set_code, draft_id) for draft_id in set_draft_ids)
 
         folds = []
         kfold = KFold(n_splits=k, shuffle=True)

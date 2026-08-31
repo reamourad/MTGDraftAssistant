@@ -57,23 +57,19 @@ class SequenceBuilder:
         #this is a list of max_length bools which tells us which column is used or not
         mask = torch.zeros(max_length, dtype=torch.bool)
 
-        for i, card_vector in enumerate(card_vectors):
-            #replaces the row in the matrix with the real card
-            padded[i] = self.build_token(card_vector, role)
-            #flag that row i contains a real card
-            mask[i] = True
+        if not card_vectors:
+            return padded, mask
+
+        stacked = np.stack(card_vectors, axis=0)
+        structured = torch.from_numpy(stacked[:, :CardEncoder.STRUCTURED_DIM]).float()
+        oracle_text = torch.from_numpy(stacked[:, CardEncoder.STRUCTURED_DIM:]).float()
+        compressed_text = self.projection(oracle_text)
+
+        n = len(card_vectors)
+        roles = role.unsqueeze(0).expand(n, -1)
+        tokens = torch.cat([structured, compressed_text, roles], dim=1)
+
+        padded[:n] = tokens
+        mask[:n] = True
 
         return padded, mask
-
-    #builds the finalized full card encoding
-    def build_token(self, card_vector: np.ndarray, role: torch.Tensor) -> torch.Tensor:
-        #card vector has the features and the oracle text, so we need to separate it
-        structured = torch.from_numpy(card_vector[:CardEncoder.STRUCTURED_DIM]).float()
-        oracle_text = torch.from_numpy(card_vector[CardEncoder.STRUCTURED_DIM:]).float()
-
-        #we are able to call the obj because the nn.Module that OracleText inherits from has the definition of __call__
-        #which then calls the customized forward function
-        compressed_text = self.projection(oracle_text)  # compresses the 384-dim oracle text embedding down to 64 dims
-
-        #concatenate the card feature, the oracle text and the role tag
-        return torch.cat([structured, compressed_text, role])
