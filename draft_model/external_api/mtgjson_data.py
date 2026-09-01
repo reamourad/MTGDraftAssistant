@@ -92,11 +92,29 @@ class MTGJson:
         atomic_data = self.fetch_atomic_cards()
         wanted = set(names)
         name_to_features = {}
+
+        # Pass 1: match on the card's own full name first. This is its real
+        # identity and is unambiguous. Doing this before the faceName pass
+        # matters because some cards use another card's name as a face/
+        # component name (e.g. a card whose second face is itself named
+        # "Lightning Bolt") — without this ordering, that unrelated face
+        # would shadow the real standalone card of the same name.
         for entries in atomic_data.values():
             for card in entries:
-                for candidate_name in (card.get("faceName"), card.get("name")):
-                    if candidate_name and candidate_name in wanted and candidate_name not in name_to_features:
-                        name_to_features[candidate_name] = _build_card_features(card, candidate_name)
+                name = card.get("name")
+                if name in wanted and name not in name_to_features:
+                    name_to_features[name] = _build_card_features(card, name)
+
+        # Pass 2: fall back to faceName, for split/MDFC/adventure cards that
+        # 17lands references by their individual face rather than the
+        # combined name (e.g. "Bonecrusher Giant" for "Bonecrusher Giant //
+        # Stomp").
+        for entries in atomic_data.values():
+            for card in entries:
+                face_name = card.get("faceName")
+                if face_name and face_name in wanted and face_name not in name_to_features:
+                    name_to_features[face_name] = _build_card_features(card, face_name)
+
         return name_to_features
 
     def get_arena_booster(self, set_data, set_code):
