@@ -1,0 +1,4470 @@
+{
+  "common": {
+    "cards": [
+      {
+        "uuid": "004e6327-a1cb-5649-8705-679d916f9427",
+        "name": "Giant-Sized Flying Ant",
+        "weight": 1
+      },
+      {
+        "uuid": "028fd581-c054-5253-b16d-b91baaefb567",
+        "name": "Agents of HYDRA",
+        "weight": 1
+      },
+      {
+        "uuid": "0bf1ae61-71db-559f-a077-c53533560189",
+        "name": "Restorative Technique",
+        "weight": 1
+      },
+      {
+        "uuid": "0e5886c1-ad29-5ac3-98ae-31f57caa0e7f",
+        "name": "Stolen Stark Tech",
+        "weight": 1
+      },
+      {
+        "uuid": "1cf79a78-310e-5c5f-88e4-e10e2586c3a9",
+        "name": "S.H.I.E.L.D. Deployment Drone",
+        "weight": 1
+      },
+      {
+        "uuid": "24cf7602-790c-5385-bbe4-213c897909c2",
+        "name": "Wakandan Royal Guard",
+        "weight": 1
+      },
+      {
+        "uuid": "24d38b8a-402c-53d3-a966-650f2beb1e01",
+        "name": "HYDRA Troopers",
+        "weight": 1
+      },
+      {
+        "uuid": "28f44a33-9bde-569c-a478-4c5e315fea2a",
+        "name": "Stark Industries Executive",
+        "weight": 1
+      },
+      {
+        "uuid": "2ca32964-e3c9-560b-bfce-0eee3ba555d5",
+        "name": "Agent of Atlas",
+        "weight": 1
+      },
+      {
+        "uuid": "2dbe84e2-34ed-5144-9f98-54a14fc17f27",
+        "name": "Surveillance Room",
+        "weight": 1
+      },
+      {
+        "uuid": "351d44b5-fa29-546c-9dba-ec0e12698393",
+        "name": "Wakandan Drone Flock",
+        "weight": 1
+      },
+      {
+        "uuid": "3777f109-48dc-5705-a6d3-7340d08cbf01",
+        "name": "Serpent Specialist",
+        "weight": 1
+      },
+      {
+        "uuid": "3e355267-8a18-5d2a-9ff6-75c566302058",
+        "name": "Dependable Quinjet",
+        "weight": 1
+      },
+      {
+        "uuid": "41541761-4c5e-559c-8e4a-0c93fd5d8cae",
+        "name": "A.I.M. Scientists",
+        "weight": 1
+      },
+      {
+        "uuid": "4276241e-b778-56b2-99f9-f3c28fc905f8",
+        "name": "Guerrilla Gorilla",
+        "weight": 1
+      },
+      {
+        "uuid": "435e3d8d-8a5c-5213-9a78-e8cf2b46f8a2",
+        "name": "Agents of S.H.I.E.L.D.",
+        "weight": 1
+      },
+      {
+        "uuid": "4401151c-51c8-504c-a3f2-c2b4bed7adab",
+        "name": "Frozen in Ice",
+        "weight": 1
+      },
+      {
+        "uuid": "45fde29d-8d1f-534d-a821-927f9714d470",
+        "name": "Call Damage Control",
+        "weight": 1
+      },
+      {
+        "uuid": "48d98b8c-c8c1-529e-bb58-43f75dd69fa1",
+        "name": "Roxxon Brutes",
+        "weight": 1
+      },
+      {
+        "uuid": "4cd1eaf2-7ae8-5f41-a8ef-a3210a95e83e",
+        "name": "Hero in Training",
+        "weight": 1
+      },
+      {
+        "uuid": "4e6f4b2a-0c64-5d1b-8b0d-ba737e6e4436",
+        "name": "K'un-Lun Warrior",
+        "weight": 1
+      },
+      {
+        "uuid": "4f2d3029-0f52-59b3-b9ca-e8ad5e81462b",
+        "name": "Blazing Crescendo",
+        "weight": 1
+      },
+      {
+        "uuid": "5121d434-fb9e-55d6-bb1f-4a2cfe35f817",
+        "name": "Take Up the Shield",
+        "weight": 1
+      },
+      {
+        "uuid": "555048c1-7a42-5b1e-b14b-93c3766ed271",
+        "name": "Volcanic Villain",
+        "weight": 1
+      },
+      {
+        "uuid": "59b2657a-c15a-5c18-8983-b08e6e835185",
+        "name": "HYDRA Infiltration",
+        "weight": 1
+      },
+      {
+        "uuid": "59d99152-d9cc-5258-a0c4-4ffbcc8516eb",
+        "name": "Helicarrier Strike",
+        "weight": 1
+      },
+      {
+        "uuid": "5aec904b-16cb-5274-9b76-33d9947e35f3",
+        "name": "Raft Security Officer",
+        "weight": 1
+      },
+      {
+        "uuid": "5c7d556a-228d-5178-8350-6935e186bb44",
+        "name": "HULK SMASH!",
+        "weight": 1
+      },
+      {
+        "uuid": "5eba64f2-122b-55a6-b9c6-608017e05bd3",
+        "name": "Cruel Alliance",
+        "weight": 1
+      },
+      {
+        "uuid": "5f8d8f07-660d-57ab-af9e-efc5167d4711",
+        "name": "Atlantean Cavalry",
+        "weight": 1
+      },
+      {
+        "uuid": "612964a2-3eb4-522c-ae49-efadb38f9e7a",
+        "name": "Giant Growth",
+        "weight": 1
+      },
+      {
+        "uuid": "617858e2-2cc1-5caa-ab89-5b7fa1242306",
+        "name": "S.H.I.E.L.D. Spy Kit",
+        "weight": 1
+      },
+      {
+        "uuid": "63a0a05c-f19a-58b3-93d0-7b7a113faf9e",
+        "name": "Brave Brawler",
+        "weight": 1
+      },
+      {
+        "uuid": "64a6a8cc-a56e-5a11-b570-af818a12ce45",
+        "name": "Knight of Wundagore",
+        "weight": 1
+      },
+      {
+        "uuid": "6546ba71-cd14-5533-a79a-6639f85ffa87",
+        "name": "Borough Backup",
+        "weight": 1
+      },
+      {
+        "uuid": "67b20fd9-8baf-55af-a185-1e52f00cfa3c",
+        "name": "Ant-Man's Army",
+        "weight": 1
+      },
+      {
+        "uuid": "6d51101d-f45b-55d8-a92f-f5b2a07eee20",
+        "name": "Bold Biochemist",
+        "weight": 1
+      },
+      {
+        "uuid": "6f35405c-5b94-5b33-83d6-fea85758a9e7",
+        "name": "Vibranium Energy Daggers",
+        "weight": 1
+      },
+      {
+        "uuid": "76d36676-a3fa-59a1-9da7-aa9a49845566",
+        "name": "Repulsor Blast",
+        "weight": 1
+      },
+      {
+        "uuid": "7967823c-6d9b-5c61-90e4-519da3669bcd",
+        "name": "Powerful Broker",
+        "weight": 1
+      },
+      {
+        "uuid": "79d33058-490f-5834-b5a6-cd52a5b2cc43",
+        "name": "Kree Commandos",
+        "weight": 1
+      },
+      {
+        "uuid": "7c26b5cd-3bfd-5a6c-9754-df5f70afb203",
+        "name": "Project Deathlok Soldier",
+        "weight": 1
+      },
+      {
+        "uuid": "82117dee-5e74-50bf-8632-a2b8294bd700",
+        "name": "Web Up",
+        "weight": 1
+      },
+      {
+        "uuid": "82488689-7c73-50fc-90d4-2ea9e3085dbb",
+        "name": "Decoy Ploy",
+        "weight": 1
+      },
+      {
+        "uuid": "82f36aaf-c10f-53f2-8822-ac9634087dba",
+        "name": "Kree Sentinel",
+        "weight": 1
+      },
+      {
+        "uuid": "8708973b-4ca1-59fa-a7b5-e7c5dd98fb76",
+        "name": "Hydraulic Helper",
+        "weight": 1
+      },
+      {
+        "uuid": "89c4b4bc-c143-5247-8b3d-eee3c296ba93",
+        "name": "Atlantis Attacks",
+        "weight": 1
+      },
+      {
+        "uuid": "905409d3-b8b3-5417-939f-9d3b41479f28",
+        "name": "Crowd of True Believers",
+        "weight": 1
+      },
+      {
+        "uuid": "937c49b8-5762-5402-91a0-aac8820953cf",
+        "name": "Super Suit",
+        "weight": 1
+      },
+      {
+        "uuid": "941ffce6-693a-502b-94da-68440e7a1686",
+        "name": "Hour of Defeat",
+        "weight": 1
+      },
+      {
+        "uuid": "9db642ff-ba47-5d44-87be-80e6e327b4bb",
+        "name": "Futurist Forge",
+        "weight": 1
+      },
+      {
+        "uuid": "a0a2a562-cbf7-509b-8149-5741c177d8c3",
+        "name": "Depower",
+        "weight": 1
+      },
+      {
+        "uuid": "ab04e6ee-2238-530e-be08-3df234f4bf66",
+        "name": "Widow's Bite",
+        "weight": 1
+      },
+      {
+        "uuid": "ac6bc736-e9e2-5db3-b4c8-9c47f00dae51",
+        "name": "Unliving Legionnaire",
+        "weight": 1
+      },
+      {
+        "uuid": "ae8c073c-dcb9-5315-88a1-e008d9191a7b",
+        "name": "We Say Thee Nay!",
+        "weight": 1
+      },
+      {
+        "uuid": "b2f06358-982f-50c5-8d5a-996806c7bc0a",
+        "name": "Rapid Rescue",
+        "weight": 1
+      },
+      {
+        "uuid": "ba864a61-3704-52cc-a850-a2e8bc1e2bb8",
+        "name": "I Am Iron Man",
+        "weight": 1
+      },
+      {
+        "uuid": "bb1390a1-8de3-5e24-8e1f-56454023959b",
+        "name": "H.E.R.B.I.E. Scout Unit",
+        "weight": 1
+      },
+      {
+        "uuid": "bf1bf5e5-19ef-57bf-829d-38ca396eae82",
+        "name": "Vision of Love",
+        "weight": 1
+      },
+      {
+        "uuid": "bff49e2f-11db-544f-b4a4-9988d26fdbee",
+        "name": "Murdock's Crusade",
+        "weight": 1
+      },
+      {
+        "uuid": "c355ead4-0daf-5fd3-9fef-1c333557ecdf",
+        "name": "A.I.M. Synthoids",
+        "weight": 1
+      },
+      {
+        "uuid": "d0f0035e-b461-54c7-bbf8-e77ca7318098",
+        "name": "Trickster's Stratagem",
+        "weight": 1
+      },
+      {
+        "uuid": "d4f80910-dfd6-5a68-87b8-554e259ba542",
+        "name": "HYDRA Assault Robot",
+        "weight": 1
+      },
+      {
+        "uuid": "d6d5693d-d2dc-511d-89d0-e7b009afbe8e",
+        "name": "Kingpin's Enforcers",
+        "weight": 1
+      },
+      {
+        "uuid": "d8914dc2-2c4d-57ea-ad8c-47de32f35b9c",
+        "name": "Savage Land Dinosaur",
+        "weight": 1
+      },
+      {
+        "uuid": "d8aac2b8-2a48-5161-881d-5eaa03bc6419",
+        "name": "Machinesmith Automaton",
+        "weight": 1
+      },
+      {
+        "uuid": "dd0bd412-bcbf-5a0f-92b4-de9a5a7f2f97",
+        "name": "Pet Avengers",
+        "weight": 1
+      },
+      {
+        "uuid": "e5276ad4-62f3-5260-934c-3bb0036ff58c",
+        "name": "Crimson Operative",
+        "weight": 1
+      },
+      {
+        "uuid": "e8e77cee-d733-50c1-99ac-010d7f4e8ac0",
+        "name": "Undercover Skrull",
+        "weight": 1
+      },
+      {
+        "uuid": "e9e69f7d-1dcc-5ce1-a26e-ed32d6dd293f",
+        "name": "Ultron Drone",
+        "weight": 1
+      },
+      {
+        "uuid": "ee896c4a-1579-53a4-b9ae-a75d0e160503",
+        "name": "Super Strength",
+        "weight": 1
+      },
+      {
+        "uuid": "ef24c0fb-25e2-5154-8b52-277635aca7f0",
+        "name": "Panther Pounce",
+        "weight": 1
+      },
+      {
+        "uuid": "f0b9573f-a15f-5658-9706-a802ccc72a5e",
+        "name": "Red Room Recruit",
+        "weight": 1
+      },
+      {
+        "uuid": "f27187f6-2124-5407-ac4f-f26d564d9171",
+        "name": "Go Nuts!",
+        "weight": 1
+      },
+      {
+        "uuid": "f3caa776-2b66-5465-bfd8-57964e79bb13",
+        "name": "Lightning Strike",
+        "weight": 1
+      },
+      {
+        "uuid": "f53efb39-9e69-50e6-88ba-346566a3755c",
+        "name": "Hire a Crew",
+        "weight": 1
+      },
+      {
+        "uuid": "f58671c7-4fd1-5cf6-a28f-b860c0a0187a",
+        "name": "Hawkeye's Bow",
+        "weight": 1
+      },
+      {
+        "uuid": "f9817b63-70c8-5de5-b7f2-3671d62c7358",
+        "name": "Ninja of the Hand",
+        "weight": 1
+      },
+      {
+        "uuid": "fc30b7a8-2606-5b61-9612-241857b6d121",
+        "name": "Super Speed",
+        "weight": 1
+      },
+      {
+        "uuid": "fd8368f0-4d6e-52be-944d-e16be3095d01",
+        "name": "Visions of Villainy",
+        "weight": 1
+      },
+      {
+        "uuid": "fdfda16f-6d5b-5217-acae-f3c39d4e6f4f",
+        "name": "Aerial Doombot",
+        "weight": 1
+      }
+    ]
+  },
+  "foilReplacement": {
+    "cards": [
+      {
+        "uuid": "004e6327-a1cb-5649-8705-679d916f9427",
+        "name": "Giant-Sized Flying Ant",
+        "weight": 447325
+      },
+      {
+        "uuid": "00590cb8-3737-5002-8827-6b319035b730",
+        "name": "The Kingpin of Crime",
+        "weight": 60750
+      },
+      {
+        "uuid": "007ac439-1479-5a76-a45b-3cb7f83d1586",
+        "name": "Secret Invasion",
+        "weight": 60750
+      },
+      {
+        "uuid": "01c46784-b6b9-5402-9014-fa98771975e9",
+        "name": "Agent Phil Coulson",
+        "weight": 60750
+      },
+      {
+        "uuid": "02036638-5789-5604-a763-aeb87e9c44e0",
+        "name": "Arnim Zola, Bio-Fanatic",
+        "weight": 180873
+      },
+      {
+        "uuid": "028fd581-c054-5253-b16d-b91baaefb567",
+        "name": "Agents of HYDRA",
+        "weight": 447325
+      },
+      {
+        "uuid": "03595529-78d6-5db5-848d-99d82d67c051",
+        "name": "Armor Wars",
+        "weight": 60750
+      },
+      {
+        "uuid": "043e83b6-4fb4-57ef-947e-ee609c1158b1",
+        "name": "Falcon's Wing Harness",
+        "weight": 180873
+      },
+      {
+        "uuid": "06afe063-f145-5e65-acd0-0b27c1a3519c",
+        "name": "Spider-Woman, Secret Agent",
+        "weight": 180873
+      },
+      {
+        "uuid": "0bf1ae61-71db-559f-a077-c53533560189",
+        "name": "Restorative Technique",
+        "weight": 447325
+      },
+      {
+        "uuid": "0cbb4b86-b181-55d0-b7a7-95e28c070041",
+        "name": "Leader, Super-Genius",
+        "weight": 60750
+      },
+      {
+        "uuid": "0d6ac20e-fb67-594e-a441-62bcb07d8fae",
+        "name": "Captain Mar-Vell, Space-Born",
+        "weight": 180873
+      },
+      {
+        "uuid": "0e5886c1-ad29-5ac3-98ae-31f57caa0e7f",
+        "name": "Stolen Stark Tech",
+        "weight": 447325
+      },
+      {
+        "uuid": "0e7a9469-55f7-58a3-b632-cd7604b94b8f",
+        "name": "Nick Fury, Agent of S.H.I.E.L.D.",
+        "weight": 60750
+      },
+      {
+        "uuid": "0eed013a-7dca-5ab4-8bd5-d0ecf36c3050",
+        "name": "Too Evil to Stay Dead",
+        "weight": 180873
+      },
+      {
+        "uuid": "10addd72-a1bc-5b49-9615-3a6069339225",
+        "name": "Tigra, Feline Fury",
+        "weight": 180873
+      },
+      {
+        "uuid": "11aea69c-6516-57e8-b1ce-59591b17e719",
+        "name": "Villainous Hideout",
+        "weight": 180873
+      },
+      {
+        "uuid": "1283f444-6057-51d9-926b-6c94b1af4e09",
+        "name": "Super-Adaptoid",
+        "weight": 60750
+      },
+      {
+        "uuid": "13d9894f-d2e0-5e7d-ad88-3c6af526cb43",
+        "name": "Death to Our Enemies",
+        "weight": 180873
+      },
+      {
+        "uuid": "17041f5e-ea77-5be2-8940-3f21fdf2a549",
+        "name": "Captain America, Living Legend",
+        "weight": 180873
+      },
+      {
+        "uuid": "19629457-2b6f-51db-af6a-4fb8edd5b93c",
+        "name": "Speedball, New Warrior",
+        "weight": 180873
+      },
+      {
+        "uuid": "1c9a04f0-b773-5beb-b82d-198c72402897",
+        "name": "Night Nurse, Healer of Heroes",
+        "weight": 180873
+      },
+      {
+        "uuid": "1cf79a78-310e-5c5f-88e4-e10e2586c3a9",
+        "name": "S.H.I.E.L.D. Deployment Drone",
+        "weight": 447325
+      },
+      {
+        "uuid": "1e373f8e-07d0-516b-bddc-537ac1c3b222",
+        "name": "S.H.I.E.L.D. Helicarrier",
+        "weight": 180873
+      },
+      {
+        "uuid": "1e962a1c-8348-5624-a586-43868ee6f729",
+        "name": "Loki, God of Mischief",
+        "weight": 60750
+      },
+      {
+        "uuid": "20579382-517b-5e34-a7d5-c31f0969f71c",
+        "name": "Abomination, Terrifying Titan",
+        "weight": 180873
+      },
+      {
+        "uuid": "21c76224-b98c-54a4-a99b-667a8754e73c",
+        "name": "Ironheart, Clever Champion",
+        "weight": 60750
+      },
+      {
+        "uuid": "228f7c68-8eae-56a3-a11a-939f3576bdc1",
+        "name": "Training Compound",
+        "weight": 60750
+      },
+      {
+        "uuid": "237d4727-54e5-5fb8-81d0-9bf8478f0c7d",
+        "name": "Misty Knight, Hero for Hire",
+        "weight": 180873
+      },
+      {
+        "uuid": "240315ec-e464-534e-a76e-e342f2a282db",
+        "name": "Klaw, Sonic Subjugator",
+        "weight": 180873
+      },
+      {
+        "uuid": "2440d39d-98d2-562f-b367-e37fffc03f2c",
+        "name": "Storm, Windrider",
+        "weight": 60750
+      },
+      {
+        "uuid": "24cf7602-790c-5385-bbe4-213c897909c2",
+        "name": "Wakandan Royal Guard",
+        "weight": 447325
+      },
+      {
+        "uuid": "24d38b8a-402c-53d3-a966-650f2beb1e01",
+        "name": "HYDRA Troopers",
+        "weight": 447325
+      },
+      {
+        "uuid": "254a0e14-4447-597a-b537-676206040a97",
+        "name": "The Sentry, Golden Guardian",
+        "weight": 60750
+      },
+      {
+        "uuid": "2560f5b3-8030-5c29-b4cd-94f95675f2c4",
+        "name": "Robot Domination",
+        "weight": 180873
+      },
+      {
+        "uuid": "27aefec5-1548-5526-adec-c5e00d0d3a41",
+        "name": "Truck Toss",
+        "weight": 180873
+      },
+      {
+        "uuid": "27ff6937-5d50-50f0-997c-cfc63dab8867",
+        "name": "Whiplash, Vengeful Engineer",
+        "weight": 180873
+      },
+      {
+        "uuid": "287faf6a-9428-5b77-ba17-27f34eb72a44",
+        "name": "Thirst for Knowledge",
+        "weight": 180873
+      },
+      {
+        "uuid": "28f44a33-9bde-569c-a478-4c5e315fea2a",
+        "name": "Stark Industries Executive",
+        "weight": 447325
+      },
+      {
+        "uuid": "299aaedd-3fee-5ca4-b3bf-d99b711e75b0",
+        "name": "Team Tactics",
+        "weight": 180873
+      },
+      {
+        "uuid": "2ca32964-e3c9-560b-bfce-0eee3ba555d5",
+        "name": "Agent of Atlas",
+        "weight": 447325
+      },
+      {
+        "uuid": "2cc396de-d29d-5187-8977-d5f29d90c4bd",
+        "name": "World War Hulk",
+        "weight": 60750
+      },
+      {
+        "uuid": "2cd463b7-42a7-503b-9b18-6b9a71766877",
+        "name": "Hex Magic",
+        "weight": 180873
+      },
+      {
+        "uuid": "2cf60341-2890-5483-b058-486f53674c45",
+        "name": "Shuri, Wakandan Inventor",
+        "weight": 180873
+      },
+      {
+        "uuid": "2d50ad6b-7603-5ec5-8cd5-ce22b6ee24ac",
+        "name": "Alien Invasion",
+        "weight": 60750
+      },
+      {
+        "uuid": "2dbe84e2-34ed-5144-9f98-54a14fc17f27",
+        "name": "Surveillance Room",
+        "weight": 447325
+      },
+      {
+        "uuid": "2e5a2561-267a-5c1e-a64b-331322f7d9c8",
+        "name": "Wolverine, Fierce Fighter",
+        "weight": 60750
+      },
+      {
+        "uuid": "351d44b5-fa29-546c-9dba-ec0e12698393",
+        "name": "Wakandan Drone Flock",
+        "weight": 447325
+      },
+      {
+        "uuid": "352e7cae-62f7-547e-a1ad-7476af6d94db",
+        "name": "Agent Maria Hill",
+        "weight": 180873
+      },
+      {
+        "uuid": "37637b52-fd4a-54de-bd66-7acab472e689",
+        "name": "Avengers Tower",
+        "weight": 180873
+      },
+      {
+        "uuid": "3777f109-48dc-5705-a6d3-7340d08cbf01",
+        "name": "Serpent Specialist",
+        "weight": 447325
+      },
+      {
+        "uuid": "3854a309-1842-54b3-8248-e29af03246ec",
+        "name": "King T'Challa",
+        "weight": 30375
+      },
+      {
+        "uuid": "3894528d-c599-5808-bbe8-c19247d28b54",
+        "name": "Thanos, the Mad Titan",
+        "weight": 30375
+      },
+      {
+        "uuid": "3b570132-c92c-5968-810c-988448cf0d49",
+        "name": "M.O.D.O.K.",
+        "weight": 30375
+      },
+      {
+        "uuid": "3d2ccb0f-deaf-52ad-8ccc-09052f99a3b4",
+        "name": "Crossbones, Malicious Mercenary",
+        "weight": 180873
+      },
+      {
+        "uuid": "3e355267-8a18-5d2a-9ff6-75c566302058",
+        "name": "Dependable Quinjet",
+        "weight": 447325
+      },
+      {
+        "uuid": "3f36b164-4dcf-54f2-a02e-9ccd9ef4e01f",
+        "name": "Cloak and Dagger, Entwined",
+        "weight": 60750
+      },
+      {
+        "uuid": "3f45ae42-dc18-5a23-8c0e-df62f6005d95",
+        "name": "Madame Hydra",
+        "weight": 180873
+      },
+      {
+        "uuid": "40076605-7c32-5eeb-b407-eb6b214d68a7",
+        "name": "Hawkeye, Master Marksman",
+        "weight": 60750
+      },
+      {
+        "uuid": "413be4c3-d43f-5243-9911-813793e93cb9",
+        "name": "Photon Blast Barrage",
+        "weight": 180873
+      },
+      {
+        "uuid": "41541761-4c5e-559c-8e4a-0c93fd5d8cae",
+        "name": "A.I.M. Scientists",
+        "weight": 447325
+      },
+      {
+        "uuid": "4220f356-d983-54f9-958a-c773456b472e",
+        "name": "Spider-Man, To the Rescue",
+        "weight": 180873
+      },
+      {
+        "uuid": "4276241e-b778-56b2-99f9-f3c28fc905f8",
+        "name": "Guerrilla Gorilla",
+        "weight": 447325
+      },
+      {
+        "uuid": "435e3d8d-8a5c-5213-9a78-e8cf2b46f8a2",
+        "name": "Agents of S.H.I.E.L.D.",
+        "weight": 447325
+      },
+      {
+        "uuid": "4401151c-51c8-504c-a3f2-c2b4bed7adab",
+        "name": "Frozen in Ice",
+        "weight": 447325
+      },
+      {
+        "uuid": "4436c87f-8051-56c5-b660-a04b5c3dc2a8",
+        "name": "Earth's Mightiest Heroes",
+        "weight": 30375
+      },
+      {
+        "uuid": "45fde29d-8d1f-534d-a821-927f9714d470",
+        "name": "Call Damage Control",
+        "weight": 447325
+      },
+      {
+        "uuid": "460be77c-5d56-51f4-87f1-50e1bbee8f3d",
+        "name": "Cosmic Cube",
+        "weight": 30375
+      },
+      {
+        "uuid": "472b7450-eb96-551d-bdc1-f6a7e52899f9",
+        "name": "Echo, Perceptive Prodigy",
+        "weight": 180873
+      },
+      {
+        "uuid": "47836e61-dbe0-5998-8d87-218ae00ae632",
+        "name": "The Ten Rings",
+        "weight": 30375
+      },
+      {
+        "uuid": "489293af-8321-5b98-84df-e912ec2a844c",
+        "name": "The Unbeatable Squirrel Girl",
+        "weight": 60750
+      },
+      {
+        "uuid": "48d98b8c-c8c1-529e-bb58-43f75dd69fa1",
+        "name": "Roxxon Brutes",
+        "weight": 447325
+      },
+      {
+        "uuid": "49116522-7b6c-53ee-8bc8-b08b12ffc948",
+        "name": "Mister Hyde, Monster Within",
+        "weight": 180873
+      },
+      {
+        "uuid": "49341ffd-83ad-5859-8aa9-579976ffa22f",
+        "name": "Avengers Assemble!",
+        "weight": 30375
+      },
+      {
+        "uuid": "4bbf5384-900d-57e4-84a1-555d4bffad5c",
+        "name": "Agent 13, Sharon Carter",
+        "weight": 180873
+      },
+      {
+        "uuid": "4c356f24-a995-5266-a0a3-1e2dee7a31f4",
+        "name": "Madame Masque",
+        "weight": 180873
+      },
+      {
+        "uuid": "4cd1eaf2-7ae8-5f41-a8ef-a3210a95e83e",
+        "name": "Hero in Training",
+        "weight": 447325
+      },
+      {
+        "uuid": "4d6f3f98-9942-522b-96aa-cbab8fc3999a",
+        "name": "Red Guardian, Super-Soldier",
+        "weight": 180873
+      },
+      {
+        "uuid": "4d954485-6e63-5bb2-8656-c88e6f753736",
+        "name": "Castle Doom",
+        "weight": 60750
+      },
+      {
+        "uuid": "4e6f4b2a-0c64-5d1b-8b0d-ba737e6e4436",
+        "name": "K'un-Lun Warrior",
+        "weight": 447325
+      },
+      {
+        "uuid": "4f2d3029-0f52-59b3-b9ca-e8ad5e81462b",
+        "name": "Blazing Crescendo",
+        "weight": 447325
+      },
+      {
+        "uuid": "5121d434-fb9e-55d6-bb1f-4a2cfe35f817",
+        "name": "Take Up the Shield",
+        "weight": 447325
+      },
+      {
+        "uuid": "555048c1-7a42-5b1e-b14b-93c3766ed271",
+        "name": "Volcanic Villain",
+        "weight": 447325
+      },
+      {
+        "uuid": "5585493b-5ab3-5fcd-9c6c-6db78ef7a901",
+        "name": "Wiccan, Rising Magician",
+        "weight": 180873
+      },
+      {
+        "uuid": "572dc600-5162-52a7-ba4a-26f493066ccc",
+        "name": "Black Widow, Super Spy",
+        "weight": 30375
+      },
+      {
+        "uuid": "5975aa45-db88-5ade-99b8-069fd1e7e6df",
+        "name": "Super-Skrull",
+        "weight": 60750
+      },
+      {
+        "uuid": "59b2657a-c15a-5c18-8983-b08e6e835185",
+        "name": "HYDRA Infiltration",
+        "weight": 447325
+      },
+      {
+        "uuid": "59d99152-d9cc-5258-a0c4-4ffbcc8516eb",
+        "name": "Helicarrier Strike",
+        "weight": 447325
+      },
+      {
+        "uuid": "5adce06d-51b3-5dee-bb59-3be79acbd89c",
+        "name": "Doom Reigns Supreme",
+        "weight": 60750
+      },
+      {
+        "uuid": "5aec904b-16cb-5274-9b76-33d9947e35f3",
+        "name": "Raft Security Officer",
+        "weight": 447325
+      },
+      {
+        "uuid": "5b376df8-2c13-5e2c-8e31-747e55d07d09",
+        "name": "Jessica Jones, Private Eye",
+        "weight": 180873
+      },
+      {
+        "uuid": "5b489555-fdec-5cd6-993d-95900af722ee",
+        "name": "Mockingbird, Ace Agent",
+        "weight": 180873
+      },
+      {
+        "uuid": "5c5476bf-3e09-5100-992d-794a8374538d",
+        "name": "The Astonishing Ant-Man",
+        "weight": 60750
+      },
+      {
+        "uuid": "5c7d556a-228d-5178-8350-6935e186bb44",
+        "name": "HULK SMASH!",
+        "weight": 447325
+      },
+      {
+        "uuid": "5d677fef-77df-5efb-a562-e70365928b5a",
+        "name": "Hercules, Prince of Power",
+        "weight": 180873
+      },
+      {
+        "uuid": "5eba64f2-122b-55a6-b9c6-608017e05bd3",
+        "name": "Cruel Alliance",
+        "weight": 447325
+      },
+      {
+        "uuid": "5f8d8f07-660d-57ab-af9e-efc5167d4711",
+        "name": "Atlantean Cavalry",
+        "weight": 447325
+      },
+      {
+        "uuid": "60acc3ce-5b93-5421-b04b-50bf68ad6247",
+        "name": "Thor Odinson",
+        "weight": 180873
+      },
+      {
+        "uuid": "612964a2-3eb4-522c-ae49-efadb38f9e7a",
+        "name": "Giant Growth",
+        "weight": 447325
+      },
+      {
+        "uuid": "617858e2-2cc1-5caa-ab89-5b7fa1242306",
+        "name": "S.H.I.E.L.D. Spy Kit",
+        "weight": 447325
+      },
+      {
+        "uuid": "61b5e12d-c8cc-53b0-912e-566802a85e56",
+        "name": "Black Panther, Vanguard",
+        "weight": 180873
+      },
+      {
+        "uuid": "63a0a05c-f19a-58b3-93d0-7b7a113faf9e",
+        "name": "Brave Brawler",
+        "weight": 447325
+      },
+      {
+        "uuid": "64a6a8cc-a56e-5a11-b570-af818a12ce45",
+        "name": "Knight of Wundagore",
+        "weight": 447325
+      },
+      {
+        "uuid": "6546ba71-cd14-5533-a79a-6639f85ffa87",
+        "name": "Borough Backup",
+        "weight": 447325
+      },
+      {
+        "uuid": "66cac773-6688-59ac-b0f1-4533451ced87",
+        "name": "Hellcat, Undying Vigilante",
+        "weight": 180873
+      },
+      {
+        "uuid": "6737ea4b-53f2-5512-9108-f92eba5d1b45",
+        "name": "Okoye, Dora Milaje Leader",
+        "weight": 180873
+      },
+      {
+        "uuid": "67b20fd9-8baf-55af-a185-1e52f00cfa3c",
+        "name": "Ant-Man's Army",
+        "weight": 447325
+      },
+      {
+        "uuid": "688267fd-0d37-53fd-ba59-e70e73819c4b",
+        "name": "Super Villain Lockup",
+        "weight": 180873
+      },
+      {
+        "uuid": "6925060f-18ad-5edc-883e-fd3cd578f995",
+        "name": "Speed, Young Avenger",
+        "weight": 180873
+      },
+      {
+        "uuid": "69382437-cdfc-5d29-972f-fa1f5bef5143",
+        "name": "The Serpent Society",
+        "weight": 60750
+      },
+      {
+        "uuid": "69629c9e-ed92-546c-abdf-56bbcd71f15e",
+        "name": "Captain America, Super-Soldier",
+        "weight": 30375
+      },
+      {
+        "uuid": "6a83519c-1591-544b-bfad-6bacfd32aaf4",
+        "name": "Hulk, Gamma Goliath",
+        "weight": 180873
+      },
+      {
+        "uuid": "6c9c9569-dfc8-5ead-85c4-044214fecc59",
+        "name": "Captain America, Wings of Freedom",
+        "weight": 60750
+      },
+      {
+        "uuid": "6cd79aac-b438-5ae5-999e-5d9ff2da3c29",
+        "name": "Stature, Size Shifter",
+        "weight": 180873
+      },
+      {
+        "uuid": "6d3bbc2c-f21a-5ecd-aab3-4bce80419396",
+        "name": "Punishing Punch",
+        "weight": 180873
+      },
+      {
+        "uuid": "6d51101d-f45b-55d8-a92f-f5b2a07eee20",
+        "name": "Bold Biochemist",
+        "weight": 447325
+      },
+      {
+        "uuid": "6f17da18-b24e-5976-b32b-12211da2649f",
+        "name": "Bullseye, Death Dealer",
+        "weight": 180873
+      },
+      {
+        "uuid": "6f35405c-5b94-5b33-83d6-fea85758a9e7",
+        "name": "Vibranium Energy Daggers",
+        "weight": 447325
+      },
+      {
+        "uuid": "707acda3-e753-5f89-9f81-c76cc9534e80",
+        "name": "The Masters of Evil",
+        "weight": 180873
+      },
+      {
+        "uuid": "71862fd7-ee61-5594-8cbd-b35b19d929c1",
+        "name": "Kid Loki",
+        "weight": 180873
+      },
+      {
+        "uuid": "73da755e-a3cf-5360-a87a-070f30d39fef",
+        "name": "Red Hulk",
+        "weight": 180873
+      },
+      {
+        "uuid": "747eb5e1-cbd4-5193-9c40-eb45189c5bd4",
+        "name": "Invisible Woman, Sue Storm",
+        "weight": 180873
+      },
+      {
+        "uuid": "75176126-fd60-5a5d-b5d8-4219a880d182",
+        "name": "Falcon, Winged Wonder",
+        "weight": 180873
+      },
+      {
+        "uuid": "75e34d08-2b4a-5f8c-8b2c-00a69215fc29",
+        "name": "Captain Marvel, Earth's Protector",
+        "weight": 30375
+      },
+      {
+        "uuid": "76904132-ca08-5346-8a8d-74e72a97eb76",
+        "name": "Ms. Marvel, Kamala Khan",
+        "weight": 60750
+      },
+      {
+        "uuid": "76d36676-a3fa-59a1-9da7-aa9a49845566",
+        "name": "Repulsor Blast",
+        "weight": 447325
+      },
+      {
+        "uuid": "7734690e-c4d8-5f55-8371-a8a422c9dbe0",
+        "name": "Reptil, Dinomorpher",
+        "weight": 180873
+      },
+      {
+        "uuid": "792d54a3-6677-5f43-9599-bba5db069f10",
+        "name": "Dark Deed",
+        "weight": 180873
+      },
+      {
+        "uuid": "7967823c-6d9b-5c61-90e4-519da3669bcd",
+        "name": "Powerful Broker",
+        "weight": 447325
+      },
+      {
+        "uuid": "79d33058-490f-5834-b5a6-cd52a5b2cc43",
+        "name": "Kree Commandos",
+        "weight": 447325
+      },
+      {
+        "uuid": "7baf50f1-6a2b-5dea-a003-4fb161e6dd29",
+        "name": "Hulkling, Burgeoning Bruiser",
+        "weight": 180873
+      },
+      {
+        "uuid": "7c26b5cd-3bfd-5a6c-9754-df5f70afb203",
+        "name": "Project Deathlok Soldier",
+        "weight": 447325
+      },
+      {
+        "uuid": "7f9212fa-c67a-5208-9e78-3917e6f01293",
+        "name": "White Tiger, Ava Ayala",
+        "weight": 180873
+      },
+      {
+        "uuid": "812ab588-9494-5c97-aa94-d6c6b98f6978",
+        "name": "Killmonger, Scourge of Wakanda",
+        "weight": 180873
+      },
+      {
+        "uuid": "82117dee-5e74-50bf-8632-a2b8294bd700",
+        "name": "Web Up",
+        "weight": 447325
+      },
+      {
+        "uuid": "82488689-7c73-50fc-90d4-2ea9e3085dbb",
+        "name": "Decoy Ploy",
+        "weight": 447325
+      },
+      {
+        "uuid": "82945aef-dc2a-5bad-982b-9f26dd2a0744",
+        "name": "Vision Quest",
+        "weight": 60750
+      },
+      {
+        "uuid": "82f36aaf-c10f-53f2-8822-ac9634087dba",
+        "name": "Kree Sentinel",
+        "weight": 447325
+      },
+      {
+        "uuid": "835e4981-4432-5c30-acd7-d51845c3125e",
+        "name": "Iron Lad, Diverging Destiny",
+        "weight": 180873
+      },
+      {
+        "uuid": "841ecc63-c919-5f55-8291-af0ac0dee1ad",
+        "name": "Avengers Disassembled",
+        "weight": 60750
+      },
+      {
+        "uuid": "8598ec33-3649-5059-ac6f-e68f764deaa3",
+        "name": "The Thing, Ben Grimm",
+        "weight": 180873
+      },
+      {
+        "uuid": "8708973b-4ca1-59fa-a7b5-e7c5dd98fb76",
+        "name": "Hydraulic Helper",
+        "weight": 447325
+      },
+      {
+        "uuid": "892b4b1e-3275-5b0d-b549-0642e06c2c8a",
+        "name": "Taskmaster, Mercenary Mimic",
+        "weight": 60750
+      },
+      {
+        "uuid": "89a312e9-0bb9-5d06-97e8-5c00353fa1c8",
+        "name": "Absorbing Man",
+        "weight": 60750
+      },
+      {
+        "uuid": "89c4b4bc-c143-5247-8b3d-eee3c296ba93",
+        "name": "Atlantis Attacks",
+        "weight": 447325
+      },
+      {
+        "uuid": "8a68acc2-8ee7-5b14-8a6c-b7ea42ec5556",
+        "name": "Baxter Building",
+        "weight": 180873
+      },
+      {
+        "uuid": "8d88f74e-9d9e-5431-a6a1-2d2371e45de0",
+        "name": "Mister Fantastic, Reed Richards",
+        "weight": 180873
+      },
+      {
+        "uuid": "8ddaf10d-2729-5d0a-a782-2b07f51ff045",
+        "name": "Dark Fortress",
+        "weight": 60750
+      },
+      {
+        "uuid": "8e0e9188-0b55-5f16-8054-482a28226230",
+        "name": "The Coming of Galactus",
+        "weight": 30375
+      },
+      {
+        "uuid": "8f28805a-4314-5338-8d23-d0a08243247b",
+        "name": "Iron Man Armor",
+        "weight": 30375
+      },
+      {
+        "uuid": "905409d3-b8b3-5417-939f-9d3b41479f28",
+        "name": "Crowd of True Believers",
+        "weight": 447325
+      },
+      {
+        "uuid": "90ad25e3-b000-5d87-952e-d32409a804a6",
+        "name": "Ka-Zar of the Savage Land",
+        "weight": 180873
+      },
+      {
+        "uuid": "918f5530-1a5c-50c8-a96e-1ec9eef692fc",
+        "name": "Patriot, Shield Wielder",
+        "weight": 180873
+      },
+      {
+        "uuid": "928d8f52-fab9-5546-8dfb-e4e180648980",
+        "name": "Bruce Banner",
+        "weight": 30375
+      },
+      {
+        "uuid": "937c49b8-5762-5402-91a0-aac8820953cf",
+        "name": "Super Suit",
+        "weight": 447325
+      },
+      {
+        "uuid": "941ffce6-693a-502b-94da-68440e7a1686",
+        "name": "Hour of Defeat",
+        "weight": 447325
+      },
+      {
+        "uuid": "9428d422-d6b7-5cb9-9eae-0719c22feeca",
+        "name": "The Mind Stone",
+        "weight": 30375
+      },
+      {
+        "uuid": "94530408-ce24-5abe-ab31-3af91d06112e",
+        "name": "Colleen Wing, Street Samurai",
+        "weight": 180873
+      },
+      {
+        "uuid": "94f37f81-d2b1-53a5-a4c7-0f3128b44fac",
+        "name": "Evil's Thrall",
+        "weight": 180873
+      },
+      {
+        "uuid": "9aad7290-0166-5a63-b0f4-5a485143a4fd",
+        "name": "Quicksilver, Brash Blur",
+        "weight": 60750
+      },
+      {
+        "uuid": "9aeaf39f-bdef-547f-98ce-94cbad4cc749",
+        "name": "Human Torch, Johnny Storm",
+        "weight": 180873
+      },
+      {
+        "uuid": "9aebb95f-2cf4-510e-99d1-37a8e4b55090",
+        "name": "Swordsman, Sharp Scoundrel",
+        "weight": 180873
+      },
+      {
+        "uuid": "9cd7d75a-5e77-54eb-b586-5cd43783d8e9",
+        "name": "Moon Girl and Devil Dinosaur",
+        "weight": 60750
+      },
+      {
+        "uuid": "9d00d3c6-fd96-5a9e-a307-5e11163efc02",
+        "name": "Super-Soldier Serum",
+        "weight": 60750
+      },
+      {
+        "uuid": "9db642ff-ba47-5d44-87be-80e6e327b4bb",
+        "name": "Futurist Forge",
+        "weight": 447325
+      },
+      {
+        "uuid": "9e8ad60c-e162-5e52-af2f-66cc91873017",
+        "name": "Quake, Agent of S.H.I.E.L.D.",
+        "weight": 180873
+      },
+      {
+        "uuid": "9f306f90-bbea-5edd-b15b-906f0de04405",
+        "name": "The Super Hero Civil War",
+        "weight": 60750
+      },
+      {
+        "uuid": "a0a2a562-cbf7-509b-8149-5741c177d8c3",
+        "name": "Depower",
+        "weight": 447325
+      },
+      {
+        "uuid": "a0c040d2-e691-5b2d-a1ab-b612e39e56f4",
+        "name": "Super Intelligence",
+        "weight": 180873
+      },
+      {
+        "uuid": "a1169aa7-b3e4-5248-9cc4-43be3c10f7ea",
+        "name": "Jennifer Walters",
+        "weight": 30375
+      },
+      {
+        "uuid": "a3b1e4cb-5aeb-526b-a1da-03f2b5a781d8",
+        "name": "Rewrite History",
+        "weight": 180873
+      },
+      {
+        "uuid": "a53abe01-62a7-529d-ba72-62b3a55d72ac",
+        "name": "Captain America's Shield",
+        "weight": 60750
+      },
+      {
+        "uuid": "a7670a7a-e712-5de8-b789-8e363d2862a1",
+        "name": "Winter Soldier, Icy Assassin",
+        "weight": 60750
+      },
+      {
+        "uuid": "a79739bb-e2fc-5ca9-8e1a-5e1680b5ab47",
+        "name": "Grim Reaper, Lethal Legionnaire",
+        "weight": 180873
+      },
+      {
+        "uuid": "a9883190-ccad-5b82-b5c3-9aa3e242cca9",
+        "name": "Political Triumph",
+        "weight": 180873
+      },
+      {
+        "uuid": "aa024183-af00-5d09-89b0-1d5ddc69ae05",
+        "name": "The Ruinous Wrecking Crew",
+        "weight": 60750
+      },
+      {
+        "uuid": "aa08d4fb-8c3c-5a59-9070-41daa26345b9",
+        "name": "Shang-Chi, Master of Kung Fu",
+        "weight": 30375
+      },
+      {
+        "uuid": "ab04e6ee-2238-530e-be08-3df234f4bf66",
+        "name": "Widow's Bite",
+        "weight": 447325
+      },
+      {
+        "uuid": "abbef72e-9438-5e68-adf7-30697c1258bb",
+        "name": "Beast, Erudite Aerialist",
+        "weight": 180873
+      },
+      {
+        "uuid": "ac6bc736-e9e2-5db3-b4c8-9c47f00dae51",
+        "name": "Unliving Legionnaire",
+        "weight": 447325
+      },
+      {
+        "uuid": "ad3986ce-cb48-5306-9b81-09e69cce5d6b",
+        "name": "Gleaming Bastion",
+        "weight": 60750
+      },
+      {
+        "uuid": "adf87e7c-c9f8-55b1-bd34-8a9487e42bd9",
+        "name": "Origin of the Avengers",
+        "weight": 60750
+      },
+      {
+        "uuid": "ae8c073c-dcb9-5315-88a1-e008d9191a7b",
+        "name": "We Say Thee Nay!",
+        "weight": 447325
+      },
+      {
+        "uuid": "ae8dcff6-79b1-519f-9124-c2c567931bb0",
+        "name": "Mole Man, Moloid Master",
+        "weight": 60750
+      },
+      {
+        "uuid": "b28158eb-24d1-55ca-9c1c-c0ffeae01706",
+        "name": "Luke Cage, Power Man",
+        "weight": 180873
+      },
+      {
+        "uuid": "b295e867-9d6a-5014-aef9-94f6a2999241",
+        "name": "Doctor Doom",
+        "weight": 30375
+      },
+      {
+        "uuid": "b2f06358-982f-50c5-8d5a-996806c7bc0a",
+        "name": "Rapid Rescue",
+        "weight": 447325
+      },
+      {
+        "uuid": "b4847400-f86a-59a6-b509-48cf1aa0060d",
+        "name": "Hawkeye, Young Avenger",
+        "weight": 180873
+      },
+      {
+        "uuid": "b549a82a-5720-53ec-a7d8-a150611e1040",
+        "name": "Heroic Feast",
+        "weight": 60750
+      },
+      {
+        "uuid": "b6198e21-ee4c-51a0-a3b2-aadb22c790ec",
+        "name": "War Machine, Legacy of Iron",
+        "weight": 180873
+      },
+      {
+        "uuid": "b8b9dc87-ab70-5bb6-817f-7ba4eec44ed0",
+        "name": "Claim the Kingdom",
+        "weight": 180873
+      },
+      {
+        "uuid": "b9516220-24b3-5d05-8adc-e07360bc060a",
+        "name": "Kang the Conqueror",
+        "weight": 30375
+      },
+      {
+        "uuid": "b98f5f21-4813-506c-be51-5e6c368224b4",
+        "name": "Ant-Man, Colony Commander",
+        "weight": 180873
+      },
+      {
+        "uuid": "ba864a61-3704-52cc-a850-a2e8bc1e2bb8",
+        "name": "I Am Iron Man",
+        "weight": 447325
+      },
+      {
+        "uuid": "ba9594c4-70b5-5034-84da-106e8c94a356",
+        "name": "The Vision",
+        "weight": 60750
+      },
+      {
+        "uuid": "bb1390a1-8de3-5e24-8e1f-56454023959b",
+        "name": "H.E.R.B.I.E. Scout Unit",
+        "weight": 447325
+      },
+      {
+        "uuid": "bb64397e-993a-5db8-914c-1ae1b63e49fb",
+        "name": "The Mighty Thor, Jane Foster",
+        "weight": 60750
+      },
+      {
+        "uuid": "bdc3f0fb-bb25-5300-89b9-2fc86a154913",
+        "name": "Training Regimen",
+        "weight": 180873
+      },
+      {
+        "uuid": "bddca6a0-3265-5cbe-8ad3-474dfcddf0f1",
+        "name": "Construct a Cosmic Cube",
+        "weight": 60750
+      },
+      {
+        "uuid": "bf1bf5e5-19ef-57bf-829d-38ca396eae82",
+        "name": "Vision of Love",
+        "weight": 447325
+      },
+      {
+        "uuid": "bff49e2f-11db-544f-b4a4-9988d26fdbee",
+        "name": "Murdock's Crusade",
+        "weight": 447325
+      },
+      {
+        "uuid": "c277c4fa-0e0b-5d0c-84b2-35463e2c1505",
+        "name": "Elektra, Daughter of the Hand",
+        "weight": 60750
+      },
+      {
+        "uuid": "c355ead4-0daf-5fd3-9fef-1c333557ecdf",
+        "name": "A.I.M. Synthoids",
+        "weight": 447325
+      },
+      {
+        "uuid": "c58539f9-7709-515d-b31c-d58f4682a1dc",
+        "name": "She-Hulk, Jade Defender",
+        "weight": 180873
+      },
+      {
+        "uuid": "c6b0ca58-2beb-5fcd-8575-292616f3574d",
+        "name": "Daredevil, Man Without Fear",
+        "weight": 60750
+      },
+      {
+        "uuid": "c7cfacd2-df19-587b-9946-192409964c0e",
+        "name": "Viv Vision, Teen Synthezoid",
+        "weight": 180873
+      },
+      {
+        "uuid": "c891d6a1-024d-54ad-87b1-818a1b44718d",
+        "name": "The Scarlet Witch",
+        "weight": 60750
+      },
+      {
+        "uuid": "cb4bcf18-0217-50d6-9a3e-daefcb07d4e3",
+        "name": "Gathering Place",
+        "weight": 60750
+      },
+      {
+        "uuid": "cc0c24fb-8a77-54ae-9ccb-24da667ebcce",
+        "name": "Baron Strucker, HYDRA Overlord",
+        "weight": 180873
+      },
+      {
+        "uuid": "cd26d8b5-7a30-5eca-80ac-21ee3bf3ed5c",
+        "name": "Thunderbolts Conspiracy",
+        "weight": 60750
+      },
+      {
+        "uuid": "ceb72ea1-1d20-586e-817c-350bd590977d",
+        "name": "Hidden Lair",
+        "weight": 60750
+      },
+      {
+        "uuid": "d0f0035e-b461-54c7-bbf8-e77ca7318098",
+        "name": "Trickster's Stratagem",
+        "weight": 447325
+      },
+      {
+        "uuid": "d1da4349-9005-57e4-b412-f942dae318ac",
+        "name": "Worlds Within Worlds",
+        "weight": 60750
+      },
+      {
+        "uuid": "d4f80910-dfd6-5a68-87b8-554e259ba542",
+        "name": "HYDRA Assault Robot",
+        "weight": 447325
+      },
+      {
+        "uuid": "d57c4d03-0fa8-5af5-805b-b228c5ca1a17",
+        "name": "Rick Jones, Destined Sidekick",
+        "weight": 180873
+      },
+      {
+        "uuid": "d589f72d-823e-55eb-bb1b-b9255c308de9",
+        "name": "Doc Samson, Super Psychiatrist",
+        "weight": 180873
+      },
+      {
+        "uuid": "d6bb333d-9246-5666-8dd1-13d50079d944",
+        "name": "Fin Fang Foom",
+        "weight": 60750
+      },
+      {
+        "uuid": "d6d5693d-d2dc-511d-89d0-e7b009afbe8e",
+        "name": "Kingpin's Enforcers",
+        "weight": 447325
+      },
+      {
+        "uuid": "d6e0fb73-8c13-54de-abb1-c4d185065205",
+        "name": "S.H.I.E.L.D. Flying Car",
+        "weight": 60750
+      },
+      {
+        "uuid": "d7a10027-01be-561e-8fa7-5d4f8a4005d0",
+        "name": "Wonder Man, Hollywood Hero",
+        "weight": 180873
+      },
+      {
+        "uuid": "d7baaa23-df55-5a54-9362-fed32b2eb8cb",
+        "name": "Kang, Temporal Tyrant",
+        "weight": 180873
+      },
+      {
+        "uuid": "d8914dc2-2c4d-57ea-ad8c-47de32f35b9c",
+        "name": "Savage Land Dinosaur",
+        "weight": 447325
+      },
+      {
+        "uuid": "d8aac2b8-2a48-5161-881d-5eaa03bc6419",
+        "name": "Machinesmith Automaton",
+        "weight": 447325
+      },
+      {
+        "uuid": "dd0bd412-bcbf-5a0f-92b4-de9a5a7f2f97",
+        "name": "Pet Avengers",
+        "weight": 447325
+      },
+      {
+        "uuid": "ddbeab29-2074-5b3e-9e98-72f7968e984b",
+        "name": "Baron Helmut Zemo",
+        "weight": 60750
+      },
+      {
+        "uuid": "deeee2a4-6b7c-5392-8dad-f873246a8c8a",
+        "name": "Ghost, Spectral Saboteur",
+        "weight": 180873
+      },
+      {
+        "uuid": "df7474af-f7a8-5e91-944c-489602b4c1b9",
+        "name": "Titania, Rugged Rumbler",
+        "weight": 180873
+      },
+      {
+        "uuid": "e063ea2f-328f-5ff8-ab5e-e26456bdd1d7",
+        "name": "Avengers: Under Siege",
+        "weight": 60750
+      },
+      {
+        "uuid": "e0ded79d-a6d2-579b-beba-a3ebf8fb5d26",
+        "name": "Attuma, Atlantean Warlord",
+        "weight": 180873
+      },
+      {
+        "uuid": "e0e65ab1-18cc-5e23-a6a6-fbfd13edf38a",
+        "name": "Arc Reactor",
+        "weight": 60750
+      },
+      {
+        "uuid": "e123c7d3-c9eb-57b1-a2f1-9bc4b992eda5",
+        "name": "Epic Fight",
+        "weight": 60750
+      },
+      {
+        "uuid": "e14489d4-5696-52f1-8333-04b8bee38596",
+        "name": "Black Widow, Double Agent",
+        "weight": 180873
+      },
+      {
+        "uuid": "e1624541-225f-54ec-b650-b692b060cafe",
+        "name": "White Widow, Free Agent",
+        "weight": 180873
+      },
+      {
+        "uuid": "e5276ad4-62f3-5260-934c-3bb0036ff58c",
+        "name": "Crimson Operative",
+        "weight": 447325
+      },
+      {
+        "uuid": "e6b663be-d83e-5f53-bbf0-01cb7751bf01",
+        "name": "Pym Particles",
+        "weight": 180873
+      },
+      {
+        "uuid": "e6da7799-0ba4-5fb8-affc-2378b7c04c87",
+        "name": "Yellowjacket, Heartless Marauder",
+        "weight": 180873
+      },
+      {
+        "uuid": "e7608fd1-75b4-53da-a74d-997f665fbbae",
+        "name": "Ares, God of War",
+        "weight": 60750
+      },
+      {
+        "uuid": "e860354a-bd67-5755-96ce-4929f30f99a2",
+        "name": "Justice, Vance Astrovik",
+        "weight": 180873
+      },
+      {
+        "uuid": "e8e77cee-d733-50c1-99ac-010d7f4e8ac0",
+        "name": "Undercover Skrull",
+        "weight": 447325
+      },
+      {
+        "uuid": "e92ab11c-f42c-5f26-9fd0-7c86075c9916",
+        "name": "The Wondrous Wasp",
+        "weight": 60750
+      },
+      {
+        "uuid": "e9e69f7d-1dcc-5ce1-a26e-ed32d6dd293f",
+        "name": "Ultron Drone",
+        "weight": 447325
+      },
+      {
+        "uuid": "eb05a5e5-e244-54f2-b13a-f1fc1b7edbeb",
+        "name": "Scientist Supreme of A.I.M.",
+        "weight": 60750
+      },
+      {
+        "uuid": "ee083c71-0e1e-5c80-9beb-ed794c2c0150",
+        "name": "Moonstone, Harsh Mistress",
+        "weight": 180873
+      },
+      {
+        "uuid": "ee107678-2e3f-53f3-b3c9-b92a831565bb",
+        "name": "Thor, God of Thunder",
+        "weight": 30375
+      },
+      {
+        "uuid": "ee896c4a-1579-53a4-b9ae-a75d0e160503",
+        "name": "Super Strength",
+        "weight": 447325
+      },
+      {
+        "uuid": "eec77882-98e3-5502-bcf8-8a3080029902",
+        "name": "Ronin, Shadow Stalker",
+        "weight": 180873
+      },
+      {
+        "uuid": "ef24c0fb-25e2-5154-8b52-277635aca7f0",
+        "name": "Panther Pounce",
+        "weight": 447325
+      },
+      {
+        "uuid": "f0b9573f-a15f-5658-9706-a802ccc72a5e",
+        "name": "Red Room Recruit",
+        "weight": 447325
+      },
+      {
+        "uuid": "f1dfbd74-cf71-5d46-ab69-880a59f33a49",
+        "name": "Iron Man, Master of Machines",
+        "weight": 180873
+      },
+      {
+        "uuid": "f1ea335c-9718-53eb-bb4f-c126fbf3577c",
+        "name": "U.S.Agent, John Walker",
+        "weight": 180873
+      },
+      {
+        "uuid": "f27187f6-2124-5407-ac4f-f26d564d9171",
+        "name": "Go Nuts!",
+        "weight": 447325
+      },
+      {
+        "uuid": "f3caa776-2b66-5465-bfd8-57964e79bb13",
+        "name": "Lightning Strike",
+        "weight": 447325
+      },
+      {
+        "uuid": "f4033ab7-66bd-58bc-8543-4513a151aaf6",
+        "name": "Multiversal Incursion",
+        "weight": 30375
+      },
+      {
+        "uuid": "f43924f1-9201-58c7-a320-4071b1898aed",
+        "name": "Tony Stark",
+        "weight": 30375
+      },
+      {
+        "uuid": "f47688c7-8e8b-5f07-9163-2a8c02934f5b",
+        "name": "Namor the Sub-Mariner",
+        "weight": 30375
+      },
+      {
+        "uuid": "f4824612-35ee-5258-a15e-cfe186427456",
+        "name": "Ultron, Artificial Malevolence",
+        "weight": 30375
+      },
+      {
+        "uuid": "f53efb39-9e69-50e6-88ba-346566a3755c",
+        "name": "Hire a Crew",
+        "weight": 447325
+      },
+      {
+        "uuid": "f58671c7-4fd1-5cf6-a28f-b860c0a0187a",
+        "name": "Hawkeye's Bow",
+        "weight": 447325
+      },
+      {
+        "uuid": "f9817b63-70c8-5de5-b7f2-3671d62c7358",
+        "name": "Ninja of the Hand",
+        "weight": 447325
+      },
+      {
+        "uuid": "fc2a5d8f-568c-5aa8-a893-8ffe9661c0b0",
+        "name": "Iron Fist, Living Weapon",
+        "weight": 180873
+      },
+      {
+        "uuid": "fc30b7a8-2606-5b61-9612-241857b6d121",
+        "name": "Super Speed",
+        "weight": 447325
+      },
+      {
+        "uuid": "fcd24ebf-1229-5211-95b9-67dd19d37763",
+        "name": "Loki Laufeyson",
+        "weight": 180873
+      },
+      {
+        "uuid": "fd8368f0-4d6e-52be-944d-e16be3095d01",
+        "name": "Visions of Villainy",
+        "weight": 447325
+      },
+      {
+        "uuid": "fddc5724-721e-5075-a211-255299ca25a8",
+        "name": "Mj\u00f6lnir, Hammer of Thor",
+        "weight": 30375
+      },
+      {
+        "uuid": "fdfda16f-6d5b-5217-acae-f3c39d4e6f4f",
+        "name": "Aerial Doombot",
+        "weight": 447325
+      },
+      {
+        "uuid": "fe1fba87-1b71-5997-8d92-bebe77312845",
+        "name": "Monica Rambeau",
+        "weight": 30375
+      }
+    ]
+  },
+  "land": {
+    "cards": [
+      {
+        "uuid": "0a465570-61c3-5249-8a14-940e6706c174",
+        "name": "Mountain",
+        "weight": 1
+      },
+      {
+        "uuid": "1d8ebe6e-ad82-5f1a-a49e-10b11fcf2fb4",
+        "name": "Island",
+        "weight": 1
+      },
+      {
+        "uuid": "1fb94ad9-d6a1-5022-b5d2-18ebaccc869b",
+        "name": "Fisk Tower",
+        "weight": 2
+      },
+      {
+        "uuid": "23e25436-ae19-5ae1-a175-779b0f214707",
+        "name": "Mountain",
+        "weight": 1
+      },
+      {
+        "uuid": "2711896a-f1f0-5fb5-a424-b57d8602c638",
+        "name": "Swamp",
+        "weight": 1
+      },
+      {
+        "uuid": "296002c7-1898-5a49-a419-57f77b72ab48",
+        "name": "Forest",
+        "weight": 1
+      },
+      {
+        "uuid": "2a4d68bf-9e2e-5f2b-b0cc-24c12e0b1330",
+        "name": "Forest",
+        "weight": 1
+      },
+      {
+        "uuid": "32d5da2e-96e3-55b2-9bd9-a7ae7d99be8f",
+        "name": "Swamp",
+        "weight": 1
+      },
+      {
+        "uuid": "35d07084-7e87-5d28-b6b2-d7f87172c69f",
+        "name": "Swamp",
+        "weight": 1
+      },
+      {
+        "uuid": "4a983210-952c-5384-a039-2c6d37c4a8b4",
+        "name": "Plains",
+        "weight": 1
+      },
+      {
+        "uuid": "4fa3ade2-4c55-570b-9b36-385fb21f5d50",
+        "name": "Stark Industries",
+        "weight": 2
+      },
+      {
+        "uuid": "4fceeb88-28d4-5042-b6e4-ca70b12aab7f",
+        "name": "Asgardian Citadel",
+        "weight": 2
+      },
+      {
+        "uuid": "508a0555-a900-518f-b5a0-f278f713062b",
+        "name": "Island",
+        "weight": 1
+      },
+      {
+        "uuid": "56d8b407-8b23-5ec6-87fe-b34542e04279",
+        "name": "Plains",
+        "weight": 1
+      },
+      {
+        "uuid": "5c403198-6a75-5994-9404-dcd9772e88a7",
+        "name": "Forest",
+        "weight": 1
+      },
+      {
+        "uuid": "6ea92bd4-778b-5853-a60a-c7f9654a78fd",
+        "name": "Birnin Zana Plaza",
+        "weight": 2
+      },
+      {
+        "uuid": "77dd8395-f6e1-5e05-98bb-68cb42d61e2b",
+        "name": "A.I.M. Labs",
+        "weight": 2
+      },
+      {
+        "uuid": "811a28c7-a222-5a2b-8597-60ab0f60e37d",
+        "name": "Plains",
+        "weight": 1
+      },
+      {
+        "uuid": "9f3de54e-3467-5de4-8c3a-1f02e0bda3bb",
+        "name": "Swamp",
+        "weight": 1
+      },
+      {
+        "uuid": "9f7e3aea-5473-5834-8abb-7b7c65d39570",
+        "name": "Los Diablos Missile Base",
+        "weight": 2
+      },
+      {
+        "uuid": "a8b5b475-460e-59f1-80dd-8b7700d3f2eb",
+        "name": "Pym Technologies",
+        "weight": 2
+      },
+      {
+        "uuid": "ae29e830-890f-5112-87de-b32bedfb428f",
+        "name": "Forest",
+        "weight": 1
+      },
+      {
+        "uuid": "b1221172-836c-5fdc-a542-4744bab76807",
+        "name": "Avengers Hangar",
+        "weight": 2
+      },
+      {
+        "uuid": "b340486f-f3fa-532f-9593-c920b130de03",
+        "name": "Island",
+        "weight": 1
+      },
+      {
+        "uuid": "b61b191e-d246-5fa6-bcb3-9619e3dda537",
+        "name": "Hell's Kitchen",
+        "weight": 2
+      },
+      {
+        "uuid": "be431a70-ae18-5042-ac94-b49d82712342",
+        "name": "Mountain",
+        "weight": 1
+      },
+      {
+        "uuid": "e1afd32e-2aa0-5d04-a3a8-b4376531d0d4",
+        "name": "Island",
+        "weight": 1
+      },
+      {
+        "uuid": "e1d6481a-641d-5b09-ae9d-5d193f45330c",
+        "name": "Mountain",
+        "weight": 1
+      },
+      {
+        "uuid": "f03eafd2-477a-5fff-b0ec-d2cda9ccafcc",
+        "name": "Plains",
+        "weight": 1
+      },
+      {
+        "uuid": "f135c8fc-24f6-55c2-a4dc-cea6a2225d52",
+        "name": "Subterranean Cavern",
+        "weight": 2
+      }
+    ]
+  },
+  "rareMythic": {
+    "cards": [
+      {
+        "uuid": "00590cb8-3737-5002-8827-6b319035b730",
+        "name": "The Kingpin of Crime",
+        "weight": 2
+      },
+      {
+        "uuid": "007ac439-1479-5a76-a45b-3cb7f83d1586",
+        "name": "Secret Invasion",
+        "weight": 2
+      },
+      {
+        "uuid": "01c46784-b6b9-5402-9014-fa98771975e9",
+        "name": "Agent Phil Coulson",
+        "weight": 2
+      },
+      {
+        "uuid": "03595529-78d6-5db5-848d-99d82d67c051",
+        "name": "Armor Wars",
+        "weight": 2
+      },
+      {
+        "uuid": "0cbb4b86-b181-55d0-b7a7-95e28c070041",
+        "name": "Leader, Super-Genius",
+        "weight": 2
+      },
+      {
+        "uuid": "0e7a9469-55f7-58a3-b632-cd7604b94b8f",
+        "name": "Nick Fury, Agent of S.H.I.E.L.D.",
+        "weight": 2
+      },
+      {
+        "uuid": "1283f444-6057-51d9-926b-6c94b1af4e09",
+        "name": "Super-Adaptoid",
+        "weight": 2
+      },
+      {
+        "uuid": "1e962a1c-8348-5624-a586-43868ee6f729",
+        "name": "Loki, God of Mischief",
+        "weight": 2
+      },
+      {
+        "uuid": "21c76224-b98c-54a4-a99b-667a8754e73c",
+        "name": "Ironheart, Clever Champion",
+        "weight": 2
+      },
+      {
+        "uuid": "228f7c68-8eae-56a3-a11a-939f3576bdc1",
+        "name": "Training Compound",
+        "weight": 2
+      },
+      {
+        "uuid": "2440d39d-98d2-562f-b367-e37fffc03f2c",
+        "name": "Storm, Windrider",
+        "weight": 2
+      },
+      {
+        "uuid": "254a0e14-4447-597a-b537-676206040a97",
+        "name": "The Sentry, Golden Guardian",
+        "weight": 2
+      },
+      {
+        "uuid": "2cc396de-d29d-5187-8977-d5f29d90c4bd",
+        "name": "World War Hulk",
+        "weight": 2
+      },
+      {
+        "uuid": "2d50ad6b-7603-5ec5-8cd5-ce22b6ee24ac",
+        "name": "Alien Invasion",
+        "weight": 2
+      },
+      {
+        "uuid": "2e5a2561-267a-5c1e-a64b-331322f7d9c8",
+        "name": "Wolverine, Fierce Fighter",
+        "weight": 2
+      },
+      {
+        "uuid": "3854a309-1842-54b3-8248-e29af03246ec",
+        "name": "King T'Challa",
+        "weight": 1
+      },
+      {
+        "uuid": "3894528d-c599-5808-bbe8-c19247d28b54",
+        "name": "Thanos, the Mad Titan",
+        "weight": 1
+      },
+      {
+        "uuid": "3b570132-c92c-5968-810c-988448cf0d49",
+        "name": "M.O.D.O.K.",
+        "weight": 1
+      },
+      {
+        "uuid": "3f36b164-4dcf-54f2-a02e-9ccd9ef4e01f",
+        "name": "Cloak and Dagger, Entwined",
+        "weight": 2
+      },
+      {
+        "uuid": "40076605-7c32-5eeb-b407-eb6b214d68a7",
+        "name": "Hawkeye, Master Marksman",
+        "weight": 2
+      },
+      {
+        "uuid": "4436c87f-8051-56c5-b660-a04b5c3dc2a8",
+        "name": "Earth's Mightiest Heroes",
+        "weight": 1
+      },
+      {
+        "uuid": "460be77c-5d56-51f4-87f1-50e1bbee8f3d",
+        "name": "Cosmic Cube",
+        "weight": 1
+      },
+      {
+        "uuid": "47836e61-dbe0-5998-8d87-218ae00ae632",
+        "name": "The Ten Rings",
+        "weight": 1
+      },
+      {
+        "uuid": "489293af-8321-5b98-84df-e912ec2a844c",
+        "name": "The Unbeatable Squirrel Girl",
+        "weight": 2
+      },
+      {
+        "uuid": "49341ffd-83ad-5859-8aa9-579976ffa22f",
+        "name": "Avengers Assemble!",
+        "weight": 1
+      },
+      {
+        "uuid": "4d954485-6e63-5bb2-8656-c88e6f753736",
+        "name": "Castle Doom",
+        "weight": 2
+      },
+      {
+        "uuid": "572dc600-5162-52a7-ba4a-26f493066ccc",
+        "name": "Black Widow, Super Spy",
+        "weight": 1
+      },
+      {
+        "uuid": "5975aa45-db88-5ade-99b8-069fd1e7e6df",
+        "name": "Super-Skrull",
+        "weight": 2
+      },
+      {
+        "uuid": "5adce06d-51b3-5dee-bb59-3be79acbd89c",
+        "name": "Doom Reigns Supreme",
+        "weight": 2
+      },
+      {
+        "uuid": "5c5476bf-3e09-5100-992d-794a8374538d",
+        "name": "The Astonishing Ant-Man",
+        "weight": 2
+      },
+      {
+        "uuid": "69382437-cdfc-5d29-972f-fa1f5bef5143",
+        "name": "The Serpent Society",
+        "weight": 2
+      },
+      {
+        "uuid": "69629c9e-ed92-546c-abdf-56bbcd71f15e",
+        "name": "Captain America, Super-Soldier",
+        "weight": 1
+      },
+      {
+        "uuid": "6c9c9569-dfc8-5ead-85c4-044214fecc59",
+        "name": "Captain America, Wings of Freedom",
+        "weight": 2
+      },
+      {
+        "uuid": "75e34d08-2b4a-5f8c-8b2c-00a69215fc29",
+        "name": "Captain Marvel, Earth's Protector",
+        "weight": 1
+      },
+      {
+        "uuid": "76904132-ca08-5346-8a8d-74e72a97eb76",
+        "name": "Ms. Marvel, Kamala Khan",
+        "weight": 2
+      },
+      {
+        "uuid": "82945aef-dc2a-5bad-982b-9f26dd2a0744",
+        "name": "Vision Quest",
+        "weight": 2
+      },
+      {
+        "uuid": "841ecc63-c919-5f55-8291-af0ac0dee1ad",
+        "name": "Avengers Disassembled",
+        "weight": 2
+      },
+      {
+        "uuid": "892b4b1e-3275-5b0d-b549-0642e06c2c8a",
+        "name": "Taskmaster, Mercenary Mimic",
+        "weight": 2
+      },
+      {
+        "uuid": "89a312e9-0bb9-5d06-97e8-5c00353fa1c8",
+        "name": "Absorbing Man",
+        "weight": 2
+      },
+      {
+        "uuid": "8ddaf10d-2729-5d0a-a782-2b07f51ff045",
+        "name": "Dark Fortress",
+        "weight": 2
+      },
+      {
+        "uuid": "8e0e9188-0b55-5f16-8054-482a28226230",
+        "name": "The Coming of Galactus",
+        "weight": 1
+      },
+      {
+        "uuid": "8f28805a-4314-5338-8d23-d0a08243247b",
+        "name": "Iron Man Armor",
+        "weight": 1
+      },
+      {
+        "uuid": "928d8f52-fab9-5546-8dfb-e4e180648980",
+        "name": "Bruce Banner",
+        "weight": 1
+      },
+      {
+        "uuid": "9428d422-d6b7-5cb9-9eae-0719c22feeca",
+        "name": "The Mind Stone",
+        "weight": 1
+      },
+      {
+        "uuid": "9aad7290-0166-5a63-b0f4-5a485143a4fd",
+        "name": "Quicksilver, Brash Blur",
+        "weight": 2
+      },
+      {
+        "uuid": "9cd7d75a-5e77-54eb-b586-5cd43783d8e9",
+        "name": "Moon Girl and Devil Dinosaur",
+        "weight": 2
+      },
+      {
+        "uuid": "9d00d3c6-fd96-5a9e-a307-5e11163efc02",
+        "name": "Super-Soldier Serum",
+        "weight": 2
+      },
+      {
+        "uuid": "9f306f90-bbea-5edd-b15b-906f0de04405",
+        "name": "The Super Hero Civil War",
+        "weight": 2
+      },
+      {
+        "uuid": "a1169aa7-b3e4-5248-9cc4-43be3c10f7ea",
+        "name": "Jennifer Walters",
+        "weight": 1
+      },
+      {
+        "uuid": "a53abe01-62a7-529d-ba72-62b3a55d72ac",
+        "name": "Captain America's Shield",
+        "weight": 2
+      },
+      {
+        "uuid": "a7670a7a-e712-5de8-b789-8e363d2862a1",
+        "name": "Winter Soldier, Icy Assassin",
+        "weight": 2
+      },
+      {
+        "uuid": "aa024183-af00-5d09-89b0-1d5ddc69ae05",
+        "name": "The Ruinous Wrecking Crew",
+        "weight": 2
+      },
+      {
+        "uuid": "aa08d4fb-8c3c-5a59-9070-41daa26345b9",
+        "name": "Shang-Chi, Master of Kung Fu",
+        "weight": 1
+      },
+      {
+        "uuid": "ad3986ce-cb48-5306-9b81-09e69cce5d6b",
+        "name": "Gleaming Bastion",
+        "weight": 2
+      },
+      {
+        "uuid": "adf87e7c-c9f8-55b1-bd34-8a9487e42bd9",
+        "name": "Origin of the Avengers",
+        "weight": 2
+      },
+      {
+        "uuid": "ae8dcff6-79b1-519f-9124-c2c567931bb0",
+        "name": "Mole Man, Moloid Master",
+        "weight": 2
+      },
+      {
+        "uuid": "b295e867-9d6a-5014-aef9-94f6a2999241",
+        "name": "Doctor Doom",
+        "weight": 1
+      },
+      {
+        "uuid": "b549a82a-5720-53ec-a7d8-a150611e1040",
+        "name": "Heroic Feast",
+        "weight": 2
+      },
+      {
+        "uuid": "b9516220-24b3-5d05-8adc-e07360bc060a",
+        "name": "Kang the Conqueror",
+        "weight": 1
+      },
+      {
+        "uuid": "ba9594c4-70b5-5034-84da-106e8c94a356",
+        "name": "The Vision",
+        "weight": 2
+      },
+      {
+        "uuid": "bb64397e-993a-5db8-914c-1ae1b63e49fb",
+        "name": "The Mighty Thor, Jane Foster",
+        "weight": 2
+      },
+      {
+        "uuid": "bddca6a0-3265-5cbe-8ad3-474dfcddf0f1",
+        "name": "Construct a Cosmic Cube",
+        "weight": 2
+      },
+      {
+        "uuid": "c277c4fa-0e0b-5d0c-84b2-35463e2c1505",
+        "name": "Elektra, Daughter of the Hand",
+        "weight": 2
+      },
+      {
+        "uuid": "c6b0ca58-2beb-5fcd-8575-292616f3574d",
+        "name": "Daredevil, Man Without Fear",
+        "weight": 2
+      },
+      {
+        "uuid": "c891d6a1-024d-54ad-87b1-818a1b44718d",
+        "name": "The Scarlet Witch",
+        "weight": 2
+      },
+      {
+        "uuid": "cb4bcf18-0217-50d6-9a3e-daefcb07d4e3",
+        "name": "Gathering Place",
+        "weight": 2
+      },
+      {
+        "uuid": "cd26d8b5-7a30-5eca-80ac-21ee3bf3ed5c",
+        "name": "Thunderbolts Conspiracy",
+        "weight": 2
+      },
+      {
+        "uuid": "ceb72ea1-1d20-586e-817c-350bd590977d",
+        "name": "Hidden Lair",
+        "weight": 2
+      },
+      {
+        "uuid": "d1da4349-9005-57e4-b412-f942dae318ac",
+        "name": "Worlds Within Worlds",
+        "weight": 2
+      },
+      {
+        "uuid": "d6bb333d-9246-5666-8dd1-13d50079d944",
+        "name": "Fin Fang Foom",
+        "weight": 2
+      },
+      {
+        "uuid": "d6e0fb73-8c13-54de-abb1-c4d185065205",
+        "name": "S.H.I.E.L.D. Flying Car",
+        "weight": 2
+      },
+      {
+        "uuid": "ddbeab29-2074-5b3e-9e98-72f7968e984b",
+        "name": "Baron Helmut Zemo",
+        "weight": 2
+      },
+      {
+        "uuid": "e063ea2f-328f-5ff8-ab5e-e26456bdd1d7",
+        "name": "Avengers: Under Siege",
+        "weight": 2
+      },
+      {
+        "uuid": "e0e65ab1-18cc-5e23-a6a6-fbfd13edf38a",
+        "name": "Arc Reactor",
+        "weight": 2
+      },
+      {
+        "uuid": "e123c7d3-c9eb-57b1-a2f1-9bc4b992eda5",
+        "name": "Epic Fight",
+        "weight": 2
+      },
+      {
+        "uuid": "e7608fd1-75b4-53da-a74d-997f665fbbae",
+        "name": "Ares, God of War",
+        "weight": 2
+      },
+      {
+        "uuid": "e92ab11c-f42c-5f26-9fd0-7c86075c9916",
+        "name": "The Wondrous Wasp",
+        "weight": 2
+      },
+      {
+        "uuid": "eb05a5e5-e244-54f2-b13a-f1fc1b7edbeb",
+        "name": "Scientist Supreme of A.I.M.",
+        "weight": 2
+      },
+      {
+        "uuid": "ee107678-2e3f-53f3-b3c9-b92a831565bb",
+        "name": "Thor, God of Thunder",
+        "weight": 1
+      },
+      {
+        "uuid": "f4033ab7-66bd-58bc-8543-4513a151aaf6",
+        "name": "Multiversal Incursion",
+        "weight": 1
+      },
+      {
+        "uuid": "f43924f1-9201-58c7-a320-4071b1898aed",
+        "name": "Tony Stark",
+        "weight": 1
+      },
+      {
+        "uuid": "f47688c7-8e8b-5f07-9163-2a8c02934f5b",
+        "name": "Namor the Sub-Mariner",
+        "weight": 1
+      },
+      {
+        "uuid": "f4824612-35ee-5258-a15e-cfe186427456",
+        "name": "Ultron, Artificial Malevolence",
+        "weight": 1
+      },
+      {
+        "uuid": "fddc5724-721e-5075-a211-255299ca25a8",
+        "name": "Mj\u00f6lnir, Hammer of Thor",
+        "weight": 1
+      },
+      {
+        "uuid": "fe1fba87-1b71-5997-8d92-bebe77312845",
+        "name": "Monica Rambeau",
+        "weight": 1
+      }
+    ]
+  },
+  "sourceMaterial": {
+    "cards": [
+      {
+        "uuid": "0a115c22-6597-595a-9453-852819fb9913",
+        "name": "Light of Promise",
+        "weight": 1
+      },
+      {
+        "uuid": "0b60f17f-2266-5252-a357-8988fc2f228a",
+        "name": "Heroic Intervention",
+        "weight": 1
+      },
+      {
+        "uuid": "0f57d284-7329-5a7e-92c2-5365844bdb85",
+        "name": "Unnatural Growth",
+        "weight": 1
+      },
+      {
+        "uuid": "14a736ac-404c-56bc-90bd-684da0d49494",
+        "name": "Steely Resolve",
+        "weight": 1
+      },
+      {
+        "uuid": "16f39913-84c4-59ad-8fce-3bf6f2e8d6af",
+        "name": "Wolverine, Best There Is",
+        "weight": 1
+      },
+      {
+        "uuid": "184400fe-b9e5-5c6a-a417-a9b2f3de31e6",
+        "name": "Anthem of Champions",
+        "weight": 1
+      },
+      {
+        "uuid": "1dec8119-a400-5041-8c50-278dad2c4521",
+        "name": "Sundering Growth",
+        "weight": 1
+      },
+      {
+        "uuid": "1ed4b95c-1312-505b-a85a-626a93dd6542",
+        "name": "Final Act",
+        "weight": 1
+      },
+      {
+        "uuid": "2101e286-92ff-5e60-bd80-441a03ea1958",
+        "name": "Force of Vigor",
+        "weight": 1
+      },
+      {
+        "uuid": "2234755a-ced4-5fab-acee-e1b3b2dbcdeb",
+        "name": "Lord of Atlantis",
+        "weight": 1
+      },
+      {
+        "uuid": "236af180-708a-50d3-b685-2888d3effc52",
+        "name": "Captain America, First Avenger",
+        "weight": 1
+      },
+      {
+        "uuid": "2b42ec65-e101-5946-ab09-468c57a2575a",
+        "name": "Beast Within",
+        "weight": 1
+      },
+      {
+        "uuid": "3396c52a-9ec8-5f5b-896e-3def69b7019c",
+        "name": "Righteous Fury",
+        "weight": 1
+      },
+      {
+        "uuid": "35df5e8b-360e-57b4-a310-1d6eb47c5c1b",
+        "name": "Aurelia, the Warleader",
+        "weight": 1
+      },
+      {
+        "uuid": "37cd1a3d-43bf-59c2-adfa-9567f7c6e52f",
+        "name": "Concerted Effort",
+        "weight": 1
+      },
+      {
+        "uuid": "3ab17c02-a0db-52ef-a18b-69ad8770ffd5",
+        "name": "Ravenous Tyrannosaurus",
+        "weight": 1
+      },
+      {
+        "uuid": "3f46efc7-c0b0-527d-ab20-177c78055656",
+        "name": "Escape to the Wilds",
+        "weight": 1
+      },
+      {
+        "uuid": "415c4c61-bdbb-5a3e-9670-612c672fc358",
+        "name": "Counterspell",
+        "weight": 1
+      },
+      {
+        "uuid": "418172e2-930c-57c2-948f-4652e57f7eec",
+        "name": "Ephemerate",
+        "weight": 1
+      },
+      {
+        "uuid": "441c28c6-c555-5a31-8459-b92510b21a41",
+        "name": "Rancor",
+        "weight": 1
+      },
+      {
+        "uuid": "441f462e-edcc-54ac-985d-c1f63003432e",
+        "name": "Bedlam",
+        "weight": 1
+      },
+      {
+        "uuid": "44b9b1d8-1ae6-5289-9307-70a71bfa28e7",
+        "name": "Simulacrum Synthesizer",
+        "weight": 1
+      },
+      {
+        "uuid": "45277bee-2cf7-5edb-a194-18476963548f",
+        "name": "Narset's Reversal",
+        "weight": 1
+      },
+      {
+        "uuid": "485897c6-be70-5de0-84e0-93bf7414e87d",
+        "name": "Path to Exile",
+        "weight": 1
+      },
+      {
+        "uuid": "4bdbd9d9-dc87-5489-9d44-ed03d8702fea",
+        "name": "Horn of Greed",
+        "weight": 1
+      },
+      {
+        "uuid": "51da1542-7b36-54d3-ae39-1fd454fc7802",
+        "name": "Fury of the Horde",
+        "weight": 1
+      },
+      {
+        "uuid": "51dd4859-f5f1-5eff-af39-63c5994daa5b",
+        "name": "Teferi's Protection",
+        "weight": 1
+      },
+      {
+        "uuid": "5f1ce48d-596e-583a-89f4-96152b5872a3",
+        "name": "Extinction Event",
+        "weight": 1
+      },
+      {
+        "uuid": "5fd711a1-47b9-5d51-be7c-69ce74b3c45a",
+        "name": "Cyberdrive Awakener",
+        "weight": 1
+      },
+      {
+        "uuid": "60b99d6d-fc5c-5074-a258-0443a19fb883",
+        "name": "Return to the Ranks",
+        "weight": 1
+      },
+      {
+        "uuid": "65325b4d-4fbf-56cb-8120-83c800e368e1",
+        "name": "Harbinger of the Seas",
+        "weight": 1
+      },
+      {
+        "uuid": "69959916-d41c-5461-a6a2-bddf59dfde55",
+        "name": "Heroic Intervention",
+        "weight": 1
+      },
+      {
+        "uuid": "6a4b404c-4aa8-5228-b0d2-a0ebf8599cc4",
+        "name": "Steelshaper's Gift",
+        "weight": 1
+      },
+      {
+        "uuid": "6b4ec13f-318f-51fa-8325-2213af920854",
+        "name": "Archangel of Thune",
+        "weight": 1
+      },
+      {
+        "uuid": "724b00bd-a8c9-5e4a-a700-a1e857236d87",
+        "name": "Don't Move",
+        "weight": 1
+      },
+      {
+        "uuid": "7424ea6e-0ce3-592d-81dc-fd9020a62864",
+        "name": "Final Showdown",
+        "weight": 1
+      },
+      {
+        "uuid": "783908c8-9b71-5043-b3d7-8eea66192ef9",
+        "name": "Reconnaissance Mission",
+        "weight": 1
+      },
+      {
+        "uuid": "7c0d08e8-9be3-5027-a3d4-50237ba6d04f",
+        "name": "Defense of the Heart",
+        "weight": 1
+      },
+      {
+        "uuid": "89c84ec6-c23a-55ee-a69e-5dba001ddd4d",
+        "name": "Fiery Emancipation",
+        "weight": 1
+      },
+      {
+        "uuid": "8d3ab965-d331-58ff-a792-a0265203277a",
+        "name": "Mechanized Production",
+        "weight": 1
+      },
+      {
+        "uuid": "95447e93-dcea-50e5-a79e-6799045898cb",
+        "name": "No Mercy",
+        "weight": 1
+      },
+      {
+        "uuid": "9899a0e6-12d7-586d-945e-cf491e897a7f",
+        "name": "Show and Tell",
+        "weight": 1
+      },
+      {
+        "uuid": "99db0b19-5bd8-5776-b047-ba07124ea7c7",
+        "name": "Storm, Force of Nature",
+        "weight": 1
+      },
+      {
+        "uuid": "9c6d81b2-4636-5feb-bef6-c8d304088ef4",
+        "name": "Heroic Intervention",
+        "weight": 1
+      },
+      {
+        "uuid": "a467a6c7-b570-5e87-b9e0-8374a1fd31ba",
+        "name": "Massacre Girl",
+        "weight": 1
+      },
+      {
+        "uuid": "a4ee58ea-87a7-53be-a406-4e8a795de919",
+        "name": "Sword of Fire and Ice",
+        "weight": 1
+      },
+      {
+        "uuid": "a61b61ae-331f-58c6-94fc-ec6242cd690f",
+        "name": "Dig Through Time",
+        "weight": 1
+      },
+      {
+        "uuid": "af3c0053-9567-5356-bb07-0b78df3588f3",
+        "name": "Privileged Position",
+        "weight": 1
+      },
+      {
+        "uuid": "b2163645-69f5-5884-a6c7-7bc79b2c1086",
+        "name": "Primal Vigor",
+        "weight": 1
+      },
+      {
+        "uuid": "cab0a226-d5bc-5378-907c-4f8a37091a58",
+        "name": "Monstrous Rage",
+        "weight": 1
+      },
+      {
+        "uuid": "cb2c0239-062d-5739-8f7b-93775c180021",
+        "name": "Roaming Throne",
+        "weight": 1
+      },
+      {
+        "uuid": "cd44b9c4-95ce-5abc-96b2-faf81aed64fd",
+        "name": "Iron Man, Titan of Innovation",
+        "weight": 1
+      },
+      {
+        "uuid": "d096e197-7975-5f8c-91ce-ec5cd8117ef2",
+        "name": "Warleader's Call",
+        "weight": 1
+      },
+      {
+        "uuid": "d8a5088b-26d8-5734-9ac2-d7429f3dbe4b",
+        "name": "Three Steps Ahead",
+        "weight": 1
+      },
+      {
+        "uuid": "da876663-a6c0-5781-bb5a-352c5e4fe9b3",
+        "name": "Seize the Day",
+        "weight": 1
+      },
+      {
+        "uuid": "ef302643-69c4-508c-b71c-1d42b04878e0",
+        "name": "Fight to the Death",
+        "weight": 1
+      },
+      {
+        "uuid": "f273d090-d1f4-5e8b-bffe-8c3f1858243b",
+        "name": "Black Panther, Wakandan King",
+        "weight": 1
+      },
+      {
+        "uuid": "f72630ec-9fa3-5a65-869f-31e460cfc98d",
+        "name": "Deadly Dispute",
+        "weight": 1
+      },
+      {
+        "uuid": "fcd15ac7-78d6-502b-98ba-4a47206ab5b2",
+        "name": "Chaos Warp",
+        "weight": 1
+      },
+      {
+        "uuid": "fee0f1c1-f552-5887-9819-8e670ed9704d",
+        "name": "Dauthi Voidwalker",
+        "weight": 1
+      }
+    ]
+  },
+  "uncommon": {
+    "cards": [
+      {
+        "uuid": "02036638-5789-5604-a763-aeb87e9c44e0",
+        "name": "Arnim Zola, Bio-Fanatic",
+        "weight": 1
+      },
+      {
+        "uuid": "043e83b6-4fb4-57ef-947e-ee609c1158b1",
+        "name": "Falcon's Wing Harness",
+        "weight": 1
+      },
+      {
+        "uuid": "06afe063-f145-5e65-acd0-0b27c1a3519c",
+        "name": "Spider-Woman, Secret Agent",
+        "weight": 1
+      },
+      {
+        "uuid": "0d6ac20e-fb67-594e-a441-62bcb07d8fae",
+        "name": "Captain Mar-Vell, Space-Born",
+        "weight": 1
+      },
+      {
+        "uuid": "0eed013a-7dca-5ab4-8bd5-d0ecf36c3050",
+        "name": "Too Evil to Stay Dead",
+        "weight": 1
+      },
+      {
+        "uuid": "10addd72-a1bc-5b49-9615-3a6069339225",
+        "name": "Tigra, Feline Fury",
+        "weight": 1
+      },
+      {
+        "uuid": "11aea69c-6516-57e8-b1ce-59591b17e719",
+        "name": "Villainous Hideout",
+        "weight": 1
+      },
+      {
+        "uuid": "13d9894f-d2e0-5e7d-ad88-3c6af526cb43",
+        "name": "Death to Our Enemies",
+        "weight": 1
+      },
+      {
+        "uuid": "17041f5e-ea77-5be2-8940-3f21fdf2a549",
+        "name": "Captain America, Living Legend",
+        "weight": 1
+      },
+      {
+        "uuid": "19629457-2b6f-51db-af6a-4fb8edd5b93c",
+        "name": "Speedball, New Warrior",
+        "weight": 1
+      },
+      {
+        "uuid": "1c9a04f0-b773-5beb-b82d-198c72402897",
+        "name": "Night Nurse, Healer of Heroes",
+        "weight": 1
+      },
+      {
+        "uuid": "1e373f8e-07d0-516b-bddc-537ac1c3b222",
+        "name": "S.H.I.E.L.D. Helicarrier",
+        "weight": 1
+      },
+      {
+        "uuid": "20579382-517b-5e34-a7d5-c31f0969f71c",
+        "name": "Abomination, Terrifying Titan",
+        "weight": 1
+      },
+      {
+        "uuid": "237d4727-54e5-5fb8-81d0-9bf8478f0c7d",
+        "name": "Misty Knight, Hero for Hire",
+        "weight": 1
+      },
+      {
+        "uuid": "240315ec-e464-534e-a76e-e342f2a282db",
+        "name": "Klaw, Sonic Subjugator",
+        "weight": 1
+      },
+      {
+        "uuid": "2560f5b3-8030-5c29-b4cd-94f95675f2c4",
+        "name": "Robot Domination",
+        "weight": 1
+      },
+      {
+        "uuid": "27aefec5-1548-5526-adec-c5e00d0d3a41",
+        "name": "Truck Toss",
+        "weight": 1
+      },
+      {
+        "uuid": "27ff6937-5d50-50f0-997c-cfc63dab8867",
+        "name": "Whiplash, Vengeful Engineer",
+        "weight": 1
+      },
+      {
+        "uuid": "287faf6a-9428-5b77-ba17-27f34eb72a44",
+        "name": "Thirst for Knowledge",
+        "weight": 1
+      },
+      {
+        "uuid": "299aaedd-3fee-5ca4-b3bf-d99b711e75b0",
+        "name": "Team Tactics",
+        "weight": 1
+      },
+      {
+        "uuid": "2cd463b7-42a7-503b-9b18-6b9a71766877",
+        "name": "Hex Magic",
+        "weight": 1
+      },
+      {
+        "uuid": "2cf60341-2890-5483-b058-486f53674c45",
+        "name": "Shuri, Wakandan Inventor",
+        "weight": 1
+      },
+      {
+        "uuid": "352e7cae-62f7-547e-a1ad-7476af6d94db",
+        "name": "Agent Maria Hill",
+        "weight": 1
+      },
+      {
+        "uuid": "37637b52-fd4a-54de-bd66-7acab472e689",
+        "name": "Avengers Tower",
+        "weight": 1
+      },
+      {
+        "uuid": "3d2ccb0f-deaf-52ad-8ccc-09052f99a3b4",
+        "name": "Crossbones, Malicious Mercenary",
+        "weight": 1
+      },
+      {
+        "uuid": "3f45ae42-dc18-5a23-8c0e-df62f6005d95",
+        "name": "Madame Hydra",
+        "weight": 1
+      },
+      {
+        "uuid": "413be4c3-d43f-5243-9911-813793e93cb9",
+        "name": "Photon Blast Barrage",
+        "weight": 1
+      },
+      {
+        "uuid": "4220f356-d983-54f9-958a-c773456b472e",
+        "name": "Spider-Man, To the Rescue",
+        "weight": 1
+      },
+      {
+        "uuid": "472b7450-eb96-551d-bdc1-f6a7e52899f9",
+        "name": "Echo, Perceptive Prodigy",
+        "weight": 1
+      },
+      {
+        "uuid": "49116522-7b6c-53ee-8bc8-b08b12ffc948",
+        "name": "Mister Hyde, Monster Within",
+        "weight": 1
+      },
+      {
+        "uuid": "4bbf5384-900d-57e4-84a1-555d4bffad5c",
+        "name": "Agent 13, Sharon Carter",
+        "weight": 1
+      },
+      {
+        "uuid": "4c356f24-a995-5266-a0a3-1e2dee7a31f4",
+        "name": "Madame Masque",
+        "weight": 1
+      },
+      {
+        "uuid": "4d6f3f98-9942-522b-96aa-cbab8fc3999a",
+        "name": "Red Guardian, Super-Soldier",
+        "weight": 1
+      },
+      {
+        "uuid": "5585493b-5ab3-5fcd-9c6c-6db78ef7a901",
+        "name": "Wiccan, Rising Magician",
+        "weight": 1
+      },
+      {
+        "uuid": "5b376df8-2c13-5e2c-8e31-747e55d07d09",
+        "name": "Jessica Jones, Private Eye",
+        "weight": 1
+      },
+      {
+        "uuid": "5b489555-fdec-5cd6-993d-95900af722ee",
+        "name": "Mockingbird, Ace Agent",
+        "weight": 1
+      },
+      {
+        "uuid": "5d677fef-77df-5efb-a562-e70365928b5a",
+        "name": "Hercules, Prince of Power",
+        "weight": 1
+      },
+      {
+        "uuid": "60acc3ce-5b93-5421-b04b-50bf68ad6247",
+        "name": "Thor Odinson",
+        "weight": 1
+      },
+      {
+        "uuid": "61b5e12d-c8cc-53b0-912e-566802a85e56",
+        "name": "Black Panther, Vanguard",
+        "weight": 1
+      },
+      {
+        "uuid": "66cac773-6688-59ac-b0f1-4533451ced87",
+        "name": "Hellcat, Undying Vigilante",
+        "weight": 1
+      },
+      {
+        "uuid": "6737ea4b-53f2-5512-9108-f92eba5d1b45",
+        "name": "Okoye, Dora Milaje Leader",
+        "weight": 1
+      },
+      {
+        "uuid": "688267fd-0d37-53fd-ba59-e70e73819c4b",
+        "name": "Super Villain Lockup",
+        "weight": 1
+      },
+      {
+        "uuid": "6925060f-18ad-5edc-883e-fd3cd578f995",
+        "name": "Speed, Young Avenger",
+        "weight": 1
+      },
+      {
+        "uuid": "6a83519c-1591-544b-bfad-6bacfd32aaf4",
+        "name": "Hulk, Gamma Goliath",
+        "weight": 1
+      },
+      {
+        "uuid": "6cd79aac-b438-5ae5-999e-5d9ff2da3c29",
+        "name": "Stature, Size Shifter",
+        "weight": 1
+      },
+      {
+        "uuid": "6d3bbc2c-f21a-5ecd-aab3-4bce80419396",
+        "name": "Punishing Punch",
+        "weight": 1
+      },
+      {
+        "uuid": "6f17da18-b24e-5976-b32b-12211da2649f",
+        "name": "Bullseye, Death Dealer",
+        "weight": 1
+      },
+      {
+        "uuid": "707acda3-e753-5f89-9f81-c76cc9534e80",
+        "name": "The Masters of Evil",
+        "weight": 1
+      },
+      {
+        "uuid": "71862fd7-ee61-5594-8cbd-b35b19d929c1",
+        "name": "Kid Loki",
+        "weight": 1
+      },
+      {
+        "uuid": "73da755e-a3cf-5360-a87a-070f30d39fef",
+        "name": "Red Hulk",
+        "weight": 1
+      },
+      {
+        "uuid": "747eb5e1-cbd4-5193-9c40-eb45189c5bd4",
+        "name": "Invisible Woman, Sue Storm",
+        "weight": 1
+      },
+      {
+        "uuid": "75176126-fd60-5a5d-b5d8-4219a880d182",
+        "name": "Falcon, Winged Wonder",
+        "weight": 1
+      },
+      {
+        "uuid": "7734690e-c4d8-5f55-8371-a8a422c9dbe0",
+        "name": "Reptil, Dinomorpher",
+        "weight": 1
+      },
+      {
+        "uuid": "792d54a3-6677-5f43-9599-bba5db069f10",
+        "name": "Dark Deed",
+        "weight": 1
+      },
+      {
+        "uuid": "7baf50f1-6a2b-5dea-a003-4fb161e6dd29",
+        "name": "Hulkling, Burgeoning Bruiser",
+        "weight": 1
+      },
+      {
+        "uuid": "7f9212fa-c67a-5208-9e78-3917e6f01293",
+        "name": "White Tiger, Ava Ayala",
+        "weight": 1
+      },
+      {
+        "uuid": "812ab588-9494-5c97-aa94-d6c6b98f6978",
+        "name": "Killmonger, Scourge of Wakanda",
+        "weight": 1
+      },
+      {
+        "uuid": "835e4981-4432-5c30-acd7-d51845c3125e",
+        "name": "Iron Lad, Diverging Destiny",
+        "weight": 1
+      },
+      {
+        "uuid": "8598ec33-3649-5059-ac6f-e68f764deaa3",
+        "name": "The Thing, Ben Grimm",
+        "weight": 1
+      },
+      {
+        "uuid": "8a68acc2-8ee7-5b14-8a6c-b7ea42ec5556",
+        "name": "Baxter Building",
+        "weight": 1
+      },
+      {
+        "uuid": "8d88f74e-9d9e-5431-a6a1-2d2371e45de0",
+        "name": "Mister Fantastic, Reed Richards",
+        "weight": 1
+      },
+      {
+        "uuid": "90ad25e3-b000-5d87-952e-d32409a804a6",
+        "name": "Ka-Zar of the Savage Land",
+        "weight": 1
+      },
+      {
+        "uuid": "918f5530-1a5c-50c8-a96e-1ec9eef692fc",
+        "name": "Patriot, Shield Wielder",
+        "weight": 1
+      },
+      {
+        "uuid": "94530408-ce24-5abe-ab31-3af91d06112e",
+        "name": "Colleen Wing, Street Samurai",
+        "weight": 1
+      },
+      {
+        "uuid": "94f37f81-d2b1-53a5-a4c7-0f3128b44fac",
+        "name": "Evil's Thrall",
+        "weight": 1
+      },
+      {
+        "uuid": "9aeaf39f-bdef-547f-98ce-94cbad4cc749",
+        "name": "Human Torch, Johnny Storm",
+        "weight": 1
+      },
+      {
+        "uuid": "9aebb95f-2cf4-510e-99d1-37a8e4b55090",
+        "name": "Swordsman, Sharp Scoundrel",
+        "weight": 1
+      },
+      {
+        "uuid": "9e8ad60c-e162-5e52-af2f-66cc91873017",
+        "name": "Quake, Agent of S.H.I.E.L.D.",
+        "weight": 1
+      },
+      {
+        "uuid": "a0c040d2-e691-5b2d-a1ab-b612e39e56f4",
+        "name": "Super Intelligence",
+        "weight": 1
+      },
+      {
+        "uuid": "a3b1e4cb-5aeb-526b-a1da-03f2b5a781d8",
+        "name": "Rewrite History",
+        "weight": 1
+      },
+      {
+        "uuid": "a79739bb-e2fc-5ca9-8e1a-5e1680b5ab47",
+        "name": "Grim Reaper, Lethal Legionnaire",
+        "weight": 1
+      },
+      {
+        "uuid": "a9883190-ccad-5b82-b5c3-9aa3e242cca9",
+        "name": "Political Triumph",
+        "weight": 1
+      },
+      {
+        "uuid": "abbef72e-9438-5e68-adf7-30697c1258bb",
+        "name": "Beast, Erudite Aerialist",
+        "weight": 1
+      },
+      {
+        "uuid": "b28158eb-24d1-55ca-9c1c-c0ffeae01706",
+        "name": "Luke Cage, Power Man",
+        "weight": 1
+      },
+      {
+        "uuid": "b4847400-f86a-59a6-b509-48cf1aa0060d",
+        "name": "Hawkeye, Young Avenger",
+        "weight": 1
+      },
+      {
+        "uuid": "b6198e21-ee4c-51a0-a3b2-aadb22c790ec",
+        "name": "War Machine, Legacy of Iron",
+        "weight": 1
+      },
+      {
+        "uuid": "b8b9dc87-ab70-5bb6-817f-7ba4eec44ed0",
+        "name": "Claim the Kingdom",
+        "weight": 1
+      },
+      {
+        "uuid": "b98f5f21-4813-506c-be51-5e6c368224b4",
+        "name": "Ant-Man, Colony Commander",
+        "weight": 1
+      },
+      {
+        "uuid": "bdc3f0fb-bb25-5300-89b9-2fc86a154913",
+        "name": "Training Regimen",
+        "weight": 1
+      },
+      {
+        "uuid": "c58539f9-7709-515d-b31c-d58f4682a1dc",
+        "name": "She-Hulk, Jade Defender",
+        "weight": 1
+      },
+      {
+        "uuid": "c7cfacd2-df19-587b-9946-192409964c0e",
+        "name": "Viv Vision, Teen Synthezoid",
+        "weight": 1
+      },
+      {
+        "uuid": "cc0c24fb-8a77-54ae-9ccb-24da667ebcce",
+        "name": "Baron Strucker, HYDRA Overlord",
+        "weight": 1
+      },
+      {
+        "uuid": "d57c4d03-0fa8-5af5-805b-b228c5ca1a17",
+        "name": "Rick Jones, Destined Sidekick",
+        "weight": 1
+      },
+      {
+        "uuid": "d589f72d-823e-55eb-bb1b-b9255c308de9",
+        "name": "Doc Samson, Super Psychiatrist",
+        "weight": 1
+      },
+      {
+        "uuid": "d7a10027-01be-561e-8fa7-5d4f8a4005d0",
+        "name": "Wonder Man, Hollywood Hero",
+        "weight": 1
+      },
+      {
+        "uuid": "d7baaa23-df55-5a54-9362-fed32b2eb8cb",
+        "name": "Kang, Temporal Tyrant",
+        "weight": 1
+      },
+      {
+        "uuid": "deeee2a4-6b7c-5392-8dad-f873246a8c8a",
+        "name": "Ghost, Spectral Saboteur",
+        "weight": 1
+      },
+      {
+        "uuid": "df7474af-f7a8-5e91-944c-489602b4c1b9",
+        "name": "Titania, Rugged Rumbler",
+        "weight": 1
+      },
+      {
+        "uuid": "e0ded79d-a6d2-579b-beba-a3ebf8fb5d26",
+        "name": "Attuma, Atlantean Warlord",
+        "weight": 1
+      },
+      {
+        "uuid": "e14489d4-5696-52f1-8333-04b8bee38596",
+        "name": "Black Widow, Double Agent",
+        "weight": 1
+      },
+      {
+        "uuid": "e1624541-225f-54ec-b650-b692b060cafe",
+        "name": "White Widow, Free Agent",
+        "weight": 1
+      },
+      {
+        "uuid": "e6b663be-d83e-5f53-bbf0-01cb7751bf01",
+        "name": "Pym Particles",
+        "weight": 1
+      },
+      {
+        "uuid": "e6da7799-0ba4-5fb8-affc-2378b7c04c87",
+        "name": "Yellowjacket, Heartless Marauder",
+        "weight": 1
+      },
+      {
+        "uuid": "e860354a-bd67-5755-96ce-4929f30f99a2",
+        "name": "Justice, Vance Astrovik",
+        "weight": 1
+      },
+      {
+        "uuid": "ee083c71-0e1e-5c80-9beb-ed794c2c0150",
+        "name": "Moonstone, Harsh Mistress",
+        "weight": 1
+      },
+      {
+        "uuid": "eec77882-98e3-5502-bcf8-8a3080029902",
+        "name": "Ronin, Shadow Stalker",
+        "weight": 1
+      },
+      {
+        "uuid": "f1dfbd74-cf71-5d46-ab69-880a59f33a49",
+        "name": "Iron Man, Master of Machines",
+        "weight": 1
+      },
+      {
+        "uuid": "f1ea335c-9718-53eb-bb4f-c126fbf3577c",
+        "name": "U.S.Agent, John Walker",
+        "weight": 1
+      },
+      {
+        "uuid": "fc2a5d8f-568c-5aa8-a893-8ffe9661c0b0",
+        "name": "Iron Fist, Living Weapon",
+        "weight": 1
+      },
+      {
+        "uuid": "fcd24ebf-1229-5211-95b9-67dd19d37763",
+        "name": "Loki Laufeyson",
+        "weight": 1
+      }
+    ]
+  },
+  "wildcard": {
+    "cards": [
+      {
+        "uuid": "004e6327-a1cb-5649-8705-679d916f9427",
+        "name": "Giant-Sized Flying Ant",
+        "weight": 406000
+      },
+      {
+        "uuid": "00590cb8-3737-5002-8827-6b319035b730",
+        "name": "The Kingpin of Crime",
+        "weight": 625320
+      },
+      {
+        "uuid": "007ac439-1479-5a76-a45b-3cb7f83d1586",
+        "name": "Secret Invasion",
+        "weight": 625320
+      },
+      {
+        "uuid": "01c46784-b6b9-5402-9014-fa98771975e9",
+        "name": "Agent Phil Coulson",
+        "weight": 625320
+      },
+      {
+        "uuid": "02036638-5789-5604-a763-aeb87e9c44e0",
+        "name": "Arnim Zola, Bio-Fanatic",
+        "weight": 1566783
+      },
+      {
+        "uuid": "028fd581-c054-5253-b16d-b91baaefb567",
+        "name": "Agents of HYDRA",
+        "weight": 406000
+      },
+      {
+        "uuid": "03595529-78d6-5db5-848d-99d82d67c051",
+        "name": "Armor Wars",
+        "weight": 625320
+      },
+      {
+        "uuid": "043e83b6-4fb4-57ef-947e-ee609c1158b1",
+        "name": "Falcon's Wing Harness",
+        "weight": 1566783
+      },
+      {
+        "uuid": "06afe063-f145-5e65-acd0-0b27c1a3519c",
+        "name": "Spider-Woman, Secret Agent",
+        "weight": 1566783
+      },
+      {
+        "uuid": "0bf1ae61-71db-559f-a077-c53533560189",
+        "name": "Restorative Technique",
+        "weight": 406000
+      },
+      {
+        "uuid": "0cbb4b86-b181-55d0-b7a7-95e28c070041",
+        "name": "Leader, Super-Genius",
+        "weight": 625320
+      },
+      {
+        "uuid": "0d6ac20e-fb67-594e-a441-62bcb07d8fae",
+        "name": "Captain Mar-Vell, Space-Born",
+        "weight": 1566783
+      },
+      {
+        "uuid": "0e5886c1-ad29-5ac3-98ae-31f57caa0e7f",
+        "name": "Stolen Stark Tech",
+        "weight": 406000
+      },
+      {
+        "uuid": "0e7a9469-55f7-58a3-b632-cd7604b94b8f",
+        "name": "Nick Fury, Agent of S.H.I.E.L.D.",
+        "weight": 625320
+      },
+      {
+        "uuid": "0eed013a-7dca-5ab4-8bd5-d0ecf36c3050",
+        "name": "Too Evil to Stay Dead",
+        "weight": 1566783
+      },
+      {
+        "uuid": "10addd72-a1bc-5b49-9615-3a6069339225",
+        "name": "Tigra, Feline Fury",
+        "weight": 1566783
+      },
+      {
+        "uuid": "11aea69c-6516-57e8-b1ce-59591b17e719",
+        "name": "Villainous Hideout",
+        "weight": 1566783
+      },
+      {
+        "uuid": "1283f444-6057-51d9-926b-6c94b1af4e09",
+        "name": "Super-Adaptoid",
+        "weight": 625320
+      },
+      {
+        "uuid": "13d9894f-d2e0-5e7d-ad88-3c6af526cb43",
+        "name": "Death to Our Enemies",
+        "weight": 1566783
+      },
+      {
+        "uuid": "17041f5e-ea77-5be2-8940-3f21fdf2a549",
+        "name": "Captain America, Living Legend",
+        "weight": 1566783
+      },
+      {
+        "uuid": "19629457-2b6f-51db-af6a-4fb8edd5b93c",
+        "name": "Speedball, New Warrior",
+        "weight": 1566783
+      },
+      {
+        "uuid": "1c9a04f0-b773-5beb-b82d-198c72402897",
+        "name": "Night Nurse, Healer of Heroes",
+        "weight": 1566783
+      },
+      {
+        "uuid": "1cf79a78-310e-5c5f-88e4-e10e2586c3a9",
+        "name": "S.H.I.E.L.D. Deployment Drone",
+        "weight": 406000
+      },
+      {
+        "uuid": "1e373f8e-07d0-516b-bddc-537ac1c3b222",
+        "name": "S.H.I.E.L.D. Helicarrier",
+        "weight": 1566783
+      },
+      {
+        "uuid": "1e962a1c-8348-5624-a586-43868ee6f729",
+        "name": "Loki, God of Mischief",
+        "weight": 625320
+      },
+      {
+        "uuid": "20579382-517b-5e34-a7d5-c31f0969f71c",
+        "name": "Abomination, Terrifying Titan",
+        "weight": 1566783
+      },
+      {
+        "uuid": "21c76224-b98c-54a4-a99b-667a8754e73c",
+        "name": "Ironheart, Clever Champion",
+        "weight": 625320
+      },
+      {
+        "uuid": "228f7c68-8eae-56a3-a11a-939f3576bdc1",
+        "name": "Training Compound",
+        "weight": 625320
+      },
+      {
+        "uuid": "237d4727-54e5-5fb8-81d0-9bf8478f0c7d",
+        "name": "Misty Knight, Hero for Hire",
+        "weight": 1566783
+      },
+      {
+        "uuid": "240315ec-e464-534e-a76e-e342f2a282db",
+        "name": "Klaw, Sonic Subjugator",
+        "weight": 1566783
+      },
+      {
+        "uuid": "2440d39d-98d2-562f-b367-e37fffc03f2c",
+        "name": "Storm, Windrider",
+        "weight": 625320
+      },
+      {
+        "uuid": "24cf7602-790c-5385-bbe4-213c897909c2",
+        "name": "Wakandan Royal Guard",
+        "weight": 406000
+      },
+      {
+        "uuid": "24d38b8a-402c-53d3-a966-650f2beb1e01",
+        "name": "HYDRA Troopers",
+        "weight": 406000
+      },
+      {
+        "uuid": "254a0e14-4447-597a-b537-676206040a97",
+        "name": "The Sentry, Golden Guardian",
+        "weight": 625320
+      },
+      {
+        "uuid": "2560f5b3-8030-5c29-b4cd-94f95675f2c4",
+        "name": "Robot Domination",
+        "weight": 1566783
+      },
+      {
+        "uuid": "27aefec5-1548-5526-adec-c5e00d0d3a41",
+        "name": "Truck Toss",
+        "weight": 1566783
+      },
+      {
+        "uuid": "27ff6937-5d50-50f0-997c-cfc63dab8867",
+        "name": "Whiplash, Vengeful Engineer",
+        "weight": 1566783
+      },
+      {
+        "uuid": "287faf6a-9428-5b77-ba17-27f34eb72a44",
+        "name": "Thirst for Knowledge",
+        "weight": 1566783
+      },
+      {
+        "uuid": "28f44a33-9bde-569c-a478-4c5e315fea2a",
+        "name": "Stark Industries Executive",
+        "weight": 406000
+      },
+      {
+        "uuid": "299aaedd-3fee-5ca4-b3bf-d99b711e75b0",
+        "name": "Team Tactics",
+        "weight": 1566783
+      },
+      {
+        "uuid": "2ca32964-e3c9-560b-bfce-0eee3ba555d5",
+        "name": "Agent of Atlas",
+        "weight": 406000
+      },
+      {
+        "uuid": "2cc396de-d29d-5187-8977-d5f29d90c4bd",
+        "name": "World War Hulk",
+        "weight": 625320
+      },
+      {
+        "uuid": "2cd463b7-42a7-503b-9b18-6b9a71766877",
+        "name": "Hex Magic",
+        "weight": 1566783
+      },
+      {
+        "uuid": "2cf60341-2890-5483-b058-486f53674c45",
+        "name": "Shuri, Wakandan Inventor",
+        "weight": 1566783
+      },
+      {
+        "uuid": "2d50ad6b-7603-5ec5-8cd5-ce22b6ee24ac",
+        "name": "Alien Invasion",
+        "weight": 625320
+      },
+      {
+        "uuid": "2dbe84e2-34ed-5144-9f98-54a14fc17f27",
+        "name": "Surveillance Room",
+        "weight": 406000
+      },
+      {
+        "uuid": "2e5a2561-267a-5c1e-a64b-331322f7d9c8",
+        "name": "Wolverine, Fierce Fighter",
+        "weight": 625320
+      },
+      {
+        "uuid": "351d44b5-fa29-546c-9dba-ec0e12698393",
+        "name": "Wakandan Drone Flock",
+        "weight": 406000
+      },
+      {
+        "uuid": "352e7cae-62f7-547e-a1ad-7476af6d94db",
+        "name": "Agent Maria Hill",
+        "weight": 1566783
+      },
+      {
+        "uuid": "37637b52-fd4a-54de-bd66-7acab472e689",
+        "name": "Avengers Tower",
+        "weight": 1566783
+      },
+      {
+        "uuid": "3777f109-48dc-5705-a6d3-7340d08cbf01",
+        "name": "Serpent Specialist",
+        "weight": 406000
+      },
+      {
+        "uuid": "3854a309-1842-54b3-8248-e29af03246ec",
+        "name": "King T'Challa",
+        "weight": 312660
+      },
+      {
+        "uuid": "3894528d-c599-5808-bbe8-c19247d28b54",
+        "name": "Thanos, the Mad Titan",
+        "weight": 312660
+      },
+      {
+        "uuid": "3b570132-c92c-5968-810c-988448cf0d49",
+        "name": "M.O.D.O.K.",
+        "weight": 312660
+      },
+      {
+        "uuid": "3d2ccb0f-deaf-52ad-8ccc-09052f99a3b4",
+        "name": "Crossbones, Malicious Mercenary",
+        "weight": 1566783
+      },
+      {
+        "uuid": "3e355267-8a18-5d2a-9ff6-75c566302058",
+        "name": "Dependable Quinjet",
+        "weight": 406000
+      },
+      {
+        "uuid": "3f36b164-4dcf-54f2-a02e-9ccd9ef4e01f",
+        "name": "Cloak and Dagger, Entwined",
+        "weight": 625320
+      },
+      {
+        "uuid": "3f45ae42-dc18-5a23-8c0e-df62f6005d95",
+        "name": "Madame Hydra",
+        "weight": 1566783
+      },
+      {
+        "uuid": "40076605-7c32-5eeb-b407-eb6b214d68a7",
+        "name": "Hawkeye, Master Marksman",
+        "weight": 625320
+      },
+      {
+        "uuid": "413be4c3-d43f-5243-9911-813793e93cb9",
+        "name": "Photon Blast Barrage",
+        "weight": 1566783
+      },
+      {
+        "uuid": "41541761-4c5e-559c-8e4a-0c93fd5d8cae",
+        "name": "A.I.M. Scientists",
+        "weight": 406000
+      },
+      {
+        "uuid": "4220f356-d983-54f9-958a-c773456b472e",
+        "name": "Spider-Man, To the Rescue",
+        "weight": 1566783
+      },
+      {
+        "uuid": "4276241e-b778-56b2-99f9-f3c28fc905f8",
+        "name": "Guerrilla Gorilla",
+        "weight": 406000
+      },
+      {
+        "uuid": "435e3d8d-8a5c-5213-9a78-e8cf2b46f8a2",
+        "name": "Agents of S.H.I.E.L.D.",
+        "weight": 406000
+      },
+      {
+        "uuid": "4401151c-51c8-504c-a3f2-c2b4bed7adab",
+        "name": "Frozen in Ice",
+        "weight": 406000
+      },
+      {
+        "uuid": "4436c87f-8051-56c5-b660-a04b5c3dc2a8",
+        "name": "Earth's Mightiest Heroes",
+        "weight": 312660
+      },
+      {
+        "uuid": "45fde29d-8d1f-534d-a821-927f9714d470",
+        "name": "Call Damage Control",
+        "weight": 406000
+      },
+      {
+        "uuid": "460be77c-5d56-51f4-87f1-50e1bbee8f3d",
+        "name": "Cosmic Cube",
+        "weight": 312660
+      },
+      {
+        "uuid": "472b7450-eb96-551d-bdc1-f6a7e52899f9",
+        "name": "Echo, Perceptive Prodigy",
+        "weight": 1566783
+      },
+      {
+        "uuid": "47836e61-dbe0-5998-8d87-218ae00ae632",
+        "name": "The Ten Rings",
+        "weight": 312660
+      },
+      {
+        "uuid": "489293af-8321-5b98-84df-e912ec2a844c",
+        "name": "The Unbeatable Squirrel Girl",
+        "weight": 625320
+      },
+      {
+        "uuid": "48d98b8c-c8c1-529e-bb58-43f75dd69fa1",
+        "name": "Roxxon Brutes",
+        "weight": 406000
+      },
+      {
+        "uuid": "49116522-7b6c-53ee-8bc8-b08b12ffc948",
+        "name": "Mister Hyde, Monster Within",
+        "weight": 1566783
+      },
+      {
+        "uuid": "49341ffd-83ad-5859-8aa9-579976ffa22f",
+        "name": "Avengers Assemble!",
+        "weight": 312660
+      },
+      {
+        "uuid": "4bbf5384-900d-57e4-84a1-555d4bffad5c",
+        "name": "Agent 13, Sharon Carter",
+        "weight": 1566783
+      },
+      {
+        "uuid": "4c356f24-a995-5266-a0a3-1e2dee7a31f4",
+        "name": "Madame Masque",
+        "weight": 1566783
+      },
+      {
+        "uuid": "4cd1eaf2-7ae8-5f41-a8ef-a3210a95e83e",
+        "name": "Hero in Training",
+        "weight": 406000
+      },
+      {
+        "uuid": "4d6f3f98-9942-522b-96aa-cbab8fc3999a",
+        "name": "Red Guardian, Super-Soldier",
+        "weight": 1566783
+      },
+      {
+        "uuid": "4d954485-6e63-5bb2-8656-c88e6f753736",
+        "name": "Castle Doom",
+        "weight": 625320
+      },
+      {
+        "uuid": "4e6f4b2a-0c64-5d1b-8b0d-ba737e6e4436",
+        "name": "K'un-Lun Warrior",
+        "weight": 406000
+      },
+      {
+        "uuid": "4f2d3029-0f52-59b3-b9ca-e8ad5e81462b",
+        "name": "Blazing Crescendo",
+        "weight": 406000
+      },
+      {
+        "uuid": "5121d434-fb9e-55d6-bb1f-4a2cfe35f817",
+        "name": "Take Up the Shield",
+        "weight": 406000
+      },
+      {
+        "uuid": "555048c1-7a42-5b1e-b14b-93c3766ed271",
+        "name": "Volcanic Villain",
+        "weight": 406000
+      },
+      {
+        "uuid": "5585493b-5ab3-5fcd-9c6c-6db78ef7a901",
+        "name": "Wiccan, Rising Magician",
+        "weight": 1566783
+      },
+      {
+        "uuid": "572dc600-5162-52a7-ba4a-26f493066ccc",
+        "name": "Black Widow, Super Spy",
+        "weight": 312660
+      },
+      {
+        "uuid": "5975aa45-db88-5ade-99b8-069fd1e7e6df",
+        "name": "Super-Skrull",
+        "weight": 625320
+      },
+      {
+        "uuid": "59b2657a-c15a-5c18-8983-b08e6e835185",
+        "name": "HYDRA Infiltration",
+        "weight": 406000
+      },
+      {
+        "uuid": "59d99152-d9cc-5258-a0c4-4ffbcc8516eb",
+        "name": "Helicarrier Strike",
+        "weight": 406000
+      },
+      {
+        "uuid": "5adce06d-51b3-5dee-bb59-3be79acbd89c",
+        "name": "Doom Reigns Supreme",
+        "weight": 625320
+      },
+      {
+        "uuid": "5aec904b-16cb-5274-9b76-33d9947e35f3",
+        "name": "Raft Security Officer",
+        "weight": 406000
+      },
+      {
+        "uuid": "5b376df8-2c13-5e2c-8e31-747e55d07d09",
+        "name": "Jessica Jones, Private Eye",
+        "weight": 1566783
+      },
+      {
+        "uuid": "5b489555-fdec-5cd6-993d-95900af722ee",
+        "name": "Mockingbird, Ace Agent",
+        "weight": 1566783
+      },
+      {
+        "uuid": "5c5476bf-3e09-5100-992d-794a8374538d",
+        "name": "The Astonishing Ant-Man",
+        "weight": 625320
+      },
+      {
+        "uuid": "5c7d556a-228d-5178-8350-6935e186bb44",
+        "name": "HULK SMASH!",
+        "weight": 406000
+      },
+      {
+        "uuid": "5d677fef-77df-5efb-a562-e70365928b5a",
+        "name": "Hercules, Prince of Power",
+        "weight": 1566783
+      },
+      {
+        "uuid": "5eba64f2-122b-55a6-b9c6-608017e05bd3",
+        "name": "Cruel Alliance",
+        "weight": 406000
+      },
+      {
+        "uuid": "5f8d8f07-660d-57ab-af9e-efc5167d4711",
+        "name": "Atlantean Cavalry",
+        "weight": 406000
+      },
+      {
+        "uuid": "60acc3ce-5b93-5421-b04b-50bf68ad6247",
+        "name": "Thor Odinson",
+        "weight": 1566783
+      },
+      {
+        "uuid": "612964a2-3eb4-522c-ae49-efadb38f9e7a",
+        "name": "Giant Growth",
+        "weight": 406000
+      },
+      {
+        "uuid": "617858e2-2cc1-5caa-ab89-5b7fa1242306",
+        "name": "S.H.I.E.L.D. Spy Kit",
+        "weight": 406000
+      },
+      {
+        "uuid": "61b5e12d-c8cc-53b0-912e-566802a85e56",
+        "name": "Black Panther, Vanguard",
+        "weight": 1566783
+      },
+      {
+        "uuid": "63a0a05c-f19a-58b3-93d0-7b7a113faf9e",
+        "name": "Brave Brawler",
+        "weight": 406000
+      },
+      {
+        "uuid": "64a6a8cc-a56e-5a11-b570-af818a12ce45",
+        "name": "Knight of Wundagore",
+        "weight": 406000
+      },
+      {
+        "uuid": "6546ba71-cd14-5533-a79a-6639f85ffa87",
+        "name": "Borough Backup",
+        "weight": 406000
+      },
+      {
+        "uuid": "66cac773-6688-59ac-b0f1-4533451ced87",
+        "name": "Hellcat, Undying Vigilante",
+        "weight": 1566783
+      },
+      {
+        "uuid": "6737ea4b-53f2-5512-9108-f92eba5d1b45",
+        "name": "Okoye, Dora Milaje Leader",
+        "weight": 1566783
+      },
+      {
+        "uuid": "67b20fd9-8baf-55af-a185-1e52f00cfa3c",
+        "name": "Ant-Man's Army",
+        "weight": 406000
+      },
+      {
+        "uuid": "688267fd-0d37-53fd-ba59-e70e73819c4b",
+        "name": "Super Villain Lockup",
+        "weight": 1566783
+      },
+      {
+        "uuid": "6925060f-18ad-5edc-883e-fd3cd578f995",
+        "name": "Speed, Young Avenger",
+        "weight": 1566783
+      },
+      {
+        "uuid": "69382437-cdfc-5d29-972f-fa1f5bef5143",
+        "name": "The Serpent Society",
+        "weight": 625320
+      },
+      {
+        "uuid": "69629c9e-ed92-546c-abdf-56bbcd71f15e",
+        "name": "Captain America, Super-Soldier",
+        "weight": 312660
+      },
+      {
+        "uuid": "6a83519c-1591-544b-bfad-6bacfd32aaf4",
+        "name": "Hulk, Gamma Goliath",
+        "weight": 1566783
+      },
+      {
+        "uuid": "6c9c9569-dfc8-5ead-85c4-044214fecc59",
+        "name": "Captain America, Wings of Freedom",
+        "weight": 625320
+      },
+      {
+        "uuid": "6cd79aac-b438-5ae5-999e-5d9ff2da3c29",
+        "name": "Stature, Size Shifter",
+        "weight": 1566783
+      },
+      {
+        "uuid": "6d3bbc2c-f21a-5ecd-aab3-4bce80419396",
+        "name": "Punishing Punch",
+        "weight": 1566783
+      },
+      {
+        "uuid": "6d51101d-f45b-55d8-a92f-f5b2a07eee20",
+        "name": "Bold Biochemist",
+        "weight": 406000
+      },
+      {
+        "uuid": "6f17da18-b24e-5976-b32b-12211da2649f",
+        "name": "Bullseye, Death Dealer",
+        "weight": 1566783
+      },
+      {
+        "uuid": "6f35405c-5b94-5b33-83d6-fea85758a9e7",
+        "name": "Vibranium Energy Daggers",
+        "weight": 406000
+      },
+      {
+        "uuid": "707acda3-e753-5f89-9f81-c76cc9534e80",
+        "name": "The Masters of Evil",
+        "weight": 1566783
+      },
+      {
+        "uuid": "71862fd7-ee61-5594-8cbd-b35b19d929c1",
+        "name": "Kid Loki",
+        "weight": 1566783
+      },
+      {
+        "uuid": "73da755e-a3cf-5360-a87a-070f30d39fef",
+        "name": "Red Hulk",
+        "weight": 1566783
+      },
+      {
+        "uuid": "747eb5e1-cbd4-5193-9c40-eb45189c5bd4",
+        "name": "Invisible Woman, Sue Storm",
+        "weight": 1566783
+      },
+      {
+        "uuid": "75176126-fd60-5a5d-b5d8-4219a880d182",
+        "name": "Falcon, Winged Wonder",
+        "weight": 1566783
+      },
+      {
+        "uuid": "75e34d08-2b4a-5f8c-8b2c-00a69215fc29",
+        "name": "Captain Marvel, Earth's Protector",
+        "weight": 312660
+      },
+      {
+        "uuid": "76904132-ca08-5346-8a8d-74e72a97eb76",
+        "name": "Ms. Marvel, Kamala Khan",
+        "weight": 625320
+      },
+      {
+        "uuid": "76d36676-a3fa-59a1-9da7-aa9a49845566",
+        "name": "Repulsor Blast",
+        "weight": 406000
+      },
+      {
+        "uuid": "7734690e-c4d8-5f55-8371-a8a422c9dbe0",
+        "name": "Reptil, Dinomorpher",
+        "weight": 1566783
+      },
+      {
+        "uuid": "792d54a3-6677-5f43-9599-bba5db069f10",
+        "name": "Dark Deed",
+        "weight": 1566783
+      },
+      {
+        "uuid": "7967823c-6d9b-5c61-90e4-519da3669bcd",
+        "name": "Powerful Broker",
+        "weight": 406000
+      },
+      {
+        "uuid": "79d33058-490f-5834-b5a6-cd52a5b2cc43",
+        "name": "Kree Commandos",
+        "weight": 406000
+      },
+      {
+        "uuid": "7baf50f1-6a2b-5dea-a003-4fb161e6dd29",
+        "name": "Hulkling, Burgeoning Bruiser",
+        "weight": 1566783
+      },
+      {
+        "uuid": "7c26b5cd-3bfd-5a6c-9754-df5f70afb203",
+        "name": "Project Deathlok Soldier",
+        "weight": 406000
+      },
+      {
+        "uuid": "7f9212fa-c67a-5208-9e78-3917e6f01293",
+        "name": "White Tiger, Ava Ayala",
+        "weight": 1566783
+      },
+      {
+        "uuid": "812ab588-9494-5c97-aa94-d6c6b98f6978",
+        "name": "Killmonger, Scourge of Wakanda",
+        "weight": 1566783
+      },
+      {
+        "uuid": "82117dee-5e74-50bf-8632-a2b8294bd700",
+        "name": "Web Up",
+        "weight": 406000
+      },
+      {
+        "uuid": "82488689-7c73-50fc-90d4-2ea9e3085dbb",
+        "name": "Decoy Ploy",
+        "weight": 406000
+      },
+      {
+        "uuid": "82945aef-dc2a-5bad-982b-9f26dd2a0744",
+        "name": "Vision Quest",
+        "weight": 625320
+      },
+      {
+        "uuid": "82f36aaf-c10f-53f2-8822-ac9634087dba",
+        "name": "Kree Sentinel",
+        "weight": 406000
+      },
+      {
+        "uuid": "835e4981-4432-5c30-acd7-d51845c3125e",
+        "name": "Iron Lad, Diverging Destiny",
+        "weight": 1566783
+      },
+      {
+        "uuid": "841ecc63-c919-5f55-8291-af0ac0dee1ad",
+        "name": "Avengers Disassembled",
+        "weight": 625320
+      },
+      {
+        "uuid": "8598ec33-3649-5059-ac6f-e68f764deaa3",
+        "name": "The Thing, Ben Grimm",
+        "weight": 1566783
+      },
+      {
+        "uuid": "8708973b-4ca1-59fa-a7b5-e7c5dd98fb76",
+        "name": "Hydraulic Helper",
+        "weight": 406000
+      },
+      {
+        "uuid": "892b4b1e-3275-5b0d-b549-0642e06c2c8a",
+        "name": "Taskmaster, Mercenary Mimic",
+        "weight": 625320
+      },
+      {
+        "uuid": "89a312e9-0bb9-5d06-97e8-5c00353fa1c8",
+        "name": "Absorbing Man",
+        "weight": 625320
+      },
+      {
+        "uuid": "89c4b4bc-c143-5247-8b3d-eee3c296ba93",
+        "name": "Atlantis Attacks",
+        "weight": 406000
+      },
+      {
+        "uuid": "8a68acc2-8ee7-5b14-8a6c-b7ea42ec5556",
+        "name": "Baxter Building",
+        "weight": 1566783
+      },
+      {
+        "uuid": "8d88f74e-9d9e-5431-a6a1-2d2371e45de0",
+        "name": "Mister Fantastic, Reed Richards",
+        "weight": 1566783
+      },
+      {
+        "uuid": "8ddaf10d-2729-5d0a-a782-2b07f51ff045",
+        "name": "Dark Fortress",
+        "weight": 625320
+      },
+      {
+        "uuid": "8e0e9188-0b55-5f16-8054-482a28226230",
+        "name": "The Coming of Galactus",
+        "weight": 312660
+      },
+      {
+        "uuid": "8f28805a-4314-5338-8d23-d0a08243247b",
+        "name": "Iron Man Armor",
+        "weight": 312660
+      },
+      {
+        "uuid": "905409d3-b8b3-5417-939f-9d3b41479f28",
+        "name": "Crowd of True Believers",
+        "weight": 406000
+      },
+      {
+        "uuid": "90ad25e3-b000-5d87-952e-d32409a804a6",
+        "name": "Ka-Zar of the Savage Land",
+        "weight": 1566783
+      },
+      {
+        "uuid": "918f5530-1a5c-50c8-a96e-1ec9eef692fc",
+        "name": "Patriot, Shield Wielder",
+        "weight": 1566783
+      },
+      {
+        "uuid": "928d8f52-fab9-5546-8dfb-e4e180648980",
+        "name": "Bruce Banner",
+        "weight": 312660
+      },
+      {
+        "uuid": "937c49b8-5762-5402-91a0-aac8820953cf",
+        "name": "Super Suit",
+        "weight": 406000
+      },
+      {
+        "uuid": "941ffce6-693a-502b-94da-68440e7a1686",
+        "name": "Hour of Defeat",
+        "weight": 406000
+      },
+      {
+        "uuid": "9428d422-d6b7-5cb9-9eae-0719c22feeca",
+        "name": "The Mind Stone",
+        "weight": 312660
+      },
+      {
+        "uuid": "94530408-ce24-5abe-ab31-3af91d06112e",
+        "name": "Colleen Wing, Street Samurai",
+        "weight": 1566783
+      },
+      {
+        "uuid": "94f37f81-d2b1-53a5-a4c7-0f3128b44fac",
+        "name": "Evil's Thrall",
+        "weight": 1566783
+      },
+      {
+        "uuid": "9aad7290-0166-5a63-b0f4-5a485143a4fd",
+        "name": "Quicksilver, Brash Blur",
+        "weight": 625320
+      },
+      {
+        "uuid": "9aeaf39f-bdef-547f-98ce-94cbad4cc749",
+        "name": "Human Torch, Johnny Storm",
+        "weight": 1566783
+      },
+      {
+        "uuid": "9aebb95f-2cf4-510e-99d1-37a8e4b55090",
+        "name": "Swordsman, Sharp Scoundrel",
+        "weight": 1566783
+      },
+      {
+        "uuid": "9cd7d75a-5e77-54eb-b586-5cd43783d8e9",
+        "name": "Moon Girl and Devil Dinosaur",
+        "weight": 625320
+      },
+      {
+        "uuid": "9d00d3c6-fd96-5a9e-a307-5e11163efc02",
+        "name": "Super-Soldier Serum",
+        "weight": 625320
+      },
+      {
+        "uuid": "9db642ff-ba47-5d44-87be-80e6e327b4bb",
+        "name": "Futurist Forge",
+        "weight": 406000
+      },
+      {
+        "uuid": "9e8ad60c-e162-5e52-af2f-66cc91873017",
+        "name": "Quake, Agent of S.H.I.E.L.D.",
+        "weight": 1566783
+      },
+      {
+        "uuid": "9f306f90-bbea-5edd-b15b-906f0de04405",
+        "name": "The Super Hero Civil War",
+        "weight": 625320
+      },
+      {
+        "uuid": "a0a2a562-cbf7-509b-8149-5741c177d8c3",
+        "name": "Depower",
+        "weight": 406000
+      },
+      {
+        "uuid": "a0c040d2-e691-5b2d-a1ab-b612e39e56f4",
+        "name": "Super Intelligence",
+        "weight": 1566783
+      },
+      {
+        "uuid": "a1169aa7-b3e4-5248-9cc4-43be3c10f7ea",
+        "name": "Jennifer Walters",
+        "weight": 312660
+      },
+      {
+        "uuid": "a3b1e4cb-5aeb-526b-a1da-03f2b5a781d8",
+        "name": "Rewrite History",
+        "weight": 1566783
+      },
+      {
+        "uuid": "a53abe01-62a7-529d-ba72-62b3a55d72ac",
+        "name": "Captain America's Shield",
+        "weight": 625320
+      },
+      {
+        "uuid": "a7670a7a-e712-5de8-b789-8e363d2862a1",
+        "name": "Winter Soldier, Icy Assassin",
+        "weight": 625320
+      },
+      {
+        "uuid": "a79739bb-e2fc-5ca9-8e1a-5e1680b5ab47",
+        "name": "Grim Reaper, Lethal Legionnaire",
+        "weight": 1566783
+      },
+      {
+        "uuid": "a9883190-ccad-5b82-b5c3-9aa3e242cca9",
+        "name": "Political Triumph",
+        "weight": 1566783
+      },
+      {
+        "uuid": "aa024183-af00-5d09-89b0-1d5ddc69ae05",
+        "name": "The Ruinous Wrecking Crew",
+        "weight": 625320
+      },
+      {
+        "uuid": "aa08d4fb-8c3c-5a59-9070-41daa26345b9",
+        "name": "Shang-Chi, Master of Kung Fu",
+        "weight": 312660
+      },
+      {
+        "uuid": "ab04e6ee-2238-530e-be08-3df234f4bf66",
+        "name": "Widow's Bite",
+        "weight": 406000
+      },
+      {
+        "uuid": "abbef72e-9438-5e68-adf7-30697c1258bb",
+        "name": "Beast, Erudite Aerialist",
+        "weight": 1566783
+      },
+      {
+        "uuid": "ac6bc736-e9e2-5db3-b4c8-9c47f00dae51",
+        "name": "Unliving Legionnaire",
+        "weight": 406000
+      },
+      {
+        "uuid": "ad3986ce-cb48-5306-9b81-09e69cce5d6b",
+        "name": "Gleaming Bastion",
+        "weight": 625320
+      },
+      {
+        "uuid": "adf87e7c-c9f8-55b1-bd34-8a9487e42bd9",
+        "name": "Origin of the Avengers",
+        "weight": 625320
+      },
+      {
+        "uuid": "ae8c073c-dcb9-5315-88a1-e008d9191a7b",
+        "name": "We Say Thee Nay!",
+        "weight": 406000
+      },
+      {
+        "uuid": "ae8dcff6-79b1-519f-9124-c2c567931bb0",
+        "name": "Mole Man, Moloid Master",
+        "weight": 625320
+      },
+      {
+        "uuid": "b28158eb-24d1-55ca-9c1c-c0ffeae01706",
+        "name": "Luke Cage, Power Man",
+        "weight": 1566783
+      },
+      {
+        "uuid": "b295e867-9d6a-5014-aef9-94f6a2999241",
+        "name": "Doctor Doom",
+        "weight": 312660
+      },
+      {
+        "uuid": "b2f06358-982f-50c5-8d5a-996806c7bc0a",
+        "name": "Rapid Rescue",
+        "weight": 406000
+      },
+      {
+        "uuid": "b4847400-f86a-59a6-b509-48cf1aa0060d",
+        "name": "Hawkeye, Young Avenger",
+        "weight": 1566783
+      },
+      {
+        "uuid": "b549a82a-5720-53ec-a7d8-a150611e1040",
+        "name": "Heroic Feast",
+        "weight": 625320
+      },
+      {
+        "uuid": "b6198e21-ee4c-51a0-a3b2-aadb22c790ec",
+        "name": "War Machine, Legacy of Iron",
+        "weight": 1566783
+      },
+      {
+        "uuid": "b8b9dc87-ab70-5bb6-817f-7ba4eec44ed0",
+        "name": "Claim the Kingdom",
+        "weight": 1566783
+      },
+      {
+        "uuid": "b9516220-24b3-5d05-8adc-e07360bc060a",
+        "name": "Kang the Conqueror",
+        "weight": 312660
+      },
+      {
+        "uuid": "b98f5f21-4813-506c-be51-5e6c368224b4",
+        "name": "Ant-Man, Colony Commander",
+        "weight": 1566783
+      },
+      {
+        "uuid": "ba864a61-3704-52cc-a850-a2e8bc1e2bb8",
+        "name": "I Am Iron Man",
+        "weight": 406000
+      },
+      {
+        "uuid": "ba9594c4-70b5-5034-84da-106e8c94a356",
+        "name": "The Vision",
+        "weight": 625320
+      },
+      {
+        "uuid": "bb1390a1-8de3-5e24-8e1f-56454023959b",
+        "name": "H.E.R.B.I.E. Scout Unit",
+        "weight": 406000
+      },
+      {
+        "uuid": "bb64397e-993a-5db8-914c-1ae1b63e49fb",
+        "name": "The Mighty Thor, Jane Foster",
+        "weight": 625320
+      },
+      {
+        "uuid": "bdc3f0fb-bb25-5300-89b9-2fc86a154913",
+        "name": "Training Regimen",
+        "weight": 1566783
+      },
+      {
+        "uuid": "bddca6a0-3265-5cbe-8ad3-474dfcddf0f1",
+        "name": "Construct a Cosmic Cube",
+        "weight": 625320
+      },
+      {
+        "uuid": "bf1bf5e5-19ef-57bf-829d-38ca396eae82",
+        "name": "Vision of Love",
+        "weight": 406000
+      },
+      {
+        "uuid": "bff49e2f-11db-544f-b4a4-9988d26fdbee",
+        "name": "Murdock's Crusade",
+        "weight": 406000
+      },
+      {
+        "uuid": "c277c4fa-0e0b-5d0c-84b2-35463e2c1505",
+        "name": "Elektra, Daughter of the Hand",
+        "weight": 625320
+      },
+      {
+        "uuid": "c355ead4-0daf-5fd3-9fef-1c333557ecdf",
+        "name": "A.I.M. Synthoids",
+        "weight": 406000
+      },
+      {
+        "uuid": "c58539f9-7709-515d-b31c-d58f4682a1dc",
+        "name": "She-Hulk, Jade Defender",
+        "weight": 1566783
+      },
+      {
+        "uuid": "c6b0ca58-2beb-5fcd-8575-292616f3574d",
+        "name": "Daredevil, Man Without Fear",
+        "weight": 625320
+      },
+      {
+        "uuid": "c7cfacd2-df19-587b-9946-192409964c0e",
+        "name": "Viv Vision, Teen Synthezoid",
+        "weight": 1566783
+      },
+      {
+        "uuid": "c891d6a1-024d-54ad-87b1-818a1b44718d",
+        "name": "The Scarlet Witch",
+        "weight": 625320
+      },
+      {
+        "uuid": "cb4bcf18-0217-50d6-9a3e-daefcb07d4e3",
+        "name": "Gathering Place",
+        "weight": 625320
+      },
+      {
+        "uuid": "cc0c24fb-8a77-54ae-9ccb-24da667ebcce",
+        "name": "Baron Strucker, HYDRA Overlord",
+        "weight": 1566783
+      },
+      {
+        "uuid": "cd26d8b5-7a30-5eca-80ac-21ee3bf3ed5c",
+        "name": "Thunderbolts Conspiracy",
+        "weight": 625320
+      },
+      {
+        "uuid": "ceb72ea1-1d20-586e-817c-350bd590977d",
+        "name": "Hidden Lair",
+        "weight": 625320
+      },
+      {
+        "uuid": "d0f0035e-b461-54c7-bbf8-e77ca7318098",
+        "name": "Trickster's Stratagem",
+        "weight": 406000
+      },
+      {
+        "uuid": "d1da4349-9005-57e4-b412-f942dae318ac",
+        "name": "Worlds Within Worlds",
+        "weight": 625320
+      },
+      {
+        "uuid": "d4f80910-dfd6-5a68-87b8-554e259ba542",
+        "name": "HYDRA Assault Robot",
+        "weight": 406000
+      },
+      {
+        "uuid": "d57c4d03-0fa8-5af5-805b-b228c5ca1a17",
+        "name": "Rick Jones, Destined Sidekick",
+        "weight": 1566783
+      },
+      {
+        "uuid": "d589f72d-823e-55eb-bb1b-b9255c308de9",
+        "name": "Doc Samson, Super Psychiatrist",
+        "weight": 1566783
+      },
+      {
+        "uuid": "d6bb333d-9246-5666-8dd1-13d50079d944",
+        "name": "Fin Fang Foom",
+        "weight": 625320
+      },
+      {
+        "uuid": "d6d5693d-d2dc-511d-89d0-e7b009afbe8e",
+        "name": "Kingpin's Enforcers",
+        "weight": 406000
+      },
+      {
+        "uuid": "d6e0fb73-8c13-54de-abb1-c4d185065205",
+        "name": "S.H.I.E.L.D. Flying Car",
+        "weight": 625320
+      },
+      {
+        "uuid": "d7a10027-01be-561e-8fa7-5d4f8a4005d0",
+        "name": "Wonder Man, Hollywood Hero",
+        "weight": 1566783
+      },
+      {
+        "uuid": "d7baaa23-df55-5a54-9362-fed32b2eb8cb",
+        "name": "Kang, Temporal Tyrant",
+        "weight": 1566783
+      },
+      {
+        "uuid": "d8914dc2-2c4d-57ea-ad8c-47de32f35b9c",
+        "name": "Savage Land Dinosaur",
+        "weight": 406000
+      },
+      {
+        "uuid": "d8aac2b8-2a48-5161-881d-5eaa03bc6419",
+        "name": "Machinesmith Automaton",
+        "weight": 406000
+      },
+      {
+        "uuid": "dd0bd412-bcbf-5a0f-92b4-de9a5a7f2f97",
+        "name": "Pet Avengers",
+        "weight": 406000
+      },
+      {
+        "uuid": "ddbeab29-2074-5b3e-9e98-72f7968e984b",
+        "name": "Baron Helmut Zemo",
+        "weight": 625320
+      },
+      {
+        "uuid": "deeee2a4-6b7c-5392-8dad-f873246a8c8a",
+        "name": "Ghost, Spectral Saboteur",
+        "weight": 1566783
+      },
+      {
+        "uuid": "df7474af-f7a8-5e91-944c-489602b4c1b9",
+        "name": "Titania, Rugged Rumbler",
+        "weight": 1566783
+      },
+      {
+        "uuid": "e063ea2f-328f-5ff8-ab5e-e26456bdd1d7",
+        "name": "Avengers: Under Siege",
+        "weight": 625320
+      },
+      {
+        "uuid": "e0ded79d-a6d2-579b-beba-a3ebf8fb5d26",
+        "name": "Attuma, Atlantean Warlord",
+        "weight": 1566783
+      },
+      {
+        "uuid": "e0e65ab1-18cc-5e23-a6a6-fbfd13edf38a",
+        "name": "Arc Reactor",
+        "weight": 625320
+      },
+      {
+        "uuid": "e123c7d3-c9eb-57b1-a2f1-9bc4b992eda5",
+        "name": "Epic Fight",
+        "weight": 625320
+      },
+      {
+        "uuid": "e14489d4-5696-52f1-8333-04b8bee38596",
+        "name": "Black Widow, Double Agent",
+        "weight": 1566783
+      },
+      {
+        "uuid": "e1624541-225f-54ec-b650-b692b060cafe",
+        "name": "White Widow, Free Agent",
+        "weight": 1566783
+      },
+      {
+        "uuid": "e5276ad4-62f3-5260-934c-3bb0036ff58c",
+        "name": "Crimson Operative",
+        "weight": 406000
+      },
+      {
+        "uuid": "e6b663be-d83e-5f53-bbf0-01cb7751bf01",
+        "name": "Pym Particles",
+        "weight": 1566783
+      },
+      {
+        "uuid": "e6da7799-0ba4-5fb8-affc-2378b7c04c87",
+        "name": "Yellowjacket, Heartless Marauder",
+        "weight": 1566783
+      },
+      {
+        "uuid": "e7608fd1-75b4-53da-a74d-997f665fbbae",
+        "name": "Ares, God of War",
+        "weight": 625320
+      },
+      {
+        "uuid": "e860354a-bd67-5755-96ce-4929f30f99a2",
+        "name": "Justice, Vance Astrovik",
+        "weight": 1566783
+      },
+      {
+        "uuid": "e8e77cee-d733-50c1-99ac-010d7f4e8ac0",
+        "name": "Undercover Skrull",
+        "weight": 406000
+      },
+      {
+        "uuid": "e92ab11c-f42c-5f26-9fd0-7c86075c9916",
+        "name": "The Wondrous Wasp",
+        "weight": 625320
+      },
+      {
+        "uuid": "e9e69f7d-1dcc-5ce1-a26e-ed32d6dd293f",
+        "name": "Ultron Drone",
+        "weight": 406000
+      },
+      {
+        "uuid": "eb05a5e5-e244-54f2-b13a-f1fc1b7edbeb",
+        "name": "Scientist Supreme of A.I.M.",
+        "weight": 625320
+      },
+      {
+        "uuid": "ee083c71-0e1e-5c80-9beb-ed794c2c0150",
+        "name": "Moonstone, Harsh Mistress",
+        "weight": 1566783
+      },
+      {
+        "uuid": "ee107678-2e3f-53f3-b3c9-b92a831565bb",
+        "name": "Thor, God of Thunder",
+        "weight": 312660
+      },
+      {
+        "uuid": "ee896c4a-1579-53a4-b9ae-a75d0e160503",
+        "name": "Super Strength",
+        "weight": 406000
+      },
+      {
+        "uuid": "eec77882-98e3-5502-bcf8-8a3080029902",
+        "name": "Ronin, Shadow Stalker",
+        "weight": 1566783
+      },
+      {
+        "uuid": "ef24c0fb-25e2-5154-8b52-277635aca7f0",
+        "name": "Panther Pounce",
+        "weight": 406000
+      },
+      {
+        "uuid": "f0b9573f-a15f-5658-9706-a802ccc72a5e",
+        "name": "Red Room Recruit",
+        "weight": 406000
+      },
+      {
+        "uuid": "f1dfbd74-cf71-5d46-ab69-880a59f33a49",
+        "name": "Iron Man, Master of Machines",
+        "weight": 1566783
+      },
+      {
+        "uuid": "f1ea335c-9718-53eb-bb4f-c126fbf3577c",
+        "name": "U.S.Agent, John Walker",
+        "weight": 1566783
+      },
+      {
+        "uuid": "f27187f6-2124-5407-ac4f-f26d564d9171",
+        "name": "Go Nuts!",
+        "weight": 406000
+      },
+      {
+        "uuid": "f3caa776-2b66-5465-bfd8-57964e79bb13",
+        "name": "Lightning Strike",
+        "weight": 406000
+      },
+      {
+        "uuid": "f4033ab7-66bd-58bc-8543-4513a151aaf6",
+        "name": "Multiversal Incursion",
+        "weight": 312660
+      },
+      {
+        "uuid": "f43924f1-9201-58c7-a320-4071b1898aed",
+        "name": "Tony Stark",
+        "weight": 312660
+      },
+      {
+        "uuid": "f47688c7-8e8b-5f07-9163-2a8c02934f5b",
+        "name": "Namor the Sub-Mariner",
+        "weight": 312660
+      },
+      {
+        "uuid": "f4824612-35ee-5258-a15e-cfe186427456",
+        "name": "Ultron, Artificial Malevolence",
+        "weight": 312660
+      },
+      {
+        "uuid": "f53efb39-9e69-50e6-88ba-346566a3755c",
+        "name": "Hire a Crew",
+        "weight": 406000
+      },
+      {
+        "uuid": "f58671c7-4fd1-5cf6-a28f-b860c0a0187a",
+        "name": "Hawkeye's Bow",
+        "weight": 406000
+      },
+      {
+        "uuid": "f9817b63-70c8-5de5-b7f2-3671d62c7358",
+        "name": "Ninja of the Hand",
+        "weight": 406000
+      },
+      {
+        "uuid": "fc2a5d8f-568c-5aa8-a893-8ffe9661c0b0",
+        "name": "Iron Fist, Living Weapon",
+        "weight": 1566783
+      },
+      {
+        "uuid": "fc30b7a8-2606-5b61-9612-241857b6d121",
+        "name": "Super Speed",
+        "weight": 406000
+      },
+      {
+        "uuid": "fcd24ebf-1229-5211-95b9-67dd19d37763",
+        "name": "Loki Laufeyson",
+        "weight": 1566783
+      },
+      {
+        "uuid": "fd8368f0-4d6e-52be-944d-e16be3095d01",
+        "name": "Visions of Villainy",
+        "weight": 406000
+      },
+      {
+        "uuid": "fddc5724-721e-5075-a211-255299ca25a8",
+        "name": "Mj\u00f6lnir, Hammer of Thor",
+        "weight": 312660
+      },
+      {
+        "uuid": "fdfda16f-6d5b-5217-acae-f3c39d4e6f4f",
+        "name": "Aerial Doombot",
+        "weight": 406000
+      },
+      {
+        "uuid": "fe1fba87-1b71-5997-8d92-bebe77312845",
+        "name": "Monica Rambeau",
+        "weight": 312660
+      }
+    ]
+  }
+}

@@ -1,0 +1,4120 @@
+{
+  "common": {
+    "cards": [
+      {
+        "uuid": "016939df-525f-58dc-85e1-3edf49a5cb6a",
+        "name": "Focus the Mind",
+        "weight": 1
+      },
+      {
+        "uuid": "03619678-7720-578e-b980-96beb524ced1",
+        "name": "Dusyut Earthcarver",
+        "weight": 1
+      },
+      {
+        "uuid": "0d0c0f15-2645-50a6-94a0-3c345b34988b",
+        "name": "Dragonback Lancer",
+        "weight": 1
+      },
+      {
+        "uuid": "1e058df0-8555-5e70-8ab3-855ece3f0388",
+        "name": "Fire-Rim Form",
+        "weight": 1
+      },
+      {
+        "uuid": "1e4a898c-eb1d-56cc-8f55-46ac93efcb43",
+        "name": "Delta Bloodflies",
+        "weight": 1
+      },
+      {
+        "uuid": "220afd9d-cbb5-5e56-8f58-cedde65bed6f",
+        "name": "Snakeskin Veil",
+        "weight": 1
+      },
+      {
+        "uuid": "28943f30-e152-53f4-83d8-d370c4684837",
+        "name": "Kin-Tree Nurturer",
+        "weight": 1
+      },
+      {
+        "uuid": "2925f044-bca0-5bb2-a342-b3a70d7ff41c",
+        "name": "Mardu Devotee",
+        "weight": 1
+      },
+      {
+        "uuid": "2aeff58b-6d33-5faf-8941-c778c073e8df",
+        "name": "Osseous Exhale",
+        "weight": 1
+      },
+      {
+        "uuid": "2e3b9f6b-f1de-5d43-ae9a-8d87f9c88b9b",
+        "name": "Riling Dawnbreaker",
+        "weight": 1
+      },
+      {
+        "uuid": "32283932-026d-5cbb-aec6-10c6e91e0f19",
+        "name": "Champion of Dusan",
+        "weight": 1
+      },
+      {
+        "uuid": "33af6e3b-1dfd-513b-8ca1-1567740a6d7e",
+        "name": "Reigning Victor",
+        "weight": 1
+      },
+      {
+        "uuid": "33da33e2-ff60-5206-97af-b5a0241b2fe0",
+        "name": "Ringing Strike Mastery",
+        "weight": 1
+      },
+      {
+        "uuid": "363e307a-d1a6-5812-823d-6cc70273be10",
+        "name": "Worthy Cost",
+        "weight": 1
+      },
+      {
+        "uuid": "3768817d-2372-5cb6-8a90-b29ed03701ce",
+        "name": "Poised Practitioner",
+        "weight": 1
+      },
+      {
+        "uuid": "3b7bb38b-aa77-5ea3-a0ed-58eaae48dd64",
+        "name": "Jade-Cast Sentinel",
+        "weight": 1
+      },
+      {
+        "uuid": "3d811e19-2b06-538f-89c9-042769ea7bcd",
+        "name": "Roamer's Routine",
+        "weight": 1
+      },
+      {
+        "uuid": "3db33e63-601d-55c4-b465-e9c6c1e53e1e",
+        "name": "Unending Whisper",
+        "weight": 1
+      },
+      {
+        "uuid": "3de37533-6d41-551e-a35c-d88603fa878d",
+        "name": "Snowmelt Stag",
+        "weight": 1
+      },
+      {
+        "uuid": "3e18f169-8d68-518c-baab-2e0ca8551b89",
+        "name": "Tempest Hawk",
+        "weight": 1
+      },
+      {
+        "uuid": "3ef6f351-6508-5897-9d63-4a56b550ceb4",
+        "name": "Abzan Devotee",
+        "weight": 1
+      },
+      {
+        "uuid": "44cb3635-ead0-555b-92a7-8aa58ea84507",
+        "name": "Rescue Leopard",
+        "weight": 1
+      },
+      {
+        "uuid": "46992657-f172-5163-a420-6dbd1bf403df",
+        "name": "Bearer of Glory",
+        "weight": 1
+      },
+      {
+        "uuid": "47469a54-6b24-5e17-ba92-61f4fd69dce2",
+        "name": "Temur Tawnyback",
+        "weight": 1
+      },
+      {
+        "uuid": "48a54fcc-7517-5fae-b18d-e99aaffd1eb4",
+        "name": "Sultai Devotee",
+        "weight": 1
+      },
+      {
+        "uuid": "495ccff1-2d1c-58cb-a177-f5fb843270ad",
+        "name": "Reputable Merchant",
+        "weight": 1
+      },
+      {
+        "uuid": "4b9d9df0-d051-5111-9604-e89c265bc585",
+        "name": "Piercing Exhale",
+        "weight": 1
+      },
+      {
+        "uuid": "4cf6f52f-734d-562f-99f2-dcd4dbc31557",
+        "name": "Humbling Elder",
+        "weight": 1
+      },
+      {
+        "uuid": "4d3597fb-92c7-5a6e-a684-1e647019e3a8",
+        "name": "Sibsig Appraiser",
+        "weight": 1
+      },
+      {
+        "uuid": "4db22f04-9204-590f-9f1e-6702f01ef8f1",
+        "name": "Jeskai Devotee",
+        "weight": 1
+      },
+      {
+        "uuid": "4dd1a262-3f7d-5598-bdf3-c09043064ffa",
+        "name": "Sandskitter Outrider",
+        "weight": 1
+      },
+      {
+        "uuid": "51ee683d-554a-5e04-b613-9d4385ad9535",
+        "name": "Krotiq Nestguard",
+        "weight": 1
+      },
+      {
+        "uuid": "5299374a-390d-5ada-a285-d25178b85062",
+        "name": "Iceridge Serpent",
+        "weight": 1
+      },
+      {
+        "uuid": "532f9a7d-25f1-5ea3-aa86-b8ccb35811ab",
+        "name": "Heritage Reclamation",
+        "weight": 1
+      },
+      {
+        "uuid": "5726bb05-ea3c-5714-99f8-a009e50c27e7",
+        "name": "Evolving Wilds",
+        "weight": 1
+      },
+      {
+        "uuid": "58083b32-90ea-5c18-b8f7-6f22308f578a",
+        "name": "Shock Brigade",
+        "weight": 1
+      },
+      {
+        "uuid": "5897a44b-b2c0-5e6d-b3ca-e15c926852fb",
+        "name": "Caustic Exhale",
+        "weight": 1
+      },
+      {
+        "uuid": "5a1e59f8-b2ba-5bb8-873c-d9bf96758acf",
+        "name": "Sagu Wildling",
+        "weight": 1
+      },
+      {
+        "uuid": "5cc57a65-08d3-5816-9408-10fffb64e1cc",
+        "name": "Trade Route Envoy",
+        "weight": 1
+      },
+      {
+        "uuid": "5ce9463f-21d2-5fd3-b84c-2157b301bfec",
+        "name": "Dispelling Exhale",
+        "weight": 1
+      },
+      {
+        "uuid": "5e2a5ac0-b602-58cd-8f06-ff4e75efbdaf",
+        "name": "Aggressive Negotiations",
+        "weight": 1
+      },
+      {
+        "uuid": "5e66aa98-36e0-5c51-b5f6-1ae98b07a30e",
+        "name": "Wild Ride",
+        "weight": 1
+      },
+      {
+        "uuid": "62d2d50b-77ba-5cca-9558-5c5ec1c9e3d4",
+        "name": "Stormshriek Feral",
+        "weight": 1
+      },
+      {
+        "uuid": "66054d69-242f-502d-bc77-f780b6a8d13d",
+        "name": "Monastery Messenger",
+        "weight": 1
+      },
+      {
+        "uuid": "694dd7d6-68c3-5ff4-a95b-daf91496a2fd",
+        "name": "Narset's Rebuke",
+        "weight": 1
+      },
+      {
+        "uuid": "7301b2f7-461c-57e2-9ecb-895f6f1bb8fa",
+        "name": "Watcher of the Wayside",
+        "weight": 1
+      },
+      {
+        "uuid": "7327d54b-3567-5419-911b-2097de8f779a",
+        "name": "Agent of Kotis",
+        "weight": 1
+      },
+      {
+        "uuid": "7ada5b5a-1f3a-5beb-b086-4bfddfa0e3ea",
+        "name": "Sagu Pummeler",
+        "weight": 1
+      },
+      {
+        "uuid": "7fb4b23d-c157-5a10-bd3b-c0e37cd2ee0e",
+        "name": "Dirgur Island Dragon",
+        "weight": 1
+      },
+      {
+        "uuid": "8ce55b02-57d2-5f8b-b9fc-62d59cc373a4",
+        "name": "Adorned Crocodile",
+        "weight": 1
+      },
+      {
+        "uuid": "8fe74dbd-e5a3-563c-a2f0-a88a6e1139c2",
+        "name": "Rebellious Strike",
+        "weight": 1
+      },
+      {
+        "uuid": "900cac44-2838-54bd-a05f-55b123f2093d",
+        "name": "Dragon's Prey",
+        "weight": 1
+      },
+      {
+        "uuid": "9265667c-9d77-5f33-a70f-a070db00a117",
+        "name": "Twin Bolt",
+        "weight": 1
+      },
+      {
+        "uuid": "926b2054-5a1e-54e3-8fb9-feea8c6cde33",
+        "name": "Arashin Sunshield",
+        "weight": 1
+      },
+      {
+        "uuid": "99d25e00-84b8-5fc2-9bac-342c8f512f35",
+        "name": "Embermouth Sentinel",
+        "weight": 1
+      },
+      {
+        "uuid": "9e49031e-4985-5494-abb4-e322feec7c73",
+        "name": "Summit Intimidator",
+        "weight": 1
+      },
+      {
+        "uuid": "a120f078-8422-5c90-b484-5287c4ad403c",
+        "name": "Nightblade Brigade",
+        "weight": 1
+      },
+      {
+        "uuid": "a2951dcd-2e13-5d6c-99a9-29003cc65087",
+        "name": "Cruel Truths",
+        "weight": 1
+      },
+      {
+        "uuid": "a56be8e0-36c9-5c52-857c-3183073126b9",
+        "name": "Coordinated Maneuver",
+        "weight": 1
+      },
+      {
+        "uuid": "a81cb159-e6dd-576d-aacb-e672054798b4",
+        "name": "Ainok Wayfarer",
+        "weight": 1
+      },
+      {
+        "uuid": "a8eb6e61-1382-51eb-b064-76ab52579b92",
+        "name": "Stormplain Detainment",
+        "weight": 1
+      },
+      {
+        "uuid": "ad93fbdf-f66b-5566-9d1b-172a091b876d",
+        "name": "Seize Opportunity",
+        "weight": 1
+      },
+      {
+        "uuid": "b11a6f7f-5a67-50ca-b3ac-5836e92f25bc",
+        "name": "Wingspan Stride",
+        "weight": 1
+      },
+      {
+        "uuid": "b2bbcbbd-6695-5c01-9b4f-408c0d5d880c",
+        "name": "Feral Deathgorger",
+        "weight": 1
+      },
+      {
+        "uuid": "b569148b-9f90-5529-aaf4-b75719e8a227",
+        "name": "Lightfoot Technique",
+        "weight": 1
+      },
+      {
+        "uuid": "ba163ee9-1825-51ab-9cd1-dda5d9788e4e",
+        "name": "Salt Road Packbeast",
+        "weight": 1
+      },
+      {
+        "uuid": "bd3efd17-1da9-5609-9c34-00fae8138145",
+        "name": "Riverwalk Technique",
+        "weight": 1
+      },
+      {
+        "uuid": "c0f3427e-19ca-5a33-81c0-127db358fd84",
+        "name": "Sarkhan's Resolve",
+        "weight": 1
+      },
+      {
+        "uuid": "c23b0e78-2752-5e1c-bbe8-781651b7157a",
+        "name": "Boulderborn Dragon",
+        "weight": 1
+      },
+      {
+        "uuid": "c25c5b87-ec93-5767-a8e3-9a9d3e40521b",
+        "name": "Gurmag Nightwatch",
+        "weight": 1
+      },
+      {
+        "uuid": "c3576a11-5eeb-58fd-b362-9a52682c3835",
+        "name": "Dragonstorm Globe",
+        "weight": 1
+      },
+      {
+        "uuid": "cf7aa213-1bcd-592d-8207-eb55fb8ee3af",
+        "name": "Underfoot Underdogs",
+        "weight": 1
+      },
+      {
+        "uuid": "d0c0963b-1c1c-57bd-9dd1-1c3c44c56ff3",
+        "name": "Temur Devotee",
+        "weight": 1
+      },
+      {
+        "uuid": "d98af773-ed46-5b78-8f36-cf9cddcbeafe",
+        "name": "Unburied Earthcarver",
+        "weight": 1
+      },
+      {
+        "uuid": "dd0cb2f7-d303-54e5-b78b-95f9ad6bd31b",
+        "name": "Fortress Kin-Guard",
+        "weight": 1
+      },
+      {
+        "uuid": "df234add-39ff-5e67-b013-3ac29eb57150",
+        "name": "Highspire Bell-Ringer",
+        "weight": 1
+      },
+      {
+        "uuid": "df6caa4f-d16e-5115-9ea5-11962a8b64cd",
+        "name": "Molten Exhale",
+        "weight": 1
+      },
+      {
+        "uuid": "e77b3601-57bf-5e9f-a6d5-93d3e8d2ea76",
+        "name": "Devoted Duelist",
+        "weight": 1
+      },
+      {
+        "uuid": "f3be5f9d-3487-52e1-8a60-26d1dea58930",
+        "name": "Undergrowth Leopard",
+        "weight": 1
+      },
+      {
+        "uuid": "f46400e2-8d3f-5720-87b5-83e25aa88163",
+        "name": "Alesha's Legacy",
+        "weight": 1
+      },
+      {
+        "uuid": "ff94af76-5353-599a-9a44-886a205cec62",
+        "name": "Meticulous Artisan",
+        "weight": 1
+      }
+    ]
+  },
+  "foilReplacement": {
+    "cards": [
+      {
+        "uuid": "0076c28f-c93d-56ae-aee7-13c325f7f52b",
+        "name": "Nomad Outpost",
+        "weight": 62937
+      },
+      {
+        "uuid": "00d93aa3-4e25-5022-82f8-65a542efd0f3",
+        "name": "Corroding Dragonstorm",
+        "weight": 62937
+      },
+      {
+        "uuid": "00ddf81f-e719-5099-9a97-7142885c2c4c",
+        "name": "Glacierwood Siege",
+        "weight": 21330
+      },
+      {
+        "uuid": "0109de79-a881-5811-8660-dfdf308024a2",
+        "name": "Sandsteppe Citadel",
+        "weight": 62937
+      },
+      {
+        "uuid": "016939df-525f-58dc-85e1-3edf49a5cb6a",
+        "name": "Focus the Mind",
+        "weight": 137200
+      },
+      {
+        "uuid": "03016f67-fe67-5325-a191-9f06196371c0",
+        "name": "Cori Mountain Stalwart",
+        "weight": 62937
+      },
+      {
+        "uuid": "03619678-7720-578e-b980-96beb524ced1",
+        "name": "Dusyut Earthcarver",
+        "weight": 137200
+      },
+      {
+        "uuid": "039a562e-68c0-57cf-85e7-087da1bd11fa",
+        "name": "Severance Priest",
+        "weight": 21330
+      },
+      {
+        "uuid": "0663aff5-789c-5dac-90a7-281f3859efcd",
+        "name": "Roiling Dragonstorm",
+        "weight": 62937
+      },
+      {
+        "uuid": "0860270f-fa0b-535d-96b4-a375cca0ec72",
+        "name": "Awaken the Honored Dead",
+        "weight": 21330
+      },
+      {
+        "uuid": "09ad11fa-bec7-59e0-8cbc-f5caf65800ad",
+        "name": "Spectral Denial",
+        "weight": 62937
+      },
+      {
+        "uuid": "09d44499-6796-5ff1-9aa5-f9517ea63776",
+        "name": "Dragonbroods' Relic",
+        "weight": 62937
+      },
+      {
+        "uuid": "0bb61288-bcc4-56fe-8eb5-a6cc401aeb26",
+        "name": "Mox Jasper",
+        "weight": 10665
+      },
+      {
+        "uuid": "0bd1269f-ac1b-536b-9f98-ec32bc8e0634",
+        "name": "Channeled Dragonfire",
+        "weight": 62937
+      },
+      {
+        "uuid": "0cb54f9b-069c-527d-8692-fd98150ff73b",
+        "name": "Ambling Stormshell",
+        "weight": 21330
+      },
+      {
+        "uuid": "0d0c0f15-2645-50a6-94a0-3c345b34988b",
+        "name": "Dragonback Lancer",
+        "weight": 137200
+      },
+      {
+        "uuid": "0f552c64-f190-5137-b416-b310ceee037c",
+        "name": "Alchemist's Assistant",
+        "weight": 62937
+      },
+      {
+        "uuid": "0fbc403f-68e0-5e40-8263-6a7cdb8aaac1",
+        "name": "War Effort",
+        "weight": 62937
+      },
+      {
+        "uuid": "1007ad24-7288-5165-a8a0-19d983ae9eaa",
+        "name": "Iridescent Tiger",
+        "weight": 62937
+      },
+      {
+        "uuid": "1136f4f6-05df-5a33-a630-0804a1d6f095",
+        "name": "Static Snare",
+        "weight": 62937
+      },
+      {
+        "uuid": "11580597-fe19-520c-bcde-61cd9d1a675a",
+        "name": "Winternight Stories",
+        "weight": 21330
+      },
+      {
+        "uuid": "11e44f82-3bca-5345-bf0a-dee2588c6c90",
+        "name": "Kheru Goldkeeper",
+        "weight": 62937
+      },
+      {
+        "uuid": "157e74d0-355b-5ad1-a64e-74db2f104497",
+        "name": "Temur Monument",
+        "weight": 62937
+      },
+      {
+        "uuid": "16fa0b8c-ad66-5fae-a10e-f721fec79d01",
+        "name": "Frontier Bivouac",
+        "weight": 62937
+      },
+      {
+        "uuid": "188a5a74-a4bb-5f69-a54f-d6386db0b1d7",
+        "name": "Kotis, the Fangkeeper",
+        "weight": 21330
+      },
+      {
+        "uuid": "19ae21a6-f2d5-5627-b3bc-da5e6d9c628f",
+        "name": "Warden of the Grove",
+        "weight": 21330
+      },
+      {
+        "uuid": "1e058df0-8555-5e70-8ab3-855ece3f0388",
+        "name": "Fire-Rim Form",
+        "weight": 137200
+      },
+      {
+        "uuid": "1e071805-cd26-5a7e-a882-535e5d67fd12",
+        "name": "Teval, Arbiter of Virtue",
+        "weight": 10665
+      },
+      {
+        "uuid": "1e4a898c-eb1d-56cc-8f55-46ac93efcb43",
+        "name": "Delta Bloodflies",
+        "weight": 137200
+      },
+      {
+        "uuid": "20e9643e-2123-573a-84e0-bc4b69516901",
+        "name": "Venerated Stormsinger",
+        "weight": 62937
+      },
+      {
+        "uuid": "220afd9d-cbb5-5e56-8f58-cedde65bed6f",
+        "name": "Snakeskin Veil",
+        "weight": 137200
+      },
+      {
+        "uuid": "22234ee0-03f6-583f-8841-26872116c3aa",
+        "name": "Death Begets Life",
+        "weight": 10665
+      },
+      {
+        "uuid": "22247f86-2612-5cea-81d7-8bf7a1c00b50",
+        "name": "Naga Fleshcrafter",
+        "weight": 21330
+      },
+      {
+        "uuid": "22e8c995-d185-5f9f-84cf-a7e799daeeda",
+        "name": "Ugin, Eye of the Storms",
+        "weight": 10665
+      },
+      {
+        "uuid": "279ebff6-f9dd-5920-a886-6d6f241a0640",
+        "name": "Great Arashin City",
+        "weight": 21330
+      },
+      {
+        "uuid": "28943f30-e152-53f4-83d8-d370c4684837",
+        "name": "Kin-Tree Nurturer",
+        "weight": 137200
+      },
+      {
+        "uuid": "2925f044-bca0-5bb2-a342-b3a70d7ff41c",
+        "name": "Mardu Devotee",
+        "weight": 137200
+      },
+      {
+        "uuid": "2aeff58b-6d33-5faf-8941-c778c073e8df",
+        "name": "Osseous Exhale",
+        "weight": 137200
+      },
+      {
+        "uuid": "2af0e309-78f9-563b-9f11-234f5eee67a5",
+        "name": "Unsparing Boltcaster",
+        "weight": 62937
+      },
+      {
+        "uuid": "2e3b9f6b-f1de-5d43-ae9a-8d87f9c88b9b",
+        "name": "Riling Dawnbreaker",
+        "weight": 137200
+      },
+      {
+        "uuid": "2fdfc097-97e4-5610-a7d3-53f8194596f3",
+        "name": "Stalwart Successor",
+        "weight": 62937
+      },
+      {
+        "uuid": "309fef85-6d9b-5234-8651-1e4c5c9c2e50",
+        "name": "Nature's Rhythm",
+        "weight": 21330
+      },
+      {
+        "uuid": "30fb18af-7adc-54ad-b9fc-f003866f9759",
+        "name": "Marshal of the Lost",
+        "weight": 62937
+      },
+      {
+        "uuid": "32283932-026d-5cbb-aec6-10c6e91e0f19",
+        "name": "Champion of Dusan",
+        "weight": 137200
+      },
+      {
+        "uuid": "3354a9f8-1df3-552c-aae6-03fc9c219c24",
+        "name": "New Way Forward",
+        "weight": 21330
+      },
+      {
+        "uuid": "3375afd5-0239-57c6-a685-14608fd96d60",
+        "name": "Stormbeacon Blade",
+        "weight": 62937
+      },
+      {
+        "uuid": "3377808a-5028-5425-a1b5-f21bebf92a24",
+        "name": "Overwhelming Surge",
+        "weight": 62937
+      },
+      {
+        "uuid": "33af6e3b-1dfd-513b-8ca1-1567740a6d7e",
+        "name": "Reigning Victor",
+        "weight": 137200
+      },
+      {
+        "uuid": "33d8cac4-f528-59cf-8fe6-d2411629915e",
+        "name": "Jeskai Shrinekeeper",
+        "weight": 62937
+      },
+      {
+        "uuid": "33da33e2-ff60-5206-97af-b5a0241b2fe0",
+        "name": "Ringing Strike Mastery",
+        "weight": 137200
+      },
+      {
+        "uuid": "35630003-15d5-5c62-8936-13dbd9f1aede",
+        "name": "Tersa Lightshatter",
+        "weight": 21330
+      },
+      {
+        "uuid": "35e9c2d7-1656-5560-a370-840c0a11a662",
+        "name": "Knockout Maneuver",
+        "weight": 62937
+      },
+      {
+        "uuid": "363e307a-d1a6-5812-823d-6cc70273be10",
+        "name": "Worthy Cost",
+        "weight": 137200
+      },
+      {
+        "uuid": "3768817d-2372-5cb6-8a90-b29ed03701ce",
+        "name": "Poised Practitioner",
+        "weight": 137200
+      },
+      {
+        "uuid": "3b7bb38b-aa77-5ea3-a0ed-58eaae48dd64",
+        "name": "Jade-Cast Sentinel",
+        "weight": 137200
+      },
+      {
+        "uuid": "3c9634a4-1105-5360-b8cc-2499fd66b3d2",
+        "name": "Sunset Strikemaster",
+        "weight": 62937
+      },
+      {
+        "uuid": "3d811e19-2b06-538f-89c9-042769ea7bcd",
+        "name": "Roamer's Routine",
+        "weight": 137200
+      },
+      {
+        "uuid": "3d9fc7ef-55d6-575e-a1c9-c5117c919e4b",
+        "name": "Surrak, Elusive Hunter",
+        "weight": 21330
+      },
+      {
+        "uuid": "3db33e63-601d-55c4-b465-e9c6c1e53e1e",
+        "name": "Unending Whisper",
+        "weight": 137200
+      },
+      {
+        "uuid": "3de37533-6d41-551e-a35c-d88603fa878d",
+        "name": "Snowmelt Stag",
+        "weight": 137200
+      },
+      {
+        "uuid": "3e18f169-8d68-518c-baab-2e0ca8551b89",
+        "name": "Tempest Hawk",
+        "weight": 137200
+      },
+      {
+        "uuid": "3ef6f351-6508-5897-9d63-4a56b550ceb4",
+        "name": "Abzan Devotee",
+        "weight": 137200
+      },
+      {
+        "uuid": "406e79eb-3cc1-54ae-b74c-0745c96243cf",
+        "name": "Teeming Dragonstorm",
+        "weight": 62937
+      },
+      {
+        "uuid": "41920764-c3e0-5b52-a580-9709b5310d4c",
+        "name": "Perennation",
+        "weight": 10665
+      },
+      {
+        "uuid": "42fe6060-40d9-5ba9-9d2f-1881805ce2d9",
+        "name": "Reverberating Summons",
+        "weight": 62937
+      },
+      {
+        "uuid": "43417fc1-214a-5280-a1f9-757f3d65d4cc",
+        "name": "Lasyd Prowler",
+        "weight": 21330
+      },
+      {
+        "uuid": "43cf017c-d0e9-5310-bb84-bb560b4611c3",
+        "name": "Jeskai Monument",
+        "weight": 62937
+      },
+      {
+        "uuid": "4408b2a5-ea1a-5a22-930a-2088bfc5e5e5",
+        "name": "Cori Mountain Monastery",
+        "weight": 21330
+      },
+      {
+        "uuid": "44cb3635-ead0-555b-92a7-8aa58ea84507",
+        "name": "Rescue Leopard",
+        "weight": 137200
+      },
+      {
+        "uuid": "4682ecf2-2723-57d4-b2b8-6751f7ee3486",
+        "name": "Hollowmurk Siege",
+        "weight": 21330
+      },
+      {
+        "uuid": "46992657-f172-5163-a420-6dbd1bf403df",
+        "name": "Bearer of Glory",
+        "weight": 137200
+      },
+      {
+        "uuid": "47366dca-0ac2-5560-93f1-f4901d8d3025",
+        "name": "Windcrag Siege",
+        "weight": 21330
+      },
+      {
+        "uuid": "47469a54-6b24-5e17-ba92-61f4fd69dce2",
+        "name": "Temur Tawnyback",
+        "weight": 137200
+      },
+      {
+        "uuid": "474cb907-f981-581a-a9f1-1dfe325e141f",
+        "name": "Sunpearl Kirin",
+        "weight": 62937
+      },
+      {
+        "uuid": "47c93168-0e06-56c6-ba1d-501cd4687ac0",
+        "name": "Aegis Sculptor",
+        "weight": 62937
+      },
+      {
+        "uuid": "48a54fcc-7517-5fae-b18d-e99aaffd1eb4",
+        "name": "Sultai Devotee",
+        "weight": 137200
+      },
+      {
+        "uuid": "495ccff1-2d1c-58cb-a177-f5fb843270ad",
+        "name": "Reputable Merchant",
+        "weight": 137200
+      },
+      {
+        "uuid": "49fc65ab-f09a-5a9a-b550-f8fde7ac1b5e",
+        "name": "Elspeth, Storm Slayer",
+        "weight": 10665
+      },
+      {
+        "uuid": "4a71a68d-061a-5faf-945a-046bdf43bbfd",
+        "name": "Runescale Stormbrood",
+        "weight": 62937
+      },
+      {
+        "uuid": "4ad174ae-4315-5257-80de-fd571027a770",
+        "name": "Smile at Death",
+        "weight": 10665
+      },
+      {
+        "uuid": "4af6371b-944b-598e-89e0-265bca597d26",
+        "name": "Bloomvine Regent",
+        "weight": 21330
+      },
+      {
+        "uuid": "4b5578c9-d5f6-50a9-8c9f-d8bc4cd0af7b",
+        "name": "Strategic Betrayal",
+        "weight": 62937
+      },
+      {
+        "uuid": "4b9d9df0-d051-5111-9604-e89c265bc585",
+        "name": "Piercing Exhale",
+        "weight": 137200
+      },
+      {
+        "uuid": "4bb854ef-2423-53c6-a556-e9107053a816",
+        "name": "Veteran Ice Climber",
+        "weight": 62937
+      },
+      {
+        "uuid": "4cf6f52f-734d-562f-99f2-dcd4dbc31557",
+        "name": "Humbling Elder",
+        "weight": 137200
+      },
+      {
+        "uuid": "4d3597fb-92c7-5a6e-a684-1e647019e3a8",
+        "name": "Sibsig Appraiser",
+        "weight": 137200
+      },
+      {
+        "uuid": "4d83e66d-0c88-5331-9d1f-25e33333bba0",
+        "name": "Breaching Dragonstorm",
+        "weight": 62937
+      },
+      {
+        "uuid": "4dab92ca-65dd-540b-bf3c-070d2b8c376b",
+        "name": "Encroaching Dragonstorm",
+        "weight": 62937
+      },
+      {
+        "uuid": "4db22f04-9204-590f-9f1e-6702f01ef8f1",
+        "name": "Jeskai Devotee",
+        "weight": 137200
+      },
+      {
+        "uuid": "4dd1a262-3f7d-5598-bdf3-c09043064ffa",
+        "name": "Sandskitter Outrider",
+        "weight": 137200
+      },
+      {
+        "uuid": "51c8c874-9bfa-5af6-8570-b6ab9d63ba2a",
+        "name": "Dracogenesis",
+        "weight": 10665
+      },
+      {
+        "uuid": "51cb9979-cd26-5e6a-8aa7-bd9cb0a827e5",
+        "name": "Dragonfire Blade",
+        "weight": 21330
+      },
+      {
+        "uuid": "51ee683d-554a-5e04-b613-9d4385ad9535",
+        "name": "Krotiq Nestguard",
+        "weight": 137200
+      },
+      {
+        "uuid": "5299374a-390d-5ada-a285-d25178b85062",
+        "name": "Iceridge Serpent",
+        "weight": 137200
+      },
+      {
+        "uuid": "532f9a7d-25f1-5ea3-aa86-b8ccb35811ab",
+        "name": "Heritage Reclamation",
+        "weight": 137200
+      },
+      {
+        "uuid": "534555e9-9c0a-5e87-87cc-e2bffc8055ec",
+        "name": "Ureni's Rebuff",
+        "weight": 62937
+      },
+      {
+        "uuid": "545d78ef-9ec5-5c45-a2d2-71861696851a",
+        "name": "Eshki Dragonclaw",
+        "weight": 21330
+      },
+      {
+        "uuid": "547f3d1d-261a-5450-abc2-7a86dd7f54b2",
+        "name": "Lotuslight Dancers",
+        "weight": 21330
+      },
+      {
+        "uuid": "54cbdf55-0815-5111-ae57-989521583726",
+        "name": "Avenger of the Fallen",
+        "weight": 21330
+      },
+      {
+        "uuid": "5726bb05-ea3c-5714-99f8-a009e50c27e7",
+        "name": "Evolving Wilds",
+        "weight": 137200
+      },
+      {
+        "uuid": "575ba3a6-243d-5380-ab73-f15049bc6fa1",
+        "name": "Inspirited Vanguard",
+        "weight": 62937
+      },
+      {
+        "uuid": "58083b32-90ea-5c18-b8f7-6f22308f578a",
+        "name": "Shock Brigade",
+        "weight": 137200
+      },
+      {
+        "uuid": "587123ed-943a-55df-9762-f193411edc53",
+        "name": "Sultai Monument",
+        "weight": 62937
+      },
+      {
+        "uuid": "5897a44b-b2c0-5e6d-b3ca-e15c926852fb",
+        "name": "Caustic Exhale",
+        "weight": 137200
+      },
+      {
+        "uuid": "59851cfc-f7e6-53aa-9c29-17f414551e67",
+        "name": "Purging Stormbrood",
+        "weight": 62937
+      },
+      {
+        "uuid": "5a1e59f8-b2ba-5bb8-873c-d9bf96758acf",
+        "name": "Sagu Wildling",
+        "weight": 137200
+      },
+      {
+        "uuid": "5c2a2488-b663-5fbc-9ae8-b60cbbe8c169",
+        "name": "Songcrafter Mage",
+        "weight": 21330
+      },
+      {
+        "uuid": "5cc57a65-08d3-5816-9408-10fffb64e1cc",
+        "name": "Trade Route Envoy",
+        "weight": 137200
+      },
+      {
+        "uuid": "5ce9463f-21d2-5fd3-b84c-2157b301bfec",
+        "name": "Dispelling Exhale",
+        "weight": 137200
+      },
+      {
+        "uuid": "5e2a5ac0-b602-58cd-8f06-ff4e75efbdaf",
+        "name": "Aggressive Negotiations",
+        "weight": 137200
+      },
+      {
+        "uuid": "5e66aa98-36e0-5c51-b5f6-1ae98b07a30e",
+        "name": "Wild Ride",
+        "weight": 137200
+      },
+      {
+        "uuid": "5eb5434e-6367-5549-ba1d-288621e8c10b",
+        "name": "Maelstrom of the Spirit Dragon",
+        "weight": 21330
+      },
+      {
+        "uuid": "5fd67db4-87e9-5c6c-8a06-6feddd08fca9",
+        "name": "Dragonologist",
+        "weight": 21330
+      },
+      {
+        "uuid": "62538893-cd6a-53a7-b0a8-c5ad1d6ef70a",
+        "name": "Duty Beyond Death",
+        "weight": 62937
+      },
+      {
+        "uuid": "62d2d50b-77ba-5cca-9558-5c5ec1c9e3d4",
+        "name": "Stormshriek Feral",
+        "weight": 137200
+      },
+      {
+        "uuid": "65c1fb47-dcd9-5c1f-8e49-1aa6ddb0a06d",
+        "name": "Flamehold Grappler",
+        "weight": 21330
+      },
+      {
+        "uuid": "66054d69-242f-502d-bc77-f780b6a8d13d",
+        "name": "Monastery Messenger",
+        "weight": 137200
+      },
+      {
+        "uuid": "67332abb-86e6-5b9e-8004-029166f90930",
+        "name": "Loxodon Battle Priest",
+        "weight": 62937
+      },
+      {
+        "uuid": "67875c08-75fd-51db-b288-149f7a894441",
+        "name": "Inevitable Defeat",
+        "weight": 21330
+      },
+      {
+        "uuid": "694dd7d6-68c3-5ff4-a95b-daf91496a2fd",
+        "name": "Narset's Rebuke",
+        "weight": 137200
+      },
+      {
+        "uuid": "69b8d250-ceaa-5702-b7cb-4565800ef102",
+        "name": "Sonic Shrieker",
+        "weight": 62937
+      },
+      {
+        "uuid": "6b914eca-41af-5ecb-8573-f214e584e6a1",
+        "name": "Fresh Start",
+        "weight": 62937
+      },
+      {
+        "uuid": "6dc09ffa-7a9b-5110-890b-7352b5bdf8b6",
+        "name": "Betor, Kin to All",
+        "weight": 10665
+      },
+      {
+        "uuid": "6e332de8-7b67-50e2-bcc0-33f5ae816ebd",
+        "name": "Kin-Tree Severance",
+        "weight": 62937
+      },
+      {
+        "uuid": "6ec5cd9b-aea6-54f0-8332-bc71ff98f5bb",
+        "name": "Craterhoof Behemoth",
+        "weight": 10665
+      },
+      {
+        "uuid": "6ecbb40f-83c3-5b74-be2b-fd3d1043e862",
+        "name": "Rediscover the Way",
+        "weight": 21330
+      },
+      {
+        "uuid": "6fa6dc8b-9935-50dc-8eb5-ca1edd39892c",
+        "name": "Kishla Village",
+        "weight": 21330
+      },
+      {
+        "uuid": "70c7b210-fc7f-5f73-83fd-458813deceee",
+        "name": "Fangkeeper's Familiar",
+        "weight": 21330
+      },
+      {
+        "uuid": "7103934d-6cff-5c0c-8a80-f0617c47a3a2",
+        "name": "Zurgo's Vanguard",
+        "weight": 62937
+      },
+      {
+        "uuid": "71247423-507b-5a6a-b29d-1d0e33e54d8c",
+        "name": "Essence Anchor",
+        "weight": 62937
+      },
+      {
+        "uuid": "71b4fc95-7bf8-5ab7-9a42-88048c9c4ba3",
+        "name": "Formation Breaker",
+        "weight": 62937
+      },
+      {
+        "uuid": "7301b2f7-461c-57e2-9ecb-895f6f1bb8fa",
+        "name": "Watcher of the Wayside",
+        "weight": 137200
+      },
+      {
+        "uuid": "7327d54b-3567-5419-911b-2097de8f779a",
+        "name": "Agent of Kotis",
+        "weight": 137200
+      },
+      {
+        "uuid": "760e6b1a-c1c9-5f1a-be46-a1fb6b85245b",
+        "name": "Anafenza, Unyielding Lineage",
+        "weight": 21330
+      },
+      {
+        "uuid": "76bdf413-e394-57ef-8eac-287016377485",
+        "name": "Herd Heirloom",
+        "weight": 21330
+      },
+      {
+        "uuid": "7703e3b6-8694-53fb-8e63-e17649e610b0",
+        "name": "Mistrise Village",
+        "weight": 21330
+      },
+      {
+        "uuid": "79d1d88e-a603-5f4f-a399-709a97289ae3",
+        "name": "Attuned Hunter",
+        "weight": 62937
+      },
+      {
+        "uuid": "79dfdc0b-b3fb-50d6-ad83-56aa0d61cd82",
+        "name": "Glacial Dragonhunt",
+        "weight": 62937
+      },
+      {
+        "uuid": "7ada5b5a-1f3a-5beb-b086-4bfddfa0e3ea",
+        "name": "Sagu Pummeler",
+        "weight": 137200
+      },
+      {
+        "uuid": "7cb21941-9187-52f7-9859-acf604a59373",
+        "name": "Narset, Jeskai Waymaster",
+        "weight": 21330
+      },
+      {
+        "uuid": "7d03cb0a-9c6e-5514-830b-4f7bc526c202",
+        "name": "Hardened Tactician",
+        "weight": 62937
+      },
+      {
+        "uuid": "7fb4b23d-c157-5a10-bd3b-c0e37cd2ee0e",
+        "name": "Dirgur Island Dragon",
+        "weight": 137200
+      },
+      {
+        "uuid": "8093c4a6-1844-5d2b-9a98-b0e0884701bb",
+        "name": "Stadium Headliner",
+        "weight": 21330
+      },
+      {
+        "uuid": "81702e04-ec5d-51df-9ae1-8edb49ad70df",
+        "name": "Stillness in Motion",
+        "weight": 21330
+      },
+      {
+        "uuid": "82150fed-3464-5f9e-bbab-336685b4540c",
+        "name": "Temur Battlecrier",
+        "weight": 21330
+      },
+      {
+        "uuid": "8345b71c-e5a8-5aa4-8915-e13fddf729b2",
+        "name": "Riverwheel Sweep",
+        "weight": 62937
+      },
+      {
+        "uuid": "845714ec-53bc-57f6-9066-c430842f43c2",
+        "name": "Sidisi, Regent of the Mire",
+        "weight": 21330
+      },
+      {
+        "uuid": "87dfbf12-7a6b-5720-b7b9-ac5826ba4568",
+        "name": "Dragon Sniper",
+        "weight": 62937
+      },
+      {
+        "uuid": "885d1973-b375-577f-a6bf-b7207aae3fe8",
+        "name": "Shiko, Paragon of the Way",
+        "weight": 10665
+      },
+      {
+        "uuid": "8903ebca-b7c9-5e4a-a80f-b840c4f8e22f",
+        "name": "The Sibsig Ceremony",
+        "weight": 21330
+      },
+      {
+        "uuid": "894620e7-f101-5f31-9a07-282a2233b3c7",
+        "name": "Hundred-Battle Veteran",
+        "weight": 62937
+      },
+      {
+        "uuid": "8a3d21cb-9061-5413-ae3c-e5e836359427",
+        "name": "Whirlwing Stormbrood",
+        "weight": 62937
+      },
+      {
+        "uuid": "8cd2944f-9bcf-5fea-870f-b18892ee869a",
+        "name": "Roar of Endless Song",
+        "weight": 21330
+      },
+      {
+        "uuid": "8ce55b02-57d2-5f8b-b9fc-62d59cc373a4",
+        "name": "Adorned Crocodile",
+        "weight": 137200
+      },
+      {
+        "uuid": "8f3d82fa-0978-536f-9b05-71ae9cae1726",
+        "name": "Jeskai Revelation",
+        "weight": 10665
+      },
+      {
+        "uuid": "8fe74dbd-e5a3-563c-a2f0-a88a6e1139c2",
+        "name": "Rebellious Strike",
+        "weight": 137200
+      },
+      {
+        "uuid": "900cac44-2838-54bd-a05f-55b123f2093d",
+        "name": "Dragon's Prey",
+        "weight": 137200
+      },
+      {
+        "uuid": "914298c5-4bfa-55e8-b398-25e109183c2f",
+        "name": "Cori-Steel Cutter",
+        "weight": 21330
+      },
+      {
+        "uuid": "9265667c-9d77-5f33-a70f-a070db00a117",
+        "name": "Twin Bolt",
+        "weight": 137200
+      },
+      {
+        "uuid": "926b2054-5a1e-54e3-8fb9-feea8c6cde33",
+        "name": "Arashin Sunshield",
+        "weight": 137200
+      },
+      {
+        "uuid": "926dfc80-8c5c-5cb2-bf53-18cf2a0bff01",
+        "name": "Marang River Regent",
+        "weight": 21330
+      },
+      {
+        "uuid": "9410b8b5-8f1f-5b9b-a9c3-ba199b8c5f3e",
+        "name": "Barrensteppe Siege",
+        "weight": 21330
+      },
+      {
+        "uuid": "94744d82-42c2-5e0d-a48f-73ea19c4c65a",
+        "name": "Dragonstorm Forecaster",
+        "weight": 62937
+      },
+      {
+        "uuid": "95358c96-720d-52fe-abc6-19cfdd6a943c",
+        "name": "Effortless Master",
+        "weight": 62937
+      },
+      {
+        "uuid": "95a09b28-a742-54e4-822c-9daedb6220e7",
+        "name": "Abzan Monument",
+        "weight": 62937
+      },
+      {
+        "uuid": "9709ca48-4092-5e8b-8e3e-c663bccec9af",
+        "name": "Stormscale Scion",
+        "weight": 10665
+      },
+      {
+        "uuid": "986e3fe2-b49e-5158-8e51-05f6da78ba79",
+        "name": "Voice of Victory",
+        "weight": 21330
+      },
+      {
+        "uuid": "986e47d9-6713-5c38-9adf-2f4629b9c2d9",
+        "name": "Krumar Initiate",
+        "weight": 62937
+      },
+      {
+        "uuid": "9898d496-cd30-5655-a951-b0f8788978e3",
+        "name": "Furious Forebear",
+        "weight": 62937
+      },
+      {
+        "uuid": "989d1917-e3fe-53b2-a4fa-8571dbf5b5bd",
+        "name": "Dragonback Assault",
+        "weight": 10665
+      },
+      {
+        "uuid": "997f1a78-c793-5f29-85be-6a5b3c4bf2e6",
+        "name": "Equilibrium Adept",
+        "weight": 62937
+      },
+      {
+        "uuid": "9982f6ef-e616-5b0d-ba61-7e8d3534c060",
+        "name": "Disruptive Stormbrood",
+        "weight": 62937
+      },
+      {
+        "uuid": "99d25e00-84b8-5fc2-9bac-342c8f512f35",
+        "name": "Embermouth Sentinel",
+        "weight": 137200
+      },
+      {
+        "uuid": "9aeded27-70dd-560c-a5f7-4f8a726630f9",
+        "name": "Sinkhole Surveyor",
+        "weight": 21330
+      },
+      {
+        "uuid": "9de42322-cb51-5a85-a711-766c4039ccdf",
+        "name": "Clarion Conqueror",
+        "weight": 21330
+      },
+      {
+        "uuid": "9e49031e-4985-5494-abb4-e322feec7c73",
+        "name": "Summit Intimidator",
+        "weight": 137200
+      },
+      {
+        "uuid": "a120f078-8422-5c90-b484-5287c4ad403c",
+        "name": "Nightblade Brigade",
+        "weight": 137200
+      },
+      {
+        "uuid": "a2951dcd-2e13-5d6c-99a9-29003cc65087",
+        "name": "Cruel Truths",
+        "weight": 137200
+      },
+      {
+        "uuid": "a496e8ba-a448-58c1-9332-973fd04d7027",
+        "name": "Sarkhan, Dragon Ascendant",
+        "weight": 21330
+      },
+      {
+        "uuid": "a56be8e0-36c9-5c52-857c-3183073126b9",
+        "name": "Coordinated Maneuver",
+        "weight": 137200
+      },
+      {
+        "uuid": "a5f35eb4-bbc3-5098-a5eb-edf804ee2607",
+        "name": "Qarsi Revenant",
+        "weight": 21330
+      },
+      {
+        "uuid": "a7f88b11-1920-5a9b-85bc-2abfa8e0092d",
+        "name": "Wayspeaker Bodyguard",
+        "weight": 62937
+      },
+      {
+        "uuid": "a80842a1-01ba-5d2d-946f-509a5cd7c84f",
+        "name": "Jeskai Brushmaster",
+        "weight": 62937
+      },
+      {
+        "uuid": "a81cb159-e6dd-576d-aacb-e672054798b4",
+        "name": "Ainok Wayfarer",
+        "weight": 137200
+      },
+      {
+        "uuid": "a8eb6e61-1382-51eb-b064-76ab52579b92",
+        "name": "Stormplain Detainment",
+        "weight": 137200
+      },
+      {
+        "uuid": "ac332121-208e-56a7-a086-f7110a62a53e",
+        "name": "Sage of the Skies",
+        "weight": 21330
+      },
+      {
+        "uuid": "ac3dfb86-94c2-58b9-a638-1fe550342653",
+        "name": "Rainveil Rejuvenator",
+        "weight": 62937
+      },
+      {
+        "uuid": "ad93fbdf-f66b-5566-9d1b-172a091b876d",
+        "name": "Seize Opportunity",
+        "weight": 137200
+      },
+      {
+        "uuid": "afa58949-29f5-5e73-a5a1-d725f320dfd2",
+        "name": "Rot-Curse Rakshasa",
+        "weight": 10665
+      },
+      {
+        "uuid": "b055ae1a-0c5e-56ab-87cf-3fcfe637d378",
+        "name": "Bewildering Blizzard",
+        "weight": 62937
+      },
+      {
+        "uuid": "b11a6f7f-5a67-50ca-b3ac-5836e92f25bc",
+        "name": "Wingspan Stride",
+        "weight": 137200
+      },
+      {
+        "uuid": "b13bfeb2-42ab-55d9-9295-cbd7adbf74b0",
+        "name": "Traveling Botanist",
+        "weight": 62937
+      },
+      {
+        "uuid": "b1befaad-d222-520e-aaf8-e284d0535c65",
+        "name": "Yathan Tombguard",
+        "weight": 62937
+      },
+      {
+        "uuid": "b241adf3-0d69-5855-99b9-84e095897fa7",
+        "name": "Auroral Procession",
+        "weight": 62937
+      },
+      {
+        "uuid": "b2bbcbbd-6695-5c01-9b4f-408c0d5d880c",
+        "name": "Feral Deathgorger",
+        "weight": 137200
+      },
+      {
+        "uuid": "b30a3061-ce20-54eb-b25c-7520aa76f8b7",
+        "name": "Scavenger Regent",
+        "weight": 21330
+      },
+      {
+        "uuid": "b39aa61c-7a73-5aad-b0cb-161437f86c10",
+        "name": "Rite of Renewal",
+        "weight": 62937
+      },
+      {
+        "uuid": "b509e306-9b7c-5493-aa45-5225cedf261c",
+        "name": "Thunder of Unity",
+        "weight": 21330
+      },
+      {
+        "uuid": "b569148b-9f90-5529-aaf4-b75719e8a227",
+        "name": "Lightfoot Technique",
+        "weight": 137200
+      },
+      {
+        "uuid": "b886d284-6601-5f4e-9e97-866135215388",
+        "name": "Starry-Eyed Skyrider",
+        "weight": 62937
+      },
+      {
+        "uuid": "ba163ee9-1825-51ab-9cd1-dda5d9788e4e",
+        "name": "Salt Road Packbeast",
+        "weight": 137200
+      },
+      {
+        "uuid": "bc64c117-3407-53e5-972a-37409853e2b2",
+        "name": "Unrooted Ancestor",
+        "weight": 62937
+      },
+      {
+        "uuid": "bd3efd17-1da9-5609-9c34-00fae8138145",
+        "name": "Riverwalk Technique",
+        "weight": 137200
+      },
+      {
+        "uuid": "c0f3427e-19ca-5a33-81c0-127db358fd84",
+        "name": "Sarkhan's Resolve",
+        "weight": 137200
+      },
+      {
+        "uuid": "c1f7ce4c-092d-5d47-8740-bf6357b2f239",
+        "name": "Felothar, Dawn of the Abzan",
+        "weight": 21330
+      },
+      {
+        "uuid": "c23b0e78-2752-5e1c-bbe8-781651b7157a",
+        "name": "Boulderborn Dragon",
+        "weight": 137200
+      },
+      {
+        "uuid": "c25c5b87-ec93-5767-a8e3-9a9d3e40521b",
+        "name": "Gurmag Nightwatch",
+        "weight": 137200
+      },
+      {
+        "uuid": "c3576a11-5eeb-58fd-b362-9a52682c3835",
+        "name": "Dragonstorm Globe",
+        "weight": 137200
+      },
+      {
+        "uuid": "c38a53e5-62b6-5a9d-b438-bcecde7ec4b8",
+        "name": "Wail of War",
+        "weight": 62937
+      },
+      {
+        "uuid": "c3d81c5f-7b82-57bd-bc32-6ab0ad13f467",
+        "name": "Mammoth Bellow",
+        "weight": 62937
+      },
+      {
+        "uuid": "c6508d07-4b04-5042-b097-97f66b908f83",
+        "name": "Armament Dragon",
+        "weight": 62937
+      },
+      {
+        "uuid": "c688ab18-c6fe-5c35-8331-0c976b86a1f4",
+        "name": "Zurgo, Thunder's Decree",
+        "weight": 21330
+      },
+      {
+        "uuid": "c6a95111-f7b3-58bc-b704-981ee44399fd",
+        "name": "Neriv, Heart of the Storm",
+        "weight": 10665
+      },
+      {
+        "uuid": "c70bfdc4-39fc-569e-849c-f9602d6f7331",
+        "name": "Kishla Trawlers",
+        "weight": 62937
+      },
+      {
+        "uuid": "cb884575-e62b-5a08-a3b1-a41dabc1856b",
+        "name": "United Battlefront",
+        "weight": 21330
+      },
+      {
+        "uuid": "cc54256c-4c49-5a08-b1fe-76a0b899998a",
+        "name": "Frontline Rush",
+        "weight": 62937
+      },
+      {
+        "uuid": "ccd54215-0baf-53d6-9533-6065f5a39fee",
+        "name": "Call the Spirit Dragons",
+        "weight": 10665
+      },
+      {
+        "uuid": "ccecdfae-a133-555c-83ce-f4bdba0b5a51",
+        "name": "Skirmish Rhino",
+        "weight": 62937
+      },
+      {
+        "uuid": "cd712915-c5b5-5588-98d6-f286f4761798",
+        "name": "Constrictor Sage",
+        "weight": 62937
+      },
+      {
+        "uuid": "cf43733f-454e-5f63-822b-e9aba7033731",
+        "name": "Revival of the Ancestors",
+        "weight": 21330
+      },
+      {
+        "uuid": "cf7aa213-1bcd-592d-8207-eb55fb8ee3af",
+        "name": "Underfoot Underdogs",
+        "weight": 137200
+      },
+      {
+        "uuid": "d0bbfe65-d93a-5227-b51d-1035e7bcf073",
+        "name": "Taigam, Master Opportunist",
+        "weight": 10665
+      },
+      {
+        "uuid": "d0c0963b-1c1c-57bd-9dd1-1c3c44c56ff3",
+        "name": "Temur Devotee",
+        "weight": 137200
+      },
+      {
+        "uuid": "d249c274-5f3f-57f4-9102-da6d0b515b75",
+        "name": "All-Out Assault",
+        "weight": 10665
+      },
+      {
+        "uuid": "d2a65357-3ec3-586d-9a8b-a5c2e30dd9fd",
+        "name": "Karakyk Guardian",
+        "weight": 62937
+      },
+      {
+        "uuid": "d2b9c781-b783-523d-b488-05c37af8b91f",
+        "name": "Frostcliff Siege",
+        "weight": 21330
+      },
+      {
+        "uuid": "d3263501-ae28-5838-b397-54c13f5f6c7b",
+        "name": "Bone-Cairn Butcher",
+        "weight": 62937
+      },
+      {
+        "uuid": "d32e3ca2-2918-5c4c-b6b9-9d14d861190a",
+        "name": "Wingblade Disciple",
+        "weight": 62937
+      },
+      {
+        "uuid": "d52e5552-338f-5e19-a813-4270dff6da25",
+        "name": "Salt Road Skirmish",
+        "weight": 62937
+      },
+      {
+        "uuid": "d776213e-0bf8-531c-b61f-1ac18957b728",
+        "name": "Dragonclaw Strike",
+        "weight": 62937
+      },
+      {
+        "uuid": "d7bae76c-6406-5303-87f5-05ba4c19d6f0",
+        "name": "Yathan Roadwatcher",
+        "weight": 21330
+      },
+      {
+        "uuid": "d859d0c0-142c-5f69-a3dd-9b1995fb2f4e",
+        "name": "Shocking Sharpshooter",
+        "weight": 62937
+      },
+      {
+        "uuid": "d98af773-ed46-5b78-8f36-cf9cddcbeafe",
+        "name": "Unburied Earthcarver",
+        "weight": 137200
+      },
+      {
+        "uuid": "da9218fe-9065-5bb1-8440-c33f863be247",
+        "name": "Dalkovan Packbeasts",
+        "weight": 62937
+      },
+      {
+        "uuid": "dca7b69f-246e-52fd-83dc-e2f452522064",
+        "name": "Mystic Monastery",
+        "weight": 62937
+      },
+      {
+        "uuid": "dd0cb2f7-d303-54e5-b78b-95f9ad6bd31b",
+        "name": "Fortress Kin-Guard",
+        "weight": 137200
+      },
+      {
+        "uuid": "ddd08f46-d88d-5e04-a552-5441d40b37ff",
+        "name": "Dalkovan Encampment",
+        "weight": 21330
+      },
+      {
+        "uuid": "df234add-39ff-5e67-b013-3ac29eb57150",
+        "name": "Highspire Bell-Ringer",
+        "weight": 137200
+      },
+      {
+        "uuid": "df6caa4f-d16e-5115-9ea5-11962a8b64cd",
+        "name": "Molten Exhale",
+        "weight": 137200
+      },
+      {
+        "uuid": "e0074151-d042-5905-94d6-311ddc91eef1",
+        "name": "Mardu Siegebreaker",
+        "weight": 21330
+      },
+      {
+        "uuid": "e12cf1d0-7e91-50da-b53f-6c135c2d51b8",
+        "name": "Rally the Monastery",
+        "weight": 62937
+      },
+      {
+        "uuid": "e5aecc5e-d228-5a3c-a2c0-e029dbd8b994",
+        "name": "Fleeting Effigy",
+        "weight": 62937
+      },
+      {
+        "uuid": "e5d0f341-c801-59dd-8a79-bee331fb8432",
+        "name": "Rakshasa's Bargain",
+        "weight": 62937
+      },
+      {
+        "uuid": "e77b3601-57bf-5e9f-a6d5-93d3e8d2ea76",
+        "name": "Devoted Duelist",
+        "weight": 137200
+      },
+      {
+        "uuid": "e89ec9d4-6752-5288-b513-b31a32bb5c71",
+        "name": "Descendant of Storms",
+        "weight": 62937
+      },
+      {
+        "uuid": "ea33b50c-09a0-5f64-a692-33f1abc8e4e1",
+        "name": "Twinmaw Stormbrood",
+        "weight": 62937
+      },
+      {
+        "uuid": "ee243735-5c81-5e07-876b-d17ca48e4c5c",
+        "name": "Kishla Skimmer",
+        "weight": 62937
+      },
+      {
+        "uuid": "ef01dc6e-35e8-5e01-a70f-b6b6189580c3",
+        "name": "Gurmag Rakshasa",
+        "weight": 62937
+      },
+      {
+        "uuid": "f0139f32-f199-51d9-ac76-1cb6b677c851",
+        "name": "Lie in Wait",
+        "weight": 62937
+      },
+      {
+        "uuid": "f05d3b0a-d43d-5b63-b7a4-eac882267f03",
+        "name": "Opulent Palace",
+        "weight": 62937
+      },
+      {
+        "uuid": "f265e641-80a3-5c2b-9678-10163d39d311",
+        "name": "Mardu Monument",
+        "weight": 62937
+      },
+      {
+        "uuid": "f39f0a34-b27f-5842-9f57-4c9951491f77",
+        "name": "Defibrillating Current",
+        "weight": 62937
+      },
+      {
+        "uuid": "f3be5f9d-3487-52e1-8a60-26d1dea58930",
+        "name": "Undergrowth Leopard",
+        "weight": 137200
+      },
+      {
+        "uuid": "f3d6e464-e338-5266-8ffb-7c05062c524d",
+        "name": "Ureni, the Song Unending",
+        "weight": 10665
+      },
+      {
+        "uuid": "f46400e2-8d3f-5720-87b5-83e25aa88163",
+        "name": "Alesha's Legacy",
+        "weight": 137200
+      },
+      {
+        "uuid": "f5bd431d-2983-52ba-88db-0cf0349f540d",
+        "name": "Synchronized Charge",
+        "weight": 62937
+      },
+      {
+        "uuid": "f79c0e7e-3d74-5fd4-bfc4-a321f2e1b042",
+        "name": "Sage of the Fang",
+        "weight": 62937
+      },
+      {
+        "uuid": "f7d05183-821d-57ff-ac3d-210dee74c890",
+        "name": "Magmatic Hellkite",
+        "weight": 21330
+      },
+      {
+        "uuid": "fa293b8d-3b65-5ce3-a99e-dad6261e62dc",
+        "name": "Desperate Measures",
+        "weight": 62937
+      },
+      {
+        "uuid": "ff73bc5b-1558-5462-86dc-05c295387262",
+        "name": "Host of the Hereafter",
+        "weight": 62937
+      },
+      {
+        "uuid": "ff94af76-5353-599a-9a44-886a205cec62",
+        "name": "Meticulous Artisan",
+        "weight": 137200
+      }
+    ]
+  },
+  "land": {
+    "cards": [
+      {
+        "uuid": "0a85e2cf-c4c0-5da7-9ae8-5599c520dd7c",
+        "name": "Swamp",
+        "weight": 2
+      },
+      {
+        "uuid": "0e338302-0243-544a-b9a7-278ec4f07f05",
+        "name": "Dismal Backwater",
+        "weight": 15
+      },
+      {
+        "uuid": "0e723169-35a9-5800-999f-438afb9e6773",
+        "name": "Island",
+        "weight": 2
+      },
+      {
+        "uuid": "14d18dda-5a48-5bb3-adc9-b8223560cbd2",
+        "name": "Plains",
+        "weight": 2
+      },
+      {
+        "uuid": "15dd825a-25f0-577f-b4ac-227e335b70db",
+        "name": "Wind-Scarred Crag",
+        "weight": 15
+      },
+      {
+        "uuid": "17166409-51ab-50bc-8259-35c538537473",
+        "name": "Plains",
+        "weight": 2
+      },
+      {
+        "uuid": "1cfa64b7-ea43-5b5f-ac64-121ec8b622e3",
+        "name": "Plains",
+        "weight": 2
+      },
+      {
+        "uuid": "21076e8f-7473-5e7b-87e0-48bdfaa8ea85",
+        "name": "Bloodfell Caves",
+        "weight": 15
+      },
+      {
+        "uuid": "23bb0b86-c90a-5eb0-9c16-ddbc2b3e0128",
+        "name": "Tranquil Cove",
+        "weight": 15
+      },
+      {
+        "uuid": "4015a9de-b920-5be9-a4a5-5e8187d1d787",
+        "name": "Swamp",
+        "weight": 2
+      },
+      {
+        "uuid": "40bd478c-3ecf-50c5-9f6e-6d0732fb3566",
+        "name": "Island",
+        "weight": 2
+      },
+      {
+        "uuid": "42fc89ce-a3f0-5d8d-8fdc-f6b8e4faa9bc",
+        "name": "Jungle Hollow",
+        "weight": 15
+      },
+      {
+        "uuid": "4699678e-00c2-57fd-9315-f4e95d0002fa",
+        "name": "Forest",
+        "weight": 2
+      },
+      {
+        "uuid": "5c73ca42-b4ef-5d04-a7c6-11757f06cd43",
+        "name": "Scoured Barrens",
+        "weight": 15
+      },
+      {
+        "uuid": "620a04ad-e485-51e1-a5a8-2a1a277e1dbf",
+        "name": "Forest",
+        "weight": 2
+      },
+      {
+        "uuid": "6ba271fa-0b3c-5ece-9133-dac432001a44",
+        "name": "Mountain",
+        "weight": 2
+      },
+      {
+        "uuid": "80734665-9a30-5a21-a46a-2b65d6a32d9f",
+        "name": "Blossoming Sands",
+        "weight": 15
+      },
+      {
+        "uuid": "8b5fa12b-33ae-571b-8f17-57270ed6ec8e",
+        "name": "Swamp",
+        "weight": 2
+      },
+      {
+        "uuid": "96e0cf4b-a8b0-5f04-9c30-affa24189153",
+        "name": "Forest",
+        "weight": 2
+      },
+      {
+        "uuid": "a27b82b2-7fe2-5ead-b6c2-d58cc96a865b",
+        "name": "Swiftwater Cliffs",
+        "weight": 15
+      },
+      {
+        "uuid": "bcfb9a29-0435-5b99-903b-b7f329e8b620",
+        "name": "Rugged Highlands",
+        "weight": 15
+      },
+      {
+        "uuid": "c2143cb7-99b2-5cf7-a374-cb7146d46ad2",
+        "name": "Mountain",
+        "weight": 2
+      },
+      {
+        "uuid": "c56f6511-7ce6-59e6-9bd0-41dca5093249",
+        "name": "Mountain",
+        "weight": 2
+      },
+      {
+        "uuid": "e64f2ef2-48c4-5a00-bb4a-273eec19524d",
+        "name": "Thornwood Falls",
+        "weight": 15
+      },
+      {
+        "uuid": "f48089ee-4511-5278-ae10-02002ba23df9",
+        "name": "Island",
+        "weight": 2
+      }
+    ]
+  },
+  "rareMythic": {
+    "cards": [
+      {
+        "uuid": "00ddf81f-e719-5099-9a97-7142885c2c4c",
+        "name": "Glacierwood Siege",
+        "weight": 2
+      },
+      {
+        "uuid": "039a562e-68c0-57cf-85e7-087da1bd11fa",
+        "name": "Severance Priest",
+        "weight": 2
+      },
+      {
+        "uuid": "0860270f-fa0b-535d-96b4-a375cca0ec72",
+        "name": "Awaken the Honored Dead",
+        "weight": 2
+      },
+      {
+        "uuid": "0bb61288-bcc4-56fe-8eb5-a6cc401aeb26",
+        "name": "Mox Jasper",
+        "weight": 1
+      },
+      {
+        "uuid": "0cb54f9b-069c-527d-8692-fd98150ff73b",
+        "name": "Ambling Stormshell",
+        "weight": 2
+      },
+      {
+        "uuid": "11580597-fe19-520c-bcde-61cd9d1a675a",
+        "name": "Winternight Stories",
+        "weight": 2
+      },
+      {
+        "uuid": "188a5a74-a4bb-5f69-a54f-d6386db0b1d7",
+        "name": "Kotis, the Fangkeeper",
+        "weight": 2
+      },
+      {
+        "uuid": "19ae21a6-f2d5-5627-b3bc-da5e6d9c628f",
+        "name": "Warden of the Grove",
+        "weight": 2
+      },
+      {
+        "uuid": "1e071805-cd26-5a7e-a882-535e5d67fd12",
+        "name": "Teval, Arbiter of Virtue",
+        "weight": 1
+      },
+      {
+        "uuid": "22234ee0-03f6-583f-8841-26872116c3aa",
+        "name": "Death Begets Life",
+        "weight": 1
+      },
+      {
+        "uuid": "22247f86-2612-5cea-81d7-8bf7a1c00b50",
+        "name": "Naga Fleshcrafter",
+        "weight": 2
+      },
+      {
+        "uuid": "22e8c995-d185-5f9f-84cf-a7e799daeeda",
+        "name": "Ugin, Eye of the Storms",
+        "weight": 1
+      },
+      {
+        "uuid": "279ebff6-f9dd-5920-a886-6d6f241a0640",
+        "name": "Great Arashin City",
+        "weight": 2
+      },
+      {
+        "uuid": "309fef85-6d9b-5234-8651-1e4c5c9c2e50",
+        "name": "Nature's Rhythm",
+        "weight": 2
+      },
+      {
+        "uuid": "3354a9f8-1df3-552c-aae6-03fc9c219c24",
+        "name": "New Way Forward",
+        "weight": 2
+      },
+      {
+        "uuid": "35630003-15d5-5c62-8936-13dbd9f1aede",
+        "name": "Tersa Lightshatter",
+        "weight": 2
+      },
+      {
+        "uuid": "3d9fc7ef-55d6-575e-a1c9-c5117c919e4b",
+        "name": "Surrak, Elusive Hunter",
+        "weight": 2
+      },
+      {
+        "uuid": "41920764-c3e0-5b52-a580-9709b5310d4c",
+        "name": "Perennation",
+        "weight": 1
+      },
+      {
+        "uuid": "43417fc1-214a-5280-a1f9-757f3d65d4cc",
+        "name": "Lasyd Prowler",
+        "weight": 2
+      },
+      {
+        "uuid": "4408b2a5-ea1a-5a22-930a-2088bfc5e5e5",
+        "name": "Cori Mountain Monastery",
+        "weight": 2
+      },
+      {
+        "uuid": "4682ecf2-2723-57d4-b2b8-6751f7ee3486",
+        "name": "Hollowmurk Siege",
+        "weight": 2
+      },
+      {
+        "uuid": "47366dca-0ac2-5560-93f1-f4901d8d3025",
+        "name": "Windcrag Siege",
+        "weight": 2
+      },
+      {
+        "uuid": "49fc65ab-f09a-5a9a-b550-f8fde7ac1b5e",
+        "name": "Elspeth, Storm Slayer",
+        "weight": 1
+      },
+      {
+        "uuid": "4ad174ae-4315-5257-80de-fd571027a770",
+        "name": "Smile at Death",
+        "weight": 1
+      },
+      {
+        "uuid": "4af6371b-944b-598e-89e0-265bca597d26",
+        "name": "Bloomvine Regent",
+        "weight": 2
+      },
+      {
+        "uuid": "51c8c874-9bfa-5af6-8570-b6ab9d63ba2a",
+        "name": "Dracogenesis",
+        "weight": 1
+      },
+      {
+        "uuid": "51cb9979-cd26-5e6a-8aa7-bd9cb0a827e5",
+        "name": "Dragonfire Blade",
+        "weight": 2
+      },
+      {
+        "uuid": "545d78ef-9ec5-5c45-a2d2-71861696851a",
+        "name": "Eshki Dragonclaw",
+        "weight": 2
+      },
+      {
+        "uuid": "547f3d1d-261a-5450-abc2-7a86dd7f54b2",
+        "name": "Lotuslight Dancers",
+        "weight": 2
+      },
+      {
+        "uuid": "54cbdf55-0815-5111-ae57-989521583726",
+        "name": "Avenger of the Fallen",
+        "weight": 2
+      },
+      {
+        "uuid": "5c2a2488-b663-5fbc-9ae8-b60cbbe8c169",
+        "name": "Songcrafter Mage",
+        "weight": 2
+      },
+      {
+        "uuid": "5eb5434e-6367-5549-ba1d-288621e8c10b",
+        "name": "Maelstrom of the Spirit Dragon",
+        "weight": 2
+      },
+      {
+        "uuid": "5fd67db4-87e9-5c6c-8a06-6feddd08fca9",
+        "name": "Dragonologist",
+        "weight": 2
+      },
+      {
+        "uuid": "65c1fb47-dcd9-5c1f-8e49-1aa6ddb0a06d",
+        "name": "Flamehold Grappler",
+        "weight": 2
+      },
+      {
+        "uuid": "67875c08-75fd-51db-b288-149f7a894441",
+        "name": "Inevitable Defeat",
+        "weight": 2
+      },
+      {
+        "uuid": "6dc09ffa-7a9b-5110-890b-7352b5bdf8b6",
+        "name": "Betor, Kin to All",
+        "weight": 1
+      },
+      {
+        "uuid": "6ec5cd9b-aea6-54f0-8332-bc71ff98f5bb",
+        "name": "Craterhoof Behemoth",
+        "weight": 1
+      },
+      {
+        "uuid": "6ecbb40f-83c3-5b74-be2b-fd3d1043e862",
+        "name": "Rediscover the Way",
+        "weight": 2
+      },
+      {
+        "uuid": "6fa6dc8b-9935-50dc-8eb5-ca1edd39892c",
+        "name": "Kishla Village",
+        "weight": 2
+      },
+      {
+        "uuid": "70c7b210-fc7f-5f73-83fd-458813deceee",
+        "name": "Fangkeeper's Familiar",
+        "weight": 2
+      },
+      {
+        "uuid": "760e6b1a-c1c9-5f1a-be46-a1fb6b85245b",
+        "name": "Anafenza, Unyielding Lineage",
+        "weight": 2
+      },
+      {
+        "uuid": "76bdf413-e394-57ef-8eac-287016377485",
+        "name": "Herd Heirloom",
+        "weight": 2
+      },
+      {
+        "uuid": "7703e3b6-8694-53fb-8e63-e17649e610b0",
+        "name": "Mistrise Village",
+        "weight": 2
+      },
+      {
+        "uuid": "7cb21941-9187-52f7-9859-acf604a59373",
+        "name": "Narset, Jeskai Waymaster",
+        "weight": 2
+      },
+      {
+        "uuid": "8093c4a6-1844-5d2b-9a98-b0e0884701bb",
+        "name": "Stadium Headliner",
+        "weight": 2
+      },
+      {
+        "uuid": "81702e04-ec5d-51df-9ae1-8edb49ad70df",
+        "name": "Stillness in Motion",
+        "weight": 2
+      },
+      {
+        "uuid": "82150fed-3464-5f9e-bbab-336685b4540c",
+        "name": "Temur Battlecrier",
+        "weight": 2
+      },
+      {
+        "uuid": "845714ec-53bc-57f6-9066-c430842f43c2",
+        "name": "Sidisi, Regent of the Mire",
+        "weight": 2
+      },
+      {
+        "uuid": "885d1973-b375-577f-a6bf-b7207aae3fe8",
+        "name": "Shiko, Paragon of the Way",
+        "weight": 1
+      },
+      {
+        "uuid": "8903ebca-b7c9-5e4a-a80f-b840c4f8e22f",
+        "name": "The Sibsig Ceremony",
+        "weight": 2
+      },
+      {
+        "uuid": "8cd2944f-9bcf-5fea-870f-b18892ee869a",
+        "name": "Roar of Endless Song",
+        "weight": 2
+      },
+      {
+        "uuid": "8f3d82fa-0978-536f-9b05-71ae9cae1726",
+        "name": "Jeskai Revelation",
+        "weight": 1
+      },
+      {
+        "uuid": "914298c5-4bfa-55e8-b398-25e109183c2f",
+        "name": "Cori-Steel Cutter",
+        "weight": 2
+      },
+      {
+        "uuid": "926dfc80-8c5c-5cb2-bf53-18cf2a0bff01",
+        "name": "Marang River Regent",
+        "weight": 2
+      },
+      {
+        "uuid": "9410b8b5-8f1f-5b9b-a9c3-ba199b8c5f3e",
+        "name": "Barrensteppe Siege",
+        "weight": 2
+      },
+      {
+        "uuid": "9709ca48-4092-5e8b-8e3e-c663bccec9af",
+        "name": "Stormscale Scion",
+        "weight": 1
+      },
+      {
+        "uuid": "986e3fe2-b49e-5158-8e51-05f6da78ba79",
+        "name": "Voice of Victory",
+        "weight": 2
+      },
+      {
+        "uuid": "989d1917-e3fe-53b2-a4fa-8571dbf5b5bd",
+        "name": "Dragonback Assault",
+        "weight": 1
+      },
+      {
+        "uuid": "9aeded27-70dd-560c-a5f7-4f8a726630f9",
+        "name": "Sinkhole Surveyor",
+        "weight": 2
+      },
+      {
+        "uuid": "9de42322-cb51-5a85-a711-766c4039ccdf",
+        "name": "Clarion Conqueror",
+        "weight": 2
+      },
+      {
+        "uuid": "a496e8ba-a448-58c1-9332-973fd04d7027",
+        "name": "Sarkhan, Dragon Ascendant",
+        "weight": 2
+      },
+      {
+        "uuid": "a5f35eb4-bbc3-5098-a5eb-edf804ee2607",
+        "name": "Qarsi Revenant",
+        "weight": 2
+      },
+      {
+        "uuid": "ac332121-208e-56a7-a086-f7110a62a53e",
+        "name": "Sage of the Skies",
+        "weight": 2
+      },
+      {
+        "uuid": "afa58949-29f5-5e73-a5a1-d725f320dfd2",
+        "name": "Rot-Curse Rakshasa",
+        "weight": 1
+      },
+      {
+        "uuid": "b30a3061-ce20-54eb-b25c-7520aa76f8b7",
+        "name": "Scavenger Regent",
+        "weight": 2
+      },
+      {
+        "uuid": "b509e306-9b7c-5493-aa45-5225cedf261c",
+        "name": "Thunder of Unity",
+        "weight": 2
+      },
+      {
+        "uuid": "c1f7ce4c-092d-5d47-8740-bf6357b2f239",
+        "name": "Felothar, Dawn of the Abzan",
+        "weight": 2
+      },
+      {
+        "uuid": "c688ab18-c6fe-5c35-8331-0c976b86a1f4",
+        "name": "Zurgo, Thunder's Decree",
+        "weight": 2
+      },
+      {
+        "uuid": "c6a95111-f7b3-58bc-b704-981ee44399fd",
+        "name": "Neriv, Heart of the Storm",
+        "weight": 1
+      },
+      {
+        "uuid": "cb884575-e62b-5a08-a3b1-a41dabc1856b",
+        "name": "United Battlefront",
+        "weight": 2
+      },
+      {
+        "uuid": "ccd54215-0baf-53d6-9533-6065f5a39fee",
+        "name": "Call the Spirit Dragons",
+        "weight": 1
+      },
+      {
+        "uuid": "cf43733f-454e-5f63-822b-e9aba7033731",
+        "name": "Revival of the Ancestors",
+        "weight": 2
+      },
+      {
+        "uuid": "d0bbfe65-d93a-5227-b51d-1035e7bcf073",
+        "name": "Taigam, Master Opportunist",
+        "weight": 1
+      },
+      {
+        "uuid": "d249c274-5f3f-57f4-9102-da6d0b515b75",
+        "name": "All-Out Assault",
+        "weight": 1
+      },
+      {
+        "uuid": "d2b9c781-b783-523d-b488-05c37af8b91f",
+        "name": "Frostcliff Siege",
+        "weight": 2
+      },
+      {
+        "uuid": "d7bae76c-6406-5303-87f5-05ba4c19d6f0",
+        "name": "Yathan Roadwatcher",
+        "weight": 2
+      },
+      {
+        "uuid": "ddd08f46-d88d-5e04-a552-5441d40b37ff",
+        "name": "Dalkovan Encampment",
+        "weight": 2
+      },
+      {
+        "uuid": "e0074151-d042-5905-94d6-311ddc91eef1",
+        "name": "Mardu Siegebreaker",
+        "weight": 2
+      },
+      {
+        "uuid": "f3d6e464-e338-5266-8ffb-7c05062c524d",
+        "name": "Ureni, the Song Unending",
+        "weight": 1
+      },
+      {
+        "uuid": "f7d05183-821d-57ff-ac3d-210dee74c890",
+        "name": "Magmatic Hellkite",
+        "weight": 2
+      }
+    ]
+  },
+  "specialGuest": {
+    "cards": [
+      {
+        "uuid": "17489a5c-d128-5dd7-acce-ce8e1e80be38",
+        "name": "Ruinous Ultimatum",
+        "weight": 1
+      },
+      {
+        "uuid": "3971e12b-4bc0-5a07-b5f7-c138fa812b67",
+        "name": "Arid Mesa",
+        "weight": 1
+      },
+      {
+        "uuid": "3f7d749f-1b07-5d14-bd50-5788261bdc1f",
+        "name": "Verdant Catacombs",
+        "weight": 1
+      },
+      {
+        "uuid": "4b0e994c-7481-5f7e-9ffd-2714dddd5947",
+        "name": "Marsh Flats",
+        "weight": 1
+      },
+      {
+        "uuid": "6f74d53a-70c4-5f29-8b8c-e64d691ab922",
+        "name": "Genesis Ultimatum",
+        "weight": 1
+      },
+      {
+        "uuid": "9492d0fa-b7d6-572f-93e2-5977a5e76c2e",
+        "name": "Eerie Ultimatum",
+        "weight": 1
+      },
+      {
+        "uuid": "a21507c7-1a2c-5e19-a7bd-247c01c0d6ad",
+        "name": "Emergent Ultimatum",
+        "weight": 1
+      },
+      {
+        "uuid": "b19789ef-980c-5634-8f82-1ecf60afc7dc",
+        "name": "Inspired Ultimatum",
+        "weight": 1
+      },
+      {
+        "uuid": "d752c646-307b-5f0c-a4c0-dd4c4357b5e5",
+        "name": "Misty Rainforest",
+        "weight": 1
+      },
+      {
+        "uuid": "fb9e8c74-b433-560e-8b91-78bc602bd2f4",
+        "name": "Scalding Tarn",
+        "weight": 1
+      }
+    ]
+  },
+  "uncommon": {
+    "cards": [
+      {
+        "uuid": "0076c28f-c93d-56ae-aee7-13c325f7f52b",
+        "name": "Nomad Outpost",
+        "weight": 1
+      },
+      {
+        "uuid": "00d93aa3-4e25-5022-82f8-65a542efd0f3",
+        "name": "Corroding Dragonstorm",
+        "weight": 1
+      },
+      {
+        "uuid": "0109de79-a881-5811-8660-dfdf308024a2",
+        "name": "Sandsteppe Citadel",
+        "weight": 1
+      },
+      {
+        "uuid": "03016f67-fe67-5325-a191-9f06196371c0",
+        "name": "Cori Mountain Stalwart",
+        "weight": 1
+      },
+      {
+        "uuid": "0663aff5-789c-5dac-90a7-281f3859efcd",
+        "name": "Roiling Dragonstorm",
+        "weight": 1
+      },
+      {
+        "uuid": "09ad11fa-bec7-59e0-8cbc-f5caf65800ad",
+        "name": "Spectral Denial",
+        "weight": 1
+      },
+      {
+        "uuid": "09d44499-6796-5ff1-9aa5-f9517ea63776",
+        "name": "Dragonbroods' Relic",
+        "weight": 1
+      },
+      {
+        "uuid": "0bd1269f-ac1b-536b-9f98-ec32bc8e0634",
+        "name": "Channeled Dragonfire",
+        "weight": 1
+      },
+      {
+        "uuid": "0f552c64-f190-5137-b416-b310ceee037c",
+        "name": "Alchemist's Assistant",
+        "weight": 1
+      },
+      {
+        "uuid": "0fbc403f-68e0-5e40-8263-6a7cdb8aaac1",
+        "name": "War Effort",
+        "weight": 1
+      },
+      {
+        "uuid": "1007ad24-7288-5165-a8a0-19d983ae9eaa",
+        "name": "Iridescent Tiger",
+        "weight": 1
+      },
+      {
+        "uuid": "1136f4f6-05df-5a33-a630-0804a1d6f095",
+        "name": "Static Snare",
+        "weight": 1
+      },
+      {
+        "uuid": "11e44f82-3bca-5345-bf0a-dee2588c6c90",
+        "name": "Kheru Goldkeeper",
+        "weight": 1
+      },
+      {
+        "uuid": "157e74d0-355b-5ad1-a64e-74db2f104497",
+        "name": "Temur Monument",
+        "weight": 1
+      },
+      {
+        "uuid": "16fa0b8c-ad66-5fae-a10e-f721fec79d01",
+        "name": "Frontier Bivouac",
+        "weight": 1
+      },
+      {
+        "uuid": "20e9643e-2123-573a-84e0-bc4b69516901",
+        "name": "Venerated Stormsinger",
+        "weight": 1
+      },
+      {
+        "uuid": "2af0e309-78f9-563b-9f11-234f5eee67a5",
+        "name": "Unsparing Boltcaster",
+        "weight": 1
+      },
+      {
+        "uuid": "2fdfc097-97e4-5610-a7d3-53f8194596f3",
+        "name": "Stalwart Successor",
+        "weight": 1
+      },
+      {
+        "uuid": "30fb18af-7adc-54ad-b9fc-f003866f9759",
+        "name": "Marshal of the Lost",
+        "weight": 1
+      },
+      {
+        "uuid": "3375afd5-0239-57c6-a685-14608fd96d60",
+        "name": "Stormbeacon Blade",
+        "weight": 1
+      },
+      {
+        "uuid": "3377808a-5028-5425-a1b5-f21bebf92a24",
+        "name": "Overwhelming Surge",
+        "weight": 1
+      },
+      {
+        "uuid": "33d8cac4-f528-59cf-8fe6-d2411629915e",
+        "name": "Jeskai Shrinekeeper",
+        "weight": 1
+      },
+      {
+        "uuid": "35e9c2d7-1656-5560-a370-840c0a11a662",
+        "name": "Knockout Maneuver",
+        "weight": 1
+      },
+      {
+        "uuid": "3c9634a4-1105-5360-b8cc-2499fd66b3d2",
+        "name": "Sunset Strikemaster",
+        "weight": 1
+      },
+      {
+        "uuid": "406e79eb-3cc1-54ae-b74c-0745c96243cf",
+        "name": "Teeming Dragonstorm",
+        "weight": 1
+      },
+      {
+        "uuid": "42fe6060-40d9-5ba9-9d2f-1881805ce2d9",
+        "name": "Reverberating Summons",
+        "weight": 1
+      },
+      {
+        "uuid": "43cf017c-d0e9-5310-bb84-bb560b4611c3",
+        "name": "Jeskai Monument",
+        "weight": 1
+      },
+      {
+        "uuid": "474cb907-f981-581a-a9f1-1dfe325e141f",
+        "name": "Sunpearl Kirin",
+        "weight": 1
+      },
+      {
+        "uuid": "47c93168-0e06-56c6-ba1d-501cd4687ac0",
+        "name": "Aegis Sculptor",
+        "weight": 1
+      },
+      {
+        "uuid": "4a71a68d-061a-5faf-945a-046bdf43bbfd",
+        "name": "Runescale Stormbrood",
+        "weight": 1
+      },
+      {
+        "uuid": "4b5578c9-d5f6-50a9-8c9f-d8bc4cd0af7b",
+        "name": "Strategic Betrayal",
+        "weight": 1
+      },
+      {
+        "uuid": "4bb854ef-2423-53c6-a556-e9107053a816",
+        "name": "Veteran Ice Climber",
+        "weight": 1
+      },
+      {
+        "uuid": "4d83e66d-0c88-5331-9d1f-25e33333bba0",
+        "name": "Breaching Dragonstorm",
+        "weight": 1
+      },
+      {
+        "uuid": "4dab92ca-65dd-540b-bf3c-070d2b8c376b",
+        "name": "Encroaching Dragonstorm",
+        "weight": 1
+      },
+      {
+        "uuid": "534555e9-9c0a-5e87-87cc-e2bffc8055ec",
+        "name": "Ureni's Rebuff",
+        "weight": 1
+      },
+      {
+        "uuid": "575ba3a6-243d-5380-ab73-f15049bc6fa1",
+        "name": "Inspirited Vanguard",
+        "weight": 1
+      },
+      {
+        "uuid": "587123ed-943a-55df-9762-f193411edc53",
+        "name": "Sultai Monument",
+        "weight": 1
+      },
+      {
+        "uuid": "59851cfc-f7e6-53aa-9c29-17f414551e67",
+        "name": "Purging Stormbrood",
+        "weight": 1
+      },
+      {
+        "uuid": "62538893-cd6a-53a7-b0a8-c5ad1d6ef70a",
+        "name": "Duty Beyond Death",
+        "weight": 1
+      },
+      {
+        "uuid": "67332abb-86e6-5b9e-8004-029166f90930",
+        "name": "Loxodon Battle Priest",
+        "weight": 1
+      },
+      {
+        "uuid": "69b8d250-ceaa-5702-b7cb-4565800ef102",
+        "name": "Sonic Shrieker",
+        "weight": 1
+      },
+      {
+        "uuid": "6b914eca-41af-5ecb-8573-f214e584e6a1",
+        "name": "Fresh Start",
+        "weight": 1
+      },
+      {
+        "uuid": "6e332de8-7b67-50e2-bcc0-33f5ae816ebd",
+        "name": "Kin-Tree Severance",
+        "weight": 1
+      },
+      {
+        "uuid": "7103934d-6cff-5c0c-8a80-f0617c47a3a2",
+        "name": "Zurgo's Vanguard",
+        "weight": 1
+      },
+      {
+        "uuid": "71247423-507b-5a6a-b29d-1d0e33e54d8c",
+        "name": "Essence Anchor",
+        "weight": 1
+      },
+      {
+        "uuid": "71b4fc95-7bf8-5ab7-9a42-88048c9c4ba3",
+        "name": "Formation Breaker",
+        "weight": 1
+      },
+      {
+        "uuid": "79d1d88e-a603-5f4f-a399-709a97289ae3",
+        "name": "Attuned Hunter",
+        "weight": 1
+      },
+      {
+        "uuid": "79dfdc0b-b3fb-50d6-ad83-56aa0d61cd82",
+        "name": "Glacial Dragonhunt",
+        "weight": 1
+      },
+      {
+        "uuid": "7d03cb0a-9c6e-5514-830b-4f7bc526c202",
+        "name": "Hardened Tactician",
+        "weight": 1
+      },
+      {
+        "uuid": "8345b71c-e5a8-5aa4-8915-e13fddf729b2",
+        "name": "Riverwheel Sweep",
+        "weight": 1
+      },
+      {
+        "uuid": "87dfbf12-7a6b-5720-b7b9-ac5826ba4568",
+        "name": "Dragon Sniper",
+        "weight": 1
+      },
+      {
+        "uuid": "894620e7-f101-5f31-9a07-282a2233b3c7",
+        "name": "Hundred-Battle Veteran",
+        "weight": 1
+      },
+      {
+        "uuid": "8a3d21cb-9061-5413-ae3c-e5e836359427",
+        "name": "Whirlwing Stormbrood",
+        "weight": 1
+      },
+      {
+        "uuid": "94744d82-42c2-5e0d-a48f-73ea19c4c65a",
+        "name": "Dragonstorm Forecaster",
+        "weight": 1
+      },
+      {
+        "uuid": "95358c96-720d-52fe-abc6-19cfdd6a943c",
+        "name": "Effortless Master",
+        "weight": 1
+      },
+      {
+        "uuid": "95a09b28-a742-54e4-822c-9daedb6220e7",
+        "name": "Abzan Monument",
+        "weight": 1
+      },
+      {
+        "uuid": "986e47d9-6713-5c38-9adf-2f4629b9c2d9",
+        "name": "Krumar Initiate",
+        "weight": 1
+      },
+      {
+        "uuid": "9898d496-cd30-5655-a951-b0f8788978e3",
+        "name": "Furious Forebear",
+        "weight": 1
+      },
+      {
+        "uuid": "997f1a78-c793-5f29-85be-6a5b3c4bf2e6",
+        "name": "Equilibrium Adept",
+        "weight": 1
+      },
+      {
+        "uuid": "9982f6ef-e616-5b0d-ba61-7e8d3534c060",
+        "name": "Disruptive Stormbrood",
+        "weight": 1
+      },
+      {
+        "uuid": "a7f88b11-1920-5a9b-85bc-2abfa8e0092d",
+        "name": "Wayspeaker Bodyguard",
+        "weight": 1
+      },
+      {
+        "uuid": "a80842a1-01ba-5d2d-946f-509a5cd7c84f",
+        "name": "Jeskai Brushmaster",
+        "weight": 1
+      },
+      {
+        "uuid": "ac3dfb86-94c2-58b9-a638-1fe550342653",
+        "name": "Rainveil Rejuvenator",
+        "weight": 1
+      },
+      {
+        "uuid": "b055ae1a-0c5e-56ab-87cf-3fcfe637d378",
+        "name": "Bewildering Blizzard",
+        "weight": 1
+      },
+      {
+        "uuid": "b13bfeb2-42ab-55d9-9295-cbd7adbf74b0",
+        "name": "Traveling Botanist",
+        "weight": 1
+      },
+      {
+        "uuid": "b1befaad-d222-520e-aaf8-e284d0535c65",
+        "name": "Yathan Tombguard",
+        "weight": 1
+      },
+      {
+        "uuid": "b241adf3-0d69-5855-99b9-84e095897fa7",
+        "name": "Auroral Procession",
+        "weight": 1
+      },
+      {
+        "uuid": "b39aa61c-7a73-5aad-b0cb-161437f86c10",
+        "name": "Rite of Renewal",
+        "weight": 1
+      },
+      {
+        "uuid": "b886d284-6601-5f4e-9e97-866135215388",
+        "name": "Starry-Eyed Skyrider",
+        "weight": 1
+      },
+      {
+        "uuid": "bc64c117-3407-53e5-972a-37409853e2b2",
+        "name": "Unrooted Ancestor",
+        "weight": 1
+      },
+      {
+        "uuid": "c38a53e5-62b6-5a9d-b438-bcecde7ec4b8",
+        "name": "Wail of War",
+        "weight": 1
+      },
+      {
+        "uuid": "c3d81c5f-7b82-57bd-bc32-6ab0ad13f467",
+        "name": "Mammoth Bellow",
+        "weight": 1
+      },
+      {
+        "uuid": "c6508d07-4b04-5042-b097-97f66b908f83",
+        "name": "Armament Dragon",
+        "weight": 1
+      },
+      {
+        "uuid": "c70bfdc4-39fc-569e-849c-f9602d6f7331",
+        "name": "Kishla Trawlers",
+        "weight": 1
+      },
+      {
+        "uuid": "cc54256c-4c49-5a08-b1fe-76a0b899998a",
+        "name": "Frontline Rush",
+        "weight": 1
+      },
+      {
+        "uuid": "ccecdfae-a133-555c-83ce-f4bdba0b5a51",
+        "name": "Skirmish Rhino",
+        "weight": 1
+      },
+      {
+        "uuid": "cd712915-c5b5-5588-98d6-f286f4761798",
+        "name": "Constrictor Sage",
+        "weight": 1
+      },
+      {
+        "uuid": "d2a65357-3ec3-586d-9a8b-a5c2e30dd9fd",
+        "name": "Karakyk Guardian",
+        "weight": 1
+      },
+      {
+        "uuid": "d3263501-ae28-5838-b397-54c13f5f6c7b",
+        "name": "Bone-Cairn Butcher",
+        "weight": 1
+      },
+      {
+        "uuid": "d32e3ca2-2918-5c4c-b6b9-9d14d861190a",
+        "name": "Wingblade Disciple",
+        "weight": 1
+      },
+      {
+        "uuid": "d52e5552-338f-5e19-a813-4270dff6da25",
+        "name": "Salt Road Skirmish",
+        "weight": 1
+      },
+      {
+        "uuid": "d776213e-0bf8-531c-b61f-1ac18957b728",
+        "name": "Dragonclaw Strike",
+        "weight": 1
+      },
+      {
+        "uuid": "d859d0c0-142c-5f69-a3dd-9b1995fb2f4e",
+        "name": "Shocking Sharpshooter",
+        "weight": 1
+      },
+      {
+        "uuid": "da9218fe-9065-5bb1-8440-c33f863be247",
+        "name": "Dalkovan Packbeasts",
+        "weight": 1
+      },
+      {
+        "uuid": "dca7b69f-246e-52fd-83dc-e2f452522064",
+        "name": "Mystic Monastery",
+        "weight": 1
+      },
+      {
+        "uuid": "e12cf1d0-7e91-50da-b53f-6c135c2d51b8",
+        "name": "Rally the Monastery",
+        "weight": 1
+      },
+      {
+        "uuid": "e5aecc5e-d228-5a3c-a2c0-e029dbd8b994",
+        "name": "Fleeting Effigy",
+        "weight": 1
+      },
+      {
+        "uuid": "e5d0f341-c801-59dd-8a79-bee331fb8432",
+        "name": "Rakshasa's Bargain",
+        "weight": 1
+      },
+      {
+        "uuid": "e89ec9d4-6752-5288-b513-b31a32bb5c71",
+        "name": "Descendant of Storms",
+        "weight": 1
+      },
+      {
+        "uuid": "ea33b50c-09a0-5f64-a692-33f1abc8e4e1",
+        "name": "Twinmaw Stormbrood",
+        "weight": 1
+      },
+      {
+        "uuid": "ee243735-5c81-5e07-876b-d17ca48e4c5c",
+        "name": "Kishla Skimmer",
+        "weight": 1
+      },
+      {
+        "uuid": "ef01dc6e-35e8-5e01-a70f-b6b6189580c3",
+        "name": "Gurmag Rakshasa",
+        "weight": 1
+      },
+      {
+        "uuid": "f0139f32-f199-51d9-ac76-1cb6b677c851",
+        "name": "Lie in Wait",
+        "weight": 1
+      },
+      {
+        "uuid": "f05d3b0a-d43d-5b63-b7a4-eac882267f03",
+        "name": "Opulent Palace",
+        "weight": 1
+      },
+      {
+        "uuid": "f265e641-80a3-5c2b-9678-10163d39d311",
+        "name": "Mardu Monument",
+        "weight": 1
+      },
+      {
+        "uuid": "f39f0a34-b27f-5842-9f57-4c9951491f77",
+        "name": "Defibrillating Current",
+        "weight": 1
+      },
+      {
+        "uuid": "f5bd431d-2983-52ba-88db-0cf0349f540d",
+        "name": "Synchronized Charge",
+        "weight": 1
+      },
+      {
+        "uuid": "f79c0e7e-3d74-5fd4-bfc4-a321f2e1b042",
+        "name": "Sage of the Fang",
+        "weight": 1
+      },
+      {
+        "uuid": "fa293b8d-3b65-5ce3-a99e-dad6261e62dc",
+        "name": "Desperate Measures",
+        "weight": 1
+      },
+      {
+        "uuid": "ff73bc5b-1558-5462-86dc-05c295387262",
+        "name": "Host of the Hereafter",
+        "weight": 1
+      }
+    ]
+  },
+  "wildcard": {
+    "cards": [
+      {
+        "uuid": "0076c28f-c93d-56ae-aee7-13c325f7f52b",
+        "name": "Nomad Outpost",
+        "weight": 112644
+      },
+      {
+        "uuid": "00d93aa3-4e25-5022-82f8-65a542efd0f3",
+        "name": "Corroding Dragonstorm",
+        "weight": 112644
+      },
+      {
+        "uuid": "00ddf81f-e719-5099-9a97-7142885c2c4c",
+        "name": "Glacierwood Siege",
+        "weight": 61290
+      },
+      {
+        "uuid": "0109de79-a881-5811-8660-dfdf308024a2",
+        "name": "Sandsteppe Citadel",
+        "weight": 112644
+      },
+      {
+        "uuid": "016939df-525f-58dc-85e1-3edf49a5cb6a",
+        "name": "Focus the Mind",
+        "weight": 41300
+      },
+      {
+        "uuid": "03016f67-fe67-5325-a191-9f06196371c0",
+        "name": "Cori Mountain Stalwart",
+        "weight": 112644
+      },
+      {
+        "uuid": "03619678-7720-578e-b980-96beb524ced1",
+        "name": "Dusyut Earthcarver",
+        "weight": 41300
+      },
+      {
+        "uuid": "039a562e-68c0-57cf-85e7-087da1bd11fa",
+        "name": "Severance Priest",
+        "weight": 61290
+      },
+      {
+        "uuid": "0663aff5-789c-5dac-90a7-281f3859efcd",
+        "name": "Roiling Dragonstorm",
+        "weight": 112644
+      },
+      {
+        "uuid": "0860270f-fa0b-535d-96b4-a375cca0ec72",
+        "name": "Awaken the Honored Dead",
+        "weight": 61290
+      },
+      {
+        "uuid": "09ad11fa-bec7-59e0-8cbc-f5caf65800ad",
+        "name": "Spectral Denial",
+        "weight": 112644
+      },
+      {
+        "uuid": "09d44499-6796-5ff1-9aa5-f9517ea63776",
+        "name": "Dragonbroods' Relic",
+        "weight": 112644
+      },
+      {
+        "uuid": "0bb61288-bcc4-56fe-8eb5-a6cc401aeb26",
+        "name": "Mox Jasper",
+        "weight": 30645
+      },
+      {
+        "uuid": "0bd1269f-ac1b-536b-9f98-ec32bc8e0634",
+        "name": "Channeled Dragonfire",
+        "weight": 112644
+      },
+      {
+        "uuid": "0cb54f9b-069c-527d-8692-fd98150ff73b",
+        "name": "Ambling Stormshell",
+        "weight": 61290
+      },
+      {
+        "uuid": "0d0c0f15-2645-50a6-94a0-3c345b34988b",
+        "name": "Dragonback Lancer",
+        "weight": 41300
+      },
+      {
+        "uuid": "0f552c64-f190-5137-b416-b310ceee037c",
+        "name": "Alchemist's Assistant",
+        "weight": 112644
+      },
+      {
+        "uuid": "0fbc403f-68e0-5e40-8263-6a7cdb8aaac1",
+        "name": "War Effort",
+        "weight": 112644
+      },
+      {
+        "uuid": "1007ad24-7288-5165-a8a0-19d983ae9eaa",
+        "name": "Iridescent Tiger",
+        "weight": 112644
+      },
+      {
+        "uuid": "1136f4f6-05df-5a33-a630-0804a1d6f095",
+        "name": "Static Snare",
+        "weight": 112644
+      },
+      {
+        "uuid": "11580597-fe19-520c-bcde-61cd9d1a675a",
+        "name": "Winternight Stories",
+        "weight": 61290
+      },
+      {
+        "uuid": "11e44f82-3bca-5345-bf0a-dee2588c6c90",
+        "name": "Kheru Goldkeeper",
+        "weight": 112644
+      },
+      {
+        "uuid": "157e74d0-355b-5ad1-a64e-74db2f104497",
+        "name": "Temur Monument",
+        "weight": 112644
+      },
+      {
+        "uuid": "16fa0b8c-ad66-5fae-a10e-f721fec79d01",
+        "name": "Frontier Bivouac",
+        "weight": 112644
+      },
+      {
+        "uuid": "188a5a74-a4bb-5f69-a54f-d6386db0b1d7",
+        "name": "Kotis, the Fangkeeper",
+        "weight": 61290
+      },
+      {
+        "uuid": "19ae21a6-f2d5-5627-b3bc-da5e6d9c628f",
+        "name": "Warden of the Grove",
+        "weight": 61290
+      },
+      {
+        "uuid": "1e058df0-8555-5e70-8ab3-855ece3f0388",
+        "name": "Fire-Rim Form",
+        "weight": 41300
+      },
+      {
+        "uuid": "1e071805-cd26-5a7e-a882-535e5d67fd12",
+        "name": "Teval, Arbiter of Virtue",
+        "weight": 30645
+      },
+      {
+        "uuid": "1e4a898c-eb1d-56cc-8f55-46ac93efcb43",
+        "name": "Delta Bloodflies",
+        "weight": 41300
+      },
+      {
+        "uuid": "20e9643e-2123-573a-84e0-bc4b69516901",
+        "name": "Venerated Stormsinger",
+        "weight": 112644
+      },
+      {
+        "uuid": "220afd9d-cbb5-5e56-8f58-cedde65bed6f",
+        "name": "Snakeskin Veil",
+        "weight": 41300
+      },
+      {
+        "uuid": "22234ee0-03f6-583f-8841-26872116c3aa",
+        "name": "Death Begets Life",
+        "weight": 30645
+      },
+      {
+        "uuid": "22247f86-2612-5cea-81d7-8bf7a1c00b50",
+        "name": "Naga Fleshcrafter",
+        "weight": 61290
+      },
+      {
+        "uuid": "22e8c995-d185-5f9f-84cf-a7e799daeeda",
+        "name": "Ugin, Eye of the Storms",
+        "weight": 30645
+      },
+      {
+        "uuid": "279ebff6-f9dd-5920-a886-6d6f241a0640",
+        "name": "Great Arashin City",
+        "weight": 61290
+      },
+      {
+        "uuid": "28943f30-e152-53f4-83d8-d370c4684837",
+        "name": "Kin-Tree Nurturer",
+        "weight": 41300
+      },
+      {
+        "uuid": "2925f044-bca0-5bb2-a342-b3a70d7ff41c",
+        "name": "Mardu Devotee",
+        "weight": 41300
+      },
+      {
+        "uuid": "2aeff58b-6d33-5faf-8941-c778c073e8df",
+        "name": "Osseous Exhale",
+        "weight": 41300
+      },
+      {
+        "uuid": "2af0e309-78f9-563b-9f11-234f5eee67a5",
+        "name": "Unsparing Boltcaster",
+        "weight": 112644
+      },
+      {
+        "uuid": "2e3b9f6b-f1de-5d43-ae9a-8d87f9c88b9b",
+        "name": "Riling Dawnbreaker",
+        "weight": 41300
+      },
+      {
+        "uuid": "2fdfc097-97e4-5610-a7d3-53f8194596f3",
+        "name": "Stalwart Successor",
+        "weight": 112644
+      },
+      {
+        "uuid": "309fef85-6d9b-5234-8651-1e4c5c9c2e50",
+        "name": "Nature's Rhythm",
+        "weight": 61290
+      },
+      {
+        "uuid": "30fb18af-7adc-54ad-b9fc-f003866f9759",
+        "name": "Marshal of the Lost",
+        "weight": 112644
+      },
+      {
+        "uuid": "32283932-026d-5cbb-aec6-10c6e91e0f19",
+        "name": "Champion of Dusan",
+        "weight": 41300
+      },
+      {
+        "uuid": "3354a9f8-1df3-552c-aae6-03fc9c219c24",
+        "name": "New Way Forward",
+        "weight": 61290
+      },
+      {
+        "uuid": "3375afd5-0239-57c6-a685-14608fd96d60",
+        "name": "Stormbeacon Blade",
+        "weight": 112644
+      },
+      {
+        "uuid": "3377808a-5028-5425-a1b5-f21bebf92a24",
+        "name": "Overwhelming Surge",
+        "weight": 112644
+      },
+      {
+        "uuid": "33af6e3b-1dfd-513b-8ca1-1567740a6d7e",
+        "name": "Reigning Victor",
+        "weight": 41300
+      },
+      {
+        "uuid": "33d8cac4-f528-59cf-8fe6-d2411629915e",
+        "name": "Jeskai Shrinekeeper",
+        "weight": 112644
+      },
+      {
+        "uuid": "33da33e2-ff60-5206-97af-b5a0241b2fe0",
+        "name": "Ringing Strike Mastery",
+        "weight": 41300
+      },
+      {
+        "uuid": "35630003-15d5-5c62-8936-13dbd9f1aede",
+        "name": "Tersa Lightshatter",
+        "weight": 61290
+      },
+      {
+        "uuid": "35e9c2d7-1656-5560-a370-840c0a11a662",
+        "name": "Knockout Maneuver",
+        "weight": 112644
+      },
+      {
+        "uuid": "363e307a-d1a6-5812-823d-6cc70273be10",
+        "name": "Worthy Cost",
+        "weight": 41300
+      },
+      {
+        "uuid": "3768817d-2372-5cb6-8a90-b29ed03701ce",
+        "name": "Poised Practitioner",
+        "weight": 41300
+      },
+      {
+        "uuid": "3b7bb38b-aa77-5ea3-a0ed-58eaae48dd64",
+        "name": "Jade-Cast Sentinel",
+        "weight": 41300
+      },
+      {
+        "uuid": "3c9634a4-1105-5360-b8cc-2499fd66b3d2",
+        "name": "Sunset Strikemaster",
+        "weight": 112644
+      },
+      {
+        "uuid": "3d811e19-2b06-538f-89c9-042769ea7bcd",
+        "name": "Roamer's Routine",
+        "weight": 41300
+      },
+      {
+        "uuid": "3d9fc7ef-55d6-575e-a1c9-c5117c919e4b",
+        "name": "Surrak, Elusive Hunter",
+        "weight": 61290
+      },
+      {
+        "uuid": "3db33e63-601d-55c4-b465-e9c6c1e53e1e",
+        "name": "Unending Whisper",
+        "weight": 41300
+      },
+      {
+        "uuid": "3de37533-6d41-551e-a35c-d88603fa878d",
+        "name": "Snowmelt Stag",
+        "weight": 41300
+      },
+      {
+        "uuid": "3e18f169-8d68-518c-baab-2e0ca8551b89",
+        "name": "Tempest Hawk",
+        "weight": 41300
+      },
+      {
+        "uuid": "3ef6f351-6508-5897-9d63-4a56b550ceb4",
+        "name": "Abzan Devotee",
+        "weight": 41300
+      },
+      {
+        "uuid": "406e79eb-3cc1-54ae-b74c-0745c96243cf",
+        "name": "Teeming Dragonstorm",
+        "weight": 112644
+      },
+      {
+        "uuid": "41920764-c3e0-5b52-a580-9709b5310d4c",
+        "name": "Perennation",
+        "weight": 30645
+      },
+      {
+        "uuid": "42fe6060-40d9-5ba9-9d2f-1881805ce2d9",
+        "name": "Reverberating Summons",
+        "weight": 112644
+      },
+      {
+        "uuid": "43417fc1-214a-5280-a1f9-757f3d65d4cc",
+        "name": "Lasyd Prowler",
+        "weight": 61290
+      },
+      {
+        "uuid": "43cf017c-d0e9-5310-bb84-bb560b4611c3",
+        "name": "Jeskai Monument",
+        "weight": 112644
+      },
+      {
+        "uuid": "4408b2a5-ea1a-5a22-930a-2088bfc5e5e5",
+        "name": "Cori Mountain Monastery",
+        "weight": 61290
+      },
+      {
+        "uuid": "44cb3635-ead0-555b-92a7-8aa58ea84507",
+        "name": "Rescue Leopard",
+        "weight": 41300
+      },
+      {
+        "uuid": "4682ecf2-2723-57d4-b2b8-6751f7ee3486",
+        "name": "Hollowmurk Siege",
+        "weight": 61290
+      },
+      {
+        "uuid": "46992657-f172-5163-a420-6dbd1bf403df",
+        "name": "Bearer of Glory",
+        "weight": 41300
+      },
+      {
+        "uuid": "47366dca-0ac2-5560-93f1-f4901d8d3025",
+        "name": "Windcrag Siege",
+        "weight": 61290
+      },
+      {
+        "uuid": "47469a54-6b24-5e17-ba92-61f4fd69dce2",
+        "name": "Temur Tawnyback",
+        "weight": 41300
+      },
+      {
+        "uuid": "474cb907-f981-581a-a9f1-1dfe325e141f",
+        "name": "Sunpearl Kirin",
+        "weight": 112644
+      },
+      {
+        "uuid": "47c93168-0e06-56c6-ba1d-501cd4687ac0",
+        "name": "Aegis Sculptor",
+        "weight": 112644
+      },
+      {
+        "uuid": "48a54fcc-7517-5fae-b18d-e99aaffd1eb4",
+        "name": "Sultai Devotee",
+        "weight": 41300
+      },
+      {
+        "uuid": "495ccff1-2d1c-58cb-a177-f5fb843270ad",
+        "name": "Reputable Merchant",
+        "weight": 41300
+      },
+      {
+        "uuid": "49fc65ab-f09a-5a9a-b550-f8fde7ac1b5e",
+        "name": "Elspeth, Storm Slayer",
+        "weight": 30645
+      },
+      {
+        "uuid": "4a71a68d-061a-5faf-945a-046bdf43bbfd",
+        "name": "Runescale Stormbrood",
+        "weight": 112644
+      },
+      {
+        "uuid": "4ad174ae-4315-5257-80de-fd571027a770",
+        "name": "Smile at Death",
+        "weight": 30645
+      },
+      {
+        "uuid": "4af6371b-944b-598e-89e0-265bca597d26",
+        "name": "Bloomvine Regent",
+        "weight": 61290
+      },
+      {
+        "uuid": "4b5578c9-d5f6-50a9-8c9f-d8bc4cd0af7b",
+        "name": "Strategic Betrayal",
+        "weight": 112644
+      },
+      {
+        "uuid": "4b9d9df0-d051-5111-9604-e89c265bc585",
+        "name": "Piercing Exhale",
+        "weight": 41300
+      },
+      {
+        "uuid": "4bb854ef-2423-53c6-a556-e9107053a816",
+        "name": "Veteran Ice Climber",
+        "weight": 112644
+      },
+      {
+        "uuid": "4cf6f52f-734d-562f-99f2-dcd4dbc31557",
+        "name": "Humbling Elder",
+        "weight": 41300
+      },
+      {
+        "uuid": "4d3597fb-92c7-5a6e-a684-1e647019e3a8",
+        "name": "Sibsig Appraiser",
+        "weight": 41300
+      },
+      {
+        "uuid": "4d83e66d-0c88-5331-9d1f-25e33333bba0",
+        "name": "Breaching Dragonstorm",
+        "weight": 112644
+      },
+      {
+        "uuid": "4dab92ca-65dd-540b-bf3c-070d2b8c376b",
+        "name": "Encroaching Dragonstorm",
+        "weight": 112644
+      },
+      {
+        "uuid": "4db22f04-9204-590f-9f1e-6702f01ef8f1",
+        "name": "Jeskai Devotee",
+        "weight": 41300
+      },
+      {
+        "uuid": "4dd1a262-3f7d-5598-bdf3-c09043064ffa",
+        "name": "Sandskitter Outrider",
+        "weight": 41300
+      },
+      {
+        "uuid": "51c8c874-9bfa-5af6-8570-b6ab9d63ba2a",
+        "name": "Dracogenesis",
+        "weight": 30645
+      },
+      {
+        "uuid": "51cb9979-cd26-5e6a-8aa7-bd9cb0a827e5",
+        "name": "Dragonfire Blade",
+        "weight": 61290
+      },
+      {
+        "uuid": "51ee683d-554a-5e04-b613-9d4385ad9535",
+        "name": "Krotiq Nestguard",
+        "weight": 41300
+      },
+      {
+        "uuid": "5299374a-390d-5ada-a285-d25178b85062",
+        "name": "Iceridge Serpent",
+        "weight": 41300
+      },
+      {
+        "uuid": "532f9a7d-25f1-5ea3-aa86-b8ccb35811ab",
+        "name": "Heritage Reclamation",
+        "weight": 41300
+      },
+      {
+        "uuid": "534555e9-9c0a-5e87-87cc-e2bffc8055ec",
+        "name": "Ureni's Rebuff",
+        "weight": 112644
+      },
+      {
+        "uuid": "545d78ef-9ec5-5c45-a2d2-71861696851a",
+        "name": "Eshki Dragonclaw",
+        "weight": 61290
+      },
+      {
+        "uuid": "547f3d1d-261a-5450-abc2-7a86dd7f54b2",
+        "name": "Lotuslight Dancers",
+        "weight": 61290
+      },
+      {
+        "uuid": "54cbdf55-0815-5111-ae57-989521583726",
+        "name": "Avenger of the Fallen",
+        "weight": 61290
+      },
+      {
+        "uuid": "5726bb05-ea3c-5714-99f8-a009e50c27e7",
+        "name": "Evolving Wilds",
+        "weight": 41300
+      },
+      {
+        "uuid": "575ba3a6-243d-5380-ab73-f15049bc6fa1",
+        "name": "Inspirited Vanguard",
+        "weight": 112644
+      },
+      {
+        "uuid": "58083b32-90ea-5c18-b8f7-6f22308f578a",
+        "name": "Shock Brigade",
+        "weight": 41300
+      },
+      {
+        "uuid": "587123ed-943a-55df-9762-f193411edc53",
+        "name": "Sultai Monument",
+        "weight": 112644
+      },
+      {
+        "uuid": "5897a44b-b2c0-5e6d-b3ca-e15c926852fb",
+        "name": "Caustic Exhale",
+        "weight": 41300
+      },
+      {
+        "uuid": "59851cfc-f7e6-53aa-9c29-17f414551e67",
+        "name": "Purging Stormbrood",
+        "weight": 112644
+      },
+      {
+        "uuid": "5a1e59f8-b2ba-5bb8-873c-d9bf96758acf",
+        "name": "Sagu Wildling",
+        "weight": 41300
+      },
+      {
+        "uuid": "5c2a2488-b663-5fbc-9ae8-b60cbbe8c169",
+        "name": "Songcrafter Mage",
+        "weight": 61290
+      },
+      {
+        "uuid": "5cc57a65-08d3-5816-9408-10fffb64e1cc",
+        "name": "Trade Route Envoy",
+        "weight": 41300
+      },
+      {
+        "uuid": "5ce9463f-21d2-5fd3-b84c-2157b301bfec",
+        "name": "Dispelling Exhale",
+        "weight": 41300
+      },
+      {
+        "uuid": "5e2a5ac0-b602-58cd-8f06-ff4e75efbdaf",
+        "name": "Aggressive Negotiations",
+        "weight": 41300
+      },
+      {
+        "uuid": "5e66aa98-36e0-5c51-b5f6-1ae98b07a30e",
+        "name": "Wild Ride",
+        "weight": 41300
+      },
+      {
+        "uuid": "5eb5434e-6367-5549-ba1d-288621e8c10b",
+        "name": "Maelstrom of the Spirit Dragon",
+        "weight": 61290
+      },
+      {
+        "uuid": "5fd67db4-87e9-5c6c-8a06-6feddd08fca9",
+        "name": "Dragonologist",
+        "weight": 61290
+      },
+      {
+        "uuid": "62538893-cd6a-53a7-b0a8-c5ad1d6ef70a",
+        "name": "Duty Beyond Death",
+        "weight": 112644
+      },
+      {
+        "uuid": "62d2d50b-77ba-5cca-9558-5c5ec1c9e3d4",
+        "name": "Stormshriek Feral",
+        "weight": 41300
+      },
+      {
+        "uuid": "65c1fb47-dcd9-5c1f-8e49-1aa6ddb0a06d",
+        "name": "Flamehold Grappler",
+        "weight": 61290
+      },
+      {
+        "uuid": "66054d69-242f-502d-bc77-f780b6a8d13d",
+        "name": "Monastery Messenger",
+        "weight": 41300
+      },
+      {
+        "uuid": "67332abb-86e6-5b9e-8004-029166f90930",
+        "name": "Loxodon Battle Priest",
+        "weight": 112644
+      },
+      {
+        "uuid": "67875c08-75fd-51db-b288-149f7a894441",
+        "name": "Inevitable Defeat",
+        "weight": 61290
+      },
+      {
+        "uuid": "694dd7d6-68c3-5ff4-a95b-daf91496a2fd",
+        "name": "Narset's Rebuke",
+        "weight": 41300
+      },
+      {
+        "uuid": "69b8d250-ceaa-5702-b7cb-4565800ef102",
+        "name": "Sonic Shrieker",
+        "weight": 112644
+      },
+      {
+        "uuid": "6b914eca-41af-5ecb-8573-f214e584e6a1",
+        "name": "Fresh Start",
+        "weight": 112644
+      },
+      {
+        "uuid": "6dc09ffa-7a9b-5110-890b-7352b5bdf8b6",
+        "name": "Betor, Kin to All",
+        "weight": 30645
+      },
+      {
+        "uuid": "6e332de8-7b67-50e2-bcc0-33f5ae816ebd",
+        "name": "Kin-Tree Severance",
+        "weight": 112644
+      },
+      {
+        "uuid": "6ec5cd9b-aea6-54f0-8332-bc71ff98f5bb",
+        "name": "Craterhoof Behemoth",
+        "weight": 30645
+      },
+      {
+        "uuid": "6ecbb40f-83c3-5b74-be2b-fd3d1043e862",
+        "name": "Rediscover the Way",
+        "weight": 61290
+      },
+      {
+        "uuid": "6fa6dc8b-9935-50dc-8eb5-ca1edd39892c",
+        "name": "Kishla Village",
+        "weight": 61290
+      },
+      {
+        "uuid": "70c7b210-fc7f-5f73-83fd-458813deceee",
+        "name": "Fangkeeper's Familiar",
+        "weight": 61290
+      },
+      {
+        "uuid": "7103934d-6cff-5c0c-8a80-f0617c47a3a2",
+        "name": "Zurgo's Vanguard",
+        "weight": 112644
+      },
+      {
+        "uuid": "71247423-507b-5a6a-b29d-1d0e33e54d8c",
+        "name": "Essence Anchor",
+        "weight": 112644
+      },
+      {
+        "uuid": "71b4fc95-7bf8-5ab7-9a42-88048c9c4ba3",
+        "name": "Formation Breaker",
+        "weight": 112644
+      },
+      {
+        "uuid": "7301b2f7-461c-57e2-9ecb-895f6f1bb8fa",
+        "name": "Watcher of the Wayside",
+        "weight": 41300
+      },
+      {
+        "uuid": "7327d54b-3567-5419-911b-2097de8f779a",
+        "name": "Agent of Kotis",
+        "weight": 41300
+      },
+      {
+        "uuid": "760e6b1a-c1c9-5f1a-be46-a1fb6b85245b",
+        "name": "Anafenza, Unyielding Lineage",
+        "weight": 61290
+      },
+      {
+        "uuid": "76bdf413-e394-57ef-8eac-287016377485",
+        "name": "Herd Heirloom",
+        "weight": 61290
+      },
+      {
+        "uuid": "7703e3b6-8694-53fb-8e63-e17649e610b0",
+        "name": "Mistrise Village",
+        "weight": 61290
+      },
+      {
+        "uuid": "79d1d88e-a603-5f4f-a399-709a97289ae3",
+        "name": "Attuned Hunter",
+        "weight": 112644
+      },
+      {
+        "uuid": "79dfdc0b-b3fb-50d6-ad83-56aa0d61cd82",
+        "name": "Glacial Dragonhunt",
+        "weight": 112644
+      },
+      {
+        "uuid": "7ada5b5a-1f3a-5beb-b086-4bfddfa0e3ea",
+        "name": "Sagu Pummeler",
+        "weight": 41300
+      },
+      {
+        "uuid": "7cb21941-9187-52f7-9859-acf604a59373",
+        "name": "Narset, Jeskai Waymaster",
+        "weight": 61290
+      },
+      {
+        "uuid": "7d03cb0a-9c6e-5514-830b-4f7bc526c202",
+        "name": "Hardened Tactician",
+        "weight": 112644
+      },
+      {
+        "uuid": "7fb4b23d-c157-5a10-bd3b-c0e37cd2ee0e",
+        "name": "Dirgur Island Dragon",
+        "weight": 41300
+      },
+      {
+        "uuid": "8093c4a6-1844-5d2b-9a98-b0e0884701bb",
+        "name": "Stadium Headliner",
+        "weight": 61290
+      },
+      {
+        "uuid": "81702e04-ec5d-51df-9ae1-8edb49ad70df",
+        "name": "Stillness in Motion",
+        "weight": 61290
+      },
+      {
+        "uuid": "82150fed-3464-5f9e-bbab-336685b4540c",
+        "name": "Temur Battlecrier",
+        "weight": 61290
+      },
+      {
+        "uuid": "8345b71c-e5a8-5aa4-8915-e13fddf729b2",
+        "name": "Riverwheel Sweep",
+        "weight": 112644
+      },
+      {
+        "uuid": "845714ec-53bc-57f6-9066-c430842f43c2",
+        "name": "Sidisi, Regent of the Mire",
+        "weight": 61290
+      },
+      {
+        "uuid": "87dfbf12-7a6b-5720-b7b9-ac5826ba4568",
+        "name": "Dragon Sniper",
+        "weight": 112644
+      },
+      {
+        "uuid": "885d1973-b375-577f-a6bf-b7207aae3fe8",
+        "name": "Shiko, Paragon of the Way",
+        "weight": 30645
+      },
+      {
+        "uuid": "8903ebca-b7c9-5e4a-a80f-b840c4f8e22f",
+        "name": "The Sibsig Ceremony",
+        "weight": 61290
+      },
+      {
+        "uuid": "894620e7-f101-5f31-9a07-282a2233b3c7",
+        "name": "Hundred-Battle Veteran",
+        "weight": 112644
+      },
+      {
+        "uuid": "8a3d21cb-9061-5413-ae3c-e5e836359427",
+        "name": "Whirlwing Stormbrood",
+        "weight": 112644
+      },
+      {
+        "uuid": "8cd2944f-9bcf-5fea-870f-b18892ee869a",
+        "name": "Roar of Endless Song",
+        "weight": 61290
+      },
+      {
+        "uuid": "8ce55b02-57d2-5f8b-b9fc-62d59cc373a4",
+        "name": "Adorned Crocodile",
+        "weight": 41300
+      },
+      {
+        "uuid": "8f3d82fa-0978-536f-9b05-71ae9cae1726",
+        "name": "Jeskai Revelation",
+        "weight": 30645
+      },
+      {
+        "uuid": "8fe74dbd-e5a3-563c-a2f0-a88a6e1139c2",
+        "name": "Rebellious Strike",
+        "weight": 41300
+      },
+      {
+        "uuid": "900cac44-2838-54bd-a05f-55b123f2093d",
+        "name": "Dragon's Prey",
+        "weight": 41300
+      },
+      {
+        "uuid": "914298c5-4bfa-55e8-b398-25e109183c2f",
+        "name": "Cori-Steel Cutter",
+        "weight": 61290
+      },
+      {
+        "uuid": "9265667c-9d77-5f33-a70f-a070db00a117",
+        "name": "Twin Bolt",
+        "weight": 41300
+      },
+      {
+        "uuid": "926b2054-5a1e-54e3-8fb9-feea8c6cde33",
+        "name": "Arashin Sunshield",
+        "weight": 41300
+      },
+      {
+        "uuid": "926dfc80-8c5c-5cb2-bf53-18cf2a0bff01",
+        "name": "Marang River Regent",
+        "weight": 61290
+      },
+      {
+        "uuid": "9410b8b5-8f1f-5b9b-a9c3-ba199b8c5f3e",
+        "name": "Barrensteppe Siege",
+        "weight": 61290
+      },
+      {
+        "uuid": "94744d82-42c2-5e0d-a48f-73ea19c4c65a",
+        "name": "Dragonstorm Forecaster",
+        "weight": 112644
+      },
+      {
+        "uuid": "95358c96-720d-52fe-abc6-19cfdd6a943c",
+        "name": "Effortless Master",
+        "weight": 112644
+      },
+      {
+        "uuid": "95a09b28-a742-54e4-822c-9daedb6220e7",
+        "name": "Abzan Monument",
+        "weight": 112644
+      },
+      {
+        "uuid": "9709ca48-4092-5e8b-8e3e-c663bccec9af",
+        "name": "Stormscale Scion",
+        "weight": 30645
+      },
+      {
+        "uuid": "986e3fe2-b49e-5158-8e51-05f6da78ba79",
+        "name": "Voice of Victory",
+        "weight": 61290
+      },
+      {
+        "uuid": "986e47d9-6713-5c38-9adf-2f4629b9c2d9",
+        "name": "Krumar Initiate",
+        "weight": 112644
+      },
+      {
+        "uuid": "9898d496-cd30-5655-a951-b0f8788978e3",
+        "name": "Furious Forebear",
+        "weight": 112644
+      },
+      {
+        "uuid": "989d1917-e3fe-53b2-a4fa-8571dbf5b5bd",
+        "name": "Dragonback Assault",
+        "weight": 30645
+      },
+      {
+        "uuid": "997f1a78-c793-5f29-85be-6a5b3c4bf2e6",
+        "name": "Equilibrium Adept",
+        "weight": 112644
+      },
+      {
+        "uuid": "9982f6ef-e616-5b0d-ba61-7e8d3534c060",
+        "name": "Disruptive Stormbrood",
+        "weight": 112644
+      },
+      {
+        "uuid": "99d25e00-84b8-5fc2-9bac-342c8f512f35",
+        "name": "Embermouth Sentinel",
+        "weight": 41300
+      },
+      {
+        "uuid": "9aeded27-70dd-560c-a5f7-4f8a726630f9",
+        "name": "Sinkhole Surveyor",
+        "weight": 61290
+      },
+      {
+        "uuid": "9de42322-cb51-5a85-a711-766c4039ccdf",
+        "name": "Clarion Conqueror",
+        "weight": 61290
+      },
+      {
+        "uuid": "9e49031e-4985-5494-abb4-e322feec7c73",
+        "name": "Summit Intimidator",
+        "weight": 41300
+      },
+      {
+        "uuid": "a120f078-8422-5c90-b484-5287c4ad403c",
+        "name": "Nightblade Brigade",
+        "weight": 41300
+      },
+      {
+        "uuid": "a2951dcd-2e13-5d6c-99a9-29003cc65087",
+        "name": "Cruel Truths",
+        "weight": 41300
+      },
+      {
+        "uuid": "a496e8ba-a448-58c1-9332-973fd04d7027",
+        "name": "Sarkhan, Dragon Ascendant",
+        "weight": 61290
+      },
+      {
+        "uuid": "a56be8e0-36c9-5c52-857c-3183073126b9",
+        "name": "Coordinated Maneuver",
+        "weight": 41300
+      },
+      {
+        "uuid": "a5f35eb4-bbc3-5098-a5eb-edf804ee2607",
+        "name": "Qarsi Revenant",
+        "weight": 61290
+      },
+      {
+        "uuid": "a7f88b11-1920-5a9b-85bc-2abfa8e0092d",
+        "name": "Wayspeaker Bodyguard",
+        "weight": 112644
+      },
+      {
+        "uuid": "a80842a1-01ba-5d2d-946f-509a5cd7c84f",
+        "name": "Jeskai Brushmaster",
+        "weight": 112644
+      },
+      {
+        "uuid": "a81cb159-e6dd-576d-aacb-e672054798b4",
+        "name": "Ainok Wayfarer",
+        "weight": 41300
+      },
+      {
+        "uuid": "a8eb6e61-1382-51eb-b064-76ab52579b92",
+        "name": "Stormplain Detainment",
+        "weight": 41300
+      },
+      {
+        "uuid": "ac332121-208e-56a7-a086-f7110a62a53e",
+        "name": "Sage of the Skies",
+        "weight": 61290
+      },
+      {
+        "uuid": "ac3dfb86-94c2-58b9-a638-1fe550342653",
+        "name": "Rainveil Rejuvenator",
+        "weight": 112644
+      },
+      {
+        "uuid": "ad93fbdf-f66b-5566-9d1b-172a091b876d",
+        "name": "Seize Opportunity",
+        "weight": 41300
+      },
+      {
+        "uuid": "afa58949-29f5-5e73-a5a1-d725f320dfd2",
+        "name": "Rot-Curse Rakshasa",
+        "weight": 30645
+      },
+      {
+        "uuid": "b055ae1a-0c5e-56ab-87cf-3fcfe637d378",
+        "name": "Bewildering Blizzard",
+        "weight": 112644
+      },
+      {
+        "uuid": "b11a6f7f-5a67-50ca-b3ac-5836e92f25bc",
+        "name": "Wingspan Stride",
+        "weight": 41300
+      },
+      {
+        "uuid": "b13bfeb2-42ab-55d9-9295-cbd7adbf74b0",
+        "name": "Traveling Botanist",
+        "weight": 112644
+      },
+      {
+        "uuid": "b1befaad-d222-520e-aaf8-e284d0535c65",
+        "name": "Yathan Tombguard",
+        "weight": 112644
+      },
+      {
+        "uuid": "b241adf3-0d69-5855-99b9-84e095897fa7",
+        "name": "Auroral Procession",
+        "weight": 112644
+      },
+      {
+        "uuid": "b2bbcbbd-6695-5c01-9b4f-408c0d5d880c",
+        "name": "Feral Deathgorger",
+        "weight": 41300
+      },
+      {
+        "uuid": "b30a3061-ce20-54eb-b25c-7520aa76f8b7",
+        "name": "Scavenger Regent",
+        "weight": 61290
+      },
+      {
+        "uuid": "b39aa61c-7a73-5aad-b0cb-161437f86c10",
+        "name": "Rite of Renewal",
+        "weight": 112644
+      },
+      {
+        "uuid": "b509e306-9b7c-5493-aa45-5225cedf261c",
+        "name": "Thunder of Unity",
+        "weight": 61290
+      },
+      {
+        "uuid": "b569148b-9f90-5529-aaf4-b75719e8a227",
+        "name": "Lightfoot Technique",
+        "weight": 41300
+      },
+      {
+        "uuid": "b886d284-6601-5f4e-9e97-866135215388",
+        "name": "Starry-Eyed Skyrider",
+        "weight": 112644
+      },
+      {
+        "uuid": "ba163ee9-1825-51ab-9cd1-dda5d9788e4e",
+        "name": "Salt Road Packbeast",
+        "weight": 41300
+      },
+      {
+        "uuid": "bc64c117-3407-53e5-972a-37409853e2b2",
+        "name": "Unrooted Ancestor",
+        "weight": 112644
+      },
+      {
+        "uuid": "bd3efd17-1da9-5609-9c34-00fae8138145",
+        "name": "Riverwalk Technique",
+        "weight": 41300
+      },
+      {
+        "uuid": "c0f3427e-19ca-5a33-81c0-127db358fd84",
+        "name": "Sarkhan's Resolve",
+        "weight": 41300
+      },
+      {
+        "uuid": "c1f7ce4c-092d-5d47-8740-bf6357b2f239",
+        "name": "Felothar, Dawn of the Abzan",
+        "weight": 61290
+      },
+      {
+        "uuid": "c23b0e78-2752-5e1c-bbe8-781651b7157a",
+        "name": "Boulderborn Dragon",
+        "weight": 41300
+      },
+      {
+        "uuid": "c25c5b87-ec93-5767-a8e3-9a9d3e40521b",
+        "name": "Gurmag Nightwatch",
+        "weight": 41300
+      },
+      {
+        "uuid": "c3576a11-5eeb-58fd-b362-9a52682c3835",
+        "name": "Dragonstorm Globe",
+        "weight": 41300
+      },
+      {
+        "uuid": "c38a53e5-62b6-5a9d-b438-bcecde7ec4b8",
+        "name": "Wail of War",
+        "weight": 112644
+      },
+      {
+        "uuid": "c3d81c5f-7b82-57bd-bc32-6ab0ad13f467",
+        "name": "Mammoth Bellow",
+        "weight": 112644
+      },
+      {
+        "uuid": "c6508d07-4b04-5042-b097-97f66b908f83",
+        "name": "Armament Dragon",
+        "weight": 112644
+      },
+      {
+        "uuid": "c688ab18-c6fe-5c35-8331-0c976b86a1f4",
+        "name": "Zurgo, Thunder's Decree",
+        "weight": 61290
+      },
+      {
+        "uuid": "c6a95111-f7b3-58bc-b704-981ee44399fd",
+        "name": "Neriv, Heart of the Storm",
+        "weight": 30645
+      },
+      {
+        "uuid": "c70bfdc4-39fc-569e-849c-f9602d6f7331",
+        "name": "Kishla Trawlers",
+        "weight": 112644
+      },
+      {
+        "uuid": "cb884575-e62b-5a08-a3b1-a41dabc1856b",
+        "name": "United Battlefront",
+        "weight": 61290
+      },
+      {
+        "uuid": "cc54256c-4c49-5a08-b1fe-76a0b899998a",
+        "name": "Frontline Rush",
+        "weight": 112644
+      },
+      {
+        "uuid": "ccd54215-0baf-53d6-9533-6065f5a39fee",
+        "name": "Call the Spirit Dragons",
+        "weight": 30645
+      },
+      {
+        "uuid": "ccecdfae-a133-555c-83ce-f4bdba0b5a51",
+        "name": "Skirmish Rhino",
+        "weight": 112644
+      },
+      {
+        "uuid": "cd712915-c5b5-5588-98d6-f286f4761798",
+        "name": "Constrictor Sage",
+        "weight": 112644
+      },
+      {
+        "uuid": "cf43733f-454e-5f63-822b-e9aba7033731",
+        "name": "Revival of the Ancestors",
+        "weight": 61290
+      },
+      {
+        "uuid": "cf7aa213-1bcd-592d-8207-eb55fb8ee3af",
+        "name": "Underfoot Underdogs",
+        "weight": 41300
+      },
+      {
+        "uuid": "d0bbfe65-d93a-5227-b51d-1035e7bcf073",
+        "name": "Taigam, Master Opportunist",
+        "weight": 30645
+      },
+      {
+        "uuid": "d0c0963b-1c1c-57bd-9dd1-1c3c44c56ff3",
+        "name": "Temur Devotee",
+        "weight": 41300
+      },
+      {
+        "uuid": "d249c274-5f3f-57f4-9102-da6d0b515b75",
+        "name": "All-Out Assault",
+        "weight": 30645
+      },
+      {
+        "uuid": "d2a65357-3ec3-586d-9a8b-a5c2e30dd9fd",
+        "name": "Karakyk Guardian",
+        "weight": 112644
+      },
+      {
+        "uuid": "d2b9c781-b783-523d-b488-05c37af8b91f",
+        "name": "Frostcliff Siege",
+        "weight": 61290
+      },
+      {
+        "uuid": "d3263501-ae28-5838-b397-54c13f5f6c7b",
+        "name": "Bone-Cairn Butcher",
+        "weight": 112644
+      },
+      {
+        "uuid": "d32e3ca2-2918-5c4c-b6b9-9d14d861190a",
+        "name": "Wingblade Disciple",
+        "weight": 112644
+      },
+      {
+        "uuid": "d52e5552-338f-5e19-a813-4270dff6da25",
+        "name": "Salt Road Skirmish",
+        "weight": 112644
+      },
+      {
+        "uuid": "d776213e-0bf8-531c-b61f-1ac18957b728",
+        "name": "Dragonclaw Strike",
+        "weight": 112644
+      },
+      {
+        "uuid": "d7bae76c-6406-5303-87f5-05ba4c19d6f0",
+        "name": "Yathan Roadwatcher",
+        "weight": 61290
+      },
+      {
+        "uuid": "d859d0c0-142c-5f69-a3dd-9b1995fb2f4e",
+        "name": "Shocking Sharpshooter",
+        "weight": 112644
+      },
+      {
+        "uuid": "d98af773-ed46-5b78-8f36-cf9cddcbeafe",
+        "name": "Unburied Earthcarver",
+        "weight": 41300
+      },
+      {
+        "uuid": "da9218fe-9065-5bb1-8440-c33f863be247",
+        "name": "Dalkovan Packbeasts",
+        "weight": 112644
+      },
+      {
+        "uuid": "dca7b69f-246e-52fd-83dc-e2f452522064",
+        "name": "Mystic Monastery",
+        "weight": 112644
+      },
+      {
+        "uuid": "dd0cb2f7-d303-54e5-b78b-95f9ad6bd31b",
+        "name": "Fortress Kin-Guard",
+        "weight": 41300
+      },
+      {
+        "uuid": "ddd08f46-d88d-5e04-a552-5441d40b37ff",
+        "name": "Dalkovan Encampment",
+        "weight": 61290
+      },
+      {
+        "uuid": "df234add-39ff-5e67-b013-3ac29eb57150",
+        "name": "Highspire Bell-Ringer",
+        "weight": 41300
+      },
+      {
+        "uuid": "df6caa4f-d16e-5115-9ea5-11962a8b64cd",
+        "name": "Molten Exhale",
+        "weight": 41300
+      },
+      {
+        "uuid": "e0074151-d042-5905-94d6-311ddc91eef1",
+        "name": "Mardu Siegebreaker",
+        "weight": 61290
+      },
+      {
+        "uuid": "e12cf1d0-7e91-50da-b53f-6c135c2d51b8",
+        "name": "Rally the Monastery",
+        "weight": 112644
+      },
+      {
+        "uuid": "e5aecc5e-d228-5a3c-a2c0-e029dbd8b994",
+        "name": "Fleeting Effigy",
+        "weight": 112644
+      },
+      {
+        "uuid": "e5d0f341-c801-59dd-8a79-bee331fb8432",
+        "name": "Rakshasa's Bargain",
+        "weight": 112644
+      },
+      {
+        "uuid": "e77b3601-57bf-5e9f-a6d5-93d3e8d2ea76",
+        "name": "Devoted Duelist",
+        "weight": 41300
+      },
+      {
+        "uuid": "e89ec9d4-6752-5288-b513-b31a32bb5c71",
+        "name": "Descendant of Storms",
+        "weight": 112644
+      },
+      {
+        "uuid": "ea33b50c-09a0-5f64-a692-33f1abc8e4e1",
+        "name": "Twinmaw Stormbrood",
+        "weight": 112644
+      },
+      {
+        "uuid": "ee243735-5c81-5e07-876b-d17ca48e4c5c",
+        "name": "Kishla Skimmer",
+        "weight": 112644
+      },
+      {
+        "uuid": "ef01dc6e-35e8-5e01-a70f-b6b6189580c3",
+        "name": "Gurmag Rakshasa",
+        "weight": 112644
+      },
+      {
+        "uuid": "f0139f32-f199-51d9-ac76-1cb6b677c851",
+        "name": "Lie in Wait",
+        "weight": 112644
+      },
+      {
+        "uuid": "f05d3b0a-d43d-5b63-b7a4-eac882267f03",
+        "name": "Opulent Palace",
+        "weight": 112644
+      },
+      {
+        "uuid": "f265e641-80a3-5c2b-9678-10163d39d311",
+        "name": "Mardu Monument",
+        "weight": 112644
+      },
+      {
+        "uuid": "f39f0a34-b27f-5842-9f57-4c9951491f77",
+        "name": "Defibrillating Current",
+        "weight": 112644
+      },
+      {
+        "uuid": "f3be5f9d-3487-52e1-8a60-26d1dea58930",
+        "name": "Undergrowth Leopard",
+        "weight": 41300
+      },
+      {
+        "uuid": "f3d6e464-e338-5266-8ffb-7c05062c524d",
+        "name": "Ureni, the Song Unending",
+        "weight": 30645
+      },
+      {
+        "uuid": "f46400e2-8d3f-5720-87b5-83e25aa88163",
+        "name": "Alesha's Legacy",
+        "weight": 41300
+      },
+      {
+        "uuid": "f5bd431d-2983-52ba-88db-0cf0349f540d",
+        "name": "Synchronized Charge",
+        "weight": 112644
+      },
+      {
+        "uuid": "f79c0e7e-3d74-5fd4-bfc4-a321f2e1b042",
+        "name": "Sage of the Fang",
+        "weight": 112644
+      },
+      {
+        "uuid": "f7d05183-821d-57ff-ac3d-210dee74c890",
+        "name": "Magmatic Hellkite",
+        "weight": 61290
+      },
+      {
+        "uuid": "fa293b8d-3b65-5ce3-a99e-dad6261e62dc",
+        "name": "Desperate Measures",
+        "weight": 112644
+      },
+      {
+        "uuid": "ff73bc5b-1558-5462-86dc-05c295387262",
+        "name": "Host of the Hereafter",
+        "weight": 112644
+      },
+      {
+        "uuid": "ff94af76-5353-599a-9a44-886a205cec62",
+        "name": "Meticulous Artisan",
+        "weight": 41300
+      }
+    ]
+  }
+}

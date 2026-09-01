@@ -1,0 +1,4475 @@
+{
+  "common": {
+    "cards": [
+      {
+        "uuid": "0176c95a-ed88-5b6c-96ee-b8172d6c70aa",
+        "name": "Walltop Sentries",
+        "weight": 1
+      },
+      {
+        "uuid": "0371ee84-a321-5318-8bf8-c380fb8905c3",
+        "name": "Badgermole",
+        "weight": 1
+      },
+      {
+        "uuid": "039b9a3c-dec1-53e4-a4e0-5809b3f06298",
+        "name": "Bender's Waterskin",
+        "weight": 1
+      },
+      {
+        "uuid": "080c2416-ae8d-528f-8dac-94a2fdadd149",
+        "name": "Rough Rhino Cavalry",
+        "weight": 1
+      },
+      {
+        "uuid": "0b544a38-63f3-51a6-8858-0d62a1374ec3",
+        "name": "Kyoshi Battle Fan",
+        "weight": 1
+      },
+      {
+        "uuid": "0bd4fb84-2fa3-52fc-9db2-c539c21d1d10",
+        "name": "Waterbending Lesson",
+        "weight": 1
+      },
+      {
+        "uuid": "0c7333dd-289f-5132-a0e6-440defc2eb6d",
+        "name": "Mongoose Lizard",
+        "weight": 1
+      },
+      {
+        "uuid": "101dccf8-884a-5e01-aa1f-8eeb94e2243f",
+        "name": "Fire Nation Cadets",
+        "weight": 1
+      },
+      {
+        "uuid": "17b6a9d8-de10-5d62-a513-dd6a19b145f4",
+        "name": "Earthbending Lesson",
+        "weight": 1
+      },
+      {
+        "uuid": "19f845cd-da78-5f5a-a215-41bad95de1d2",
+        "name": "Lightning Strike",
+        "weight": 1
+      },
+      {
+        "uuid": "210e1db8-6579-5e48-ae3b-8a145b4956bc",
+        "name": "Geyser Leaper",
+        "weight": 1
+      },
+      {
+        "uuid": "2e3dad63-5928-5a64-b26f-1bae28c22cf3",
+        "name": "Sandbenders' Storm",
+        "weight": 1
+      },
+      {
+        "uuid": "3360c8c4-3e31-562a-bcdc-0d6b731eaf92",
+        "name": "Curious Farm Animals",
+        "weight": 1
+      },
+      {
+        "uuid": "3605fea0-57a4-51e2-b5db-00c0cd59d2f6",
+        "name": "Pirate Peddlers",
+        "weight": 1
+      },
+      {
+        "uuid": "37f35666-52fe-5099-819e-64bc6553b36e",
+        "name": "Pretending Poxbearers",
+        "weight": 1
+      },
+      {
+        "uuid": "400341f8-cbf5-558a-84ba-a2aead8d0fcf",
+        "name": "Water Tribe Captain",
+        "weight": 1
+      },
+      {
+        "uuid": "416e72c7-cebd-57f5-9a0e-f8cd5fd2e2e9",
+        "name": "Foggy Swamp Vinebender",
+        "weight": 1
+      },
+      {
+        "uuid": "4d2cb3b4-1f3b-5476-9bc5-f2a68d85e146",
+        "name": "Dai Li Indoctrination",
+        "weight": 1
+      },
+      {
+        "uuid": "4e6d8aec-a1c7-55b3-867b-c551e7182c5d",
+        "name": "Earth Rumble Wrestlers",
+        "weight": 1
+      },
+      {
+        "uuid": "50f37e53-37bb-537a-90cc-44d73efd428f",
+        "name": "Corrupt Court Official",
+        "weight": 1
+      },
+      {
+        "uuid": "51cc9284-f318-5412-9d74-8e8012e44ff9",
+        "name": "Wandering Musicians",
+        "weight": 1
+      },
+      {
+        "uuid": "58e63f24-2aa7-5f75-9555-8249ebe26886",
+        "name": "Turtle-Duck",
+        "weight": 1
+      },
+      {
+        "uuid": "5bd8e6ab-ff6d-5545-9de6-cf1454f0cc78",
+        "name": "Lost Days",
+        "weight": 1
+      },
+      {
+        "uuid": "687207c6-4c20-5529-a5e7-d9c1d8870525",
+        "name": "Deadly Precision",
+        "weight": 1
+      },
+      {
+        "uuid": "6e180c3d-6f1a-5b51-8116-2d6f4376cffd",
+        "name": "Hog-Monkey",
+        "weight": 1
+      },
+      {
+        "uuid": "6eff5dbd-d3fb-518e-b5e1-28bbfae0f2fc",
+        "name": "Beetle-Headed Merchants",
+        "weight": 1
+      },
+      {
+        "uuid": "714ab7fe-f8d1-5b5f-bf89-f5d59d69f9f1",
+        "name": "Flexible Waterbender",
+        "weight": 1
+      },
+      {
+        "uuid": "72b8a11b-d238-545a-b2f4-4bdc1f994289",
+        "name": "Barrels of Blasting Jelly",
+        "weight": 1
+      },
+      {
+        "uuid": "7575f32d-66dc-52dd-b616-a277b3bae4d9",
+        "name": "Glider Kids",
+        "weight": 1
+      },
+      {
+        "uuid": "768914cc-69e0-5fc2-9b7a-b90dc66bf9dc",
+        "name": "Firebending Lesson",
+        "weight": 1
+      },
+      {
+        "uuid": "76d70ede-6a05-580a-9f12-5aec082b5fab",
+        "name": "Platypus-Bear",
+        "weight": 1
+      },
+      {
+        "uuid": "779918b4-dc87-597d-98c7-ec7d9c54fabe",
+        "name": "Watery Grasp",
+        "weight": 1
+      },
+      {
+        "uuid": "78ae5dbe-278f-5935-a89f-b524643410fe",
+        "name": "Forecasting Fortune Teller",
+        "weight": 1
+      },
+      {
+        "uuid": "78e56493-209f-5836-943c-505b10ca3835",
+        "name": "Rabaroo Troop",
+        "weight": 1
+      },
+      {
+        "uuid": "7c0c6c83-973b-5085-8c35-29e73257996f",
+        "name": "Origin of Metalbending",
+        "weight": 1
+      },
+      {
+        "uuid": "7da35d1a-a633-5464-a965-57028f5d331e",
+        "name": "Abandon Attachments",
+        "weight": 1
+      },
+      {
+        "uuid": "815dd3fa-79e0-5583-943a-54eb9f61a713",
+        "name": "First-Time Flyer",
+        "weight": 1
+      },
+      {
+        "uuid": "8583c986-d0cb-5a4c-8ba1-ccb203743e83",
+        "name": "Rocky Rebuke",
+        "weight": 1
+      },
+      {
+        "uuid": "8a91c01c-308d-5e22-85a0-d7ae90096e1e",
+        "name": "Boar-q-pine",
+        "weight": 1
+      },
+      {
+        "uuid": "8b8210e3-c635-5042-aa80-e3041dce59ce",
+        "name": "Merchant of Many Hats",
+        "weight": 1
+      },
+      {
+        "uuid": "8c9b85a0-6eb2-5ecb-9acc-c7d6aa0b4a2a",
+        "name": "Saber-Tooth Moose-Lion",
+        "weight": 1
+      },
+      {
+        "uuid": "8ffcc49b-a543-5bfa-8c17-e5db4f4913f1",
+        "name": "Swampsnare Trap",
+        "weight": 1
+      },
+      {
+        "uuid": "911b1250-6802-5513-a6d5-83433e47ddc6",
+        "name": "Ostrich-Horse",
+        "weight": 1
+      },
+      {
+        "uuid": "9936adbf-a9b0-5eb1-b369-f4c1ff315653",
+        "name": "Raucous Audience",
+        "weight": 1
+      },
+      {
+        "uuid": "9a2af7e0-8912-50f2-a4f2-e74bb332f0cf",
+        "name": "Rowdy Snowballers",
+        "weight": 1
+      },
+      {
+        "uuid": "9d9e3854-a087-5e5f-b20c-ae2571338efe",
+        "name": "Earth Village Ruffians",
+        "weight": 1
+      },
+      {
+        "uuid": "9dd06d5e-823b-50b1-80d1-e2b89b6a6ab6",
+        "name": "Cycle of Renewal",
+        "weight": 1
+      },
+      {
+        "uuid": "a35980d3-98ec-571c-80c6-89f9c4c07558",
+        "name": "Cat-Owl",
+        "weight": 1
+      },
+      {
+        "uuid": "a5dd8ed8-7cd3-526b-879d-4b434a1af81c",
+        "name": "Pillar Launch",
+        "weight": 1
+      },
+      {
+        "uuid": "a9dc0b5d-7a78-564a-84f6-32f011096d57",
+        "name": "Vindictive Warden",
+        "weight": 1
+      },
+      {
+        "uuid": "b29fbeb2-15d2-5def-b45a-53437a7c03bc",
+        "name": "Jeong Jeong's Deserters",
+        "weight": 1
+      },
+      {
+        "uuid": "b4375b91-4eed-54c5-8a5f-e3a86b88f42e",
+        "name": "Otter-Penguin",
+        "weight": 1
+      },
+      {
+        "uuid": "b622b374-5fef-59bc-812f-30f04a82e9ff",
+        "name": "Cunning Maneuver",
+        "weight": 1
+      },
+      {
+        "uuid": "b69e7a9b-c3cd-5a75-81a6-25d0f913d8c2",
+        "name": "Path to Redemption",
+        "weight": 1
+      },
+      {
+        "uuid": "b81b7b7a-ab94-5fc4-98c4-fc914a70dec2",
+        "name": "Razor Rings",
+        "weight": 1
+      },
+      {
+        "uuid": "baf813e4-db62-586f-b96c-541bf20c5b5b",
+        "name": "Deserter's Disciple",
+        "weight": 1
+      },
+      {
+        "uuid": "beece50e-75b8-5c60-acdb-ad76db66d921",
+        "name": "Sold Out",
+        "weight": 1
+      },
+      {
+        "uuid": "c0d789d2-b596-55de-829d-d00afa617385",
+        "name": "Compassionate Healer",
+        "weight": 1
+      },
+      {
+        "uuid": "c14cab51-b68e-5431-b18c-5a7de3e59e69",
+        "name": "Giant Koi",
+        "weight": 1
+      },
+      {
+        "uuid": "c1ef4f81-ba5f-5617-be83-9e3d7df55023",
+        "name": "Avatar Enthusiasts",
+        "weight": 1
+      },
+      {
+        "uuid": "ce957309-289c-5687-a7ae-67d4bca8aa8e",
+        "name": "It'll Quench Ya!",
+        "weight": 1
+      },
+      {
+        "uuid": "cf4481e4-c5f6-5c45-a12d-7cb4040a579e",
+        "name": "Callous Inspector",
+        "weight": 1
+      },
+      {
+        "uuid": "d22a3184-2916-50b1-9636-b55ea18518ef",
+        "name": "Fire Nation Raider",
+        "weight": 1
+      },
+      {
+        "uuid": "d50fb8c4-49b0-5510-9601-6e94b07dd665",
+        "name": "Canyon Crawler",
+        "weight": 1
+      },
+      {
+        "uuid": "d5d9fa0e-4dc7-5a6a-a54c-c8c5fa55a575",
+        "name": "Iguana Parrot",
+        "weight": 1
+      },
+      {
+        "uuid": "d8575081-ffc8-505f-89d3-19b84f550460",
+        "name": "Earth Kingdom Soldier",
+        "weight": 1
+      },
+      {
+        "uuid": "dbdf6674-824b-5c7f-9a02-31c5456c79bd",
+        "name": "Kyoshi Warriors",
+        "weight": 1
+      },
+      {
+        "uuid": "df34b2fd-a1fc-54fb-9250-d72d6fd9b915",
+        "name": "Aang's Journey",
+        "weight": 1
+      },
+      {
+        "uuid": "e07eea37-a298-5905-826f-8b8ae8d23663",
+        "name": "Zuko's Exile",
+        "weight": 1
+      },
+      {
+        "uuid": "e0faae2e-d27b-5eea-ba54-fac256468662",
+        "name": "Azula Always Lies",
+        "weight": 1
+      },
+      {
+        "uuid": "e19b2be2-a632-5e2e-8387-39a845ff6e71",
+        "name": "How to Start a Riot",
+        "weight": 1
+      },
+      {
+        "uuid": "e3e6f878-a591-5eb1-a813-98be55e7d52f",
+        "name": "Bumi Bash",
+        "weight": 1
+      },
+      {
+        "uuid": "e6c60ad7-59c3-5050-a7e8-85269abb6010",
+        "name": "Treetop Freedom Fighters",
+        "weight": 1
+      },
+      {
+        "uuid": "f201fe55-d34a-5a59-ab86-5911f5e1ee03",
+        "name": "Foggy Swamp Hunters",
+        "weight": 1
+      },
+      {
+        "uuid": "f7cea9c2-da9c-56cc-8ef8-94ac9211526b",
+        "name": "Rebellious Captives",
+        "weight": 1
+      },
+      {
+        "uuid": "f7e688a5-0912-59e1-96a3-7d05d4f9051e",
+        "name": "Messenger Hawk",
+        "weight": 1
+      },
+      {
+        "uuid": "f942bbc8-da13-5983-a60e-5c0f98852d73",
+        "name": "Airbending Lesson",
+        "weight": 1
+      },
+      {
+        "uuid": "f99cc254-6135-562a-89ba-ee7d6aa334f0",
+        "name": "Yip Yip!",
+        "weight": 1
+      },
+      {
+        "uuid": "faea691e-3ed1-5246-a360-c54ea98e641f",
+        "name": "Rumble Arena",
+        "weight": 1
+      },
+      {
+        "uuid": "fddcdfe5-2013-59d6-a4c4-8e2ac1daf86b",
+        "name": "Octopus Form",
+        "weight": 1
+      },
+      {
+        "uuid": "ff12eb1c-6e28-5448-aeae-1b015b34714e",
+        "name": "Yuyan Archers",
+        "weight": 1
+      }
+    ]
+  },
+  "foilReplacement": {
+    "cards": [
+      {
+        "uuid": "013a24c3-f872-5fe8-9b68-acfa271770d1",
+        "name": "Epic Downfall",
+        "weight": 3605418
+      },
+      {
+        "uuid": "0176c95a-ed88-5b6c-96ee-b8172d6c70aa",
+        "name": "Walltop Sentries",
+        "weight": 7167160
+      },
+      {
+        "uuid": "01c56a0c-d2ed-5af5-be47-29c2f84ede91",
+        "name": "Katara, Water Tribe's Hope",
+        "weight": 1202850
+      },
+      {
+        "uuid": "02fe4019-ae2e-53fc-b011-46dec318bde8",
+        "name": "The Lion-Turtle",
+        "weight": 1202850
+      },
+      {
+        "uuid": "0371ee84-a321-5318-8bf8-c380fb8905c3",
+        "name": "Badgermole",
+        "weight": 7167160
+      },
+      {
+        "uuid": "039b9a3c-dec1-53e4-a4e0-5809b3f06298",
+        "name": "Bender's Waterskin",
+        "weight": 7167160
+      },
+      {
+        "uuid": "05a3588f-8eea-55dd-82be-b951e46a0442",
+        "name": "United Front",
+        "weight": 697653
+      },
+      {
+        "uuid": "075af7e1-cf8a-5da5-9c69-a1c984b23edd",
+        "name": "Secret Tunnel",
+        "weight": 1202850
+      },
+      {
+        "uuid": "07749abf-369c-5b51-9096-8801b9700e7a",
+        "name": "Airbender Ascension",
+        "weight": 1202850
+      },
+      {
+        "uuid": "080c2416-ae8d-528f-8dac-94a2fdadd149",
+        "name": "Rough Rhino Cavalry",
+        "weight": 7167160
+      },
+      {
+        "uuid": "086f3893-c1d1-5bfa-97ca-31a9926cf112",
+        "name": "Price of Freedom",
+        "weight": 3605418
+      },
+      {
+        "uuid": "0b544a38-63f3-51a6-8858-0d62a1374ec3",
+        "name": "Kyoshi Battle Fan",
+        "weight": 7167160
+      },
+      {
+        "uuid": "0bd4fb84-2fa3-52fc-9db2-c539c21d1d10",
+        "name": "Waterbending Lesson",
+        "weight": 7167160
+      },
+      {
+        "uuid": "0c7333dd-289f-5132-a0e6-440defc2eb6d",
+        "name": "Mongoose Lizard",
+        "weight": 7167160
+      },
+      {
+        "uuid": "0d3cf771-cde0-5587-b82e-a5298403920c",
+        "name": "Bumi, Unleashed",
+        "weight": 697653
+      },
+      {
+        "uuid": "0d694d88-d0f9-5ddd-aa7f-1d4e1f585ae5",
+        "name": "Professor Zei, Anthropologist",
+        "weight": 3605418
+      },
+      {
+        "uuid": "0f15e5c1-0525-5039-9ee1-079f79918f38",
+        "name": "Mai, Scornful Striker",
+        "weight": 1202850
+      },
+      {
+        "uuid": "101dccf8-884a-5e01-aa1f-8eeb94e2243f",
+        "name": "Fire Nation Cadets",
+        "weight": 7167160
+      },
+      {
+        "uuid": "10275615-0113-5dad-a043-4c44d44c97b8",
+        "name": "The Fire Nation Drill",
+        "weight": 1202850
+      },
+      {
+        "uuid": "11488d70-a0b9-565c-a022-c6ae6b3ca827",
+        "name": "Fatal Fissure",
+        "weight": 3605418
+      },
+      {
+        "uuid": "1222672d-e5f8-5ca5-9a42-787103132456",
+        "name": "Invasion Reinforcements",
+        "weight": 3605418
+      },
+      {
+        "uuid": "1425e196-7850-557d-9ca8-02faef851926",
+        "name": "Team Avatar",
+        "weight": 3605418
+      },
+      {
+        "uuid": "17b6a9d8-de10-5d62-a513-dd6a19b145f4",
+        "name": "Earthbending Lesson",
+        "weight": 7167160
+      },
+      {
+        "uuid": "191b6587-cbc0-5b59-89f0-af0c20f916b6",
+        "name": "Katara, Bending Prodigy",
+        "weight": 3605418
+      },
+      {
+        "uuid": "196d3d60-e284-5d4d-b45b-e50892ff1feb",
+        "name": "The Legend of Yangchen",
+        "weight": 697653
+      },
+      {
+        "uuid": "19c1139e-9cef-5418-8f7d-22c46e899b43",
+        "name": "Toph, the First Metalbender",
+        "weight": 1202850
+      },
+      {
+        "uuid": "19f845cd-da78-5f5a-a215-41bad95de1d2",
+        "name": "Lightning Strike",
+        "weight": 7167160
+      },
+      {
+        "uuid": "1afc0384-c472-58ce-84c7-7ae8fbb2c9ba",
+        "name": "White Lotus Hideout",
+        "weight": 3605418
+      },
+      {
+        "uuid": "1b9088d0-d044-5ff9-afae-a9980464a0fa",
+        "name": "Destined Confrontation",
+        "weight": 3605418
+      },
+      {
+        "uuid": "1cad62bc-07b5-56bf-b90f-88ed16eb5b99",
+        "name": "Hermitic Herbalist",
+        "weight": 3605418
+      },
+      {
+        "uuid": "1ce48d2e-4e92-5523-9801-2d9c1e8da706",
+        "name": "Hei Bai, Spirit of Balance",
+        "weight": 3605418
+      },
+      {
+        "uuid": "1e7f20cb-d4f0-54d0-a9f2-fe6263014b2d",
+        "name": "Toph, Hardheaded Teacher",
+        "weight": 1202850
+      },
+      {
+        "uuid": "1edb9325-ce24-5b9c-ab9b-6b30015d94f5",
+        "name": "Fancy Footwork",
+        "weight": 3605418
+      },
+      {
+        "uuid": "1fdf2ebb-c62f-5299-b07c-8a20a7728b35",
+        "name": "Secret of Bloodbending",
+        "weight": 697653
+      },
+      {
+        "uuid": "2054f0fd-89f2-575d-8ef1-ea4b065ed323",
+        "name": "Crashing Wave",
+        "weight": 3605418
+      },
+      {
+        "uuid": "210e1db8-6579-5e48-ae3b-8a145b4956bc",
+        "name": "Geyser Leaper",
+        "weight": 7167160
+      },
+      {
+        "uuid": "243d801b-a395-5c97-bc6c-5ad72f252131",
+        "name": "Foggy Swamp Spirit Keeper",
+        "weight": 3605418
+      },
+      {
+        "uuid": "2945f6f3-5b4f-57e6-8b89-bce5beaf7015",
+        "name": "Beifong's Bounty Hunters",
+        "weight": 1202850
+      },
+      {
+        "uuid": "29f100d0-621a-5804-93a2-e799bf603167",
+        "name": "Unlucky Cabbage Merchant",
+        "weight": 3605418
+      },
+      {
+        "uuid": "2a5bd62d-e060-53e5-87e0-8ae2a5dec2fd",
+        "name": "Boiling Rock Rioter",
+        "weight": 1202850
+      },
+      {
+        "uuid": "2b685910-02ad-563a-b1fb-51df684aae26",
+        "name": "The Mechanist, Aerial Artisan",
+        "weight": 1202850
+      },
+      {
+        "uuid": "2d135290-3f8b-51fa-a4c6-c80bdfae3119",
+        "name": "Great Divide Guide",
+        "weight": 1202850
+      },
+      {
+        "uuid": "2e3dad63-5928-5a64-b26f-1bae28c22cf3",
+        "name": "Sandbenders' Storm",
+        "weight": 7167160
+      },
+      {
+        "uuid": "2e804d75-000f-5af7-8dda-26325b72b3e9",
+        "name": "Enter the Avatar State",
+        "weight": 3605418
+      },
+      {
+        "uuid": "2ef4c407-cc9a-5cc5-ad8b-8fa6be326fdf",
+        "name": "Earth Kingdom Protectors",
+        "weight": 3605418
+      },
+      {
+        "uuid": "2f9c975c-d4b6-5b3b-a551-026efb82f6a0",
+        "name": "Northern Air Temple",
+        "weight": 3605418
+      },
+      {
+        "uuid": "31ab91f3-c2cd-576a-81fe-e2a89c6a8cba",
+        "name": "Zuko, Exiled Prince",
+        "weight": 3605418
+      },
+      {
+        "uuid": "3360c8c4-3e31-562a-bcdc-0d6b731eaf92",
+        "name": "Curious Farm Animals",
+        "weight": 7167160
+      },
+      {
+        "uuid": "34019706-f154-5fc8-a836-5d48e55fcf21",
+        "name": "Fire Lord Azula",
+        "weight": 1202850
+      },
+      {
+        "uuid": "3605fea0-57a4-51e2-b5db-00c0cd59d2f6",
+        "name": "Pirate Peddlers",
+        "weight": 7167160
+      },
+      {
+        "uuid": "3660c2d0-ce55-5fa5-bb6a-456f7fc3cb48",
+        "name": "Zhao, the Moon Slayer",
+        "weight": 1202850
+      },
+      {
+        "uuid": "36f79026-030f-5af4-94b1-0a7ed1935c09",
+        "name": "Iroh, Tea Master",
+        "weight": 1202850
+      },
+      {
+        "uuid": "36f85221-4d19-53fe-8029-669cf45e400f",
+        "name": "Fire Nation Warship",
+        "weight": 3605418
+      },
+      {
+        "uuid": "37f35666-52fe-5099-819e-64bc6553b36e",
+        "name": "Pretending Poxbearers",
+        "weight": 7167160
+      },
+      {
+        "uuid": "3b055a7f-7ce3-5abe-8fed-296dbd6a9f95",
+        "name": "Diligent Zookeeper",
+        "weight": 1202850
+      },
+      {
+        "uuid": "3c8b4e69-ae3a-54f7-9079-6d3f4ad844eb",
+        "name": "Dai Li Agents",
+        "weight": 3605418
+      },
+      {
+        "uuid": "3cae0412-e269-56b9-a6b9-4cd513e98961",
+        "name": "Hakoda, Selfless Commander",
+        "weight": 1202850
+      },
+      {
+        "uuid": "3d0bcd9b-3ccf-5c93-a90f-ddf556fc581a",
+        "name": "Water Tribe Rallier",
+        "weight": 3605418
+      },
+      {
+        "uuid": "3db733ea-9d27-505a-8a92-fdc95e35e4f2",
+        "name": "South Pole Voyager",
+        "weight": 1202850
+      },
+      {
+        "uuid": "3e47a0bc-6140-59d9-a39c-525371b34ec5",
+        "name": "Aang, the Last Airbender",
+        "weight": 3605418
+      },
+      {
+        "uuid": "3e7df4d4-b9dc-5c15-9544-410a72ea0b40",
+        "name": "Jet, Freedom Fighter",
+        "weight": 3605418
+      },
+      {
+        "uuid": "3ffc422e-e1a7-5ccf-bcb6-39ca1e7c1ee2",
+        "name": "Yue, the Moon Spirit",
+        "weight": 1202850
+      },
+      {
+        "uuid": "400341f8-cbf5-558a-84ba-a2aead8d0fcf",
+        "name": "Water Tribe Captain",
+        "weight": 7167160
+      },
+      {
+        "uuid": "404e3e1b-bbf2-5108-b297-153e032a54f5",
+        "name": "Invasion Submersible",
+        "weight": 3605418
+      },
+      {
+        "uuid": "4055d3be-a450-50db-bf8d-474ecad37d7d",
+        "name": "Seismic Sense",
+        "weight": 3605418
+      },
+      {
+        "uuid": "4063d9e7-72d2-5750-aeab-b75b3743cd39",
+        "name": "Sokka's Haiku",
+        "weight": 3605418
+      },
+      {
+        "uuid": "41294dd8-6c0d-5657-9ecb-c7e94e0bc479",
+        "name": "The Walls of Ba Sing Se",
+        "weight": 697653
+      },
+      {
+        "uuid": "416e72c7-cebd-57f5-9a0e-f8cd5fd2e2e9",
+        "name": "Foggy Swamp Vinebender",
+        "weight": 7167160
+      },
+      {
+        "uuid": "418e70d5-32d4-5ce9-8dda-b12783003292",
+        "name": "Suki, Kyoshi Warrior",
+        "weight": 3605418
+      },
+      {
+        "uuid": "42175074-111f-5af2-9bc0-65d8949dec25",
+        "name": "Zuko's Conviction",
+        "weight": 3605418
+      },
+      {
+        "uuid": "43e1dc7b-5d28-5604-9998-1959b09c48f1",
+        "name": "Zhao, Ruthless Admiral",
+        "weight": 3605418
+      },
+      {
+        "uuid": "49388d79-ebd5-5fca-9882-d5ac3a7b4149",
+        "name": "Azula, Cunning Usurper",
+        "weight": 1202850
+      },
+      {
+        "uuid": "49860d80-ba96-535a-9160-88d40a5f115d",
+        "name": "Cruel Administrator",
+        "weight": 3605418
+      },
+      {
+        "uuid": "4a7964de-2966-5bea-a260-999bbebb90e8",
+        "name": "Rockalanche",
+        "weight": 3605418
+      },
+      {
+        "uuid": "4a95c4c4-1017-57fb-907d-d38969186295",
+        "name": "Ember Island Production",
+        "weight": 3605418
+      },
+      {
+        "uuid": "4b2ae968-5328-55a4-b81f-f866a94cc211",
+        "name": "June, Bounty Hunter",
+        "weight": 3605418
+      },
+      {
+        "uuid": "4b71e29f-628f-5539-8171-f314d2c34154",
+        "name": "Wan Shi Tong, Librarian",
+        "weight": 697653
+      },
+      {
+        "uuid": "4cae08b9-9b83-5685-b06f-39e0638704fc",
+        "name": "Fire Sages",
+        "weight": 3605418
+      },
+      {
+        "uuid": "4cdbf8a4-fdb0-5d85-afa0-776698a7c8e3",
+        "name": "Fire Navy Trebuchet",
+        "weight": 3605418
+      },
+      {
+        "uuid": "4d2cb3b4-1f3b-5476-9bc5-f2a68d85e146",
+        "name": "Dai Li Indoctrination",
+        "weight": 7167160
+      },
+      {
+        "uuid": "4e6d8aec-a1c7-55b3-867b-c551e7182c5d",
+        "name": "Earth Rumble Wrestlers",
+        "weight": 7167160
+      },
+      {
+        "uuid": "4ef45228-6163-510a-8a8d-ab6a1a203183",
+        "name": "Avatar's Wrath",
+        "weight": 1202850
+      },
+      {
+        "uuid": "4f107cf0-11c9-576c-9c2e-0dddfd4c51d9",
+        "name": "The Legend of Kyoshi",
+        "weight": 697653
+      },
+      {
+        "uuid": "50f37e53-37bb-537a-90cc-44d73efd428f",
+        "name": "Corrupt Court Official",
+        "weight": 7167160
+      },
+      {
+        "uuid": "51654f1b-1859-5e27-93d0-f18b7bae3109",
+        "name": "Planetarium of Wan Shi Tong",
+        "weight": 697653
+      },
+      {
+        "uuid": "519b37a4-1705-5a1e-b181-763b36d43c9a",
+        "name": "Ba Sing Se",
+        "weight": 1202850
+      },
+      {
+        "uuid": "51cc9284-f318-5412-9d74-8e8012e44ff9",
+        "name": "Wandering Musicians",
+        "weight": 7167160
+      },
+      {
+        "uuid": "52b87eee-7ac7-5351-8cb9-b5e11bcc18a7",
+        "name": "Aang, at the Crossroads",
+        "weight": 1202850
+      },
+      {
+        "uuid": "558cc7e3-2a09-55a8-ab06-e6dd38daa5e8",
+        "name": "Iroh's Demonstration",
+        "weight": 3605418
+      },
+      {
+        "uuid": "56c5c8e4-bfd4-5cf6-b3ca-f32109558628",
+        "name": "Ran and Shaw",
+        "weight": 1202850
+      },
+      {
+        "uuid": "57327dc4-f787-5599-bf8b-1b699465cf83",
+        "name": "The Legend of Roku",
+        "weight": 697653
+      },
+      {
+        "uuid": "58e63f24-2aa7-5f75-9555-8249ebe26886",
+        "name": "Turtle-Duck",
+        "weight": 7167160
+      },
+      {
+        "uuid": "58ec2e64-efea-5941-86c7-8f73468bf0b2",
+        "name": "Toph, the Blind Bandit",
+        "weight": 3605418
+      },
+      {
+        "uuid": "5a749cbd-6d91-54a2-b079-cbd77a5e76d7",
+        "name": "Appa, Loyal Sky Bison",
+        "weight": 3605418
+      },
+      {
+        "uuid": "5bd8e6ab-ff6d-5545-9de6-cf1454f0cc78",
+        "name": "Lost Days",
+        "weight": 7167160
+      },
+      {
+        "uuid": "60e0dcc0-73dc-5dbb-97e8-9d3456f03dd7",
+        "name": "Avatar Aang",
+        "weight": 697653
+      },
+      {
+        "uuid": "616d937a-fa2f-558b-b068-604da8735243",
+        "name": "Day of Black Sun",
+        "weight": 1202850
+      },
+      {
+        "uuid": "620d6555-26a3-58b1-b604-436dd14a3fe3",
+        "name": "Knowledge Seeker",
+        "weight": 3605418
+      },
+      {
+        "uuid": "651fcc1f-b127-57e4-a2c2-76ef2af32c3e",
+        "name": "Serpent of the Pass",
+        "weight": 3605418
+      },
+      {
+        "uuid": "65e42380-9e52-590f-8b41-b84dd656df5f",
+        "name": "White Lotus Tile",
+        "weight": 697653
+      },
+      {
+        "uuid": "6601a19f-d2b2-5260-9170-f5f6c0d1291c",
+        "name": "Elemental Teachings",
+        "weight": 1202850
+      },
+      {
+        "uuid": "687207c6-4c20-5529-a5e7-d9c1d8870525",
+        "name": "Deadly Precision",
+        "weight": 7167160
+      },
+      {
+        "uuid": "6ad9d472-21ea-50c5-9713-f616c33379ef",
+        "name": "The Unagi of Kyoshi Island",
+        "weight": 1202850
+      },
+      {
+        "uuid": "6c182de5-1b61-50ba-af65-5076681b0ade",
+        "name": "Invasion Tactics",
+        "weight": 3605418
+      },
+      {
+        "uuid": "6e180c3d-6f1a-5b51-8116-2d6f4376cffd",
+        "name": "Hog-Monkey",
+        "weight": 7167160
+      },
+      {
+        "uuid": "6eff5dbd-d3fb-518e-b5e1-28bbfae0f2fc",
+        "name": "Beetle-Headed Merchants",
+        "weight": 7167160
+      },
+      {
+        "uuid": "70c25307-ecf0-5870-94a6-a01621aa3a0e",
+        "name": "Realm of Koh",
+        "weight": 1202850
+      },
+      {
+        "uuid": "71069dc3-1455-5e61-aa84-7fa4f14136c2",
+        "name": "Earth Rumble",
+        "weight": 3605418
+      },
+      {
+        "uuid": "714ab7fe-f8d1-5b5f-bf89-f5d59d69f9f1",
+        "name": "Flexible Waterbender",
+        "weight": 7167160
+      },
+      {
+        "uuid": "72b8a11b-d238-545a-b2f4-4bdc1f994289",
+        "name": "Barrels of Blasting Jelly",
+        "weight": 7167160
+      },
+      {
+        "uuid": "73310509-b53c-5478-9ddf-9638154f1102",
+        "name": "Sokka, Bold Boomeranger",
+        "weight": 1202850
+      },
+      {
+        "uuid": "75285c54-d3ca-576d-b246-27b65b2d4723",
+        "name": "Master Pakku",
+        "weight": 3605418
+      },
+      {
+        "uuid": "7575f32d-66dc-52dd-b616-a277b3bae4d9",
+        "name": "Glider Kids",
+        "weight": 7167160
+      },
+      {
+        "uuid": "757b3ecb-715d-5d1d-8ce1-2026f3d91012",
+        "name": "Meteor Sword",
+        "weight": 3605418
+      },
+      {
+        "uuid": "768914cc-69e0-5fc2-9b7a-b90dc66bf9dc",
+        "name": "Firebending Lesson",
+        "weight": 7167160
+      },
+      {
+        "uuid": "76d70ede-6a05-580a-9f12-5aec082b5fab",
+        "name": "Platypus-Bear",
+        "weight": 7167160
+      },
+      {
+        "uuid": "779918b4-dc87-597d-98c7-ec7d9c54fabe",
+        "name": "Watery Grasp",
+        "weight": 7167160
+      },
+      {
+        "uuid": "78ae5dbe-278f-5935-a89f-b524643410fe",
+        "name": "Forecasting Fortune Teller",
+        "weight": 7167160
+      },
+      {
+        "uuid": "78e56493-209f-5836-943c-505b10ca3835",
+        "name": "Rabaroo Troop",
+        "weight": 7167160
+      },
+      {
+        "uuid": "7b10601a-d9f1-5788-a8ca-e6d309ad6912",
+        "name": "True Ancestry",
+        "weight": 3605418
+      },
+      {
+        "uuid": "7be12d1b-b2de-5164-bb45-97e2bb51829e",
+        "name": "Tundra Tank",
+        "weight": 3605418
+      },
+      {
+        "uuid": "7be44e2c-c3e4-546d-af05-1df626a264c7",
+        "name": "Badgermole Cub",
+        "weight": 697653
+      },
+      {
+        "uuid": "7c0c6c83-973b-5085-8c35-29e73257996f",
+        "name": "Origin of Metalbending",
+        "weight": 7167160
+      },
+      {
+        "uuid": "7d28bc7b-078b-5be9-bac2-f71b8ffc0d82",
+        "name": "War Balloon",
+        "weight": 3605418
+      },
+      {
+        "uuid": "7da35d1a-a633-5464-a965-57028f5d331e",
+        "name": "Abandon Attachments",
+        "weight": 7167160
+      },
+      {
+        "uuid": "7ef33efa-b120-5a46-8007-8a213bba9b26",
+        "name": "The Boulder, Ready to Rumble",
+        "weight": 3605418
+      },
+      {
+        "uuid": "7fdbd235-b303-520b-9f9c-7ff6f63314a6",
+        "name": "Earth Kingdom Jailer",
+        "weight": 3605418
+      },
+      {
+        "uuid": "81083b11-1090-544b-b55f-e4e6894d704d",
+        "name": "Energybending",
+        "weight": 3605418
+      },
+      {
+        "uuid": "815dd3fa-79e0-5583-943a-54eb9f61a713",
+        "name": "First-Time Flyer",
+        "weight": 7167160
+      },
+      {
+        "uuid": "82dfb7ba-3aba-543a-827e-c5bf09a5ab92",
+        "name": "Twin Blades",
+        "weight": 3605418
+      },
+      {
+        "uuid": "82f55a34-b7da-5b4c-96f4-550b0ab56660",
+        "name": "Zuko, Conflicted",
+        "weight": 1202850
+      },
+      {
+        "uuid": "84f91893-52ed-584b-b877-4eca43d56389",
+        "name": "Sozin's Comet",
+        "weight": 697653
+      },
+      {
+        "uuid": "8543299b-82f7-53c7-b2e7-9a4403476d68",
+        "name": "Redirect Lightning",
+        "weight": 1202850
+      },
+      {
+        "uuid": "8583c986-d0cb-5a4c-8ba1-ccb203743e83",
+        "name": "Rocky Rebuke",
+        "weight": 7167160
+      },
+      {
+        "uuid": "86891360-793b-501f-8a97-ce279639fb6c",
+        "name": "Allies at Last",
+        "weight": 3605418
+      },
+      {
+        "uuid": "887e2031-7cc8-5c94-86ee-c67bb29fb82b",
+        "name": "Master Piandao",
+        "weight": 3605418
+      },
+      {
+        "uuid": "88ddc1d0-c859-5251-8e8b-7d2caec47c0b",
+        "name": "Earthbender Ascension",
+        "weight": 1202850
+      },
+      {
+        "uuid": "890ad090-cccc-5c74-ab2e-331b64d0ab5e",
+        "name": "Southern Air Temple",
+        "weight": 3605418
+      },
+      {
+        "uuid": "8a4d0ce5-4ce0-5d1a-aefa-8dff0c65f3b6",
+        "name": "Obsessive Pursuit",
+        "weight": 1202850
+      },
+      {
+        "uuid": "8a91c01c-308d-5e22-85a0-d7ae90096e1e",
+        "name": "Boar-q-pine",
+        "weight": 7167160
+      },
+      {
+        "uuid": "8ad4de0e-e377-58a5-9951-04dc8c1720b8",
+        "name": "Sokka, Lateral Strategist",
+        "weight": 3605418
+      },
+      {
+        "uuid": "8b8210e3-c635-5042-aa80-e3041dce59ce",
+        "name": "Merchant of Many Hats",
+        "weight": 7167160
+      },
+      {
+        "uuid": "8c9b85a0-6eb2-5ecb-9acc-c7d6aa0b4a2a",
+        "name": "Saber-Tooth Moose-Lion",
+        "weight": 7167160
+      },
+      {
+        "uuid": "8e672ed5-2f72-540e-9b89-1480c8619b3c",
+        "name": "Lo and Li, Twin Tutors",
+        "weight": 3605418
+      },
+      {
+        "uuid": "8ffcc49b-a543-5bfa-8c17-e5db4f4913f1",
+        "name": "Swampsnare Trap",
+        "weight": 7167160
+      },
+      {
+        "uuid": "904c2071-f446-5c7a-a55d-4d8f2b3d0147",
+        "name": "Iroh, Grand Lotus",
+        "weight": 1202850
+      },
+      {
+        "uuid": "911b1250-6802-5513-a6d5-83433e47ddc6",
+        "name": "Ostrich-Horse",
+        "weight": 7167160
+      },
+      {
+        "uuid": "9192c3aa-563d-5130-8215-ce58dd7a653c",
+        "name": "Abandoned Air Temple",
+        "weight": 1202850
+      },
+      {
+        "uuid": "91cc1cda-8775-579e-8db0-d17e1639c07f",
+        "name": "Earth King's Lieutenant",
+        "weight": 1202850
+      },
+      {
+        "uuid": "91dd2819-2556-5f44-8c7f-b844566670aa",
+        "name": "Spirit Water Revival",
+        "weight": 1202850
+      },
+      {
+        "uuid": "92b53cb1-4f19-52ce-ac34-6191d3108b05",
+        "name": "Ty Lee, Chi Blocker",
+        "weight": 1202850
+      },
+      {
+        "uuid": "936f0cb8-edd1-53e4-ba83-c23a09a1f32a",
+        "name": "Combustion Man",
+        "weight": 3605418
+      },
+      {
+        "uuid": "95043de2-888d-504c-98ca-9136649bb3f1",
+        "name": "Raven Eagle",
+        "weight": 1202850
+      },
+      {
+        "uuid": "958f8607-198f-5938-bc4e-393e75ccb100",
+        "name": "Air Nomad Legacy",
+        "weight": 3605418
+      },
+      {
+        "uuid": "98a0ed59-595a-5811-94a8-af091125cd24",
+        "name": "Shared Roots",
+        "weight": 3605418
+      },
+      {
+        "uuid": "98c89126-c2f2-559e-8f8b-05e97ecff132",
+        "name": "Katara, the Fearless",
+        "weight": 1202850
+      },
+      {
+        "uuid": "9936adbf-a9b0-5eb1-b369-f4c1ff315653",
+        "name": "Raucous Audience",
+        "weight": 7167160
+      },
+      {
+        "uuid": "9a2af7e0-8912-50f2-a4f2-e74bb332f0cf",
+        "name": "Rowdy Snowballers",
+        "weight": 7167160
+      },
+      {
+        "uuid": "9aba6e59-8d37-50e9-ad5f-357ccef416c2",
+        "name": "Boomerang Basics",
+        "weight": 3605418
+      },
+      {
+        "uuid": "9d9e3854-a087-5e5f-b20c-ae2571338efe",
+        "name": "Earth Village Ruffians",
+        "weight": 7167160
+      },
+      {
+        "uuid": "9dd06d5e-823b-50b1-80d1-e2b89b6a6ab6",
+        "name": "Cycle of Renewal",
+        "weight": 7167160
+      },
+      {
+        "uuid": "9e32fb7f-47bc-52f7-91f8-0e008abd560a",
+        "name": "Avatar Destiny",
+        "weight": 1202850
+      },
+      {
+        "uuid": "9f1f24f8-aa46-556d-9190-b1d33452c897",
+        "name": "Solstice Revelations",
+        "weight": 3605418
+      },
+      {
+        "uuid": "a02fd27e-e8f1-573a-a082-439a5597024f",
+        "name": "The Legend of Kuruk",
+        "weight": 697653
+      },
+      {
+        "uuid": "a2ce9a0e-aabb-59f5-b024-43cfbfa6572c",
+        "name": "Momo, Friendly Flier",
+        "weight": 1202850
+      },
+      {
+        "uuid": "a3436776-9b2c-551f-adaf-cdff46e33b01",
+        "name": "Foggy Swamp Visions",
+        "weight": 1202850
+      },
+      {
+        "uuid": "a35980d3-98ec-571c-80c6-89f9c4c07558",
+        "name": "Cat-Owl",
+        "weight": 7167160
+      },
+      {
+        "uuid": "a532fcc0-c7b6-54d1-82ae-b7efc4cceb69",
+        "name": "Suki, Courageous Rescuer",
+        "weight": 1202850
+      },
+      {
+        "uuid": "a5dd8ed8-7cd3-526b-879d-4b434a1af81c",
+        "name": "Pillar Launch",
+        "weight": 7167160
+      },
+      {
+        "uuid": "a67385cd-4ec1-5e43-ab40-0403a6e2fb3b",
+        "name": "Agna Qel'a",
+        "weight": 1202850
+      },
+      {
+        "uuid": "a68b337f-4645-5c4c-ba76-aecbb8727d37",
+        "name": "Fire Lord Zuko",
+        "weight": 1202850
+      },
+      {
+        "uuid": "a68da1ab-8d83-51d8-bec9-dfb95931cde8",
+        "name": "Jasmine Dragon Tea Shop",
+        "weight": 1202850
+      },
+      {
+        "uuid": "a717c587-656f-5fc9-a1b8-3640c0a6493a",
+        "name": "Sparring Dummy",
+        "weight": 3605418
+      },
+      {
+        "uuid": "a8ff7c78-aec3-5f66-b787-cafee81cfe5c",
+        "name": "Wolfbat",
+        "weight": 3605418
+      },
+      {
+        "uuid": "a9260bf1-f251-59f3-9330-0344d69d840a",
+        "name": "Tiger-Dillo",
+        "weight": 3605418
+      },
+      {
+        "uuid": "a9dc0b5d-7a78-564a-84f6-32f011096d57",
+        "name": "Vindictive Warden",
+        "weight": 7167160
+      },
+      {
+        "uuid": "aa454f52-a6c4-55b7-8a3e-623b6c17293a",
+        "name": "North Pole Patrol",
+        "weight": 3605418
+      },
+      {
+        "uuid": "ab57df7b-4771-55fa-b6aa-771e4e2744d9",
+        "name": "Waterbending Scroll",
+        "weight": 3605418
+      },
+      {
+        "uuid": "abca9402-7efe-5fe2-a433-2644b75157b6",
+        "name": "Airbender's Reversal",
+        "weight": 3605418
+      },
+      {
+        "uuid": "ad9616e2-2a32-537d-ac00-3cd86f92d71b",
+        "name": "Azula, On the Hunt",
+        "weight": 3605418
+      },
+      {
+        "uuid": "ae525935-7e40-599e-883a-b74dc6f3d3c4",
+        "name": "The Last Agni Kai",
+        "weight": 1202850
+      },
+      {
+        "uuid": "aed55f90-39b9-53dd-ab03-5005fb8bba1a",
+        "name": "Uncle Iroh",
+        "weight": 3605418
+      },
+      {
+        "uuid": "b04430ec-efcf-5717-8598-051d8af6d1d6",
+        "name": "Wartime Protestors",
+        "weight": 1202850
+      },
+      {
+        "uuid": "b0e2397f-cfff-53bd-96c2-589310b8dd42",
+        "name": "Phoenix Fleet Airship",
+        "weight": 697653
+      },
+      {
+        "uuid": "b1d0c005-3d34-5294-b7aa-95647fcc182f",
+        "name": "White Lotus Reinforcements",
+        "weight": 3605418
+      },
+      {
+        "uuid": "b22a2bb7-c409-5e6f-aaf3-3ca137d34e69",
+        "name": "Ruinous Waterbending",
+        "weight": 3605418
+      },
+      {
+        "uuid": "b29fbeb2-15d2-5def-b45a-53437a7c03bc",
+        "name": "Jeong Jeong's Deserters",
+        "weight": 7167160
+      },
+      {
+        "uuid": "b32b3f23-76c9-565e-8520-a8335dfb5fd3",
+        "name": "The Cave of Two Lovers",
+        "weight": 3605418
+      },
+      {
+        "uuid": "b3e6727d-5ba1-5327-a42f-f1fd3e0dc2d0",
+        "name": "Sun Warriors",
+        "weight": 3605418
+      },
+      {
+        "uuid": "b4375b91-4eed-54c5-8a5f-e3a86b88f42e",
+        "name": "Otter-Penguin",
+        "weight": 7167160
+      },
+      {
+        "uuid": "b5bd5f31-4bae-5f67-8c00-175a332eb77c",
+        "name": "Gran-Gran",
+        "weight": 3605418
+      },
+      {
+        "uuid": "b622b374-5fef-59bc-812f-30f04a82e9ff",
+        "name": "Cunning Maneuver",
+        "weight": 7167160
+      },
+      {
+        "uuid": "b69e7a9b-c3cd-5a75-81a6-25d0f913d8c2",
+        "name": "Path to Redemption",
+        "weight": 7167160
+      },
+      {
+        "uuid": "b81b7b7a-ab94-5fc4-98c4-fc914a70dec2",
+        "name": "Razor Rings",
+        "weight": 7167160
+      },
+      {
+        "uuid": "b8262d91-32d7-5e78-8192-7fe8882fc806",
+        "name": "Bitter Work",
+        "weight": 3605418
+      },
+      {
+        "uuid": "b9b63c30-7858-5947-aa97-d6d2fdfb1311",
+        "name": "Haru, Hidden Talent",
+        "weight": 3605418
+      },
+      {
+        "uuid": "baf813e4-db62-586f-b96c-541bf20c5b5b",
+        "name": "Deserter's Disciple",
+        "weight": 7167160
+      },
+      {
+        "uuid": "beece50e-75b8-5c60-acdb-ad76db66d921",
+        "name": "Sold Out",
+        "weight": 7167160
+      },
+      {
+        "uuid": "c0797dec-11b9-51c1-82e1-e76e95e2b216",
+        "name": "Momo, Playful Pet",
+        "weight": 3605418
+      },
+      {
+        "uuid": "c08676c8-4ec5-5d45-8244-03b410a1df6b",
+        "name": "Guru Pathik",
+        "weight": 3605418
+      },
+      {
+        "uuid": "c093d624-930a-5af5-b86d-d90a61c66b38",
+        "name": "The Rise of Sozin",
+        "weight": 697653
+      },
+      {
+        "uuid": "c0d789d2-b596-55de-829d-d00afa617385",
+        "name": "Compassionate Healer",
+        "weight": 7167160
+      },
+      {
+        "uuid": "c14cab51-b68e-5431-b18c-5a7de3e59e69",
+        "name": "Giant Koi",
+        "weight": 7167160
+      },
+      {
+        "uuid": "c1ef4f81-ba5f-5617-be83-9e3d7df55023",
+        "name": "Avatar Enthusiasts",
+        "weight": 7167160
+      },
+      {
+        "uuid": "c2ea4b39-5753-5c22-9b09-64970e305a42",
+        "name": "Sandbender Scavengers",
+        "weight": 1202850
+      },
+      {
+        "uuid": "c3f668ff-0000-504d-a4d4-c5bbad47c3f4",
+        "name": "Hama, the Bloodbender",
+        "weight": 3605418
+      },
+      {
+        "uuid": "c4b101d4-d5c9-513d-8ea2-65058ee52170",
+        "name": "Ozai's Cruelty",
+        "weight": 3605418
+      },
+      {
+        "uuid": "cacdcd97-301d-54af-9a98-f1cff23467ba",
+        "name": "Long Feng, Grand Secretariat",
+        "weight": 3605418
+      },
+      {
+        "uuid": "cd02671d-9ddf-5f71-9f9c-5395cc20a559",
+        "name": "Tiger-Seal",
+        "weight": 1202850
+      },
+      {
+        "uuid": "cd356960-884d-51a6-a15d-3e8276b97ebc",
+        "name": "Fated Firepower",
+        "weight": 697653
+      },
+      {
+        "uuid": "ce957309-289c-5687-a7ae-67d4bca8aa8e",
+        "name": "It'll Quench Ya!",
+        "weight": 7167160
+      },
+      {
+        "uuid": "cf4481e4-c5f6-5c45-a12d-7cb4040a579e",
+        "name": "Callous Inspector",
+        "weight": 7167160
+      },
+      {
+        "uuid": "cfd66e0c-be0d-5886-b328-e604d2e7d251",
+        "name": "Gather the White Lotus",
+        "weight": 3605418
+      },
+      {
+        "uuid": "d207d552-0efe-5371-b830-8ac61831d2ef",
+        "name": "Sokka, Tenacious Tactician",
+        "weight": 1202850
+      },
+      {
+        "uuid": "d22a3184-2916-50b1-9636-b55ea18518ef",
+        "name": "Fire Nation Raider",
+        "weight": 7167160
+      },
+      {
+        "uuid": "d2413c0f-ce93-563e-9177-b6100c17dea1",
+        "name": "Joo Dee, One of Many",
+        "weight": 3605418
+      },
+      {
+        "uuid": "d35856cb-fffc-5fb0-92b3-cd686a4ed307",
+        "name": "Koh, the Face Stealer",
+        "weight": 697653
+      },
+      {
+        "uuid": "d3a3dd46-2880-55a7-90dc-882f63a6e562",
+        "name": "Firebending Student",
+        "weight": 1202850
+      },
+      {
+        "uuid": "d50fb8c4-49b0-5510-9601-6e94b07dd665",
+        "name": "Canyon Crawler",
+        "weight": 7167160
+      },
+      {
+        "uuid": "d5d9fa0e-4dc7-5a6a-a54c-c8c5fa55a575",
+        "name": "Iguana Parrot",
+        "weight": 7167160
+      },
+      {
+        "uuid": "d7500517-0cd1-59b4-8b01-885e5dd5cac0",
+        "name": "Heartless Act",
+        "weight": 3605418
+      },
+      {
+        "uuid": "d7e16847-324d-5d8e-b416-661f025f7393",
+        "name": "Fire Nation Engineer",
+        "weight": 3605418
+      },
+      {
+        "uuid": "d8575081-ffc8-505f-89d3-19b84f550460",
+        "name": "Earth Kingdom Soldier",
+        "weight": 7167160
+      },
+      {
+        "uuid": "dae9d4e5-633f-5387-b756-9727bd1fbd6b",
+        "name": "Dragonfly Swarm",
+        "weight": 3605418
+      },
+      {
+        "uuid": "db0eae1d-de1a-5f5b-879e-2e97f91ef017",
+        "name": "Teo, Spirited Glider",
+        "weight": 3605418
+      },
+      {
+        "uuid": "db15bacb-7609-5f76-8158-d6c2cb54842a",
+        "name": "Cat-Gator",
+        "weight": 3605418
+      },
+      {
+        "uuid": "dbada988-511d-5312-9b2e-efe39b60e0f4",
+        "name": "Leaves from the Vine",
+        "weight": 3605418
+      },
+      {
+        "uuid": "dbdf6674-824b-5c7f-9a02-31c5456c79bd",
+        "name": "Kyoshi Warriors",
+        "weight": 7167160
+      },
+      {
+        "uuid": "dc1d4b98-6fd2-5d96-8de8-99de4bea28e1",
+        "name": "Kyoshi Island Plaza",
+        "weight": 3605418
+      },
+      {
+        "uuid": "dc947e4b-b1c4-51a9-b17e-1d1d61b61861",
+        "name": "Fire Nation Palace",
+        "weight": 1202850
+      },
+      {
+        "uuid": "df34b2fd-a1fc-54fb-9250-d72d6fd9b915",
+        "name": "Aang's Journey",
+        "weight": 7167160
+      },
+      {
+        "uuid": "df5b225f-18bc-57e1-a8c2-27b7279ced35",
+        "name": "Trusty Boomerang",
+        "weight": 3605418
+      },
+      {
+        "uuid": "e07eea37-a298-5905-826f-8b8ae8d23663",
+        "name": "Zuko's Exile",
+        "weight": 7167160
+      },
+      {
+        "uuid": "e08bed1e-e47e-55f4-b954-05c6373b6d41",
+        "name": "Benevolent River Spirit",
+        "weight": 3605418
+      },
+      {
+        "uuid": "e0faae2e-d27b-5eea-ba54-fac256468662",
+        "name": "Azula Always Lies",
+        "weight": 7167160
+      },
+      {
+        "uuid": "e19b2be2-a632-5e2e-8387-39a845ff6e71",
+        "name": "How to Start a Riot",
+        "weight": 7167160
+      },
+      {
+        "uuid": "e1a99ed3-5d6f-55ca-8501-06c0c21690f9",
+        "name": "The Earth King",
+        "weight": 1202850
+      },
+      {
+        "uuid": "e3e6f878-a591-5eb1-a813-98be55e7d52f",
+        "name": "Bumi Bash",
+        "weight": 7167160
+      },
+      {
+        "uuid": "e554b84d-aec4-56ae-b49d-9c50fd6f15b7",
+        "name": "Jeong Jeong, the Deserter",
+        "weight": 3605418
+      },
+      {
+        "uuid": "e59c45a8-fa5e-5296-95f3-01ccd781b447",
+        "name": "Jet's Brainwashing",
+        "weight": 3605418
+      },
+      {
+        "uuid": "e6c60ad7-59c3-5050-a7e8-85269abb6010",
+        "name": "Treetop Freedom Fighters",
+        "weight": 7167160
+      },
+      {
+        "uuid": "e8510d92-c3e5-5cb7-a0b9-4aadfcdcd93e",
+        "name": "Waterbender Ascension",
+        "weight": 1202850
+      },
+      {
+        "uuid": "e8764c21-76fc-58d4-b42f-56b290a1393c",
+        "name": "Glider Staff",
+        "weight": 3605418
+      },
+      {
+        "uuid": "e908a6aa-ba4b-517a-a670-ed595090893b",
+        "name": "Earthen Ally",
+        "weight": 1202850
+      },
+      {
+        "uuid": "eb2471a2-4571-57fc-a072-f3805eb311e6",
+        "name": "Mai, Jaded Edge",
+        "weight": 3605418
+      },
+      {
+        "uuid": "ebf22e64-6d98-5bc5-9f41-c35f425b1d1e",
+        "name": "Accumulate Wisdom",
+        "weight": 3605418
+      },
+      {
+        "uuid": "ebfce62b-b5ea-52c6-a129-64568390a3f4",
+        "name": "Fire Nation Attacks",
+        "weight": 3605418
+      },
+      {
+        "uuid": "ec7f7de9-6b1d-5c69-b410-bc50a12e1447",
+        "name": "Buzzard-Wasp Colony",
+        "weight": 3605418
+      },
+      {
+        "uuid": "eda6a8a7-898b-5663-bdcf-2428f7466f28",
+        "name": "Bumi, King of Three Trials",
+        "weight": 3605418
+      },
+      {
+        "uuid": "efb3a1a2-b978-5a1c-b677-4cecc28c9c99",
+        "name": "Flopsie, Bumi's Buddy",
+        "weight": 3605418
+      },
+      {
+        "uuid": "f19d41e2-1459-5638-9fcc-95bde9dae7e0",
+        "name": "The Spirit Oasis",
+        "weight": 3605418
+      },
+      {
+        "uuid": "f201fe55-d34a-5a59-ab86-5911f5e1ee03",
+        "name": "Foggy Swamp Hunters",
+        "weight": 7167160
+      },
+      {
+        "uuid": "f247a69a-c5f4-512e-84bc-e1e2cf364c39",
+        "name": "Vengeful Villagers",
+        "weight": 3605418
+      },
+      {
+        "uuid": "f3eeea29-c1e3-5885-9b2f-3c7b4ec61f6b",
+        "name": "Combustion Technique",
+        "weight": 3605418
+      },
+      {
+        "uuid": "f46829e9-1083-5b42-b787-c9043de6a09b",
+        "name": "Tolls of War",
+        "weight": 3605418
+      },
+      {
+        "uuid": "f56fb5db-eec9-5f34-aa0a-6da805ba4603",
+        "name": "Honest Work",
+        "weight": 3605418
+      },
+      {
+        "uuid": "f5a7b16e-748d-5855-83ce-8149f22d2682",
+        "name": "Firebender Ascension",
+        "weight": 1202850
+      },
+      {
+        "uuid": "f74b1955-f6de-5ce1-84cc-23267a4b1799",
+        "name": "Crescent Island Temple",
+        "weight": 3605418
+      },
+      {
+        "uuid": "f7cc6cd3-4108-5342-9b42-afca9bb5d6dd",
+        "name": "Appa, Steadfast Guardian",
+        "weight": 697653
+      },
+      {
+        "uuid": "f7cea9c2-da9c-56cc-8ef8-94ac9211526b",
+        "name": "Rebellious Captives",
+        "weight": 7167160
+      },
+      {
+        "uuid": "f7da64c7-6434-5c9b-9854-e0a0fe1dda22",
+        "name": "Ty Lee, Artful Acrobat",
+        "weight": 3605418
+      },
+      {
+        "uuid": "f7e688a5-0912-59e1-96a3-7d05d4f9051e",
+        "name": "Messenger Hawk",
+        "weight": 7167160
+      },
+      {
+        "uuid": "f8caa4f8-01ac-5ab7-af75-1ee021dc0762",
+        "name": "Aang, Swift Savior",
+        "weight": 1202850
+      },
+      {
+        "uuid": "f942bbc8-da13-5983-a60e-5c0f98852d73",
+        "name": "Airbending Lesson",
+        "weight": 7167160
+      },
+      {
+        "uuid": "f99cc254-6135-562a-89ba-ee7d6aa334f0",
+        "name": "Yip Yip!",
+        "weight": 7167160
+      },
+      {
+        "uuid": "faea691e-3ed1-5246-a360-c54ea98e641f",
+        "name": "Rumble Arena",
+        "weight": 7167160
+      },
+      {
+        "uuid": "fb1ab33e-860d-55a5-8b12-bba48d47bbbc",
+        "name": "Ozai, the Phoenix King",
+        "weight": 697653
+      },
+      {
+        "uuid": "fb7beaf4-982e-5421-a72a-bf9dcc35c8ac",
+        "name": "Earth Kingdom General",
+        "weight": 3605418
+      },
+      {
+        "uuid": "fc51af44-f7c4-51d7-b879-67e08624d36b",
+        "name": "Aang's Iceberg",
+        "weight": 1202850
+      },
+      {
+        "uuid": "fddcdfe5-2013-59d6-a4c4-8e2ac1daf86b",
+        "name": "Octopus Form",
+        "weight": 7167160
+      },
+      {
+        "uuid": "ff12eb1c-6e28-5448-aeae-1b015b34714e",
+        "name": "Yuyan Archers",
+        "weight": 7167160
+      }
+    ]
+  },
+  "land": {
+    "cards": [
+      {
+        "uuid": "0b804258-3cd7-5548-acc5-b077a5b7fd32",
+        "name": "Swamp",
+        "weight": 2
+      },
+      {
+        "uuid": "0fad31dd-db7a-5252-a475-c8a80d10f560",
+        "name": "Sun-Blessed Peak",
+        "weight": 1
+      },
+      {
+        "uuid": "14e52bfb-7726-587f-9b27-6de73d2b92a4",
+        "name": "Airship Engine Room",
+        "weight": 1
+      },
+      {
+        "uuid": "1b12893a-9d23-556a-9fc7-5a323751494b",
+        "name": "Misty Palms Oasis",
+        "weight": 1
+      },
+      {
+        "uuid": "206c5d0d-5047-5488-9b84-eee44da97e27",
+        "name": "Boiling Rock Prison",
+        "weight": 1
+      },
+      {
+        "uuid": "289de300-57a3-5d75-b8b4-bf7bf71e1dba",
+        "name": "Mountain",
+        "weight": 2
+      },
+      {
+        "uuid": "56ef997d-9e8b-5448-9791-487a1f541e2b",
+        "name": "Serpent's Pass",
+        "weight": 1
+      },
+      {
+        "uuid": "a9c6fea6-bc19-555f-b5c8-5d55b460e3b7",
+        "name": "Foggy Bottom Swamp",
+        "weight": 1
+      },
+      {
+        "uuid": "c5784844-c878-5850-8ac3-85b3e6fd370c",
+        "name": "Kyoshi Village",
+        "weight": 1
+      },
+      {
+        "uuid": "c932777f-f928-55ed-8e2f-0765daf7c5c4",
+        "name": "Meditation Pools",
+        "weight": 1
+      },
+      {
+        "uuid": "d22a7c25-580d-55d5-97fe-23a6dd5d884a",
+        "name": "Island",
+        "weight": 2
+      },
+      {
+        "uuid": "dfba6258-2a02-5b1c-bebe-38ee5772b500",
+        "name": "Omashu City",
+        "weight": 1
+      },
+      {
+        "uuid": "e7e4e9a2-11fa-54c9-ab82-1277df61402b",
+        "name": "North Pole Gates",
+        "weight": 1
+      },
+      {
+        "uuid": "ee5b3863-d52e-5264-b067-855d6f84e826",
+        "name": "Forest",
+        "weight": 2
+      },
+      {
+        "uuid": "f046cead-5455-59be-ba7a-84771579fd1a",
+        "name": "Plains",
+        "weight": 2
+      }
+    ]
+  },
+  "rareMythic": {
+    "cards": [
+      {
+        "uuid": "01c56a0c-d2ed-5af5-be47-29c2f84ede91",
+        "name": "Katara, Water Tribe's Hope",
+        "weight": 50
+      },
+      {
+        "uuid": "02fe4019-ae2e-53fc-b011-46dec318bde8",
+        "name": "The Lion-Turtle",
+        "weight": 50
+      },
+      {
+        "uuid": "05a3588f-8eea-55dd-82be-b951e46a0442",
+        "name": "United Front",
+        "weight": 29
+      },
+      {
+        "uuid": "075af7e1-cf8a-5da5-9c69-a1c984b23edd",
+        "name": "Secret Tunnel",
+        "weight": 50
+      },
+      {
+        "uuid": "07749abf-369c-5b51-9096-8801b9700e7a",
+        "name": "Airbender Ascension",
+        "weight": 50
+      },
+      {
+        "uuid": "0d3cf771-cde0-5587-b82e-a5298403920c",
+        "name": "Bumi, Unleashed",
+        "weight": 29
+      },
+      {
+        "uuid": "0f15e5c1-0525-5039-9ee1-079f79918f38",
+        "name": "Mai, Scornful Striker",
+        "weight": 50
+      },
+      {
+        "uuid": "10275615-0113-5dad-a043-4c44d44c97b8",
+        "name": "The Fire Nation Drill",
+        "weight": 50
+      },
+      {
+        "uuid": "196d3d60-e284-5d4d-b45b-e50892ff1feb",
+        "name": "The Legend of Yangchen",
+        "weight": 29
+      },
+      {
+        "uuid": "19c1139e-9cef-5418-8f7d-22c46e899b43",
+        "name": "Toph, the First Metalbender",
+        "weight": 50
+      },
+      {
+        "uuid": "1e7f20cb-d4f0-54d0-a9f2-fe6263014b2d",
+        "name": "Toph, Hardheaded Teacher",
+        "weight": 50
+      },
+      {
+        "uuid": "1fdf2ebb-c62f-5299-b07c-8a20a7728b35",
+        "name": "Secret of Bloodbending",
+        "weight": 29
+      },
+      {
+        "uuid": "2945f6f3-5b4f-57e6-8b89-bce5beaf7015",
+        "name": "Beifong's Bounty Hunters",
+        "weight": 50
+      },
+      {
+        "uuid": "2a5bd62d-e060-53e5-87e0-8ae2a5dec2fd",
+        "name": "Boiling Rock Rioter",
+        "weight": 50
+      },
+      {
+        "uuid": "2b685910-02ad-563a-b1fb-51df684aae26",
+        "name": "The Mechanist, Aerial Artisan",
+        "weight": 50
+      },
+      {
+        "uuid": "2d135290-3f8b-51fa-a4c6-c80bdfae3119",
+        "name": "Great Divide Guide",
+        "weight": 50
+      },
+      {
+        "uuid": "34019706-f154-5fc8-a836-5d48e55fcf21",
+        "name": "Fire Lord Azula",
+        "weight": 50
+      },
+      {
+        "uuid": "3660c2d0-ce55-5fa5-bb6a-456f7fc3cb48",
+        "name": "Zhao, the Moon Slayer",
+        "weight": 50
+      },
+      {
+        "uuid": "36f79026-030f-5af4-94b1-0a7ed1935c09",
+        "name": "Iroh, Tea Master",
+        "weight": 50
+      },
+      {
+        "uuid": "3b055a7f-7ce3-5abe-8fed-296dbd6a9f95",
+        "name": "Diligent Zookeeper",
+        "weight": 50
+      },
+      {
+        "uuid": "3cae0412-e269-56b9-a6b9-4cd513e98961",
+        "name": "Hakoda, Selfless Commander",
+        "weight": 50
+      },
+      {
+        "uuid": "3db733ea-9d27-505a-8a92-fdc95e35e4f2",
+        "name": "South Pole Voyager",
+        "weight": 50
+      },
+      {
+        "uuid": "3ffc422e-e1a7-5ccf-bcb6-39ca1e7c1ee2",
+        "name": "Yue, the Moon Spirit",
+        "weight": 50
+      },
+      {
+        "uuid": "41294dd8-6c0d-5657-9ecb-c7e94e0bc479",
+        "name": "The Walls of Ba Sing Se",
+        "weight": 29
+      },
+      {
+        "uuid": "49388d79-ebd5-5fca-9882-d5ac3a7b4149",
+        "name": "Azula, Cunning Usurper",
+        "weight": 50
+      },
+      {
+        "uuid": "4b71e29f-628f-5539-8171-f314d2c34154",
+        "name": "Wan Shi Tong, Librarian",
+        "weight": 29
+      },
+      {
+        "uuid": "4ef45228-6163-510a-8a8d-ab6a1a203183",
+        "name": "Avatar's Wrath",
+        "weight": 50
+      },
+      {
+        "uuid": "4f107cf0-11c9-576c-9c2e-0dddfd4c51d9",
+        "name": "The Legend of Kyoshi",
+        "weight": 29
+      },
+      {
+        "uuid": "51654f1b-1859-5e27-93d0-f18b7bae3109",
+        "name": "Planetarium of Wan Shi Tong",
+        "weight": 29
+      },
+      {
+        "uuid": "519b37a4-1705-5a1e-b181-763b36d43c9a",
+        "name": "Ba Sing Se",
+        "weight": 50
+      },
+      {
+        "uuid": "52b87eee-7ac7-5351-8cb9-b5e11bcc18a7",
+        "name": "Aang, at the Crossroads",
+        "weight": 50
+      },
+      {
+        "uuid": "56c5c8e4-bfd4-5cf6-b3ca-f32109558628",
+        "name": "Ran and Shaw",
+        "weight": 50
+      },
+      {
+        "uuid": "57327dc4-f787-5599-bf8b-1b699465cf83",
+        "name": "The Legend of Roku",
+        "weight": 29
+      },
+      {
+        "uuid": "60e0dcc0-73dc-5dbb-97e8-9d3456f03dd7",
+        "name": "Avatar Aang",
+        "weight": 29
+      },
+      {
+        "uuid": "616d937a-fa2f-558b-b068-604da8735243",
+        "name": "Day of Black Sun",
+        "weight": 50
+      },
+      {
+        "uuid": "65e42380-9e52-590f-8b41-b84dd656df5f",
+        "name": "White Lotus Tile",
+        "weight": 29
+      },
+      {
+        "uuid": "6601a19f-d2b2-5260-9170-f5f6c0d1291c",
+        "name": "Elemental Teachings",
+        "weight": 50
+      },
+      {
+        "uuid": "6ad9d472-21ea-50c5-9713-f616c33379ef",
+        "name": "The Unagi of Kyoshi Island",
+        "weight": 50
+      },
+      {
+        "uuid": "70c25307-ecf0-5870-94a6-a01621aa3a0e",
+        "name": "Realm of Koh",
+        "weight": 50
+      },
+      {
+        "uuid": "73310509-b53c-5478-9ddf-9638154f1102",
+        "name": "Sokka, Bold Boomeranger",
+        "weight": 50
+      },
+      {
+        "uuid": "7be44e2c-c3e4-546d-af05-1df626a264c7",
+        "name": "Badgermole Cub",
+        "weight": 29
+      },
+      {
+        "uuid": "82f55a34-b7da-5b4c-96f4-550b0ab56660",
+        "name": "Zuko, Conflicted",
+        "weight": 50
+      },
+      {
+        "uuid": "84f91893-52ed-584b-b877-4eca43d56389",
+        "name": "Sozin's Comet",
+        "weight": 29
+      },
+      {
+        "uuid": "8543299b-82f7-53c7-b2e7-9a4403476d68",
+        "name": "Redirect Lightning",
+        "weight": 50
+      },
+      {
+        "uuid": "88ddc1d0-c859-5251-8e8b-7d2caec47c0b",
+        "name": "Earthbender Ascension",
+        "weight": 50
+      },
+      {
+        "uuid": "8a4d0ce5-4ce0-5d1a-aefa-8dff0c65f3b6",
+        "name": "Obsessive Pursuit",
+        "weight": 50
+      },
+      {
+        "uuid": "904c2071-f446-5c7a-a55d-4d8f2b3d0147",
+        "name": "Iroh, Grand Lotus",
+        "weight": 50
+      },
+      {
+        "uuid": "9192c3aa-563d-5130-8215-ce58dd7a653c",
+        "name": "Abandoned Air Temple",
+        "weight": 50
+      },
+      {
+        "uuid": "91cc1cda-8775-579e-8db0-d17e1639c07f",
+        "name": "Earth King's Lieutenant",
+        "weight": 50
+      },
+      {
+        "uuid": "91dd2819-2556-5f44-8c7f-b844566670aa",
+        "name": "Spirit Water Revival",
+        "weight": 50
+      },
+      {
+        "uuid": "92b53cb1-4f19-52ce-ac34-6191d3108b05",
+        "name": "Ty Lee, Chi Blocker",
+        "weight": 50
+      },
+      {
+        "uuid": "95043de2-888d-504c-98ca-9136649bb3f1",
+        "name": "Raven Eagle",
+        "weight": 50
+      },
+      {
+        "uuid": "98c89126-c2f2-559e-8f8b-05e97ecff132",
+        "name": "Katara, the Fearless",
+        "weight": 50
+      },
+      {
+        "uuid": "9e32fb7f-47bc-52f7-91f8-0e008abd560a",
+        "name": "Avatar Destiny",
+        "weight": 50
+      },
+      {
+        "uuid": "a02fd27e-e8f1-573a-a082-439a5597024f",
+        "name": "The Legend of Kuruk",
+        "weight": 29
+      },
+      {
+        "uuid": "a2ce9a0e-aabb-59f5-b024-43cfbfa6572c",
+        "name": "Momo, Friendly Flier",
+        "weight": 50
+      },
+      {
+        "uuid": "a3436776-9b2c-551f-adaf-cdff46e33b01",
+        "name": "Foggy Swamp Visions",
+        "weight": 50
+      },
+      {
+        "uuid": "a532fcc0-c7b6-54d1-82ae-b7efc4cceb69",
+        "name": "Suki, Courageous Rescuer",
+        "weight": 50
+      },
+      {
+        "uuid": "a67385cd-4ec1-5e43-ab40-0403a6e2fb3b",
+        "name": "Agna Qel'a",
+        "weight": 50
+      },
+      {
+        "uuid": "a68b337f-4645-5c4c-ba76-aecbb8727d37",
+        "name": "Fire Lord Zuko",
+        "weight": 50
+      },
+      {
+        "uuid": "a68da1ab-8d83-51d8-bec9-dfb95931cde8",
+        "name": "Jasmine Dragon Tea Shop",
+        "weight": 50
+      },
+      {
+        "uuid": "ae525935-7e40-599e-883a-b74dc6f3d3c4",
+        "name": "The Last Agni Kai",
+        "weight": 50
+      },
+      {
+        "uuid": "b04430ec-efcf-5717-8598-051d8af6d1d6",
+        "name": "Wartime Protestors",
+        "weight": 50
+      },
+      {
+        "uuid": "b0e2397f-cfff-53bd-96c2-589310b8dd42",
+        "name": "Phoenix Fleet Airship",
+        "weight": 29
+      },
+      {
+        "uuid": "c093d624-930a-5af5-b86d-d90a61c66b38",
+        "name": "The Rise of Sozin",
+        "weight": 29
+      },
+      {
+        "uuid": "c2ea4b39-5753-5c22-9b09-64970e305a42",
+        "name": "Sandbender Scavengers",
+        "weight": 50
+      },
+      {
+        "uuid": "cd02671d-9ddf-5f71-9f9c-5395cc20a559",
+        "name": "Tiger-Seal",
+        "weight": 50
+      },
+      {
+        "uuid": "cd356960-884d-51a6-a15d-3e8276b97ebc",
+        "name": "Fated Firepower",
+        "weight": 29
+      },
+      {
+        "uuid": "d207d552-0efe-5371-b830-8ac61831d2ef",
+        "name": "Sokka, Tenacious Tactician",
+        "weight": 50
+      },
+      {
+        "uuid": "d35856cb-fffc-5fb0-92b3-cd686a4ed307",
+        "name": "Koh, the Face Stealer",
+        "weight": 29
+      },
+      {
+        "uuid": "d3a3dd46-2880-55a7-90dc-882f63a6e562",
+        "name": "Firebending Student",
+        "weight": 50
+      },
+      {
+        "uuid": "dc947e4b-b1c4-51a9-b17e-1d1d61b61861",
+        "name": "Fire Nation Palace",
+        "weight": 50
+      },
+      {
+        "uuid": "e1a99ed3-5d6f-55ca-8501-06c0c21690f9",
+        "name": "The Earth King",
+        "weight": 50
+      },
+      {
+        "uuid": "e8510d92-c3e5-5cb7-a0b9-4aadfcdcd93e",
+        "name": "Waterbender Ascension",
+        "weight": 50
+      },
+      {
+        "uuid": "e908a6aa-ba4b-517a-a670-ed595090893b",
+        "name": "Earthen Ally",
+        "weight": 50
+      },
+      {
+        "uuid": "f5a7b16e-748d-5855-83ce-8149f22d2682",
+        "name": "Firebender Ascension",
+        "weight": 50
+      },
+      {
+        "uuid": "f7cc6cd3-4108-5342-9b42-afca9bb5d6dd",
+        "name": "Appa, Steadfast Guardian",
+        "weight": 29
+      },
+      {
+        "uuid": "f8caa4f8-01ac-5ab7-af75-1ee021dc0762",
+        "name": "Aang, Swift Savior",
+        "weight": 50
+      },
+      {
+        "uuid": "fb1ab33e-860d-55a5-8b12-bba48d47bbbc",
+        "name": "Ozai, the Phoenix King",
+        "weight": 29
+      },
+      {
+        "uuid": "fc51af44-f7c4-51d7-b879-67e08624d36b",
+        "name": "Aang's Iceberg",
+        "weight": 50
+      }
+    ]
+  },
+  "sourceMaterial": {
+    "cards": [
+      {
+        "uuid": "0004822c-c181-5564-808d-a6cc48359a1a",
+        "name": "Clone Legion",
+        "weight": 1
+      },
+      {
+        "uuid": "0063c122-5c02-5ec6-a71f-fad519db76e1",
+        "name": "Fervor",
+        "weight": 1
+      },
+      {
+        "uuid": "008df4ab-ad4d-561c-ad2e-67c0da40fd98",
+        "name": "Rending Volley",
+        "weight": 1
+      },
+      {
+        "uuid": "01911b75-f914-5c73-9c44-50dacaeaaf97",
+        "name": "Warstorm Surge",
+        "weight": 1
+      },
+      {
+        "uuid": "02119a0a-da59-51ee-a4d8-7ed44f6d8feb",
+        "name": "Shattering Spree",
+        "weight": 1
+      },
+      {
+        "uuid": "0382e2b8-39f5-59c3-85b2-4838fc86fca4",
+        "name": "Brought Back",
+        "weight": 1
+      },
+      {
+        "uuid": "03eee5e5-8887-5fee-94bf-97a7fc232c6e",
+        "name": "Standstill",
+        "weight": 1
+      },
+      {
+        "uuid": "07416f84-ff29-5765-a31e-bceee327ac27",
+        "name": "Visions of Beyond",
+        "weight": 1
+      },
+      {
+        "uuid": "0ecc51ca-d2f0-5495-9969-fe69c6ea86fd",
+        "name": "Koma, Cosmos Serpent",
+        "weight": 1
+      },
+      {
+        "uuid": "19c65235-7dbf-571e-8b7c-c4c9c80013da",
+        "name": "Teferi's Protection",
+        "weight": 1
+      },
+      {
+        "uuid": "1d074ec8-2c8c-545f-aa89-e1048798dd5b",
+        "name": "Three Dreams",
+        "weight": 1
+      },
+      {
+        "uuid": "22f4f507-5f03-5145-b52a-d3fff5b20a52",
+        "name": "Return of the Wildspeaker",
+        "weight": 1
+      },
+      {
+        "uuid": "23b00317-14c6-541b-9852-a396f7ca67ba",
+        "name": "Blasphemous Act",
+        "weight": 1
+      },
+      {
+        "uuid": "27287504-e945-5b71-a9ea-b2978b27abc6",
+        "name": "Empty City Ruse",
+        "weight": 1
+      },
+      {
+        "uuid": "2a577803-eb75-539f-afb0-62368ab23ac8",
+        "name": "Mirrorwing Dragon",
+        "weight": 1
+      },
+      {
+        "uuid": "3777002b-fb32-5767-a3c4-be9dcee87d21",
+        "name": "Drannith Magistrate",
+        "weight": 1
+      },
+      {
+        "uuid": "3abf5e92-ffd5-5992-aaf3-ae041e0f1482",
+        "name": "Searing Blood",
+        "weight": 1
+      },
+      {
+        "uuid": "3bd732d9-d749-5355-a22e-cbb9535a8765",
+        "name": "Cruel Tutor",
+        "weight": 1
+      },
+      {
+        "uuid": "3dc734d6-97b6-5060-b4bf-03a00d464875",
+        "name": "Eladamri's Call",
+        "weight": 1
+      },
+      {
+        "uuid": "3e7dfb73-00de-5bbb-999f-d70969d477ce",
+        "name": "Clone",
+        "weight": 1
+      },
+      {
+        "uuid": "40c28aec-7f39-5694-a5c3-f5ce1361cf74",
+        "name": "Lightning Bolt",
+        "weight": 1
+      },
+      {
+        "uuid": "41d0809f-39d0-5a42-9fda-326d1001654a",
+        "name": "Meteorite",
+        "weight": 1
+      },
+      {
+        "uuid": "47da7a05-ca72-59bf-b1b1-ac0bf42076c2",
+        "name": "The Great Henge",
+        "weight": 1
+      },
+      {
+        "uuid": "4b8e277e-5a7a-5c9a-8e6a-b2c399f68d31",
+        "name": "Taunting Challenge",
+        "weight": 1
+      },
+      {
+        "uuid": "58d42a70-debd-5c26-a7b1-be2408db8f84",
+        "name": "Elemental Bond",
+        "weight": 1
+      },
+      {
+        "uuid": "61cdd7f0-ed44-59c5-929e-25b40a77c13c",
+        "name": "Lita, Mechanical Engineer",
+        "weight": 1
+      },
+      {
+        "uuid": "65fc3cf8-35d2-5e8f-a334-66443a69ecaf",
+        "name": "Mystic Remora",
+        "weight": 1
+      },
+      {
+        "uuid": "677441e7-3807-5719-8caa-81535d9c7a6f",
+        "name": "Cityscape Leveler",
+        "weight": 1
+      },
+      {
+        "uuid": "6bac8a3e-a55c-587d-b9b0-973101ad4286",
+        "name": "Humble Defector",
+        "weight": 1
+      },
+      {
+        "uuid": "73b7aa1e-3c7a-5726-974b-e275fb249635",
+        "name": "Sundial of the Infinite",
+        "weight": 1
+      },
+      {
+        "uuid": "78458d5b-732e-5d70-83c2-908783a32e60",
+        "name": "Bribery",
+        "weight": 1
+      },
+      {
+        "uuid": "793aa4c6-9685-5b7b-8290-a57acb133624",
+        "name": "Volcanic Torrent",
+        "weight": 1
+      },
+      {
+        "uuid": "7f9f2bea-7d55-5375-8fd5-aac54658b1a7",
+        "name": "Noxious Gearhulk",
+        "weight": 1
+      },
+      {
+        "uuid": "828d433d-04df-5b50-9bd9-0a88b4b9c276",
+        "name": "Fabled Passage",
+        "weight": 1
+      },
+      {
+        "uuid": "89e6de7e-e47f-5273-81ed-87f145b83005",
+        "name": "Rhys the Redeemed",
+        "weight": 1
+      },
+      {
+        "uuid": "8ad0f1c8-2e98-5ab6-8e93-efc04ade0b05",
+        "name": "Tarnished Citadel",
+        "weight": 1
+      },
+      {
+        "uuid": "924eb4f8-4b02-5ade-bafa-853cb5af0dde",
+        "name": "Sakashima of a Thousand Faces",
+        "weight": 1
+      },
+      {
+        "uuid": "9d894d77-cf07-537b-bd50-e290f1118ba8",
+        "name": "Prosperity",
+        "weight": 1
+      },
+      {
+        "uuid": "a5971e3c-bcce-5b8b-acf9-8fbf980dd185",
+        "name": "Heroic Intervention",
+        "weight": 1
+      },
+      {
+        "uuid": "ab5b2167-ef86-5c08-82c3-ae68cc1f4bd7",
+        "name": "Release to Memory",
+        "weight": 1
+      },
+      {
+        "uuid": "adb57c25-6d92-552f-a2dc-5a5646b83b83",
+        "name": "Valakut, the Molten Pinnacle",
+        "weight": 1
+      },
+      {
+        "uuid": "b13a01b8-c3d8-578b-8749-44bac9296f84",
+        "name": "Bloodchief Ascension",
+        "weight": 1
+      },
+      {
+        "uuid": "bb81eca1-966c-5f1e-a75a-072b139b1e48",
+        "name": "Imprisoned in the Moon",
+        "weight": 1
+      },
+      {
+        "uuid": "bba52d35-d391-572b-ac03-4c44c411cb30",
+        "name": "Scout's Warning",
+        "weight": 1
+      },
+      {
+        "uuid": "bd8893f2-79bb-5ac6-823b-66aa625333bc",
+        "name": "Dockside Extortionist",
+        "weight": 1
+      },
+      {
+        "uuid": "be00934d-5b15-56a1-a800-3606245f9a0a",
+        "name": "Force of Negation",
+        "weight": 1
+      },
+      {
+        "uuid": "c6ea5364-0671-5b35-825a-b7817fc2637b",
+        "name": "Training Grounds",
+        "weight": 1
+      },
+      {
+        "uuid": "c969089d-0d12-56fd-8049-0b7cb797e68b",
+        "name": "Black Sun's Zenith",
+        "weight": 1
+      },
+      {
+        "uuid": "ca677316-29b8-56a4-acf7-de6fac532d04",
+        "name": "Heartbeat of Spring",
+        "weight": 1
+      },
+      {
+        "uuid": "ce398bf6-cecb-5e5f-b3c6-8cbf61488d93",
+        "name": "Insurrection",
+        "weight": 1
+      },
+      {
+        "uuid": "cea77dae-e216-5f2d-8941-6bf41fb7f0d5",
+        "name": "Rites of Flourishing",
+        "weight": 1
+      },
+      {
+        "uuid": "d48d3f16-898c-54d1-8fd5-ee99efe37ecc",
+        "name": "Captain Sisay",
+        "weight": 1
+      },
+      {
+        "uuid": "d5764b48-49e7-5ab8-a229-488d486557fa",
+        "name": "Beastmaster Ascension",
+        "weight": 1
+      },
+      {
+        "uuid": "d58dc3f9-982c-59b2-a2cf-a49b9bbcd3f7",
+        "name": "Sunbaked Canyon",
+        "weight": 1
+      },
+      {
+        "uuid": "d5be2a24-6263-5acb-8ad7-bdb40f8cf553",
+        "name": "Agent of Treachery",
+        "weight": 1
+      },
+      {
+        "uuid": "db5a1280-d6ed-51ab-aaa6-d16331820ad4",
+        "name": "Treetop Village",
+        "weight": 1
+      },
+      {
+        "uuid": "de6e1c05-e2d6-5171-a8f8-c9dff959f1d3",
+        "name": "Fevered Visions",
+        "weight": 1
+      },
+      {
+        "uuid": "e33c2305-07e4-51b9-9861-4ed61fe0255f",
+        "name": "Dark Depths",
+        "weight": 1
+      },
+      {
+        "uuid": "e58c9bfd-3d83-5505-84b8-d9d17d9b58f4",
+        "name": "Intruder Alarm",
+        "weight": 1
+      },
+      {
+        "uuid": "e5ab7074-e53d-5558-91fb-e6cd0048b0f1",
+        "name": "Join the Dance",
+        "weight": 1
+      },
+      {
+        "uuid": "e9c6b13c-541c-5c87-856a-ea74c5720fbb",
+        "name": "Diaochan, Artful Beauty",
+        "weight": 1
+      }
+    ]
+  },
+  "uncommon": {
+    "cards": [
+      {
+        "uuid": "013a24c3-f872-5fe8-9b68-acfa271770d1",
+        "name": "Epic Downfall",
+        "weight": 1
+      },
+      {
+        "uuid": "086f3893-c1d1-5bfa-97ca-31a9926cf112",
+        "name": "Price of Freedom",
+        "weight": 1
+      },
+      {
+        "uuid": "0d694d88-d0f9-5ddd-aa7f-1d4e1f585ae5",
+        "name": "Professor Zei, Anthropologist",
+        "weight": 1
+      },
+      {
+        "uuid": "11488d70-a0b9-565c-a022-c6ae6b3ca827",
+        "name": "Fatal Fissure",
+        "weight": 1
+      },
+      {
+        "uuid": "1222672d-e5f8-5ca5-9a42-787103132456",
+        "name": "Invasion Reinforcements",
+        "weight": 1
+      },
+      {
+        "uuid": "1425e196-7850-557d-9ca8-02faef851926",
+        "name": "Team Avatar",
+        "weight": 1
+      },
+      {
+        "uuid": "191b6587-cbc0-5b59-89f0-af0c20f916b6",
+        "name": "Katara, Bending Prodigy",
+        "weight": 1
+      },
+      {
+        "uuid": "1afc0384-c472-58ce-84c7-7ae8fbb2c9ba",
+        "name": "White Lotus Hideout",
+        "weight": 1
+      },
+      {
+        "uuid": "1b9088d0-d044-5ff9-afae-a9980464a0fa",
+        "name": "Destined Confrontation",
+        "weight": 1
+      },
+      {
+        "uuid": "1cad62bc-07b5-56bf-b90f-88ed16eb5b99",
+        "name": "Hermitic Herbalist",
+        "weight": 1
+      },
+      {
+        "uuid": "1ce48d2e-4e92-5523-9801-2d9c1e8da706",
+        "name": "Hei Bai, Spirit of Balance",
+        "weight": 1
+      },
+      {
+        "uuid": "1edb9325-ce24-5b9c-ab9b-6b30015d94f5",
+        "name": "Fancy Footwork",
+        "weight": 1
+      },
+      {
+        "uuid": "2054f0fd-89f2-575d-8ef1-ea4b065ed323",
+        "name": "Crashing Wave",
+        "weight": 1
+      },
+      {
+        "uuid": "243d801b-a395-5c97-bc6c-5ad72f252131",
+        "name": "Foggy Swamp Spirit Keeper",
+        "weight": 1
+      },
+      {
+        "uuid": "29f100d0-621a-5804-93a2-e799bf603167",
+        "name": "Unlucky Cabbage Merchant",
+        "weight": 1
+      },
+      {
+        "uuid": "2e804d75-000f-5af7-8dda-26325b72b3e9",
+        "name": "Enter the Avatar State",
+        "weight": 1
+      },
+      {
+        "uuid": "2ef4c407-cc9a-5cc5-ad8b-8fa6be326fdf",
+        "name": "Earth Kingdom Protectors",
+        "weight": 1
+      },
+      {
+        "uuid": "2f9c975c-d4b6-5b3b-a551-026efb82f6a0",
+        "name": "Northern Air Temple",
+        "weight": 1
+      },
+      {
+        "uuid": "31ab91f3-c2cd-576a-81fe-e2a89c6a8cba",
+        "name": "Zuko, Exiled Prince",
+        "weight": 1
+      },
+      {
+        "uuid": "36f85221-4d19-53fe-8029-669cf45e400f",
+        "name": "Fire Nation Warship",
+        "weight": 1
+      },
+      {
+        "uuid": "3c8b4e69-ae3a-54f7-9079-6d3f4ad844eb",
+        "name": "Dai Li Agents",
+        "weight": 1
+      },
+      {
+        "uuid": "3d0bcd9b-3ccf-5c93-a90f-ddf556fc581a",
+        "name": "Water Tribe Rallier",
+        "weight": 1
+      },
+      {
+        "uuid": "3e47a0bc-6140-59d9-a39c-525371b34ec5",
+        "name": "Aang, the Last Airbender",
+        "weight": 1
+      },
+      {
+        "uuid": "3e7df4d4-b9dc-5c15-9544-410a72ea0b40",
+        "name": "Jet, Freedom Fighter",
+        "weight": 1
+      },
+      {
+        "uuid": "404e3e1b-bbf2-5108-b297-153e032a54f5",
+        "name": "Invasion Submersible",
+        "weight": 1
+      },
+      {
+        "uuid": "4055d3be-a450-50db-bf8d-474ecad37d7d",
+        "name": "Seismic Sense",
+        "weight": 1
+      },
+      {
+        "uuid": "4063d9e7-72d2-5750-aeab-b75b3743cd39",
+        "name": "Sokka's Haiku",
+        "weight": 1
+      },
+      {
+        "uuid": "418e70d5-32d4-5ce9-8dda-b12783003292",
+        "name": "Suki, Kyoshi Warrior",
+        "weight": 1
+      },
+      {
+        "uuid": "42175074-111f-5af2-9bc0-65d8949dec25",
+        "name": "Zuko's Conviction",
+        "weight": 1
+      },
+      {
+        "uuid": "43e1dc7b-5d28-5604-9998-1959b09c48f1",
+        "name": "Zhao, Ruthless Admiral",
+        "weight": 1
+      },
+      {
+        "uuid": "49860d80-ba96-535a-9160-88d40a5f115d",
+        "name": "Cruel Administrator",
+        "weight": 1
+      },
+      {
+        "uuid": "4a7964de-2966-5bea-a260-999bbebb90e8",
+        "name": "Rockalanche",
+        "weight": 1
+      },
+      {
+        "uuid": "4a95c4c4-1017-57fb-907d-d38969186295",
+        "name": "Ember Island Production",
+        "weight": 1
+      },
+      {
+        "uuid": "4b2ae968-5328-55a4-b81f-f866a94cc211",
+        "name": "June, Bounty Hunter",
+        "weight": 1
+      },
+      {
+        "uuid": "4cae08b9-9b83-5685-b06f-39e0638704fc",
+        "name": "Fire Sages",
+        "weight": 1
+      },
+      {
+        "uuid": "4cdbf8a4-fdb0-5d85-afa0-776698a7c8e3",
+        "name": "Fire Navy Trebuchet",
+        "weight": 1
+      },
+      {
+        "uuid": "558cc7e3-2a09-55a8-ab06-e6dd38daa5e8",
+        "name": "Iroh's Demonstration",
+        "weight": 1
+      },
+      {
+        "uuid": "58ec2e64-efea-5941-86c7-8f73468bf0b2",
+        "name": "Toph, the Blind Bandit",
+        "weight": 1
+      },
+      {
+        "uuid": "5a749cbd-6d91-54a2-b079-cbd77a5e76d7",
+        "name": "Appa, Loyal Sky Bison",
+        "weight": 1
+      },
+      {
+        "uuid": "620d6555-26a3-58b1-b604-436dd14a3fe3",
+        "name": "Knowledge Seeker",
+        "weight": 1
+      },
+      {
+        "uuid": "651fcc1f-b127-57e4-a2c2-76ef2af32c3e",
+        "name": "Serpent of the Pass",
+        "weight": 1
+      },
+      {
+        "uuid": "6c182de5-1b61-50ba-af65-5076681b0ade",
+        "name": "Invasion Tactics",
+        "weight": 1
+      },
+      {
+        "uuid": "71069dc3-1455-5e61-aa84-7fa4f14136c2",
+        "name": "Earth Rumble",
+        "weight": 1
+      },
+      {
+        "uuid": "75285c54-d3ca-576d-b246-27b65b2d4723",
+        "name": "Master Pakku",
+        "weight": 1
+      },
+      {
+        "uuid": "757b3ecb-715d-5d1d-8ce1-2026f3d91012",
+        "name": "Meteor Sword",
+        "weight": 1
+      },
+      {
+        "uuid": "7b10601a-d9f1-5788-a8ca-e6d309ad6912",
+        "name": "True Ancestry",
+        "weight": 1
+      },
+      {
+        "uuid": "7be12d1b-b2de-5164-bb45-97e2bb51829e",
+        "name": "Tundra Tank",
+        "weight": 1
+      },
+      {
+        "uuid": "7d28bc7b-078b-5be9-bac2-f71b8ffc0d82",
+        "name": "War Balloon",
+        "weight": 1
+      },
+      {
+        "uuid": "7ef33efa-b120-5a46-8007-8a213bba9b26",
+        "name": "The Boulder, Ready to Rumble",
+        "weight": 1
+      },
+      {
+        "uuid": "7fdbd235-b303-520b-9f9c-7ff6f63314a6",
+        "name": "Earth Kingdom Jailer",
+        "weight": 1
+      },
+      {
+        "uuid": "81083b11-1090-544b-b55f-e4e6894d704d",
+        "name": "Energybending",
+        "weight": 1
+      },
+      {
+        "uuid": "82dfb7ba-3aba-543a-827e-c5bf09a5ab92",
+        "name": "Twin Blades",
+        "weight": 1
+      },
+      {
+        "uuid": "86891360-793b-501f-8a97-ce279639fb6c",
+        "name": "Allies at Last",
+        "weight": 1
+      },
+      {
+        "uuid": "887e2031-7cc8-5c94-86ee-c67bb29fb82b",
+        "name": "Master Piandao",
+        "weight": 1
+      },
+      {
+        "uuid": "890ad090-cccc-5c74-ab2e-331b64d0ab5e",
+        "name": "Southern Air Temple",
+        "weight": 1
+      },
+      {
+        "uuid": "8ad4de0e-e377-58a5-9951-04dc8c1720b8",
+        "name": "Sokka, Lateral Strategist",
+        "weight": 1
+      },
+      {
+        "uuid": "8e672ed5-2f72-540e-9b89-1480c8619b3c",
+        "name": "Lo and Li, Twin Tutors",
+        "weight": 1
+      },
+      {
+        "uuid": "936f0cb8-edd1-53e4-ba83-c23a09a1f32a",
+        "name": "Combustion Man",
+        "weight": 1
+      },
+      {
+        "uuid": "958f8607-198f-5938-bc4e-393e75ccb100",
+        "name": "Air Nomad Legacy",
+        "weight": 1
+      },
+      {
+        "uuid": "98a0ed59-595a-5811-94a8-af091125cd24",
+        "name": "Shared Roots",
+        "weight": 1
+      },
+      {
+        "uuid": "9aba6e59-8d37-50e9-ad5f-357ccef416c2",
+        "name": "Boomerang Basics",
+        "weight": 1
+      },
+      {
+        "uuid": "9f1f24f8-aa46-556d-9190-b1d33452c897",
+        "name": "Solstice Revelations",
+        "weight": 1
+      },
+      {
+        "uuid": "a717c587-656f-5fc9-a1b8-3640c0a6493a",
+        "name": "Sparring Dummy",
+        "weight": 1
+      },
+      {
+        "uuid": "a8ff7c78-aec3-5f66-b787-cafee81cfe5c",
+        "name": "Wolfbat",
+        "weight": 1
+      },
+      {
+        "uuid": "a9260bf1-f251-59f3-9330-0344d69d840a",
+        "name": "Tiger-Dillo",
+        "weight": 1
+      },
+      {
+        "uuid": "aa454f52-a6c4-55b7-8a3e-623b6c17293a",
+        "name": "North Pole Patrol",
+        "weight": 1
+      },
+      {
+        "uuid": "ab57df7b-4771-55fa-b6aa-771e4e2744d9",
+        "name": "Waterbending Scroll",
+        "weight": 1
+      },
+      {
+        "uuid": "abca9402-7efe-5fe2-a433-2644b75157b6",
+        "name": "Airbender's Reversal",
+        "weight": 1
+      },
+      {
+        "uuid": "ad9616e2-2a32-537d-ac00-3cd86f92d71b",
+        "name": "Azula, On the Hunt",
+        "weight": 1
+      },
+      {
+        "uuid": "aed55f90-39b9-53dd-ab03-5005fb8bba1a",
+        "name": "Uncle Iroh",
+        "weight": 1
+      },
+      {
+        "uuid": "b1d0c005-3d34-5294-b7aa-95647fcc182f",
+        "name": "White Lotus Reinforcements",
+        "weight": 1
+      },
+      {
+        "uuid": "b22a2bb7-c409-5e6f-aaf3-3ca137d34e69",
+        "name": "Ruinous Waterbending",
+        "weight": 1
+      },
+      {
+        "uuid": "b32b3f23-76c9-565e-8520-a8335dfb5fd3",
+        "name": "The Cave of Two Lovers",
+        "weight": 1
+      },
+      {
+        "uuid": "b3e6727d-5ba1-5327-a42f-f1fd3e0dc2d0",
+        "name": "Sun Warriors",
+        "weight": 1
+      },
+      {
+        "uuid": "b5bd5f31-4bae-5f67-8c00-175a332eb77c",
+        "name": "Gran-Gran",
+        "weight": 1
+      },
+      {
+        "uuid": "b8262d91-32d7-5e78-8192-7fe8882fc806",
+        "name": "Bitter Work",
+        "weight": 1
+      },
+      {
+        "uuid": "b9b63c30-7858-5947-aa97-d6d2fdfb1311",
+        "name": "Haru, Hidden Talent",
+        "weight": 1
+      },
+      {
+        "uuid": "c0797dec-11b9-51c1-82e1-e76e95e2b216",
+        "name": "Momo, Playful Pet",
+        "weight": 1
+      },
+      {
+        "uuid": "c08676c8-4ec5-5d45-8244-03b410a1df6b",
+        "name": "Guru Pathik",
+        "weight": 1
+      },
+      {
+        "uuid": "c3f668ff-0000-504d-a4d4-c5bbad47c3f4",
+        "name": "Hama, the Bloodbender",
+        "weight": 1
+      },
+      {
+        "uuid": "c4b101d4-d5c9-513d-8ea2-65058ee52170",
+        "name": "Ozai's Cruelty",
+        "weight": 1
+      },
+      {
+        "uuid": "cacdcd97-301d-54af-9a98-f1cff23467ba",
+        "name": "Long Feng, Grand Secretariat",
+        "weight": 1
+      },
+      {
+        "uuid": "cfd66e0c-be0d-5886-b328-e604d2e7d251",
+        "name": "Gather the White Lotus",
+        "weight": 1
+      },
+      {
+        "uuid": "d2413c0f-ce93-563e-9177-b6100c17dea1",
+        "name": "Joo Dee, One of Many",
+        "weight": 1
+      },
+      {
+        "uuid": "d7500517-0cd1-59b4-8b01-885e5dd5cac0",
+        "name": "Heartless Act",
+        "weight": 1
+      },
+      {
+        "uuid": "d7e16847-324d-5d8e-b416-661f025f7393",
+        "name": "Fire Nation Engineer",
+        "weight": 1
+      },
+      {
+        "uuid": "dae9d4e5-633f-5387-b756-9727bd1fbd6b",
+        "name": "Dragonfly Swarm",
+        "weight": 1
+      },
+      {
+        "uuid": "db0eae1d-de1a-5f5b-879e-2e97f91ef017",
+        "name": "Teo, Spirited Glider",
+        "weight": 1
+      },
+      {
+        "uuid": "db15bacb-7609-5f76-8158-d6c2cb54842a",
+        "name": "Cat-Gator",
+        "weight": 1
+      },
+      {
+        "uuid": "dbada988-511d-5312-9b2e-efe39b60e0f4",
+        "name": "Leaves from the Vine",
+        "weight": 1
+      },
+      {
+        "uuid": "dc1d4b98-6fd2-5d96-8de8-99de4bea28e1",
+        "name": "Kyoshi Island Plaza",
+        "weight": 1
+      },
+      {
+        "uuid": "df5b225f-18bc-57e1-a8c2-27b7279ced35",
+        "name": "Trusty Boomerang",
+        "weight": 1
+      },
+      {
+        "uuid": "e08bed1e-e47e-55f4-b954-05c6373b6d41",
+        "name": "Benevolent River Spirit",
+        "weight": 1
+      },
+      {
+        "uuid": "e554b84d-aec4-56ae-b49d-9c50fd6f15b7",
+        "name": "Jeong Jeong, the Deserter",
+        "weight": 1
+      },
+      {
+        "uuid": "e59c45a8-fa5e-5296-95f3-01ccd781b447",
+        "name": "Jet's Brainwashing",
+        "weight": 1
+      },
+      {
+        "uuid": "e8764c21-76fc-58d4-b42f-56b290a1393c",
+        "name": "Glider Staff",
+        "weight": 1
+      },
+      {
+        "uuid": "eb2471a2-4571-57fc-a072-f3805eb311e6",
+        "name": "Mai, Jaded Edge",
+        "weight": 1
+      },
+      {
+        "uuid": "ebf22e64-6d98-5bc5-9f41-c35f425b1d1e",
+        "name": "Accumulate Wisdom",
+        "weight": 1
+      },
+      {
+        "uuid": "ebfce62b-b5ea-52c6-a129-64568390a3f4",
+        "name": "Fire Nation Attacks",
+        "weight": 1
+      },
+      {
+        "uuid": "ec7f7de9-6b1d-5c69-b410-bc50a12e1447",
+        "name": "Buzzard-Wasp Colony",
+        "weight": 1
+      },
+      {
+        "uuid": "eda6a8a7-898b-5663-bdcf-2428f7466f28",
+        "name": "Bumi, King of Three Trials",
+        "weight": 1
+      },
+      {
+        "uuid": "efb3a1a2-b978-5a1c-b677-4cecc28c9c99",
+        "name": "Flopsie, Bumi's Buddy",
+        "weight": 1
+      },
+      {
+        "uuid": "f19d41e2-1459-5638-9fcc-95bde9dae7e0",
+        "name": "The Spirit Oasis",
+        "weight": 1
+      },
+      {
+        "uuid": "f247a69a-c5f4-512e-84bc-e1e2cf364c39",
+        "name": "Vengeful Villagers",
+        "weight": 1
+      },
+      {
+        "uuid": "f3eeea29-c1e3-5885-9b2f-3c7b4ec61f6b",
+        "name": "Combustion Technique",
+        "weight": 1
+      },
+      {
+        "uuid": "f46829e9-1083-5b42-b787-c9043de6a09b",
+        "name": "Tolls of War",
+        "weight": 1
+      },
+      {
+        "uuid": "f56fb5db-eec9-5f34-aa0a-6da805ba4603",
+        "name": "Honest Work",
+        "weight": 1
+      },
+      {
+        "uuid": "f74b1955-f6de-5ce1-84cc-23267a4b1799",
+        "name": "Crescent Island Temple",
+        "weight": 1
+      },
+      {
+        "uuid": "f7da64c7-6434-5c9b-9854-e0a0fe1dda22",
+        "name": "Ty Lee, Artful Acrobat",
+        "weight": 1
+      },
+      {
+        "uuid": "fb7beaf4-982e-5421-a72a-bf9dcc35c8ac",
+        "name": "Earth Kingdom General",
+        "weight": 1
+      }
+    ]
+  },
+  "wildcard": {
+    "cards": [
+      {
+        "uuid": "013a24c3-f872-5fe8-9b68-acfa271770d1",
+        "name": "Epic Downfall",
+        "weight": 10134801
+      },
+      {
+        "uuid": "0176c95a-ed88-5b6c-96ee-b8172d6c70aa",
+        "name": "Walltop Sentries",
+        "weight": 846670
+      },
+      {
+        "uuid": "01c56a0c-d2ed-5af5-be47-29c2f84ede91",
+        "name": "Katara, Water Tribe's Hope",
+        "weight": 5746950
+      },
+      {
+        "uuid": "02fe4019-ae2e-53fc-b011-46dec318bde8",
+        "name": "The Lion-Turtle",
+        "weight": 5746950
+      },
+      {
+        "uuid": "0371ee84-a321-5318-8bf8-c380fb8905c3",
+        "name": "Badgermole",
+        "weight": 846670
+      },
+      {
+        "uuid": "039b9a3c-dec1-53e4-a4e0-5809b3f06298",
+        "name": "Bender's Waterskin",
+        "weight": 846670
+      },
+      {
+        "uuid": "05a3588f-8eea-55dd-82be-b951e46a0442",
+        "name": "United Front",
+        "weight": 3333231
+      },
+      {
+        "uuid": "075af7e1-cf8a-5da5-9c69-a1c984b23edd",
+        "name": "Secret Tunnel",
+        "weight": 5746950
+      },
+      {
+        "uuid": "07749abf-369c-5b51-9096-8801b9700e7a",
+        "name": "Airbender Ascension",
+        "weight": 5746950
+      },
+      {
+        "uuid": "080c2416-ae8d-528f-8dac-94a2fdadd149",
+        "name": "Rough Rhino Cavalry",
+        "weight": 846670
+      },
+      {
+        "uuid": "086f3893-c1d1-5bfa-97ca-31a9926cf112",
+        "name": "Price of Freedom",
+        "weight": 10134801
+      },
+      {
+        "uuid": "0b544a38-63f3-51a6-8858-0d62a1374ec3",
+        "name": "Kyoshi Battle Fan",
+        "weight": 846670
+      },
+      {
+        "uuid": "0bd4fb84-2fa3-52fc-9db2-c539c21d1d10",
+        "name": "Waterbending Lesson",
+        "weight": 846670
+      },
+      {
+        "uuid": "0c7333dd-289f-5132-a0e6-440defc2eb6d",
+        "name": "Mongoose Lizard",
+        "weight": 846670
+      },
+      {
+        "uuid": "0d3cf771-cde0-5587-b82e-a5298403920c",
+        "name": "Bumi, Unleashed",
+        "weight": 3333231
+      },
+      {
+        "uuid": "0d694d88-d0f9-5ddd-aa7f-1d4e1f585ae5",
+        "name": "Professor Zei, Anthropologist",
+        "weight": 10134801
+      },
+      {
+        "uuid": "0f15e5c1-0525-5039-9ee1-079f79918f38",
+        "name": "Mai, Scornful Striker",
+        "weight": 5746950
+      },
+      {
+        "uuid": "101dccf8-884a-5e01-aa1f-8eeb94e2243f",
+        "name": "Fire Nation Cadets",
+        "weight": 846670
+      },
+      {
+        "uuid": "10275615-0113-5dad-a043-4c44d44c97b8",
+        "name": "The Fire Nation Drill",
+        "weight": 5746950
+      },
+      {
+        "uuid": "11488d70-a0b9-565c-a022-c6ae6b3ca827",
+        "name": "Fatal Fissure",
+        "weight": 10134801
+      },
+      {
+        "uuid": "1222672d-e5f8-5ca5-9a42-787103132456",
+        "name": "Invasion Reinforcements",
+        "weight": 10134801
+      },
+      {
+        "uuid": "1425e196-7850-557d-9ca8-02faef851926",
+        "name": "Team Avatar",
+        "weight": 10134801
+      },
+      {
+        "uuid": "17b6a9d8-de10-5d62-a513-dd6a19b145f4",
+        "name": "Earthbending Lesson",
+        "weight": 846670
+      },
+      {
+        "uuid": "191b6587-cbc0-5b59-89f0-af0c20f916b6",
+        "name": "Katara, Bending Prodigy",
+        "weight": 10134801
+      },
+      {
+        "uuid": "196d3d60-e284-5d4d-b45b-e50892ff1feb",
+        "name": "The Legend of Yangchen",
+        "weight": 3333231
+      },
+      {
+        "uuid": "19c1139e-9cef-5418-8f7d-22c46e899b43",
+        "name": "Toph, the First Metalbender",
+        "weight": 5746950
+      },
+      {
+        "uuid": "19f845cd-da78-5f5a-a215-41bad95de1d2",
+        "name": "Lightning Strike",
+        "weight": 846670
+      },
+      {
+        "uuid": "1afc0384-c472-58ce-84c7-7ae8fbb2c9ba",
+        "name": "White Lotus Hideout",
+        "weight": 10134801
+      },
+      {
+        "uuid": "1b9088d0-d044-5ff9-afae-a9980464a0fa",
+        "name": "Destined Confrontation",
+        "weight": 10134801
+      },
+      {
+        "uuid": "1cad62bc-07b5-56bf-b90f-88ed16eb5b99",
+        "name": "Hermitic Herbalist",
+        "weight": 10134801
+      },
+      {
+        "uuid": "1ce48d2e-4e92-5523-9801-2d9c1e8da706",
+        "name": "Hei Bai, Spirit of Balance",
+        "weight": 10134801
+      },
+      {
+        "uuid": "1e7f20cb-d4f0-54d0-a9f2-fe6263014b2d",
+        "name": "Toph, Hardheaded Teacher",
+        "weight": 5746950
+      },
+      {
+        "uuid": "1edb9325-ce24-5b9c-ab9b-6b30015d94f5",
+        "name": "Fancy Footwork",
+        "weight": 10134801
+      },
+      {
+        "uuid": "1fdf2ebb-c62f-5299-b07c-8a20a7728b35",
+        "name": "Secret of Bloodbending",
+        "weight": 3333231
+      },
+      {
+        "uuid": "2054f0fd-89f2-575d-8ef1-ea4b065ed323",
+        "name": "Crashing Wave",
+        "weight": 10134801
+      },
+      {
+        "uuid": "210e1db8-6579-5e48-ae3b-8a145b4956bc",
+        "name": "Geyser Leaper",
+        "weight": 846670
+      },
+      {
+        "uuid": "243d801b-a395-5c97-bc6c-5ad72f252131",
+        "name": "Foggy Swamp Spirit Keeper",
+        "weight": 10134801
+      },
+      {
+        "uuid": "2945f6f3-5b4f-57e6-8b89-bce5beaf7015",
+        "name": "Beifong's Bounty Hunters",
+        "weight": 5746950
+      },
+      {
+        "uuid": "29f100d0-621a-5804-93a2-e799bf603167",
+        "name": "Unlucky Cabbage Merchant",
+        "weight": 10134801
+      },
+      {
+        "uuid": "2a5bd62d-e060-53e5-87e0-8ae2a5dec2fd",
+        "name": "Boiling Rock Rioter",
+        "weight": 5746950
+      },
+      {
+        "uuid": "2b685910-02ad-563a-b1fb-51df684aae26",
+        "name": "The Mechanist, Aerial Artisan",
+        "weight": 5746950
+      },
+      {
+        "uuid": "2d135290-3f8b-51fa-a4c6-c80bdfae3119",
+        "name": "Great Divide Guide",
+        "weight": 5746950
+      },
+      {
+        "uuid": "2e3dad63-5928-5a64-b26f-1bae28c22cf3",
+        "name": "Sandbenders' Storm",
+        "weight": 846670
+      },
+      {
+        "uuid": "2e804d75-000f-5af7-8dda-26325b72b3e9",
+        "name": "Enter the Avatar State",
+        "weight": 10134801
+      },
+      {
+        "uuid": "2ef4c407-cc9a-5cc5-ad8b-8fa6be326fdf",
+        "name": "Earth Kingdom Protectors",
+        "weight": 10134801
+      },
+      {
+        "uuid": "2f9c975c-d4b6-5b3b-a551-026efb82f6a0",
+        "name": "Northern Air Temple",
+        "weight": 10134801
+      },
+      {
+        "uuid": "31ab91f3-c2cd-576a-81fe-e2a89c6a8cba",
+        "name": "Zuko, Exiled Prince",
+        "weight": 10134801
+      },
+      {
+        "uuid": "3360c8c4-3e31-562a-bcdc-0d6b731eaf92",
+        "name": "Curious Farm Animals",
+        "weight": 846670
+      },
+      {
+        "uuid": "34019706-f154-5fc8-a836-5d48e55fcf21",
+        "name": "Fire Lord Azula",
+        "weight": 5746950
+      },
+      {
+        "uuid": "3605fea0-57a4-51e2-b5db-00c0cd59d2f6",
+        "name": "Pirate Peddlers",
+        "weight": 846670
+      },
+      {
+        "uuid": "3660c2d0-ce55-5fa5-bb6a-456f7fc3cb48",
+        "name": "Zhao, the Moon Slayer",
+        "weight": 5746950
+      },
+      {
+        "uuid": "36f79026-030f-5af4-94b1-0a7ed1935c09",
+        "name": "Iroh, Tea Master",
+        "weight": 5746950
+      },
+      {
+        "uuid": "36f85221-4d19-53fe-8029-669cf45e400f",
+        "name": "Fire Nation Warship",
+        "weight": 10134801
+      },
+      {
+        "uuid": "37f35666-52fe-5099-819e-64bc6553b36e",
+        "name": "Pretending Poxbearers",
+        "weight": 846670
+      },
+      {
+        "uuid": "3b055a7f-7ce3-5abe-8fed-296dbd6a9f95",
+        "name": "Diligent Zookeeper",
+        "weight": 5746950
+      },
+      {
+        "uuid": "3c8b4e69-ae3a-54f7-9079-6d3f4ad844eb",
+        "name": "Dai Li Agents",
+        "weight": 10134801
+      },
+      {
+        "uuid": "3cae0412-e269-56b9-a6b9-4cd513e98961",
+        "name": "Hakoda, Selfless Commander",
+        "weight": 5746950
+      },
+      {
+        "uuid": "3d0bcd9b-3ccf-5c93-a90f-ddf556fc581a",
+        "name": "Water Tribe Rallier",
+        "weight": 10134801
+      },
+      {
+        "uuid": "3db733ea-9d27-505a-8a92-fdc95e35e4f2",
+        "name": "South Pole Voyager",
+        "weight": 5746950
+      },
+      {
+        "uuid": "3e47a0bc-6140-59d9-a39c-525371b34ec5",
+        "name": "Aang, the Last Airbender",
+        "weight": 10134801
+      },
+      {
+        "uuid": "3e7df4d4-b9dc-5c15-9544-410a72ea0b40",
+        "name": "Jet, Freedom Fighter",
+        "weight": 10134801
+      },
+      {
+        "uuid": "3ffc422e-e1a7-5ccf-bcb6-39ca1e7c1ee2",
+        "name": "Yue, the Moon Spirit",
+        "weight": 5746950
+      },
+      {
+        "uuid": "400341f8-cbf5-558a-84ba-a2aead8d0fcf",
+        "name": "Water Tribe Captain",
+        "weight": 846670
+      },
+      {
+        "uuid": "404e3e1b-bbf2-5108-b297-153e032a54f5",
+        "name": "Invasion Submersible",
+        "weight": 10134801
+      },
+      {
+        "uuid": "4055d3be-a450-50db-bf8d-474ecad37d7d",
+        "name": "Seismic Sense",
+        "weight": 10134801
+      },
+      {
+        "uuid": "4063d9e7-72d2-5750-aeab-b75b3743cd39",
+        "name": "Sokka's Haiku",
+        "weight": 10134801
+      },
+      {
+        "uuid": "41294dd8-6c0d-5657-9ecb-c7e94e0bc479",
+        "name": "The Walls of Ba Sing Se",
+        "weight": 3333231
+      },
+      {
+        "uuid": "416e72c7-cebd-57f5-9a0e-f8cd5fd2e2e9",
+        "name": "Foggy Swamp Vinebender",
+        "weight": 846670
+      },
+      {
+        "uuid": "418e70d5-32d4-5ce9-8dda-b12783003292",
+        "name": "Suki, Kyoshi Warrior",
+        "weight": 10134801
+      },
+      {
+        "uuid": "42175074-111f-5af2-9bc0-65d8949dec25",
+        "name": "Zuko's Conviction",
+        "weight": 10134801
+      },
+      {
+        "uuid": "43e1dc7b-5d28-5604-9998-1959b09c48f1",
+        "name": "Zhao, Ruthless Admiral",
+        "weight": 10134801
+      },
+      {
+        "uuid": "49388d79-ebd5-5fca-9882-d5ac3a7b4149",
+        "name": "Azula, Cunning Usurper",
+        "weight": 5746950
+      },
+      {
+        "uuid": "49860d80-ba96-535a-9160-88d40a5f115d",
+        "name": "Cruel Administrator",
+        "weight": 10134801
+      },
+      {
+        "uuid": "4a7964de-2966-5bea-a260-999bbebb90e8",
+        "name": "Rockalanche",
+        "weight": 10134801
+      },
+      {
+        "uuid": "4a95c4c4-1017-57fb-907d-d38969186295",
+        "name": "Ember Island Production",
+        "weight": 10134801
+      },
+      {
+        "uuid": "4b2ae968-5328-55a4-b81f-f866a94cc211",
+        "name": "June, Bounty Hunter",
+        "weight": 10134801
+      },
+      {
+        "uuid": "4b71e29f-628f-5539-8171-f314d2c34154",
+        "name": "Wan Shi Tong, Librarian",
+        "weight": 3333231
+      },
+      {
+        "uuid": "4cae08b9-9b83-5685-b06f-39e0638704fc",
+        "name": "Fire Sages",
+        "weight": 10134801
+      },
+      {
+        "uuid": "4cdbf8a4-fdb0-5d85-afa0-776698a7c8e3",
+        "name": "Fire Navy Trebuchet",
+        "weight": 10134801
+      },
+      {
+        "uuid": "4d2cb3b4-1f3b-5476-9bc5-f2a68d85e146",
+        "name": "Dai Li Indoctrination",
+        "weight": 846670
+      },
+      {
+        "uuid": "4e6d8aec-a1c7-55b3-867b-c551e7182c5d",
+        "name": "Earth Rumble Wrestlers",
+        "weight": 846670
+      },
+      {
+        "uuid": "4ef45228-6163-510a-8a8d-ab6a1a203183",
+        "name": "Avatar's Wrath",
+        "weight": 5746950
+      },
+      {
+        "uuid": "4f107cf0-11c9-576c-9c2e-0dddfd4c51d9",
+        "name": "The Legend of Kyoshi",
+        "weight": 3333231
+      },
+      {
+        "uuid": "50f37e53-37bb-537a-90cc-44d73efd428f",
+        "name": "Corrupt Court Official",
+        "weight": 846670
+      },
+      {
+        "uuid": "51654f1b-1859-5e27-93d0-f18b7bae3109",
+        "name": "Planetarium of Wan Shi Tong",
+        "weight": 3333231
+      },
+      {
+        "uuid": "519b37a4-1705-5a1e-b181-763b36d43c9a",
+        "name": "Ba Sing Se",
+        "weight": 5746950
+      },
+      {
+        "uuid": "51cc9284-f318-5412-9d74-8e8012e44ff9",
+        "name": "Wandering Musicians",
+        "weight": 846670
+      },
+      {
+        "uuid": "52b87eee-7ac7-5351-8cb9-b5e11bcc18a7",
+        "name": "Aang, at the Crossroads",
+        "weight": 5746950
+      },
+      {
+        "uuid": "558cc7e3-2a09-55a8-ab06-e6dd38daa5e8",
+        "name": "Iroh's Demonstration",
+        "weight": 10134801
+      },
+      {
+        "uuid": "56c5c8e4-bfd4-5cf6-b3ca-f32109558628",
+        "name": "Ran and Shaw",
+        "weight": 5746950
+      },
+      {
+        "uuid": "57327dc4-f787-5599-bf8b-1b699465cf83",
+        "name": "The Legend of Roku",
+        "weight": 3333231
+      },
+      {
+        "uuid": "58e63f24-2aa7-5f75-9555-8249ebe26886",
+        "name": "Turtle-Duck",
+        "weight": 846670
+      },
+      {
+        "uuid": "58ec2e64-efea-5941-86c7-8f73468bf0b2",
+        "name": "Toph, the Blind Bandit",
+        "weight": 10134801
+      },
+      {
+        "uuid": "5a749cbd-6d91-54a2-b079-cbd77a5e76d7",
+        "name": "Appa, Loyal Sky Bison",
+        "weight": 10134801
+      },
+      {
+        "uuid": "5bd8e6ab-ff6d-5545-9de6-cf1454f0cc78",
+        "name": "Lost Days",
+        "weight": 846670
+      },
+      {
+        "uuid": "60e0dcc0-73dc-5dbb-97e8-9d3456f03dd7",
+        "name": "Avatar Aang",
+        "weight": 3333231
+      },
+      {
+        "uuid": "616d937a-fa2f-558b-b068-604da8735243",
+        "name": "Day of Black Sun",
+        "weight": 5746950
+      },
+      {
+        "uuid": "620d6555-26a3-58b1-b604-436dd14a3fe3",
+        "name": "Knowledge Seeker",
+        "weight": 10134801
+      },
+      {
+        "uuid": "651fcc1f-b127-57e4-a2c2-76ef2af32c3e",
+        "name": "Serpent of the Pass",
+        "weight": 10134801
+      },
+      {
+        "uuid": "65e42380-9e52-590f-8b41-b84dd656df5f",
+        "name": "White Lotus Tile",
+        "weight": 3333231
+      },
+      {
+        "uuid": "6601a19f-d2b2-5260-9170-f5f6c0d1291c",
+        "name": "Elemental Teachings",
+        "weight": 5746950
+      },
+      {
+        "uuid": "687207c6-4c20-5529-a5e7-d9c1d8870525",
+        "name": "Deadly Precision",
+        "weight": 846670
+      },
+      {
+        "uuid": "6ad9d472-21ea-50c5-9713-f616c33379ef",
+        "name": "The Unagi of Kyoshi Island",
+        "weight": 5746950
+      },
+      {
+        "uuid": "6c182de5-1b61-50ba-af65-5076681b0ade",
+        "name": "Invasion Tactics",
+        "weight": 10134801
+      },
+      {
+        "uuid": "6e180c3d-6f1a-5b51-8116-2d6f4376cffd",
+        "name": "Hog-Monkey",
+        "weight": 846670
+      },
+      {
+        "uuid": "6eff5dbd-d3fb-518e-b5e1-28bbfae0f2fc",
+        "name": "Beetle-Headed Merchants",
+        "weight": 846670
+      },
+      {
+        "uuid": "70c25307-ecf0-5870-94a6-a01621aa3a0e",
+        "name": "Realm of Koh",
+        "weight": 5746950
+      },
+      {
+        "uuid": "71069dc3-1455-5e61-aa84-7fa4f14136c2",
+        "name": "Earth Rumble",
+        "weight": 10134801
+      },
+      {
+        "uuid": "714ab7fe-f8d1-5b5f-bf89-f5d59d69f9f1",
+        "name": "Flexible Waterbender",
+        "weight": 846670
+      },
+      {
+        "uuid": "72b8a11b-d238-545a-b2f4-4bdc1f994289",
+        "name": "Barrels of Blasting Jelly",
+        "weight": 846670
+      },
+      {
+        "uuid": "73310509-b53c-5478-9ddf-9638154f1102",
+        "name": "Sokka, Bold Boomeranger",
+        "weight": 5746950
+      },
+      {
+        "uuid": "75285c54-d3ca-576d-b246-27b65b2d4723",
+        "name": "Master Pakku",
+        "weight": 10134801
+      },
+      {
+        "uuid": "7575f32d-66dc-52dd-b616-a277b3bae4d9",
+        "name": "Glider Kids",
+        "weight": 846670
+      },
+      {
+        "uuid": "757b3ecb-715d-5d1d-8ce1-2026f3d91012",
+        "name": "Meteor Sword",
+        "weight": 10134801
+      },
+      {
+        "uuid": "768914cc-69e0-5fc2-9b7a-b90dc66bf9dc",
+        "name": "Firebending Lesson",
+        "weight": 846670
+      },
+      {
+        "uuid": "76d70ede-6a05-580a-9f12-5aec082b5fab",
+        "name": "Platypus-Bear",
+        "weight": 846670
+      },
+      {
+        "uuid": "779918b4-dc87-597d-98c7-ec7d9c54fabe",
+        "name": "Watery Grasp",
+        "weight": 846670
+      },
+      {
+        "uuid": "78ae5dbe-278f-5935-a89f-b524643410fe",
+        "name": "Forecasting Fortune Teller",
+        "weight": 846670
+      },
+      {
+        "uuid": "78e56493-209f-5836-943c-505b10ca3835",
+        "name": "Rabaroo Troop",
+        "weight": 846670
+      },
+      {
+        "uuid": "7b10601a-d9f1-5788-a8ca-e6d309ad6912",
+        "name": "True Ancestry",
+        "weight": 10134801
+      },
+      {
+        "uuid": "7be12d1b-b2de-5164-bb45-97e2bb51829e",
+        "name": "Tundra Tank",
+        "weight": 10134801
+      },
+      {
+        "uuid": "7be44e2c-c3e4-546d-af05-1df626a264c7",
+        "name": "Badgermole Cub",
+        "weight": 3333231
+      },
+      {
+        "uuid": "7c0c6c83-973b-5085-8c35-29e73257996f",
+        "name": "Origin of Metalbending",
+        "weight": 846670
+      },
+      {
+        "uuid": "7d28bc7b-078b-5be9-bac2-f71b8ffc0d82",
+        "name": "War Balloon",
+        "weight": 10134801
+      },
+      {
+        "uuid": "7da35d1a-a633-5464-a965-57028f5d331e",
+        "name": "Abandon Attachments",
+        "weight": 846670
+      },
+      {
+        "uuid": "7ef33efa-b120-5a46-8007-8a213bba9b26",
+        "name": "The Boulder, Ready to Rumble",
+        "weight": 10134801
+      },
+      {
+        "uuid": "7fdbd235-b303-520b-9f9c-7ff6f63314a6",
+        "name": "Earth Kingdom Jailer",
+        "weight": 10134801
+      },
+      {
+        "uuid": "81083b11-1090-544b-b55f-e4e6894d704d",
+        "name": "Energybending",
+        "weight": 10134801
+      },
+      {
+        "uuid": "815dd3fa-79e0-5583-943a-54eb9f61a713",
+        "name": "First-Time Flyer",
+        "weight": 846670
+      },
+      {
+        "uuid": "82dfb7ba-3aba-543a-827e-c5bf09a5ab92",
+        "name": "Twin Blades",
+        "weight": 10134801
+      },
+      {
+        "uuid": "82f55a34-b7da-5b4c-96f4-550b0ab56660",
+        "name": "Zuko, Conflicted",
+        "weight": 5746950
+      },
+      {
+        "uuid": "84f91893-52ed-584b-b877-4eca43d56389",
+        "name": "Sozin's Comet",
+        "weight": 3333231
+      },
+      {
+        "uuid": "8543299b-82f7-53c7-b2e7-9a4403476d68",
+        "name": "Redirect Lightning",
+        "weight": 5746950
+      },
+      {
+        "uuid": "8583c986-d0cb-5a4c-8ba1-ccb203743e83",
+        "name": "Rocky Rebuke",
+        "weight": 846670
+      },
+      {
+        "uuid": "86891360-793b-501f-8a97-ce279639fb6c",
+        "name": "Allies at Last",
+        "weight": 10134801
+      },
+      {
+        "uuid": "887e2031-7cc8-5c94-86ee-c67bb29fb82b",
+        "name": "Master Piandao",
+        "weight": 10134801
+      },
+      {
+        "uuid": "88ddc1d0-c859-5251-8e8b-7d2caec47c0b",
+        "name": "Earthbender Ascension",
+        "weight": 5746950
+      },
+      {
+        "uuid": "890ad090-cccc-5c74-ab2e-331b64d0ab5e",
+        "name": "Southern Air Temple",
+        "weight": 10134801
+      },
+      {
+        "uuid": "8a4d0ce5-4ce0-5d1a-aefa-8dff0c65f3b6",
+        "name": "Obsessive Pursuit",
+        "weight": 5746950
+      },
+      {
+        "uuid": "8a91c01c-308d-5e22-85a0-d7ae90096e1e",
+        "name": "Boar-q-pine",
+        "weight": 846670
+      },
+      {
+        "uuid": "8ad4de0e-e377-58a5-9951-04dc8c1720b8",
+        "name": "Sokka, Lateral Strategist",
+        "weight": 10134801
+      },
+      {
+        "uuid": "8b8210e3-c635-5042-aa80-e3041dce59ce",
+        "name": "Merchant of Many Hats",
+        "weight": 846670
+      },
+      {
+        "uuid": "8c9b85a0-6eb2-5ecb-9acc-c7d6aa0b4a2a",
+        "name": "Saber-Tooth Moose-Lion",
+        "weight": 846670
+      },
+      {
+        "uuid": "8e672ed5-2f72-540e-9b89-1480c8619b3c",
+        "name": "Lo and Li, Twin Tutors",
+        "weight": 10134801
+      },
+      {
+        "uuid": "8ffcc49b-a543-5bfa-8c17-e5db4f4913f1",
+        "name": "Swampsnare Trap",
+        "weight": 846670
+      },
+      {
+        "uuid": "904c2071-f446-5c7a-a55d-4d8f2b3d0147",
+        "name": "Iroh, Grand Lotus",
+        "weight": 5746950
+      },
+      {
+        "uuid": "911b1250-6802-5513-a6d5-83433e47ddc6",
+        "name": "Ostrich-Horse",
+        "weight": 846670
+      },
+      {
+        "uuid": "9192c3aa-563d-5130-8215-ce58dd7a653c",
+        "name": "Abandoned Air Temple",
+        "weight": 5746950
+      },
+      {
+        "uuid": "91cc1cda-8775-579e-8db0-d17e1639c07f",
+        "name": "Earth King's Lieutenant",
+        "weight": 5746950
+      },
+      {
+        "uuid": "91dd2819-2556-5f44-8c7f-b844566670aa",
+        "name": "Spirit Water Revival",
+        "weight": 5746950
+      },
+      {
+        "uuid": "92b53cb1-4f19-52ce-ac34-6191d3108b05",
+        "name": "Ty Lee, Chi Blocker",
+        "weight": 5746950
+      },
+      {
+        "uuid": "936f0cb8-edd1-53e4-ba83-c23a09a1f32a",
+        "name": "Combustion Man",
+        "weight": 10134801
+      },
+      {
+        "uuid": "95043de2-888d-504c-98ca-9136649bb3f1",
+        "name": "Raven Eagle",
+        "weight": 5746950
+      },
+      {
+        "uuid": "958f8607-198f-5938-bc4e-393e75ccb100",
+        "name": "Air Nomad Legacy",
+        "weight": 10134801
+      },
+      {
+        "uuid": "98a0ed59-595a-5811-94a8-af091125cd24",
+        "name": "Shared Roots",
+        "weight": 10134801
+      },
+      {
+        "uuid": "98c89126-c2f2-559e-8f8b-05e97ecff132",
+        "name": "Katara, the Fearless",
+        "weight": 5746950
+      },
+      {
+        "uuid": "9936adbf-a9b0-5eb1-b369-f4c1ff315653",
+        "name": "Raucous Audience",
+        "weight": 846670
+      },
+      {
+        "uuid": "9a2af7e0-8912-50f2-a4f2-e74bb332f0cf",
+        "name": "Rowdy Snowballers",
+        "weight": 846670
+      },
+      {
+        "uuid": "9aba6e59-8d37-50e9-ad5f-357ccef416c2",
+        "name": "Boomerang Basics",
+        "weight": 10134801
+      },
+      {
+        "uuid": "9d9e3854-a087-5e5f-b20c-ae2571338efe",
+        "name": "Earth Village Ruffians",
+        "weight": 846670
+      },
+      {
+        "uuid": "9dd06d5e-823b-50b1-80d1-e2b89b6a6ab6",
+        "name": "Cycle of Renewal",
+        "weight": 846670
+      },
+      {
+        "uuid": "9e32fb7f-47bc-52f7-91f8-0e008abd560a",
+        "name": "Avatar Destiny",
+        "weight": 5746950
+      },
+      {
+        "uuid": "9f1f24f8-aa46-556d-9190-b1d33452c897",
+        "name": "Solstice Revelations",
+        "weight": 10134801
+      },
+      {
+        "uuid": "a02fd27e-e8f1-573a-a082-439a5597024f",
+        "name": "The Legend of Kuruk",
+        "weight": 3333231
+      },
+      {
+        "uuid": "a2ce9a0e-aabb-59f5-b024-43cfbfa6572c",
+        "name": "Momo, Friendly Flier",
+        "weight": 5746950
+      },
+      {
+        "uuid": "a3436776-9b2c-551f-adaf-cdff46e33b01",
+        "name": "Foggy Swamp Visions",
+        "weight": 5746950
+      },
+      {
+        "uuid": "a35980d3-98ec-571c-80c6-89f9c4c07558",
+        "name": "Cat-Owl",
+        "weight": 846670
+      },
+      {
+        "uuid": "a532fcc0-c7b6-54d1-82ae-b7efc4cceb69",
+        "name": "Suki, Courageous Rescuer",
+        "weight": 5746950
+      },
+      {
+        "uuid": "a5dd8ed8-7cd3-526b-879d-4b434a1af81c",
+        "name": "Pillar Launch",
+        "weight": 846670
+      },
+      {
+        "uuid": "a67385cd-4ec1-5e43-ab40-0403a6e2fb3b",
+        "name": "Agna Qel'a",
+        "weight": 5746950
+      },
+      {
+        "uuid": "a68b337f-4645-5c4c-ba76-aecbb8727d37",
+        "name": "Fire Lord Zuko",
+        "weight": 5746950
+      },
+      {
+        "uuid": "a68da1ab-8d83-51d8-bec9-dfb95931cde8",
+        "name": "Jasmine Dragon Tea Shop",
+        "weight": 5746950
+      },
+      {
+        "uuid": "a717c587-656f-5fc9-a1b8-3640c0a6493a",
+        "name": "Sparring Dummy",
+        "weight": 10134801
+      },
+      {
+        "uuid": "a8ff7c78-aec3-5f66-b787-cafee81cfe5c",
+        "name": "Wolfbat",
+        "weight": 10134801
+      },
+      {
+        "uuid": "a9260bf1-f251-59f3-9330-0344d69d840a",
+        "name": "Tiger-Dillo",
+        "weight": 10134801
+      },
+      {
+        "uuid": "a9dc0b5d-7a78-564a-84f6-32f011096d57",
+        "name": "Vindictive Warden",
+        "weight": 846670
+      },
+      {
+        "uuid": "aa454f52-a6c4-55b7-8a3e-623b6c17293a",
+        "name": "North Pole Patrol",
+        "weight": 10134801
+      },
+      {
+        "uuid": "ab57df7b-4771-55fa-b6aa-771e4e2744d9",
+        "name": "Waterbending Scroll",
+        "weight": 10134801
+      },
+      {
+        "uuid": "abca9402-7efe-5fe2-a433-2644b75157b6",
+        "name": "Airbender's Reversal",
+        "weight": 10134801
+      },
+      {
+        "uuid": "ad9616e2-2a32-537d-ac00-3cd86f92d71b",
+        "name": "Azula, On the Hunt",
+        "weight": 10134801
+      },
+      {
+        "uuid": "ae525935-7e40-599e-883a-b74dc6f3d3c4",
+        "name": "The Last Agni Kai",
+        "weight": 5746950
+      },
+      {
+        "uuid": "aed55f90-39b9-53dd-ab03-5005fb8bba1a",
+        "name": "Uncle Iroh",
+        "weight": 10134801
+      },
+      {
+        "uuid": "b04430ec-efcf-5717-8598-051d8af6d1d6",
+        "name": "Wartime Protestors",
+        "weight": 5746950
+      },
+      {
+        "uuid": "b0e2397f-cfff-53bd-96c2-589310b8dd42",
+        "name": "Phoenix Fleet Airship",
+        "weight": 3333231
+      },
+      {
+        "uuid": "b1d0c005-3d34-5294-b7aa-95647fcc182f",
+        "name": "White Lotus Reinforcements",
+        "weight": 10134801
+      },
+      {
+        "uuid": "b22a2bb7-c409-5e6f-aaf3-3ca137d34e69",
+        "name": "Ruinous Waterbending",
+        "weight": 10134801
+      },
+      {
+        "uuid": "b29fbeb2-15d2-5def-b45a-53437a7c03bc",
+        "name": "Jeong Jeong's Deserters",
+        "weight": 846670
+      },
+      {
+        "uuid": "b32b3f23-76c9-565e-8520-a8335dfb5fd3",
+        "name": "The Cave of Two Lovers",
+        "weight": 10134801
+      },
+      {
+        "uuid": "b3e6727d-5ba1-5327-a42f-f1fd3e0dc2d0",
+        "name": "Sun Warriors",
+        "weight": 10134801
+      },
+      {
+        "uuid": "b4375b91-4eed-54c5-8a5f-e3a86b88f42e",
+        "name": "Otter-Penguin",
+        "weight": 846670
+      },
+      {
+        "uuid": "b5bd5f31-4bae-5f67-8c00-175a332eb77c",
+        "name": "Gran-Gran",
+        "weight": 10134801
+      },
+      {
+        "uuid": "b622b374-5fef-59bc-812f-30f04a82e9ff",
+        "name": "Cunning Maneuver",
+        "weight": 846670
+      },
+      {
+        "uuid": "b69e7a9b-c3cd-5a75-81a6-25d0f913d8c2",
+        "name": "Path to Redemption",
+        "weight": 846670
+      },
+      {
+        "uuid": "b81b7b7a-ab94-5fc4-98c4-fc914a70dec2",
+        "name": "Razor Rings",
+        "weight": 846670
+      },
+      {
+        "uuid": "b8262d91-32d7-5e78-8192-7fe8882fc806",
+        "name": "Bitter Work",
+        "weight": 10134801
+      },
+      {
+        "uuid": "b9b63c30-7858-5947-aa97-d6d2fdfb1311",
+        "name": "Haru, Hidden Talent",
+        "weight": 10134801
+      },
+      {
+        "uuid": "baf813e4-db62-586f-b96c-541bf20c5b5b",
+        "name": "Deserter's Disciple",
+        "weight": 846670
+      },
+      {
+        "uuid": "beece50e-75b8-5c60-acdb-ad76db66d921",
+        "name": "Sold Out",
+        "weight": 846670
+      },
+      {
+        "uuid": "c0797dec-11b9-51c1-82e1-e76e95e2b216",
+        "name": "Momo, Playful Pet",
+        "weight": 10134801
+      },
+      {
+        "uuid": "c08676c8-4ec5-5d45-8244-03b410a1df6b",
+        "name": "Guru Pathik",
+        "weight": 10134801
+      },
+      {
+        "uuid": "c093d624-930a-5af5-b86d-d90a61c66b38",
+        "name": "The Rise of Sozin",
+        "weight": 3333231
+      },
+      {
+        "uuid": "c0d789d2-b596-55de-829d-d00afa617385",
+        "name": "Compassionate Healer",
+        "weight": 846670
+      },
+      {
+        "uuid": "c14cab51-b68e-5431-b18c-5a7de3e59e69",
+        "name": "Giant Koi",
+        "weight": 846670
+      },
+      {
+        "uuid": "c1ef4f81-ba5f-5617-be83-9e3d7df55023",
+        "name": "Avatar Enthusiasts",
+        "weight": 846670
+      },
+      {
+        "uuid": "c2ea4b39-5753-5c22-9b09-64970e305a42",
+        "name": "Sandbender Scavengers",
+        "weight": 5746950
+      },
+      {
+        "uuid": "c3f668ff-0000-504d-a4d4-c5bbad47c3f4",
+        "name": "Hama, the Bloodbender",
+        "weight": 10134801
+      },
+      {
+        "uuid": "c4b101d4-d5c9-513d-8ea2-65058ee52170",
+        "name": "Ozai's Cruelty",
+        "weight": 10134801
+      },
+      {
+        "uuid": "cacdcd97-301d-54af-9a98-f1cff23467ba",
+        "name": "Long Feng, Grand Secretariat",
+        "weight": 10134801
+      },
+      {
+        "uuid": "cd02671d-9ddf-5f71-9f9c-5395cc20a559",
+        "name": "Tiger-Seal",
+        "weight": 5746950
+      },
+      {
+        "uuid": "cd356960-884d-51a6-a15d-3e8276b97ebc",
+        "name": "Fated Firepower",
+        "weight": 3333231
+      },
+      {
+        "uuid": "ce957309-289c-5687-a7ae-67d4bca8aa8e",
+        "name": "It'll Quench Ya!",
+        "weight": 846670
+      },
+      {
+        "uuid": "cf4481e4-c5f6-5c45-a12d-7cb4040a579e",
+        "name": "Callous Inspector",
+        "weight": 846670
+      },
+      {
+        "uuid": "cfd66e0c-be0d-5886-b328-e604d2e7d251",
+        "name": "Gather the White Lotus",
+        "weight": 10134801
+      },
+      {
+        "uuid": "d207d552-0efe-5371-b830-8ac61831d2ef",
+        "name": "Sokka, Tenacious Tactician",
+        "weight": 5746950
+      },
+      {
+        "uuid": "d22a3184-2916-50b1-9636-b55ea18518ef",
+        "name": "Fire Nation Raider",
+        "weight": 846670
+      },
+      {
+        "uuid": "d2413c0f-ce93-563e-9177-b6100c17dea1",
+        "name": "Joo Dee, One of Many",
+        "weight": 10134801
+      },
+      {
+        "uuid": "d35856cb-fffc-5fb0-92b3-cd686a4ed307",
+        "name": "Koh, the Face Stealer",
+        "weight": 3333231
+      },
+      {
+        "uuid": "d3a3dd46-2880-55a7-90dc-882f63a6e562",
+        "name": "Firebending Student",
+        "weight": 5746950
+      },
+      {
+        "uuid": "d50fb8c4-49b0-5510-9601-6e94b07dd665",
+        "name": "Canyon Crawler",
+        "weight": 846670
+      },
+      {
+        "uuid": "d5d9fa0e-4dc7-5a6a-a54c-c8c5fa55a575",
+        "name": "Iguana Parrot",
+        "weight": 846670
+      },
+      {
+        "uuid": "d7500517-0cd1-59b4-8b01-885e5dd5cac0",
+        "name": "Heartless Act",
+        "weight": 10134801
+      },
+      {
+        "uuid": "d7e16847-324d-5d8e-b416-661f025f7393",
+        "name": "Fire Nation Engineer",
+        "weight": 10134801
+      },
+      {
+        "uuid": "d8575081-ffc8-505f-89d3-19b84f550460",
+        "name": "Earth Kingdom Soldier",
+        "weight": 846670
+      },
+      {
+        "uuid": "dae9d4e5-633f-5387-b756-9727bd1fbd6b",
+        "name": "Dragonfly Swarm",
+        "weight": 10134801
+      },
+      {
+        "uuid": "db0eae1d-de1a-5f5b-879e-2e97f91ef017",
+        "name": "Teo, Spirited Glider",
+        "weight": 10134801
+      },
+      {
+        "uuid": "db15bacb-7609-5f76-8158-d6c2cb54842a",
+        "name": "Cat-Gator",
+        "weight": 10134801
+      },
+      {
+        "uuid": "dbada988-511d-5312-9b2e-efe39b60e0f4",
+        "name": "Leaves from the Vine",
+        "weight": 10134801
+      },
+      {
+        "uuid": "dbdf6674-824b-5c7f-9a02-31c5456c79bd",
+        "name": "Kyoshi Warriors",
+        "weight": 846670
+      },
+      {
+        "uuid": "dc1d4b98-6fd2-5d96-8de8-99de4bea28e1",
+        "name": "Kyoshi Island Plaza",
+        "weight": 10134801
+      },
+      {
+        "uuid": "dc947e4b-b1c4-51a9-b17e-1d1d61b61861",
+        "name": "Fire Nation Palace",
+        "weight": 5746950
+      },
+      {
+        "uuid": "df34b2fd-a1fc-54fb-9250-d72d6fd9b915",
+        "name": "Aang's Journey",
+        "weight": 846670
+      },
+      {
+        "uuid": "df5b225f-18bc-57e1-a8c2-27b7279ced35",
+        "name": "Trusty Boomerang",
+        "weight": 10134801
+      },
+      {
+        "uuid": "e07eea37-a298-5905-826f-8b8ae8d23663",
+        "name": "Zuko's Exile",
+        "weight": 846670
+      },
+      {
+        "uuid": "e08bed1e-e47e-55f4-b954-05c6373b6d41",
+        "name": "Benevolent River Spirit",
+        "weight": 10134801
+      },
+      {
+        "uuid": "e0faae2e-d27b-5eea-ba54-fac256468662",
+        "name": "Azula Always Lies",
+        "weight": 846670
+      },
+      {
+        "uuid": "e19b2be2-a632-5e2e-8387-39a845ff6e71",
+        "name": "How to Start a Riot",
+        "weight": 846670
+      },
+      {
+        "uuid": "e1a99ed3-5d6f-55ca-8501-06c0c21690f9",
+        "name": "The Earth King",
+        "weight": 5746950
+      },
+      {
+        "uuid": "e3e6f878-a591-5eb1-a813-98be55e7d52f",
+        "name": "Bumi Bash",
+        "weight": 846670
+      },
+      {
+        "uuid": "e554b84d-aec4-56ae-b49d-9c50fd6f15b7",
+        "name": "Jeong Jeong, the Deserter",
+        "weight": 10134801
+      },
+      {
+        "uuid": "e59c45a8-fa5e-5296-95f3-01ccd781b447",
+        "name": "Jet's Brainwashing",
+        "weight": 10134801
+      },
+      {
+        "uuid": "e6c60ad7-59c3-5050-a7e8-85269abb6010",
+        "name": "Treetop Freedom Fighters",
+        "weight": 846670
+      },
+      {
+        "uuid": "e8510d92-c3e5-5cb7-a0b9-4aadfcdcd93e",
+        "name": "Waterbender Ascension",
+        "weight": 5746950
+      },
+      {
+        "uuid": "e8764c21-76fc-58d4-b42f-56b290a1393c",
+        "name": "Glider Staff",
+        "weight": 10134801
+      },
+      {
+        "uuid": "e908a6aa-ba4b-517a-a670-ed595090893b",
+        "name": "Earthen Ally",
+        "weight": 5746950
+      },
+      {
+        "uuid": "eb2471a2-4571-57fc-a072-f3805eb311e6",
+        "name": "Mai, Jaded Edge",
+        "weight": 10134801
+      },
+      {
+        "uuid": "ebf22e64-6d98-5bc5-9f41-c35f425b1d1e",
+        "name": "Accumulate Wisdom",
+        "weight": 10134801
+      },
+      {
+        "uuid": "ebfce62b-b5ea-52c6-a129-64568390a3f4",
+        "name": "Fire Nation Attacks",
+        "weight": 10134801
+      },
+      {
+        "uuid": "ec7f7de9-6b1d-5c69-b410-bc50a12e1447",
+        "name": "Buzzard-Wasp Colony",
+        "weight": 10134801
+      },
+      {
+        "uuid": "eda6a8a7-898b-5663-bdcf-2428f7466f28",
+        "name": "Bumi, King of Three Trials",
+        "weight": 10134801
+      },
+      {
+        "uuid": "efb3a1a2-b978-5a1c-b677-4cecc28c9c99",
+        "name": "Flopsie, Bumi's Buddy",
+        "weight": 10134801
+      },
+      {
+        "uuid": "f19d41e2-1459-5638-9fcc-95bde9dae7e0",
+        "name": "The Spirit Oasis",
+        "weight": 10134801
+      },
+      {
+        "uuid": "f201fe55-d34a-5a59-ab86-5911f5e1ee03",
+        "name": "Foggy Swamp Hunters",
+        "weight": 846670
+      },
+      {
+        "uuid": "f247a69a-c5f4-512e-84bc-e1e2cf364c39",
+        "name": "Vengeful Villagers",
+        "weight": 10134801
+      },
+      {
+        "uuid": "f3eeea29-c1e3-5885-9b2f-3c7b4ec61f6b",
+        "name": "Combustion Technique",
+        "weight": 10134801
+      },
+      {
+        "uuid": "f46829e9-1083-5b42-b787-c9043de6a09b",
+        "name": "Tolls of War",
+        "weight": 10134801
+      },
+      {
+        "uuid": "f56fb5db-eec9-5f34-aa0a-6da805ba4603",
+        "name": "Honest Work",
+        "weight": 10134801
+      },
+      {
+        "uuid": "f5a7b16e-748d-5855-83ce-8149f22d2682",
+        "name": "Firebender Ascension",
+        "weight": 5746950
+      },
+      {
+        "uuid": "f74b1955-f6de-5ce1-84cc-23267a4b1799",
+        "name": "Crescent Island Temple",
+        "weight": 10134801
+      },
+      {
+        "uuid": "f7cc6cd3-4108-5342-9b42-afca9bb5d6dd",
+        "name": "Appa, Steadfast Guardian",
+        "weight": 3333231
+      },
+      {
+        "uuid": "f7cea9c2-da9c-56cc-8ef8-94ac9211526b",
+        "name": "Rebellious Captives",
+        "weight": 846670
+      },
+      {
+        "uuid": "f7da64c7-6434-5c9b-9854-e0a0fe1dda22",
+        "name": "Ty Lee, Artful Acrobat",
+        "weight": 10134801
+      },
+      {
+        "uuid": "f7e688a5-0912-59e1-96a3-7d05d4f9051e",
+        "name": "Messenger Hawk",
+        "weight": 846670
+      },
+      {
+        "uuid": "f8caa4f8-01ac-5ab7-af75-1ee021dc0762",
+        "name": "Aang, Swift Savior",
+        "weight": 5746950
+      },
+      {
+        "uuid": "f942bbc8-da13-5983-a60e-5c0f98852d73",
+        "name": "Airbending Lesson",
+        "weight": 846670
+      },
+      {
+        "uuid": "f99cc254-6135-562a-89ba-ee7d6aa334f0",
+        "name": "Yip Yip!",
+        "weight": 846670
+      },
+      {
+        "uuid": "faea691e-3ed1-5246-a360-c54ea98e641f",
+        "name": "Rumble Arena",
+        "weight": 846670
+      },
+      {
+        "uuid": "fb1ab33e-860d-55a5-8b12-bba48d47bbbc",
+        "name": "Ozai, the Phoenix King",
+        "weight": 3333231
+      },
+      {
+        "uuid": "fb7beaf4-982e-5421-a72a-bf9dcc35c8ac",
+        "name": "Earth Kingdom General",
+        "weight": 10134801
+      },
+      {
+        "uuid": "fc51af44-f7c4-51d7-b879-67e08624d36b",
+        "name": "Aang's Iceberg",
+        "weight": 5746950
+      },
+      {
+        "uuid": "fddcdfe5-2013-59d6-a4c4-8e2ac1daf86b",
+        "name": "Octopus Form",
+        "weight": 846670
+      },
+      {
+        "uuid": "ff12eb1c-6e28-5448-aeae-1b015b34714e",
+        "name": "Yuyan Archers",
+        "weight": 846670
+      }
+    ]
+  }
+}

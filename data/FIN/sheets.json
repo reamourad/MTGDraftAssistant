@@ -1,0 +1,4930 @@
+{
+  "common": {
+    "cards": [
+      {
+        "uuid": "01970d6b-0268-5da2-ab72-a3fa40b47294",
+        "name": "Mysidian Elder",
+        "weight": 1
+      },
+      {
+        "uuid": "0359dc42-a613-5d96-a7fb-4dffaf4a6edb",
+        "name": "Town Greeter",
+        "weight": 1
+      },
+      {
+        "uuid": "053389fd-4c8e-53ae-adbb-38071b3a9789",
+        "name": "Adventurer's Airship",
+        "weight": 1
+      },
+      {
+        "uuid": "078b9db3-9bd9-5894-b2d3-fe45a5b8fba2",
+        "name": "Cornered by Black Mages",
+        "weight": 1
+      },
+      {
+        "uuid": "0d0d03df-7a3b-58f9-a63c-98223460fc82",
+        "name": "Dragoon's Wyvern",
+        "weight": 1
+      },
+      {
+        "uuid": "11133344-8491-546e-9c3e-c502e3a8462a",
+        "name": "Shinra Reinforcements",
+        "weight": 1
+      },
+      {
+        "uuid": "11840fd7-3114-54e4-8503-1312cfbaf826",
+        "name": "Gysahl Greens",
+        "weight": 1
+      },
+      {
+        "uuid": "20302775-5991-5785-b470-5761ca37cae0",
+        "name": "Adventurer's Inn",
+        "weight": 1
+      },
+      {
+        "uuid": "254c6da9-b86f-5aef-91ae-01832c776697",
+        "name": "Dreams of Laguna",
+        "weight": 1
+      },
+      {
+        "uuid": "27f64fe6-ce19-558f-be0f-40aa0d47d4c4",
+        "name": "Ice Flan",
+        "weight": 1
+      },
+      {
+        "uuid": "28d844ce-bfa8-561d-8147-7eefa41b494f",
+        "name": "World Map",
+        "weight": 1
+      },
+      {
+        "uuid": "2b32dd1f-3a1d-54f4-81f3-cd2898af3aa2",
+        "name": "Crossroads Village",
+        "weight": 1
+      },
+      {
+        "uuid": "2b71653a-860b-55c1-b96d-e64c8cddd68b",
+        "name": "White Auracite",
+        "weight": 1
+      },
+      {
+        "uuid": "314c8b9b-faad-5bcd-bf20-a357382d70e2",
+        "name": "Laughing Mad",
+        "weight": 1
+      },
+      {
+        "uuid": "329c1b67-311c-59c3-be91-7a8202e3895c",
+        "name": "Paladin's Arms",
+        "weight": 1
+      },
+      {
+        "uuid": "36233d7b-1231-561d-9b16-0d2692e9e617",
+        "name": "Warrior's Sword",
+        "weight": 1
+      },
+      {
+        "uuid": "363fb0c7-3b7e-5068-b121-deb5fb62befa",
+        "name": "Thunder Magic",
+        "weight": 1
+      },
+      {
+        "uuid": "39cebd6c-194f-577c-8825-016202a1f769",
+        "name": "You're Not Alone",
+        "weight": 1
+      },
+      {
+        "uuid": "3aebac64-ef2d-5a2a-807f-a56a2dc58a78",
+        "name": "Lunatic Pandora",
+        "weight": 1
+      },
+      {
+        "uuid": "3b518e6e-ff18-5fc0-9048-298c0416a5bf",
+        "name": "Commune with Beavers",
+        "weight": 1
+      },
+      {
+        "uuid": "43784939-6b37-5021-adc0-0b5e4d5fa1e8",
+        "name": "Blitzball",
+        "weight": 1
+      },
+      {
+        "uuid": "440ebfb7-e1d2-556a-98f1-b1f5a6bb17e3",
+        "name": "Gran Pulse Ochu",
+        "weight": 1
+      },
+      {
+        "uuid": "4697e311-26a4-5cb1-931b-df81cfe83eb0",
+        "name": "Qutrub Forayer",
+        "weight": 1
+      },
+      {
+        "uuid": "481d10bf-1a5e-5b1f-a6ac-0e98f86e80a0",
+        "name": "Magitek Infantry",
+        "weight": 1
+      },
+      {
+        "uuid": "4e0a4790-6396-59a4-9b1f-33a0224a9a37",
+        "name": "Namazu Trader",
+        "weight": 1
+      },
+      {
+        "uuid": "4eeb5793-8653-5767-8116-766a7d5615ff",
+        "name": "Haste Magic",
+        "weight": 1
+      },
+      {
+        "uuid": "4ef5706d-1ffd-58dd-9978-b483f5bbb5bb",
+        "name": "Qiqirn Merchant",
+        "weight": 1
+      },
+      {
+        "uuid": "5beb3e7b-3708-5dee-938f-199f8889d315",
+        "name": "Bard's Bow",
+        "weight": 1
+      },
+      {
+        "uuid": "5f919ab3-24dd-513d-8d96-49ae9b28377a",
+        "name": "Airship Crash",
+        "weight": 1
+      },
+      {
+        "uuid": "606b766d-1e3e-5d13-aebc-d627eae4ad84",
+        "name": "Summon: G.F. Ifrit",
+        "weight": 1
+      },
+      {
+        "uuid": "635dcc41-7fa1-5a53-b048-c6b4b24980d0",
+        "name": "Dwarven Castle Guard",
+        "weight": 1
+      },
+      {
+        "uuid": "64a9f974-dbe2-5592-b863-733532031d40",
+        "name": "Loporrit Scout",
+        "weight": 1
+      },
+      {
+        "uuid": "65d27257-800d-5591-9bb6-77ba0a456f15",
+        "name": "Instant Ramen",
+        "weight": 1
+      },
+      {
+        "uuid": "66fd7642-92a2-53b0-afa0-451d5ddf11c4",
+        "name": "Malboro",
+        "weight": 1
+      },
+      {
+        "uuid": "6b1730c6-32ef-5ad0-b9ac-2dd9e196be25",
+        "name": "Suplex",
+        "weight": 1
+      },
+      {
+        "uuid": "6d097b21-e531-5393-9c95-0125a32ae3d9",
+        "name": "Hecteyes",
+        "weight": 1
+      },
+      {
+        "uuid": "706c9748-36d6-572e-bc90-f70da9e93dab",
+        "name": "White Mage's Staff",
+        "weight": 1
+      },
+      {
+        "uuid": "734ca265-85ba-571c-9365-501bdd47a2dc",
+        "name": "Resentful Revelation",
+        "weight": 1
+      },
+      {
+        "uuid": "74f94d35-0d41-5855-a90b-6fa4a6cf9754",
+        "name": "Light of Judgment",
+        "weight": 1
+      },
+      {
+        "uuid": "790c4025-140a-5b15-8d04-e4105798a77d",
+        "name": "Gigantoad",
+        "weight": 1
+      },
+      {
+        "uuid": "7977fd06-dc85-5521-bf53-4084e0d52e6d",
+        "name": "Call the Mountain Chocobo",
+        "weight": 1
+      },
+      {
+        "uuid": "7a88c641-779e-56a3-bb91-bfca8f899e9d",
+        "name": "Sephiroth's Intervention",
+        "weight": 1
+      },
+      {
+        "uuid": "80883b83-7ba0-59ef-973a-f7278f2ef1ac",
+        "name": "Hill Gigas",
+        "weight": 1
+      },
+      {
+        "uuid": "85380bd5-178b-5117-a13b-0a33abe36784",
+        "name": "Magic Pot",
+        "weight": 1
+      },
+      {
+        "uuid": "8f320631-9d6f-5cc7-9d34-f39e7160c06e",
+        "name": "Slash of Light",
+        "weight": 1
+      },
+      {
+        "uuid": "9046c1c4-8b16-539c-ba23-35023afd14d2",
+        "name": "Vayne's Treachery",
+        "weight": 1
+      },
+      {
+        "uuid": "905dfc3d-eb0c-5ce7-867e-dba6a6b34285",
+        "name": "Magic Damper",
+        "weight": 1
+      },
+      {
+        "uuid": "9bfbeba4-b68f-5a0d-8d30-34abbc2ac933",
+        "name": "Gaelicat",
+        "weight": 1
+      },
+      {
+        "uuid": "9e5f989f-4907-5065-b5ba-dcb3044eecc1",
+        "name": "Iron Giant",
+        "weight": 1
+      },
+      {
+        "uuid": "a43f24fe-3dc8-5ba5-b73f-eba82fc456f7",
+        "name": "Blazing Bomb",
+        "weight": 1
+      },
+      {
+        "uuid": "a5ff0bb9-3021-5a1b-bde7-c0c3c3440a01",
+        "name": "Combat Tutorial",
+        "weight": 1
+      },
+      {
+        "uuid": "a7ae809f-8405-5a3d-ae37-5d73977bca78",
+        "name": "Balamb T-Rexaur",
+        "weight": 1
+      },
+      {
+        "uuid": "abfbf3fb-2496-58ec-a272-fada2180d8e3",
+        "name": "Cloudbound Moogle",
+        "weight": 1
+      },
+      {
+        "uuid": "aed2a0f7-7018-5967-9ff7-438f4b9ece0d",
+        "name": "Ahriman",
+        "weight": 1
+      },
+      {
+        "uuid": "b2792ec0-5059-5a7e-834b-8796e82060ae",
+        "name": "Fight On!",
+        "weight": 1
+      },
+      {
+        "uuid": "b4d1c960-f52b-5bf1-a740-65e8722aa543",
+        "name": "Chocobo Kick",
+        "weight": 1
+      },
+      {
+        "uuid": "b6866064-4fec-5d63-a6de-c083ea7ad481",
+        "name": "Rook Turret",
+        "weight": 1
+      },
+      {
+        "uuid": "b6c7d457-2108-570a-a9a9-7a96e2a0f582",
+        "name": "Undercity Dire Rat",
+        "weight": 1
+      },
+      {
+        "uuid": "b99642a9-5779-504c-9ff5-879da1fa3bb6",
+        "name": "Item Shopkeep",
+        "weight": 1
+      },
+      {
+        "uuid": "c1ff22a7-a6e1-5a8f-872c-e292e1992bf0",
+        "name": "Summon: Fat Chocobo",
+        "weight": 1
+      },
+      {
+        "uuid": "c7c5f7d3-6431-5eb4-922a-61844ce9deaa",
+        "name": "Aerith Rescue Mission",
+        "weight": 1
+      },
+      {
+        "uuid": "c8533370-7274-5c28-9c07-b04ab35e963b",
+        "name": "Stuck in Summoner's Sanctum",
+        "weight": 1
+      },
+      {
+        "uuid": "cb1d950c-7830-5f9c-bb87-04c2d740f02f",
+        "name": "Sage's Nouliths",
+        "weight": 1
+      },
+      {
+        "uuid": "cb2932b6-efc9-5ada-99d1-d4ce50993626",
+        "name": "Scorpion Sentinel",
+        "weight": 1
+      },
+      {
+        "uuid": "d0d8f70f-f2c3-50d3-b96f-30c08b6c5c0c",
+        "name": "Prishe's Wanderings",
+        "weight": 1
+      },
+      {
+        "uuid": "d2f916ee-8592-5273-8696-76c9a5bfccd2",
+        "name": "Black Mage's Rod",
+        "weight": 1
+      },
+      {
+        "uuid": "d3f36250-1335-51b0-8030-34757bea76a8",
+        "name": "Fate of the Sun-Cryst",
+        "weight": 1
+      },
+      {
+        "uuid": "d71847b8-5d9d-57aa-9fe8-08f81680a8b6",
+        "name": "Blitzball Shot",
+        "weight": 1
+      },
+      {
+        "uuid": "d815aeeb-e320-55d9-8b47-0c7563bbd0f5",
+        "name": "Summon: Choco/Mog",
+        "weight": 1
+      },
+      {
+        "uuid": "de84bef6-e786-5839-a0c3-a25691f5b6c4",
+        "name": "Vincent's Limit Break",
+        "weight": 1
+      },
+      {
+        "uuid": "dfa4b9ce-eff1-5ec2-8db6-f746fd604228",
+        "name": "Ice Magic",
+        "weight": 1
+      },
+      {
+        "uuid": "e25c00ce-dd8a-5401-9bd1-fa1c4ca810f9",
+        "name": "Monk's Fist",
+        "weight": 1
+      },
+      {
+        "uuid": "e3cd871e-f82a-5797-b512-5acd3695ed64",
+        "name": "Coeurl",
+        "weight": 1
+      },
+      {
+        "uuid": "e3eafb3b-f34a-574e-bb10-9a4f0cd41311",
+        "name": "Red Mage's Rapier",
+        "weight": 1
+      },
+      {
+        "uuid": "e9474299-0112-5e93-a632-eaec8e9cf05c",
+        "name": "Goobbue Gardener",
+        "weight": 1
+      },
+      {
+        "uuid": "f3509f06-87bf-525a-a32a-05a26df6a983",
+        "name": "Sabotender",
+        "weight": 1
+      },
+      {
+        "uuid": "f3684cc6-62ee-5a36-9528-62cf370e346e",
+        "name": "Sahagin",
+        "weight": 1
+      },
+      {
+        "uuid": "fa1590d4-bc6b-528d-9498-5d225ae447eb",
+        "name": "Retrieve the Esper",
+        "weight": 1
+      },
+      {
+        "uuid": "faa2c388-addc-5cc6-b5b4-6308e17e5b45",
+        "name": "Weapons Vendor",
+        "weight": 1
+      },
+      {
+        "uuid": "ff7a2a7e-3747-5c0a-bcfe-40219819d084",
+        "name": "Syncopate",
+        "weight": 1
+      }
+    ]
+  },
+  "foilReplacement": {
+    "cards": [
+      {
+        "uuid": "01970d6b-0268-5da2-ab72-a3fa40b47294",
+        "name": "Mysidian Elder",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "0359dc42-a613-5d96-a7fb-4dffaf4a6edb",
+        "name": "Town Greeter",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "05332bc8-6824-59d2-9df3-1d67020f5d62",
+        "name": "Rufus Shinra",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "053389fd-4c8e-53ae-adbb-38071b3a9789",
+        "name": "Adventurer's Airship",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "055890d1-1ca8-5d81-ae86-8497f366f45b",
+        "name": "The Masamune",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "07289d70-2a6a-506f-9b85-039db3551f64",
+        "name": "Relentless X-ATM092",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "07471996-5e7b-5553-ae69-68331b8175f5",
+        "name": "Stiltzkin, Moogle Merchant",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "078b9db3-9bd9-5894-b2d3-fe45a5b8fba2",
+        "name": "Cornered by Black Mages",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "08cc9ab4-5041-59db-894b-e364a594f500",
+        "name": "Crystal Fragments",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "0c4c27f5-7741-59f9-b517-aed89ee7bc2d",
+        "name": "Phoenix Down",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "0c5d7efd-38dd-52dc-abdc-8d653cfe8d29",
+        "name": "Esper Origins",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "0cc7cc20-8a0c-5080-b789-0cdde6a7e258",
+        "name": "Summon: Shiva",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "0cfeb956-4230-5700-a6dc-73401dbb962b",
+        "name": "Gogo, Master of Mimicry",
+        "weight": 810973215
+      },
+      {
+        "uuid": "0d0d03df-7a3b-58f9-a63c-98223460fc82",
+        "name": "Dragoon's Wyvern",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "0da8d444-b384-5689-868c-3a1cf52d907e",
+        "name": "Zack Fair",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "11133344-8491-546e-9c3e-c502e3a8462a",
+        "name": "Shinra Reinforcements",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "1183391a-d315-5f9d-b1c6-9a23d2b25587",
+        "name": "Traveling Chocobo",
+        "weight": 810973215
+      },
+      {
+        "uuid": "11840fd7-3114-54e4-8503-1312cfbaf826",
+        "name": "Gysahl Greens",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "11bc6d25-69d3-58f5-b4db-825b626c1ce1",
+        "name": "Locke Cole",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "1254a148-48ca-5e19-bb4f-54e7b1cba5f1",
+        "name": "Cloud, Midgar Mercenary",
+        "weight": 810973215
+      },
+      {
+        "uuid": "15858d88-b6e2-577b-a03c-5888a6c69d94",
+        "name": "The Emperor of Palamecia",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "15e2c75e-749a-57a3-86e4-125dc837c9c2",
+        "name": "Jidoor, Aristocratic Capital",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "17f85365-942c-5a74-ad09-66976d1fea4e",
+        "name": "Summon: Brynhildr",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "17f90297-33e5-5638-ac38-92e85b25b39b",
+        "name": "Noctis, Prince of Lucis",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "1879cc77-d8d9-597b-8109-3b4cf78955c9",
+        "name": "Valkyrie Aerial Unit",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "1aa841b8-eea5-5a3d-aad1-6f918be69e33",
+        "name": "Excalibur II",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "1b61b5c9-6d81-5b76-a76e-95fc0bd3fb08",
+        "name": "Cid, Timeless Artificer",
+        "weight": 3893707728
+      },
+      {
+        "uuid": "1eadf625-88a3-57a2-bbcb-38960050bd15",
+        "name": "Edgar, King of Figaro",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "1f31f675-27ff-507a-93e9-f8eac7196f5a",
+        "name": "Starting Town",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "1f6c3a08-3417-53d5-8a64-7f6e2197852f",
+        "name": "Hope Estheim",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "1f9e7c69-b664-512c-aae8-6440ac181a86",
+        "name": "Y'shtola Rhul",
+        "weight": 810973215
+      },
+      {
+        "uuid": "20302775-5991-5785-b470-5761ca37cae0",
+        "name": "Adventurer's Inn",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "21013e42-d87d-5633-a9e6-c55f2cb28f4c",
+        "name": "Cid, Timeless Artificer",
+        "weight": 3893707728
+      },
+      {
+        "uuid": "213f2ebb-965d-5c79-bb24-20edc242fb7d",
+        "name": "Summon: Bahamut",
+        "weight": 810973215
+      },
+      {
+        "uuid": "234749c9-6a84-5945-a105-497684435421",
+        "name": "Astrologian's Planisphere",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "2397e159-a406-515f-a4fc-029b254c3774",
+        "name": "Opera Love Song",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "24761274-bfff-5907-9e4e-832841f44753",
+        "name": "Rinoa Heartilly",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "254c6da9-b86f-5aef-91ae-01832c776697",
+        "name": "Dreams of Laguna",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "26f46851-383f-5188-949c-9b4fd8c5d05d",
+        "name": "Sidequest: Card Collection",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "27db49ae-0952-5ef8-9330-52b0ecb8c8c6",
+        "name": "Eden, Seat of the Sanctum",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "27f64fe6-ce19-558f-be0f-40aa0d47d4c4",
+        "name": "Ice Flan",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "28d844ce-bfa8-561d-8147-7eefa41b494f",
+        "name": "World Map",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "290e4bcc-2dd4-5724-8cf0-927cb3b5822d",
+        "name": "Yuna, Hope of Spira",
+        "weight": 810973215
+      },
+      {
+        "uuid": "2a346a2e-9187-50bf-a7d2-e1eeb17d785e",
+        "name": "The Earth Crystal",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "2a5b16d1-88c5-59d5-b1fb-f077ba0d1e60",
+        "name": "Vanille, Cheerful l'Cie",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "2b32dd1f-3a1d-54f4-81f3-cd2898af3aa2",
+        "name": "Crossroads Village",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "2b71653a-860b-55c1-b96d-e64c8cddd68b",
+        "name": "White Auracite",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "2bef6ef0-ce41-5c08-bbca-fa45471eb5fb",
+        "name": "Cactuar",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "2c74623e-c14a-59cc-bfab-0a7a9bd5f829",
+        "name": "G'raha Tia",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "2dfac2a6-15a3-5f36-9adc-eb005e756cf1",
+        "name": "Tonberry",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "2f6ac776-11d0-5927-bc12-5339edc0daab",
+        "name": "Gilgamesh, Master-at-Arms",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "2f7c1401-6c55-50a4-9b35-828d7d4b4622",
+        "name": "Clash of the Eikons",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "31434b11-4622-5778-9aa1-88ba62124d9b",
+        "name": "Adelbert Steiner",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "314c8b9b-faad-5bcd-bf20-a357382d70e2",
+        "name": "Laughing Mad",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "31e2bf20-7b45-5a02-a8c9-fc82d457761f",
+        "name": "Jecht, Reluctant Guardian",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "320f1df3-3aca-554a-8069-dc960a8db61a",
+        "name": "The Lunar Whale",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "329c1b67-311c-59c3-be91-7a8202e3895c",
+        "name": "Paladin's Arms",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "32a16499-e5bd-57ad-a6c2-10d573116419",
+        "name": "Rydia, Summoner of Mist",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "342b9f7c-f620-5ca3-98be-0f89dfceaee4",
+        "name": "Phantom Train",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "343f561a-46c6-5559-a206-f7a7f69bfadd",
+        "name": "Cid, Timeless Artificer",
+        "weight": 3893707728
+      },
+      {
+        "uuid": "35150353-a70d-55cd-8827-392a671b01c7",
+        "name": "Judge Magister Gabranth",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "36233d7b-1231-561d-9b16-0d2692e9e617",
+        "name": "Warrior's Sword",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "363fb0c7-3b7e-5068-b121-deb5fb62befa",
+        "name": "Thunder Magic",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "37352d29-3bab-5fef-8b0d-8cc80e5d3b2e",
+        "name": "Fang, Fearless l'Cie",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "37b29e6b-97cc-51fe-bd06-28bb71f11f8e",
+        "name": "Rydia's Return",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "38378c25-5119-51b7-9493-1c93d00c5baf",
+        "name": "Quina, Qu Gourmet",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "38ed79f2-66bd-579b-aca2-26f315c69f2e",
+        "name": "Lightning, Army of One",
+        "weight": 810973215
+      },
+      {
+        "uuid": "39770d42-2526-5a12-bc42-851a9f242dcd",
+        "name": "The Water Crystal",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "39cebd6c-194f-577c-8825-016202a1f769",
+        "name": "You're Not Alone",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "3aebac64-ef2d-5a2a-807f-a56a2dc58a78",
+        "name": "Lunatic Pandora",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "3b518e6e-ff18-5fc0-9048-298c0416a5bf",
+        "name": "Commune with Beavers",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "3bdaf96d-80f2-5ce6-8d37-ebd3aa34327d",
+        "name": "Venat, Heart of Hydaelyn",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "3cc4c3bc-76b5-5e85-af17-b2de2d0fc183",
+        "name": "Magitek Armor",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "3d0c20cf-c2e8-546a-a025-6111a0ea5d0e",
+        "name": "Overkill",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "3d205107-3dad-568c-8c42-0110b5c4045f",
+        "name": "Delivery Moogle",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "3d3f6ff1-01c3-52ff-9d73-fa1bcea9b7a8",
+        "name": "Balamb Garden, SeeD Academy",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "3d757768-5e96-5fb7-9fb4-f367584d90b2",
+        "name": "Zidane, Tantalus Thief",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "425af320-89c9-5905-a16c-ab8dfc2c53d8",
+        "name": "Zanarkand, Ancient Metropolis",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "43784939-6b37-5021-adc0-0b5e4d5fa1e8",
+        "name": "Blitzball",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "43af3c03-81f0-5448-a53b-c8795210c8e0",
+        "name": "Aettir and Priwen",
+        "weight": 810973215
+      },
+      {
+        "uuid": "440ebfb7-e1d2-556a-98f1-b1f5a6bb17e3",
+        "name": "Gran Pulse Ochu",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "444d9cad-2b07-5180-b4bd-28f2b03595de",
+        "name": "Triple Triad",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "4572ef65-ff31-5762-9ce2-b9d6f8fe0754",
+        "name": "Omega, Heartless Evolution",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "4697e311-26a4-5cb1-931b-df81cfe83eb0",
+        "name": "Qutrub Forayer",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "47fda5b0-165c-5a89-a668-55ca46b04a79",
+        "name": "Diamond Weapon",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "481d10bf-1a5e-5b1f-a6ac-0e98f86e80a0",
+        "name": "Magitek Infantry",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "4a6592e9-b1cb-529e-b4b2-0ab39f4c2913",
+        "name": "Cid, Timeless Artificer",
+        "weight": 3893707728
+      },
+      {
+        "uuid": "4bfede2a-7a02-55f0-8587-0260300a22e2",
+        "name": "Tidus, Blitzball Star",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "4e0a4790-6396-59a4-9b1f-33a0224a9a37",
+        "name": "Namazu Trader",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "4eeb5793-8653-5767-8116-766a7d5615ff",
+        "name": "Haste Magic",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "4ef5706d-1ffd-58dd-9978-b483f5bbb5bb",
+        "name": "Qiqirn Merchant",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "4f229f13-824d-5140-8442-99078c40d6ab",
+        "name": "Clive, Ifrit's Dominant",
+        "weight": 810973215
+      },
+      {
+        "uuid": "5000029e-bcaa-559d-a4b1-652cc11494f8",
+        "name": "Shantotto, Tactician Magician",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "516eed7e-c637-5511-89a6-f6b9ff3db2c2",
+        "name": "Cid, Timeless Artificer",
+        "weight": 3893707728
+      },
+      {
+        "uuid": "52d0eda3-09f8-5cfc-ac04-40d2615e5942",
+        "name": "Cid, Timeless Artificer",
+        "weight": 3893707728
+      },
+      {
+        "uuid": "5326e283-5f67-55fc-b3c6-0e26ebf323c8",
+        "name": "Ishgard, the Holy See",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "550e01bc-81be-5bcb-af22-89d9dacb7cf4",
+        "name": "Zell Dincht",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "5beb3e7b-3708-5dee-938f-199f8889d315",
+        "name": "Bard's Bow",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "5c025d28-fa80-5c5e-8236-e4c0584f7be0",
+        "name": "Ether",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "5c7e9b8d-fc7e-532c-bbdc-325754d44bd4",
+        "name": "Ignis Scientia",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "5cb1b863-60e3-517b-83d4-903ee7defaec",
+        "name": "Nibelheim Aflame",
+        "weight": 810973215
+      },
+      {
+        "uuid": "5ed38f0b-0094-5c7a-808d-c13eadb24d73",
+        "name": "Matoya, Archon Elder",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "5f5995d4-06ec-5e8a-af59-f091ae590986",
+        "name": "Poison the Waters",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "5f919ab3-24dd-513d-8d96-49ae9b28377a",
+        "name": "Airship Crash",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "606b766d-1e3e-5d13-aebc-d627eae4ad84",
+        "name": "Summon: G.F. Ifrit",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "6078fa73-42cd-54d5-82ac-85d95cadfc28",
+        "name": "Summon: Primal Garuda",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "61681032-9fa7-5b50-bdfc-3c9a82619cfc",
+        "name": "Summon: G.F. Cerberus",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "635dcc41-7fa1-5a53-b048-c6b4b24980d0",
+        "name": "Dwarven Castle Guard",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "6374fb9c-3f47-51b3-b397-c657c7b2cbb5",
+        "name": "From Father to Son",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "6388bc12-81b9-5c0b-9b9d-ffeaaf454488",
+        "name": "Ardyn, the Usurper",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "643290ac-efd3-523b-851b-e55c322cc216",
+        "name": "Sleep Magic",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "64a9f974-dbe2-5592-b863-733532031d40",
+        "name": "Loporrit Scout",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "65d27257-800d-5591-9bb6-77ba0a456f15",
+        "name": "Instant Ramen",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "66933df7-6654-5c7d-b00c-2ad42cdc0811",
+        "name": "Sorceress's Schemes",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "66fd7642-92a2-53b0-afa0-451d5ddf11c4",
+        "name": "Malboro",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "69221228-0ccc-55a8-ba67-67778ecd8975",
+        "name": "Summon: Esper Ramuh",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "6934be2a-e00b-5874-b963-891373540bd8",
+        "name": "Absolute Virtue",
+        "weight": 810973215
+      },
+      {
+        "uuid": "6a31f746-38f8-5a97-aff5-285d0ed8df9b",
+        "name": "Lindblum, Industrial Regency",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "6b1730c6-32ef-5ad0-b9ac-2dd9e196be25",
+        "name": "Suplex",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "6b2b63c7-c379-5c71-9fba-1c3e044109ff",
+        "name": "Cid, Timeless Artificer",
+        "weight": 3893707728
+      },
+      {
+        "uuid": "6b52dfb2-ddd3-51da-a22f-047de9b92793",
+        "name": "Sidequest: Raise a Chocobo",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "6d097b21-e531-5393-9c95-0125a32ae3d9",
+        "name": "Hecteyes",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "6df410a6-9799-5a1a-950c-111e49a8dee7",
+        "name": "Shambling Cie'th",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "6f782192-f041-590a-8fb7-d5e06b503617",
+        "name": "Summon: Primal Odin",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "706c9748-36d6-572e-bc90-f70da9e93dab",
+        "name": "White Mage's Staff",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "734ca265-85ba-571c-9365-501bdd47a2dc",
+        "name": "Resentful Revelation",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "74f94d35-0d41-5855-a90b-6fa4a6cf9754",
+        "name": "Light of Judgment",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "7588a46b-5a01-51f4-bdc7-136197769207",
+        "name": "Sidequest: Catch a Fish",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "7668c47f-d9e0-5ba2-aa21-8ee0f415694c",
+        "name": "Summon: Leviathan",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "7701c9bf-d44b-5220-9c40-c3b33ec1359e",
+        "name": "Balthier and Fran",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "790c4025-140a-5b15-8d04-e4105798a77d",
+        "name": "Gigantoad",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "7977fd06-dc85-5521-bf53-4084e0d52e6d",
+        "name": "Call the Mountain Chocobo",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "7a88c641-779e-56a3-bb91-bfca8f899e9d",
+        "name": "Sephiroth's Intervention",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "7d822323-4794-5e72-9cc0-812a9b0839c3",
+        "name": "Ultimecia, Time Sorceress",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "7df789e5-8790-59a9-895d-4285867de306",
+        "name": "Dion, Bahamut's Dominant",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "7e42298a-9c19-58ce-b7ac-1afc01c26998",
+        "name": "Unexpected Request",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "80883b83-7ba0-59ef-973a-f7278f2ef1ac",
+        "name": "Hill Gigas",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "8183768d-2dfd-5af8-ad21-94ec497a2dbb",
+        "name": "Coliseum Behemoth",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "826443ee-3512-5d42-a8b1-31ac823e3e5e",
+        "name": "Clive's Hideaway",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "835f5e3a-3d72-5e3b-b986-7dad1447554b",
+        "name": "Machinist's Arsenal",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "85380bd5-178b-5117-a13b-0a33abe36784",
+        "name": "Magic Pot",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "86c4f507-baf5-594a-bf1c-f5edb45540f7",
+        "name": "Dragoon's Lance",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "88353094-cc1d-5bd8-b698-a168bdc42eec",
+        "name": "Firion, Wild Rose Warrior",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "88c2b6cd-b62a-5493-ab2d-17f716113210",
+        "name": "Zenos yae Galvus",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "89e2e9ec-89e6-5e8b-877e-7e7b4f8249d7",
+        "name": "Ashe, Princess of Dalmasca",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "8a20549e-dd0f-5fe8-9ac0-166f9972b17f",
+        "name": "Battle Menu",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "8d60ae46-5fcd-5aac-b701-95f196bd53f4",
+        "name": "Cid, Timeless Artificer",
+        "weight": 3893707728
+      },
+      {
+        "uuid": "8f320631-9d6f-5cc7-9d34-f39e7160c06e",
+        "name": "Slash of Light",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "8f7cb1bc-6d64-508d-85f2-83cda2d05fbe",
+        "name": "Sidequest: Play Blitzball",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "8fcbdff7-e203-5af2-8a4d-2a6a34bedd71",
+        "name": "Tifa Lockhart",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "9046c1c4-8b16-539c-ba23-35023afd14d2",
+        "name": "Vayne's Treachery",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "9046c7d5-c8f5-5d0b-8022-623c3f6e955c",
+        "name": "Demon Wall",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "905dfc3d-eb0c-5ce7-867e-dba6a6b34285",
+        "name": "Magic Damper",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "90b20d31-0f8a-50f0-a04e-cadaa1c7f55f",
+        "name": "Chocobo Racetrack",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "9117ee67-f17e-565d-9874-f52267bbdfc3",
+        "name": "Choco, Seeker of Paradise",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "9150d65e-c53d-5db7-bded-5f43a449d722",
+        "name": "Cid, Timeless Artificer",
+        "weight": 3893707728
+      },
+      {
+        "uuid": "931953d1-4b6e-5c9b-a41b-e7cf341475eb",
+        "name": "Cid, Timeless Artificer",
+        "weight": 3893707728
+      },
+      {
+        "uuid": "940c4310-854f-51b3-80d5-16f56431fe98",
+        "name": "Vivi Ornitier",
+        "weight": 810973215
+      },
+      {
+        "uuid": "954f0986-c429-5fb4-a590-cc593e1623d4",
+        "name": "Tellah, Great Sage",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "955cce31-52f1-5f8e-9364-de6014de5f60",
+        "name": "Buster Sword",
+        "weight": 810973215
+      },
+      {
+        "uuid": "959a2d46-35bf-5951-9252-dc2716968c0f",
+        "name": "Ultima",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "95a80572-3e4a-5cf2-aad0-0a132fcaf94c",
+        "name": "Torgal, A Fine Hound",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "96238e50-9a29-5851-813b-17d46864d46a",
+        "name": "Self-Destruct",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "978f026e-d15c-59fc-a297-f70308f1dc5c",
+        "name": "Cargo Ship",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "98404933-f349-5056-9c10-a4a4b560f8cc",
+        "name": "Bartz and Boko",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "98ba991e-3c0b-56f4-982d-365559d2b5f4",
+        "name": "Queen Brahne",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "9aabe252-cb24-52ba-8423-bb778e416d2a",
+        "name": "Raubahn, Bull of Ala Mhigo",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "9bfbeba4-b68f-5a0d-8d30-34abbc2ac933",
+        "name": "Gaelicat",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "9e5f989f-4907-5065-b5ba-dcb3044eecc1",
+        "name": "Iron Giant",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "9e623375-cd1d-5a9a-aa95-eaccda1021f9",
+        "name": "Black Waltz No. 3",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "9ee89e35-58e4-5535-b337-3622144b7f6a",
+        "name": "Exdeath, Void Warlock",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "a075e9a5-02f9-5f86-a06f-d9505856372e",
+        "name": "Sandworm",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "a0db0557-16f4-5187-8fc6-b455cbd90a76",
+        "name": "Capital City",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "a111b229-8490-55b7-b3f5-4231a24f8ba8",
+        "name": "Ambrosia Whiteheart",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "a16b2906-34c8-5e40-8426-aae50785f0f5",
+        "name": "Jenova, Ancient Calamity",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "a238563f-6d51-5543-ad83-7a5f6cd0f645",
+        "name": "Evil Reawakened",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "a27c5dca-048a-565d-9008-eb883ee5ead2",
+        "name": "Reach the Horizon",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "a37708bd-7143-59ea-b188-2878947d50ba",
+        "name": "Garnet, Princess of Alexandria",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "a43f24fe-3dc8-5ba5-b73f-eba82fc456f7",
+        "name": "Blazing Bomb",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "a50185b2-7515-571f-8d2f-edb1287440f1",
+        "name": "Ultros, Obnoxious Octopus",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "a5dabb61-bf75-5286-a1f9-c2002c21747c",
+        "name": "Vaan, Street Thief",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "a5ff0bb9-3021-5a1b-bde7-c0c3c3440a01",
+        "name": "Combat Tutorial",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "a6082d5f-e6c2-5446-8dca-25fe3e7730b1",
+        "name": "Sazh Katzroy",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "a62de1de-0dec-5a12-bea0-f75ab5ba9d2c",
+        "name": "Sin, Spira's Punishment",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "a69e143d-6bf9-5d2f-a0b3-b58457a7a340",
+        "name": "Il Mheg Pixie",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "a6d9e1ab-dd3c-558e-b74c-97a8887bef4e",
+        "name": "Serah Farron",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "a7235ef3-6ddb-5bdf-948e-2ef04137e333",
+        "name": "The Regalia",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "a78d69c5-9076-5499-aac6-1173b54410d9",
+        "name": "Minwu, White Mage",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "a7ae809f-8405-5a3d-ae37-5d73977bca78",
+        "name": "Balamb T-Rexaur",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "a971ff07-6137-5e27-8175-8b51feac7aa1",
+        "name": "Restoration Magic",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "a9c699f6-34e3-5d82-89ce-5435b0fb2236",
+        "name": "Jumbo Cactuar",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "a9cf4986-5648-53ea-ba39-6341c65bb122",
+        "name": "Galuf's Final Act",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "a9e3f597-628b-5955-b6ff-88726e12990d",
+        "name": "Jill, Shiva's Dominant",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "ab6fc7f4-f4f4-56b9-8846-82a7d85b24a1",
+        "name": "Ancient Adamantoise",
+        "weight": 810973215
+      },
+      {
+        "uuid": "abb26854-ae71-530b-9836-80a05c396fa9",
+        "name": "Barret Wallace",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "abfbf3fb-2496-58ec-a272-fada2180d8e3",
+        "name": "Cloudbound Moogle",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "ad625317-23c1-50c4-8141-49bd8d5e31cc",
+        "name": "Summoner's Grimoire",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "adca0acc-5685-5eb0-a111-9fead6f56f9b",
+        "name": "Kuja, Genome Sorcerer",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "aed2a0f7-7018-5967-9ff7-438f4b9ece0d",
+        "name": "Ahriman",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "b063519d-6944-5a7c-89ee-a898b48de4eb",
+        "name": "The Gold Saucer",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "b2191a86-a045-54d7-b48e-8bc938457f35",
+        "name": "Cid, Timeless Artificer",
+        "weight": 3893707728
+      },
+      {
+        "uuid": "b21e91c0-40e4-50fd-afc9-4b469f0d740a",
+        "name": "Summon: Fenrir",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "b2792ec0-5059-5a7e-834b-8796e82060ae",
+        "name": "Fight On!",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "b292b845-1745-506a-b00a-913d29ffd690",
+        "name": "Giott, King of the Dwarves",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "b4baf463-2edb-508e-b1a8-9de930d8049f",
+        "name": "Sephiroth, Fabled SOLDIER",
+        "weight": 810973215
+      },
+      {
+        "uuid": "b4d1c960-f52b-5bf1-a740-65e8722aa543",
+        "name": "Chocobo Kick",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "b6866064-4fec-5d63-a6de-c083ea7ad481",
+        "name": "Rook Turret",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "b6c7d457-2108-570a-a9a9-7a96e2a0f582",
+        "name": "Undercity Dire Rat",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "b7510e99-648b-5481-9df0-ef68bb895767",
+        "name": "Gaius van Baelsar",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "b8306c3a-fb2d-5cb4-b6d2-8e7775cd6fb7",
+        "name": "The Crystal's Chosen",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "b99642a9-5779-504c-9ff5-879da1fa3bb6",
+        "name": "Item Shopkeep",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "b99a373e-5f64-5b6b-bd67-dce0c4a583da",
+        "name": "Ring of the Lucii",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "bb06f85d-810d-5df9-90cd-c0f2971e3cf9",
+        "name": "Genji Glove",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "bb2ddf9b-8a36-5d66-8bf9-b02ee3222c24",
+        "name": "Summon: Knights of Round",
+        "weight": 810973215
+      },
+      {
+        "uuid": "bb37f821-4cab-5f06-bd36-8dde520c626a",
+        "name": "Sazh's Chocobo",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "bd0c1b67-1b00-504d-ba21-e95a0ba68b44",
+        "name": "Thief's Knife",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "bdd341d4-b703-53e2-8237-5f35d11a0e8f",
+        "name": "Louisoix's Sacrifice",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "c025e71a-b1c0-573a-92df-dcf565808fef",
+        "name": "Cecil, Dark Knight",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "c1e05e88-095c-5eb6-ae13-9f447d48f31f",
+        "name": "Cid, Timeless Artificer",
+        "weight": 3893707728
+      },
+      {
+        "uuid": "c1ff22a7-a6e1-5a8f-872c-e292e1992bf0",
+        "name": "Summon: Fat Chocobo",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "c2986d4d-a260-5993-ac6f-fff7217b8dfa",
+        "name": "Tifa's Limit Break",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "c2b9d77f-8081-59a8-bc12-18f0bc2cf5be",
+        "name": "A Realm Reborn",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "c4a9a37d-b7a2-5869-a8f7-51a22cb183ac",
+        "name": "Coral Sword",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "c55e4176-acd7-5d1b-9ef9-301a91368b6f",
+        "name": "Prompto Argentum",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "c6c69e66-254f-58d6-93fc-52eeb564ac3e",
+        "name": "Freya Crescent",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "c739d942-161d-597f-b3f8-208a82eaa9ab",
+        "name": "PuPu UFO",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "c7c5f7d3-6431-5eb4-922a-61844ce9deaa",
+        "name": "Aerith Rescue Mission",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "c7e16db9-c481-5567-9373-1712b7df1e07",
+        "name": "Gladiolus Amicitia",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "c8341134-643c-51b7-b90b-2923e1e16303",
+        "name": "The Final Days",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "c8533370-7274-5c28-9c07-b04ab35e963b",
+        "name": "Stuck in Summoner's Sanctum",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "c893181b-df17-58b8-809c-961361ffaa87",
+        "name": "Garland, Knight of Cornelia",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "ca51d060-008b-54e2-8545-29e409cb4462",
+        "name": "Seifer Almasy",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "caee07d8-54cc-5ece-8030-7c492d5e680e",
+        "name": "Stolen Uniform",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "cb1d950c-7830-5f9c-bb87-04c2d740f02f",
+        "name": "Sage's Nouliths",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "cb2932b6-efc9-5ada-99d1-d4ce50993626",
+        "name": "Scorpion Sentinel",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "cc6896e6-2e62-5aa1-9c53-c362a0c6cc02",
+        "name": "Dark Knight's Greatsword",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "ce516ea1-5c11-5698-8fa0-ef2e7e45a780",
+        "name": "Ninja's Blades",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "ce914b8f-4126-5f97-b093-c01ca2facae5",
+        "name": "Cid, Timeless Artificer",
+        "weight": 3893707728
+      },
+      {
+        "uuid": "cf2a028a-0bf9-5d6f-9680-fc0cbea9272e",
+        "name": "Ultima, Origin of Oblivion",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "d09dab8d-c45f-51d9-89b4-016275d12a9c",
+        "name": "Relm's Sketching",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "d0d8f70f-f2c3-50d3-b96f-30c08b6c5c0c",
+        "name": "Prishe's Wanderings",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "d21b0ba4-3d15-57dc-b8f8-f119cb79ccea",
+        "name": "Elixir",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "d2a4c7a8-3768-5069-9002-301294a0dbc6",
+        "name": "Cloud of Darkness",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "d2f916ee-8592-5273-8696-76c9a5bfccd2",
+        "name": "Black Mage's Rod",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "d3f36250-1335-51b0-8030-34757bea76a8",
+        "name": "Fate of the Sun-Cryst",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "d4770d8b-f5de-50d2-8062-a877bdaccc1f",
+        "name": "The Wandering Minstrel",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "d71847b8-5d9d-57aa-9fe8-08f81680a8b6",
+        "name": "Blitzball Shot",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "d777f6ea-09d0-5b79-b11c-9cd277e74446",
+        "name": "Reno and Rude",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "d7929718-8a74-5fba-85bc-093f49ad6770",
+        "name": "Midgar, City of Mako",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "d7aa9e85-1b1f-5633-b091-54f7d722615b",
+        "name": "The Fire Crystal",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "d815aeeb-e320-55d9-8b47-0c7563bbd0f5",
+        "name": "Summon: Choco/Mog",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "d8bc179a-ade6-552b-a9ce-e819b7090b80",
+        "name": "Auron's Inspiration",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "da6c6f7d-f2ae-5278-bc10-cfd37a42943d",
+        "name": "Samurai's Katana",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "daeb69dd-1752-5d73-84f0-af491193f163",
+        "name": "Ride the Shoopuf",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "dbd48822-e18f-5cd3-a846-89864d11baed",
+        "name": "Snow Villiers",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "dcf6cff4-b425-5ba5-9eeb-a5603e9464a2",
+        "name": "Summon: Titan",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "de84bef6-e786-5839-a0c3-a25691f5b6c4",
+        "name": "Vincent's Limit Break",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "dfa4b9ce-eff1-5ec2-8db6-f746fd604228",
+        "name": "Ice Magic",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "e144f07b-bce2-51ee-935a-ec7e58dfe927",
+        "name": "The Wind Crystal",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "e15bb913-ad72-56c4-a15b-e00612f9b617",
+        "name": "Quistis Trepe",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "e18dd6a3-5204-5114-b04e-f608a4e5fa9a",
+        "name": "Emet-Selch, Unsundered",
+        "weight": 810973215
+      },
+      {
+        "uuid": "e25c00ce-dd8a-5401-9bd1-fa1c4ca810f9",
+        "name": "Monk's Fist",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "e26efeda-8ce3-5803-ac93-1ebc55dc24d6",
+        "name": "Cid, Timeless Artificer",
+        "weight": 3893707728
+      },
+      {
+        "uuid": "e3cd871e-f82a-5797-b512-5acd3695ed64",
+        "name": "Coeurl",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "e3eafb3b-f34a-574e-bb10-9a4f0cd41311",
+        "name": "Red Mage's Rapier",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "e445a554-6fc2-547c-9511-2bda007a81fe",
+        "name": "Terra, Magical Adept",
+        "weight": 810973215
+      },
+      {
+        "uuid": "e57c81c2-7385-534a-ad17-ee93260e926e",
+        "name": "Memories Returning",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "e6407a43-3948-5c9f-a39c-d187c72d6a3a",
+        "name": "Circle of Power",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "e6b54206-08fa-5700-a528-3cbc39c988f1",
+        "name": "Joshua, Phoenix's Dominant",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "e71fd26a-4c31-5bec-aa8f-76c5ccf01c08",
+        "name": "Vincent Valentine",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "e85d7f5a-028b-5ca0-b1a7-5bb36e0e622e",
+        "name": "The Darkness Crystal",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "e8982ebc-6c66-5224-837e-c0ccabb75b53",
+        "name": "Kefka, Court Mage",
+        "weight": 810973215
+      },
+      {
+        "uuid": "e9474299-0112-5e93-a632-eaec8e9cf05c",
+        "name": "Goobbue Gardener",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "ea348b24-09f5-5b2c-b7a8-715633472f1e",
+        "name": "Eject",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "ebe6d2dc-f8aa-52ac-9562-d4b1b96966ca",
+        "name": "Summon: Anima",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "ed1642fd-a3c0-5aa7-9946-2768ed6f86ee",
+        "name": "Zodiark, Umbral God",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "edbb5409-cce7-5a14-99cd-0ce3ee277583",
+        "name": "The Prima Vista",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "ef7ac1f2-76d2-599a-85b0-db3a22845073",
+        "name": "Aerith Gainsborough",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "f13c2df2-615b-59e1-a3de-3f9f736e34b0",
+        "name": "Swallowed by Leviathan",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "f1698657-ff1b-518e-9fda-0ae4f806b87e",
+        "name": "Kain, Traitorous Dragoon",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "f3509f06-87bf-525a-a32a-05a26df6a983",
+        "name": "Sabotender",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "f3684cc6-62ee-5a36-9528-62cf370e346e",
+        "name": "Sahagin",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "f5df39d3-b69c-5b75-948d-338801fa9f45",
+        "name": "Golbez, Crystal Collector",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "f6f714c5-484c-5ccd-afdb-b3a80fc8bcc5",
+        "name": "Travel the Overworld",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "f790e0aa-541f-5bb1-a48b-d23d181e02e6",
+        "name": "Sidequest: Hunt the Mark",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "fa1590d4-bc6b-528d-9498-5d225ae447eb",
+        "name": "Retrieve the Esper",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "fa88fdc4-abd2-5f68-aa10-192aa2f446d4",
+        "name": "Al Bhed Salvagers",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "faa2c388-addc-5cc6-b5b4-6308e17e5b45",
+        "name": "Weapons Vendor",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "faa5ddb1-f0c4-5ee4-8dd8-6c5338296993",
+        "name": "Cid, Timeless Artificer",
+        "weight": 3893707728
+      },
+      {
+        "uuid": "fafde436-84cc-5117-b7fc-764e4cfbfcb3",
+        "name": "Choco-Comet",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "fb4f7a0c-2da2-5276-9b15-9528a5ec6011",
+        "name": "Random Encounter",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "fb81101f-54ef-5f31-b5e5-3b949ebdd774",
+        "name": "Squall, SeeD Mercenary",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "fc50ead3-ab4c-51be-9555-542f29a2e309",
+        "name": "Dark Confidant",
+        "weight": 810973215
+      },
+      {
+        "uuid": "fc6c017d-b45d-53e5-9c44-335d02050f1b",
+        "name": "Moogles' Valor",
+        "weight": 1686748050
+      },
+      {
+        "uuid": "fceb7acd-d47d-56da-8906-d25dc17f3835",
+        "name": "Fire Magic",
+        "weight": 5840778560
+      },
+      {
+        "uuid": "ff7a2a7e-3747-5c0a-bcfe-40219819d084",
+        "name": "Syncopate",
+        "weight": 13128363495
+      },
+      {
+        "uuid": "ff833866-810e-5d4c-a909-36230958f34a",
+        "name": "Lion Heart",
+        "weight": 5840778560
+      }
+    ]
+  },
+  "land": {
+    "cards": [
+      {
+        "uuid": "07f3f86a-076e-51ed-9bb8-c15e8d6af817",
+        "name": "Mountain",
+        "weight": 335
+      },
+      {
+        "uuid": "0fe3a345-5ece-53ff-823f-fbcd6865ad9f",
+        "name": "Sharlayan, Nation of Scholars",
+        "weight": 1064
+      },
+      {
+        "uuid": "138a5910-7867-57c9-8e50-d1a7f85757bb",
+        "name": "Plains",
+        "weight": 335
+      },
+      {
+        "uuid": "2a0e5af8-8ed9-5a31-983c-e47be2724f98",
+        "name": "Insomnia, Crown City",
+        "weight": 1064
+      },
+      {
+        "uuid": "45e476cc-251f-57f2-bd54-103dd969c4e9",
+        "name": "Forest",
+        "weight": 335
+      },
+      {
+        "uuid": "46d363ce-81d5-58a9-a997-47ebdd71f2fe",
+        "name": "Forest",
+        "weight": 335
+      },
+      {
+        "uuid": "6fe4c114-886e-5c57-88d4-663731941dcd",
+        "name": "Island",
+        "weight": 335
+      },
+      {
+        "uuid": "77efe8dd-3bce-54a2-b41e-6a185211b403",
+        "name": "Mountain",
+        "weight": 335
+      },
+      {
+        "uuid": "78f44ffa-eb5a-5a02-80d0-ebad26dcae63",
+        "name": "Gohn, Town of Ruin",
+        "weight": 1064
+      },
+      {
+        "uuid": "8847d36e-fef2-5aeb-b791-b4dbe6820105",
+        "name": "Windurst, Federation Center",
+        "weight": 1064
+      },
+      {
+        "uuid": "920b17b6-beb9-510d-982a-01941cd2420d",
+        "name": "Plains",
+        "weight": 335
+      },
+      {
+        "uuid": "92ce255e-768f-545f-a108-16d9c1d9085e",
+        "name": "Swamp",
+        "weight": 335
+      },
+      {
+        "uuid": "a8eced7d-46ba-5312-b5ef-c016b9f85484",
+        "name": "Swamp",
+        "weight": 335
+      },
+      {
+        "uuid": "a9ab6e3a-c705-5311-b00f-4379d6b30d33",
+        "name": "Island",
+        "weight": 335
+      },
+      {
+        "uuid": "b5556361-abd9-5885-85d8-db8f69848bd3",
+        "name": "Treno, Dark City",
+        "weight": 1064
+      },
+      {
+        "uuid": "b9fedbaa-d2ce-55ff-b1cf-58105e5cba08",
+        "name": "Swamp",
+        "weight": 335
+      },
+      {
+        "uuid": "bb82f62f-d936-5f9b-94a7-fd57920bf199",
+        "name": "Baron, Airship Kingdom",
+        "weight": 1064
+      },
+      {
+        "uuid": "c2ca616f-b0b4-53ec-8ef2-8bb33e990269",
+        "name": "Forest",
+        "weight": 335
+      },
+      {
+        "uuid": "c2e5add4-37db-53cc-8637-08b88e9c8de0",
+        "name": "Vector, Imperial Capital",
+        "weight": 1064
+      },
+      {
+        "uuid": "cccd46d4-1ac4-5107-80c3-9aa290fe6778",
+        "name": "Rabanastre, Royal City",
+        "weight": 1064
+      },
+      {
+        "uuid": "da896f9b-20d5-5759-8b0f-7919503fd915",
+        "name": "Wastes",
+        "weight": 335
+      },
+      {
+        "uuid": "da905bf3-f7a1-5f3f-a23b-aad47289ba53",
+        "name": "Gongaga, Reactor Town",
+        "weight": 1064
+      },
+      {
+        "uuid": "e2b2ed27-bde2-505e-830d-2d0dc994211d",
+        "name": "Guadosalam, Farplane Gateway",
+        "weight": 1064
+      },
+      {
+        "uuid": "e35d0a99-72d7-55e2-9f93-fb4ee8c27c2e",
+        "name": "Island",
+        "weight": 335
+      },
+      {
+        "uuid": "f92fcb2e-8b7c-5786-9091-ebea6f019aba",
+        "name": "Mountain",
+        "weight": 335
+      },
+      {
+        "uuid": "fbf83e18-771c-5d2e-85fb-1c13b320ec05",
+        "name": "Plains",
+        "weight": 335
+      }
+    ]
+  },
+  "rareMythic": {
+    "cards": [
+      {
+        "uuid": "055890d1-1ca8-5d81-ae86-8497f366f45b",
+        "name": "The Masamune",
+        "weight": 1770
+      },
+      {
+        "uuid": "07471996-5e7b-5553-ae69-68331b8175f5",
+        "name": "Stiltzkin, Moogle Merchant",
+        "weight": 1770
+      },
+      {
+        "uuid": "0c5d7efd-38dd-52dc-abdc-8d653cfe8d29",
+        "name": "Esper Origins",
+        "weight": 1770
+      },
+      {
+        "uuid": "0cfeb956-4230-5700-a6dc-73401dbb962b",
+        "name": "Gogo, Master of Mimicry",
+        "weight": 851
+      },
+      {
+        "uuid": "1183391a-d315-5f9d-b1c6-9a23d2b25587",
+        "name": "Traveling Chocobo",
+        "weight": 851
+      },
+      {
+        "uuid": "1254a148-48ca-5e19-bb4f-54e7b1cba5f1",
+        "name": "Cloud, Midgar Mercenary",
+        "weight": 851
+      },
+      {
+        "uuid": "15e2c75e-749a-57a3-86e4-125dc837c9c2",
+        "name": "Jidoor, Aristocratic Capital",
+        "weight": 1770
+      },
+      {
+        "uuid": "17f85365-942c-5a74-ad09-66976d1fea4e",
+        "name": "Summon: Brynhildr",
+        "weight": 1770
+      },
+      {
+        "uuid": "17f90297-33e5-5638-ac38-92e85b25b39b",
+        "name": "Noctis, Prince of Lucis",
+        "weight": 1770
+      },
+      {
+        "uuid": "1aa841b8-eea5-5a3d-aad1-6f918be69e33",
+        "name": "Excalibur II",
+        "weight": 1770
+      },
+      {
+        "uuid": "1eadf625-88a3-57a2-bbcb-38960050bd15",
+        "name": "Edgar, King of Figaro",
+        "weight": 1770
+      },
+      {
+        "uuid": "1f31f675-27ff-507a-93e9-f8eac7196f5a",
+        "name": "Starting Town",
+        "weight": 1770
+      },
+      {
+        "uuid": "1f6c3a08-3417-53d5-8a64-7f6e2197852f",
+        "name": "Hope Estheim",
+        "weight": 1770
+      },
+      {
+        "uuid": "1f9e7c69-b664-512c-aae8-6440ac181a86",
+        "name": "Y'shtola Rhul",
+        "weight": 851
+      },
+      {
+        "uuid": "213f2ebb-965d-5c79-bb24-20edc242fb7d",
+        "name": "Summon: Bahamut",
+        "weight": 851
+      },
+      {
+        "uuid": "234749c9-6a84-5945-a105-497684435421",
+        "name": "Astrologian's Planisphere",
+        "weight": 1770
+      },
+      {
+        "uuid": "290e4bcc-2dd4-5724-8cf0-927cb3b5822d",
+        "name": "Yuna, Hope of Spira",
+        "weight": 851
+      },
+      {
+        "uuid": "2a346a2e-9187-50bf-a7d2-e1eeb17d785e",
+        "name": "The Earth Crystal",
+        "weight": 1770
+      },
+      {
+        "uuid": "2f6ac776-11d0-5927-bc12-5339edc0daab",
+        "name": "Gilgamesh, Master-at-Arms",
+        "weight": 1770
+      },
+      {
+        "uuid": "31e2bf20-7b45-5a02-a8c9-fc82d457761f",
+        "name": "Jecht, Reluctant Guardian",
+        "weight": 1770
+      },
+      {
+        "uuid": "320f1df3-3aca-554a-8069-dc960a8db61a",
+        "name": "The Lunar Whale",
+        "weight": 1770
+      },
+      {
+        "uuid": "38ed79f2-66bd-579b-aca2-26f315c69f2e",
+        "name": "Lightning, Army of One",
+        "weight": 851
+      },
+      {
+        "uuid": "39770d42-2526-5a12-bc42-851a9f242dcd",
+        "name": "The Water Crystal",
+        "weight": 1770
+      },
+      {
+        "uuid": "3bdaf96d-80f2-5ce6-8d37-ebd3aa34327d",
+        "name": "Venat, Heart of Hydaelyn",
+        "weight": 1770
+      },
+      {
+        "uuid": "3d3f6ff1-01c3-52ff-9d73-fa1bcea9b7a8",
+        "name": "Balamb Garden, SeeD Academy",
+        "weight": 1770
+      },
+      {
+        "uuid": "425af320-89c9-5905-a16c-ab8dfc2c53d8",
+        "name": "Zanarkand, Ancient Metropolis",
+        "weight": 1770
+      },
+      {
+        "uuid": "43af3c03-81f0-5448-a53b-c8795210c8e0",
+        "name": "Aettir and Priwen",
+        "weight": 851
+      },
+      {
+        "uuid": "444d9cad-2b07-5180-b4bd-28f2b03595de",
+        "name": "Triple Triad",
+        "weight": 1770
+      },
+      {
+        "uuid": "4f229f13-824d-5140-8442-99078c40d6ab",
+        "name": "Clive, Ifrit's Dominant",
+        "weight": 851
+      },
+      {
+        "uuid": "5326e283-5f67-55fc-b3c6-0e26ebf323c8",
+        "name": "Ishgard, the Holy See",
+        "weight": 1770
+      },
+      {
+        "uuid": "550e01bc-81be-5bcb-af22-89d9dacb7cf4",
+        "name": "Zell Dincht",
+        "weight": 1770
+      },
+      {
+        "uuid": "5cb1b863-60e3-517b-83d4-903ee7defaec",
+        "name": "Nibelheim Aflame",
+        "weight": 851
+      },
+      {
+        "uuid": "5ed38f0b-0094-5c7a-808d-c13eadb24d73",
+        "name": "Matoya, Archon Elder",
+        "weight": 1770
+      },
+      {
+        "uuid": "61681032-9fa7-5b50-bdfc-3c9a82619cfc",
+        "name": "Summon: G.F. Cerberus",
+        "weight": 1770
+      },
+      {
+        "uuid": "6374fb9c-3f47-51b3-b397-c657c7b2cbb5",
+        "name": "From Father to Son",
+        "weight": 1770
+      },
+      {
+        "uuid": "6388bc12-81b9-5c0b-9b9d-ffeaaf454488",
+        "name": "Ardyn, the Usurper",
+        "weight": 1770
+      },
+      {
+        "uuid": "6934be2a-e00b-5874-b963-891373540bd8",
+        "name": "Absolute Virtue",
+        "weight": 851
+      },
+      {
+        "uuid": "6a31f746-38f8-5a97-aff5-285d0ed8df9b",
+        "name": "Lindblum, Industrial Regency",
+        "weight": 1770
+      },
+      {
+        "uuid": "6f782192-f041-590a-8fb7-d5e06b503617",
+        "name": "Summon: Primal Odin",
+        "weight": 1770
+      },
+      {
+        "uuid": "7668c47f-d9e0-5ba2-aa21-8ee0f415694c",
+        "name": "Summon: Leviathan",
+        "weight": 1770
+      },
+      {
+        "uuid": "7701c9bf-d44b-5220-9c40-c3b33ec1359e",
+        "name": "Balthier and Fran",
+        "weight": 1770
+      },
+      {
+        "uuid": "7df789e5-8790-59a9-895d-4285867de306",
+        "name": "Dion, Bahamut's Dominant",
+        "weight": 1770
+      },
+      {
+        "uuid": "826443ee-3512-5d42-a8b1-31ac823e3e5e",
+        "name": "Clive's Hideaway",
+        "weight": 1770
+      },
+      {
+        "uuid": "835f5e3a-3d72-5e3b-b986-7dad1447554b",
+        "name": "Machinist's Arsenal",
+        "weight": 1770
+      },
+      {
+        "uuid": "88353094-cc1d-5bd8-b698-a168bdc42eec",
+        "name": "Firion, Wild Rose Warrior",
+        "weight": 1770
+      },
+      {
+        "uuid": "88c2b6cd-b62a-5493-ab2d-17f716113210",
+        "name": "Zenos yae Galvus",
+        "weight": 1770
+      },
+      {
+        "uuid": "8fcbdff7-e203-5af2-8a4d-2a6a34bedd71",
+        "name": "Tifa Lockhart",
+        "weight": 1770
+      },
+      {
+        "uuid": "9117ee67-f17e-565d-9874-f52267bbdfc3",
+        "name": "Choco, Seeker of Paradise",
+        "weight": 1770
+      },
+      {
+        "uuid": "940c4310-854f-51b3-80d5-16f56431fe98",
+        "name": "Vivi Ornitier",
+        "weight": 851
+      },
+      {
+        "uuid": "954f0986-c429-5fb4-a590-cc593e1623d4",
+        "name": "Tellah, Great Sage",
+        "weight": 1770
+      },
+      {
+        "uuid": "955cce31-52f1-5f8e-9364-de6014de5f60",
+        "name": "Buster Sword",
+        "weight": 851
+      },
+      {
+        "uuid": "959a2d46-35bf-5951-9252-dc2716968c0f",
+        "name": "Ultima",
+        "weight": 1770
+      },
+      {
+        "uuid": "98404933-f349-5056-9c10-a4a4b560f8cc",
+        "name": "Bartz and Boko",
+        "weight": 1770
+      },
+      {
+        "uuid": "9aabe252-cb24-52ba-8423-bb778e416d2a",
+        "name": "Raubahn, Bull of Ala Mhigo",
+        "weight": 1770
+      },
+      {
+        "uuid": "a16b2906-34c8-5e40-8426-aae50785f0f5",
+        "name": "Jenova, Ancient Calamity",
+        "weight": 1770
+      },
+      {
+        "uuid": "a5dabb61-bf75-5286-a1f9-c2002c21747c",
+        "name": "Vaan, Street Thief",
+        "weight": 1770
+      },
+      {
+        "uuid": "a6082d5f-e6c2-5446-8dca-25fe3e7730b1",
+        "name": "Sazh Katzroy",
+        "weight": 1770
+      },
+      {
+        "uuid": "a62de1de-0dec-5a12-bea0-f75ab5ba9d2c",
+        "name": "Sin, Spira's Punishment",
+        "weight": 1770
+      },
+      {
+        "uuid": "a6d9e1ab-dd3c-558e-b74c-97a8887bef4e",
+        "name": "Serah Farron",
+        "weight": 1770
+      },
+      {
+        "uuid": "a7235ef3-6ddb-5bdf-948e-2ef04137e333",
+        "name": "The Regalia",
+        "weight": 1770
+      },
+      {
+        "uuid": "a78d69c5-9076-5499-aac6-1173b54410d9",
+        "name": "Minwu, White Mage",
+        "weight": 1770
+      },
+      {
+        "uuid": "a9c699f6-34e3-5d82-89ce-5435b0fb2236",
+        "name": "Jumbo Cactuar",
+        "weight": 1770
+      },
+      {
+        "uuid": "a9e3f597-628b-5955-b6ff-88726e12990d",
+        "name": "Jill, Shiva's Dominant",
+        "weight": 1770
+      },
+      {
+        "uuid": "ab6fc7f4-f4f4-56b9-8846-82a7d85b24a1",
+        "name": "Ancient Adamantoise",
+        "weight": 851
+      },
+      {
+        "uuid": "ad625317-23c1-50c4-8141-49bd8d5e31cc",
+        "name": "Summoner's Grimoire",
+        "weight": 1770
+      },
+      {
+        "uuid": "adca0acc-5685-5eb0-a111-9fead6f56f9b",
+        "name": "Kuja, Genome Sorcerer",
+        "weight": 1770
+      },
+      {
+        "uuid": "b4baf463-2edb-508e-b1a8-9de930d8049f",
+        "name": "Sephiroth, Fabled SOLDIER",
+        "weight": 851
+      },
+      {
+        "uuid": "bb06f85d-810d-5df9-90cd-c0f2971e3cf9",
+        "name": "Genji Glove",
+        "weight": 1770
+      },
+      {
+        "uuid": "bb2ddf9b-8a36-5d66-8bf9-b02ee3222c24",
+        "name": "Summon: Knights of Round",
+        "weight": 851
+      },
+      {
+        "uuid": "bdd341d4-b703-53e2-8237-5f35d11a0e8f",
+        "name": "Louisoix's Sacrifice",
+        "weight": 1770
+      },
+      {
+        "uuid": "c025e71a-b1c0-573a-92df-dcf565808fef",
+        "name": "Cecil, Dark Knight",
+        "weight": 1770
+      },
+      {
+        "uuid": "c2b9d77f-8081-59a8-bc12-18f0bc2cf5be",
+        "name": "A Realm Reborn",
+        "weight": 1770
+      },
+      {
+        "uuid": "ca51d060-008b-54e2-8545-29e409cb4462",
+        "name": "Seifer Almasy",
+        "weight": 1770
+      },
+      {
+        "uuid": "ce516ea1-5c11-5698-8fa0-ef2e7e45a780",
+        "name": "Ninja's Blades",
+        "weight": 1770
+      },
+      {
+        "uuid": "cf2a028a-0bf9-5d6f-9680-fc0cbea9272e",
+        "name": "Ultima, Origin of Oblivion",
+        "weight": 1770
+      },
+      {
+        "uuid": "d4770d8b-f5de-50d2-8062-a877bdaccc1f",
+        "name": "The Wandering Minstrel",
+        "weight": 1770
+      },
+      {
+        "uuid": "d7929718-8a74-5fba-85bc-093f49ad6770",
+        "name": "Midgar, City of Mako",
+        "weight": 1770
+      },
+      {
+        "uuid": "d7aa9e85-1b1f-5633-b091-54f7d722615b",
+        "name": "The Fire Crystal",
+        "weight": 1770
+      },
+      {
+        "uuid": "dcf6cff4-b425-5ba5-9eeb-a5603e9464a2",
+        "name": "Summon: Titan",
+        "weight": 1770
+      },
+      {
+        "uuid": "e144f07b-bce2-51ee-935a-ec7e58dfe927",
+        "name": "The Wind Crystal",
+        "weight": 1770
+      },
+      {
+        "uuid": "e18dd6a3-5204-5114-b04e-f608a4e5fa9a",
+        "name": "Emet-Selch, Unsundered",
+        "weight": 851
+      },
+      {
+        "uuid": "e445a554-6fc2-547c-9511-2bda007a81fe",
+        "name": "Terra, Magical Adept",
+        "weight": 851
+      },
+      {
+        "uuid": "e57c81c2-7385-534a-ad17-ee93260e926e",
+        "name": "Memories Returning",
+        "weight": 1770
+      },
+      {
+        "uuid": "e6b54206-08fa-5700-a528-3cbc39c988f1",
+        "name": "Joshua, Phoenix's Dominant",
+        "weight": 1770
+      },
+      {
+        "uuid": "e71fd26a-4c31-5bec-aa8f-76c5ccf01c08",
+        "name": "Vincent Valentine",
+        "weight": 1770
+      },
+      {
+        "uuid": "e85d7f5a-028b-5ca0-b1a7-5bb36e0e622e",
+        "name": "The Darkness Crystal",
+        "weight": 1770
+      },
+      {
+        "uuid": "e8982ebc-6c66-5224-837e-c0ccabb75b53",
+        "name": "Kefka, Court Mage",
+        "weight": 851
+      },
+      {
+        "uuid": "ed1642fd-a3c0-5aa7-9946-2768ed6f86ee",
+        "name": "Zodiark, Umbral God",
+        "weight": 1770
+      },
+      {
+        "uuid": "ef7ac1f2-76d2-599a-85b0-db3a22845073",
+        "name": "Aerith Gainsborough",
+        "weight": 1770
+      },
+      {
+        "uuid": "f1698657-ff1b-518e-9fda-0ae4f806b87e",
+        "name": "Kain, Traitorous Dragoon",
+        "weight": 1770
+      },
+      {
+        "uuid": "f5df39d3-b69c-5b75-948d-338801fa9f45",
+        "name": "Golbez, Crystal Collector",
+        "weight": 1770
+      },
+      {
+        "uuid": "fb81101f-54ef-5f31-b5e5-3b949ebdd774",
+        "name": "Squall, SeeD Mercenary",
+        "weight": 1770
+      },
+      {
+        "uuid": "fc50ead3-ab4c-51be-9555-542f29a2e309",
+        "name": "Dark Confidant",
+        "weight": 851
+      },
+      {
+        "uuid": "fc6c017d-b45d-53e5-9c44-335d02050f1b",
+        "name": "Moogles' Valor",
+        "weight": 1770
+      }
+    ]
+  },
+  "throughTheAges": {
+    "cards": [
+      {
+        "uuid": "0134f5d4-38ae-5f51-b1a8-d621bf4b291f",
+        "name": "Carpet of Flowers",
+        "weight": 1785
+      },
+      {
+        "uuid": "0c49419b-894f-5c90-92e1-e4ed4952e18b",
+        "name": "Wall of Omens",
+        "weight": 7590
+      },
+      {
+        "uuid": "0e90d827-86a6-5eab-819d-adbc27830280",
+        "name": "Azusa, Lost but Seeking",
+        "weight": 1785
+      },
+      {
+        "uuid": "131e961f-af58-50c9-a6bf-27f4ac504b33",
+        "name": "Teferi, Mage of Zhalfir",
+        "weight": 1785
+      },
+      {
+        "uuid": "1691c7b7-6c21-5cf9-9a16-f77c86186fd8",
+        "name": "Kenrith, the Returned King",
+        "weight": 1785
+      },
+      {
+        "uuid": "17717e95-6242-56cc-be69-9afbc9e2a378",
+        "name": "Ranger-Captain of Eos",
+        "weight": 896
+      },
+      {
+        "uuid": "1c7848e4-269d-553c-b0a8-91d91ad1daf4",
+        "name": "Akroma's Will",
+        "weight": 896
+      },
+      {
+        "uuid": "1cab0378-a281-5daa-b20c-2fd0e046926a",
+        "name": "Brainstorm",
+        "weight": 7590
+      },
+      {
+        "uuid": "21698c71-2161-58fc-8640-ae50591efe88",
+        "name": "Muldrotha, the Gravetide",
+        "weight": 1785
+      },
+      {
+        "uuid": "2178367a-55f9-52a4-8ecd-2e986a97eb15",
+        "name": "Isshin, Two Heavens as One",
+        "weight": 1785
+      },
+      {
+        "uuid": "21ef4bc4-e626-5750-816d-9525e0b2ea06",
+        "name": "K'rrik, Son of Yawgmoth",
+        "weight": 1785
+      },
+      {
+        "uuid": "303fd495-e32d-53b8-baa3-61dadba042d8",
+        "name": "Adeline, Resplendent Cathar",
+        "weight": 1785
+      },
+      {
+        "uuid": "31ff2624-6a32-5804-8934-6099184bdb6e",
+        "name": "Rhystic Study",
+        "weight": 896
+      },
+      {
+        "uuid": "34ea3825-0eee-5803-897e-17d0a9546fcf",
+        "name": "Tymna the Weaver",
+        "weight": 1785
+      },
+      {
+        "uuid": "3a9090df-a440-5ddb-93eb-9b506064d2e7",
+        "name": "Stroke of Midnight",
+        "weight": 7590
+      },
+      {
+        "uuid": "3ee32515-7b54-5c49-9cb6-123999d22025",
+        "name": "Godo, Bandit Warlord",
+        "weight": 1785
+      },
+      {
+        "uuid": "44d86d14-bc90-5413-b8e6-1dd01e5dfeb9",
+        "name": "Sram, Senior Edificer",
+        "weight": 1785
+      },
+      {
+        "uuid": "4f750325-c1aa-5991-952a-c38b136d228d",
+        "name": "Deadly Dispute",
+        "weight": 7590
+      },
+      {
+        "uuid": "526fa8a1-efc6-546a-8c4d-0a0df2b5fbad",
+        "name": "Counterspell",
+        "weight": 7590
+      },
+      {
+        "uuid": "567d8800-37fb-53fc-99a9-052c4531093e",
+        "name": "Nyxbloom Ancient",
+        "weight": 896
+      },
+      {
+        "uuid": "5a9512ba-212f-5bb8-b35b-4da808b80ce4",
+        "name": "Inalla, Archmage Ritualist",
+        "weight": 1785
+      },
+      {
+        "uuid": "5d630125-5c1d-5a48-ae73-96a9ac22c006",
+        "name": "Yuriko, the Tiger's Shadow",
+        "weight": 1785
+      },
+      {
+        "uuid": "5f13201f-c4ac-589f-907b-ac87d20496b1",
+        "name": "Traxos, Scourge of Kroog",
+        "weight": 1785
+      },
+      {
+        "uuid": "6325de66-cb88-595d-b565-ee9bed79b782",
+        "name": "Kraum, Ludevic's Opus",
+        "weight": 1785
+      },
+      {
+        "uuid": "6401499a-50fe-5dc8-845b-110f122c7ca8",
+        "name": "Purphoros, God of the Forge",
+        "weight": 896
+      },
+      {
+        "uuid": "7a7f1a60-d9d5-5cd8-b131-f43cec9cd3a6",
+        "name": "Ancient Copper Dragon",
+        "weight": 896
+      },
+      {
+        "uuid": "7f91ff65-3313-5eff-b17e-886d32dce2cb",
+        "name": "Primeval Titan",
+        "weight": 1785
+      },
+      {
+        "uuid": "800eb38e-ee78-59a7-8d8b-c8be94395fb3",
+        "name": "Chromatic Lantern",
+        "weight": 1785
+      },
+      {
+        "uuid": "80ed6eff-e708-5644-aa96-d0213293d20c",
+        "name": "Varragoth, Bloodsky Sire",
+        "weight": 1785
+      },
+      {
+        "uuid": "87cbee12-5b05-5f26-869a-bb2e2eae6c55",
+        "name": "Smuggler's Copter",
+        "weight": 1785
+      },
+      {
+        "uuid": "8a7c84b2-7e83-597e-9b8d-877b6f4efe12",
+        "name": "Nature's Claim",
+        "weight": 7590
+      },
+      {
+        "uuid": "8cb1f4da-a92d-553a-a60e-77538ef57de9",
+        "name": "Diabolic Intent",
+        "weight": 1785
+      },
+      {
+        "uuid": "910ce9ad-411b-5e5a-8507-0d27bc1f9166",
+        "name": "Laboratory Maniac",
+        "weight": 7590
+      },
+      {
+        "uuid": "962d6650-38e0-5151-a3f2-ec6edbf1c799",
+        "name": "Yawgmoth, Thran Physician",
+        "weight": 896
+      },
+      {
+        "uuid": "99eb73fe-4bfc-5195-909a-db19380906b1",
+        "name": "Bruse Tarl, Boorish Herder",
+        "weight": 1785
+      },
+      {
+        "uuid": "9f0c3c70-67e4-57dc-a0e0-774238f5bc0a",
+        "name": "Loran of the Third Path",
+        "weight": 1785
+      },
+      {
+        "uuid": "a198b0b2-7dc4-525c-976a-531969d0135e",
+        "name": "Ragavan, Nimble Pilferer",
+        "weight": 896
+      },
+      {
+        "uuid": "a96b57a8-39fe-5f92-af87-da69cd130b49",
+        "name": "Atraxa, Grand Unifier",
+        "weight": 896
+      },
+      {
+        "uuid": "aa247fce-b425-52e5-afcc-1dd40cb93dd4",
+        "name": "Gix, Yawgmoth Praetor",
+        "weight": 896
+      },
+      {
+        "uuid": "aa315dd4-06cb-564f-8bee-21045723f2d6",
+        "name": "Cryptic Command",
+        "weight": 1785
+      },
+      {
+        "uuid": "ab30100d-0cfe-5717-92b1-0f14fdc3ad02",
+        "name": "Venser, Shaper Savant",
+        "weight": 1785
+      },
+      {
+        "uuid": "ab99027f-8af5-54bd-9fad-0f7c6d7af4fd",
+        "name": "Command Beacon",
+        "weight": 1785
+      },
+      {
+        "uuid": "b04d594a-e7ff-5d9a-8871-2ccb4f4a4c94",
+        "name": "Fatal Push",
+        "weight": 7590
+      },
+      {
+        "uuid": "b729cc4f-97b0-5fcd-9a7c-18b6bf5c9e38",
+        "name": "Captain Lannery Storm",
+        "weight": 7590
+      },
+      {
+        "uuid": "be43ec3f-0282-551b-8843-05c204b69a98",
+        "name": "Ishai, Ojutai Dragonspeaker",
+        "weight": 1785
+      },
+      {
+        "uuid": "bfce2d36-17a7-5d0a-9170-11d71ec215d4",
+        "name": "Jodah, the Unifier",
+        "weight": 1785
+      },
+      {
+        "uuid": "c253d801-5d57-5d08-ad30-a9404353f250",
+        "name": "Lightning Bolt",
+        "weight": 7590
+      },
+      {
+        "uuid": "c415d605-d965-5226-bb53-5307c318a270",
+        "name": "Dovin's Veto",
+        "weight": 7590
+      },
+      {
+        "uuid": "d0a42a91-efec-57b0-8479-45086fdc4c8d",
+        "name": "Mangara, the Diplomat",
+        "weight": 1785
+      },
+      {
+        "uuid": "d118f199-87ca-53c3-b5ee-34cd63c277be",
+        "name": "Fynn, the Fangbearer",
+        "weight": 7590
+      },
+      {
+        "uuid": "d46ac082-ef28-52a2-b6c4-e5a2f98a77a5",
+        "name": "Winota, Joiner of Forces",
+        "weight": 1785
+      },
+      {
+        "uuid": "d7ffffaf-6986-566d-801e-bc3ac92d9724",
+        "name": "Danitha Capashen, Paragon",
+        "weight": 7590
+      },
+      {
+        "uuid": "e6a87970-8411-5d8e-bbf8-89fa273c2fd2",
+        "name": "Najeela, the Blade-Blossom",
+        "weight": 896
+      },
+      {
+        "uuid": "e759c297-923e-5028-8899-3d5a5d219ce7",
+        "name": "Farseek",
+        "weight": 7590
+      },
+      {
+        "uuid": "e83c78c9-465c-5494-bc43-6105bc32f0aa",
+        "name": "Vial Smasher the Fierce",
+        "weight": 896
+      },
+      {
+        "uuid": "ebfe03c9-3cd8-52cb-88bc-12302591e4eb",
+        "name": "Light Up the Stage",
+        "weight": 7590
+      },
+      {
+        "uuid": "ef39a93d-1ff4-5869-9854-94ab2287f37f",
+        "name": "Urza, Lord High Artificer",
+        "weight": 896
+      },
+      {
+        "uuid": "f16a74b6-6b38-5f50-bec1-039249ad237b",
+        "name": "Thrasios, Triton Hero",
+        "weight": 896
+      },
+      {
+        "uuid": "f751c966-a89e-54b0-963e-35a5c133797e",
+        "name": "Bolas's Citadel",
+        "weight": 1785
+      },
+      {
+        "uuid": "f8c02d5b-c18a-518e-89ff-5f811be9ef43",
+        "name": "Dark Ritual",
+        "weight": 1785
+      },
+      {
+        "uuid": "fb112513-3252-5b72-903b-9b55703b41dd",
+        "name": "Kinnan, Bonder Prodigy",
+        "weight": 896
+      },
+      {
+        "uuid": "fb539530-01d6-53ed-8fa6-6ab45678f71a",
+        "name": "Syr Konrad, the Grim",
+        "weight": 7590
+      },
+      {
+        "uuid": "fff17f56-3dd8-5ed6-8de5-d0398bd7bb6d",
+        "name": "Mizzix's Mastery",
+        "weight": 1785
+      }
+    ]
+  },
+  "uncommon": {
+    "cards": [
+      {
+        "uuid": "05332bc8-6824-59d2-9df3-1d67020f5d62",
+        "name": "Rufus Shinra",
+        "weight": 13460
+      },
+      {
+        "uuid": "07289d70-2a6a-506f-9b85-039db3551f64",
+        "name": "Relentless X-ATM092",
+        "weight": 13460
+      },
+      {
+        "uuid": "08cc9ab4-5041-59db-894b-e364a594f500",
+        "name": "Crystal Fragments",
+        "weight": 13460
+      },
+      {
+        "uuid": "0c4c27f5-7741-59f9-b517-aed89ee7bc2d",
+        "name": "Phoenix Down",
+        "weight": 13460
+      },
+      {
+        "uuid": "0cc7cc20-8a0c-5080-b789-0cdde6a7e258",
+        "name": "Summon: Shiva",
+        "weight": 13460
+      },
+      {
+        "uuid": "0da8d444-b384-5689-868c-3a1cf52d907e",
+        "name": "Zack Fair",
+        "weight": 13460
+      },
+      {
+        "uuid": "11bc6d25-69d3-58f5-b4db-825b626c1ce1",
+        "name": "Locke Cole",
+        "weight": 13460
+      },
+      {
+        "uuid": "15858d88-b6e2-577b-a03c-5888a6c69d94",
+        "name": "The Emperor of Palamecia",
+        "weight": 13460
+      },
+      {
+        "uuid": "1879cc77-d8d9-597b-8109-3b4cf78955c9",
+        "name": "Valkyrie Aerial Unit",
+        "weight": 13460
+      },
+      {
+        "uuid": "1b61b5c9-6d81-5b76-a76e-95fc0bd3fb08",
+        "name": "Cid, Timeless Artificer",
+        "weight": 8973
+      },
+      {
+        "uuid": "21013e42-d87d-5633-a9e6-c55f2cb28f4c",
+        "name": "Cid, Timeless Artificer",
+        "weight": 8973
+      },
+      {
+        "uuid": "2397e159-a406-515f-a4fc-029b254c3774",
+        "name": "Opera Love Song",
+        "weight": 13460
+      },
+      {
+        "uuid": "24761274-bfff-5907-9e4e-832841f44753",
+        "name": "Rinoa Heartilly",
+        "weight": 13460
+      },
+      {
+        "uuid": "26f46851-383f-5188-949c-9b4fd8c5d05d",
+        "name": "Sidequest: Card Collection",
+        "weight": 13460
+      },
+      {
+        "uuid": "27db49ae-0952-5ef8-9330-52b0ecb8c8c6",
+        "name": "Eden, Seat of the Sanctum",
+        "weight": 13460
+      },
+      {
+        "uuid": "2a5b16d1-88c5-59d5-b1fb-f077ba0d1e60",
+        "name": "Vanille, Cheerful l'Cie",
+        "weight": 13460
+      },
+      {
+        "uuid": "2bef6ef0-ce41-5c08-bbca-fa45471eb5fb",
+        "name": "Cactuar",
+        "weight": 13460
+      },
+      {
+        "uuid": "2c74623e-c14a-59cc-bfab-0a7a9bd5f829",
+        "name": "G'raha Tia",
+        "weight": 13460
+      },
+      {
+        "uuid": "2dfac2a6-15a3-5f36-9adc-eb005e756cf1",
+        "name": "Tonberry",
+        "weight": 13460
+      },
+      {
+        "uuid": "2f7c1401-6c55-50a4-9b35-828d7d4b4622",
+        "name": "Clash of the Eikons",
+        "weight": 13460
+      },
+      {
+        "uuid": "31434b11-4622-5778-9aa1-88ba62124d9b",
+        "name": "Adelbert Steiner",
+        "weight": 13460
+      },
+      {
+        "uuid": "32a16499-e5bd-57ad-a6c2-10d573116419",
+        "name": "Rydia, Summoner of Mist",
+        "weight": 13460
+      },
+      {
+        "uuid": "342b9f7c-f620-5ca3-98be-0f89dfceaee4",
+        "name": "Phantom Train",
+        "weight": 13460
+      },
+      {
+        "uuid": "343f561a-46c6-5559-a206-f7a7f69bfadd",
+        "name": "Cid, Timeless Artificer",
+        "weight": 8973
+      },
+      {
+        "uuid": "35150353-a70d-55cd-8827-392a671b01c7",
+        "name": "Judge Magister Gabranth",
+        "weight": 13460
+      },
+      {
+        "uuid": "37352d29-3bab-5fef-8b0d-8cc80e5d3b2e",
+        "name": "Fang, Fearless l'Cie",
+        "weight": 13460
+      },
+      {
+        "uuid": "37b29e6b-97cc-51fe-bd06-28bb71f11f8e",
+        "name": "Rydia's Return",
+        "weight": 13460
+      },
+      {
+        "uuid": "38378c25-5119-51b7-9493-1c93d00c5baf",
+        "name": "Quina, Qu Gourmet",
+        "weight": 13460
+      },
+      {
+        "uuid": "3cc4c3bc-76b5-5e85-af17-b2de2d0fc183",
+        "name": "Magitek Armor",
+        "weight": 13460
+      },
+      {
+        "uuid": "3d0c20cf-c2e8-546a-a025-6111a0ea5d0e",
+        "name": "Overkill",
+        "weight": 13460
+      },
+      {
+        "uuid": "3d205107-3dad-568c-8c42-0110b5c4045f",
+        "name": "Delivery Moogle",
+        "weight": 13460
+      },
+      {
+        "uuid": "3d757768-5e96-5fb7-9fb4-f367584d90b2",
+        "name": "Zidane, Tantalus Thief",
+        "weight": 13460
+      },
+      {
+        "uuid": "4572ef65-ff31-5762-9ce2-b9d6f8fe0754",
+        "name": "Omega, Heartless Evolution",
+        "weight": 13460
+      },
+      {
+        "uuid": "47fda5b0-165c-5a89-a668-55ca46b04a79",
+        "name": "Diamond Weapon",
+        "weight": 13460
+      },
+      {
+        "uuid": "4a6592e9-b1cb-529e-b4b2-0ab39f4c2913",
+        "name": "Cid, Timeless Artificer",
+        "weight": 8973
+      },
+      {
+        "uuid": "4bfede2a-7a02-55f0-8587-0260300a22e2",
+        "name": "Tidus, Blitzball Star",
+        "weight": 13460
+      },
+      {
+        "uuid": "5000029e-bcaa-559d-a4b1-652cc11494f8",
+        "name": "Shantotto, Tactician Magician",
+        "weight": 13460
+      },
+      {
+        "uuid": "516eed7e-c637-5511-89a6-f6b9ff3db2c2",
+        "name": "Cid, Timeless Artificer",
+        "weight": 8973
+      },
+      {
+        "uuid": "52d0eda3-09f8-5cfc-ac04-40d2615e5942",
+        "name": "Cid, Timeless Artificer",
+        "weight": 8973
+      },
+      {
+        "uuid": "5c025d28-fa80-5c5e-8236-e4c0584f7be0",
+        "name": "Ether",
+        "weight": 13460
+      },
+      {
+        "uuid": "5c7e9b8d-fc7e-532c-bbdc-325754d44bd4",
+        "name": "Ignis Scientia",
+        "weight": 13460
+      },
+      {
+        "uuid": "5f5995d4-06ec-5e8a-af59-f091ae590986",
+        "name": "Poison the Waters",
+        "weight": 13460
+      },
+      {
+        "uuid": "6078fa73-42cd-54d5-82ac-85d95cadfc28",
+        "name": "Summon: Primal Garuda",
+        "weight": 13460
+      },
+      {
+        "uuid": "643290ac-efd3-523b-851b-e55c322cc216",
+        "name": "Sleep Magic",
+        "weight": 13460
+      },
+      {
+        "uuid": "66933df7-6654-5c7d-b00c-2ad42cdc0811",
+        "name": "Sorceress's Schemes",
+        "weight": 13460
+      },
+      {
+        "uuid": "69221228-0ccc-55a8-ba67-67778ecd8975",
+        "name": "Summon: Esper Ramuh",
+        "weight": 13460
+      },
+      {
+        "uuid": "6b2b63c7-c379-5c71-9fba-1c3e044109ff",
+        "name": "Cid, Timeless Artificer",
+        "weight": 8973
+      },
+      {
+        "uuid": "6b52dfb2-ddd3-51da-a22f-047de9b92793",
+        "name": "Sidequest: Raise a Chocobo",
+        "weight": 13460
+      },
+      {
+        "uuid": "6df410a6-9799-5a1a-950c-111e49a8dee7",
+        "name": "Shambling Cie'th",
+        "weight": 13460
+      },
+      {
+        "uuid": "7588a46b-5a01-51f4-bdc7-136197769207",
+        "name": "Sidequest: Catch a Fish",
+        "weight": 13460
+      },
+      {
+        "uuid": "7d822323-4794-5e72-9cc0-812a9b0839c3",
+        "name": "Ultimecia, Time Sorceress",
+        "weight": 13460
+      },
+      {
+        "uuid": "7e42298a-9c19-58ce-b7ac-1afc01c26998",
+        "name": "Unexpected Request",
+        "weight": 13460
+      },
+      {
+        "uuid": "8183768d-2dfd-5af8-ad21-94ec497a2dbb",
+        "name": "Coliseum Behemoth",
+        "weight": 13460
+      },
+      {
+        "uuid": "86c4f507-baf5-594a-bf1c-f5edb45540f7",
+        "name": "Dragoon's Lance",
+        "weight": 13460
+      },
+      {
+        "uuid": "89e2e9ec-89e6-5e8b-877e-7e7b4f8249d7",
+        "name": "Ashe, Princess of Dalmasca",
+        "weight": 13460
+      },
+      {
+        "uuid": "8a20549e-dd0f-5fe8-9ac0-166f9972b17f",
+        "name": "Battle Menu",
+        "weight": 13460
+      },
+      {
+        "uuid": "8d60ae46-5fcd-5aac-b701-95f196bd53f4",
+        "name": "Cid, Timeless Artificer",
+        "weight": 8973
+      },
+      {
+        "uuid": "8f7cb1bc-6d64-508d-85f2-83cda2d05fbe",
+        "name": "Sidequest: Play Blitzball",
+        "weight": 13460
+      },
+      {
+        "uuid": "9046c7d5-c8f5-5d0b-8022-623c3f6e955c",
+        "name": "Demon Wall",
+        "weight": 13460
+      },
+      {
+        "uuid": "90b20d31-0f8a-50f0-a04e-cadaa1c7f55f",
+        "name": "Chocobo Racetrack",
+        "weight": 13460
+      },
+      {
+        "uuid": "9150d65e-c53d-5db7-bded-5f43a449d722",
+        "name": "Cid, Timeless Artificer",
+        "weight": 8973
+      },
+      {
+        "uuid": "931953d1-4b6e-5c9b-a41b-e7cf341475eb",
+        "name": "Cid, Timeless Artificer",
+        "weight": 8973
+      },
+      {
+        "uuid": "95a80572-3e4a-5cf2-aad0-0a132fcaf94c",
+        "name": "Torgal, A Fine Hound",
+        "weight": 13460
+      },
+      {
+        "uuid": "96238e50-9a29-5851-813b-17d46864d46a",
+        "name": "Self-Destruct",
+        "weight": 13460
+      },
+      {
+        "uuid": "978f026e-d15c-59fc-a297-f70308f1dc5c",
+        "name": "Cargo Ship",
+        "weight": 13460
+      },
+      {
+        "uuid": "98ba991e-3c0b-56f4-982d-365559d2b5f4",
+        "name": "Queen Brahne",
+        "weight": 13460
+      },
+      {
+        "uuid": "9e623375-cd1d-5a9a-aa95-eaccda1021f9",
+        "name": "Black Waltz No. 3",
+        "weight": 13460
+      },
+      {
+        "uuid": "9ee89e35-58e4-5535-b337-3622144b7f6a",
+        "name": "Exdeath, Void Warlock",
+        "weight": 13460
+      },
+      {
+        "uuid": "a075e9a5-02f9-5f86-a06f-d9505856372e",
+        "name": "Sandworm",
+        "weight": 13460
+      },
+      {
+        "uuid": "a0db0557-16f4-5187-8fc6-b455cbd90a76",
+        "name": "Capital City",
+        "weight": 13460
+      },
+      {
+        "uuid": "a111b229-8490-55b7-b3f5-4231a24f8ba8",
+        "name": "Ambrosia Whiteheart",
+        "weight": 13460
+      },
+      {
+        "uuid": "a238563f-6d51-5543-ad83-7a5f6cd0f645",
+        "name": "Evil Reawakened",
+        "weight": 13460
+      },
+      {
+        "uuid": "a27c5dca-048a-565d-9008-eb883ee5ead2",
+        "name": "Reach the Horizon",
+        "weight": 13460
+      },
+      {
+        "uuid": "a37708bd-7143-59ea-b188-2878947d50ba",
+        "name": "Garnet, Princess of Alexandria",
+        "weight": 13460
+      },
+      {
+        "uuid": "a50185b2-7515-571f-8d2f-edb1287440f1",
+        "name": "Ultros, Obnoxious Octopus",
+        "weight": 13460
+      },
+      {
+        "uuid": "a69e143d-6bf9-5d2f-a0b3-b58457a7a340",
+        "name": "Il Mheg Pixie",
+        "weight": 13460
+      },
+      {
+        "uuid": "a971ff07-6137-5e27-8175-8b51feac7aa1",
+        "name": "Restoration Magic",
+        "weight": 13460
+      },
+      {
+        "uuid": "a9cf4986-5648-53ea-ba39-6341c65bb122",
+        "name": "Galuf's Final Act",
+        "weight": 13460
+      },
+      {
+        "uuid": "abb26854-ae71-530b-9836-80a05c396fa9",
+        "name": "Barret Wallace",
+        "weight": 13460
+      },
+      {
+        "uuid": "b063519d-6944-5a7c-89ee-a898b48de4eb",
+        "name": "The Gold Saucer",
+        "weight": 13460
+      },
+      {
+        "uuid": "b2191a86-a045-54d7-b48e-8bc938457f35",
+        "name": "Cid, Timeless Artificer",
+        "weight": 8973
+      },
+      {
+        "uuid": "b21e91c0-40e4-50fd-afc9-4b469f0d740a",
+        "name": "Summon: Fenrir",
+        "weight": 13460
+      },
+      {
+        "uuid": "b292b845-1745-506a-b00a-913d29ffd690",
+        "name": "Giott, King of the Dwarves",
+        "weight": 13460
+      },
+      {
+        "uuid": "b7510e99-648b-5481-9df0-ef68bb895767",
+        "name": "Gaius van Baelsar",
+        "weight": 13460
+      },
+      {
+        "uuid": "b8306c3a-fb2d-5cb4-b6d2-8e7775cd6fb7",
+        "name": "The Crystal's Chosen",
+        "weight": 13460
+      },
+      {
+        "uuid": "b99a373e-5f64-5b6b-bd67-dce0c4a583da",
+        "name": "Ring of the Lucii",
+        "weight": 13460
+      },
+      {
+        "uuid": "bb37f821-4cab-5f06-bd36-8dde520c626a",
+        "name": "Sazh's Chocobo",
+        "weight": 13460
+      },
+      {
+        "uuid": "bd0c1b67-1b00-504d-ba21-e95a0ba68b44",
+        "name": "Thief's Knife",
+        "weight": 13460
+      },
+      {
+        "uuid": "c1e05e88-095c-5eb6-ae13-9f447d48f31f",
+        "name": "Cid, Timeless Artificer",
+        "weight": 8973
+      },
+      {
+        "uuid": "c2986d4d-a260-5993-ac6f-fff7217b8dfa",
+        "name": "Tifa's Limit Break",
+        "weight": 13460
+      },
+      {
+        "uuid": "c4a9a37d-b7a2-5869-a8f7-51a22cb183ac",
+        "name": "Coral Sword",
+        "weight": 13460
+      },
+      {
+        "uuid": "c55e4176-acd7-5d1b-9ef9-301a91368b6f",
+        "name": "Prompto Argentum",
+        "weight": 13460
+      },
+      {
+        "uuid": "c6c69e66-254f-58d6-93fc-52eeb564ac3e",
+        "name": "Freya Crescent",
+        "weight": 13460
+      },
+      {
+        "uuid": "c739d942-161d-597f-b3f8-208a82eaa9ab",
+        "name": "PuPu UFO",
+        "weight": 13460
+      },
+      {
+        "uuid": "c7e16db9-c481-5567-9373-1712b7df1e07",
+        "name": "Gladiolus Amicitia",
+        "weight": 13460
+      },
+      {
+        "uuid": "c8341134-643c-51b7-b90b-2923e1e16303",
+        "name": "The Final Days",
+        "weight": 13460
+      },
+      {
+        "uuid": "c893181b-df17-58b8-809c-961361ffaa87",
+        "name": "Garland, Knight of Cornelia",
+        "weight": 13460
+      },
+      {
+        "uuid": "caee07d8-54cc-5ece-8030-7c492d5e680e",
+        "name": "Stolen Uniform",
+        "weight": 13460
+      },
+      {
+        "uuid": "cc6896e6-2e62-5aa1-9c53-c362a0c6cc02",
+        "name": "Dark Knight's Greatsword",
+        "weight": 13460
+      },
+      {
+        "uuid": "ce914b8f-4126-5f97-b093-c01ca2facae5",
+        "name": "Cid, Timeless Artificer",
+        "weight": 8973
+      },
+      {
+        "uuid": "d09dab8d-c45f-51d9-89b4-016275d12a9c",
+        "name": "Relm's Sketching",
+        "weight": 13460
+      },
+      {
+        "uuid": "d21b0ba4-3d15-57dc-b8f8-f119cb79ccea",
+        "name": "Elixir",
+        "weight": 13460
+      },
+      {
+        "uuid": "d2a4c7a8-3768-5069-9002-301294a0dbc6",
+        "name": "Cloud of Darkness",
+        "weight": 13460
+      },
+      {
+        "uuid": "d777f6ea-09d0-5b79-b11c-9cd277e74446",
+        "name": "Reno and Rude",
+        "weight": 13460
+      },
+      {
+        "uuid": "d8bc179a-ade6-552b-a9ce-e819b7090b80",
+        "name": "Auron's Inspiration",
+        "weight": 13460
+      },
+      {
+        "uuid": "da6c6f7d-f2ae-5278-bc10-cfd37a42943d",
+        "name": "Samurai's Katana",
+        "weight": 13460
+      },
+      {
+        "uuid": "daeb69dd-1752-5d73-84f0-af491193f163",
+        "name": "Ride the Shoopuf",
+        "weight": 13460
+      },
+      {
+        "uuid": "dbd48822-e18f-5cd3-a846-89864d11baed",
+        "name": "Snow Villiers",
+        "weight": 13460
+      },
+      {
+        "uuid": "e15bb913-ad72-56c4-a15b-e00612f9b617",
+        "name": "Quistis Trepe",
+        "weight": 13460
+      },
+      {
+        "uuid": "e26efeda-8ce3-5803-ac93-1ebc55dc24d6",
+        "name": "Cid, Timeless Artificer",
+        "weight": 8973
+      },
+      {
+        "uuid": "e6407a43-3948-5c9f-a39c-d187c72d6a3a",
+        "name": "Circle of Power",
+        "weight": 13460
+      },
+      {
+        "uuid": "ea348b24-09f5-5b2c-b7a8-715633472f1e",
+        "name": "Eject",
+        "weight": 13460
+      },
+      {
+        "uuid": "ebe6d2dc-f8aa-52ac-9562-d4b1b96966ca",
+        "name": "Summon: Anima",
+        "weight": 13460
+      },
+      {
+        "uuid": "edbb5409-cce7-5a14-99cd-0ce3ee277583",
+        "name": "The Prima Vista",
+        "weight": 13460
+      },
+      {
+        "uuid": "f13c2df2-615b-59e1-a3de-3f9f736e34b0",
+        "name": "Swallowed by Leviathan",
+        "weight": 13460
+      },
+      {
+        "uuid": "f6f714c5-484c-5ccd-afdb-b3a80fc8bcc5",
+        "name": "Travel the Overworld",
+        "weight": 13460
+      },
+      {
+        "uuid": "f790e0aa-541f-5bb1-a48b-d23d181e02e6",
+        "name": "Sidequest: Hunt the Mark",
+        "weight": 13460
+      },
+      {
+        "uuid": "fa88fdc4-abd2-5f68-aa10-192aa2f446d4",
+        "name": "Al Bhed Salvagers",
+        "weight": 13460
+      },
+      {
+        "uuid": "faa5ddb1-f0c4-5ee4-8dd8-6c5338296993",
+        "name": "Cid, Timeless Artificer",
+        "weight": 8973
+      },
+      {
+        "uuid": "fafde436-84cc-5117-b7fc-764e4cfbfcb3",
+        "name": "Choco-Comet",
+        "weight": 13460
+      },
+      {
+        "uuid": "fb4f7a0c-2da2-5276-9b15-9528a5ec6011",
+        "name": "Random Encounter",
+        "weight": 13460
+      },
+      {
+        "uuid": "fceb7acd-d47d-56da-8906-d25dc17f3835",
+        "name": "Fire Magic",
+        "weight": 13460
+      },
+      {
+        "uuid": "ff833866-810e-5d4c-a909-36230958f34a",
+        "name": "Lion Heart",
+        "weight": 13460
+      }
+    ]
+  },
+  "wildcard": {
+    "cards": [
+      {
+        "uuid": "01970d6b-0268-5da2-ab72-a3fa40b47294",
+        "name": "Mysidian Elder",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "0359dc42-a613-5d96-a7fb-4dffaf4a6edb",
+        "name": "Town Greeter",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "05332bc8-6824-59d2-9df3-1d67020f5d62",
+        "name": "Rufus Shinra",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "053389fd-4c8e-53ae-adbb-38071b3a9789",
+        "name": "Adventurer's Airship",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "055890d1-1ca8-5d81-ae86-8497f366f45b",
+        "name": "The Masamune",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "07289d70-2a6a-506f-9b85-039db3551f64",
+        "name": "Relentless X-ATM092",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "07471996-5e7b-5553-ae69-68331b8175f5",
+        "name": "Stiltzkin, Moogle Merchant",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "078b9db3-9bd9-5894-b2d3-fe45a5b8fba2",
+        "name": "Cornered by Black Mages",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "08cc9ab4-5041-59db-894b-e364a594f500",
+        "name": "Crystal Fragments",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "0c4c27f5-7741-59f9-b517-aed89ee7bc2d",
+        "name": "Phoenix Down",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "0c5d7efd-38dd-52dc-abdc-8d653cfe8d29",
+        "name": "Esper Origins",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "0cc7cc20-8a0c-5080-b789-0cdde6a7e258",
+        "name": "Summon: Shiva",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "0cfeb956-4230-5700-a6dc-73401dbb962b",
+        "name": "Gogo, Master of Mimicry",
+        "weight": 9028835127
+      },
+      {
+        "uuid": "0d0d03df-7a3b-58f9-a63c-98223460fc82",
+        "name": "Dragoon's Wyvern",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "0da8d444-b384-5689-868c-3a1cf52d907e",
+        "name": "Zack Fair",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "11133344-8491-546e-9c3e-c502e3a8462a",
+        "name": "Shinra Reinforcements",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "1183391a-d315-5f9d-b1c6-9a23d2b25587",
+        "name": "Traveling Chocobo",
+        "weight": 9028835127
+      },
+      {
+        "uuid": "11840fd7-3114-54e4-8503-1312cfbaf826",
+        "name": "Gysahl Greens",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "11bc6d25-69d3-58f5-b4db-825b626c1ce1",
+        "name": "Locke Cole",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "1254a148-48ca-5e19-bb4f-54e7b1cba5f1",
+        "name": "Cloud, Midgar Mercenary",
+        "weight": 9028835127
+      },
+      {
+        "uuid": "15858d88-b6e2-577b-a03c-5888a6c69d94",
+        "name": "The Emperor of Palamecia",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "15e2c75e-749a-57a3-86e4-125dc837c9c2",
+        "name": "Jidoor, Aristocratic Capital",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "17f85365-942c-5a74-ad09-66976d1fea4e",
+        "name": "Summon: Brynhildr",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "17f90297-33e5-5638-ac38-92e85b25b39b",
+        "name": "Noctis, Prince of Lucis",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "1879cc77-d8d9-597b-8109-3b4cf78955c9",
+        "name": "Valkyrie Aerial Unit",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "1aa841b8-eea5-5a3d-aad1-6f918be69e33",
+        "name": "Excalibur II",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "1b61b5c9-6d81-5b76-a76e-95fc0bd3fb08",
+        "name": "Cid, Timeless Artificer",
+        "weight": 33996902400
+      },
+      {
+        "uuid": "1eadf625-88a3-57a2-bbcb-38960050bd15",
+        "name": "Edgar, King of Figaro",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "1f31f675-27ff-507a-93e9-f8eac7196f5a",
+        "name": "Starting Town",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "1f6c3a08-3417-53d5-8a64-7f6e2197852f",
+        "name": "Hope Estheim",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "1f9e7c69-b664-512c-aae8-6440ac181a86",
+        "name": "Y'shtola Rhul",
+        "weight": 9028835127
+      },
+      {
+        "uuid": "20302775-5991-5785-b470-5761ca37cae0",
+        "name": "Adventurer's Inn",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "21013e42-d87d-5633-a9e6-c55f2cb28f4c",
+        "name": "Cid, Timeless Artificer",
+        "weight": 33996902400
+      },
+      {
+        "uuid": "213f2ebb-965d-5c79-bb24-20edc242fb7d",
+        "name": "Summon: Bahamut",
+        "weight": 9028835127
+      },
+      {
+        "uuid": "234749c9-6a84-5945-a105-497684435421",
+        "name": "Astrologian's Planisphere",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "2397e159-a406-515f-a4fc-029b254c3774",
+        "name": "Opera Love Song",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "24761274-bfff-5907-9e4e-832841f44753",
+        "name": "Rinoa Heartilly",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "254c6da9-b86f-5aef-91ae-01832c776697",
+        "name": "Dreams of Laguna",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "26f46851-383f-5188-949c-9b4fd8c5d05d",
+        "name": "Sidequest: Card Collection",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "27db49ae-0952-5ef8-9330-52b0ecb8c8c6",
+        "name": "Eden, Seat of the Sanctum",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "27f64fe6-ce19-558f-be0f-40aa0d47d4c4",
+        "name": "Ice Flan",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "28d844ce-bfa8-561d-8147-7eefa41b494f",
+        "name": "World Map",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "290e4bcc-2dd4-5724-8cf0-927cb3b5822d",
+        "name": "Yuna, Hope of Spira",
+        "weight": 9028835127
+      },
+      {
+        "uuid": "2a346a2e-9187-50bf-a7d2-e1eeb17d785e",
+        "name": "The Earth Crystal",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "2a5b16d1-88c5-59d5-b1fb-f077ba0d1e60",
+        "name": "Vanille, Cheerful l'Cie",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "2b32dd1f-3a1d-54f4-81f3-cd2898af3aa2",
+        "name": "Crossroads Village",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "2b71653a-860b-55c1-b96d-e64c8cddd68b",
+        "name": "White Auracite",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "2bef6ef0-ce41-5c08-bbca-fa45471eb5fb",
+        "name": "Cactuar",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "2c74623e-c14a-59cc-bfab-0a7a9bd5f829",
+        "name": "G'raha Tia",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "2dfac2a6-15a3-5f36-9adc-eb005e756cf1",
+        "name": "Tonberry",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "2f6ac776-11d0-5927-bc12-5339edc0daab",
+        "name": "Gilgamesh, Master-at-Arms",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "2f7c1401-6c55-50a4-9b35-828d7d4b4622",
+        "name": "Clash of the Eikons",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "31434b11-4622-5778-9aa1-88ba62124d9b",
+        "name": "Adelbert Steiner",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "314c8b9b-faad-5bcd-bf20-a357382d70e2",
+        "name": "Laughing Mad",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "31e2bf20-7b45-5a02-a8c9-fc82d457761f",
+        "name": "Jecht, Reluctant Guardian",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "320f1df3-3aca-554a-8069-dc960a8db61a",
+        "name": "The Lunar Whale",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "329c1b67-311c-59c3-be91-7a8202e3895c",
+        "name": "Paladin's Arms",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "32a16499-e5bd-57ad-a6c2-10d573116419",
+        "name": "Rydia, Summoner of Mist",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "342b9f7c-f620-5ca3-98be-0f89dfceaee4",
+        "name": "Phantom Train",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "343f561a-46c6-5559-a206-f7a7f69bfadd",
+        "name": "Cid, Timeless Artificer",
+        "weight": 33996902400
+      },
+      {
+        "uuid": "35150353-a70d-55cd-8827-392a671b01c7",
+        "name": "Judge Magister Gabranth",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "36233d7b-1231-561d-9b16-0d2692e9e617",
+        "name": "Warrior's Sword",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "363fb0c7-3b7e-5068-b121-deb5fb62befa",
+        "name": "Thunder Magic",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "37352d29-3bab-5fef-8b0d-8cc80e5d3b2e",
+        "name": "Fang, Fearless l'Cie",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "37b29e6b-97cc-51fe-bd06-28bb71f11f8e",
+        "name": "Rydia's Return",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "38378c25-5119-51b7-9493-1c93d00c5baf",
+        "name": "Quina, Qu Gourmet",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "38ed79f2-66bd-579b-aca2-26f315c69f2e",
+        "name": "Lightning, Army of One",
+        "weight": 9028835127
+      },
+      {
+        "uuid": "39770d42-2526-5a12-bc42-851a9f242dcd",
+        "name": "The Water Crystal",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "39cebd6c-194f-577c-8825-016202a1f769",
+        "name": "You're Not Alone",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "3aebac64-ef2d-5a2a-807f-a56a2dc58a78",
+        "name": "Lunatic Pandora",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "3b518e6e-ff18-5fc0-9048-298c0416a5bf",
+        "name": "Commune with Beavers",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "3bdaf96d-80f2-5ce6-8d37-ebd3aa34327d",
+        "name": "Venat, Heart of Hydaelyn",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "3cc4c3bc-76b5-5e85-af17-b2de2d0fc183",
+        "name": "Magitek Armor",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "3d0c20cf-c2e8-546a-a025-6111a0ea5d0e",
+        "name": "Overkill",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "3d205107-3dad-568c-8c42-0110b5c4045f",
+        "name": "Delivery Moogle",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "3d3f6ff1-01c3-52ff-9d73-fa1bcea9b7a8",
+        "name": "Balamb Garden, SeeD Academy",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "3d757768-5e96-5fb7-9fb4-f367584d90b2",
+        "name": "Zidane, Tantalus Thief",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "425af320-89c9-5905-a16c-ab8dfc2c53d8",
+        "name": "Zanarkand, Ancient Metropolis",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "43784939-6b37-5021-adc0-0b5e4d5fa1e8",
+        "name": "Blitzball",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "43af3c03-81f0-5448-a53b-c8795210c8e0",
+        "name": "Aettir and Priwen",
+        "weight": 9028835127
+      },
+      {
+        "uuid": "440ebfb7-e1d2-556a-98f1-b1f5a6bb17e3",
+        "name": "Gran Pulse Ochu",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "444d9cad-2b07-5180-b4bd-28f2b03595de",
+        "name": "Triple Triad",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "4572ef65-ff31-5762-9ce2-b9d6f8fe0754",
+        "name": "Omega, Heartless Evolution",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "4697e311-26a4-5cb1-931b-df81cfe83eb0",
+        "name": "Qutrub Forayer",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "47fda5b0-165c-5a89-a668-55ca46b04a79",
+        "name": "Diamond Weapon",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "481d10bf-1a5e-5b1f-a6ac-0e98f86e80a0",
+        "name": "Magitek Infantry",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "4a6592e9-b1cb-529e-b4b2-0ab39f4c2913",
+        "name": "Cid, Timeless Artificer",
+        "weight": 33996902400
+      },
+      {
+        "uuid": "4bfede2a-7a02-55f0-8587-0260300a22e2",
+        "name": "Tidus, Blitzball Star",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "4e0a4790-6396-59a4-9b1f-33a0224a9a37",
+        "name": "Namazu Trader",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "4eeb5793-8653-5767-8116-766a7d5615ff",
+        "name": "Haste Magic",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "4ef5706d-1ffd-58dd-9978-b483f5bbb5bb",
+        "name": "Qiqirn Merchant",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "4f229f13-824d-5140-8442-99078c40d6ab",
+        "name": "Clive, Ifrit's Dominant",
+        "weight": 9028835127
+      },
+      {
+        "uuid": "5000029e-bcaa-559d-a4b1-652cc11494f8",
+        "name": "Shantotto, Tactician Magician",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "516eed7e-c637-5511-89a6-f6b9ff3db2c2",
+        "name": "Cid, Timeless Artificer",
+        "weight": 33996902400
+      },
+      {
+        "uuid": "52d0eda3-09f8-5cfc-ac04-40d2615e5942",
+        "name": "Cid, Timeless Artificer",
+        "weight": 33996902400
+      },
+      {
+        "uuid": "5326e283-5f67-55fc-b3c6-0e26ebf323c8",
+        "name": "Ishgard, the Holy See",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "550e01bc-81be-5bcb-af22-89d9dacb7cf4",
+        "name": "Zell Dincht",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "5beb3e7b-3708-5dee-938f-199f8889d315",
+        "name": "Bard's Bow",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "5c025d28-fa80-5c5e-8236-e4c0584f7be0",
+        "name": "Ether",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "5c7e9b8d-fc7e-532c-bbdc-325754d44bd4",
+        "name": "Ignis Scientia",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "5cb1b863-60e3-517b-83d4-903ee7defaec",
+        "name": "Nibelheim Aflame",
+        "weight": 9028835127
+      },
+      {
+        "uuid": "5ed38f0b-0094-5c7a-808d-c13eadb24d73",
+        "name": "Matoya, Archon Elder",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "5f5995d4-06ec-5e8a-af59-f091ae590986",
+        "name": "Poison the Waters",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "5f919ab3-24dd-513d-8d96-49ae9b28377a",
+        "name": "Airship Crash",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "606b766d-1e3e-5d13-aebc-d627eae4ad84",
+        "name": "Summon: G.F. Ifrit",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "6078fa73-42cd-54d5-82ac-85d95cadfc28",
+        "name": "Summon: Primal Garuda",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "61681032-9fa7-5b50-bdfc-3c9a82619cfc",
+        "name": "Summon: G.F. Cerberus",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "635dcc41-7fa1-5a53-b048-c6b4b24980d0",
+        "name": "Dwarven Castle Guard",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "6374fb9c-3f47-51b3-b397-c657c7b2cbb5",
+        "name": "From Father to Son",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "6388bc12-81b9-5c0b-9b9d-ffeaaf454488",
+        "name": "Ardyn, the Usurper",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "643290ac-efd3-523b-851b-e55c322cc216",
+        "name": "Sleep Magic",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "64a9f974-dbe2-5592-b863-733532031d40",
+        "name": "Loporrit Scout",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "65d27257-800d-5591-9bb6-77ba0a456f15",
+        "name": "Instant Ramen",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "66933df7-6654-5c7d-b00c-2ad42cdc0811",
+        "name": "Sorceress's Schemes",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "66fd7642-92a2-53b0-afa0-451d5ddf11c4",
+        "name": "Malboro",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "69221228-0ccc-55a8-ba67-67778ecd8975",
+        "name": "Summon: Esper Ramuh",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "6934be2a-e00b-5874-b963-891373540bd8",
+        "name": "Absolute Virtue",
+        "weight": 9028835127
+      },
+      {
+        "uuid": "6a31f746-38f8-5a97-aff5-285d0ed8df9b",
+        "name": "Lindblum, Industrial Regency",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "6b1730c6-32ef-5ad0-b9ac-2dd9e196be25",
+        "name": "Suplex",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "6b2b63c7-c379-5c71-9fba-1c3e044109ff",
+        "name": "Cid, Timeless Artificer",
+        "weight": 33996902400
+      },
+      {
+        "uuid": "6b52dfb2-ddd3-51da-a22f-047de9b92793",
+        "name": "Sidequest: Raise a Chocobo",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "6d097b21-e531-5393-9c95-0125a32ae3d9",
+        "name": "Hecteyes",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "6df410a6-9799-5a1a-950c-111e49a8dee7",
+        "name": "Shambling Cie'th",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "6f782192-f041-590a-8fb7-d5e06b503617",
+        "name": "Summon: Primal Odin",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "706c9748-36d6-572e-bc90-f70da9e93dab",
+        "name": "White Mage's Staff",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "734ca265-85ba-571c-9365-501bdd47a2dc",
+        "name": "Resentful Revelation",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "74f94d35-0d41-5855-a90b-6fa4a6cf9754",
+        "name": "Light of Judgment",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "7588a46b-5a01-51f4-bdc7-136197769207",
+        "name": "Sidequest: Catch a Fish",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "7668c47f-d9e0-5ba2-aa21-8ee0f415694c",
+        "name": "Summon: Leviathan",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "7701c9bf-d44b-5220-9c40-c3b33ec1359e",
+        "name": "Balthier and Fran",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "790c4025-140a-5b15-8d04-e4105798a77d",
+        "name": "Gigantoad",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "7977fd06-dc85-5521-bf53-4084e0d52e6d",
+        "name": "Call the Mountain Chocobo",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "7a88c641-779e-56a3-bb91-bfca8f899e9d",
+        "name": "Sephiroth's Intervention",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "7d822323-4794-5e72-9cc0-812a9b0839c3",
+        "name": "Ultimecia, Time Sorceress",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "7df789e5-8790-59a9-895d-4285867de306",
+        "name": "Dion, Bahamut's Dominant",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "7e42298a-9c19-58ce-b7ac-1afc01c26998",
+        "name": "Unexpected Request",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "80883b83-7ba0-59ef-973a-f7278f2ef1ac",
+        "name": "Hill Gigas",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "8183768d-2dfd-5af8-ad21-94ec497a2dbb",
+        "name": "Coliseum Behemoth",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "826443ee-3512-5d42-a8b1-31ac823e3e5e",
+        "name": "Clive's Hideaway",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "835f5e3a-3d72-5e3b-b986-7dad1447554b",
+        "name": "Machinist's Arsenal",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "85380bd5-178b-5117-a13b-0a33abe36784",
+        "name": "Magic Pot",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "86c4f507-baf5-594a-bf1c-f5edb45540f7",
+        "name": "Dragoon's Lance",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "88353094-cc1d-5bd8-b698-a168bdc42eec",
+        "name": "Firion, Wild Rose Warrior",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "88c2b6cd-b62a-5493-ab2d-17f716113210",
+        "name": "Zenos yae Galvus",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "89e2e9ec-89e6-5e8b-877e-7e7b4f8249d7",
+        "name": "Ashe, Princess of Dalmasca",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "8a20549e-dd0f-5fe8-9ac0-166f9972b17f",
+        "name": "Battle Menu",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "8d60ae46-5fcd-5aac-b701-95f196bd53f4",
+        "name": "Cid, Timeless Artificer",
+        "weight": 33996902400
+      },
+      {
+        "uuid": "8f320631-9d6f-5cc7-9d34-f39e7160c06e",
+        "name": "Slash of Light",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "8f7cb1bc-6d64-508d-85f2-83cda2d05fbe",
+        "name": "Sidequest: Play Blitzball",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "8fcbdff7-e203-5af2-8a4d-2a6a34bedd71",
+        "name": "Tifa Lockhart",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "9046c1c4-8b16-539c-ba23-35023afd14d2",
+        "name": "Vayne's Treachery",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "9046c7d5-c8f5-5d0b-8022-623c3f6e955c",
+        "name": "Demon Wall",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "905dfc3d-eb0c-5ce7-867e-dba6a6b34285",
+        "name": "Magic Damper",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "90b20d31-0f8a-50f0-a04e-cadaa1c7f55f",
+        "name": "Chocobo Racetrack",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "9117ee67-f17e-565d-9874-f52267bbdfc3",
+        "name": "Choco, Seeker of Paradise",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "9150d65e-c53d-5db7-bded-5f43a449d722",
+        "name": "Cid, Timeless Artificer",
+        "weight": 33996902400
+      },
+      {
+        "uuid": "931953d1-4b6e-5c9b-a41b-e7cf341475eb",
+        "name": "Cid, Timeless Artificer",
+        "weight": 33996902400
+      },
+      {
+        "uuid": "940c4310-854f-51b3-80d5-16f56431fe98",
+        "name": "Vivi Ornitier",
+        "weight": 9028835127
+      },
+      {
+        "uuid": "954f0986-c429-5fb4-a590-cc593e1623d4",
+        "name": "Tellah, Great Sage",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "955cce31-52f1-5f8e-9364-de6014de5f60",
+        "name": "Buster Sword",
+        "weight": 9028835127
+      },
+      {
+        "uuid": "959a2d46-35bf-5951-9252-dc2716968c0f",
+        "name": "Ultima",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "95a80572-3e4a-5cf2-aad0-0a132fcaf94c",
+        "name": "Torgal, A Fine Hound",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "96238e50-9a29-5851-813b-17d46864d46a",
+        "name": "Self-Destruct",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "978f026e-d15c-59fc-a297-f70308f1dc5c",
+        "name": "Cargo Ship",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "98404933-f349-5056-9c10-a4a4b560f8cc",
+        "name": "Bartz and Boko",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "98ba991e-3c0b-56f4-982d-365559d2b5f4",
+        "name": "Queen Brahne",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "9aabe252-cb24-52ba-8423-bb778e416d2a",
+        "name": "Raubahn, Bull of Ala Mhigo",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "9bfbeba4-b68f-5a0d-8d30-34abbc2ac933",
+        "name": "Gaelicat",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "9e5f989f-4907-5065-b5ba-dcb3044eecc1",
+        "name": "Iron Giant",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "9e623375-cd1d-5a9a-aa95-eaccda1021f9",
+        "name": "Black Waltz No. 3",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "9ee89e35-58e4-5535-b337-3622144b7f6a",
+        "name": "Exdeath, Void Warlock",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "a075e9a5-02f9-5f86-a06f-d9505856372e",
+        "name": "Sandworm",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "a0db0557-16f4-5187-8fc6-b455cbd90a76",
+        "name": "Capital City",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "a111b229-8490-55b7-b3f5-4231a24f8ba8",
+        "name": "Ambrosia Whiteheart",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "a16b2906-34c8-5e40-8426-aae50785f0f5",
+        "name": "Jenova, Ancient Calamity",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "a238563f-6d51-5543-ad83-7a5f6cd0f645",
+        "name": "Evil Reawakened",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "a27c5dca-048a-565d-9008-eb883ee5ead2",
+        "name": "Reach the Horizon",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "a37708bd-7143-59ea-b188-2878947d50ba",
+        "name": "Garnet, Princess of Alexandria",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "a43f24fe-3dc8-5ba5-b73f-eba82fc456f7",
+        "name": "Blazing Bomb",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "a50185b2-7515-571f-8d2f-edb1287440f1",
+        "name": "Ultros, Obnoxious Octopus",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "a5dabb61-bf75-5286-a1f9-c2002c21747c",
+        "name": "Vaan, Street Thief",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "a5ff0bb9-3021-5a1b-bde7-c0c3c3440a01",
+        "name": "Combat Tutorial",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "a6082d5f-e6c2-5446-8dca-25fe3e7730b1",
+        "name": "Sazh Katzroy",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "a62de1de-0dec-5a12-bea0-f75ab5ba9d2c",
+        "name": "Sin, Spira's Punishment",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "a69e143d-6bf9-5d2f-a0b3-b58457a7a340",
+        "name": "Il Mheg Pixie",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "a6d9e1ab-dd3c-558e-b74c-97a8887bef4e",
+        "name": "Serah Farron",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "a7235ef3-6ddb-5bdf-948e-2ef04137e333",
+        "name": "The Regalia",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "a78d69c5-9076-5499-aac6-1173b54410d9",
+        "name": "Minwu, White Mage",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "a7ae809f-8405-5a3d-ae37-5d73977bca78",
+        "name": "Balamb T-Rexaur",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "a971ff07-6137-5e27-8175-8b51feac7aa1",
+        "name": "Restoration Magic",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "a9c699f6-34e3-5d82-89ce-5435b0fb2236",
+        "name": "Jumbo Cactuar",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "a9cf4986-5648-53ea-ba39-6341c65bb122",
+        "name": "Galuf's Final Act",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "a9e3f597-628b-5955-b6ff-88726e12990d",
+        "name": "Jill, Shiva's Dominant",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "ab6fc7f4-f4f4-56b9-8846-82a7d85b24a1",
+        "name": "Ancient Adamantoise",
+        "weight": 9028835127
+      },
+      {
+        "uuid": "abb26854-ae71-530b-9836-80a05c396fa9",
+        "name": "Barret Wallace",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "abfbf3fb-2496-58ec-a272-fada2180d8e3",
+        "name": "Cloudbound Moogle",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "ad625317-23c1-50c4-8141-49bd8d5e31cc",
+        "name": "Summoner's Grimoire",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "adca0acc-5685-5eb0-a111-9fead6f56f9b",
+        "name": "Kuja, Genome Sorcerer",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "aed2a0f7-7018-5967-9ff7-438f4b9ece0d",
+        "name": "Ahriman",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "b063519d-6944-5a7c-89ee-a898b48de4eb",
+        "name": "The Gold Saucer",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "b2191a86-a045-54d7-b48e-8bc938457f35",
+        "name": "Cid, Timeless Artificer",
+        "weight": 33996902400
+      },
+      {
+        "uuid": "b21e91c0-40e4-50fd-afc9-4b469f0d740a",
+        "name": "Summon: Fenrir",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "b2792ec0-5059-5a7e-834b-8796e82060ae",
+        "name": "Fight On!",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "b292b845-1745-506a-b00a-913d29ffd690",
+        "name": "Giott, King of the Dwarves",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "b4baf463-2edb-508e-b1a8-9de930d8049f",
+        "name": "Sephiroth, Fabled SOLDIER",
+        "weight": 9028835127
+      },
+      {
+        "uuid": "b4d1c960-f52b-5bf1-a740-65e8722aa543",
+        "name": "Chocobo Kick",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "b6866064-4fec-5d63-a6de-c083ea7ad481",
+        "name": "Rook Turret",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "b6c7d457-2108-570a-a9a9-7a96e2a0f582",
+        "name": "Undercity Dire Rat",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "b7510e99-648b-5481-9df0-ef68bb895767",
+        "name": "Gaius van Baelsar",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "b8306c3a-fb2d-5cb4-b6d2-8e7775cd6fb7",
+        "name": "The Crystal's Chosen",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "b99642a9-5779-504c-9ff5-879da1fa3bb6",
+        "name": "Item Shopkeep",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "b99a373e-5f64-5b6b-bd67-dce0c4a583da",
+        "name": "Ring of the Lucii",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "bb06f85d-810d-5df9-90cd-c0f2971e3cf9",
+        "name": "Genji Glove",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "bb2ddf9b-8a36-5d66-8bf9-b02ee3222c24",
+        "name": "Summon: Knights of Round",
+        "weight": 9028835127
+      },
+      {
+        "uuid": "bb37f821-4cab-5f06-bd36-8dde520c626a",
+        "name": "Sazh's Chocobo",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "bd0c1b67-1b00-504d-ba21-e95a0ba68b44",
+        "name": "Thief's Knife",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "bdd341d4-b703-53e2-8237-5f35d11a0e8f",
+        "name": "Louisoix's Sacrifice",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "c025e71a-b1c0-573a-92df-dcf565808fef",
+        "name": "Cecil, Dark Knight",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "c1e05e88-095c-5eb6-ae13-9f447d48f31f",
+        "name": "Cid, Timeless Artificer",
+        "weight": 33996902400
+      },
+      {
+        "uuid": "c1ff22a7-a6e1-5a8f-872c-e292e1992bf0",
+        "name": "Summon: Fat Chocobo",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "c2986d4d-a260-5993-ac6f-fff7217b8dfa",
+        "name": "Tifa's Limit Break",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "c2b9d77f-8081-59a8-bc12-18f0bc2cf5be",
+        "name": "A Realm Reborn",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "c4a9a37d-b7a2-5869-a8f7-51a22cb183ac",
+        "name": "Coral Sword",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "c55e4176-acd7-5d1b-9ef9-301a91368b6f",
+        "name": "Prompto Argentum",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "c6c69e66-254f-58d6-93fc-52eeb564ac3e",
+        "name": "Freya Crescent",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "c739d942-161d-597f-b3f8-208a82eaa9ab",
+        "name": "PuPu UFO",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "c7c5f7d3-6431-5eb4-922a-61844ce9deaa",
+        "name": "Aerith Rescue Mission",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "c7e16db9-c481-5567-9373-1712b7df1e07",
+        "name": "Gladiolus Amicitia",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "c8341134-643c-51b7-b90b-2923e1e16303",
+        "name": "The Final Days",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "c8533370-7274-5c28-9c07-b04ab35e963b",
+        "name": "Stuck in Summoner's Sanctum",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "c893181b-df17-58b8-809c-961361ffaa87",
+        "name": "Garland, Knight of Cornelia",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "ca51d060-008b-54e2-8545-29e409cb4462",
+        "name": "Seifer Almasy",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "caee07d8-54cc-5ece-8030-7c492d5e680e",
+        "name": "Stolen Uniform",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "cb1d950c-7830-5f9c-bb87-04c2d740f02f",
+        "name": "Sage's Nouliths",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "cb2932b6-efc9-5ada-99d1-d4ce50993626",
+        "name": "Scorpion Sentinel",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "cc6896e6-2e62-5aa1-9c53-c362a0c6cc02",
+        "name": "Dark Knight's Greatsword",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "ce516ea1-5c11-5698-8fa0-ef2e7e45a780",
+        "name": "Ninja's Blades",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "ce914b8f-4126-5f97-b093-c01ca2facae5",
+        "name": "Cid, Timeless Artificer",
+        "weight": 33996902400
+      },
+      {
+        "uuid": "cf2a028a-0bf9-5d6f-9680-fc0cbea9272e",
+        "name": "Ultima, Origin of Oblivion",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "d09dab8d-c45f-51d9-89b4-016275d12a9c",
+        "name": "Relm's Sketching",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "d0d8f70f-f2c3-50d3-b96f-30c08b6c5c0c",
+        "name": "Prishe's Wanderings",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "d21b0ba4-3d15-57dc-b8f8-f119cb79ccea",
+        "name": "Elixir",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "d2a4c7a8-3768-5069-9002-301294a0dbc6",
+        "name": "Cloud of Darkness",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "d2f916ee-8592-5273-8696-76c9a5bfccd2",
+        "name": "Black Mage's Rod",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "d3f36250-1335-51b0-8030-34757bea76a8",
+        "name": "Fate of the Sun-Cryst",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "d4770d8b-f5de-50d2-8062-a877bdaccc1f",
+        "name": "The Wandering Minstrel",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "d71847b8-5d9d-57aa-9fe8-08f81680a8b6",
+        "name": "Blitzball Shot",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "d777f6ea-09d0-5b79-b11c-9cd277e74446",
+        "name": "Reno and Rude",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "d7929718-8a74-5fba-85bc-093f49ad6770",
+        "name": "Midgar, City of Mako",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "d7aa9e85-1b1f-5633-b091-54f7d722615b",
+        "name": "The Fire Crystal",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "d815aeeb-e320-55d9-8b47-0c7563bbd0f5",
+        "name": "Summon: Choco/Mog",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "d8bc179a-ade6-552b-a9ce-e819b7090b80",
+        "name": "Auron's Inspiration",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "da6c6f7d-f2ae-5278-bc10-cfd37a42943d",
+        "name": "Samurai's Katana",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "daeb69dd-1752-5d73-84f0-af491193f163",
+        "name": "Ride the Shoopuf",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "dbd48822-e18f-5cd3-a846-89864d11baed",
+        "name": "Snow Villiers",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "dcf6cff4-b425-5ba5-9eeb-a5603e9464a2",
+        "name": "Summon: Titan",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "de84bef6-e786-5839-a0c3-a25691f5b6c4",
+        "name": "Vincent's Limit Break",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "dfa4b9ce-eff1-5ec2-8db6-f746fd604228",
+        "name": "Ice Magic",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "e144f07b-bce2-51ee-935a-ec7e58dfe927",
+        "name": "The Wind Crystal",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "e15bb913-ad72-56c4-a15b-e00612f9b617",
+        "name": "Quistis Trepe",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "e18dd6a3-5204-5114-b04e-f608a4e5fa9a",
+        "name": "Emet-Selch, Unsundered",
+        "weight": 9028835127
+      },
+      {
+        "uuid": "e25c00ce-dd8a-5401-9bd1-fa1c4ca810f9",
+        "name": "Monk's Fist",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "e26efeda-8ce3-5803-ac93-1ebc55dc24d6",
+        "name": "Cid, Timeless Artificer",
+        "weight": 33996902400
+      },
+      {
+        "uuid": "e3cd871e-f82a-5797-b512-5acd3695ed64",
+        "name": "Coeurl",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "e3eafb3b-f34a-574e-bb10-9a4f0cd41311",
+        "name": "Red Mage's Rapier",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "e445a554-6fc2-547c-9511-2bda007a81fe",
+        "name": "Terra, Magical Adept",
+        "weight": 9028835127
+      },
+      {
+        "uuid": "e57c81c2-7385-534a-ad17-ee93260e926e",
+        "name": "Memories Returning",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "e6407a43-3948-5c9f-a39c-d187c72d6a3a",
+        "name": "Circle of Power",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "e6b54206-08fa-5700-a528-3cbc39c988f1",
+        "name": "Joshua, Phoenix's Dominant",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "e71fd26a-4c31-5bec-aa8f-76c5ccf01c08",
+        "name": "Vincent Valentine",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "e85d7f5a-028b-5ca0-b1a7-5bb36e0e622e",
+        "name": "The Darkness Crystal",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "e8982ebc-6c66-5224-837e-c0ccabb75b53",
+        "name": "Kefka, Court Mage",
+        "weight": 9028835127
+      },
+      {
+        "uuid": "e9474299-0112-5e93-a632-eaec8e9cf05c",
+        "name": "Goobbue Gardener",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "ea348b24-09f5-5b2c-b7a8-715633472f1e",
+        "name": "Eject",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "ebe6d2dc-f8aa-52ac-9562-d4b1b96966ca",
+        "name": "Summon: Anima",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "ed1642fd-a3c0-5aa7-9946-2768ed6f86ee",
+        "name": "Zodiark, Umbral God",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "edbb5409-cce7-5a14-99cd-0ce3ee277583",
+        "name": "The Prima Vista",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "ef7ac1f2-76d2-599a-85b0-db3a22845073",
+        "name": "Aerith Gainsborough",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "f13c2df2-615b-59e1-a3de-3f9f736e34b0",
+        "name": "Swallowed by Leviathan",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "f1698657-ff1b-518e-9fda-0ae4f806b87e",
+        "name": "Kain, Traitorous Dragoon",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "f3509f06-87bf-525a-a32a-05a26df6a983",
+        "name": "Sabotender",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "f3684cc6-62ee-5a36-9528-62cf370e346e",
+        "name": "Sahagin",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "f5df39d3-b69c-5b75-948d-338801fa9f45",
+        "name": "Golbez, Crystal Collector",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "f6f714c5-484c-5ccd-afdb-b3a80fc8bcc5",
+        "name": "Travel the Overworld",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "f790e0aa-541f-5bb1-a48b-d23d181e02e6",
+        "name": "Sidequest: Hunt the Mark",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "fa1590d4-bc6b-528d-9498-5d225ae447eb",
+        "name": "Retrieve the Esper",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "fa88fdc4-abd2-5f68-aa10-192aa2f446d4",
+        "name": "Al Bhed Salvagers",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "faa2c388-addc-5cc6-b5b4-6308e17e5b45",
+        "name": "Weapons Vendor",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "faa5ddb1-f0c4-5ee4-8dd8-6c5338296993",
+        "name": "Cid, Timeless Artificer",
+        "weight": 33996902400
+      },
+      {
+        "uuid": "fafde436-84cc-5117-b7fc-764e4cfbfcb3",
+        "name": "Choco-Comet",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "fb4f7a0c-2da2-5276-9b15-9528a5ec6011",
+        "name": "Random Encounter",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "fb81101f-54ef-5f31-b5e5-3b949ebdd774",
+        "name": "Squall, SeeD Mercenary",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "fc50ead3-ab4c-51be-9555-542f29a2e309",
+        "name": "Dark Confidant",
+        "weight": 9028835127
+      },
+      {
+        "uuid": "fc6c017d-b45d-53e5-9c44-335d02050f1b",
+        "name": "Moogles' Valor",
+        "weight": 18779128290
+      },
+      {
+        "uuid": "fceb7acd-d47d-56da-8906-d25dc17f3835",
+        "name": "Fire Magic",
+        "weight": 50997248000
+      },
+      {
+        "uuid": "ff7a2a7e-3747-5c0a-bcfe-40219819d084",
+        "name": "Syncopate",
+        "weight": 22683743550
+      },
+      {
+        "uuid": "ff833866-810e-5d4c-a909-36230958f34a",
+        "name": "Lion Heart",
+        "weight": 50997248000
+      }
+    ]
+  }
+}

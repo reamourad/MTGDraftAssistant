@@ -1,0 +1,1532 @@
+{
+  "dfcCommonUncommon": {
+    "cards": [
+      {
+        "uuid": "0a262ce7-7635-51b2-a6e7-8feaccc178ae",
+        "name": "Kumano Faces Kakkazan",
+        "weight": 7
+      },
+      {
+        "uuid": "34fd3ebf-ae2c-5ad3-abc2-ece387b2d3c6",
+        "name": "Azusa's Many Journeys",
+        "weight": 7
+      },
+      {
+        "uuid": "4e6dae10-127f-54e0-a176-d67be5fa5e28",
+        "name": "Era of Enlightenment",
+        "weight": 10
+      },
+      {
+        "uuid": "57b9ab73-4bee-5e41-8b23-4e34fe7d157a",
+        "name": "Tales of Master Seshiro",
+        "weight": 10
+      },
+      {
+        "uuid": "66a7c459-985c-55d5-aa84-b74720400cce",
+        "name": "The Shattered States Era",
+        "weight": 10
+      },
+      {
+        "uuid": "73392c5e-7eae-5eac-92ce-5809b04d65f8",
+        "name": "Behold the Unspeakable",
+        "weight": 7
+      },
+      {
+        "uuid": "7c96ff8d-1af2-577a-b251-0400cf0c7efa",
+        "name": "The Long Reach of Night",
+        "weight": 7
+      },
+      {
+        "uuid": "b0d99b95-a0e2-5afd-abcd-4fd24793ca42",
+        "name": "Boseiju Reaches Skyward",
+        "weight": 7
+      },
+      {
+        "uuid": "c0341c9b-5572-5143-86e2-1034cc8cc1a3",
+        "name": "Befriending the Moths",
+        "weight": 10
+      },
+      {
+        "uuid": "ebadf36b-1cb6-5ac0-9162-de0a615ef665",
+        "name": "The Modern Age",
+        "weight": 10
+      },
+      {
+        "uuid": "f27869d4-52b5-5002-afe9-2425834c2b03",
+        "name": "Michiko's Reign of Truth",
+        "weight": 7
+      },
+      {
+        "uuid": "f840f1b5-e8ff-5cab-895a-80eda3d5f478",
+        "name": "The Fall of Lord Konda",
+        "weight": 7
+      },
+      {
+        "uuid": "f8aee9ed-0d99-5f25-8dca-5be056591a02",
+        "name": "Life of Toshiro Umezawa",
+        "weight": 7
+      },
+      {
+        "uuid": "fcaab0ce-fae1-5118-a674-b9fd7fe6b15a",
+        "name": "Okiba Reckoner Raid",
+        "weight": 10
+      }
+    ]
+  },
+  "land": {
+    "cards": [
+      {
+        "uuid": "1679f14d-7893-50dd-be2e-898cd7cc617d",
+        "name": "Swamp",
+        "weight": 1
+      },
+      {
+        "uuid": "182c88fe-257b-57e0-9cfc-e6210569b3b4",
+        "name": "Mountain",
+        "weight": 1
+      },
+      {
+        "uuid": "19a31a18-1d66-585b-b145-e638345ffad9",
+        "name": "Island",
+        "weight": 1
+      },
+      {
+        "uuid": "1e079185-018b-52de-912d-60ac49412cbd",
+        "name": "Mountain",
+        "weight": 1
+      },
+      {
+        "uuid": "20ec4bcf-47d1-5cea-b18e-7449b7f090df",
+        "name": "Swamp",
+        "weight": 1
+      },
+      {
+        "uuid": "297590d9-2601-5722-93b5-e2e579e2170b",
+        "name": "Scoured Barrens",
+        "weight": 1
+      },
+      {
+        "uuid": "3010da25-e2f9-57c5-af01-e92b2b41313d",
+        "name": "Swamp",
+        "weight": 1
+      },
+      {
+        "uuid": "477f3189-5c2e-5a77-985d-538a62b2e616",
+        "name": "Forest",
+        "weight": 1
+      },
+      {
+        "uuid": "562b232a-13a5-562f-b04c-624eab33adc9",
+        "name": "Blossoming Sands",
+        "weight": 1
+      },
+      {
+        "uuid": "5765ecef-a549-5979-bb23-fa08ac10da49",
+        "name": "Bloodfell Caves",
+        "weight": 1
+      },
+      {
+        "uuid": "684d2321-ac91-5441-a82a-7f5e7a99fcdf",
+        "name": "Plains",
+        "weight": 1
+      },
+      {
+        "uuid": "6aa5e279-721e-5d86-9c46-9304119e2701",
+        "name": "Jungle Hollow",
+        "weight": 1
+      },
+      {
+        "uuid": "7fa83775-f18c-5349-a396-da973b307805",
+        "name": "Wind-Scarred Crag",
+        "weight": 1
+      },
+      {
+        "uuid": "822705d0-4c39-5701-919a-bd0f74d59f4e",
+        "name": "Plains",
+        "weight": 1
+      },
+      {
+        "uuid": "8edbcf7d-2715-57e3-b34e-1e64b3fca0ad",
+        "name": "Forest",
+        "weight": 1
+      },
+      {
+        "uuid": "a8902146-7c93-5751-82fa-c6b173148645",
+        "name": "Plains",
+        "weight": 1
+      },
+      {
+        "uuid": "a9f90e47-e47c-542e-b018-608beb4174f8",
+        "name": "Swamp",
+        "weight": 1
+      },
+      {
+        "uuid": "afbc6770-154e-5f40-8a1b-de219d1211e8",
+        "name": "Swiftwater Cliffs",
+        "weight": 1
+      },
+      {
+        "uuid": "bf38abc3-a3c0-5ecc-b05a-6752124777ba",
+        "name": "Mountain",
+        "weight": 1
+      },
+      {
+        "uuid": "c6c88f02-ee95-57de-bbb6-62fdfc855cff",
+        "name": "Dismal Backwater",
+        "weight": 1
+      },
+      {
+        "uuid": "cbf34a82-8d75-51fe-85f7-53ade371bf98",
+        "name": "Tranquil Cove",
+        "weight": 1
+      },
+      {
+        "uuid": "ce189568-fdd4-5fcc-8c72-9ef3072ed2e1",
+        "name": "Forest",
+        "weight": 1
+      },
+      {
+        "uuid": "cf74a84a-1f1c-5aac-a49d-530cb05224db",
+        "name": "Island",
+        "weight": 1
+      },
+      {
+        "uuid": "d24e9cf2-c35c-5ad5-b9a1-5ccf9e278205",
+        "name": "Forest",
+        "weight": 1
+      },
+      {
+        "uuid": "d3bf1756-9dec-521f-88db-f06fca315045",
+        "name": "Mountain",
+        "weight": 1
+      },
+      {
+        "uuid": "d897313e-25e5-5e3d-8708-30d4c7257a71",
+        "name": "Thornwood Falls",
+        "weight": 1
+      },
+      {
+        "uuid": "e067f68b-0df4-5e4b-ba4e-7f4da4832a6a",
+        "name": "Island",
+        "weight": 1
+      },
+      {
+        "uuid": "e7ff6285-f9f2-559b-b0a7-727cea209b18",
+        "name": "Rugged Highlands",
+        "weight": 1
+      },
+      {
+        "uuid": "f79d5937-5ee7-5d23-add6-ac6ed3ea27c0",
+        "name": "Island",
+        "weight": 1
+      },
+      {
+        "uuid": "fa297a82-aff5-51af-b12f-617697a59dc8",
+        "name": "Plains",
+        "weight": 1
+      }
+    ]
+  },
+  "rareMythic": {
+    "cards": [
+      {
+        "uuid": "04e88882-2e45-5a21-b836-1d1ff79a1a51",
+        "name": "Satsuki, the Living Lore",
+        "weight": 2
+      },
+      {
+        "uuid": "0ac19ec3-ca53-59ac-bc02-0f8904863bc5",
+        "name": "March of Wretched Sorrow",
+        "weight": 2
+      },
+      {
+        "uuid": "11100b42-d6bb-543d-8d14-5a475b14cd90",
+        "name": "Tribute to Horobi",
+        "weight": 2
+      },
+      {
+        "uuid": "1285a01c-6b69-58c9-82e0-bec092465844",
+        "name": "The Dragon-Kami Reborn",
+        "weight": 2
+      },
+      {
+        "uuid": "1451bc53-9193-580d-b163-0e2b5a59d08a",
+        "name": "Kotose, the Silent Spider",
+        "weight": 2
+      },
+      {
+        "uuid": "14594ecb-045f-5e99-b22d-e0747a611ea1",
+        "name": "Light-Paws, Emperor's Voice",
+        "weight": 2
+      },
+      {
+        "uuid": "1eae8cac-f52e-56ee-970f-85b9a10be3d2",
+        "name": "Cloudsteel Kirin",
+        "weight": 2
+      },
+      {
+        "uuid": "20311449-033b-559f-8c30-e2effa40edc7",
+        "name": "Surgehacker Mech",
+        "weight": 2
+      },
+      {
+        "uuid": "28d0d299-8d59-55d4-8c5b-125097fd3d76",
+        "name": "The Restoration of Eiganjo",
+        "weight": 2
+      },
+      {
+        "uuid": "2afa6690-ec57-5501-8659-4b11ce8b35e2",
+        "name": "Kaito Shizuki",
+        "weight": 1
+      },
+      {
+        "uuid": "2ed62ee3-84b6-568b-a09a-1d39904fade0",
+        "name": "Goro-Goro, Disciple of Ryusei",
+        "weight": 2
+      },
+      {
+        "uuid": "33be0ee4-1ca4-5827-960f-637e9e64bb17",
+        "name": "Lion Sash",
+        "weight": 2
+      },
+      {
+        "uuid": "3598306c-5b23-5910-a2e9-113947c163a4",
+        "name": "Invoke the Winds",
+        "weight": 2
+      },
+      {
+        "uuid": "39ff65f2-0121-5657-bbfc-a1e4c8df04f8",
+        "name": "Eiganjo Uprising",
+        "weight": 2
+      },
+      {
+        "uuid": "3be796c8-ae44-537f-ad34-1ceba5ed6fc7",
+        "name": "March of Reckless Joy",
+        "weight": 2
+      },
+      {
+        "uuid": "4c4ebd0c-b904-5e97-9d5e-93155ff77d7a",
+        "name": "Thousand-Faced Shadow",
+        "weight": 2
+      },
+      {
+        "uuid": "55b5864a-8d81-55b5-bfd6-c927e0c380d7",
+        "name": "Reckoner Bankbuster",
+        "weight": 2
+      },
+      {
+        "uuid": "56d76a8f-a3bd-5c40-b9f9-e46bcff816fc",
+        "name": "Soul Transfer",
+        "weight": 2
+      },
+      {
+        "uuid": "5760a74f-8685-58df-9ec5-74a28e17b372",
+        "name": "The Kami War",
+        "weight": 1
+      },
+      {
+        "uuid": "586dc7fe-bcbc-59ba-b234-085ff74f503a",
+        "name": "Teachings of the Kirin",
+        "weight": 2
+      },
+      {
+        "uuid": "59c7f473-c87a-5758-90e9-425b454075c1",
+        "name": "Tamiyo, Compleated Sage",
+        "weight": 1
+      },
+      {
+        "uuid": "5cff0b8e-ae7e-5489-887a-5f58af8a2c29",
+        "name": "Greasefang, Okiba Boss",
+        "weight": 2
+      },
+      {
+        "uuid": "60e2af6f-d9b9-5338-b02c-cc0a3846c6da",
+        "name": "Jugan Defends the Temple",
+        "weight": 1
+      },
+      {
+        "uuid": "6223bd64-f295-50f2-97db-1e17f6ba99b1",
+        "name": "Isshin, Two Heavens as One",
+        "weight": 2
+      },
+      {
+        "uuid": "6284e544-335d-5c6d-bd65-3b6585e4f19d",
+        "name": "Mechtitan Core",
+        "weight": 2
+      },
+      {
+        "uuid": "62c39db2-afee-518e-ad3c-c2ffb7abba5f",
+        "name": "Takenuma, Abandoned Mire",
+        "weight": 2
+      },
+      {
+        "uuid": "6a1a700f-be63-5887-8b58-49f2a48b58f1",
+        "name": "Invoke Calamity",
+        "weight": 2
+      },
+      {
+        "uuid": "6adf63fd-0d34-5743-a805-873f63a3241f",
+        "name": "Mindlink Mech",
+        "weight": 2
+      },
+      {
+        "uuid": "749a36c5-2621-59a1-ab94-b6adb63e5588",
+        "name": "March of Burgeoning Life",
+        "weight": 2
+      },
+      {
+        "uuid": "7749b2bd-fe9d-54d3-8686-407635b8eba9",
+        "name": "Raiyuu, Storm's Edge",
+        "weight": 2
+      },
+      {
+        "uuid": "841679dc-4fad-59e6-a1f6-f736a3be4b2f",
+        "name": "Blade of the Oni",
+        "weight": 1
+      },
+      {
+        "uuid": "855600e3-71d8-5dc2-89bb-7785dce3c47c",
+        "name": "Hinata, Dawn-Crowned",
+        "weight": 2
+      },
+      {
+        "uuid": "863ec27b-bbd8-5cfd-a571-bc17a39c08c7",
+        "name": "Invoke the Ancients",
+        "weight": 2
+      },
+      {
+        "uuid": "884889c3-2fb4-593e-8642-21af6834952f",
+        "name": "Tatsunari, Toad Rider",
+        "weight": 2
+      },
+      {
+        "uuid": "8870d116-ed98-53a1-803f-c3e003c9609b",
+        "name": "Kairi, the Swirling Sky",
+        "weight": 1
+      },
+      {
+        "uuid": "8ceb44a4-1427-5d26-9ee4-f982d3af8b48",
+        "name": "Kami of Transience",
+        "weight": 2
+      },
+      {
+        "uuid": "8d5cb4ba-2b5e-555a-a03f-34a807ae9505",
+        "name": "Kyodai, Soul of Kamigawa",
+        "weight": 2
+      },
+      {
+        "uuid": "8f6e5033-fdb3-502c-85fc-ee71d77cbbb2",
+        "name": "Boseiju, Who Endures",
+        "weight": 2
+      },
+      {
+        "uuid": "92d75749-1102-582f-9a34-d941ac855fe5",
+        "name": "Mukotai Soulripper",
+        "weight": 2
+      },
+      {
+        "uuid": "9a60937c-36d1-5a60-8251-f74b6a445e82",
+        "name": "Inventive Iteration",
+        "weight": 2
+      },
+      {
+        "uuid": "9d787ee9-e9ad-5538-a4fd-49af08264eb2",
+        "name": "Ogre-Head Helm",
+        "weight": 2
+      },
+      {
+        "uuid": "a07096eb-3e0e-5602-823d-d85882721f26",
+        "name": "Junji, the Midnight Sky",
+        "weight": 1
+      },
+      {
+        "uuid": "a301bd29-045c-5fd9-afe4-c7e312f8aa36",
+        "name": "Jin-Gitaxias, Progress Tyrant",
+        "weight": 1
+      },
+      {
+        "uuid": "a3c9ce9d-c5e6-567e-a475-19240c6bff28",
+        "name": "Eiganjo, Seat of the Empire",
+        "weight": 2
+      },
+      {
+        "uuid": "a78817be-d624-5a64-a119-934d751042af",
+        "name": "Risona, Asari Commander",
+        "weight": 2
+      },
+      {
+        "uuid": "a7d1e5e0-a8a4-5ca0-8bb4-77017b2fab70",
+        "name": "March of Otherworldly Light",
+        "weight": 2
+      },
+      {
+        "uuid": "a938cd74-da65-5c56-a552-fbd66f4e48e7",
+        "name": "Brilliant Restoration",
+        "weight": 2
+      },
+      {
+        "uuid": "a9a1963b-b751-5de7-98b6-47de633f79f3",
+        "name": "Satoru Umezawa",
+        "weight": 2
+      },
+      {
+        "uuid": "abc87425-bef9-5f5e-948a-15d7c9c3dc3d",
+        "name": "Lizard Blades",
+        "weight": 2
+      },
+      {
+        "uuid": "af19f7d1-3948-57bf-9c3c-0538ee5f17cb",
+        "name": "The Reality Chip",
+        "weight": 2
+      },
+      {
+        "uuid": "b0036ff4-5ca7-5132-9cdb-be7a2eef677f",
+        "name": "Explosive Singularity",
+        "weight": 1
+      },
+      {
+        "uuid": "b2c633bb-c486-5dd2-95f0-608fec8fc5d9",
+        "name": "Thundering Raiju",
+        "weight": 2
+      },
+      {
+        "uuid": "b71f19d8-10bd-59dd-988b-25841c4bdf22",
+        "name": "Invoke Justice",
+        "weight": 2
+      },
+      {
+        "uuid": "b723ebb2-a59f-54d5-8c64-f34c852d92b4",
+        "name": "March of Swirling Mist",
+        "weight": 2
+      },
+      {
+        "uuid": "b76f513b-00c3-57e9-99ad-889643c994c6",
+        "name": "Kura, the Boundless Sky",
+        "weight": 1
+      },
+      {
+        "uuid": "ba3bc840-d81c-5f26-afb7-c81460a512ae",
+        "name": "The Wandering Emperor",
+        "weight": 1
+      },
+      {
+        "uuid": "beddaaaf-a88d-5d44-acef-1a1d052da23e",
+        "name": "Tezzeret, Betrayer of Flesh",
+        "weight": 1
+      },
+      {
+        "uuid": "c0bf15e5-3e01-5c3b-85fb-f4712afe0e54",
+        "name": "Kodama of the West Tree",
+        "weight": 1
+      },
+      {
+        "uuid": "c1b1e927-8e33-5f6a-89d5-9986818eba82",
+        "name": "Biting-Palm Ninja",
+        "weight": 2
+      },
+      {
+        "uuid": "c4e84811-f488-55b2-9b01-5ae741f9e040",
+        "name": "Sokenzan, Crucible of Defiance",
+        "weight": 2
+      },
+      {
+        "uuid": "c68d4d14-fd1a-5b7c-b1f6-dd408cdf797a",
+        "name": "Farewell",
+        "weight": 2
+      },
+      {
+        "uuid": "c772def6-a5a7-5549-8f72-d47cdb76961b",
+        "name": "Weaver of Harmony",
+        "weight": 2
+      },
+      {
+        "uuid": "c9f820b9-5b00-527f-8f9f-2bf9ad89a8bd",
+        "name": "Invoke Despair",
+        "weight": 2
+      },
+      {
+        "uuid": "cd7b242e-2d8d-5d2f-b46a-0a58cb312992",
+        "name": "Nashi, Moon Sage's Scion",
+        "weight": 1
+      },
+      {
+        "uuid": "ce32b5eb-7028-569e-bb05-0e1f4a9eb054",
+        "name": "Eater of Virtue",
+        "weight": 2
+      },
+      {
+        "uuid": "d2d89a9d-ae88-52af-84f1-c0441a9cca03",
+        "name": "Hidetsugu, Devouring Chaos",
+        "weight": 2
+      },
+      {
+        "uuid": "d5e3f668-af8f-5974-a5a6-ac067de534db",
+        "name": "Spirit-Sister's Call",
+        "weight": 1
+      },
+      {
+        "uuid": "df076713-0b94-56fd-91cf-4e588ce5641c",
+        "name": "Ao, the Dawn Sky",
+        "weight": 1
+      },
+      {
+        "uuid": "e003f340-9c0e-5312-8dac-2b49a82c6e82",
+        "name": "Tameshi, Reality Architect",
+        "weight": 2
+      },
+      {
+        "uuid": "e54871ca-b187-5a71-b8eb-9e9c5322f4a4",
+        "name": "Fable of the Mirror-Breaker",
+        "weight": 2
+      },
+      {
+        "uuid": "e8340bce-194d-5bf4-a10c-bc5f15bf1c07",
+        "name": "Spring-Leaf Avenger",
+        "weight": 2
+      },
+      {
+        "uuid": "ebba66c7-9626-5b0e-b538-8850d84763aa",
+        "name": "Scrap Welder",
+        "weight": 2
+      },
+      {
+        "uuid": "ee311e6d-2cce-543c-835d-cedcdc86442a",
+        "name": "Mirror Box",
+        "weight": 2
+      },
+      {
+        "uuid": "f25d25fe-48bf-51c9-9b29-bedd6975f4e9",
+        "name": "Otawara, Soaring City",
+        "weight": 2
+      },
+      {
+        "uuid": "f60ae2f8-5614-5f98-bdac-68cf532dfce1",
+        "name": "Atsushi, the Blazing Sky",
+        "weight": 1
+      },
+      {
+        "uuid": "fde7c235-495e-5277-93db-b22522cdcd5b",
+        "name": "Hidetsugu Consumes All",
+        "weight": 1
+      },
+      {
+        "uuid": "feb59d6e-ee2d-5f4f-9f13-1a5e644551ef",
+        "name": "Shigeki, Jukai Visionary",
+        "weight": 2
+      }
+    ]
+  },
+  "sfcCommon": {
+    "cards": [
+      {
+        "uuid": "01cfe1cc-ac52-5c76-9c79-4e60e0256247",
+        "name": "Ambitious Assault",
+        "weight": 1
+      },
+      {
+        "uuid": "0244d788-e8f9-5630-9715-5886fd6745bf",
+        "name": "Automated Artificer",
+        "weight": 1
+      },
+      {
+        "uuid": "0551a67e-049f-582b-af96-cb2bd4d20ae5",
+        "name": "Bamboo Grove Archer",
+        "weight": 1
+      },
+      {
+        "uuid": "0650fc5d-0edb-50cb-a547-3f177ac3d24b",
+        "name": "Tamiyo's Safekeeping",
+        "weight": 1
+      },
+      {
+        "uuid": "0c6593d9-2f70-5731-bf0e-252e52526ddc",
+        "name": "Favor of Jukai",
+        "weight": 1
+      },
+      {
+        "uuid": "0dab9121-ce6e-5d18-a1e5-9c5fafc6bb37",
+        "name": "Grafted Growth",
+        "weight": 1
+      },
+      {
+        "uuid": "0e2ca9c8-8b26-50fd-8fdc-4cbf8d9f52b8",
+        "name": "Tamiyo's Compleation",
+        "weight": 1
+      },
+      {
+        "uuid": "0ebf0136-1096-50a9-b65b-035935445fa7",
+        "name": "Fang of Shigeki",
+        "weight": 1
+      },
+      {
+        "uuid": "0f1c9878-1ae5-509d-8f05-63d7d86d9f93",
+        "name": "Lethal Exploit",
+        "weight": 1
+      },
+      {
+        "uuid": "1068214a-68c5-5948-b484-4ff16704fe03",
+        "name": "Mirrorshell Crab",
+        "weight": 1
+      },
+      {
+        "uuid": "12f88423-1150-5c73-b9fa-6e79f4023a81",
+        "name": "Seven-Tail Mentor",
+        "weight": 1
+      },
+      {
+        "uuid": "13882ddf-4134-5d8e-9f8e-571f0d2d8b19",
+        "name": "Voltage Surge",
+        "weight": 1
+      },
+      {
+        "uuid": "1aaf1c02-71c9-5530-841d-cf7ed6b64d7a",
+        "name": "Careful Cultivation",
+        "weight": 1
+      },
+      {
+        "uuid": "1d29625e-1460-5342-83c4-362891d7594f",
+        "name": "Network Disruptor",
+        "weight": 1
+      },
+      {
+        "uuid": "1e577b48-b7f3-592f-9518-610d8dc3f27a",
+        "name": "Moon-Circuit Hacker",
+        "weight": 1
+      },
+      {
+        "uuid": "200c76ad-46ba-529f-9d52-5e06ae5cd8de",
+        "name": "Dragonfly Suit",
+        "weight": 1
+      },
+      {
+        "uuid": "20c06679-1915-5559-9b8e-bfcd43b8b134",
+        "name": "Harmonious Emergence",
+        "weight": 1
+      },
+      {
+        "uuid": "21116e40-cad1-5365-898d-caa3c2f06039",
+        "name": "Geothermal Kami",
+        "weight": 1
+      },
+      {
+        "uuid": "213cbf96-9270-5906-9ace-b65561d5a100",
+        "name": "Virus Beetle",
+        "weight": 1
+      },
+      {
+        "uuid": "2203b6be-86bf-511c-8459-91329449df73",
+        "name": "Explosive Entry",
+        "weight": 1
+      },
+      {
+        "uuid": "2707b022-d12f-5e19-87e7-b5c6227e0bf1",
+        "name": "Uncharted Haven",
+        "weight": 1
+      },
+      {
+        "uuid": "28e233b6-d42c-546b-9f7c-f81e4766ec55",
+        "name": "Scrapyard Steelbreaker",
+        "weight": 1
+      },
+      {
+        "uuid": "2e4d2a3d-ae3c-59cd-adc5-f61199df48dd",
+        "name": "Shrine Steward",
+        "weight": 1
+      },
+      {
+        "uuid": "2ef73e00-881b-5100-b090-935773268f7a",
+        "name": "Short Circuit",
+        "weight": 1
+      },
+      {
+        "uuid": "2f6c16c3-2579-53f5-9f2e-62f3908d275a",
+        "name": "Reckoner's Bargain",
+        "weight": 1
+      },
+      {
+        "uuid": "3109ea0a-5943-5dbf-8e1d-c8051b3d1c85",
+        "name": "Return to Action",
+        "weight": 1
+      },
+      {
+        "uuid": "35085fce-178f-5ca7-9f2e-e0a7f098b3d8",
+        "name": "Jukai Trainee",
+        "weight": 1
+      },
+      {
+        "uuid": "37ec2f9b-4a90-5234-8ed3-9f97ee61a4c7",
+        "name": "Gift of Wrath",
+        "weight": 1
+      },
+      {
+        "uuid": "38c1235e-e3ce-566d-a550-25a667f1624e",
+        "name": "Kami of Industry",
+        "weight": 1
+      },
+      {
+        "uuid": "3a9e95d8-dd5a-5bcd-934f-03b6773659be",
+        "name": "Kindled Fury",
+        "weight": 1
+      },
+      {
+        "uuid": "3cd4e31a-4336-5362-99d0-34838f4568ab",
+        "name": "Bearer of Memory",
+        "weight": 1
+      },
+      {
+        "uuid": "3e831aaf-2264-5fcc-b7d6-32a5f00f2e3f",
+        "name": "Akki War Paint",
+        "weight": 1
+      },
+      {
+        "uuid": "41644b59-168e-54c4-aad8-dbd751a57bcb",
+        "name": "Master's Rebuke",
+        "weight": 1
+      },
+      {
+        "uuid": "42ec02a1-5588-5d70-a40e-628d7a24699b",
+        "name": "Spirited Companion",
+        "weight": 1
+      },
+      {
+        "uuid": "43b2c280-be17-5b6a-a8b1-ec5ac1bc1198",
+        "name": "Ironhoof Boar",
+        "weight": 1
+      },
+      {
+        "uuid": "43f2229b-1f5a-5976-85ca-934fe3ae9d6f",
+        "name": "Disruption Protocol",
+        "weight": 1
+      },
+      {
+        "uuid": "449fd881-d75e-5370-a66e-b60b3fbdf8fc",
+        "name": "Clawing Torment",
+        "weight": 1
+      },
+      {
+        "uuid": "4789bf41-10d8-5c91-bd78-28acd11589d1",
+        "name": "Papercraft Decoy",
+        "weight": 1
+      },
+      {
+        "uuid": "50317638-1b9b-54e1-abcc-2ce9fc6fd243",
+        "name": "Armguard Familiar",
+        "weight": 1
+      },
+      {
+        "uuid": "50a05c3c-0f91-50ce-bb13-cdf4230e56ca",
+        "name": "Mothrider Patrol",
+        "weight": 1
+      },
+      {
+        "uuid": "550680a6-a484-5949-9381-19f75a03afbb",
+        "name": "Coiling Stalker",
+        "weight": 1
+      },
+      {
+        "uuid": "5bd75001-600a-51f6-9574-d7cd14da8838",
+        "name": "Moonsnare Prototype",
+        "weight": 1
+      },
+      {
+        "uuid": "5d5aff94-224a-593d-8ddc-fc79a9f36195",
+        "name": "Dramatist's Puppet",
+        "weight": 1
+      },
+      {
+        "uuid": "5ed3eef1-f470-52b3-90d8-a4d56738707e",
+        "name": "Jukai Preserver",
+        "weight": 1
+      },
+      {
+        "uuid": "665acf79-d6ef-5a56-961f-40b59756211d",
+        "name": "Undercity Scrounger",
+        "weight": 1
+      },
+      {
+        "uuid": "68d4f98f-a81f-5e1d-b48f-e72f48e08d02",
+        "name": "Dokuchi Shadow-Walker",
+        "weight": 1
+      },
+      {
+        "uuid": "69096d29-b8c8-5499-a267-e099d6ef94e1",
+        "name": "Nezumi Bladeblesser",
+        "weight": 1
+      },
+      {
+        "uuid": "69c33d92-a202-5405-a557-1b5b722cefb5",
+        "name": "Mukotai Ambusher",
+        "weight": 1
+      },
+      {
+        "uuid": "6ee930e3-369d-5024-8404-db2b53f782bd",
+        "name": "Repel the Vile",
+        "weight": 1
+      },
+      {
+        "uuid": "73523ca1-8d92-5450-a834-8a02b40913ae",
+        "name": "Spell Pierce",
+        "weight": 1
+      },
+      {
+        "uuid": "7bd11a78-eaae-5fde-8ad2-81aa009a4d58",
+        "name": "Imperial Oath",
+        "weight": 1
+      },
+      {
+        "uuid": "82c30936-724c-5cd5-a95d-f5a0734e3da3",
+        "name": "Peerless Samurai",
+        "weight": 1
+      },
+      {
+        "uuid": "841a3ec3-6182-5cde-baf9-043d06ef73d6",
+        "name": "Eiganjo Exemplar",
+        "weight": 1
+      },
+      {
+        "uuid": "8791a7d2-1849-540f-8061-202341471d02",
+        "name": "Ancestral Katana",
+        "weight": 1
+      },
+      {
+        "uuid": "8843a444-2fa1-5ca5-9247-8076059f23bd",
+        "name": "Planar Incision",
+        "weight": 1
+      },
+      {
+        "uuid": "8afb204e-c442-54b9-a950-1bfa3d481814",
+        "name": "Thundersteel Colossus",
+        "weight": 1
+      },
+      {
+        "uuid": "8b079003-717d-5942-8903-26aacc16282a",
+        "name": "Kaito's Pursuit",
+        "weight": 1
+      },
+      {
+        "uuid": "8b9554a9-b12a-57ed-882a-a250a178d0fd",
+        "name": "Twisted Embrace",
+        "weight": 1
+      },
+      {
+        "uuid": "8bba91fa-c6ea-590f-ab22-56a93e8aafad",
+        "name": "You Are Already Dead",
+        "weight": 1
+      },
+      {
+        "uuid": "9009dacd-36f7-5e52-9cb1-0bf52d07fcd2",
+        "name": "Suit Up",
+        "weight": 1
+      },
+      {
+        "uuid": "9082406e-8a03-591d-8e6d-32abb28e5534",
+        "name": "Season of Renewal",
+        "weight": 1
+      },
+      {
+        "uuid": "93bfb5b2-0f55-5c2c-abe9-3fa3e0272b06",
+        "name": "Unstoppable Ogre",
+        "weight": 1
+      },
+      {
+        "uuid": "93ed7aae-6f64-5624-83e7-3a2b545770ec",
+        "name": "Akki Ronin",
+        "weight": 1
+      },
+      {
+        "uuid": "9cc9fbd6-869a-5d6c-bd05-4ea0bd0ae59f",
+        "name": "Light the Way",
+        "weight": 1
+      },
+      {
+        "uuid": "9d2bd07e-4b55-56ff-a7cf-3a3d2d23eb23",
+        "name": "Commune with Spirits",
+        "weight": 1
+      },
+      {
+        "uuid": "a0c910c9-9d64-5381-afcf-5fdb5a7ea452",
+        "name": "Brute Suit",
+        "weight": 1
+      },
+      {
+        "uuid": "a1107b1a-1196-5ba1-91c5-5c5c7878d83d",
+        "name": "Lucky Offering",
+        "weight": 1
+      },
+      {
+        "uuid": "a3f5c445-d600-583e-a7c1-7f36b22aa9b4",
+        "name": "Chainflail Centipede",
+        "weight": 1
+      },
+      {
+        "uuid": "a6144caf-43a5-558b-a35b-dc66c8bb305d",
+        "name": "Moonsnare Specialist",
+        "weight": 1
+      },
+      {
+        "uuid": "b05d8e44-2dec-5b5f-b332-0b2668ae9043",
+        "name": "Inkrise Infiltrator",
+        "weight": 1
+      },
+      {
+        "uuid": "b2f1e203-47bb-5a24-9f69-45f9005b8ded",
+        "name": "Debt to the Kami",
+        "weight": 1
+      },
+      {
+        "uuid": "b35452ee-5e44-5ba2-8a24-bb49f9914462",
+        "name": "Ecologist's Terrarium",
+        "weight": 1
+      },
+      {
+        "uuid": "b6e328f0-5d1b-57d6-8cbb-989c50b08c7b",
+        "name": "Fade into Antiquity",
+        "weight": 1
+      },
+      {
+        "uuid": "b8c064d3-14ef-5068-ab8e-8d4455197a94",
+        "name": "Greater Tanuki",
+        "weight": 1
+      },
+      {
+        "uuid": "b918c3d0-4e46-5500-93d1-4a7985a39d1f",
+        "name": "Ninja's Kunai",
+        "weight": 1
+      },
+      {
+        "uuid": "bfca10a4-6141-5f8a-95de-d4c5a758f019",
+        "name": "Wanderer's Intervention",
+        "weight": 1
+      },
+      {
+        "uuid": "c3297f3e-b8e3-5459-9504-2ce51343dd3f",
+        "name": "Reckoner Shakedown",
+        "weight": 1
+      },
+      {
+        "uuid": "c82a4e4b-5abf-55fd-a540-3e19faff8a20",
+        "name": "Experimental Synthesizer",
+        "weight": 1
+      },
+      {
+        "uuid": "c895297f-04b5-5d87-8833-ce4a71a02ed9",
+        "name": "Saiba Trespassers",
+        "weight": 1
+      },
+      {
+        "uuid": "cbd992a3-becd-5764-9c22-c47ae1f32ec0",
+        "name": "Towashi Songshaper",
+        "weight": 1
+      },
+      {
+        "uuid": "cc15edae-a6c0-55af-9ea0-321c0f3d807e",
+        "name": "Imperial Subduer",
+        "weight": 1
+      },
+      {
+        "uuid": "ced99533-689c-5dfb-89f8-44802b07df66",
+        "name": "Guardians of Oboro",
+        "weight": 1
+      },
+      {
+        "uuid": "cfa82014-0d58-52dc-a010-0b0921561bb5",
+        "name": "Moonfolk Puzzlemaker",
+        "weight": 1
+      },
+      {
+        "uuid": "d08a1773-d298-53da-be7c-8bf44cd77341",
+        "name": "Intercessor's Arrest",
+        "weight": 1
+      },
+      {
+        "uuid": "d5018e9d-cc32-59c4-8302-2b87a8b02891",
+        "name": "Crackling Emergence",
+        "weight": 1
+      },
+      {
+        "uuid": "d6d8e065-4ac1-5e2b-a22f-162a8b4621f9",
+        "name": "Golden-Tail Disciple",
+        "weight": 1
+      },
+      {
+        "uuid": "e02774a4-9c5c-513d-a789-9dfefa6fd795",
+        "name": "Kami's Flare",
+        "weight": 1
+      },
+      {
+        "uuid": "e0d61bc4-1eaf-501c-9729-f580ad9c5865",
+        "name": "Searchlight Companion",
+        "weight": 1
+      },
+      {
+        "uuid": "e26ffa70-a351-596c-96fc-34d057ddf886",
+        "name": "Regent's Authority",
+        "weight": 1
+      },
+      {
+        "uuid": "e3ab4b2c-6630-5eb7-9bc1-41e1a4e2699d",
+        "name": "Futurist Sentinel",
+        "weight": 1
+      },
+      {
+        "uuid": "e68a2447-a201-5376-ab10-721a0531a47a",
+        "name": "Mnemonic Sphere",
+        "weight": 1
+      },
+      {
+        "uuid": "f36f9d31-4fa6-55bb-96bf-ff07382ca5cf",
+        "name": "Sunblade Samurai",
+        "weight": 1
+      },
+      {
+        "uuid": "f4fe0808-32d2-5666-8fca-e26192f367af",
+        "name": "Kami of Terrible Secrets",
+        "weight": 1
+      },
+      {
+        "uuid": "f6b2d2b8-649a-5692-8bbd-66979aab78c5",
+        "name": "Iron Apprentice",
+        "weight": 1
+      },
+      {
+        "uuid": "f72b855c-53f7-5cf3-872a-91a61e887f72",
+        "name": "Kitsune Ace",
+        "weight": 1
+      },
+      {
+        "uuid": "f72f4a23-a50e-5b9f-91c1-694668416db1",
+        "name": "Heir of the Ancient Fang",
+        "weight": 1
+      },
+      {
+        "uuid": "f985e590-c531-5601-b7da-1bae66669292",
+        "name": "Skyswimmer Koi",
+        "weight": 1
+      },
+      {
+        "uuid": "fd31077b-409a-5295-8644-e9f472697bb7",
+        "name": "Simian Sling",
+        "weight": 1
+      },
+      {
+        "uuid": "fd858b35-7fcd-5856-825a-7024033b9e54",
+        "name": "Akki Ember-Keeper",
+        "weight": 1
+      },
+      {
+        "uuid": "feca572f-e49a-5852-a31e-e32c4dbd9a2a",
+        "name": "Kami of Restless Shadows",
+        "weight": 1
+      },
+      {
+        "uuid": "fff966b5-e4fa-5ddb-ab33-501ab3701a08",
+        "name": "Network Terminal",
+        "weight": 1
+      }
+    ]
+  },
+  "sfcUncommon": {
+    "cards": [
+      {
+        "uuid": "0073008c-2bf2-52a3-9093-6a39d3e01f9a",
+        "name": "Invigorating Hot Spring",
+        "weight": 1
+      },
+      {
+        "uuid": "042ff4f3-466b-5535-9e61-fb2ac8bfb8e9",
+        "name": "Covert Technician",
+        "weight": 1
+      },
+      {
+        "uuid": "0898bec2-807d-54a9-9127-dcda63f86d2e",
+        "name": "Rabbit Battery",
+        "weight": 1
+      },
+      {
+        "uuid": "0a6cef69-ab9a-5545-b810-afb8ec9a973b",
+        "name": "Secluded Courtyard",
+        "weight": 1
+      },
+      {
+        "uuid": "0ce6e912-7b0b-5dea-b0c2-1f40e9f69678",
+        "name": "Seismic Wave",
+        "weight": 1
+      },
+      {
+        "uuid": "0f2638a4-a353-531a-aa4e-5bee99896986",
+        "name": "Bronzeplate Boar",
+        "weight": 1
+      },
+      {
+        "uuid": "1894d9f2-e0ae-5dc0-adc6-a63fb24fd3d7",
+        "name": "Webspinner Cuff",
+        "weight": 1
+      },
+      {
+        "uuid": "1b70aeea-46af-5704-bbde-8d6308ae33d4",
+        "name": "Orochi Merge-Keeper",
+        "weight": 1
+      },
+      {
+        "uuid": "1b7ab75f-6648-5331-ba83-bac991b5b23e",
+        "name": "Replication Specialist",
+        "weight": 1
+      },
+      {
+        "uuid": "1bac13ef-9154-5189-a97b-bc27ac59c1a7",
+        "name": "Dockside Chef",
+        "weight": 1
+      },
+      {
+        "uuid": "2010a8e7-8fab-56dc-a8be-d40157617035",
+        "name": "When We Were Young",
+        "weight": 1
+      },
+      {
+        "uuid": "213c2ff0-9d35-5912-a7d7-6000f36a5448",
+        "name": "Sokenzan Smelter",
+        "weight": 1
+      },
+      {
+        "uuid": "219592e7-469f-5036-8a4f-a2d8c25d4cc1",
+        "name": "Futurist Operative",
+        "weight": 1
+      },
+      {
+        "uuid": "2205f8d9-50bc-5dc5-bf0f-ca433862aabd",
+        "name": "Mech Hangar",
+        "weight": 1
+      },
+      {
+        "uuid": "24785665-d324-5c98-a56a-7e905ad13a27",
+        "name": "Heiko Yamazaki, the General",
+        "weight": 1
+      },
+      {
+        "uuid": "28af4320-3185-5893-a9b8-e2872012c5a5",
+        "name": "High-Speed Hoverbike",
+        "weight": 1
+      },
+      {
+        "uuid": "2b9f3c2a-555e-5229-b672-e3defc3e08e4",
+        "name": "Spinning Wheel Kick",
+        "weight": 1
+      },
+      {
+        "uuid": "2c52acaf-dd4e-5b4f-a23b-4ca77b07db5f",
+        "name": "Gravelighter",
+        "weight": 1
+      },
+      {
+        "uuid": "3323c0b0-b345-5136-89e3-8d268b93685c",
+        "name": "Kappa Tech-Wrecker",
+        "weight": 1
+      },
+      {
+        "uuid": "33eb8f7b-c2ed-5803-a748-90cbe2007c17",
+        "name": "Reito Sentinel",
+        "weight": 1
+      },
+      {
+        "uuid": "36263be5-4d4a-5e25-a1c6-a09c0cb0cf30",
+        "name": "Go-Shintai of Lost Wisdom",
+        "weight": 1
+      },
+      {
+        "uuid": "36431125-3b8c-58bb-82cf-498da586c66d",
+        "name": "Dokuchi Silencer",
+        "weight": 1
+      },
+      {
+        "uuid": "48b77764-6400-5d92-8cc0-11ca0aa758fc",
+        "name": "Containment Construct",
+        "weight": 1
+      },
+      {
+        "uuid": "49957446-7c02-5c2e-ba1a-11b7be2b98af",
+        "name": "Go-Shintai of Boundless Vigor",
+        "weight": 1
+      },
+      {
+        "uuid": "4be47f4f-75b2-55c7-8a10-acfe234c25aa",
+        "name": "Historian's Wisdom",
+        "weight": 1
+      },
+      {
+        "uuid": "5264ba34-4d48-5a9b-bed0-736439e02dfa",
+        "name": "Anchor to Reality",
+        "weight": 1
+      },
+      {
+        "uuid": "54471ea2-f563-5892-b211-e4f6b912f4de",
+        "name": "Jukai Naturalist",
+        "weight": 1
+      },
+      {
+        "uuid": "557d0e90-e2d2-5349-b886-e64aba07cbfd",
+        "name": "Gloomshrieker",
+        "weight": 1
+      },
+      {
+        "uuid": "589fa1d7-d898-50de-9c37-b23aaf1f5e0b",
+        "name": "Asari Captain",
+        "weight": 1
+      },
+      {
+        "uuid": "5d8c9ea3-edb1-5341-8879-bd6a011bf41a",
+        "name": "Go-Shintai of Shared Purpose",
+        "weight": 1
+      },
+      {
+        "uuid": "6325be0f-7169-5ca6-a777-0eddbac9d5df",
+        "name": "Bronze Cudgels",
+        "weight": 1
+      },
+      {
+        "uuid": "637a1f88-8896-56da-95d8-0bc1725a253e",
+        "name": "Blade-Blizzard Kitsune",
+        "weight": 1
+      },
+      {
+        "uuid": "684b6d29-31ce-5f86-b4ed-a465a48d90c1",
+        "name": "Malicious Malfunction",
+        "weight": 1
+      },
+      {
+        "uuid": "68b7d0f3-5389-53a6-8578-3815d100ec9b",
+        "name": "Enthusiastic Mechanaut",
+        "weight": 1
+      },
+      {
+        "uuid": "69e1483d-5c32-5bcd-a270-46121a7542fb",
+        "name": "Thirst for Knowledge",
+        "weight": 1
+      },
+      {
+        "uuid": "6bd4eeb4-81e7-5393-b579-34a9dfd923ac",
+        "name": "Colossal Skyturtle",
+        "weight": 1
+      },
+      {
+        "uuid": "6f3a0256-7742-580b-97b7-77070571f24a",
+        "name": "Discover the Impossible",
+        "weight": 1
+      },
+      {
+        "uuid": "72f182d1-cbd0-5e34-9d3d-3bf604d0c50f",
+        "name": "Roaring Earth",
+        "weight": 1
+      },
+      {
+        "uuid": "734519a1-6376-5e53-af5e-74a74fa3c835",
+        "name": "Walking Skyscraper",
+        "weight": 1
+      },
+      {
+        "uuid": "748a0f72-e052-5159-8f32-7d4a95f22559",
+        "name": "Mobilizer Mech",
+        "weight": 1
+      },
+      {
+        "uuid": "8432928f-1b52-5107-a63b-36095e559028",
+        "name": "Dragonspark Reactor",
+        "weight": 1
+      },
+      {
+        "uuid": "8b2ba96b-a9e1-5d12-9d1c-f198fd56eadd",
+        "name": "Hotshot Mechanic",
+        "weight": 1
+      },
+      {
+        "uuid": "8b72d531-3261-52dc-843c-e529be89c696",
+        "name": "Oni-Cult Anvil",
+        "weight": 1
+      },
+      {
+        "uuid": "8c039d47-b2d0-5c4e-8d32-36d96a84d716",
+        "name": "Reality Heist",
+        "weight": 1
+      },
+      {
+        "uuid": "8c29e511-490a-5d27-89ab-4fc3759d2d71",
+        "name": "Patchwork Automaton",
+        "weight": 1
+      },
+      {
+        "uuid": "925f449b-5578-5809-81ab-84fbba952354",
+        "name": "Go-Shintai of Ancient Wars",
+        "weight": 1
+      },
+      {
+        "uuid": "9551daa9-e3ac-543d-8035-7beb7f1a6aa9",
+        "name": "Enormous Energy Blade",
+        "weight": 1
+      },
+      {
+        "uuid": "97eee1b7-ad6a-5e51-be18-dde48a8a103a",
+        "name": "Awakened Awareness",
+        "weight": 1
+      },
+      {
+        "uuid": "9e5bda11-4164-56b8-b6c7-d60fd2c2c2e7",
+        "name": "Upriser Renegade",
+        "weight": 1
+      },
+      {
+        "uuid": "a2cae6ad-d9df-5e02-aef3-4e349fe42ea2",
+        "name": "Boon of Boseiju",
+        "weight": 1
+      },
+      {
+        "uuid": "a626eb95-5182-5111-8005-6b22aa5819e1",
+        "name": "Roadside Reliquary",
+        "weight": 1
+      },
+      {
+        "uuid": "a6f17516-a7f3-5a0c-bcab-326cb01aa4ec",
+        "name": "Born to Drive",
+        "weight": 1
+      },
+      {
+        "uuid": "a9c36462-d45d-5a0c-b76c-c1d1ec87674e",
+        "name": "Generous Visitor",
+        "weight": 1
+      },
+      {
+        "uuid": "b052f767-68de-584c-a092-83ebdc424259",
+        "name": "Imperial Recovery Unit",
+        "weight": 1
+      },
+      {
+        "uuid": "b1cb3669-7393-57de-936b-efec2b3d4abe",
+        "name": "Norika Yamazaki, the Poet",
+        "weight": 1
+      },
+      {
+        "uuid": "b2bc4fe0-0b1e-5fe5-acd5-af1ca5f57305",
+        "name": "Flame Discharge",
+        "weight": 1
+      },
+      {
+        "uuid": "b4c7770f-f788-5217-87d4-dd9d95755838",
+        "name": "Twinshot Sniper",
+        "weight": 1
+      },
+      {
+        "uuid": "bac741ad-bf92-514e-b051-5f3af2cd7312",
+        "name": "Touch the Spirit Realm",
+        "weight": 1
+      },
+      {
+        "uuid": "bae38a34-14ae-52a3-bc39-6b238cbcaf65",
+        "name": "Prodigy's Prototype",
+        "weight": 1
+      },
+      {
+        "uuid": "bdd250dd-e01d-520d-bab5-ec67403580fd",
+        "name": "Assassin's Ink",
+        "weight": 1
+      },
+      {
+        "uuid": "bf72caf7-8724-598e-a1f3-a463ea64d64e",
+        "name": "Go-Shintai of Hidden Cruelty",
+        "weight": 1
+      },
+      {
+        "uuid": "c05700a5-8627-5df9-bc06-8486b63c59aa",
+        "name": "Prosperous Thief",
+        "weight": 1
+      },
+      {
+        "uuid": "c203c94d-110b-597c-85f7-88c514b38c70",
+        "name": "Banishing Slash",
+        "weight": 1
+      },
+      {
+        "uuid": "c29d1457-9927-5af2-bbdf-81aa7a7383a2",
+        "name": "Selfless Samurai",
+        "weight": 1
+      },
+      {
+        "uuid": "c6146703-5caa-58d3-a181-64d3e657dfc8",
+        "name": "Naomi, Pillar of Order",
+        "weight": 1
+      },
+      {
+        "uuid": "d686b66a-a754-5468-aaaa-7f26d93453f6",
+        "name": "Nezumi Prowler",
+        "weight": 1
+      },
+      {
+        "uuid": "d77d838d-ff29-518c-9fe6-2c11b11220e2",
+        "name": "Essence Capture",
+        "weight": 1
+      },
+      {
+        "uuid": "dc5ef955-2a52-55c4-a296-c214c51fb885",
+        "name": "Acquisition Octopus",
+        "weight": 1
+      },
+      {
+        "uuid": "e24e2e15-6faf-5a68-a4c9-53c755f5e479",
+        "name": "Tempered in Solitude",
+        "weight": 1
+      },
+      {
+        "uuid": "e472aa7d-bf2c-50ea-bc04-7c44ff7b6c03",
+        "name": "Silver-Fur Master",
+        "weight": 1
+      },
+      {
+        "uuid": "e4cf0817-f1a1-57ca-9e3c-ccfb05d029ec",
+        "name": "Towashi Guide-Bot",
+        "weight": 1
+      },
+      {
+        "uuid": "e5aa55a7-e84b-56b9-81af-e27c2692668d",
+        "name": "Sky-Blessed Samurai",
+        "weight": 1
+      },
+      {
+        "uuid": "e5abe64e-f408-5af3-a391-4a16b698eb7c",
+        "name": "Reinforced Ronin",
+        "weight": 1
+      },
+      {
+        "uuid": "e7d98862-6983-50fa-bf8d-f0d49326dbd3",
+        "name": "Blossom Prancer",
+        "weight": 1
+      },
+      {
+        "uuid": "f33c2238-b3c3-52a9-a333-f5da2b157191",
+        "name": "Unforgiving One",
+        "weight": 1
+      },
+      {
+        "uuid": "f34e3c90-23e2-5585-8201-d930aa50d69f",
+        "name": "Leech Gauntlet",
+        "weight": 1
+      },
+      {
+        "uuid": "f5b7605d-ef20-50ca-8511-cace967423cb",
+        "name": "Circuit Mender",
+        "weight": 1
+      },
+      {
+        "uuid": "f930708f-e4b2-5263-8301-13609541952a",
+        "name": "Storyweave",
+        "weight": 1
+      },
+      {
+        "uuid": "f9f29963-21e2-5595-b049-41ff0273165a",
+        "name": "Okiba Salvage",
+        "weight": 1
+      },
+      {
+        "uuid": "fd04376c-52ff-50bd-a9bf-1814e4a74580",
+        "name": "Runaway Trash-Bot",
+        "weight": 1
+      }
+    ]
+  }
+}

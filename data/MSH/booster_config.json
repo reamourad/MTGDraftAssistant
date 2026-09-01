@@ -1,0 +1,28 @@
+{
+  "boosters": [
+    {
+      "contents": {
+        "common": 7,
+        "foilReplacement": 1,
+        "land": 1,
+        "rareMythic": 1,
+        "uncommon": 3,
+        "wildcard": 1
+      },
+      "weight": 23
+    },
+    {
+      "contents": {
+        "common": 6,
+        "foilReplacement": 1,
+        "land": 1,
+        "rareMythic": 1,
+        "sourceMaterial": 1,
+        "uncommon": 3,
+        "wildcard": 1
+      },
+      "weight": 1
+    }
+  ],
+  "boostersTotalWeight": 24
+}

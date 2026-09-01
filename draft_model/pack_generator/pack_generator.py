@@ -7,12 +7,24 @@ from ..external_api.mtgjson_data import MTGJson
 
 RARITY_ORDER = {"common": 0, "uncommon": 1, "rare": 2, "mythic": 3}
 
+# Cube "sets" aren't real MTGJSON sets, so they have no rarity-weighted
+# booster sheets to draw from. They're drafted as a flat, unweighted random
+# sample from the fixed cube list instead — see generate_cube_pack.
+CUBE_SETS = {"POWERED_CUBE"}
+CUBE_PACK_SIZE = 15
+
 
 class PackGenerator:
     def __init__(self):
         self.mtgjson = MTGJson()
 
     def generate(self, set_code):
+        # match CUBE_SETS case-insensitively, but keep set_code's original
+        # casing for filesystem paths — Powered_Cube's on-disk directory
+        # isn't all-uppercase, unlike real MTGJSON set codes
+        if set_code.upper() in CUBE_SETS:
+            return self.generate_cube_pack(set_code)
+
         #pick the card distribution
         pack_distribution = self.pick_card_distribution(set_code)
         print(pack_distribution)
@@ -23,6 +35,28 @@ class PackGenerator:
             picked_cards.extend(cards)
 
         return self.sort_pack_by_rarity(set_code, picked_cards)
+
+    def generate_cube_pack(self, set_code, pack_size=CUBE_PACK_SIZE):
+        set_dir = os.path.join(DATA_DIR, set_code)
+        card_list_path = os.path.join(set_dir, CARD_LIST_FILENAME)
+
+        if not os.path.exists(card_list_path):
+            raise FileNotFoundError(
+                f"{card_list_path} not found, run unpack_csv_to_card_list for {set_code} first"
+            )
+
+        with open(card_list_path, "r", encoding="utf-8") as f:
+            card_list = json.load(f)
+
+        if len(card_list) < pack_size:
+            raise ValueError(
+                f"Cube {set_code} only has {len(card_list)} cards, need at least {pack_size}"
+            )
+
+        # unweighted, no-replacement draw — a cube has no rarity sheets,
+        # every card in the list is equally likely
+        names = random.sample(card_list, pack_size)
+        return [{"name": name, "uuid": None} for name in names]
 
     def pick_card_distribution(self, set_code):
         #read the json of card distribution
